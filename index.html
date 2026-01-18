@@ -334,6 +334,8 @@
         let allData = {};
         let currentDate = null;
         let currentCategory = 'all';
+        let voteData = {}; // Store vote counts: { itemId: { likes, dislikes, net_score } }
+        let sortBy = 'votes'; // 'votes' or 'date'
 
         // Initialize
         async function init() {
@@ -426,6 +428,15 @@
                 items = (allData[currentCategory] || []).map(item => ({ ...item, category: currentCategory }));
             }
 
+            // Sort items by vote score (likes - dislikes)
+            if (sortBy === 'votes' && VOTING_ENABLED) {
+                items.sort((a, b) => {
+                    const scoreA = voteData[a.id] ? voteData[a.id].net_score : 0;
+                    const scoreB = voteData[b.id] ? voteData[b.id].net_score : 0;
+                    return scoreB - scoreA; // Descending order (highest score first)
+                });
+            }
+
             // Update total
             document.getElementById('total-items').textContent = items.length;
 
@@ -460,6 +471,9 @@
                             <button class="vote-btn dislike" title="Dislike" onclick="handleVote('${item.id}', 'dislike')">
                                 👎 <span class="vote-count" id="dislike-${item.id}">0</span>
                             </button>
+                            <div style="font-size: 12px; color: #666; margin-top: 5px;">
+                                Score: <span id="score-${item.id}" style="font-weight: bold; color: #E63946;">0</span>
+                            </div>
                         </div>
                     </td>
                 `;
@@ -501,6 +515,26 @@
                 document.getElementById(`like-${itemId}`).textContent = result.likes;
                 document.getElementById(`dislike-${itemId}`).textContent = result.dislikes;
 
+                // Update vote data for sorting
+                const netScore = result.likes - result.dislikes;
+                voteData[itemId] = {
+                    likes: result.likes,
+                    dislikes: result.dislikes,
+                    net_score: netScore
+                };
+
+                // Update score display
+                const scoreEl = document.getElementById(`score-${itemId}`);
+                if (scoreEl) {
+                    scoreEl.textContent = netScore >= 0 ? `+${netScore}` : netScore;
+                    scoreEl.style.color = netScore > 0 ? '#10b981' : netScore < 0 ? '#ef4444' : '#666';
+                }
+
+                // Re-render to update sort order
+                if (sortBy === 'votes') {
+                    setTimeout(() => renderTable(), 500);
+                }
+
                 // Show success
                 showError(`✅ Vote recorded!`, 'success');
 
@@ -519,19 +553,52 @@
             const tbody = document.getElementById('news-tbody');
             const rows = tbody.querySelectorAll('tr');
 
-            rows.forEach(async (row) => {
+            // Collect all item IDs
+            const itemIds = [];
+            rows.forEach((row) => {
                 const likeSpan = row.querySelector('[id^="like-"]');
                 if (likeSpan) {
-                    const itemId = likeSpan.id.replace('like-', '');
-                    try {
-                        const counts = await getVoteCounts(itemId);
-                        document.getElementById(`like-${itemId}`).textContent = counts.likes;
-                        document.getElementById(`dislike-${itemId}`).textContent = counts.dislikes;
-                    } catch (e) {
-                        // Ignore errors for vote count fetching
-                    }
+                    itemIds.push(likeSpan.id.replace('like-', ''));
                 }
             });
+
+            // Load vote counts for all items in parallel
+            const promises = itemIds.map(async (itemId) => {
+                try {
+                    const counts = await getVoteCounts(itemId);
+                    voteData[itemId] = {
+                        likes: counts.likes,
+                        dislikes: counts.dislikes,
+                        net_score: counts.likes - counts.dislikes
+                    };
+                    return { itemId, counts };
+                } catch (e) {
+                    // Ignore errors for vote count fetching
+                    return { itemId, counts: { likes: 0, dislikes: 0 } };
+                }
+            });
+
+            // Wait for all vote counts to load
+            const results = await Promise.all(promises);
+
+            // Update displayed counts
+            results.forEach(({ itemId, counts }) => {
+                const likeEl = document.getElementById(`like-${itemId}`);
+                const dislikeEl = document.getElementById(`dislike-${itemId}`);
+                const scoreEl = document.getElementById(`score-${itemId}`);
+                if (likeEl) likeEl.textContent = counts.likes;
+                if (dislikeEl) dislikeEl.textContent = counts.dislikes;
+                if (scoreEl) {
+                    const netScore = counts.likes - counts.dislikes;
+                    scoreEl.textContent = netScore >= 0 ? `+${netScore}` : netScore;
+                    scoreEl.style.color = netScore > 0 ? '#10b981' : netScore < 0 ? '#ef4444' : '#666';
+                }
+            });
+
+            // Re-render table to apply vote-based sorting
+            if (sortBy === 'votes') {
+                renderTable();
+            }
         }
 
         // Helpers
