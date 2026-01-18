@@ -320,13 +320,16 @@
         // CONFIGURATION - Set your Cloudflare Worker URL here!
         // ============================================
         const VOTE_API_URL = 'https://YOUR-WORKER.workers.dev';  // ← CHANGE THIS!
+        const VOTING_ENABLED = !VOTE_API_URL.includes('YOUR-WORKER');  // Auto-detect if configured
 
         import { getUserToken } from './fingerprint.js';
         import { voteForItem, getVoteCounts } from './voting-service.js';
         import { setApiUrl } from './voting-service.js';
 
         // Set API URL
-        setApiUrl(VOTE_API_URL);
+        if (VOTING_ENABLED) {
+            setApiUrl(VOTE_API_URL);
+        }
 
         let allData = {};
         let currentDate = null;
@@ -469,6 +472,12 @@
 
         // Vote handler - Real implementation
         window.handleVote = async function(itemId, voteType) {
+            // Check if voting is enabled
+            if (!VOTING_ENABLED) {
+                showError('⚠️ Voting backend not configured yet. See QUICKSTART.md to enable voting!');
+                return;
+            }
+
             const likeBtn = document.querySelector(`button[onclick*="${itemId}"][onclick*="like"]`);
             const dislikeBtn = document.querySelector(`button[onclick*="${itemId}"][onclick*="dislike"]`);
 
@@ -505,6 +514,8 @@
 
         // Load vote counts for all items
         async function loadVoteCounts() {
+            if (!VOTING_ENABLED) return; // Skip if voting not configured
+
             const tbody = document.getElementById('news-tbody');
             const rows = tbody.querySelectorAll('tr');
 

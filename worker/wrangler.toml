@@ -9,7 +9,7 @@ compatibility_date = "2024-01-01"
 # Run: wrangler kv:namespace create "VOTES" to get the ID
 [[kv_namespaces]]
 binding = "VOTES"
-id = "YOUR_KV_NAMESPACE_ID"  # Replace with actual ID after running: wrangler kv:namespace create "VOTES"
+id = "9886fc06dec04b67ac067c97d9c6c1b3"  # Created: 2026-01-18
 
 # Production environment
 [env.production]
