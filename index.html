@@ -252,6 +252,9 @@
             td, th { padding: 10px; }
         }
     </style>
+
+    <!-- FingerprintJS for user identification -->
+    <script src="https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -312,7 +315,19 @@
         </div>
     </div>
 
-    <script>
+    <script type="module">
+        // ============================================
+        // CONFIGURATION - Set your Cloudflare Worker URL here!
+        // ============================================
+        const VOTE_API_URL = 'https://YOUR-WORKER.workers.dev';  // ← CHANGE THIS!
+
+        import { getUserToken } from './fingerprint.js';
+        import { voteForItem, getVoteCounts } from './voting-service.js';
+        import { setApiUrl } from './voting-service.js';
+
+        // Set API URL
+        setApiUrl(VOTE_API_URL);
+
         let allData = {};
         let currentDate = null;
         let currentCategory = 'all';
@@ -447,12 +462,65 @@
                 `;
                 tbody.appendChild(tr);
             });
+
+            // Load vote counts after rendering
+            setTimeout(() => loadVoteCounts(), 500);
         }
 
-        // Vote handler (placeholder)
-        function handleVote(itemId, voteType) {
-            alert(`Vote ${voteType} for item ${itemId}\n\nThis will be connected to Cloudflare Worker later!`);
-            // TODO: Connect to voting API
+        // Vote handler - Real implementation
+        window.handleVote = async function(itemId, voteType) {
+            const likeBtn = document.querySelector(`button[onclick*="${itemId}"][onclick*="like"]`);
+            const dislikeBtn = document.querySelector(`button[onclick*="${itemId}"][onclick*="dislike"]`);
+
+            // Check if already voted (from localStorage)
+            const token = await getUserToken();
+            const existingVote = localStorage.getItem(`vote:${token}:${itemId}`);
+            if (existingVote) {
+                showError('You have already voted on this item');
+                return;
+            }
+
+            try {
+                // Disable buttons while voting
+                if (likeBtn) likeBtn.disabled = true;
+                if (dislikeBtn) dislikeBtn.disabled = true;
+
+                // Submit vote
+                const result = await voteForItem(itemId, voteType, currentDate);
+
+                // Update counts
+                document.getElementById(`like-${itemId}`).textContent = result.likes;
+                document.getElementById(`dislike-${itemId}`).textContent = result.dislikes;
+
+                // Show success
+                showError(`✅ Vote recorded!`, 'success');
+
+            } catch (error) {
+                showError(error.message);
+                // Re-enable buttons on error
+                if (likeBtn) likeBtn.disabled = false;
+                if (dislikeBtn) dislikeBtn.disabled = false;
+            }
+        }
+
+        // Load vote counts for all items
+        async function loadVoteCounts() {
+            const tbody = document.getElementById('news-tbody');
+            const rows = tbody.querySelectorAll('tr');
+
+            rows.forEach(async (row) => {
+                const likeSpan = row.querySelector('[id^="like-"]');
+                if (likeSpan) {
+                    const itemId = likeSpan.id.replace('like-', '');
+                    try {
+                        const counts = await getVoteCounts(itemId);
+                        document.getElementById(`like-${itemId}`).textContent = counts.likes;
+                        document.getElementById(`dislike-${itemId}`).textContent = counts.dislikes;
+                    } catch (e) {
+                        // Ignore errors for vote count fetching
+                    }
+                }
+            });
         }
 
         // Helpers
@@ -481,10 +549,15 @@
             return div.innerHTML;
         }
 
-        function showError(message) {
+        function showError(message, type = 'error') {
             const container = document.getElementById('error-container');
-            container.innerHTML = `<div class="error">❌ ${message}</div>`;
-            setTimeout(() => container.innerHTML = '', 5000);
+            const bgColor = type === 'success' ? '#d1fae5' : '#fee2e2';
+            const textColor = type === 'success' ? '#065f46' : '#dc2626';
+            const borderColor = type === 'success' ? '#10b981' : '#ef4444';
+            const icon = type === 'success' ? '✅' : '❌';
+
+            container.innerHTML = `<div style="background: ${bgColor}; color: ${textColor}; border: 1px solid ${borderColor}; padding: 15px; border-radius: 8px; margin-bottom: 20px;">${icon} ${message}</div>`;
+            setTimeout(() => container.innerHTML = '', 3000);
         }
 
         // Start
