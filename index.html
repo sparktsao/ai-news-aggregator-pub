@@ -336,6 +336,7 @@
         let currentCategory = 'all';
         let voteData = {}; // Store vote counts: { itemId: { likes, dislikes, net_score } }
         let sortBy = 'votes'; // 'votes' or 'date'
+        let votesLoaded = false; // Track if votes have been loaded for current data
 
         // Initialize
         async function init() {
@@ -390,6 +391,10 @@
         async function loadDate(date) {
             const tbody = document.getElementById('news-tbody');
             tbody.innerHTML = '<tr><td colspan="4" class="loading">Loading...</td></tr>';
+
+            // Reset vote data for new date
+            voteData = {};
+            votesLoaded = false;
 
             try {
                 const categories = ['news', 'research', 'social', 'reddit', 'jobs'];
@@ -447,6 +452,11 @@
 
             // Render rows
             items.forEach((item, index) => {
+                // Get existing vote data if available
+                const votes = voteData[item.id] || { likes: 0, dislikes: 0, net_score: 0 };
+                const scoreColor = votes.net_score > 0 ? '#10b981' : votes.net_score < 0 ? '#ef4444' : '#666';
+                const scoreText = votes.net_score >= 0 ? `+${votes.net_score}` : votes.net_score;
+
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
                     <td>
@@ -466,13 +476,13 @@
                     <td>
                         <div class="vote-buttons">
                             <button class="vote-btn like" title="Like" onclick="handleVote('${item.id}', 'like')">
-                                👍 <span class="vote-count" id="like-${item.id}">0</span>
+                                👍 <span class="vote-count" id="like-${item.id}">${votes.likes}</span>
                             </button>
                             <button class="vote-btn dislike" title="Dislike" onclick="handleVote('${item.id}', 'dislike')">
-                                👎 <span class="vote-count" id="dislike-${item.id}">0</span>
+                                👎 <span class="vote-count" id="dislike-${item.id}">${votes.dislikes}</span>
                             </button>
                             <div style="font-size: 12px; color: #666; margin-top: 5px;">
-                                Score: <span id="score-${item.id}" style="font-weight: bold; color: #E63946;">0</span>
+                                Score: <span id="score-${item.id}" style="font-weight: bold; color: ${scoreColor};">${scoreText}</span>
                             </div>
                         </div>
                     </td>
@@ -480,8 +490,10 @@
                 tbody.appendChild(tr);
             });
 
-            // Load vote counts after rendering
-            setTimeout(() => loadVoteCounts(), 500);
+            // Load vote counts after rendering (only first time for this data)
+            if (!votesLoaded) {
+                setTimeout(() => loadVoteCounts(), 500);
+            }
         }
 
         // Vote handler - Real implementation
@@ -530,9 +542,9 @@
                     scoreEl.style.color = netScore > 0 ? '#10b981' : netScore < 0 ? '#ef4444' : '#666';
                 }
 
-                // Re-render to update sort order
+                // Re-render to update sort order (with preserved vote counts)
                 if (sortBy === 'votes') {
-                    setTimeout(() => renderTable(), 500);
+                    setTimeout(() => renderTable(), 300);
                 }
 
                 // Show success
@@ -595,8 +607,10 @@
                 }
             });
 
-            // Re-render table to apply vote-based sorting
-            if (sortBy === 'votes') {
+            votesLoaded = true;
+
+            // Re-render table once to apply vote-based sorting
+            if (sortBy === 'votes' && results.length > 0) {
                 renderTable();
             }
         }
