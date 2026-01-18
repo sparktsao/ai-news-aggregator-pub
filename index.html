@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI News Aggregator-vote-and-rank</title>
+    <title>AI News Aggregator Vote-n-Rank</title>
     <style>
         * {
             margin: 0;
@@ -259,8 +259,7 @@
 <body>
     <div class="container">
         <header>
-            <h1>🤖 AI News Aggregator-vote-and-rank</h1>
-            <div class="subtitle">Powered by Claude Opus 4.5 | AATF</div>
+            <h1>🤖 AI News Aggregator Vote-n-Rank</h1>
         </header>
 
         <div id="error-container"></div>
@@ -275,12 +274,16 @@
 
             <div class="stats">
                 <div class="stat">
+                    <div class="stat-value" id="total-votes">0</div>
+                    <div class="stat-label">Votes</div>
+                </div>
+                <div class="stat">
                     <div class="stat-value" id="total-items">0</div>
                     <div class="stat-label">Items</div>
                 </div>
                 <div class="stat">
                     <div class="stat-value" id="total-dates">0</div>
-                    <div class="stat-label">Days</div>
+                    <div class="stat-label">Dates</div>
                 </div>
             </div>
         </div>
@@ -362,6 +365,9 @@
 
                 // Update stats
                 document.getElementById('total-dates').textContent = index.totalDates;
+
+                // Load vote stats
+                loadVoteStats();
 
                 // Load data for current date
                 await loadDate(currentDate);
@@ -547,6 +553,9 @@
                     setTimeout(() => renderTable(), 300);
                 }
 
+                // Update total vote count
+                loadVoteStats();
+
                 // Show success
                 showError(`✅ Vote recorded!`, 'success');
 
@@ -612,6 +621,25 @@
             // Re-render table once to apply vote-based sorting
             if (sortBy === 'votes' && results.length > 0) {
                 renderTable();
+            }
+        }
+
+        // Load vote statistics from API
+        async function loadVoteStats() {
+            if (!VOTING_ENABLED) {
+                document.getElementById('total-votes').textContent = '-';
+                return;
+            }
+
+            try {
+                const response = await fetch(`${VOTE_API_URL}/stats`);
+                if (!response.ok) throw new Error('Failed to load stats');
+
+                const stats = await response.json();
+                document.getElementById('total-votes').textContent = stats.total_votes || 0;
+            } catch (error) {
+                console.error('Failed to load vote stats:', error);
+                document.getElementById('total-votes').textContent = '-';
             }
         }
 
