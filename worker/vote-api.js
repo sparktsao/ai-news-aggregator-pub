@@ -3,11 +3,14 @@
  *
  * Minimal backend for collecting votes (like/dislike) from users.
  * Uses Cloudflare KV for storage (no database needed).
+ * Includes 60-second caching for improved performance.
  *
  * Endpoints:
  * - POST /vote - Record a vote
- * - GET /votes/:item_id - Get vote counts for an item
+ * - GET /votes/batch?ids=id1,id2,id3 - Get vote counts for multiple items (max 200)
+ * - GET /votes/:item_id - Get vote counts for a single item
  * - GET /rankings - Get all items ranked by votes
+ * - GET /stats - Get overall statistics
  */
 
 export default {
@@ -33,6 +36,12 @@ export default {
       // POST /vote - Record a vote
       if (request.method === 'POST' && url.pathname === '/vote') {
         return await handleVote(request, env, corsHeaders);
+      }
+
+      // GET /votes/batch?ids=id1,id2,id3 - Get vote counts for multiple items
+      if (request.method === 'GET' && url.pathname === '/votes/batch') {
+        const ids = url.searchParams.get('ids');
+        return await getBatchVoteCounts(ids, env, corsHeaders);
       }
 
       // GET /votes/:item_id - Get vote counts
@@ -136,23 +145,122 @@ async function handleVote(request, env, corsHeaders) {
 }
 
 /**
- * Get vote counts for a specific item
+ * Get vote counts for a specific item (with 60-second cache)
  */
 async function getVoteCounts(itemId, env, corsHeaders) {
   if (!itemId) {
     return jsonResponse({ error: 'Missing item_id' }, 400, corsHeaders);
   }
 
+  // Try cache first
+  const cacheKey = `cache:votes:${itemId}`;
+  const cached = await env.VOTES.get(cacheKey);
+  if (cached) {
+    return new Response(cached, {
+      status: 200,
+      headers: {
+        ...corsHeaders,
+        'Content-Type': 'application/json',
+        'X-Cache': 'HIT'
+      }
+    });
+  }
+
+  // Fetch from KV
   const likes = parseInt(await env.VOTES.get(`like:${itemId}`) || '0');
   const dislikes = parseInt(await env.VOTES.get(`dislike:${itemId}`) || '0');
 
-  return jsonResponse({
+  const result = {
     item_id: itemId,
     likes,
     dislikes,
     net_score: likes - dislikes,
     total_votes: likes + dislikes
-  }, 200, corsHeaders);
+  };
+
+  // Cache for 60 seconds
+  await env.VOTES.put(cacheKey, JSON.stringify(result), {
+    expirationTtl: 60
+  });
+
+  return new Response(JSON.stringify(result), {
+    status: 200,
+    headers: {
+      ...corsHeaders,
+      'Content-Type': 'application/json',
+      'X-Cache': 'MISS'
+    }
+  });
+}
+
+/**
+ * Get vote counts for multiple items in batch (with caching)
+ */
+async function getBatchVoteCounts(idsParam, env, corsHeaders) {
+  if (!idsParam) {
+    return jsonResponse({ error: 'Missing ids parameter' }, 400, corsHeaders);
+  }
+
+  const itemIds = idsParam.split(',').filter(id => id.trim().length > 0);
+
+  if (itemIds.length === 0) {
+    return jsonResponse({ error: 'No valid item IDs provided' }, 400, corsHeaders);
+  }
+
+  if (itemIds.length > 200) {
+    return jsonResponse({ error: 'Too many IDs (max 200)' }, 400, corsHeaders);
+  }
+
+  const results = {};
+  let cacheHits = 0;
+  let cacheMisses = 0;
+
+  // Process all items in parallel
+  await Promise.all(itemIds.map(async (itemId) => {
+    const trimmedId = itemId.trim();
+
+    // Try cache first
+    const cacheKey = `cache:votes:${trimmedId}`;
+    const cached = await env.VOTES.get(cacheKey);
+
+    if (cached) {
+      results[trimmedId] = JSON.parse(cached);
+      cacheHits++;
+    } else {
+      // Fetch from KV
+      const likes = parseInt(await env.VOTES.get(`like:${trimmedId}`) || '0');
+      const dislikes = parseInt(await env.VOTES.get(`dislike:${trimmedId}`) || '0');
+
+      const result = {
+        item_id: trimmedId,
+        likes,
+        dislikes,
+        net_score: likes - dislikes,
+        total_votes: likes + dislikes
+      };
+
+      results[trimmedId] = result;
+      cacheMisses++;
+
+      // Cache for 60 seconds
+      await env.VOTES.put(cacheKey, JSON.stringify(result), {
+        expirationTtl: 60
+      });
+    }
+  }));
+
+  return new Response(JSON.stringify({
+    results,
+    count: itemIds.length,
+    cache_hits: cacheHits,
+    cache_misses: cacheMisses
+  }), {
+    status: 200,
+    headers: {
+      ...corsHeaders,
+      'Content-Type': 'application/json'
+    }
+  });
 }
 
 /**

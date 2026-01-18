@@ -326,7 +326,7 @@
         const VOTING_ENABLED = !VOTE_API_URL.includes('YOUR-WORKER');  // Auto-detect if configured
 
         import { getUserToken } from './fingerprint.js';
-        import { voteForItem, getVoteCounts } from './voting-service.js';
+        import { voteForItem, getVoteCounts, getBatchVoteCounts } from './voting-service.js';
         import { setApiUrl } from './voting-service.js';
 
         // Set API URL
@@ -567,7 +567,7 @@
             }
         }
 
-        // Load vote counts for all items
+        // Load vote counts for all items (uses efficient batch API)
         async function loadVoteCounts() {
             if (!VOTING_ENABLED) return; // Skip if voting not configured
 
@@ -583,44 +583,42 @@
                 }
             });
 
-            // Load vote counts for all items in parallel
-            const promises = itemIds.map(async (itemId) => {
-                try {
-                    const counts = await getVoteCounts(itemId);
+            if (itemIds.length === 0) return;
+
+            try {
+                // Fetch all vote counts in ONE API call!
+                const batchResults = await getBatchVoteCounts(itemIds);
+
+                // Update voteData and DOM
+                Object.entries(batchResults).forEach(([itemId, counts]) => {
                     voteData[itemId] = {
                         likes: counts.likes,
                         dislikes: counts.dislikes,
-                        net_score: counts.likes - counts.dislikes
+                        net_score: counts.net_score
                     };
-                    return { itemId, counts };
-                } catch (e) {
-                    // Ignore errors for vote count fetching
-                    return { itemId, counts: { likes: 0, dislikes: 0 } };
+
+                    // Update displayed counts
+                    const likeEl = document.getElementById(`like-${itemId}`);
+                    const dislikeEl = document.getElementById(`dislike-${itemId}`);
+                    const scoreEl = document.getElementById(`score-${itemId}`);
+
+                    if (likeEl) likeEl.textContent = counts.likes;
+                    if (dislikeEl) dislikeEl.textContent = counts.dislikes;
+                    if (scoreEl) {
+                        const netScore = counts.net_score;
+                        scoreEl.textContent = netScore >= 0 ? `+${netScore}` : netScore;
+                        scoreEl.style.color = netScore > 0 ? '#10b981' : netScore < 0 ? '#ef4444' : '#666';
+                    }
+                });
+
+                votesLoaded = true;
+
+                // Re-render table once to apply vote-based sorting
+                if (sortBy === 'votes' && Object.keys(batchResults).length > 0) {
+                    renderTable();
                 }
-            });
-
-            // Wait for all vote counts to load
-            const results = await Promise.all(promises);
-
-            // Update displayed counts
-            results.forEach(({ itemId, counts }) => {
-                const likeEl = document.getElementById(`like-${itemId}`);
-                const dislikeEl = document.getElementById(`dislike-${itemId}`);
-                const scoreEl = document.getElementById(`score-${itemId}`);
-                if (likeEl) likeEl.textContent = counts.likes;
-                if (dislikeEl) dislikeEl.textContent = counts.dislikes;
-                if (scoreEl) {
-                    const netScore = counts.likes - counts.dislikes;
-                    scoreEl.textContent = netScore >= 0 ? `+${netScore}` : netScore;
-                    scoreEl.style.color = netScore > 0 ? '#10b981' : netScore < 0 ? '#ef4444' : '#666';
-                }
-            });
-
-            votesLoaded = true;
-
-            // Re-render table once to apply vote-based sorting
-            if (sortBy === 'votes' && results.length > 0) {
-                renderTable();
+            } catch (error) {
+                console.error('Failed to load vote counts:', error);
             }
         }
 

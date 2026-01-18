@@ -97,6 +97,44 @@ export async function getVoteCounts(itemId) {
 }
 
 /**
+ * Get vote counts for multiple items in batch (efficient!)
+ *
+ * @param {string[]} itemIds - Array of item IDs
+ * @returns {Promise<Object>} Map of item IDs to vote counts
+ */
+export async function getBatchVoteCounts(itemIds) {
+  if (!itemIds || itemIds.length === 0) {
+    return {};
+  }
+
+  try {
+    const idsParam = itemIds.join(',');
+    const response = await fetch(`${API_BASE_URL}/votes/batch?ids=${encodeURIComponent(idsParam)}`);
+
+    if (!response.ok) {
+      throw new Error('Failed to fetch batch vote counts');
+    }
+
+    const data = await response.json();
+    return data.results || {};
+
+  } catch (error) {
+    console.error('Failed to get batch vote counts:', error);
+    // Return empty counts for all items on error
+    const emptyResults = {};
+    itemIds.forEach(id => {
+      emptyResults[id] = {
+        likes: 0,
+        dislikes: 0,
+        net_score: 0,
+        total_votes: 0
+      };
+    });
+    return emptyResults;
+  }
+}
+
+/**
  * Check if user has voted for an item
  *
  * @param {string} itemId - Item ID
