@@ -21,7 +21,7 @@ npm install -g wrangler
 wrangler login
 
 # Go to worker directory
-cd /Users/sparkt/2026C/ai-news-aggregator/UI/worker
+cd /Users/sparkt/2026C/ai-news-aggregator-pub/worker
 
 # Create KV database
 wrangler kv:namespace create "VOTES"
@@ -36,7 +36,7 @@ wrangler kv:namespace create "VOTES"
 
 ### Step 2: Configure Worker (2 min)
 
-Edit `/Users/sparkt/2026C/ai-news-aggregator/UI/worker/wrangler.toml`:
+Edit `/Users/sparkt/2026C/ai-news-aggregator-pub/worker/wrangler.toml`:
 
 ```toml
 [[kv_namespaces]]
