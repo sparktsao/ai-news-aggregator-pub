@@ -1,0 +1,560 @@
+{
+  "version": "1.0",
+  "dates": [
+    {
+      "date": "2026-01-18",
+      "total_items": 458,
+      "categories": {
+        "news": {
+          "count": 3,
+          "file_size": 14469
+        },
+        "research": {
+          "count": 0,
+          "file_size": 395
+        },
+        "social": {
+          "count": 6,
+          "file_size": 10213
+        },
+        "reddit": {
+          "count": 30,
+          "file_size": 71191
+        },
+        "jobs": {
+          "count": 30,
+          "file_size": 115626
+        }
+      }
+    },
+    {
+      "date": "2026-01-17",
+      "total_items": 477,
+      "categories": {
+        "news": {
+          "count": 4,
+          "file_size": 80324
+        },
+        "research": {
+          "count": 0,
+          "file_size": 395
+        },
+        "social": {
+          "count": 2,
+          "file_size": 5876
+        },
+        "reddit": {
+          "count": 30,
+          "file_size": 76784
+        },
+        "jobs": {
+          "count": 30,
+          "file_size": 118130
+        }
+      }
+    },
+    {
+      "date": "2026-01-16",
+      "total_items": 827,
+      "categories": {
+        "news": {
+          "count": 10,
+          "file_size": 22497
+        },
+        "research": {
+          "count": 30,
+          "file_size": 130219
+        },
+        "social": {
+          "count": 5,
+          "file_size": 10698
+        },
+        "reddit": {
+          "count": 30,
+          "file_size": 71669
+        },
+        "jobs": {
+          "count": 30,
+          "file_size": 114835
+        }
+      }
+    },
+    {
+      "date": "2026-01-15",
+      "total_items": 713,
+      "categories": {
+        "news": {
+          "count": 6,
+          "file_size": 13714
+        },
+        "research": {
+          "count": 30,
+          "file_size": 124376
+        },
+        "social": {
+          "count": 3,
+          "file_size": 7738
+        },
+        "reddit": {
+          "count": 30,
+          "file_size": 74237
+        },
+        "jobs": {
+          "count": 30,
+          "file_size": 110163
+        }
+      }
+    },
+    {
+      "date": "2026-01-14",
+      "total_items": 797,
+      "categories": {
+        "news": {
+          "count": 7,
+          "file_size": 18229
+        },
+        "research": {
+          "count": 30,
+          "file_size": 127811
+        },
+        "social": {
+          "count": 7,
+          "file_size": 14896
+        },
+        "reddit": {
+          "count": 30,
+          "file_size": 78601
+        },
+        "jobs": {
+          "count": 28,
+          "file_size": 103642
+        }
+      }
+    },
+    {
+      "date": "2026-01-13",
+      "total_items": 1018,
+      "categories": {
+        "news": {
+          "count": 2,
+          "file_size": 6502
+        },
+        "research": {
+          "count": 30,
+          "file_size": 126815
+        },
+        "social": {
+          "count": 11,
+          "file_size": 23540
+        },
+        "reddit": {
+          "count": 30,
+          "file_size": 80647
+        },
+        "jobs": {
+          "count": 26,
+          "file_size": 99849
+        }
+      }
+    },
+    {
+      "date": "2026-01-12",
+      "total_items": 1339,
+      "categories": {
+        "news": {
+          "count": 6,
+          "file_size": 60265
+        },
+        "research": {
+          "count": 306,
+          "file_size": 1225530
+        },
+        "social": {
+          "count": 394,
+          "file_size": 484992
+        },
+        "reddit": {
+          "count": 633,
+          "file_size": 1651868
+        }
+      }
+    },
+    {
+      "date": "2026-01-11",
+      "total_items": 1097,
+      "categories": {
+        "news": {
+          "count": 5,
+          "file_size": 26749
+        },
+        "research": {
+          "count": 13,
+          "file_size": 43649
+        },
+        "social": {
+          "count": 409,
+          "file_size": 356939
+        },
+        "reddit": {
+          "count": 670,
+          "file_size": 1036619
+        }
+      }
+    },
+    {
+      "date": "2026-01-10",
+      "total_items": 1380,
+      "categories": {
+        "news": {
+          "count": 30,
+          "file_size": 117187
+        },
+        "research": {
+          "count": 15,
+          "file_size": 47784
+        },
+        "social": {
+          "count": 523,
+          "file_size": 468176
+        },
+        "reddit": {
+          "count": 812,
+          "file_size": 1219059
+        }
+      }
+    },
+    {
+      "date": "2026-01-09",
+      "total_items": 1521,
+      "categories": {
+        "news": {
+          "count": 16,
+          "file_size": 151844
+        },
+        "research": {
+          "count": 483,
+          "file_size": 1138104
+        },
+        "social": {
+          "count": 536,
+          "file_size": 475581
+        },
+        "reddit": {
+          "count": 486,
+          "file_size": 853823
+        }
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "total_items": 1457,
+      "categories": {
+        "news": {
+          "count": 15,
+          "file_size": 63798
+        },
+        "research": {
+          "count": 395,
+          "file_size": 935848
+        },
+        "social": {
+          "count": 493,
+          "file_size": 446675
+        },
+        "reddit": {
+          "count": 554,
+          "file_size": 974165
+        }
+      }
+    },
+    {
+      "date": "2026-01-07",
+      "total_items": 1303,
+      "categories": {
+        "news": {
+          "count": 8,
+          "file_size": 54660
+        },
+        "research": {
+          "count": 358,
+          "file_size": 854727
+        },
+        "social": {
+          "count": 440,
+          "file_size": 399848
+        },
+        "reddit": {
+          "count": 497,
+          "file_size": 863151
+        }
+      }
+    },
+    {
+      "date": "2026-01-06",
+      "total_items": 1491,
+      "categories": {
+        "news": {
+          "count": 6,
+          "file_size": 16776
+        },
+        "research": {
+          "count": 630,
+          "file_size": 1503885
+        },
+        "social": {
+          "count": 468,
+          "file_size": 398411
+        },
+        "reddit": {
+          "count": 387,
+          "file_size": 730854
+        }
+      }
+    },
+    {
+      "date": "2026-01-05",
+      "total_items": 992,
+      "categories": {
+        "news": {
+          "count": 0,
+          "file_size": 203
+        },
+        "research": {
+          "count": 282,
+          "file_size": 673112
+        },
+        "social": {
+          "count": 381,
+          "file_size": 318556
+        },
+        "reddit": {
+          "count": 329,
+          "file_size": 584700
+        }
+      }
+    },
+    {
+      "date": "2026-01-04",
+      "total_items": 659,
+      "categories": {
+        "news": {
+          "count": 0,
+          "file_size": 203
+        },
+        "research": {
+          "count": 6,
+          "file_size": 21971
+        },
+        "social": {
+          "count": 337,
+          "file_size": 303145
+        },
+        "reddit": {
+          "count": 316,
+          "file_size": 667930
+        }
+      }
+    },
+    {
+      "date": "2026-01-03",
+      "total_items": 711,
+      "categories": {
+        "news": {
+          "count": 0,
+          "file_size": 203
+        },
+        "research": {
+          "count": 14,
+          "file_size": 46658
+        },
+        "social": {
+          "count": 393,
+          "file_size": 358461
+        },
+        "reddit": {
+          "count": 304,
+          "file_size": 548952
+        }
+      }
+    },
+    {
+      "date": "2026-01-02",
+      "total_items": 560,
+      "categories": {
+        "news": {
+          "count": 0,
+          "file_size": 203
+        },
+        "research": {
+          "count": 17,
+          "file_size": 52750
+        },
+        "social": {
+          "count": 281,
+          "file_size": 253469
+        },
+        "reddit": {
+          "count": 262,
+          "file_size": 496845
+        }
+      }
+    },
+    {
+      "date": "2026-01-01",
+      "total_items": 1075,
+      "categories": {
+        "news": {
+          "count": 0,
+          "file_size": 203
+        },
+        "research": {
+          "count": 426,
+          "file_size": 1030716
+        },
+        "social": {
+          "count": 339,
+          "file_size": 299313
+        },
+        "reddit": {
+          "count": 310,
+          "file_size": 527154
+        }
+      }
+    },
+    {
+      "date": "2025-12-31",
+      "total_items": 603,
+      "categories": {
+        "news": {
+          "count": 0,
+          "file_size": 203
+        },
+        "research": {
+          "count": 14,
+          "file_size": 45310
+        },
+        "social": {
+          "count": 332,
+          "file_size": 298639
+        },
+        "reddit": {
+          "count": 257,
+          "file_size": 456564
+        }
+      }
+    },
+    {
+      "date": "2025-12-30",
+      "total_items": 1080,
+      "categories": {
+        "news": {
+          "count": 0,
+          "file_size": 203
+        },
+        "research": {
+          "count": 574,
+          "file_size": 1384522
+        },
+        "social": {
+          "count": 309,
+          "file_size": 292078
+        },
+        "reddit": {
+          "count": 197,
+          "file_size": 339864
+        }
+      }
+    },
+    {
+      "date": "2025-12-29",
+      "total_items": 702,
+      "categories": {
+        "news": {
+          "count": 0,
+          "file_size": 203
+        },
+        "research": {
+          "count": 268,
+          "file_size": 655956
+        },
+        "social": {
+          "count": 290,
+          "file_size": 276697
+        },
+        "reddit": {
+          "count": 144,
+          "file_size": 266418
+        }
+      }
+    },
+    {
+      "date": "2025-12-28",
+      "total_items": 533,
+      "categories": {
+        "news": {
+          "count": 0,
+          "file_size": 203
+        },
+        "research": {
+          "count": 12,
+          "file_size": 40498
+        },
+        "social": {
+          "count": 399,
+          "file_size": 379361
+        },
+        "reddit": {
+          "count": 122,
+          "file_size": 241976
+        }
+      }
+    },
+    {
+      "date": "2025-12-27",
+      "total_items": 432,
+      "categories": {
+        "news": {
+          "count": 0,
+          "file_size": 203
+        },
+        "research": {
+          "count": 8,
+          "file_size": 28997
+        },
+        "social": {
+          "count": 327,
+          "file_size": 314163
+        },
+        "reddit": {
+          "count": 97,
+          "file_size": 190702
+        }
+      }
+    },
+    {
+      "date": "2025-12-26",
+      "total_items": 415,
+      "categories": {
+        "news": {
+          "count": 2,
+          "file_size": 24340
+        },
+        "research": {
+          "count": 6,
+          "file_size": 21519
+        },
+        "social": {
+          "count": 339,
+          "file_size": 302270
+        },
+        "reddit": {
+          "count": 68,
+          "file_size": 128617
+        }
+      }
+    }
+  ],
+  "latestDate": "2026-01-18",
+  "generatedAt": "2026-01-18T07:14:59.738466",
+  "totalDates": 24
+}

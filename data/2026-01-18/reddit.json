@@ -1,0 +1,815 @@
+{
+  "category": "reddit",
+  "date": "2026-01-18",
+  "category_summary": "**r/LocalLLaMA** dominated with a standout [**quad AMD R9700 128GB VRAM server build**](/?date=2026-01-18&category=reddit#item-880a79156a7d) featuring detailed benchmarks and hardware lessons. **MCP protocol adoption** accelerated as **KoboldCpp v1.106** [added native server support](/?date=2026-01-18&category=reddit#item-b7b086aafa29) as a Claude Desktop drop-in replacement.\n\n- **Adaptive-K routing** research [achieved **30-52% compute savings**](/?date=2026-01-18&category=reddit#item-4552601fff42) on MoE models (Mixtral, Qwen, OLMoE) with code, paper, and TensorRT-LLM PR released\n- **Qwen 4** [development delayed](/?date=2026-01-18&category=reddit#item-56ac24f0407a) as lead dev prioritizes quality over speed—community debating open-source pacing\n- **China's AGI-NEXT Conference** transcript [offered rare primary-source insight](/?date=2026-01-18&category=reddit#item-d49d03faa7c0) into Qwen, Kimi, and Tencent's AGI strategies\n\n**OpenAI** faced backlash over [upcoming **ChatGPT ads**](/?date=2026-01-18&category=reddit#item-ba8585ca6e30) (178 comments, highest engagement) while [**Codex scaling claims**](/?date=2026-01-18&category=reddit#item-bcbfe7412502) drew skepticism. Educational content thrived with deep technical breakdowns of [**Mamba's delta-gating mechanism**](/?date=2026-01-18&category=reddit#item-159b0a64323f) and [**speculative decoding**](/?date=2026-01-18&category=reddit#item-d9fc7b98fd1c) internals—filling gaps for ML practitioners.",
+  "category_summary_html": "<p><strong>r/LocalLLaMA</strong> dominated with a standout <a href=\"/?date=2026-01-18&category=reddit#item-880a79156a7d\" class=\"internal-link\"><strong>quad AMD R9700 128GB VRAM server build</strong></a> featuring detailed benchmarks and hardware lessons. <strong>MCP protocol adoption</strong> accelerated as <strong>KoboldCpp v1.106</strong> <a href=\"/?date=2026-01-18&category=reddit#item-b7b086aafa29\" class=\"internal-link\">added native server support</a> as a Claude Desktop drop-in replacement.</p>\n<ul>\n<li><strong>Adaptive-K routing</strong> research <a href=\"/?date=2026-01-18&category=reddit#item-4552601fff42\" class=\"internal-link\">achieved <strong>30-52% compute savings</strong></a> on MoE models (Mixtral, Qwen, OLMoE) with code, paper, and TensorRT-LLM PR released</li>\n<li><strong>Qwen 4</strong> <a href=\"/?date=2026-01-18&category=reddit#item-56ac24f0407a\" class=\"internal-link\">development delayed</a> as lead dev prioritizes quality over speed—community debating open-source pacing</li>\n<li><strong>China's AGI-NEXT Conference</strong> transcript <a href=\"/?date=2026-01-18&category=reddit#item-d49d03faa7c0\" class=\"internal-link\">offered rare primary-source insight</a> into Qwen, Kimi, and Tencent's AGI strategies</li>\n</ul>\n<p><strong>OpenAI</strong> faced backlash over <a href=\"/?date=2026-01-18&category=reddit#item-ba8585ca6e30\" class=\"internal-link\">upcoming <strong>ChatGPT ads</strong></a> (178 comments, highest engagement) while <a href=\"/?date=2026-01-18&category=reddit#item-bcbfe7412502\" class=\"internal-link\"><strong>Codex scaling claims</strong></a> drew skepticism. Educational content thrived with deep technical breakdowns of <a href=\"/?date=2026-01-18&category=reddit#item-159b0a64323f\" class=\"internal-link\"><strong>Mamba's delta-gating mechanism</strong></a> and <a href=\"/?date=2026-01-18&category=reddit#item-d9fc7b98fd1c\" class=\"internal-link\"><strong>speculative decoding</strong></a> internals—filling gaps for ML practitioners.</p>",
+  "themes": [
+    {
+      "name": "Hardware & Infrastructure",
+      "description": "GPU builds, VRAM optimization, server setups, and hardware modifications for local inference",
+      "item_count": 12,
+      "example_items": [],
+      "importance": 85
+    },
+    {
+      "name": "ChatGPT Monetization & Ads",
+      "description": "Multiple posts discussing OpenAI's introduction of ads to ChatGPT, pricing concerns, and monetization strategy implications for user experience",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 85
+    },
+    {
+      "name": "Open Source Models & Releases",
+      "description": "Model releases, fine-tunes, Qwen updates, and specialized domain models",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 78
+    },
+    {
+      "name": "OpenAI Business & Financial Health",
+      "description": "Discussions about OpenAI's cash runway, potential financial troubles by 2027, revenue pressures, and corporate structure changes",
+      "item_count": 5,
+      "example_items": [],
+      "importance": 78
+    },
+    {
+      "name": "MCP Protocol Adoption",
+      "description": "Model Context Protocol servers, integrations (KoboldCpp, Ollama), and tooling ecosystem expansion",
+      "item_count": 7,
+      "example_items": [],
+      "importance": 75
+    },
+    {
+      "name": "OpenAI Monetization & Ads",
+      "description": "Significant user concern and discussion about OpenAI introducing ads to ChatGPT, user responses ranging from boycotts to switching platforms",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 75
+    },
+    {
+      "name": "Inference Optimization",
+      "description": "Speculative decoding, MoE routing efficiency, quantization, and memory-bound optimization techniques",
+      "item_count": 9,
+      "example_items": [],
+      "importance": 72
+    },
+    {
+      "name": "Educational Content",
+      "description": "Technical deep-dives, implementation tutorials, architecture explanations (Mamba, transformers)",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 70
+    },
+    {
+      "name": "Agent Development",
+      "description": "Autonomous agents, orchestration frameworks, computer control, and agentic coding tools",
+      "item_count": 14,
+      "example_items": [],
+      "importance": 68
+    },
+    {
+      "name": "Industry News & Business",
+      "description": "OpenAI ads, China AGI conference, Qwen development pace, cost analyses",
+      "item_count": 6,
+      "example_items": [],
+      "importance": 65
+    }
+  ],
+  "total_items": 30,
+  "items": [
+    {
+      "id": "880a79156a7d",
+      "title": "128GB VRAM quad R9700 server",
+      "content": "This is a sequel to my [previous thread](https://www.reddit.com/r/LocalLLaMA/comments/1fqwrvg/64gb_vram_dual_mi100_server/) from 2024.\n\nI originally planned to pick up another pair of MI100s and an Infinity Fabric Bridge, and I picked up a lot of hardware upgrades over the course of 2025 in preparation for this. Notably, faster, double capacity memory (last February, well before the current price jump), another motherboard, higher capacity PSU, etc. But then I saw benchmarks for the R9700, particularly in the [llama.cpp ROCm thread](https://github.com/ggml-org/llama.cpp/discussions/15021), and saw the much better prompt processing performance for a small token generation loss. The MI100 also went up in price to about $1000, so factoring in the cost of a bridge, it'd come to about the same...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qfscp5/128gb_vram_quad_r9700_server/",
+      "author": "u/Ulterior-Motive_",
+      "published": "2026-01-17T15:30:26",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Detailed build showcase of a 128GB VRAM server using quad AMD R9700 GPUs, including hardware choices, benchmarks, and lessons from previous MI100 build",
+      "importance_score": 85,
+      "reasoning": "Highest engagement in batch (379 upvotes, 87 comments). Detailed technical content, practical hardware guide, valuable for local LLM community",
+      "themes": [
+        "hardware",
+        "AMD-GPUs",
+        "server-builds"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Detailed build showcase of a 128GB VRAM server using quad AMD R9700 GPUs, including hardware choices, benchmarks, and lessons from previous MI100 build</p>",
+      "content_html": "<p>This is a sequel to my <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1fqwrvg/64gb_vram_dual_mi100_server/\" target=\"_blank\" rel=\"noopener noreferrer\">previous thread</a> from 2024.</p>\n<p>I originally planned to pick up another pair of MI100s and an Infinity Fabric Bridge, and I picked up a lot of hardware upgrades over the course of 2025 in preparation for this. Notably, faster, double capacity memory (last February, well before the current price jump), another motherboard, higher capacity PSU, etc. But then I saw benchmarks for the R9700, particularly in the <a href=\"https://github.com/ggml-org/llama.cpp/discussions/15021\" target=\"_blank\" rel=\"noopener noreferrer\">llama.cpp ROCm thread</a>, and saw the much better prompt processing performance for a small token generation loss. The MI100 also went up in price to about $1000, so factoring in the cost of a bridge, it'd come to about the same...</p>"
+    },
+    {
+      "id": "ba8585ca6e30",
+      "title": "The upcoming ads to ChatGPT take up almost half of the screen",
+      "content": "",
+      "url": "https://reddit.com/r/OpenAI/comments/1qfbqg3/the_upcoming_ads_to_chatgpt_take_up_almost_half/",
+      "author": "u/AloneCoffee4538",
+      "published": "2026-01-17T04:14:53",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "News"
+      ],
+      "summary": "Continuing our coverage from [yesterday](/?date=2026-01-17&category=reddit#item-f7cbe9a89e86), Discussion about upcoming ChatGPT ads that allegedly take up almost half the screen, generating significant community backlash about OpenAI's monetization strategy",
+      "importance_score": 85,
+      "reasoning": "Highest engagement post (251 upvotes, 178 comments) covering a major product change affecting user experience. High relevance for understanding OpenAI's business direction.",
+      "themes": [
+        "monetization",
+        "product_changes",
+        "user_experience"
+      ],
+      "continuation": {
+        "original_item_id": "f7cbe9a89e86",
+        "original_date": "2026-01-17",
+        "original_category": "reddit",
+        "original_title": "Ads are coming to ChatGPT",
+        "continuation_type": "follow_up",
+        "should_demote": false,
+        "reference_text": "Continuing our coverage from yesterday"
+      },
+      "summary_html": "<p>Continuing our coverage from <a href=\"/?date=2026-01-17&category=reddit#item-f7cbe9a89e86\" class=\"internal-link\">yesterday</a>, Discussion about upcoming ChatGPT ads that allegedly take up almost half the screen, generating significant community backlash about OpenAI's monetization strategy</p>",
+      "content_html": ""
+    },
+    {
+      "id": "56ac24f0407a",
+      "title": "Qwen 4 might be a long way off !? Lead Dev says they are \"slowing down\" to focus on quality.",
+      "content": "",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qfv1ms/qwen_4_might_be_a_long_way_off_lead_dev_says_they/",
+      "author": "u/Difficult-Cap-7527",
+      "published": "2026-01-17T17:28:57",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "News that Qwen 4 development is being delayed as the lead developer announces focus on quality over speed",
+      "importance_score": 82,
+      "reasoning": "Highly significant industry news for open-source LLM community. Very high engagement (301 upvotes, 50 comments). Impacts model release expectations",
+      "themes": [
+        "open-source-models",
+        "qwen",
+        "industry-news"
+      ],
+      "continuation": null,
+      "summary_html": "<p>News that Qwen 4 development is being delayed as the lead developer announces focus on quality over speed</p>",
+      "content_html": ""
+    },
+    {
+      "id": "bcbfe7412502",
+      "title": "OpenAI engineer says Codex is scaling compute at an unprecedented pace in 2026",
+      "content": "",
+      "url": "https://reddit.com/r/OpenAI/comments/1qfhttf/openai_engineer_says_codex_is_scaling_compute_at/",
+      "author": "u/BuildwithVignesh",
+      "published": "2026-01-17T08:36:03",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "News"
+      ],
+      "summary": "OpenAI engineer reportedly states Codex is scaling compute at unprecedented pace in 2026, indicating major infrastructure investments for AI coding tools",
+      "importance_score": 82,
+      "reasoning": "High engagement (142 upvotes, 50 comments) with important technical news about OpenAI's scaling efforts and compute infrastructure plans.",
+      "themes": [
+        "compute_scaling",
+        "codex",
+        "technical_infrastructure"
+      ],
+      "continuation": null,
+      "summary_html": "<p>OpenAI engineer reportedly states Codex is scaling compute at unprecedented pace in 2026, indicating major infrastructure investments for AI coding tools</p>",
+      "content_html": ""
+    },
+    {
+      "id": "b7b086aafa29",
+      "title": "KoboldCpp v1.106 finally adds MCP server support, drop-in replacement for Claude Desktop",
+      "content": "So, it's been a hot minute, but I thought I'd share this here since it's quite a big new feature. \n\nYes, KoboldCpp is still alive and kicking. And besides the major UI overhaul, we've finally added native MCP support in KoboldCpp v1.106! It's designed to be a painless Claude Desktop drop-in replacement with maximum compatibility, the `mcp.json` uses the same  format so you can swap it in easily. \n\nThe KoboldCpp MCP bridge will connect to all provided MCP servers (HTTP and STDIO transports both supported) and automatically forward requests for tools the AI selects to the correct MCP server. This MCP bridge can also be used by third party clients.\n\nOn the frontend side, you can fetch the list of all tools from all servers, select the tools you want to let AI use, and optionally enable tool...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qfb0gk/koboldcpp_v1106_finally_adds_mcp_server_support/",
+      "author": "u/HadesThrowaway",
+      "published": "2026-01-17T03:35:11",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Resources"
+      ],
+      "summary": "KoboldCpp v1.106 adds native MCP server support as drop-in Claude Desktop replacement with same config format",
+      "importance_score": 78,
+      "reasoning": "Major feature release for popular local inference tool. High engagement (96 upvotes, 21 comments). Practical integration",
+      "themes": [
+        "koboldcpp",
+        "MCP",
+        "tool-release"
+      ],
+      "continuation": null,
+      "summary_html": "<p>KoboldCpp v1.106 adds native MCP server support as drop-in Claude Desktop replacement with same config format</p>",
+      "content_html": "<p>So, it's been a hot minute, but I thought I'd share this here since it's quite a big new feature.</p>\n<p>Yes, KoboldCpp is still alive and kicking. And besides the major UI overhaul, we've finally added native MCP support in KoboldCpp v1.106! It's designed to be a painless Claude Desktop drop-in replacement with maximum compatibility, the `mcp.json` uses the same  format so you can swap it in easily.</p>\n<p>The KoboldCpp MCP bridge will connect to all provided MCP servers (HTTP and STDIO transports both supported) and automatically forward requests for tools the AI selects to the correct MCP server. This MCP bridge can also be used by third party clients.</p>\n<p>On the frontend side, you can fetch the list of all tools from all servers, select the tools you want to let AI use, and optionally enable tool...</p>"
+    },
+    {
+      "id": "4c353618e452",
+      "title": "OpenAI could reportedly run out of cash by mid-2027 — analyst paints grim picture after examining the company's finances",
+      "content": "",
+      "url": "https://reddit.com/r/OpenAI/comments/1qfzt1y/openai_could_reportedly_run_out_of_cash_by/",
+      "author": "u/moxyte",
+      "published": "2026-01-17T21:17:01",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "Article"
+      ],
+      "summary": "Analysis suggests OpenAI could run out of cash by mid-2027 based on financial examination, raising concerns about company sustainability",
+      "importance_score": 78,
+      "reasoning": "Significant business news (82 upvotes, 52 comments) about OpenAI's financial health with implications for the entire AI ecosystem.",
+      "themes": [
+        "openai_financials",
+        "business_sustainability",
+        "industry_analysis"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Analysis suggests OpenAI could run out of cash by mid-2027 based on financial examination, raising concerns about company sustainability</p>",
+      "content_html": ""
+    },
+    {
+      "id": "d49d03faa7c0",
+      "title": "China's AGI-NEXT Conference (Qwen, Kimi, Zhipu, Tencent)",
+      "content": "Someone else posted about this, but never posted a transcript, so I found one online.\n\nLot of interesting stuff about China vs US, paths to AGI, compute, marketing etc.\n\nUnfortunately Moonshot seems to have a very short section. ",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qfmc05/chinas_aginext_conference_qwen_kimi_zhipu_tencent/",
+      "author": "u/nuclearbananana",
+      "published": "2026-01-17T11:25:24",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Transcript shared from China's AGI-NEXT Conference featuring Qwen, Kimi, Zhipu, and Tencent discussing paths to AGI, compute, and US-China dynamics",
+      "importance_score": 75,
+      "reasoning": "Valuable primary source on Chinese AI development strategy. Good engagement (97 upvotes, 20 comments). Industry intelligence",
+      "themes": [
+        "china-AI",
+        "industry-news",
+        "AGI",
+        "conferences"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Transcript shared from China's AGI-NEXT Conference featuring Qwen, Kimi, Zhipu, and Tencent discussing paths to AGI, compute, and US-China dynamics</p>",
+      "content_html": "<p>Someone else posted about this, but never posted a transcript, so I found one online.</p>\n<p>Lot of interesting stuff about China vs US, paths to AGI, compute, marketing etc.</p>\n<p>Unfortunately Moonshot seems to have a very short section.</p>"
+    },
+    {
+      "id": "4552601fff42",
+      "title": "I built Adaptive-K routing: 30-52% compute savings on MoE models (Mixtral, Qwen, OLMoE)",
+      "content": "Links\n\nGitHub: [https://github.com/Gabrobals/sbm-efficient](https://github.com/Gabrobals/sbm-efficient)\n\nWhitepaper: [https://adaptive-k.vercel.app/whitepaper.html](https://adaptive-k.vercel.app/whitepaper.html)\n\nTensorRT-LLM PR: [https://github.com/NVIDIA/TensorRT-LLM/pull/10672](https://github.com/NVIDIA/TensorRT-LLM/pull/10672)\n\nLive demo: [https://huggingface.co/spaces/Gabrobals/adaptive-k-demo](https://huggingface.co/spaces/Gabrobals/adaptive-k-demo)\n\n\n\nHappy to answer questions or discuss implementation details!",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qff481/i_built_adaptivek_routing_3052_compute_savings_on/",
+      "author": "u/Fuzzy_Ad_1390",
+      "published": "2026-01-17T06:50:29",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Resources"
+      ],
+      "summary": "Release of Adaptive-K routing achieving 30-52% compute savings on MoE models (Mixtral, Qwen, OLMoE) with GitHub, whitepaper, and TensorRT-LLM PR",
+      "importance_score": 75,
+      "reasoning": "Significant efficiency improvement with comprehensive materials (code, paper, PR). Well-documented research contribution",
+      "themes": [
+        "MoE",
+        "optimization",
+        "research",
+        "efficiency"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Release of Adaptive-K routing achieving 30-52% compute savings on MoE models (Mixtral, Qwen, OLMoE) with GitHub, whitepaper, and TensorRT-LLM PR</p>",
+      "content_html": "<p>Links</p>\n<p>GitHub: <a href=\"https://github.com/Gabrobals/sbm-efficient\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/Gabrobals/sbm-efficient</a></p>\n<p>Whitepaper: <a href=\"https://adaptive-k.vercel.app/whitepaper.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://adaptive-k.vercel.app/whitepaper.html</a></p>\n<p>TensorRT-LLM PR: <a href=\"https://github.com/NVIDIA/TensorRT-LLM/pull/10672\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/NVIDIA/TensorRT-LLM/pull/10672</a></p>\n<p>Live demo: <a href=\"https://huggingface.co/spaces/Gabrobals/adaptive-k-demo\" target=\"_blank\" rel=\"noopener noreferrer\">https://huggingface.co/spaces/Gabrobals/adaptive-k-demo</a></p>\n<p>Happy to answer questions or discuss implementation details!</p>"
+    },
+    {
+      "id": "1e1c84697c80",
+      "title": "[P] Progressive coding exercises for transformer internals",
+      "content": "For a while I've been looking for a good format to practice implementing ML algorithms. LeetCode feels too disconnected from real work, but in actual projects you just use existing libraries. What worked for me was breaking real algorithms into progressive steps and implementing them piece by piece.\n\nI've been using this approach for myself, and recently decided to clean up some of it with tests and hints in case others find it useful. Currently covers: attention, BPE tokenization, beam search variants, and RoPE.\n\nCurious if others have found similar formats helpful, or what primitives would be worth adding.",
+      "url": "https://reddit.com/r/MachineLearning/comments/1qf80mh/p_progressive_coding_exercises_for_transformer/",
+      "author": "u/randmusr66",
+      "published": "2026-01-17T00:33:24",
+      "source": "r/MachineLearning",
+      "source_type": "reddit",
+      "tags": [
+        "Project"
+      ],
+      "summary": "Author shares progressive coding exercises for learning transformer internals (attention, BPE tokenization, beam search) with tests and hints",
+      "importance_score": 72,
+      "reasoning": "High educational value for ML practitioners. Fills gap between LeetCode and production code. Practical learning resource",
+      "themes": [
+        "education",
+        "transformers",
+        "implementation"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Author shares progressive coding exercises for learning transformer internals (attention, BPE tokenization, beam search) with tests and hints</p>",
+      "content_html": "<p>For a while I've been looking for a good format to practice implementing ML algorithms. LeetCode feels too disconnected from real work, but in actual projects you just use existing libraries. What worked for me was breaking real algorithms into progressive steps and implementing them piece by piece.</p>\n<p>I've been using this approach for myself, and recently decided to clean up some of it with tests and hints in case others find it useful. Currently covers: attention, BPE tokenization, beam search variants, and RoPE.</p>\n<p>Curious if others have found similar formats helpful, or what primitives would be worth adding.</p>"
+    },
+    {
+      "id": "d9fc7b98fd1c",
+      "title": "Speculative Decoding: Turning Memory-Bound Inference into Compute-Bound Verification (Step-by-Step)",
+      "content": "Most of us assume LLM inference is slow because \"matrix multiplication is hard.\" That’s actually false.\n\nFor a batch size of 1 (which is standard for local inference/chat), your GPU is almost entirely **Memory Bandwidth Bound**. The bottleneck isn't doing the math; it's moving the 70GB+ of weights from VRAM to the compute units. The Arithmetic Logic Units (ALUs) are spending most of their time idle, waiting for data.\n\n**Speculative Decoding** exploits this idle time to give us a \"free lunch\"—2x-3x speedups with **mathematically identical** outputs.\n\nHere is the core mechanism derived step-by-step:\n\n1. The Setup: Drafter vs. Target\n\nWe use a tiny \"Drafter\" model (e.g., a 100M param model) alongside our massive \"Target\" model (e.g., Llama-70B).\n\n* The Drafter is cheap to run. It quickly...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qg2592/speculative_decoding_turning_memorybound/",
+      "author": "u/No_Ask_1623",
+      "published": "2026-01-17T23:24:22",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Tutorial | Guide"
+      ],
+      "summary": "Educational explanation of speculative decoding, explaining why LLM inference is memory-bound not compute-bound and how speculative decoding exploits idle GPU time",
+      "importance_score": 72,
+      "reasoning": "High educational value with step-by-step technical explanation. Corrects common misconception about inference bottlenecks",
+      "themes": [
+        "education",
+        "inference-optimization",
+        "speculative-decoding"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Educational explanation of speculative decoding, explaining why LLM inference is memory-bound not compute-bound and how speculative decoding exploits idle GPU time</p>",
+      "content_html": "<p>Most of us assume LLM inference is slow because \"matrix multiplication is hard.\" That’s actually false.</p>\n<p>For a batch size of 1 (which is standard for local inference/chat), your GPU is almost entirely <strong>Memory Bandwidth Bound</strong>. The bottleneck isn't doing the math; it's moving the 70GB+ of weights from VRAM to the compute units. The Arithmetic Logic Units (ALUs) are spending most of their time idle, waiting for data.</p>\n<p><strong>Speculative Decoding</strong> exploits this idle time to give us a \"free lunch\"—2x-3x speedups with <strong>mathematically identical</strong> outputs.</p>\n<p>Here is the core mechanism derived step-by-step:</p>\n<p>1. The Setup: Drafter vs. Target</p>\n<p>We use a tiny \"Drafter\" model (e.g., a 100M param model) alongside our massive \"Target\" model (e.g., Llama-70B).</p>\n<p>* The Drafter is cheap to run. It quickly...</p>"
+    },
+    {
+      "id": "42a55f0c0200",
+      "title": "Catfishing got easier",
+      "content": "ChatGPT for prompts and images from Midjourney+Nanobanana pro ,Can anyone guess who’s real in this clip ",
+      "url": "https://reddit.com/r/OpenAI/comments/1qf8b88/catfishing_got_easier/",
+      "author": "u/memerwala_londa",
+      "published": "2026-01-17T00:51:52",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "Video"
+      ],
+      "summary": "Demonstration of how AI tools (ChatGPT + Midjourney + Nanobanana) can be combined for sophisticated catfishing, raising social engineering concerns",
+      "importance_score": 72,
+      "reasoning": "High engagement (119 upvotes, 88 comments) highlighting important AI ethics and safety concerns about synthetic media misuse.",
+      "themes": [
+        "ai_ethics",
+        "synthetic_media",
+        "social_engineering"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Demonstration of how AI tools (ChatGPT + Midjourney + Nanobanana) can be combined for sophisticated catfishing, raising social engineering concerns</p>",
+      "content_html": "<p>ChatGPT for prompts and images from Midjourney+Nanobanana pro ,Can anyone guess who’s real in this clip</p>"
+    },
+    {
+      "id": "ccecf44cfbe5",
+      "title": "[D] LLMs as a semantic regularizer for feature synthesis (small decision-tree experiment)",
+      "content": "I’ve been experimenting with using LLMs not to generate features, but instead to filter them during enumerative feature synthesis.\n\nThe approach was inspired by this paper: https://arxiv.org/pdf/2403.03997v1\n\nI had already been playing with enumerative bottom up synthesis but noticed it usually gave me unintelligible features (even with regularization).\n\nI looked into how other symbolic approaches deal with this problem and saw that they tried to model the semantics of the domain somehow - including dimensions, refinement types etc. But those approaches weren't appealing to me because I was trying to come up with something that worked in general.\n\nSo I tried using an LLM to score candidate expressions by how meaningful they are. The idea was that the semantic meaning of the column names,...",
+      "url": "https://reddit.com/r/MachineLearning/comments/1qffcgi/d_llms_as_a_semantic_regularizer_for_feature/",
+      "author": "u/ChavXO",
+      "published": "2026-01-17T06:59:55",
+      "source": "r/MachineLearning",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Discussion on using LLMs as semantic filters during enumerative feature synthesis for decision trees, inspired by recent research on symbolic approaches to model domain semantics",
+      "importance_score": 70,
+      "reasoning": "Novel research approach combining LLMs with symbolic methods. Technical depth with paper reference, moderate engagement (28 upvotes, 14 comments)",
+      "themes": [
+        "research",
+        "feature-engineering",
+        "symbolic-AI"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discussion on using LLMs as semantic filters during enumerative feature synthesis for decision trees, inspired by recent research on symbolic approaches to model domain semantics</p>",
+      "content_html": "<p>I’ve been experimenting with using LLMs not to generate features, but instead to filter them during enumerative feature synthesis.</p>\n<p>The approach was inspired by this paper: https://arxiv.org/pdf/2403.03997v1</p>\n<p>I had already been playing with enumerative bottom up synthesis but noticed it usually gave me unintelligible features (even with regularization).</p>\n<p>I looked into how other symbolic approaches deal with this problem and saw that they tried to model the semantics of the domain somehow - including dimensions, refinement types etc. But those approaches weren't appealing to me because I was trying to come up with something that worked in general.</p>\n<p>So I tried using an LLM to score candidate expressions by how meaningful they are. The idea was that the semantic meaning of the column names,...</p>"
+    },
+    {
+      "id": "0a0a4ce60314",
+      "title": "The Search for Uncensored AI (That Isn’t Adult-Oriented)",
+      "content": "I’ve been trying to find an AI that’s genuinely unfiltered *and* technically advanced, uncensored something that can reason freely without guardrails killing every interesting response.\n\nInstead, almost everything I run into is marketed as “uncensored,” but it turns out to be optimized for low-effort adult use rather than actual intelligence or depth.\n\nIt feels like the space between heavily restricted corporate AI and shallow adult-focused models is strangely empty, and I’m curious why that gap still exists...\n\nIs there any **uncensored or lightly filtered AI** that focuses on reasoning, creativity,uncensored technology or serious problem-solving instead? I’m open to self-hosted models, open-source projects, or lesser-known platforms. Suggestions appreciated.",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qfq9ez/the_search_for_uncensored_ai_that_isnt/",
+      "author": "u/Fun-Situation-4358",
+      "published": "2026-01-17T14:03:23",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Question | Help"
+      ],
+      "summary": "Discussion seeking genuinely uncensored AI models that maintain technical capability without being adult-focused, noting the gap between corporate and adult-oriented models",
+      "importance_score": 70,
+      "reasoning": "Very high engagement (188 upvotes, 178 comments). Important community discussion about model alignment and censorship tradeoffs",
+      "themes": [
+        "censorship",
+        "model-alignment",
+        "open-source-models"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discussion seeking genuinely uncensored AI models that maintain technical capability without being adult-focused, noting the gap between corporate and adult-oriented models</p>",
+      "content_html": "<p>I’ve been trying to find an AI that’s genuinely unfiltered *and* technically advanced, uncensored something that can reason freely without guardrails killing every interesting response.</p>\n<p>Instead, almost everything I run into is marketed as “uncensored,” but it turns out to be optimized for low-effort adult use rather than actual intelligence or depth.</p>\n<p>It feels like the space between heavily restricted corporate AI and shallow adult-focused models is strangely empty, and I’m curious why that gap still exists...</p>\n<p>Is there any <strong>uncensored or lightly filtered AI</strong> that focuses on reasoning, creativity,uncensored technology or serious problem-solving instead? I’m open to self-hosted models, open-source projects, or lesser-known platforms. Suggestions appreciated.</p>"
+    },
+    {
+      "id": "b7711b47884e",
+      "title": "MCP server that gives local LLMs memory, file access, and a 'conscience' - 100% offline on Apple Silicon",
+      "content": "Been working on this for a few weeks and finally got it stable enough to share.\n\n**The problem I wanted to solve:**\n\n* Local LLMs are stateless - they forget everything between sessions\n* No governance - they'll execute whatever you ask without reflection\n* Chat interfaces don't give them \"hands\" to actually do things\n\n**What I built:**\n\nA stack that runs entirely on my Mac Studio M2 Ultra:\n\n    LM Studio (chat interface)\n        ↓\n    Hermes-3-Llama-3.1-8B (MLX, 4-bit)\n        ↓\n    Temple Bridge (MCP server)\n        ↓\n    ┌─────────────────┬──────────────────┐\n    │ BTB             │ Threshold        │\n    │ (filesystem     │ (governance      │\n    │  operations)    │  protocols)      │\n    └─────────────────┴──────────────────┘\n\n**What the AI can actually do:**\n\n* Read/write files in a...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qfgiq1/mcp_server_that_gives_local_llms_memory_file/",
+      "author": "u/TheTempleofTwo",
+      "published": "2026-01-17T07:45:41",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Resources"
+      ],
+      "summary": "Release of MCP server giving local LLMs persistent memory, file access, and ethical governance layer running offline on Apple Silicon",
+      "importance_score": 70,
+      "reasoning": "Addresses key local LLM limitations (statelessness, agency). Good engagement (56 upvotes, 42 comments). Novel governance concept",
+      "themes": [
+        "MCP",
+        "memory",
+        "local-LLM",
+        "Apple-Silicon"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Release of MCP server giving local LLMs persistent memory, file access, and ethical governance layer running offline on Apple Silicon</p>",
+      "content_html": "<p>Been working on this for a few weeks and finally got it stable enough to share.</p>\n<p><strong>The problem I wanted to solve:</strong></p>\n<p>* Local LLMs are stateless - they forget everything between sessions</p>\n<p>* No governance - they'll execute whatever you ask without reflection</p>\n<p>* Chat interfaces don't give them \"hands\" to actually do things</p>\n<p><strong>What I built:</strong></p>\n<p>A stack that runs entirely on my Mac Studio M2 Ultra:</p>\n<p>LM Studio (chat interface)</p>\n<p>↓</p>\n<p>Hermes-3-Llama-3.1-8B (MLX, 4-bit)</p>\n<p>↓</p>\n<p>Temple Bridge (MCP server)</p>\n<p>↓</p>\n<p>┌─────────────────┬──────────────────┐</p>\n<p>│ BTB             │ Threshold        │</p>\n<p>│ (filesystem     │ (governance      │</p>\n<p>│  operations)    │  protocols)      │</p>\n<p>└─────────────────┴──────────────────┘</p>\n<p><strong>What the AI can actually do:</strong></p>\n<p>* Read/write files in a...</p>"
+    },
+    {
+      "id": "159b0a64323f",
+      "title": "I spent the last week deconstructing the math behind Mamba’s \"Selection Mechanism\" (Delta-Gating). Here is the intuition + derivation.",
+      "content": "Like many of you, I’ve been fascinated by how Mamba challenges the Transformer architecture. However, while the high-level concept (Selective State Spaces) makes sense, I found the actual mathematical bridge—specifically how the continuous-time system is discretized using the \"Delta\" parameter to become input-dependent—pretty dense in the original paper.\n\nI decided to break it down step-by-step to really understand the \"proof\" behind the intuition.\n\n**The Core Insight:** The magic lies in how `Delta` acts as a gatekeeper. In standard SSMs, the transition is constant (Linear Time Invariant). In Mamba, `Delta` becomes a function of the input `x_t`.\n\n* **Intuitively:** It dictates how much of the *current* input affects the *new* state versus how much of the *old* state is preserved.\n*...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qf8tpd/i_spent_the_last_week_deconstructing_the_math/",
+      "author": "u/No_Ask_1623",
+      "published": "2026-01-17T01:23:17",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Resources"
+      ],
+      "summary": "Deep technical breakdown of Mamba's selection mechanism (Delta-gating), explaining the discretization math connecting continuous-time systems to input-dependent processing",
+      "importance_score": 70,
+      "reasoning": "High educational value explaining complex architecture. Well-written technical content on emerging alternative to transformers",
+      "themes": [
+        "mamba",
+        "architecture",
+        "education",
+        "technical-deep-dive"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Deep technical breakdown of Mamba's selection mechanism (Delta-gating), explaining the discretization math connecting continuous-time systems to input-dependent processing</p>",
+      "content_html": "<p>Like many of you, I’ve been fascinated by how Mamba challenges the Transformer architecture. However, while the high-level concept (Selective State Spaces) makes sense, I found the actual mathematical bridge—specifically how the continuous-time system is discretized using the \"Delta\" parameter to become input-dependent—pretty dense in the original paper.</p>\n<p>I decided to break it down step-by-step to really understand the \"proof\" behind the intuition.</p>\n<p><strong>The Core Insight:</strong> The magic lies in how `Delta` acts as a gatekeeper. In standard SSMs, the transition is constant (Linear Time Invariant). In Mamba, `Delta` becomes a function of the input `x_t`.</p>\n<p>* <strong>Intuitively:</strong> It dictates how much of the *current* input affects the *new* state versus how much of the *old* state is preserved.</p>\n<p>*...</p>"
+    },
+    {
+      "id": "0b8253927d27",
+      "title": "Best \"End of world\" model that will run on 24gb VRAM",
+      "content": "Hey peeps, I'm feeling in a bit of a omg the world is ending mood and have been amusing myself by downloading and hoarding a bunch of data - think wikipedia, wiktionary, wikiversity, khan academy, etc etc\n\nWhat's your take on the smartest / best model(s) to download and store - they need to fit and run on my 24gb VRAM / 64gb RAM PC.? ",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qfkn3a/best_end_of_world_model_that_will_run_on_24gb_vram/",
+      "author": "u/gggghhhhiiiijklmnop",
+      "published": "2026-01-17T10:21:20",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Question | Help"
+      ],
+      "summary": "User asks for recommendations on best models to hoard for 'end of world' scenarios that run on 24GB VRAM/64GB RAM",
+      "importance_score": 68,
+      "reasoning": "High engagement (248 upvotes, 146 comments). Practical model recommendations though framed humorously. Good discussion of local capability requirements",
+      "themes": [
+        "model-recommendations",
+        "local-inference",
+        "hardware-constraints"
+      ],
+      "continuation": null,
+      "summary_html": "<p>User asks for recommendations on best models to hoard for 'end of world' scenarios that run on 24GB VRAM/64GB RAM</p>",
+      "content_html": "<p>Hey peeps, I'm feeling in a bit of a omg the world is ending mood and have been amusing myself by downloading and hoarding a bunch of data - think wikipedia, wiktionary, wikiversity, khan academy, etc etc</p>\n<p>What's your take on the smartest / best model(s) to download and store - they need to fit and run on my 24gb VRAM / 64gb RAM PC.?</p>"
+    },
+    {
+      "id": "5ab531b516c4",
+      "title": "Analysis of running local LLMs on Blackwell GPUs. TLDR: cheaper to run than cloud api services",
+      "content": "May provide support to management for the cost savings of running local LLMs. The paper also includes amortization costs for the GPUs. I was surprised by the findings and the short break even time with cloud api costs.\n\nhttps://arxiv.org/abs/2601.09527",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qfaxpx/analysis_of_running_local_llms_on_blackwell_gpus/",
+      "author": "u/cchung261",
+      "published": "2026-01-17T03:30:51",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Analysis paper showing local LLM inference on Blackwell GPUs is cheaper than cloud APIs, including amortization costs and break-even analysis",
+      "importance_score": 68,
+      "reasoning": "Valuable economic analysis for local vs cloud decisions. Good engagement (42 upvotes, 29 comments). Business-relevant",
+      "themes": [
+        "cost-analysis",
+        "blackwell",
+        "local-vs-cloud"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Analysis paper showing local LLM inference on Blackwell GPUs is cheaper than cloud APIs, including amortization costs and break-even analysis</p>",
+      "content_html": "<p>May provide support to management for the cost savings of running local LLMs. The paper also includes amortization costs for the GPUs. I was surprised by the findings and the short break even time with cloud api costs.</p>\n<p>https://arxiv.org/abs/2601.09527</p>"
+    },
+    {
+      "id": "16694f0264dc",
+      "title": "Say what you will about ChatGPT, but I just got promoted at work thanks to it.",
+      "content": "I work at a small sawmill, and we've wanted to expand our production into more intricate projects like custom wood engraving and 3D sculpting. My boss managed to get a fairly expensive machine to start with (thanks to some program that helps small businesses), but here's the issue--no one at our firm was trained to use the thing. It sat on a table, doing nothing but gathering dust for *months*. They thought it would be as simple as \"press button, make design\" but it's way, *way* more complicated than that. \n\nBut because of extreme freezing conditions last week, we took a week off from work. In that week, I decided to use my free time to do a little learning. I have previous experience in graphic design, so I designed a custom company logo for my boss, learned how to turn it into a code...",
+      "url": "https://reddit.com/r/ChatGPT/comments/1qfbyv2/say_what_you_will_about_chatgpt_but_i_just_got/",
+      "author": "u/BurntShrimpCape",
+      "published": "2026-01-17T04:27:08",
+      "source": "r/ChatGPT",
+      "source_type": "reddit",
+      "tags": [
+        "Other "
+      ],
+      "summary": "Success story: User got promoted after learning CNC machine programming through ChatGPT when no one else at sawmill could use it",
+      "importance_score": 68,
+      "reasoning": "Excellent real-world productivity success story demonstrating practical AI value in blue-collar work",
+      "themes": [
+        "success-story",
+        "skill-learning",
+        "practical-applications",
+        "career-advancement"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Success story: User got promoted after learning CNC machine programming through ChatGPT when no one else at sawmill could use it</p>",
+      "content_html": "<p>I work at a small sawmill, and we've wanted to expand our production into more intricate projects like custom wood engraving and 3D sculpting. My boss managed to get a fairly expensive machine to start with (thanks to some program that helps small businesses), but here's the issue--no one at our firm was trained to use the thing. It sat on a table, doing nothing but gathering dust for *months*. They thought it would be as simple as \"press button, make design\" but it's way, *way* more complicated than that.</p>\n<p>But because of extreme freezing conditions last week, we took a week off from work. In that week, I decided to use my free time to do a little learning. I have previous experience in graphic design, so I designed a custom company logo for my boss, learned how to turn it into a code...</p>"
+    },
+    {
+      "id": "8457367a1af5",
+      "title": "[GamersNexus] Creating a 48GB NVIDIA RTX 4090 GPU",
+      "content": "This seems quite interesting, in getting the 48 GB cards.",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qfpomi/gamersnexus_creating_a_48gb_nvidia_rtx_4090_gpu/",
+      "author": "u/ThisGonBHard",
+      "published": "2026-01-17T13:39:36",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Other"
+      ],
+      "summary": "GamersNexus video about creating a 48GB NVIDIA RTX 4090 GPU through hardware modification",
+      "importance_score": 65,
+      "reasoning": "Relevant hardware modification for VRAM expansion. Good engagement (62 upvotes, 27 comments). Practical for local LLM users",
+      "themes": [
+        "hardware",
+        "VRAM",
+        "GPU-modification"
+      ],
+      "continuation": null,
+      "summary_html": "<p>GamersNexus video about creating a 48GB NVIDIA RTX 4090 GPU through hardware modification</p>",
+      "content_html": "<p>This seems quite interesting, in getting the 48 GB cards.</p>"
+    },
+    {
+      "id": "69121d6d793f",
+      "title": "Using Claude Code with Ollama local models",
+      "content": "Ollama v0.14.0 and later are now compatible with the Anthropic [Messages API](https://docs.anthropic.com/en/api/messages), making it possible to use tools like [Claude Code](https://docs.anthropic.com/en/docs/claude-code) with open-source models.\n\nRun Claude Code with local models on your machine, or connect to cloud models through ollama.com.\n\n# Usage with Ollama\n\n1. Set the environment variables:\n\n&amp;#8203;\n\n    export ANTHROPIC_AUTH_TOKEN=ollama\n    export ANTHROPIC_BASE_URL=http://localhost:11434\n    \n\n1. Run Claude Code with an Ollama model:\n\n&amp;#8203;\n\n    claude --model gpt-oss:20b\n    \n\n    ANTHROPIC_AUTH_TOKEN=ollama ANTHROPIC_BASE_URL=http://localhost:11434 claude --model gpt-oss:20b\n    \n\n# Connecting to [ollama.com](http://ollama.com)\n\n1. Create an [API...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qfwubh/using_claude_code_with_ollama_local_models/",
+      "author": "u/derestine",
+      "published": "2026-01-17T18:51:52",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Resources"
+      ],
+      "summary": "Announcement that Ollama v0.14.0+ now supports Anthropic Messages API, enabling Claude Code to work with local open-source models",
+      "importance_score": 65,
+      "reasoning": "Important integration enabling popular tooling with local models. Good comment engagement (19 comments). Practical value",
+      "themes": [
+        "ollama",
+        "claude-code",
+        "API-compatibility"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Announcement that Ollama v0.14.0+ now supports Anthropic Messages API, enabling Claude Code to work with local open-source models</p>",
+      "content_html": "<p>Ollama v0.14.0 and later are now compatible with the Anthropic <a href=\"https://docs.anthropic.com/en/api/messages\" target=\"_blank\" rel=\"noopener noreferrer\">Messages API</a>, making it possible to use tools like <a href=\"https://docs.anthropic.com/en/docs/claude-code\" target=\"_blank\" rel=\"noopener noreferrer\">Claude Code</a> with open-source models.</p>\n<p>Run Claude Code with local models on your machine, or connect to cloud models through ollama.com.</p>\n<p># Usage with Ollama</p>\n<p>1. Set the environment variables:</p>\n<p>&amp;#8203;</p>\n<p>export ANTHROPIC_AUTH_TOKEN=ollama</p>\n<p>export ANTHROPIC_BASE_URL=http://localhost:11434</p>\n<p>1. Run Claude Code with an Ollama model:</p>\n<p>&amp;#8203;</p>\n<p>claude --model gpt-oss:20b</p>\n<p>ANTHROPIC_AUTH_TOKEN=ollama ANTHROPIC_BASE_URL=http://localhost:11434 claude --model gpt-oss:20b</p>\n<p># Connecting to <a href=\"http://ollama.com\" target=\"_blank\" rel=\"noopener noreferrer\">ollama.com</a></p>\n<p>1. Create an [API...</p>"
+    },
+    {
+      "id": "f1b7e31329e6",
+      "title": "Built a desktop AI coding agent that runs fully offline with Ollama / LM Studio",
+      "content": "Hey folks,\n\nI just launched **Atlarix v1.0**, a **local-first AI coding agent** designed to run entirely on your machine.\n\nKey points relevant here:\n\n* Supports **fully offline** usage via Ollama / LM Studio\n* No cloud dependency required\n* Agent can run terminal commands, read errors, and debug code in loops\n* Uses local embeddings + a local SQLite vector store for context\n\nCloud APIs are optional (BYOK via OpenRouter), not required.\n\nI built this because I wanted agentic workflows *without* sending my code or prompts anywhere by default.\n\nProject site:  \n👉 [https://www.atlarix.dev/](https://www.atlarix.dev/)\n\nWould love feedback from people serious about local inference and real-world dev workflows.",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qfd429/built_a_desktop_ai_coding_agent_that_runs_fully/",
+      "author": "u/Altruistic_Night_327",
+      "published": "2026-01-17T05:23:40",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Other"
+      ],
+      "summary": "Launch announcement for Atlarix v1.0 - local-first AI coding agent supporting Ollama/LM Studio with terminal commands, error reading, and local embeddings",
+      "importance_score": 65,
+      "reasoning": "Significant project showcase of fully offline coding agent with agentic capabilities, high engagement",
+      "themes": [
+        "project-showcase",
+        "coding-agents",
+        "local-first",
+        "offline-ai"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Launch announcement for Atlarix v1.0 - local-first AI coding agent supporting Ollama/LM Studio with terminal commands, error reading, and local embeddings</p>",
+      "content_html": "<p>Hey folks,</p>\n<p>I just launched <strong>Atlarix v1.0</strong>, a <strong>local-first AI coding agent</strong> designed to run entirely on your machine.</p>\n<p>Key points relevant here:</p>\n<p>* Supports <strong>fully offline</strong> usage via Ollama / LM Studio</p>\n<p>* No cloud dependency required</p>\n<p>* Agent can run terminal commands, read errors, and debug code in loops</p>\n<p>* Uses local embeddings + a local SQLite vector store for context</p>\n<p>Cloud APIs are optional (BYOK via OpenRouter), not required.</p>\n<p>I built this because I wanted agentic workflows *without* sending my code or prompts anywhere by default.</p>\n<p>Project site:</p>\n<p>👉 <a href=\"https://www.atlarix.dev/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.atlarix.dev/</a></p>\n<p>Would love feedback from people serious about local inference and real-world dev workflows.</p>"
+    },
+    {
+      "id": "5ce7f4f4f5ec",
+      "title": "Ads for OpenAI and ChatGpt sounds like a really great idea",
+      "content": "",
+      "url": "https://reddit.com/r/OpenAI/comments/1qf845d/ads_for_openai_and_chatgpt_sounds_like_a_really/",
+      "author": "u/wipeoutmedia",
+      "published": "2026-01-17T00:39:28",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Sarcastic/critical discussion about OpenAI introducing ads to ChatGPT and implications for user experience",
+      "importance_score": 65,
+      "reasoning": "Good engagement (75 upvotes, 25 comments) contributing to broader ads monetization discussion.",
+      "themes": [
+        "monetization",
+        "product_criticism"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Sarcastic/critical discussion about OpenAI introducing ads to ChatGPT and implications for user experience</p>",
+      "content_html": ""
+    },
+    {
+      "id": "fb0e557dd729",
+      "title": "AI insiders seek to poison the data that feeds them",
+      "content": "",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qftdr4/ai_insiders_seek_to_poison_the_data_that_feeds/",
+      "author": "u/HumanDrone8721",
+      "published": "2026-01-17T16:14:54",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "News"
+      ],
+      "summary": "Discussion about AI researchers attempting to poison training data (title-only post referencing external content)",
+      "importance_score": 62,
+      "reasoning": "Important security/ethics topic with good engagement (46 upvotes, 41 comments). Relevant to data integrity concerns",
+      "themes": [
+        "data-poisoning",
+        "security",
+        "ethics"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discussion about AI researchers attempting to poison training data (title-only post referencing external content)</p>",
+      "content_html": ""
+    },
+    {
+      "id": "06f29d9a54d3",
+      "title": "ChatGPT Plus upgraded to ChatGPT Pro automatically without my consent and charged 400+ USD",
+      "content": "I’ve been a long-time ChatGPT Plus subscriber and never intentionally upgraded to ChatGPT Pro. I have always paid for Plus and did not request or authorize a higher plan.\n\nIn October, my account was unexpectedly charged for ChatGPT Pro. I contacted OpenAI support immediately, explained that I had not upgraded, and that charge was refunded. This confirmed that the upgrade was unintentional, and I assumed the issue had been resolved.\n\nHowever, the same issue happened again on 25 November, when my account was charged USD 216.48 for ChatGPT Pro. Unfortunately, I did not notice this charge at the time.\n\nThen on 16 January, my account was charged again for ChatGPT Pro, this time about AUD 330. I noticed this charge immediately and contacted OpenAI support on the same day to report it.\n\nI...",
+      "url": "https://reddit.com/r/ChatGPT/comments/1qfv2ct/chatgpt_plus_upgraded_to_chatgpt_pro/",
+      "author": "u/Famous-Platypus-5918",
+      "published": "2026-01-17T17:29:53",
+      "source": "r/ChatGPT",
+      "source_type": "reddit",
+      "tags": [
+        "Other "
+      ],
+      "summary": "User reports unauthorized auto-upgrade from ChatGPT Plus to Pro ($400+) happening twice, with OpenAI support issues",
+      "importance_score": 62,
+      "reasoning": "Serious billing/consumer protection issue affecting paid users, high engagement with many similar reports",
+      "themes": [
+        "billing-issues",
+        "consumer-protection",
+        "openai-support"
+      ],
+      "continuation": null,
+      "summary_html": "<p>User reports unauthorized auto-upgrade from ChatGPT Plus to Pro ($400+) happening twice, with OpenAI support issues</p>",
+      "content_html": "<p>I’ve been a long-time ChatGPT Plus subscriber and never intentionally upgraded to ChatGPT Pro. I have always paid for Plus and did not request or authorize a higher plan.</p>\n<p>In October, my account was unexpectedly charged for ChatGPT Pro. I contacted OpenAI support immediately, explained that I had not upgraded, and that charge was refunded. This confirmed that the upgrade was unintentional, and I assumed the issue had been resolved.</p>\n<p>However, the same issue happened again on 25 November, when my account was charged USD 216.48 for ChatGPT Pro. Unfortunately, I did not notice this charge at the time.</p>\n<p>Then on 16 January, my account was charged again for ChatGPT Pro, this time about AUD 330. I noticed this charge immediately and contacted OpenAI support on the same day to report it.</p>\n<p>I...</p>"
+    },
+    {
+      "id": "0cc732ad19c8",
+      "title": "ChatGPT is adding ads - what's your plan?",
+      "content": "    So OpenAI just announced they're putting ads in ChatGPT. Free users and the new $8 \"Go\" tier will see them.\n    \n    Honestly kind of saw this coming but still annoying. The only way to avoid ads is paying $20/month for Plus.\n    \n    What are you guys planning to do?\n    \n    - Pay for Plus to go ad-free?\n    - Deal with the ads?\n    - Switch to Claude or another AI?\n    - Something else?\n    \n    Curious what everyone thinks. Feels like every free service eventually goes this route.",
+      "url": "https://reddit.com/r/ChatGPT/comments/1qfobi6/chatgpt_is_adding_ads_whats_your_plan/",
+      "author": "u/Usamalatifff",
+      "published": "2026-01-17T12:44:50",
+      "source": "r/ChatGPT",
+      "source_type": "reddit",
+      "tags": [
+        "Serious replies only :closed-ai:"
+      ],
+      "summary": "Discussion about OpenAI adding ads to ChatGPT, asking users their plans - pay for Plus, deal with ads, or switch to competitors.",
+      "importance_score": 62,
+      "reasoning": "36 comments - highest engagement in batch. Critical discussion about monetization impact on users, competitive landscape, and user retention.",
+      "themes": [
+        "openai_monetization",
+        "ads",
+        "competition",
+        "user_sentiment"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discussion about OpenAI adding ads to ChatGPT, asking users their plans - pay for Plus, deal with ads, or switch to competitors.</p>",
+      "content_html": "<p>So OpenAI just announced they're putting ads in ChatGPT. Free users and the new $8 \"Go\" tier will see them.</p>\n<p>Honestly kind of saw this coming but still annoying. The only way to avoid ads is paying $20/month for Plus.</p>\n<p>What are you guys planning to do?</p>\n<ul>\n<li>Pay for Plus to go ad-free?</li>\n<li>Deal with the ads?</li>\n<li>Switch to Claude or another AI?</li>\n<li>Something else?</li>\n</ul>\n<p>Curious what everyone thinks. Feels like every free service eventually goes this route.</p>"
+    },
+    {
+      "id": "7ce46914130a",
+      "title": "Does chatgpt really get smarter/better when we tell him act like an expert in xyz field?",
+      "content": "Hey everyone. i was wondering if chatgpt really does become more accurate when we tell him \"act like a professional in \\_\\_\\_\\_\\_\" because i don't think i have seen any difference so far, i dont use it much and i just ask him my question straight away, but if it does, why? what changed in order for him to give me a more correct answer instead of just giving it to me at first? ",
+      "url": "https://reddit.com/r/OpenAI/comments/1qfiehu/does_chatgpt_really_get_smarterbetter_when_we/",
+      "author": "u/Clear_Move_7686",
+      "published": "2026-01-17T08:57:41",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "Question"
+      ],
+      "summary": "Discussion exploring whether prompting ChatGPT to 'act like an expert' actually improves response accuracy, with community sharing experiences",
+      "importance_score": 62,
+      "reasoning": "Valuable educational discussion (29 upvotes, 35 comments) about prompt engineering effectiveness with practical implications for users.",
+      "themes": [
+        "prompt_engineering",
+        "model_behavior",
+        "educational"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discussion exploring whether prompting ChatGPT to 'act like an expert' actually improves response accuracy, with community sharing experiences</p>",
+      "content_html": "<p>Hey everyone. i was wondering if chatgpt really does become more accurate when we tell him \"act like a professional in \\_\\_\\_\\_\\_\" because i don't think i have seen any difference so far, i dont use it much and i just ask him my question straight away, but if it does, why? what changed in order for him to give me a more correct answer instead of just giving it to me at first?</p>"
+    },
+    {
+      "id": "5267ced496c2",
+      "title": "\"I kind of think of ads as like a last resort for us as a business model\" - Sam Altman , October 2024",
+      "content": "Announced initially only for the go and free tiers. Will follow into the higher tier subs pretty soon knowing Sam Altman. Cancelling my plus sub and switching over completely to Perplexity and Claude now. Atleast they're ad free. (No thank you, I don't want product recommendations in my answers when I make important health emergency related questions.)",
+      "url": "https://reddit.com/r/artificial/comments/1qf9thi/i_kind_of_think_of_ads_as_like_a_last_resort_for/",
+      "author": "u/NoSquirrel4840",
+      "published": "2026-01-17T02:25:08",
+      "source": "r/artificial",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "User reacts to Sam Altman's statement about ads as 'last resort', announces switching to Perplexity/Claude due to concerns about ad-influenced responses",
+      "importance_score": 60,
+      "reasoning": "High engagement (133 upvotes, 44 comments) but primarily reactive industry news rather than technical content",
+      "themes": [
+        "industry-news",
+        "openai",
+        "business-models"
+      ],
+      "continuation": null,
+      "summary_html": "<p>User reacts to Sam Altman's statement about ads as 'last resort', announces switching to Perplexity/Claude due to concerns about ad-influenced responses</p>",
+      "content_html": "<p>Announced initially only for the go and free tiers. Will follow into the higher tier subs pretty soon knowing Sam Altman. Cancelling my plus sub and switching over completely to Perplexity and Claude now. Atleast they're ad free. (No thank you, I don't want product recommendations in my answers when I make important health emergency related questions.)</p>"
+    },
+    {
+      "id": "8e25bfe42eef",
+      "title": "Optimizing GPT-OSS 120B on Strix Halo 128GB?",
+      "content": "As per the title, I want to optimize running GPT-OSS 120B on a strix halo box with 128GB RAM. I've seen plenty of posts over time about optimizations and tweaks people have used (eg. particular drivers, particular memory mappings, etc). I'm searching around /r/localllama, but figured I would also post and ask directly for your tips and tricks. Planning on running Ubuntu 24.04 LTS. \n\nVery much appreciate any of your hard-earned tips and tricks!\n\nEdit: some more info: \n\nPlanning on running Ubuntu 24.04 LTS and llama.cpp + vulkan (or rocm if it is faster for inference, but that has not been my experience previously).\nI currently run the UD 2.0 FP16 quant (unsloth/gpt-oss-120b-GGUF/gpt-oss-120b-F16.gguf) on an AMD 7040U series apu with 128GB DDR5 RAM, with 96GB dedicated GTT, and get ~13tps...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qfk2ky/optimizing_gptoss_120b_on_strix_halo_128gb/",
+      "author": "u/RobotRobotWhatDoUSee",
+      "published": "2026-01-17T10:00:26",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Question | Help"
+      ],
+      "summary": "Request for optimization tips running GPT-OSS 120B on Strix Halo 128GB RAM, asking about drivers, memory mapping, Ubuntu setup",
+      "importance_score": 60,
+      "reasoning": "Practical optimization question with good discussion (38 comments). Relevant for Strix Halo users",
+      "themes": [
+        "optimization",
+        "strix-halo",
+        "large-models"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Request for optimization tips running GPT-OSS 120B on Strix Halo 128GB RAM, asking about drivers, memory mapping, Ubuntu setup</p>",
+      "content_html": "<p>As per the title, I want to optimize running GPT-OSS 120B on a strix halo box with 128GB RAM. I've seen plenty of posts over time about optimizations and tweaks people have used (eg. particular drivers, particular memory mappings, etc). I'm searching around /r/localllama, but figured I would also post and ask directly for your tips and tricks. Planning on running Ubuntu 24.04 LTS.</p>\n<p>Very much appreciate any of your hard-earned tips and tricks!</p>\n<p>Edit: some more info:</p>\n<p>Planning on running Ubuntu 24.04 LTS and llama.cpp + vulkan (or rocm if it is faster for inference, but that has not been my experience previously).</p>\n<p>I currently run the UD 2.0 FP16 quant (unsloth/gpt-oss-120b-GGUF/gpt-oss-120b-F16.gguf) on an AMD 7040U series apu with 128GB DDR5 RAM, with 96GB dedicated GTT, and get ~13tps...</p>"
+    },
+    {
+      "id": "823bd7dbf5cb",
+      "title": "[D]It feels like LLM inference is missing its AWS Lambda moment.",
+      "content": "If we actually wanted “model = function” to work, a few things seem fundamentally required:\n\n\t•.    Fast scale from zero without keeping GPUs alive just to hold state\n\n\t•\tExecution state reuse so models don’t need full re-init and KV rebuild on every scale event\n\n\t•\tClear separation between orchestration and runtime, like Lambda vs the underlying compute\n\n\t•\tPredictable latency even under spiky, bursty traffic\n\n\t•\tCost model that doesn’t assume always-on GPUs\n\nToday, most inference setups still treat models as long-lived services, which makes scale-to-zero and elasticity awkward.\n\nWhat’s the real hard blocker to a true Lambda-style abstraction for models? Cold starts, KV cache, GPU memory semantics, scheduling, or something else?",
+      "url": "https://reddit.com/r/MachineLearning/comments/1qfgqvy/dit_feels_like_llm_inference_is_missing_its_aws/",
+      "author": "u/pmv143",
+      "published": "2026-01-17T07:54:37",
+      "source": "r/MachineLearning",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Discussion about LLM inference infrastructure lacking serverless capabilities like AWS Lambda - fast scale-from-zero, state reuse, cost models",
+      "importance_score": 58,
+      "reasoning": "Important infrastructure topic with good comment engagement (18 comments) despite zero score. Identifies real gaps in LLM deployment",
+      "themes": [
+        "infrastructure",
+        "serverless",
+        "inference-optimization"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discussion about LLM inference infrastructure lacking serverless capabilities like AWS Lambda - fast scale-from-zero, state reuse, cost models</p>",
+      "content_html": "<p>If we actually wanted “model = function” to work, a few things seem fundamentally required:</p>\n<p>•.    Fast scale from zero without keeping GPUs alive just to hold state</p>\n<p>•\tExecution state reuse so models don’t need full re-init and KV rebuild on every scale event</p>\n<p>•\tClear separation between orchestration and runtime, like Lambda vs the underlying compute</p>\n<p>•\tPredictable latency even under spiky, bursty traffic</p>\n<p>•\tCost model that doesn’t assume always-on GPUs</p>\n<p>Today, most inference setups still treat models as long-lived services, which makes scale-to-zero and elasticity awkward.</p>\n<p>What’s the real hard blocker to a true Lambda-style abstraction for models? Cold starts, KV cache, GPU memory semantics, scheduling, or something else?</p>"
+    },
+    {
+      "id": "97848729dd02",
+      "title": "Personal-Guru: an open-source, free, local-first alternative to AI tutors and NotebookLM",
+      "content": "LLMs make incredible encyclopedias—but honestly, pretty terrible teachers.\n\nYou can chat with ChatGPT for an hour about a complex topic, but without a syllabus or clear milestones, you usually end up with a long chat history and very little retained knowledge.\n\nMost existing tools fall into one of these buckets:\n\n* Unstructured chatbots\n* Document analyzers (you need to already have notes)\n* Expensive subscription-based platforms\n\nWe just released the **beta of Personal-Guru**, a **local-first, open-source learning system** that doesn’t just “chat” — it **builds a full curriculum for you from scratch**.\n\nOur core belief is simple:  \n**Education and access to advanced AI should be free, private, and offline-capable.**  \nNo subscriptions. No cloud lock-in. No data leaving your machine.\n\n🔗...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qfsju5/personalguru_an_opensource_free_localfirst/",
+      "author": "u/rishabhbajpai24",
+      "published": "2026-01-17T15:38:58",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Other"
+      ],
+      "summary": "Release of Personal-Guru, an open-source local-first alternative to AI tutors and NotebookLM with syllabus and milestone tracking",
+      "importance_score": 58,
+      "reasoning": "Useful open-source tool addressing real gap in AI tutoring. Moderate engagement (31 upvotes, 18 comments)",
+      "themes": [
+        "open-source",
+        "education-tools",
+        "local-first"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Release of Personal-Guru, an open-source local-first alternative to AI tutors and NotebookLM with syllabus and milestone tracking</p>",
+      "content_html": "<p>LLMs make incredible encyclopedias—but honestly, pretty terrible teachers.</p>\n<p>You can chat with ChatGPT for an hour about a complex topic, but without a syllabus or clear milestones, you usually end up with a long chat history and very little retained knowledge.</p>\n<p>Most existing tools fall into one of these buckets:</p>\n<p>* Unstructured chatbots</p>\n<p>* Document analyzers (you need to already have notes)</p>\n<p>* Expensive subscription-based platforms</p>\n<p>We just released the <strong>beta of Personal-Guru</strong>, a <strong>local-first, open-source learning system</strong> that doesn’t just “chat” — it <strong>builds a full curriculum for you from scratch</strong>.</p>\n<p>Our core belief is simple:</p>\n<p><strong>Education and access to advanced AI should be free, private, and offline-capable.</strong></p>\n<p>No subscriptions. No cloud lock-in. No data leaving your machine.</p>\n<p>🔗...</p>"
+    }
+  ]
+}

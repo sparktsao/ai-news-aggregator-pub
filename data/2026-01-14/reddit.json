@@ -1,0 +1,801 @@
+{
+  "category": "reddit",
+  "date": "2026-01-14",
+  "category_summary": "**r/LocalLLaMA** dominated with **TTS breakthroughs**—both **Pocket TTS** [(100M params, CPU-only)](/?date=2026-01-14&category=reddit#item-8767c05cec32) and **Soprano TTS** [(with training code)](/?date=2026-01-14&category=reddit#item-0edf58796fd3) enable on-device voice cloning. **GLM-Image** from Z.ai [emerged](/?date=2026-01-14&category=reddit#item-66ba968f7935) as a significant open-source image generator with hybrid AR+diffusion architecture.\n\n- **DeepSeek's Engram** paper [introduces conditional memory](/?date=2026-01-14&category=reddit#item-5db1e0fb1616) via scalable lookup—new sparsity axis complementing MoE, generating architecture discussion\n- Practical debate on [why **AI agents fail**](/?date=2026-01-14&category=reddit#item-a9396e168333) in production: distributed systems issues (state management, retries) matter more than model quality\n- **Intel Arc Pro B60** (24GB at $799) [sparks discussion](/?date=2026-01-14&category=reddit#item-e6dd4a706e48) as affordable VRAM alternative to NVIDIA's pricing\n- Microsoft's **FrogBoss/FrogMini** [coding agents](/?date=2026-01-14&category=reddit#item-dfeff2f2fa96) show specialized debugging fine-tuning on Qwen3 base\n- Massive engagement on [2026 wishlist](/?date=2026-01-14&category=reddit#item-8a789eb0cf3e) (631 upvotes, 178 comments) reveals community priorities for open models and local inference tooling",
+  "category_summary_html": "<p><strong>r/LocalLLaMA</strong> dominated with <strong>TTS breakthroughs</strong>—both <strong>Pocket TTS</strong> <a href=\"/?date=2026-01-14&category=reddit#item-8767c05cec32\" class=\"internal-link\">(100M params, CPU-only)</a> and <strong>Soprano TTS</strong> <a href=\"/?date=2026-01-14&category=reddit#item-0edf58796fd3\" class=\"internal-link\">(with training code)</a> enable on-device voice cloning. <strong>GLM-Image</strong> from Z.ai <a href=\"/?date=2026-01-14&category=reddit#item-66ba968f7935\" class=\"internal-link\">emerged</a> as a significant open-source image generator with hybrid AR+diffusion architecture.</p>\n<ul>\n<li><strong>DeepSeek's Engram</strong> paper <a href=\"/?date=2026-01-14&category=reddit#item-5db1e0fb1616\" class=\"internal-link\">introduces conditional memory</a> via scalable lookup—new sparsity axis complementing MoE, generating architecture discussion</li>\n<li>Practical debate on <a href=\"/?date=2026-01-14&category=reddit#item-a9396e168333\" class=\"internal-link\">why <strong>AI agents fail</strong></a> in production: distributed systems issues (state management, retries) matter more than model quality</li>\n<li><strong>Intel Arc Pro B60</strong> (24GB at $799) <a href=\"/?date=2026-01-14&category=reddit#item-e6dd4a706e48\" class=\"internal-link\">sparks discussion</a> as affordable VRAM alternative to NVIDIA's pricing</li>\n<li>Microsoft's <strong>FrogBoss/FrogMini</strong> <a href=\"/?date=2026-01-14&category=reddit#item-dfeff2f2fa96\" class=\"internal-link\">coding agents</a> show specialized debugging fine-tuning on Qwen3 base</li>\n<li>Massive engagement on <a href=\"/?date=2026-01-14&category=reddit#item-8a789eb0cf3e\" class=\"internal-link\">2026 wishlist</a> (631 upvotes, 178 comments) reveals community priorities for open models and local inference tooling</li>\n</ul>",
+  "themes": [
+    {
+      "name": "Model Releases",
+      "description": "New AI model announcements including GLM-Image, Pocket TTS, Soprano TTS, FrogBoss/FrogMini, and various others from major labs and community",
+      "item_count": 18,
+      "example_items": [],
+      "importance": 90
+    },
+    {
+      "name": "Text-to-Speech",
+      "description": "Major TTS releases including Pocket TTS and Soprano with training code, enabling high-quality on-device voice synthesis",
+      "item_count": 5,
+      "example_items": [],
+      "importance": 85
+    },
+    {
+      "name": "Research Papers",
+      "description": "Academic research including DeepSeek Engram, Vision Transformers with registers, and various NeurIPS/CVPR papers",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 82
+    },
+    {
+      "name": "Image Generation",
+      "description": "GLM-Image release representing advancement in open-source image generation with hybrid AR+diffusion architecture",
+      "item_count": 3,
+      "example_items": [],
+      "importance": 80
+    },
+    {
+      "name": "Hardware & Infrastructure",
+      "description": "GPU setups, CPU inference, memory configurations, new hardware announcements (Intel Arc Pro B60), and multi-GPU troubleshooting",
+      "item_count": 16,
+      "example_items": [],
+      "importance": 78
+    },
+    {
+      "name": "Production AI Deployment Challenges",
+      "description": "Discussions around real-world agent deployment, distributed systems failures, and moving beyond demos to production",
+      "item_count": 4,
+      "example_items": [],
+      "importance": 78
+    },
+    {
+      "name": "Coding Agents",
+      "description": "Discussion of coding assistants including Claude Code alternatives, FrogBoss, and local coding workflows",
+      "item_count": 5,
+      "example_items": [],
+      "importance": 74
+    },
+    {
+      "name": "Tools & Utilities",
+      "description": "Various tools for caching, document processing, agent context, NER, and audio processing",
+      "item_count": 12,
+      "example_items": [],
+      "importance": 72
+    },
+    {
+      "name": "Local LLM Infrastructure & Tools",
+      "description": "Projects and discussions about running LLMs locally, serving architecture, and supporting tools like llms.py, chatllm.cpp",
+      "item_count": 12,
+      "example_items": [],
+      "importance": 72
+    },
+    {
+      "name": "Model Behavior & Feedback",
+      "description": "Discussions about GPT 5.2 tone, guardrails, OpenAI survey, and user frustrations with recent model changes",
+      "item_count": 6,
+      "example_items": [],
+      "importance": 72
+    }
+  ],
+  "total_items": 30,
+  "items": [
+    {
+      "id": "66ba968f7935",
+      "title": "GLM-Image is released!",
+      "content": "GLM-Image is an image generation model adopts a hybrid autoregressive + diffusion decoder architecture. In general image generation quality, GLM‑Image aligns with mainstream latent diffusion approaches, but it shows significant advantages in text-rendering and knowledge‑intensive generation scenarios. It performs especially well in tasks requiring precise semantic understanding and complex information expression, while maintaining strong capabilities in high‑fidelity and fine‑grained detail generation. In addition to text‑to‑image generation, GLM‑Image also supports a rich set of image‑to‑image tasks including image editing, style transfer, identity‑preserving generation, and multi‑subject consistency.\n\nModel architecture: a hybrid autoregressive + diffusion decoder design.",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qc9m6x/glmimage_is_released/",
+      "author": "u/foldl-li",
+      "published": "2026-01-13T17:17:16",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "New Model"
+      ],
+      "summary": "GLM-Image released on LocalLLaMA - a hybrid autoregressive + diffusion architecture image generation model from Z.ai showing strong text rendering and knowledge-intensive generation capabilities. Open weights available.",
+      "importance_score": 92,
+      "reasoning": "Major open-source model release with very high engagement (591 score, 83 comments). Significant technical advancement combining AR and diffusion approaches with practical implications for local image generation.",
+      "themes": [
+        "model_releases",
+        "image_generation",
+        "open_source"
+      ],
+      "continuation": null,
+      "summary_html": "<p>GLM-Image released on LocalLLaMA - a hybrid autoregressive + diffusion architecture image generation model from Z.ai showing strong text rendering and knowledge-intensive generation capabilities. Open weights available.</p>",
+      "content_html": "<p>GLM-Image is an image generation model adopts a hybrid autoregressive + diffusion decoder architecture. In general image generation quality, GLM‑Image aligns with mainstream latent diffusion approaches, but it shows significant advantages in text-rendering and knowledge‑intensive generation scenarios. It performs especially well in tasks requiring precise semantic understanding and complex information expression, while maintaining strong capabilities in high‑fidelity and fine‑grained detail generation. In addition to text‑to‑image generation, GLM‑Image also supports a rich set of image‑to‑image tasks including image editing, style transfer, identity‑preserving generation, and multi‑subject consistency.</p>\n<p>Model architecture: a hybrid autoregressive + diffusion decoder design.</p>"
+    },
+    {
+      "id": "8767c05cec32",
+      "title": "kyutai just introduced Pocket TTS: a 100M-parameter text-to-speech model with high-quality voice cloning that runs on your laptop—no GPU required",
+      "content": "Blog post with demo: Pocket TTS: A high quality TTS that gives your CPU a voice: [https://kyutai.org/blog/2026-01-13-pocket-tts](https://kyutai.org/blog/2026-01-13-pocket-tts)\n\nGitHub: [https://github.com/kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts)\n\nHugging Face Model Card: [https://huggingface.co/kyutai/pocket-tts](https://huggingface.co/kyutai/pocket-tts)\n\narXiv:2509.06926 \\[cs.SD\\]: Continuous Audio Language Models  \nSimon Rouard, Manu Orsini, Axel Roebel, Neil Zeghidour, Alexandre Défossez  \n[https://arxiv.org/abs/2509.06926](https://arxiv.org/abs/2509.06926)\n\nFrom kyutai on 𝕏: [https://x.com/kyutai\\_labs/status/2011047335892303875](https://x.com/kyutai_labs/status/2011047335892303875)",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qbpz5l/kyutai_just_introduced_pocket_tts_a_100mparameter/",
+      "author": "u/Nunki08",
+      "published": "2026-01-13T04:25:26",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "New Model"
+      ],
+      "summary": "Kyutai releases Pocket TTS - a 100M parameter text-to-speech model capable of high-quality voice cloning that runs on CPU without GPU, achieving up to 20x realtime on CPU and 2000x on GPU.",
+      "importance_score": 90,
+      "reasoning": "High engagement (391 score, 81 comments) for a genuinely useful on-device TTS solution. Democratizes voice cloning for consumer hardware.",
+      "themes": [
+        "text_to_speech",
+        "on_device_ai",
+        "model_releases"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Kyutai releases Pocket TTS - a 100M parameter text-to-speech model capable of high-quality voice cloning that runs on CPU without GPU, achieving up to 20x realtime on CPU and 2000x on GPU.</p>",
+      "content_html": "<p>Blog post with demo: Pocket TTS: A high quality TTS that gives your CPU a voice: <a href=\"https://kyutai.org/blog/2026-01-13-pocket-tts\" target=\"_blank\" rel=\"noopener noreferrer\">https://kyutai.org/blog/2026-01-13-pocket-tts</a></p>\n<p>GitHub: <a href=\"https://github.com/kyutai-labs/pocket-tts\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/kyutai-labs/pocket-tts</a></p>\n<p>Hugging Face Model Card: <a href=\"https://huggingface.co/kyutai/pocket-tts\" target=\"_blank\" rel=\"noopener noreferrer\">https://huggingface.co/kyutai/pocket-tts</a></p>\n<p>arXiv:2509.06926 \\[cs.SD\\]: Continuous Audio Language Models</p>\n<p>Simon Rouard, Manu Orsini, Axel Roebel, Neil Zeghidour, Alexandre Défossez</p>\n<p><a href=\"https://arxiv.org/abs/2509.06926\" target=\"_blank\" rel=\"noopener noreferrer\">https://arxiv.org/abs/2509.06926</a></p>\n<p>From kyutai on 𝕏: <a href=\"https://x.com/kyutai_labs/status/2011047335892303875\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/kyutai\\_labs/status/2011047335892303875</a></p>"
+    },
+    {
+      "id": "0edf58796fd3",
+      "title": "Soprano TTS training code released: Create your own 2000x realtime on-device text-to-speech model with Soprano-Factory!",
+      "content": "Hello everyone!\n\nI’ve been listening to all your feedback on Soprano, and I’ve been working nonstop over these past three weeks to incorporate everything, so I have a TON of updates for you all!\n\nFor those of you who haven’t heard of Soprano before, it is an on-device text-to-speech model I designed to have highly natural intonation and quality with a small model footprint. It can run up to **20x realtime** on CPU, and up to **2000x** on GPU. It also supports lossless streaming with **15 ms latency**, an order of magnitude lower than any other TTS model. You can check out Soprano here:\n\n**Github:** [**https://github.com/ekwek1/soprano**](https://github.com/ekwek1/soprano) \n\n**Demo:**...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qc5nml/soprano_tts_training_code_released_create_your/",
+      "author": "u/eugenekwek",
+      "published": "2026-01-13T14:32:00",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "New Model"
+      ],
+      "summary": "Soprano TTS training code released, enabling users to create custom 2000x realtime on-device TTS models with 15ms latency streaming support.",
+      "importance_score": 88,
+      "reasoning": "Significant open-source release (313 score, 34 comments) with training code. Enables custom voice model creation, high educational and practical value.",
+      "themes": [
+        "text_to_speech",
+        "training_tools",
+        "open_source"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Soprano TTS training code released, enabling users to create custom 2000x realtime on-device TTS models with 15ms latency streaming support.</p>",
+      "content_html": "<p>Hello everyone!</p>\n<p>I’ve been listening to all your feedback on Soprano, and I’ve been working nonstop over these past three weeks to incorporate everything, so I have a TON of updates for you all!</p>\n<p>For those of you who haven’t heard of Soprano before, it is an on-device text-to-speech model I designed to have highly natural intonation and quality with a small model footprint. It can run up to <strong>20x realtime</strong> on CPU, and up to <strong>2000x</strong> on GPU. It also supports lossless streaming with <strong>15 ms latency</strong>, an order of magnitude lower than any other TTS model. You can check out Soprano here:</p>\n<p><strong>Github:</strong> <a href=\"https://github.com/ekwek1/soprano\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>https://github.com/ekwek1/soprano</strong></a></p>\n<p><strong>Demo:</strong>...</p>"
+    },
+    {
+      "id": "5db1e0fb1616",
+      "title": "[R] (DeepSeek) Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models",
+      "content": "GitHub: Engram: [https://github.com/deepseek-ai/Engram](https://github.com/deepseek-ai/Engram)  \narXiv:2601.07372 \\[cs.CL\\]: https://arxiv.org/abs/2601.07372  \n\"While Mixture-of-Experts (MoE) scales capacity via conditional computation, Transformers lack a native primitive for knowledge lookup, forcing them to inefficiently simulate retrieval through computation. To address this, we introduce conditional memory as a complementary sparsity axis, instantiated via Engram, a module that modernizes classic N-gram embedding for O(1) lookup. By formulating the Sparsity Allocation problem, we uncover a U-shaped scaling law that optimizes the trade-off between neural computation (MoE) and static memory (Engram). Guided by this law, we scale Engram to 27B parameters, achieving superior performance...",
+      "url": "https://reddit.com/r/MachineLearning/comments/1qbnkrn/r_deepseek_conditional_memory_via_scalable_lookup/",
+      "author": "u/Nunki08",
+      "published": "2026-01-13T02:07:06",
+      "source": "r/MachineLearning",
+      "source_type": "reddit",
+      "tags": [
+        "Research"
+      ],
+      "summary": "DeepSeek releases Engram - a conditional memory module introducing scalable lookup as a new sparsity axis for LLMs, complementing MoE architecture with native knowledge retrieval primitives.",
+      "importance_score": 85,
+      "reasoning": "Important architectural research from DeepSeek addressing fundamental transformer limitations. Novel approach to memory and retrieval in LLMs.",
+      "themes": [
+        "research_papers",
+        "architecture_innovation",
+        "deepseek"
+      ],
+      "continuation": null,
+      "summary_html": "<p>DeepSeek releases Engram - a conditional memory module introducing scalable lookup as a new sparsity axis for LLMs, complementing MoE architecture with native knowledge retrieval primitives.</p>",
+      "content_html": "<p>GitHub: Engram: <a href=\"https://github.com/deepseek-ai/Engram\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/deepseek-ai/Engram</a></p>\n<p>arXiv:2601.07372 \\[cs.CL\\]: https://arxiv.org/abs/2601.07372</p>\n<p>\"While Mixture-of-Experts (MoE) scales capacity via conditional computation, Transformers lack a native primitive for knowledge lookup, forcing them to inefficiently simulate retrieval through computation. To address this, we introduce conditional memory as a complementary sparsity axis, instantiated via Engram, a module that modernizes classic N-gram embedding for O(1) lookup. By formulating the Sparsity Allocation problem, we uncover a U-shaped scaling law that optimizes the trade-off between neural computation (MoE) and static memory (Engram). Guided by this law, we scale Engram to 27B parameters, achieving superior performance...</p>"
+    },
+    {
+      "id": "175214aa0234",
+      "title": "[R] Vision Transformers with Self-Distilled Registers, NeurIPS 2025",
+      "content": "So sharing some of our work we published at NeurIPS 2025 as a Spotlight.\n\nWeights and code are public (see ArXiv).\n\nTL;DR: Vision Transformers typically have artifacts in their ***dense features***. While the exact reason is unknown, there is consensus that adding so called \"***register***\" tokens mitigates this issue. These tokens participate in the self-attention process, but are not used for the output.\n\nWhen introduced with DINOv2 models in ICLR 2024, this requires vision transformers to be trained from scratch -- which obviously most people cannot afford.\n\nWe show that you can actually get the benefits of registers pretty cheaply ***with existing pre-trained models*** without ANY labeled images. You can leverage the semantic invariance of images under shift &amp; left-right flip...",
+      "url": "https://reddit.com/r/MachineLearning/comments/1qbtbfb/r_vision_transformers_with_selfdistilled/",
+      "author": "u/44seconds",
+      "published": "2026-01-13T06:51:15",
+      "source": "r/MachineLearning",
+      "source_type": "reddit",
+      "tags": [
+        "Research"
+      ],
+      "summary": "NeurIPS 2025 Spotlight paper on Vision Transformers with Self-Distilled Registers - addressing dense feature artifacts in ViTs without requiring pre-training with register tokens.",
+      "importance_score": 84,
+      "reasoning": "High-quality research paper from major venue with public weights. Practical solution to known ViT artifacts problem.",
+      "themes": [
+        "research_papers",
+        "vision_transformers",
+        "self_distillation"
+      ],
+      "continuation": null,
+      "summary_html": "<p>NeurIPS 2025 Spotlight paper on Vision Transformers with Self-Distilled Registers - addressing dense feature artifacts in ViTs without requiring pre-training with register tokens.</p>",
+      "content_html": "<p>So sharing some of our work we published at NeurIPS 2025 as a Spotlight.</p>\n<p>Weights and code are public (see ArXiv).</p>\n<p>TL;DR: Vision Transformers typically have artifacts in their *<strong>dense features</strong>*. While the exact reason is unknown, there is consensus that adding so called \"*<strong>register</strong>*\" tokens mitigates this issue. These tokens participate in the self-attention process, but are not used for the output.</p>\n<p>When introduced with DINOv2 models in ICLR 2024, this requires vision transformers to be trained from scratch -- which obviously most people cannot afford.</p>\n<p>We show that you can actually get the benefits of registers pretty cheaply *<strong>with existing pre-trained models</strong>* without ANY labeled images. You can leverage the semantic invariance of images under shift &amp; left-right flip...</p>"
+    },
+    {
+      "id": "181a3558288a",
+      "title": "[P] Awesome Physical AI – A curated list of academic papers and resources on Physical AI — focusing on VLA models, world models, embodied intelligence, and robotic foundation models.",
+      "content": "I've been compiling papers on Physical AI — the intersection of foundation models and robotics. This covers Vision-Language-Action (VLA) models like RT-2 and π₀, world models (DreamerV3, Genie 2, JEPA), diffusion policies, real-world deployment and latency problems, cross-embodiment transfer, scaling laws, and safety/alignment for robots.\n\nThe field has exploded in the past 18 months. We went from \"lets try llms on robotics\" to having so many dimensions to optimize for. so felt right to maintain a running list of resources.\n\nOrganized by: foundations → architectures → action representations → world models → learning paradigms → deployment → applications.\n\nContributions welcome — especially corrections and missing papers. ...",
+      "url": "https://reddit.com/r/MachineLearning/comments/1qc6ybk/p_awesome_physical_ai_a_curated_list_of_academic/",
+      "author": "u/kwk236",
+      "published": "2026-01-13T15:24:20",
+      "source": "r/MachineLearning",
+      "source_type": "reddit",
+      "tags": [
+        "Project"
+      ],
+      "summary": "Curated 'Awesome Physical AI' resource list covering VLA models (RT-2, π₀), world models (DreamerV3, Genie 2, JEPA), diffusion policies, and robotic foundation models.",
+      "importance_score": 82,
+      "reasoning": "High-value curated resource for rapidly evolving field. Covers important intersection of foundation models and robotics with educational value.",
+      "themes": [
+        "robotics",
+        "resource_compilation",
+        "embodied_ai"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Curated 'Awesome Physical AI' resource list covering VLA models (RT-2, π₀), world models (DreamerV3, Genie 2, JEPA), diffusion policies, and robotic foundation models.</p>",
+      "content_html": "<p>I've been compiling papers on Physical AI — the intersection of foundation models and robotics. This covers Vision-Language-Action (VLA) models like RT-2 and π₀, world models (DreamerV3, Genie 2, JEPA), diffusion policies, real-world deployment and latency problems, cross-embodiment transfer, scaling laws, and safety/alignment for robots.</p>\n<p>The field has exploded in the past 18 months. We went from \"lets try llms on robotics\" to having so many dimensions to optimize for. so felt right to maintain a running list of resources.</p>\n<p>Organized by: foundations → architectures → action representations → world models → learning paradigms → deployment → applications.</p>\n<p>Contributions welcome — especially corrections and missing papers. ...</p>"
+    },
+    {
+      "id": "dfeff2f2fa96",
+      "title": "FrogBoss 32B and FrogMini 14B from Microsoft",
+      "content": "FrogBoss is a 32B-parameter coding agent specialized in fixing bugs in code. FrogBoss was obtained by fine‑tuning a Qwen3‑32B language model on debugging trajectories generated by Claude Sonnet 4 within the [BugPilot framework](https://aka.ms/bug-pilot). The training data combines real‑world bugs from R2E‑Gym, synthetic bugs from SWE‑Smith, and novel “FeatAdd” bugs.\n\nFrogMini is a 14B-parameter coding agent specialized in fixing bugs in code. FrogMini was obtained by fine‑tuning a Qwen3‑14B language model on debugging trajectories generated by Claude Sonnet 4 within the [BugPilot framework](https://aka.ms/bug-pilot). The training data combines real‑world bugs from R2E‑Gym, synthetic bugs from SWE‑Smith, and novel “FeatAdd” bugs.\n\ncontext length...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qbp52n/frogboss_32b_and_frogmini_14b_from_microsoft/",
+      "author": "u/jacek2023",
+      "published": "2026-01-13T03:40:31",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "New Model"
+      ],
+      "summary": "Microsoft releases FrogBoss (32B) and FrogMini (14B) - coding agents specialized for bug fixing, fine-tuned from Qwen3 models on debugging trajectories.",
+      "importance_score": 80,
+      "reasoning": "Significant model release from Microsoft (56 score, 20 comments). Specialized coding agents with practical bug-fixing focus.",
+      "themes": [
+        "model_releases",
+        "coding_agents",
+        "microsoft"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Microsoft releases FrogBoss (32B) and FrogMini (14B) - coding agents specialized for bug fixing, fine-tuned from Qwen3 models on debugging trajectories.</p>",
+      "content_html": "<p>FrogBoss is a 32B-parameter coding agent specialized in fixing bugs in code. FrogBoss was obtained by fine‑tuning a Qwen3‑32B language model on debugging trajectories generated by Claude Sonnet 4 within the <a href=\"https://aka.ms/bug-pilot\" target=\"_blank\" rel=\"noopener noreferrer\">BugPilot framework</a>. The training data combines real‑world bugs from R2E‑Gym, synthetic bugs from SWE‑Smith, and novel “FeatAdd” bugs.</p>\n<p>FrogMini is a 14B-parameter coding agent specialized in fixing bugs in code. FrogMini was obtained by fine‑tuning a Qwen3‑14B language model on debugging trajectories generated by Claude Sonnet 4 within the <a href=\"https://aka.ms/bug-pilot\" target=\"_blank\" rel=\"noopener noreferrer\">BugPilot framework</a>. The training data combines real‑world bugs from R2E‑Gym, synthetic bugs from SWE‑Smith, and novel “FeatAdd” bugs.</p>\n<p>context length...</p>"
+    },
+    {
+      "id": "e914a081006e",
+      "title": "MedGemma 1.5: Next generation medical image interpretation with medical speech to text with MedASR",
+      "content": "",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qc53rf/medgemma_15_next_generation_medical_image/",
+      "author": "u/CheekyBastard55",
+      "published": "2026-01-13T14:11:12",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "New Model"
+      ],
+      "summary": "MedGemma 1.5 announced - next generation medical image interpretation model with medical speech-to-text (MedASR) capabilities.",
+      "importance_score": 79,
+      "reasoning": "Important domain-specific model release (81 score, 10 comments). Medical AI applications have high real-world impact.",
+      "themes": [
+        "medical_ai",
+        "model_releases",
+        "domain_specific"
+      ],
+      "continuation": null,
+      "summary_html": "<p>MedGemma 1.5 announced - next generation medical image interpretation model with medical speech-to-text (MedASR) capabilities.</p>",
+      "content_html": ""
+    },
+    {
+      "id": "8a789eb0cf3e",
+      "title": "My wishes for 2026",
+      "content": "Which do you think will happen first? And which won’t happen in 2026?",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qbw325/my_wishes_for_2026/",
+      "author": "u/jacek2023",
+      "published": "2026-01-13T08:35:06",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Community wishlist discussion for 2026 covering desired features, models, and developments in local LLM ecosystem.",
+      "importance_score": 78,
+      "reasoning": "Extremely high engagement (631 score, 178 comments) indicating strong community interest. Valuable for understanding community priorities and pain points.",
+      "themes": [
+        "community_discussion",
+        "future_predictions"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Community wishlist discussion for 2026 covering desired features, models, and developments in local LLM ecosystem.</p>",
+      "content_html": "<p>Which do you think will happen first? And which won’t happen in 2026?</p>"
+    },
+    {
+      "id": "a9396e168333",
+      "title": "What actually breaks when AI agents move from demos into real production workflows",
+      "content": "We have been building and evaluating agent-based systems in real production contexts, and one pattern keeps repeating.\n\nThe failures are rarely about model quality.\n\nThey tend to show up once workflows become multi-step and stateful: retries with side effects, partial execution, permission boundaries across tools, and the inability to answer “what exactly happened” after the fact.\n\nA lot of this feels less like an AI problem and more like classic distributed systems failure modes, just amplified by agent autonomy and non-determinism.\n\nI am curious how people here are handling execution control, auditability, and safe failure once agents are allowed to touch real systems.\n\nThere is also a longer discussion in a different format for anyone...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qc0w13/what_actually_breaks_when_ai_agents_move_from/",
+      "author": "u/saurabhjain1592",
+      "published": "2026-01-13T11:34:35",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Analysis of why AI agents fail in production - argues failures are rarely about model quality but about distributed systems issues like state management, retries with side effects, and observability",
+      "importance_score": 78,
+      "reasoning": "Valuable production insights on real-world agent deployment challenges, bridges AI and traditional distributed systems engineering",
+      "themes": [
+        "ai-agents-production",
+        "distributed-systems",
+        "engineering-lessons"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Analysis of why AI agents fail in production - argues failures are rarely about model quality but about distributed systems issues like state management, retries with side effects, and observability</p>",
+      "content_html": "<p>We have been building and evaluating agent-based systems in real production contexts, and one pattern keeps repeating.</p>\n<p>The failures are rarely about model quality.</p>\n<p>They tend to show up once workflows become multi-step and stateful: retries with side effects, partial execution, permission boundaries across tools, and the inability to answer “what exactly happened” after the fact.</p>\n<p>A lot of this feels less like an AI problem and more like classic distributed systems failure modes, just amplified by agent autonomy and non-determinism.</p>\n<p>I am curious how people here are handling execution control, auditability, and safe failure once agents are allowed to touch real systems.</p>\n<p>There is also a longer discussion in a different format for anyone...</p>"
+    },
+    {
+      "id": "e6dd4a706e48",
+      "title": "SPARKLE Announces Intel Arc Pro B60 24GB Graphics Card Series Launch on January 12, 2026 for USD $799 MSRP",
+      "content": "",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qbqmon/sparkle_announces_intel_arc_pro_b60_24gb_graphics/",
+      "author": "u/reps_up",
+      "published": "2026-01-13T04:58:16",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "News"
+      ],
+      "summary": "SPARKLE announces Intel Arc Pro B60 24GB graphics card at $799 MSRP - new option for local LLM inference.",
+      "importance_score": 77,
+      "reasoning": "Significant hardware news (82 score, 62 comments). New 24GB option expands affordable VRAM choices for local inference.",
+      "themes": [
+        "hardware",
+        "intel",
+        "gpu"
+      ],
+      "continuation": null,
+      "summary_html": "<p>SPARKLE announces Intel Arc Pro B60 24GB graphics card at $799 MSRP - new option for local LLM inference.</p>",
+      "content_html": ""
+    },
+    {
+      "id": "fb6d7959c21b",
+      "title": "NovaSR: A tiny 52kb audio upsampler that runs 3600x realtime.",
+      "content": "I released NovaSR which is a very tiny 52kb audio upsampler that enhances muffled 16khz audio to produce clearer 48khz audio. It's incredibly small and really fast(can process 100 to 3600 seconds of audio in just 1 second on a single gpu).\n\n  \nWhy is it useful?  \n1. It can enhance any TTS models quality. Most generate at 16khz or 24khz and NovaSR can enhance them with nearly 0 computation cost.\n\n2. It can restore low quality audio datasets really quickly.\n\n3. It can fit basically on any device. It's just 52kb which basically means its smaller then a 3 second audio file itself.\n\nRight now, it was only trained on just 100 hours of data so it has room for improvement, but it still produces good quality audio at such a tiny size.\n\n\n\nGithub repo:...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qc76dc/novasr_a_tiny_52kb_audio_upsampler_that_runs/",
+      "author": "u/SplitNice1982",
+      "published": "2026-01-13T15:33:38",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "New Model"
+      ],
+      "summary": "NovaSR released - tiny 52KB audio upsampler that runs 3600x realtime, enhancing 16kHz audio to 48kHz. Useful for improving TTS output quality.",
+      "importance_score": 76,
+      "reasoning": "Practical tool with extremely small footprint. Good engagement (71 score, 14 comments) for utility that complements TTS models.",
+      "themes": [
+        "audio_processing",
+        "tools",
+        "optimization"
+      ],
+      "continuation": null,
+      "summary_html": "<p>NovaSR released - tiny 52KB audio upsampler that runs 3600x realtime, enhancing 16kHz audio to 48kHz. Useful for improving TTS output quality.</p>",
+      "content_html": "<p>I released NovaSR which is a very tiny 52kb audio upsampler that enhances muffled 16khz audio to produce clearer 48khz audio. It's incredibly small and really fast(can process 100 to 3600 seconds of audio in just 1 second on a single gpu).</p>\n<p>Why is it useful?</p>\n<p>1. It can enhance any TTS models quality. Most generate at 16khz or 24khz and NovaSR can enhance them with nearly 0 computation cost.</p>\n<p>2. It can restore low quality audio datasets really quickly.</p>\n<p>3. It can fit basically on any device. It's just 52kb which basically means its smaller then a 3 second audio file itself.</p>\n<p>Right now, it was only trained on just 100 hours of data so it has room for improvement, but it still produces good quality audio at such a tiny size.</p>\n<p>Github repo:...</p>"
+    },
+    {
+      "id": "4dd243d69c58",
+      "title": "Nemotron 3 Super release soon?",
+      "content": "I found this entry in the autoconfig YAML of the TRT-LLM github repo from 3 days ago:\n\n[nvidia/NVIDIA-Nemotron-3-Super-120B-BF16-BF16KV-010726](https://github.com/NVIDIA/TensorRT-LLM/blob/main/examples/auto_deploy/model_registry/models.yaml)\n\nI was just wondering if we have a release date?\n\nI'm currently training nemotron 3 nano 30B to assess my current setup and was thinking to train final model on qwen's 3 next 80B, but if NVIDIA comes out with a 120B banger, I'm going for it!\n\nupdate:\n\n  \nFrom the model's config:\n\n[super\\_v3.yaml](https://github.com/NVIDIA/TensorRT-LLM/blob/92ae490410bcea243c4711132e66fd79c3eddc1e/examples/auto_deploy/super_v3.yaml#L4)  \n  \nWhat we can say is:\n\n* **Hybrid Mamba (SSM)**\n* **Mixture-of-Experts (MoE)**\n* **LatentMoE / MoLE-style latent projections**",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qbpf8s/nemotron_3_super_release_soon/",
+      "author": "u/Lorelabbestia",
+      "published": "2026-01-13T03:56:40",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "New Model"
+      ],
+      "summary": "Discovery of Nemotron 3 Super 120B entry in TensorRT-LLM config, speculation about imminent NVIDIA release.",
+      "importance_score": 75,
+      "reasoning": "High engagement (84 score, 50 comments) around potential major model release. Community speculation with concrete evidence.",
+      "themes": [
+        "model_releases",
+        "nvidia",
+        "speculation"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discovery of Nemotron 3 Super 120B entry in TensorRT-LLM config, speculation about imminent NVIDIA release.</p>",
+      "content_html": "<p>I found this entry in the autoconfig YAML of the TRT-LLM github repo from 3 days ago:</p>\n<p><a href=\"https://github.com/NVIDIA/TensorRT-LLM/blob/main/examples/auto_deploy/model_registry/models.yaml\" target=\"_blank\" rel=\"noopener noreferrer\">nvidia/NVIDIA-Nemotron-3-Super-120B-BF16-BF16KV-010726</a></p>\n<p>I was just wondering if we have a release date?</p>\n<p>I'm currently training nemotron 3 nano 30B to assess my current setup and was thinking to train final model on qwen's 3 next 80B, but if NVIDIA comes out with a 120B banger, I'm going for it!</p>\n<p>update:</p>\n<p>From the model's config:</p>\n<p><a href=\"https://github.com/NVIDIA/TensorRT-LLM/blob/92ae490410bcea243c4711132e66fd79c3eddc1e/examples/auto_deploy/super_v3.yaml#L4\" target=\"_blank\" rel=\"noopener noreferrer\">super\\_v3.yaml</a></p>\n<p>What we can say is:</p>\n<p>* <strong>Hybrid Mamba (SSM)</strong></p>\n<p>* <strong>Mixture-of-Experts (MoE)</strong></p>\n<p>* <strong>LatentMoE / MoLE-style latent projections</strong></p>"
+    },
+    {
+      "id": "07b708431ceb",
+      "title": "llms.py v3: Rebuilt with ComfyUI-style extensions, 530+ models, RAG, tools, image/audio gen",
+      "content": "**llms.py** is an open-source ChatGPT-style UI, API, and CLI for interacting with LLMs. v3 is a complete rewrite focused on extensibility.\n\n## What's New in v3\n\n- **530+ models from 24 providers** - Ollama, LMStudio, OpenAI, Gemini, DeepSeek, Anthropic, and more via [models.dev](https://models.dev) integration\n- **Extensions system** - ComfyUI-inspired plugin architecture. Install extensions with `llms --add &lt;name&gt;` or create your own\n- **Gemini RAG** - Drag &amp; drop documents, organize into categories, chat with your knowledge base\n- **Tool/function calling** - Python tools with automatic schema generation from type hints\n- **Image &amp; audio generation** - Built-in support for Google, OpenAI, OpenRouter, Chutes, Nvidia\n- **Run Code UI** - Execute Python, JS, TypeScript, C# in a...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qbqh06/llmspy_v3_rebuilt_with_comfyuistyle_extensions/",
+      "author": "u/mythz",
+      "published": "2026-01-13T04:50:23",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Resources"
+      ],
+      "summary": "Release announcement for llms.py v3, a complete rewrite featuring 530+ models from 24 providers, ComfyUI-inspired extension system, Gemini RAG, and tools support",
+      "importance_score": 75,
+      "reasoning": "Significant open-source project release with substantial technical features including multi-provider support and extensibility architecture",
+      "themes": [
+        "open-source-tools",
+        "local-llm-infrastructure",
+        "rag"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Release announcement for llms.py v3, a complete rewrite featuring 530+ models from 24 providers, ComfyUI-inspired extension system, Gemini RAG, and tools support</p>",
+      "content_html": "<p><strong>llms.py</strong> is an open-source ChatGPT-style UI, API, and CLI for interacting with LLMs. v3 is a complete rewrite focused on extensibility.</p>\n<p>## What's New in v3</p>\n<ul>\n<li><strong>530+ models from 24 providers</strong> - Ollama, LMStudio, OpenAI, Gemini, DeepSeek, Anthropic, and more via <a href=\"https://models.dev\" target=\"_blank\" rel=\"noopener noreferrer\">models.dev</a> integration</li>\n<li><strong>Extensions system</strong> - ComfyUI-inspired plugin architecture. Install extensions with `llms --add &lt;name&gt;` or create your own</li>\n<li><strong>Gemini RAG</strong> - Drag &amp; drop documents, organize into categories, chat with your knowledge base</li>\n<li><strong>Tool/function calling</strong> - Python tools with automatic schema generation from type hints</li>\n<li><strong>Image &amp; audio generation</strong> - Built-in support for Google, OpenAI, OpenRouter, Chutes, Nvidia</li>\n<li><strong>Run Code UI</strong> - Execute Python, JS, TypeScript, C# in a...</li>\n</ul>"
+    },
+    {
+      "id": "684046626cf2",
+      "title": "OpenAI’s  survey about 5.2 tone and guardrails",
+      "content": "https://preview.redd.it/pm43vb1jh3dg1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=f821922833ca17f33ebe9bdd3727f5a3c36ce9be\n\nhttps://preview.redd.it/dqcw7c1jh3dg1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=d929c639942b794fb3a38e4e2f02d4fb60f5637c\n\nYou get selected by ChatGPT. It'll pop up in the interface if you're invited, share your  frustrations, they finally pulled out a decent survey, give your feedbacks  and share your frustrations.",
+      "url": "https://reddit.com/r/ChatGPT/comments/1qbo2sl/openais_survey_about_52_tone_and_guardrails/",
+      "author": "u/Striking-Tour-8815",
+      "published": "2026-01-13T02:37:45",
+      "source": "r/ChatGPT",
+      "source_type": "reddit",
+      "tags": [
+        "GPTs:illuminati:"
+      ],
+      "summary": "OpenAI is conducting a survey about GPT 5.2 tone and guardrails, selected users can provide feedback directly",
+      "importance_score": 75,
+      "reasoning": "High engagement (38 score, 30 comments), significant news about OpenAI actively seeking user feedback on controversial model behavior changes",
+      "themes": [
+        "openai-feedback",
+        "model-behavior",
+        "guardrails",
+        "community-engagement"
+      ],
+      "continuation": null,
+      "summary_html": "<p>OpenAI is conducting a survey about GPT 5.2 tone and guardrails, selected users can provide feedback directly</p>",
+      "content_html": "<p>https://preview.redd.it/pm43vb1jh3dg1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=f821922833ca17f33ebe9bdd3727f5a3c36ce9be</p>\n<p>https://preview.redd.it/dqcw7c1jh3dg1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=d929c639942b794fb3a38e4e2f02d4fb60f5637c</p>\n<p>You get selected by ChatGPT. It'll pop up in the interface if you're invited, share your  frustrations, they finally pulled out a decent survey, give your feedbacks  and share your frustrations.</p>"
+    },
+    {
+      "id": "efa22f2f271b",
+      "title": "Owners, not renters: Mozilla's open source AI strategy",
+      "content": "",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qbz7h6/owners_not_renters_mozillas_open_source_ai/",
+      "author": "u/NelsonMinar",
+      "published": "2026-01-13T10:34:22",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Mozilla's open source AI strategy discussion - 'owners not renters' philosophy for AI development.",
+      "importance_score": 74,
+      "reasoning": "Important industry perspective (88 score, 8 comments) on open-source AI philosophy from established organization.",
+      "themes": [
+        "open_source",
+        "industry_strategy",
+        "mozilla"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Mozilla's open source AI strategy discussion - 'owners not renters' philosophy for AI development.</p>",
+      "content_html": ""
+    },
+    {
+      "id": "f8e469b41114",
+      "title": "EXAONE MoE support has been merged into llama.cpp",
+      "content": "# K-EXAONE-236B-A23B\n\n# [](https://huggingface.co/LGAI-EXAONE/K-EXAONE-236B-A23B#introduction)\n\n# Introduction\n\nWe introduce **K-EXAONE**, a large-scale multilingual language model developed by LG AI Research. Built using a Mixture-of-Experts architecture, K-EXAONE features **236 billion total** parameters, with **23 billion active** during inference. Performance evaluations across various benchmarks demonstrate that K-EXAONE excels in reasoning, agentic capabilities, general knowledge, multilingual understanding, and long-context processing.\n\n# [](https://huggingface.co/LGAI-EXAONE/K-EXAONE-236B-A23B#key-features)\n\n# Key Features\n\n* **Architecture &amp; Efficiency:** Features a 236B fine-grained MoE design (23B active) optimized with **Multi-Token Prediction (MTP)**, enabling...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qcff41/exaone_moe_support_has_been_merged_into_llamacpp/",
+      "author": "u/jacek2023",
+      "published": "2026-01-13T21:55:19",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "News"
+      ],
+      "summary": "EXAONE MoE (236B total, 23B active) support merged into llama.cpp, enabling local inference of large MoE model.",
+      "importance_score": 73,
+      "reasoning": "Practical infrastructure update enabling new model support. Important for llama.cpp ecosystem.",
+      "themes": [
+        "llama_cpp",
+        "moe",
+        "infrastructure"
+      ],
+      "continuation": null,
+      "summary_html": "<p>EXAONE MoE (236B total, 23B active) support merged into llama.cpp, enabling local inference of large MoE model.</p>",
+      "content_html": "<p># K-EXAONE-236B-A23B</p>\n<p># [](https://huggingface.co/LGAI-EXAONE/K-EXAONE-236B-A23B#introduction)</p>\n<p># Introduction</p>\n<p>We introduce <strong>K-EXAONE</strong>, a large-scale multilingual language model developed by LG AI Research. Built using a Mixture-of-Experts architecture, K-EXAONE features <strong>236 billion total</strong> parameters, with <strong>23 billion active</strong> during inference. Performance evaluations across various benchmarks demonstrate that K-EXAONE excels in reasoning, agentic capabilities, general knowledge, multilingual understanding, and long-context processing.</p>\n<p># [](https://huggingface.co/LGAI-EXAONE/K-EXAONE-236B-A23B#key-features)</p>\n<p># Key Features</p>\n<p>* <strong>Architecture &amp; Efficiency:</strong> Features a 236B fine-grained MoE design (23B active) optimized with <strong>Multi-Token Prediction (MTP)</strong>, enabling...</p>"
+    },
+    {
+      "id": "5f9948b0c035",
+      "title": "Jeff Bezos Says the AI Bubble is Like the Industrial Bubble",
+      "content": "Jeff Bezos: financial bubbles like 2008 are just bad. Industrial bubbles, like biotech in the 90s, can actually benefit society. \n\nAI is an industrial bubble, not a financial bubble – and that's an important distinction. \n\nInvestors may lose money, but when the dust settles, we still get the inventions.",
+      "url": "https://reddit.com/r/artificial/comments/1qc1dif/jeff_bezos_says_the_ai_bubble_is_like_the/",
+      "author": "u/SunAdvanced7940",
+      "published": "2026-01-13T11:52:04",
+      "source": "r/artificial",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Discussion on Google's narrative shift from being 'disrupted' by ChatGPT to having competitive LLMs (Gemini 3) and hardware (TPUs). Analysis of Google's AI positioning.",
+      "importance_score": 72,
+      "reasoning": "High engagement (88 score, 64 comments) on important industry dynamics. Good discussion of competitive landscape.",
+      "themes": [
+        "industry_analysis",
+        "google",
+        "market_dynamics"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discussion on Google's narrative shift from being 'disrupted' by ChatGPT to having competitive LLMs (Gemini 3) and hardware (TPUs). Analysis of Google's AI positioning.</p>",
+      "content_html": "<p>Jeff Bezos: financial bubbles like 2008 are just bad. Industrial bubbles, like biotech in the 90s, can actually benefit society.</p>\n<p>AI is an industrial bubble, not a financial bubble – and that's an important distinction.</p>\n<p>Investors may lose money, but when the dust settles, we still get the inventions.</p>"
+    },
+    {
+      "id": "b6977e99a292",
+      "title": "Introducing GLM-Image",
+      "content": "Introducing GLM-Image: A new milestone in open-source image generation.\n\nGLM-Image uses a hybrid auto-regressive plus diffusion architecture, combining strong global semantic understanding with high fidelity visual detail. It matches mainstream diffusion models in overall quality while excelling at text rendering and knowledge intensive generation.\n\nTech Blog: http://z.ai/blog/glm-image\n\nExperience it right now: http://huggingface.co/zai-org/GLM-Image\n\nGitHub: http://github.com/zai-org/GLM-Image\n\n",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qc9sw2/introducing_glmimage/",
+      "author": "u/ResearchCrafty1804",
+      "published": "2026-01-13T17:25:35",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "New Model"
+      ],
+      "summary": "Duplicate GLM-Image announcement on LocalLLaMA.",
+      "importance_score": 72,
+      "reasoning": "Secondary post for important model release (115 score, 12 comments).",
+      "themes": [
+        "model_releases",
+        "image_generation"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Duplicate GLM-Image announcement on LocalLLaMA.</p>",
+      "content_html": "<p>Introducing GLM-Image: A new milestone in open-source image generation.</p>\n<p>GLM-Image uses a hybrid auto-regressive plus diffusion architecture, combining strong global semantic understanding with high fidelity visual detail. It matches mainstream diffusion models in overall quality while excelling at text rendering and knowledge intensive generation.</p>\n<p>Tech Blog: http://z.ai/blog/glm-image</p>\n<p>Experience it right now: http://huggingface.co/zai-org/GLM-Image</p>\n<p>GitHub: http://github.com/zai-org/GLM-Image</p>"
+    },
+    {
+      "id": "eeda5bccb86a",
+      "title": "MCP, A2A, ACP, UCP - are we sleepwalking into another \"standards\" war controlled by the same companies?",
+      "content": "Anthropic has MCP. Google has A2A. OpenAI has ACP. Google just dropped UCP for commerce.\n\nThey're all \"open\", but let's be real - the specs are written by the big labs.\n\nLinux Foundation launched AAIF to govern all of this. Founding members? Anthropic, OpenAI, Google, Microsoft. The same players.\n\nMCP is probably the most useful one for local setups - tool connections work regardless of what model you're running. But A2A and the commerce protocols assume you're hitting hosted APIs.\n\nAnyone here running MCP servers with local models? Curious how the auth story works when there's no cloud identity provider in the loop.",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qbqazx/mcp_a2a_acp_ucp_are_we_sleepwalking_into_another/",
+      "author": "u/PutPurple844",
+      "published": "2026-01-13T04:42:06",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Discussion on proliferation of AI agent protocols (MCP, A2A, ACP, UCP) controlled by major labs despite being 'open'. Concerns about standards governance.",
+      "importance_score": 72,
+      "reasoning": "Important critical discussion (20 score, 17 comments) about standardization dynamics in AI ecosystem.",
+      "themes": [
+        "standards",
+        "protocols",
+        "industry_governance"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discussion on proliferation of AI agent protocols (MCP, A2A, ACP, UCP) controlled by major labs despite being 'open'. Concerns about standards governance.</p>",
+      "content_html": "<p>Anthropic has MCP. Google has A2A. OpenAI has ACP. Google just dropped UCP for commerce.</p>\n<p>They're all \"open\", but let's be real - the specs are written by the big labs.</p>\n<p>Linux Foundation launched AAIF to govern all of this. Founding members? Anthropic, OpenAI, Google, Microsoft. The same players.</p>\n<p>MCP is probably the most useful one for local setups - tool connections work regardless of what model you're running. But A2A and the commerce protocols assume you're hitting hosted APIs.</p>\n<p>Anyone here running MCP servers with local models? Curious how the auth story works when there's no cloud identity provider in the loop.</p>"
+    },
+    {
+      "id": "377498d2d836",
+      "title": "4B Agent SOTA model: AgentCPM-Explore",
+      "content": "Key highlights of AgentCPM-Explore include:\n\n* The **first full-parameter 4B agent model** to rank on **8 long-horizon and complex agent benchmarks**, including **GAIA, HLE, and BrowserComp**, in the on-device setting.\n* Capable of **over 100 rounds of continuous environment interaction**, supporting **multi-source information cross-validation**, **dynamic search strategy adjustment**, and **real-time verification of up-to-date information**, enabling sustained deep exploration until task completion.\n* **Fully open-sourced end-to-end**, including (1) **AgentRL**, a fully asynchronous reinforcement learning framework for agent training, (2) **AgentDock**, a unified management and scheduling platform for tool sandboxes, (3) **AgentToLeaP**, a one-click evaluation platform for agent...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qbproj/4b_agent_sota_model_agentcpmexplore/",
+      "author": "u/foldl-li",
+      "published": "2026-01-13T04:14:40",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "New Model"
+      ],
+      "summary": "AgentCPM-Explore released - first 4B full-parameter agent model ranking on 8 long-horizon benchmarks, capable of 100+ rounds of environment interaction.",
+      "importance_score": 72,
+      "reasoning": "Significant small agent model with strong benchmark performance for on-device use.",
+      "themes": [
+        "agents",
+        "small_models",
+        "model_releases"
+      ],
+      "continuation": null,
+      "summary_html": "<p>AgentCPM-Explore released - first 4B full-parameter agent model ranking on 8 long-horizon benchmarks, capable of 100+ rounds of environment interaction.</p>",
+      "content_html": "<p>Key highlights of AgentCPM-Explore include:</p>\n<p>* The <strong>first full-parameter 4B agent model</strong> to rank on <strong>8 long-horizon and complex agent benchmarks</strong>, including <strong>GAIA, HLE, and BrowserComp</strong>, in the on-device setting.</p>\n<p>* Capable of <strong>over 100 rounds of continuous environment interaction</strong>, supporting <strong>multi-source information cross-validation</strong>, <strong>dynamic search strategy adjustment</strong>, and <strong>real-time verification of up-to-date information</strong>, enabling sustained deep exploration until task completion.</p>\n<p>* <strong>Fully open-sourced end-to-end</strong>, including (1) <strong>AgentRL</strong>, a fully asynchronous reinforcement learning framework for agent training, (2) <strong>AgentDock</strong>, a unified management and scheduling platform for tool sandboxes, (3) <strong>AgentToLeaP</strong>, a one-click evaluation platform for agent...</p>"
+    },
+    {
+      "id": "f1277ab70703",
+      "title": "The Quantization Threshold: Why 4-bit Llama 3 405B still outperforms FP16 70B for multi-step reasoning.",
+      "content": "There’s a lot of debate about quantization loss, but after running some logic benchmarks, I’m convinced that \"Model Size &gt; Precision.\"\n\nWe ran a series of LSAT-style logic puzzles. The 405B model (quantized to 4-bit) maintained a 15% higher accuracy on multi-step deduction compared to the 70B at full FP16. This essentially means that for complex reasoning, we should stop worrying about bit-loss and start focusing on how to serve massive quants efficiently. What’s your experience with the reasoning degradation on GGUF vs EXL2 for the 405B?",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qc0rg5/the_quantization_threshold_why_4bit_llama_3_405b/",
+      "author": "u/Foreign-Job-8717",
+      "published": "2026-01-13T11:29:54",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Benchmark results suggesting 4-bit quantized Llama 405B outperforms FP16 70B by 15% on multi-step reasoning tasks, arguing model size matters more than precision",
+      "importance_score": 72,
+      "reasoning": "Technical benchmark with practical implications for model serving decisions, though would benefit from more rigorous methodology details",
+      "themes": [
+        "quantization",
+        "benchmarking",
+        "model-serving"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Benchmark results suggesting 4-bit quantized Llama 405B outperforms FP16 70B by 15% on multi-step reasoning tasks, arguing model size matters more than precision</p>",
+      "content_html": "<p>There’s a lot of debate about quantization loss, but after running some logic benchmarks, I’m convinced that \"Model Size &gt; Precision.\"</p>\n<p>We ran a series of LSAT-style logic puzzles. The 405B model (quantized to 4-bit) maintained a 15% higher accuracy on multi-step deduction compared to the 70B at full FP16. This essentially means that for complex reasoning, we should stop worrying about bit-loss and start focusing on how to serve massive quants efficiently. What’s your experience with the reasoning degradation on GGUF vs EXL2 for the 405B?</p>"
+    },
+    {
+      "id": "13b970d36460",
+      "title": "Beyond the Transformer: Why localized context windows are the next bottleneck for AGI.",
+      "content": "Everyone is chasing larger context windows (1M+), but the retrieval accuracy (Needle In A Haystack) is still sub-optimal for professional use. I’m theorizing that we’re hitting a physical limit of the Transformer architecture.\n\nThe future isn't a \"bigger window,\" but a better \"active memory\" management at the infrastructure level. I’d love to hear some thoughts on RAG-Hybrid architectures vs. native long-context models. Which one actually scales for enterprise knowledge bases?",
+      "url": "https://reddit.com/r/artificial/comments/1qc0xb4/beyond_the_transformer_why_localized_context/",
+      "author": "u/Foreign-Job-8717",
+      "published": "2026-01-13T11:35:52",
+      "source": "r/artificial",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Technical discussion on context window limitations as AGI bottleneck, comparing RAG-hybrid architectures vs native long-context models for enterprise use.",
+      "importance_score": 71,
+      "reasoning": "Good technical discussion (19 score, 21 comments) on fundamental architectural challenges.",
+      "themes": [
+        "architecture",
+        "context_windows",
+        "rag"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Technical discussion on context window limitations as AGI bottleneck, comparing RAG-hybrid architectures vs native long-context models for enterprise use.</p>",
+      "content_html": "<p>Everyone is chasing larger context windows (1M+), but the retrieval accuracy (Needle In A Haystack) is still sub-optimal for professional use. I’m theorizing that we’re hitting a physical limit of the Transformer architecture.</p>\n<p>The future isn't a \"bigger window,\" but a better \"active memory\" management at the infrastructure level. I’d love to hear some thoughts on RAG-Hybrid architectures vs. native long-context models. Which one actually scales for enterprise knowledge bases?</p>"
+    },
+    {
+      "id": "67b258148045",
+      "title": "Shadows-Gemma-3-1B: cold start reasoning from topk20 logprob distillation",
+      "content": "\n[Shadows-Gemma-1B](https://huggingface.co/Echo9Zulu/Shadows-Gemma-3-1B) was trained for the google tunix hackathon and is my first finetuning project. Trained on 1569 samples in ~10 minutes on TPUv5-8e, and around 20min on A40, Shadows-Gemma is a general reasoning model trained without RL, code or math data distilled from non reasoning teacher gemma-3-4b-it.\n\nWhen looking at topk20 logprob data, I noticed that some tokens appear early in the low ranks, and sort of float around until eventually being selected much later. It turns out, when the average distance between first appearance and selection is greater, the features we know from reasoning traces- backtracking, solution exploration, drafting, rewriting, were more prominent in the training data when \"persistence\" was higher. I'm...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qcd9m1/shadowsgemma31b_cold_start_reasoning_from_topk20/",
+      "author": "u/Echo9Zulu-",
+      "published": "2026-01-13T20:04:00",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "New Model"
+      ],
+      "summary": "Novel approach to training reasoning in small models: Shadows-Gemma-3-1B uses topk20 logprob distillation from non-reasoning teacher.",
+      "importance_score": 71,
+      "reasoning": "Interesting distillation technique (27 score, 7 comments) for enabling reasoning in small models without RL.",
+      "themes": [
+        "distillation",
+        "reasoning",
+        "small_models"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Novel approach to training reasoning in small models: Shadows-Gemma-3-1B uses topk20 logprob distillation from non-reasoning teacher.</p>",
+      "content_html": "<p><a href=\"https://huggingface.co/Echo9Zulu/Shadows-Gemma-3-1B\" target=\"_blank\" rel=\"noopener noreferrer\">Shadows-Gemma-1B</a> was trained for the google tunix hackathon and is my first finetuning project. Trained on 1569 samples in ~10 minutes on TPUv5-8e, and around 20min on A40, Shadows-Gemma is a general reasoning model trained without RL, code or math data distilled from non reasoning teacher gemma-3-4b-it.</p>\n<p>When looking at topk20 logprob data, I noticed that some tokens appear early in the low ranks, and sort of float around until eventually being selected much later. It turns out, when the average distance between first appearance and selection is greater, the features we know from reasoning traces- backtracking, solution exploration, drafting, rewriting, were more prominent in the training data when \"persistence\" was higher. I'm...</p>"
+    },
+    {
+      "id": "604cb9e205a2",
+      "title": "[P] Semantic caching for LLMs is way harder than it looks - here's what we learned",
+      "content": "Work at Bifrost and wanted to share how we built semantic caching into the gateway.\n\n**Architecture:**\n\n* Dual-layer: exact hash matching + vector similarity search\n* Use text-embedding-3-small for request embeddings\n* Weaviate for vector storage (sub-millisecond retrieval)\n* Configurable similarity threshold per use case\n\n**Key implementation decisions:**\n\n1. **Conversation-aware bypass** \\- Skip caching when conversation history exceeds threshold. Long contexts drift topics and cause false positives.\n2. **Model/provider isolation** \\- Separate cache namespaces per model and provider. GPT-4 responses shouldn't serve from Claude cache.\n3. **Per-request overrides** \\- Support custom TTL and threshold via headers. Some queries need strict matching, others benefit from loose thresholds.\n4....",
+      "url": "https://reddit.com/r/MachineLearning/comments/1qc0oll/p_semantic_caching_for_llms_is_way_harder_than_it/",
+      "author": "u/dinkinflika0",
+      "published": "2026-01-13T11:27:01",
+      "source": "r/MachineLearning",
+      "source_type": "reddit",
+      "tags": [
+        "Project"
+      ],
+      "summary": "Technical breakdown of semantic caching implementation for LLMs - dual-layer architecture with hash matching and vector similarity, conversation-aware bypass strategies.",
+      "importance_score": 70,
+      "reasoning": "Good technical depth on practical LLM infrastructure challenge. Educational implementation details.",
+      "themes": [
+        "infrastructure",
+        "caching",
+        "optimization"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Technical breakdown of semantic caching implementation for LLMs - dual-layer architecture with hash matching and vector similarity, conversation-aware bypass strategies.</p>",
+      "content_html": "<p>Work at Bifrost and wanted to share how we built semantic caching into the gateway.</p>\n<p><strong>Architecture:</strong></p>\n<p>* Dual-layer: exact hash matching + vector similarity search</p>\n<p>* Use text-embedding-3-small for request embeddings</p>\n<p>* Weaviate for vector storage (sub-millisecond retrieval)</p>\n<p>* Configurable similarity threshold per use case</p>\n<p><strong>Key implementation decisions:</strong></p>\n<p>1. <strong>Conversation-aware bypass</strong> \\- Skip caching when conversation history exceeds threshold. Long contexts drift topics and cause false positives.</p>\n<p>2. <strong>Model/provider isolation</strong> \\- Separate cache namespaces per model and provider. GPT-4 responses shouldn't serve from Claude cache.</p>\n<p>3. <strong>Per-request overrides</strong> \\- Support custom TTL and threshold via headers. Some queries need strict matching, others benefit from loose thresholds.</p>\n<p>4....</p>"
+    },
+    {
+      "id": "4f7b8ea976fb",
+      "title": "Signal creator Moxie Marlinspike wants to do for AI what he did for messaging",
+      "content": "\"Moxie Marlinspike—the pseudonym of an engineer who set a new standard for private messaging with the creation of the Signal Messenger—is now aiming to revolutionize AI chatbots in a similar way.\n\nHis latest brainchild is Confer, an open source AI assistant that provides strong assurances that user data is unreadable to the platform operator, hackers, law enforcement, or any other party other than account holders. The service—including its large language models and back-end components—runs entirely on open source software that users can cryptographically verify is in place.\n\nData and conversations originating from users and the resulting responses from the LLMs are encrypted in a trusted execution environment (TEE) that prevents even server administrators from peeking at or tampering with...",
+      "url": "https://reddit.com/r/artificial/comments/1qby3z0/signal_creator_moxie_marlinspike_wants_to_do_for/",
+      "author": "u/jferments",
+      "published": "2026-01-13T09:55:58",
+      "source": "r/artificial",
+      "source_type": "reddit",
+      "tags": [
+        "News"
+      ],
+      "summary": "Moxie Marlinspike (Signal creator) launches Confer - privacy-focused AI assistant with strong data protection running entirely in user-controlled confidential computing.",
+      "importance_score": 70,
+      "reasoning": "Important privacy-focused AI development from respected security expert.",
+      "themes": [
+        "privacy",
+        "security",
+        "ai_assistants"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Moxie Marlinspike (Signal creator) launches Confer - privacy-focused AI assistant with strong data protection running entirely in user-controlled confidential computing.</p>",
+      "content_html": "<p>\"Moxie Marlinspike—the pseudonym of an engineer who set a new standard for private messaging with the creation of the Signal Messenger—is now aiming to revolutionize AI chatbots in a similar way.</p>\n<p>His latest brainchild is Confer, an open source AI assistant that provides strong assurances that user data is unreadable to the platform operator, hackers, law enforcement, or any other party other than account holders. The service—including its large language models and back-end components—runs entirely on open source software that users can cryptographically verify is in place.</p>\n<p>Data and conversations originating from users and the resulting responses from the LLMs are encrypted in a trusted execution environment (TEE) that prevents even server administrators from peeking at or tampering with...</p>"
+    },
+    {
+      "id": "0d2518ad6f2c",
+      "title": "Built an 8× RTX 3090 monster… considering nuking it for 2× Pro 6000 Max-Q",
+      "content": "I’ve been running an 8× RTX 3090 box on an EPYC 7003 with an ASUS ROMED8-2T and 512 GB DDR4-3200.\n\nThe setup is not pretty. Lots of PCIe risers, I didn’t know about MCIO 8 months ago. The board has 7× x16 Gen4 slots, so for the 8th GPU I’m using an x8/x8 bifurcator plus a daisy-chained riser: motherboard to riser to bifurcator to GPU 1 on the bifurcator and GPU 2 on another riser. This is purely because of physical space and riser length limits.\n\nAs expected, things are weird. One GPU runs at x8, the other at x4, likely the daisy-chained riser but I haven’t had time to deep-debug. Another GPU shows up as x8 even when it shouldn’t, either a jumper I’m missing or a 3090 with a mining or modded vBIOS. Stability only became acceptable after forcing all PCIe slots to Gen3 Although I still see...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qc81si/built_an_8_rtx_3090_monster_considering_nuking_it/",
+      "author": "u/BeeNo7094",
+      "published": "2026-01-13T16:09:47",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Question | Help"
+      ],
+      "summary": "User shares experience building 8x RTX 3090 setup, considering switch to 2x Pro 6000 Max-Q. Detailed discussion of PCIe topology issues.",
+      "importance_score": 70,
+      "reasoning": "High comment engagement (165 comments) on practical multi-GPU setup challenges. Educational for hardware builders.",
+      "themes": [
+        "hardware",
+        "multi_gpu",
+        "troubleshooting"
+      ],
+      "continuation": null,
+      "summary_html": "<p>User shares experience building 8x RTX 3090 setup, considering switch to 2x Pro 6000 Max-Q. Detailed discussion of PCIe topology issues.</p>",
+      "content_html": "<p>I’ve been running an 8× RTX 3090 box on an EPYC 7003 with an ASUS ROMED8-2T and 512 GB DDR4-3200.</p>\n<p>The setup is not pretty. Lots of PCIe risers, I didn’t know about MCIO 8 months ago. The board has 7× x16 Gen4 slots, so for the 8th GPU I’m using an x8/x8 bifurcator plus a daisy-chained riser: motherboard to riser to bifurcator to GPU 1 on the bifurcator and GPU 2 on another riser. This is purely because of physical space and riser length limits.</p>\n<p>As expected, things are weird. One GPU runs at x8, the other at x4, likely the daisy-chained riser but I haven’t had time to deep-debug. Another GPU shows up as x8 even when it shouldn’t, either a jumper I’m missing or a 3090 with a mining or modded vBIOS. Stability only became acceptable after forcing all PCIe slots to Gen3 Although I still see...</p>"
+    },
+    {
+      "id": "51d4a7559b0e",
+      "title": "Built a security layer for self-hosted RAG - filters at the vector DB level, not after retrieval",
+      "content": "If you're running RAG locally with multiple users or document access levels, you've probably hit this problem: most implementations filter documents after retrieval. But by then, the unauthorized content has already been exposed to the retrieval layer.\n\n  \nI built RAGGuard to solve this. It translates permission policies into native vector DB filters, so unauthorized documents are never retrieved in the first place.\n\n  \nWorks with:\n\n\\- ChromaDB, Qdrant, pgvector, Milvus, Weaviate + 9 more\n\n\\- Any auth system (OPA, Cerbos, OpenFGA, or your own RBAC)\n\n\\- LangChain, LlamaIndex, LangGraph\n\n  \nFully open source (Apache 2.0):\n\n[https://github.com/maximus242/ragguard](https://github.com/maximus242/ragguard)\n\n  \npip install ragguard\n\n  \nWould love feedback from anyone running multi-tenant or...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qbrxtz/built_a_security_layer_for_selfhosted_rag_filters/",
+      "author": "u/Strange-Mastodon9490",
+      "published": "2026-01-13T05:55:57",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Resources"
+      ],
+      "summary": "Project announcement for RAGGuard - security layer that applies permission filters at vector DB level before retrieval, supports 12+ databases",
+      "importance_score": 70,
+      "reasoning": "Important security tooling for multi-user RAG deployments, addresses real access control gaps",
+      "themes": [
+        "rag-security",
+        "access-control",
+        "project-showcase"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Project announcement for RAGGuard - security layer that applies permission filters at vector DB level before retrieval, supports 12+ databases</p>",
+      "content_html": "<p>If you're running RAG locally with multiple users or document access levels, you've probably hit this problem: most implementations filter documents after retrieval. But by then, the unauthorized content has already been exposed to the retrieval layer.</p>\n<p>I built RAGGuard to solve this. It translates permission policies into native vector DB filters, so unauthorized documents are never retrieved in the first place.</p>\n<p>Works with:</p>\n<p>\\- ChromaDB, Qdrant, pgvector, Milvus, Weaviate + 9 more</p>\n<p>\\- Any auth system (OPA, Cerbos, OpenFGA, or your own RBAC)</p>\n<p>\\- LangChain, LlamaIndex, LangGraph</p>\n<p>Fully open source (Apache 2.0):</p>\n<p><a href=\"https://github.com/maximus242/ragguard\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/maximus242/ragguard</a></p>\n<p>pip install ragguard</p>\n<p>Would love feedback from anyone running multi-tenant or...</p>"
+    },
+    {
+      "id": "f34b53843ce8",
+      "title": "There's more than Python - we need more trained models and Benchmarks for Typescript and other major languages",
+      "content": "**IMPORTANT: This is NOT about porting any Python tooling to Typescript. I'm simply wondering why existing benchmarks and datasets used for training new LLMs are mainly focussed on Python codebases (!!).**\n\nSorry, I'm emotional right now. More and more models are now released in less and less time. They all seem to be amazing at first glance and looking at the benchmarks, but - COME ON, it seems they're all trained mainly on Python, benchmaxxed for benchmarks based on Python. Like, Python is the only major \"coding\" language on earth. I understand that most ppl working in AI stick to Python, and I'm totally fine with that, but they shouldn't assume everybody else is, too :D\n\nDon't understand this as an entitled request, please. Just look at...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qbts5v/theres_more_than_python_we_need_more_trained/",
+      "author": "u/Firm_Meeting6350",
+      "published": "2026-01-13T07:09:20",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Frustrated developer arguing that LLM training and benchmarks are overly Python-focused, TypeScript and other languages need better representation",
+      "importance_score": 70,
+      "reasoning": "Important meta-discussion about training data and benchmark biases affecting real-world code generation quality",
+      "themes": [
+        "training-data-bias",
+        "benchmarks",
+        "code-generation",
+        "typescript"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Frustrated developer arguing that LLM training and benchmarks are overly Python-focused, TypeScript and other languages need better representation</p>",
+      "content_html": "<p><strong>IMPORTANT: This is NOT about porting any Python tooling to Typescript. I'm simply wondering why existing benchmarks and datasets used for training new LLMs are mainly focussed on Python codebases (!!).</strong></p>\n<p>Sorry, I'm emotional right now. More and more models are now released in less and less time. They all seem to be amazing at first glance and looking at the benchmarks, but - COME ON, it seems they're all trained mainly on Python, benchmaxxed for benchmarks based on Python. Like, Python is the only major \"coding\" language on earth. I understand that most ppl working in AI stick to Python, and I'm totally fine with that, but they shouldn't assume everybody else is, too :D</p>\n<p>Don't understand this as an entitled request, please. Just look at...</p>"
+    },
+    {
+      "id": "690e1292bda8",
+      "title": "Best LLM model for 128GB of VRAM?",
+      "content": "My work requires the LLM to read tons of technical documents at a time and to provide insights (50 pages typically). I have a system of 8 x 5070 Ti running vllm (I need the prompt processing speed with at least 64k or 128k context). Right now I am running qwen3-32b and gptoss:120b but I am wondering if there are better choices than these two. \n\nAny suggestion would be much appreciated.",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qbmtuw/best_llm_model_for_128gb_of_vram/",
+      "author": "u/Professional-Yak4359",
+      "published": "2026-01-13T01:19:32",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "User seeking recommendations for 128GB VRAM setup (8x 5070 Ti) - comparing Qwen3-32B vs GPT-OSS:120B for technical document analysis.",
+      "importance_score": 69,
+      "reasoning": "Practical high-end setup discussion (55 score, 81 comments) with useful model comparisons.",
+      "themes": [
+        "hardware",
+        "model_selection",
+        "enterprise_use"
+      ],
+      "continuation": null,
+      "summary_html": "<p>User seeking recommendations for 128GB VRAM setup (8x 5070 Ti) - comparing Qwen3-32B vs GPT-OSS:120B for technical document analysis.</p>",
+      "content_html": "<p>My work requires the LLM to read tons of technical documents at a time and to provide insights (50 pages typically). I have a system of 8 x 5070 Ti running vllm (I need the prompt processing speed with at least 64k or 128k context). Right now I am running qwen3-32b and gptoss:120b but I am wondering if there are better choices than these two.</p>\n<p>Any suggestion would be much appreciated.</p>"
+    }
+  ]
+}

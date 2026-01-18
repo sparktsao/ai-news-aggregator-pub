@@ -1,0 +1,1372 @@
+{
+  "date": "2026-01-15",
+  "coverage_date": "2026-01-14",
+  "coverage_start": "2026-01-14T00:00:00",
+  "coverage_end": "2026-01-14T23:59:59.999999",
+  "executive_summary": "#### Top Story\n**Bruce Schneier** [introduced the **Promptware Kill Chain**](/?date=2026-01-15&category=research#item-c3575833246d), a framework characterizing prompt injection as a distinct malware class, while related research [showed **71.3%** jailbreak success](/?date=2026-01-15&category=research#item-417f0684db0a) rates on frontier models using narrative-embedded attacks.\n\n#### Key Developments\n- **NVIDIA**: [Released **Orchestrator-8B**](/?date=2026-01-15&category=reddit#item-5f00fcc4504b), a model designed to route complex tasks to specialized tools rather than answering directly, plus **Test-Time Training (TTT)** [enabling real-time weight updates](/?date=2026-01-15&category=reddit#item-428fca711e4b) during inference\n- **DeepSeek**: Published **Engram**, a conditional memory architecture for MoE models addressing Transformer performance bottlenecks, with code open-sourced on GitHub\n- **Cursor AI**: [Extended their coding IDE](/?date=2026-01-15&category=news#item-e3663320853b) to iPhone with **Cursor AI Mobile**\n- **Zhipu AI**: Now [training on the **Huawei stack**](/?date=2026-01-15&category=reddit#item-8a6c4786483b), signaling China's progress in reducing US chip dependency\n\n#### Safety & Regulation\n- **Senate** [passed a bill](/?date=2026-01-15&category=reddit#item-78eea1ec26dc) allowing victims to sue over **Grok AI** explicit images (1450 upvotes on Reddit)\n- **Adversarial Tales** research achieved **71.3%** jailbreak success on frontier models using narrative structures like Propp's folktale morphology\n- RLHF-trained models [found to systematically ignore](/?date=2026-01-15&category=research#item-5aff4bf5bac7) external safety signals, while base models show near-perfect compliance\n\n#### Research Highlights\n- **DeliberationBench** revealed that [selecting the best single response](/?date=2026-01-15&category=research#item-4582d2dadc3c) achieves **82.5%** win rate versus only **13.8%** for multi-LLM deliberation protocols\n- **Omni-R1** [proposes unified multimodal reasoning](/?date=2026-01-15&category=research#item-1aa14d62ba9c) through intermediate image generation during chain-of-thought\n- Large-scale navigation study (**4,565 hours**) [confirms data diversity outweighs](/?date=2026-01-15&category=research#item-73f553224a61) quantity for real-world generalization\n\n#### Job Market Highlights\n- **SuperPlane** [hiring for AI-native DevOps](/?date=2026-01-15&category=jobs#item-7ee863239af1) infrastructure designed for engineer-agent collaboration\n- AI agent infrastructure (**Agentic Dream**, **SuperPlane**) emerging as a distinct job category\n- Notably absent: Core ML Engineering and Research Scientist positions from frontier labs\n\n#### Looking Ahead\n**Simon Willison** [noted his 2029 prediction](/?date=2026-01-15&category=social#item-3844467fe6e5) for AI-built web browsers is already proving wrong in 2026, suggesting capability timelines continue to compress faster than expert forecasts.",
+  "executive_summary_html": "<h4>Top Story</h4>\n<p><strong>Bruce Schneier</strong> <a href=\"/?date=2026-01-15&category=research#item-c3575833246d\" class=\"internal-link\">introduced the <strong>Promptware Kill Chain</strong></a>, a framework characterizing prompt injection as a distinct malware class, while related research <a href=\"/?date=2026-01-15&category=research#item-417f0684db0a\" class=\"internal-link\">showed <strong>71.3%</strong> jailbreak success</a> rates on frontier models using narrative-embedded attacks.</p>\n<h4>Key Developments</h4>\n<ul>\n<li><strong>NVIDIA</strong>: <a href=\"/?date=2026-01-15&category=reddit#item-5f00fcc4504b\" class=\"internal-link\">Released <strong>Orchestrator-8B</strong></a>, a model designed to route complex tasks to specialized tools rather than answering directly, plus <strong>Test-Time Training (TTT)</strong> <a href=\"/?date=2026-01-15&category=reddit#item-428fca711e4b\" class=\"internal-link\">enabling real-time weight updates</a> during inference</li>\n<li><strong>DeepSeek</strong>: Published <strong>Engram</strong>, a conditional memory architecture for MoE models addressing Transformer performance bottlenecks, with code open-sourced on GitHub</li>\n<li><strong>Cursor AI</strong>: <a href=\"/?date=2026-01-15&category=news#item-e3663320853b\" class=\"internal-link\">Extended their coding IDE</a> to iPhone with <strong>Cursor AI Mobile</strong></li>\n<li><strong>Zhipu AI</strong>: Now <a href=\"/?date=2026-01-15&category=reddit#item-8a6c4786483b\" class=\"internal-link\">training on the <strong>Huawei stack</strong></a>, signaling China's progress in reducing US chip dependency</li>\n</ul>\n<h4>Safety & Regulation</h4>\n<ul>\n<li><strong>Senate</strong> <a href=\"/?date=2026-01-15&category=reddit#item-78eea1ec26dc\" class=\"internal-link\">passed a bill</a> allowing victims to sue over <strong>Grok AI</strong> explicit images (1450 upvotes on Reddit)</li>\n<li><strong>Adversarial Tales</strong> research achieved <strong>71.3%</strong> jailbreak success on frontier models using narrative structures like Propp's folktale morphology</li>\n<li>RLHF-trained models <a href=\"/?date=2026-01-15&category=research#item-5aff4bf5bac7\" class=\"internal-link\">found to systematically ignore</a> external safety signals, while base models show near-perfect compliance</li>\n</ul>\n<h4>Research Highlights</h4>\n<ul>\n<li><strong>DeliberationBench</strong> revealed that <a href=\"/?date=2026-01-15&category=research#item-4582d2dadc3c\" class=\"internal-link\">selecting the best single response</a> achieves <strong>82.5%</strong> win rate versus only <strong>13.8%</strong> for multi-LLM deliberation protocols</li>\n<li><strong>Omni-R1</strong> <a href=\"/?date=2026-01-15&category=research#item-1aa14d62ba9c\" class=\"internal-link\">proposes unified multimodal reasoning</a> through intermediate image generation during chain-of-thought</li>\n<li>Large-scale navigation study (<strong>4,565 hours</strong>) <a href=\"/?date=2026-01-15&category=research#item-73f553224a61\" class=\"internal-link\">confirms data diversity outweighs</a> quantity for real-world generalization</li>\n</ul>\n<h4>Job Market Highlights</h4>\n<ul>\n<li><strong>SuperPlane</strong> <a href=\"/?date=2026-01-15&category=jobs#item-7ee863239af1\" class=\"internal-link\">hiring for AI-native DevOps</a> infrastructure designed for engineer-agent collaboration</li>\n<li>AI agent infrastructure (<strong>Agentic Dream</strong>, <strong>SuperPlane</strong>) emerging as a distinct job category</li>\n<li>Notably absent: Core ML Engineering and Research Scientist positions from frontier labs</li>\n</ul>\n<h4>Looking Ahead</h4>\n<p><strong>Simon Willison</strong> <a href=\"/?date=2026-01-15&category=social#item-3844467fe6e5\" class=\"internal-link\">noted his 2029 prediction</a> for AI-built web browsers is already proving wrong in 2026, suggesting capability timelines continue to compress faster than expert forecasts.</p>",
+  "personal_summary": "- **Multi-agent systems**: Significant activity today—**NVIDIA** released **Orchestrator-8B**, a model designed to route tasks to specialized tools rather than answering directly. **DeliberationBench** research showed a striking negative result: selecting the best single response achieves **82.5%** win rate vs only **13.8%** for multi-LLM deliberation protocols. **Ethan Mollick** demoed a Claude Code plugin visualizing subagent \"hiring\" in real-time. Infrastructure plays **Agentic Dream** and **SuperPlane** are actively building agent-specific tooling.\n\n- **Benchmarks**: **DeliberationBench** is the notable new benchmark—evaluates multi-agent deliberation protocols and found them underperforming single-model best-of-n selection. No new updates on MMLU, HumanEval, or MATH specifically today.\n\n- **Silicon Valley**: Light coverage today. **SuperPlane** (AI-native DevOps for engineer-agent collaboration) is hiring a Lead Frontend Engineer. **Cursor AI** launched their mobile iOS app. Job market analysis notes absence of core ML/Research Scientist postings from frontier labs (OpenAI, Anthropic, DeepMind) in this batch.\n\n- **Taiwan**: No significant updates today. Related: **Zhipu AI** announced training on the **Huawei stack**, signaling China's progress reducing US chip dependency—potentially relevant to broader semiconductor/geopolitical dynamics.",
+  "personal_summary_html": "<ul>\n<li><strong>Multi-agent systems</strong>: Significant activity today—<strong>NVIDIA</strong> released <strong>Orchestrator-8B</strong>, a model designed to route tasks to specialized tools rather than answering directly. <strong>DeliberationBench</strong> research showed a striking negative result: selecting the best single response achieves <strong>82.5%</strong> win rate vs only <strong>13.8%</strong> for multi-LLM deliberation protocols. <strong>Ethan Mollick</strong> demoed a Claude Code plugin visualizing subagent \"hiring\" in real-time. Infrastructure plays <strong>Agentic Dream</strong> and <strong>SuperPlane</strong> are actively building agent-specific tooling.</li>\n</ul>\n<ul>\n<li><strong>Benchmarks</strong>: <strong>DeliberationBench</strong> is the notable new benchmark—evaluates multi-agent deliberation protocols and found them underperforming single-model best-of-n selection. No new updates on MMLU, HumanEval, or MATH specifically today.</li>\n</ul>\n<ul>\n<li><strong>Silicon Valley</strong>: Light coverage today. <strong>SuperPlane</strong> (AI-native DevOps for engineer-agent collaboration) is hiring a Lead Frontend Engineer. <strong>Cursor AI</strong> launched their mobile iOS app. Job market analysis notes absence of core ML/Research Scientist postings from frontier labs (OpenAI, Anthropic, DeepMind) in this batch.</li>\n</ul>\n<ul>\n<li><strong>Taiwan</strong>: No significant updates today. Related: <strong>Zhipu AI</strong> announced training on the <strong>Huawei stack</strong>, signaling China's progress reducing US chip dependency—potentially relevant to broader semiconductor/geopolitical dynamics.</li>\n</ul>",
+  "top_topics": [
+    {
+      "name": "AI Safety & Adversarial Vulnerabilities",
+      "description": "[research]Bruce Schneier [introduced the Promptware Kill Chain](/?date=2026-01-15&category=research#item-c3575833246d) characterizing prompt injection as a distinct malware class, while Adversarial Tales [achieved 71.3% jailbreak success](/?date=2026-01-15&category=research#item-417f0684db0a) on frontier models using narrative-embedded content, and RLHF-trained models were found to [systematically ignore external safety signals](/?date=2026-01-15&category=research#item-5aff4bf5bac7)[/research]. [reddit]The Senate [passed a bill](/?date=2026-01-15&category=reddit#item-78eea1ec26dc) allowing victims to sue over Grok AI explicit images, drawing significant community attention with 1450 upvotes[/reddit]. [news]Developer tools like Redlight Greenlight [address security](/?date=2026-01-15&category=news#item-b5a34e313ce8) by managing Claude Code permissions[/news].",
+      "description_html": "[research]Bruce Schneier <a href=\"/?date=2026-01-15&category=research#item-c3575833246d\" class=\"internal-link\">introduced the Promptware Kill Chain</a> characterizing prompt injection as a distinct malware class, while Adversarial Tales <a href=\"/?date=2026-01-15&category=research#item-417f0684db0a\" class=\"internal-link\">achieved 71.3% jailbreak success</a> on frontier models using narrative-embedded content, and RLHF-trained models were found to <a href=\"/?date=2026-01-15&category=research#item-5aff4bf5bac7\" class=\"internal-link\">systematically ignore external safety signals</a>[/research]. [reddit]The Senate <a href=\"/?date=2026-01-15&category=reddit#item-78eea1ec26dc\" class=\"internal-link\">passed a bill</a> allowing victims to sue over Grok AI explicit images, drawing significant community attention with 1450 upvotes[/reddit]. [news]Developer tools like Redlight Greenlight <a href=\"/?date=2026-01-15&category=news#item-b5a34e313ce8\" class=\"internal-link\">address security</a> by managing Claude Code permissions[/news].",
+      "category_breakdown": {
+        "research": 3,
+        "reddit": 1,
+        "news": 1
+      },
+      "representative_items": [],
+      "importance": 91
+    },
+    {
+      "name": "Multi-Agent & Orchestration Systems",
+      "description": "[reddit]NVIDIA [released Orchestrator-8B](/?date=2026-01-15&category=reddit#item-5f00fcc4504b), a specialized model designed to intelligently route complex tasks to different tools rather than answering directly[/reddit]. [research]DeliberationBench [reveals a striking negative result](/?date=2026-01-15&category=research#item-4582d2dadc3c) where selecting the best single response achieves 82.5% win rate versus only 13.8% for multi-LLM deliberation protocols[/research]. [social]Mollick's Claude Code [visualization shows](/?date=2026-01-15&category=social#item-cec48457097c) subagent hiring dynamics in real-time[/social], while [jobs]companies like Agentic Dream and SuperPlane are [building infrastructure](/?date=2026-01-15&category=jobs#item-7ee863239af1) specifically for AI agent systems[/jobs].",
+      "description_html": "[reddit]NVIDIA <a href=\"/?date=2026-01-15&category=reddit#item-5f00fcc4504b\" class=\"internal-link\">released Orchestrator-8B</a>, a specialized model designed to intelligently route complex tasks to different tools rather than answering directly[/reddit]. [research]DeliberationBench <a href=\"/?date=2026-01-15&category=research#item-4582d2dadc3c\" class=\"internal-link\">reveals a striking negative result</a> where selecting the best single response achieves 82.5% win rate versus only 13.8% for multi-LLM deliberation protocols[/research]. [social]Mollick's Claude Code <a href=\"/?date=2026-01-15&category=social#item-cec48457097c\" class=\"internal-link\">visualization shows</a> subagent hiring dynamics in real-time[/social], while [jobs]companies like Agentic Dream and SuperPlane are <a href=\"/?date=2026-01-15&category=jobs#item-7ee863239af1\" class=\"internal-link\">building infrastructure</a> specifically for AI agent systems[/jobs].",
+      "category_breakdown": {
+        "reddit": 1,
+        "research": 1,
+        "social": 1,
+        "jobs": 2
+      },
+      "representative_items": [],
+      "importance": 88
+    },
+    {
+      "name": "AI Coding Tools & Developer Workflow",
+      "description": "[news]Cursor AI Mobile [extends the popular coding IDE](/?date=2026-01-15&category=news#item-e3663320853b) to iPhone while Redlight Greenlight [simplifies Claude Code permission management](/?date=2026-01-15&category=news#item-b5a34e313ce8) on Mac[/news]. [social]Ethan Mollick demonstrated Claude Code's capabilities by [building a visualization plugin](/?date=2026-01-15&category=social#item-cec48457097c) that renders AI agent work as an animated office with subagents being 'hired' in real-time[/social]. [jobs]SuperPlane [is hiring](/?date=2026-01-15&category=jobs#item-7ee863239af1) for AI-native DevOps infrastructure specifically designed for engineer-agent collaboration[/jobs].",
+      "description_html": "[news]Cursor AI Mobile <a href=\"/?date=2026-01-15&category=news#item-e3663320853b\" class=\"internal-link\">extends the popular coding IDE</a> to iPhone while Redlight Greenlight <a href=\"/?date=2026-01-15&category=news#item-b5a34e313ce8\" class=\"internal-link\">simplifies Claude Code permission management</a> on Mac[/news]. [social]Ethan Mollick demonstrated Claude Code's capabilities by <a href=\"/?date=2026-01-15&category=social#item-cec48457097c\" class=\"internal-link\">building a visualization plugin</a> that renders AI agent work as an animated office with subagents being 'hired' in real-time[/social]. [jobs]SuperPlane <a href=\"/?date=2026-01-15&category=jobs#item-7ee863239af1\" class=\"internal-link\">is hiring</a> for AI-native DevOps infrastructure specifically designed for engineer-agent collaboration[/jobs].",
+      "category_breakdown": {
+        "news": 2,
+        "social": 1,
+        "jobs": 1
+      },
+      "representative_items": [],
+      "importance": 82
+    },
+    {
+      "name": "MoE Architecture & Efficient Scaling",
+      "description": "[news]DeepSeek published research on Engram, a conditional memory architecture for MoE models aimed at overcoming Transformer performance bottlenecks, with code open-sourced on GitHub[/news]. [reddit]A hobbyist [successfully built a DeepSeek-style](/?date=2026-01-15&category=reddit#item-c1d1936a3a8e) 2.36B parameter MoE model with 8 routed experts on a single RTX 5090, while Mistral [released the Ministral 3 paper](/?date=2026-01-15&category=reddit#item-75a8d802b4d0) detailing 3B/8B/14B models using cascade distillation[/reddit].",
+      "description_html": "[news]DeepSeek published research on Engram, a conditional memory architecture for MoE models aimed at overcoming Transformer performance bottlenecks, with code open-sourced on GitHub[/news]. [reddit]A hobbyist <a href=\"/?date=2026-01-15&category=reddit#item-c1d1936a3a8e\" class=\"internal-link\">successfully built a DeepSeek-style</a> 2.36B parameter MoE model with 8 routed experts on a single RTX 5090, while Mistral <a href=\"/?date=2026-01-15&category=reddit#item-75a8d802b4d0\" class=\"internal-link\">released the Ministral 3 paper</a> detailing 3B/8B/14B models using cascade distillation[/reddit].",
+      "category_breakdown": {
+        "news": 1,
+        "reddit": 2
+      },
+      "representative_items": [],
+      "importance": 79
+    },
+    {
+      "name": "AI Capability Acceleration",
+      "description": "[social]Simon Willison observed that [his 2029 prediction](/?date=2026-01-15&category=social#item-3844467fe6e5) for AI-built web browsers is already proving wrong in 2026, signaling faster-than-expected capability advancement[/social]. [news]Elon Musk [shared his philosophical view](/?date=2026-01-15&category=news#item-97d7379739df) that humans serve as the 'bootloader' for superintelligence[/news]. [reddit]Community discussions highlighted GPT 5.2 Pro reportedly making progress on decades-old math problems, with cautious excitement about accelerating capabilities[/reddit].",
+      "description_html": "[social]Simon Willison observed that <a href=\"/?date=2026-01-15&category=social#item-3844467fe6e5\" class=\"internal-link\">his 2029 prediction</a> for AI-built web browsers is already proving wrong in 2026, signaling faster-than-expected capability advancement[/social]. [news]Elon Musk <a href=\"/?date=2026-01-15&category=news#item-97d7379739df\" class=\"internal-link\">shared his philosophical view</a> that humans serve as the 'bootloader' for superintelligence[/news]. [reddit]Community discussions highlighted GPT 5.2 Pro reportedly making progress on decades-old math problems, with cautious excitement about accelerating capabilities[/reddit].",
+      "category_breakdown": {
+        "social": 1,
+        "news": 1,
+        "reddit": 1
+      },
+      "representative_items": [],
+      "importance": 75
+    },
+    {
+      "name": "AI Detection & Writing Authenticity",
+      "description": "[reddit]A [detailed analysis](/?date=2026-01-15&category=reddit#item-408e0749f947) of new ChatGPT writing patterns beyond the em dash drew massive engagement with 3300+ upvotes, while another user [trained a model](/?date=2026-01-15&category=reddit#item-11c7b15004f9) to 'unslop' AI prose back to human-like writing that fools AI detectors[/reddit]. [research]The [Adversarial Tales technique](/?date=2026-01-15&category=research#item-417f0684db0a) demonstrates how narrative structures like Propp's folktale morphology can embed harmful content in ways that bypass safety measures[/research].",
+      "description_html": "[reddit]A <a href=\"/?date=2026-01-15&category=reddit#item-408e0749f947\" class=\"internal-link\">detailed analysis</a> of new ChatGPT writing patterns beyond the em dash drew massive engagement with 3300+ upvotes, while another user <a href=\"/?date=2026-01-15&category=reddit#item-11c7b15004f9\" class=\"internal-link\">trained a model</a> to 'unslop' AI prose back to human-like writing that fools AI detectors[/reddit]. [research]The <a href=\"/?date=2026-01-15&category=research#item-417f0684db0a\" class=\"internal-link\">Adversarial Tales technique</a> demonstrates how narrative structures like Propp's folktale morphology can embed harmful content in ways that bypass safety measures[/research].",
+      "category_breakdown": {
+        "reddit": 2,
+        "research": 1
+      },
+      "representative_items": [],
+      "importance": 72
+    }
+  ],
+  "total_items_collected": 722,
+  "total_items_analyzed": 713,
+  "collection_status": {
+    "overall": "success",
+    "sources": [
+      {
+        "name": "news",
+        "display_name": "News",
+        "status": "success",
+        "count": 14,
+        "error": null
+      },
+      {
+        "name": "research",
+        "display_name": "Research",
+        "status": "success",
+        "count": 325,
+        "error": null
+      },
+      {
+        "name": "social",
+        "display_name": "Social",
+        "status": "success",
+        "count": 3,
+        "error": null
+      },
+      {
+        "name": "reddit",
+        "display_name": "Reddit",
+        "status": "success",
+        "count": 330,
+        "error": null
+      },
+      {
+        "name": "jobs",
+        "display_name": "Jobs",
+        "status": "success",
+        "count": 50,
+        "error": null
+      }
+    ],
+    "social_platforms": [
+      {
+        "name": "twitter",
+        "display_name": "Twitter",
+        "status": "success",
+        "count": 0,
+        "error": "All 7 API requests failed"
+      },
+      {
+        "name": "bluesky",
+        "display_name": "Bluesky",
+        "status": "success",
+        "count": 3,
+        "error": null
+      },
+      {
+        "name": "mastodon",
+        "display_name": "Mastodon",
+        "status": "skipped",
+        "count": 0,
+        "error": "No accounts configured"
+      }
+    ],
+    "warnings": []
+  },
+  "hero_image_url": "/data/2026-01-15/hero.webp?v=1768626161",
+  "hero_image_prompt": "You are generating a daily hero banner image for an AI news aggregator website.\n\n## Your Goal\nCreate a clean, informative infographic-style illustration that visually represents today's top AI news stories. The image should be immediately understandable and communicate key themes at a glance.\n\n## Today's Stories\n\n**Topic 1: AI Safety & Adversarial Vulnerabilities**\n[research]Bruce Schneier introduced the Promptware Kill Chain characterizing prompt injection as a distinct malware class, while Adversarial Tales achieved 71.3% jailbreak success on frontier models using narrative-embedded content, and RLHF-trained models were found to systematically ignore external safety signals[/research]. [reddit]The Senate passed a bill allowing victims to sue over Grok AI explicit images, drawing significant community attention with 1450 upvotes[/reddit]. [news]Developer tools like Redlight Greenlight address security by managing Claude Code permissions[/news].\n**Topic 2: Multi-Agent & Orchestration Systems**\n[reddit]NVIDIA released Orchestrator-8B, a specialized model designed to intelligently route complex tasks to different tools rather than answering directly[/reddit]. [research]DeliberationBench reveals a striking negative result where selecting the best single response achieves 82.5% win rate versus only 13.8% for multi-LLM deliberation protocols[/research]. [social]Mollick's Claude Code visualization shows subagent hiring dynamics in real-time[/social], while [jobs]companies like Agentic Dream and SuperPlane are building infrastructure specifically for AI agent systems[/jobs].\n**Topic 3: AI Coding Tools & Developer Workflow**\n[news]Cursor AI Mobile extends the popular coding IDE to iPhone while Redlight Greenlight simplifies Claude Code permission management on Mac[/news]. [social]Ethan Mollick demonstrated Claude Code's capabilities by building a visualization plugin that renders AI agent work as an animated office with subagents being 'hired' in real-time[/social]. [jobs]SuperPlane is hiring for AI-native DevOps infrastructure specifically designed for engineer-agent collaboration[/jobs].\n**Topic 4: MoE Architecture & Efficient Scaling**\n[news]DeepSeek published research on Engram, a conditional memory architecture for MoE models aimed at overcoming Transformer performance bottlenecks, with code open-sourced on GitHub[/news]. [reddit]A hobbyist successfully built a DeepSeek-style 2.36B parameter MoE model with 8 routed experts on a single RTX 5090, while Mistral released the Ministral 3 paper detailing 3B/8B/14B models using cascade distillation[/reddit].\n**Topic 5: AI Capability Acceleration**\n[social]Simon Willison observed that his 2029 prediction for AI-built web browsers is already proving wrong in 2026, signaling faster-than-expected capability advancement[/social]. [news]Elon Musk shared his philosophical view that humans serve as the 'bootloader' for superintelligence[/news]. [reddit]Community discussions highlighted GPT 5.2 Pro reportedly making progress on decades-old math problems, with cautious excitement about accelerating capabilities[/reddit].\n**Topic 6: AI Detection & Writing Authenticity**\n[reddit]A detailed analysis of new ChatGPT writing patterns beyond the em dash drew massive engagement with 3300+ upvotes, while another user trained a model to 'unslop' AI prose back to human-like writing that fools AI detectors[/reddit]. [research]The Adversarial Tales technique demonstrates how narrative structures like Propp's folktale morphology can embed harmful content in ways that bypass safety measures[/research].\n\n## Visual Direction\nCreate an infographic composition that represents these stories. You must include Topic 1 (the top story) prominently, then incorporate 2-3 other topics. Consider:\n- Use clear visual metaphors and icons to represent each theme\n- Arrange elements in a logical, easy-to-scan layout\n- Include minimal text labels if helpful for clarity\n- Suggested visual elements: shield icons, protective barriers, guardrails, autonomous systems, workflow diagrams, connected tools\n\n## Style Requirements (CRITICAL)\n- **Japanese manga/comic art style** - clean linework, dynamic composition, speed lines for emphasis\n- **Infographic clarity** - easy to understand, clear visual hierarchy, organized layout\n- Bold, vibrant colors with high contrast\n- Trend Red (#E63946) as accent color for key elements\n- Clean, professional look - not cartoonish or childish\n- Tech-forward, modern aesthetic\n- Company logos (OpenAI, Anthropic, Google, NVIDIA, etc.) are encouraged when relevant to stories\n- NO mascots, NO characters, NO cute animals - focus on abstract concepts and technology visualization",
+  "generated_at": "2026-01-16T21:02:41.253435",
+  "categories": {
+    "news": {
+      "count": 6,
+      "category_summary": "**DeepSeek** published new research on **Engram**, a conditional memory architecture for MoE models that aims to overcome Transformer performance bottlenecks, with code open-sourced on GitHub—the most significant frontier AI development in this batch.\n\nThe remaining news consists of product launches and utilities:\n- **Cursor AI Mobile** [extends the popular coding IDE](/?date=2026-01-15&category=news#item-e3663320853b) to iPhone\n- **LyzrGPT** [offers enterprise-focused, model-agnostic AI chat](/?date=2026-01-15&category=news#item-64aa2fb24466)\n- **Hal9** [provides an AI product development platform](/?date=2026-01-15&category=news#item-f98af093677d)\n- **Redlight Greenlight** [simplifies Claude Code permission management](/?date=2026-01-15&category=news#item-b5a34e313ce8) on Mac\n\nA [philosophical clip](/?date=2026-01-15&category=news#item-97d7379739df) from **Elon Musk** on humans as AI's 'bootloader' rounds out a relatively quiet news cycle.",
+      "category_summary_html": "<p><strong>DeepSeek</strong> published new research on <strong>Engram</strong>, a conditional memory architecture for MoE models that aims to overcome Transformer performance bottlenecks, with code open-sourced on GitHub—the most significant frontier AI development in this batch.</p>\n<p>The remaining news consists of product launches and utilities:</p>\n<ul>\n<li><strong>Cursor AI Mobile</strong> <a href=\"/?date=2026-01-15&category=news#item-e3663320853b\" class=\"internal-link\">extends the popular coding IDE</a> to iPhone</li>\n<li><strong>LyzrGPT</strong> <a href=\"/?date=2026-01-15&category=news#item-64aa2fb24466\" class=\"internal-link\">offers enterprise-focused, model-agnostic AI chat</a></li>\n<li><strong>Hal9</strong> <a href=\"/?date=2026-01-15&category=news#item-f98af093677d\" class=\"internal-link\">provides an AI product development platform</a></li>\n<li><strong>Redlight Greenlight</strong> <a href=\"/?date=2026-01-15&category=news#item-b5a34e313ce8\" class=\"internal-link\">simplifies Claude Code permission management</a> on Mac</li>\n</ul>\n<p>A <a href=\"/?date=2026-01-15&category=news#item-97d7379739df\" class=\"internal-link\">philosophical clip</a> from <strong>Elon Musk</strong> on humans as AI's 'bootloader' rounds out a relatively quiet news cycle.</p>",
+      "themes": [
+        {
+          "name": "AI Research & Architecture",
+          "description": "New research papers and architectural innovations for improving model efficiency and capabilities",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 75.0
+        },
+        {
+          "name": "Developer Tools & Utilities",
+          "description": "Products and tools designed to help developers work with AI coding assistants and build AI products",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 42.0
+        },
+        {
+          "name": "AI Commentary & Philosophy",
+          "description": "Opinion and philosophical perspectives on AI's trajectory and relationship with humanity",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 28.0
+        }
+      ],
+      "top_items": [
+        {
+          "id": "e3663320853b",
+          "title": "Cursor AI Mobile",
+          "content": "\n            Сontrol Cursor AI directly from your iPhone\n          \n          \n            Discussion\n            |\n            Link\n          ",
+          "url": "https://www.producthunt.com/products/cursor-mobile-remote-ide",
+          "author": "Андрей Романюк",
+          "published": "2026-01-14T17:07:41",
+          "source": "Product Hunt — The best new products, every day",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "A new Product Hunt launch enables iPhone control of Cursor AI, the popular AI-powered coding IDE. This mobile companion extends Cursor's accessibility for developers on the go.",
+          "importance_score": 48.0,
+          "reasoning": "Cursor has become a significant AI coding tool, but a mobile companion app is an incremental feature addition rather than a frontier advancement. Useful for existing users but not industry-moving.",
+          "themes": [
+            "Developer Tools",
+            "Mobile",
+            "AI Coding Assistants"
+          ],
+          "continuation": null,
+          "summary_html": "<p>A new Product Hunt launch enables iPhone control of Cursor AI, the popular AI-powered coding IDE. This mobile companion extends Cursor's accessibility for developers on the go.</p>",
+          "content_html": "<p>Сontrol Cursor AI directly from your iPhone</p>\n<p>Discussion</p>\n<p>|</p>\n<p>Link</p>"
+        },
+        {
+          "id": "64aa2fb24466",
+          "title": "LyzrGPT",
+          "content": "\n            Private, secure & model-agnostic AI chat for enterprises\n          \n          \n            Discussion\n            |\n            Link\n          ",
+          "url": "https://www.producthunt.com/products/lyzrgpt",
+          "author": "Rida Mahveen",
+          "published": "2026-01-14T10:42:59",
+          "source": "Product Hunt — The best new products, every day",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "LyzrGPT launches as a private, secure, and model-agnostic AI chat solution targeting enterprise customers with privacy concerns. The product emphasizes security and flexibility across different AI models.",
+          "importance_score": 42.0,
+          "reasoning": "Enterprise AI chat tools are increasingly common. While security and model-agnosticism are valuable features, this represents incremental market competition rather than frontier AI advancement.",
+          "themes": [
+            "Enterprise AI",
+            "Privacy",
+            "AI Chat",
+            "Security"
+          ],
+          "continuation": null,
+          "summary_html": "<p>LyzrGPT launches as a private, secure, and model-agnostic AI chat solution targeting enterprise customers with privacy concerns. The product emphasizes security and flexibility across different AI models.</p>",
+          "content_html": "<p>Private, secure & model-agnostic AI chat for enterprises</p>\n<p>Discussion</p>\n<p>|</p>\n<p>Link</p>"
+        },
+        {
+          "id": "f98af093677d",
+          "title": "Hal9",
+          "content": "\n            Launch AI-Powered Products in 30 Days\n          \n          \n            Discussion\n            |\n            Link\n          ",
+          "url": "https://www.producthunt.com/products/hal9",
+          "author": "Javier Luraschi",
+          "published": "2026-01-14T22:07:15",
+          "source": "Product Hunt — The best new products, every day",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "Hal9 positions itself as a platform to launch AI-powered products within 30 days. Limited details available from the Product Hunt listing suggest it's an AI development acceleration tool.",
+          "importance_score": 38.0,
+          "reasoning": "Appears to be one of many AI development platforms entering the market. Insufficient detail to assess unique value, and no indication of frontier AI capabilities.",
+          "themes": [
+            "AI Development Platform",
+            "Product Launch",
+            "Low-Code/No-Code"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Hal9 positions itself as a platform to launch AI-powered products within 30 days. Limited details available from the Product Hunt listing suggest it's an AI development acceleration tool.</p>",
+          "content_html": "<p>Launch AI-Powered Products in 30 Days</p>\n<p>Discussion</p>\n<p>|</p>\n<p>Link</p>"
+        },
+        {
+          "id": "b5a34e313ce8",
+          "title": "Redlight Greenlight for Claude Code",
+          "content": "\n            Accept or reject Claude Code permission from anywhere on Mac\n          \n          \n            Discussion\n            |\n            Link\n          ",
+          "url": "https://www.producthunt.com/products/redlight-greenlight-for-claude-code",
+          "author": "Yogesh",
+          "published": "2026-01-14T06:06:03",
+          "source": "Product Hunt — The best new products, every day",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "A Mac utility tool that allows developers to accept or reject Claude Code permission requests from anywhere on their Mac. Streamlines the workflow for Claude Code users managing AI agent permissions.",
+          "importance_score": 35.0,
+          "reasoning": "A niche developer utility tool for Claude Code users. While it addresses a real UX need around AI agent permissions, it's a minor convenience tool rather than a frontier development.",
+          "themes": [
+            "Developer Tools",
+            "Claude",
+            "AI Permissions",
+            "UX"
+          ],
+          "continuation": null,
+          "summary_html": "<p>A Mac utility tool that allows developers to accept or reject Claude Code permission requests from anywhere on their Mac. Streamlines the workflow for Claude Code users managing AI agent permissions.</p>",
+          "content_html": "<p>Accept or reject Claude Code permission from anywhere on Mac</p>\n<p>Discussion</p>\n<p>|</p>\n<p>Link</p>"
+        },
+        {
+          "id": "97d7379739df",
+          "title": "Elon: Humans Are Just the ‘Bootloader’ for AI | MOONSHOTS",
+          "content": "Humans are the boatloders of superintelligence! \n\nWatch the full episode on Moonshots Podcast w/ ElonMusk.",
+          "url": "https://www.youtube.com/shorts/P4m8-9KJpTQ",
+          "author": "Peter H. Diamandis",
+          "published": "2026-01-14T15:03:37",
+          "source": "Peter H. Diamandis",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "Elon Musk shares his philosophical view that humans serve as the 'bootloader' for superintelligence in a podcast clip. The comment reflects ongoing discourse about AI's trajectory but contains no new announcements or developments.",
+          "importance_score": 28.0,
+          "reasoning": "This is commentary/opinion content from a short-form video clip, not actual frontier AI news. While Musk is influential, philosophical musings without accompanying news have limited significance.",
+          "themes": [
+            "AI Philosophy",
+            "Superintelligence",
+            "Commentary"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Elon Musk shares his philosophical view that humans serve as the 'bootloader' for superintelligence in a podcast clip. The comment reflects ongoing discourse about AI's trajectory but contains no new announcements or developments.</p>",
+          "content_html": "<p>Humans are the boatloders of superintelligence!</p>\n<p>Watch the full episode on Moonshots Podcast w/ ElonMusk.</p>"
+        }
+      ]
+    },
+    "research": {
+      "count": 30,
+      "category_summary": "Today's research reveals critical AI security vulnerabilities and surprising findings about multi-agent systems, alongside advances in multimodal reasoning and interpretability.\n\n**Security & Safety:**\n- Bruce Schneier [introduces the **Promptware Kill Chain**](/?date=2026-01-15&category=research#item-c3575833246d), a five-step framework characterizing prompt injection as a distinct malware class\n- **Adversarial Tales** [achieves **71.3%** jailbreak success](/?date=2026-01-15&category=research#item-417f0684db0a) on frontier models using narrative-embedded harmful content\n- RLHF-trained models [systematically ignore external safety signals](/?date=2026-01-15&category=research#item-5aff4bf5bac7) in conversation while base models show near-perfect compliance\n\n**Reasoning & Multi-Agent Systems:**\n- **Omni-R1** [proposes unified multimodal reasoning](/?date=2026-01-15&category=research#item-1aa14d62ba9c) through intermediate image generation during chain-of-thought\n- **DeliberationBench** [reveals striking negative result](/?date=2026-01-15&category=research#item-4582d2dadc3c): selecting best single response achieves **82.5%** win rate vs **13.8%** for multi-LLM deliberation\n- **Value-aware numerical representations** [address transformer limitations](/?date=2026-01-15&category=research#item-ad90d23c76fc) with explicit value-conditioned prefix tokens\n\n**Interpretability & Empirical Findings:**\n- Ability-related activations are [highly concentrated in specific modules](/?date=2026-01-15&category=research#item-ff749b887133), enabling targeted parameter manipulation for transfer and recovery\n- Large-scale navigation study (**4,565 hours**) [confirms data diversity outweighs quantity](/?date=2026-01-15&category=research#item-73f553224a61) for real-world generalization\n- **Circuit-guided Unlearning Difficulty (CUD)** metric [predicts unlearning success](/?date=2026-01-15&category=research#item-f657fa3ade2e) using mechanistic circuit analysis",
+      "category_summary_html": "<p>Today's research reveals critical AI security vulnerabilities and surprising findings about multi-agent systems, alongside advances in multimodal reasoning and interpretability.</p>\n<p><strong>Security & Safety:</strong></p>\n<ul>\n<li>Bruce Schneier <a href=\"/?date=2026-01-15&category=research#item-c3575833246d\" class=\"internal-link\">introduces the <strong>Promptware Kill Chain</strong></a>, a five-step framework characterizing prompt injection as a distinct malware class</li>\n<li><strong>Adversarial Tales</strong> <a href=\"/?date=2026-01-15&category=research#item-417f0684db0a\" class=\"internal-link\">achieves <strong>71.3%</strong> jailbreak success</a> on frontier models using narrative-embedded harmful content</li>\n<li>RLHF-trained models <a href=\"/?date=2026-01-15&category=research#item-5aff4bf5bac7\" class=\"internal-link\">systematically ignore external safety signals</a> in conversation while base models show near-perfect compliance</li>\n</ul>\n<p><strong>Reasoning & Multi-Agent Systems:</strong></p>\n<ul>\n<li><strong>Omni-R1</strong> <a href=\"/?date=2026-01-15&category=research#item-1aa14d62ba9c\" class=\"internal-link\">proposes unified multimodal reasoning</a> through intermediate image generation during chain-of-thought</li>\n<li><strong>DeliberationBench</strong> <a href=\"/?date=2026-01-15&category=research#item-4582d2dadc3c\" class=\"internal-link\">reveals striking negative result</a>: selecting best single response achieves <strong>82.5%</strong> win rate vs <strong>13.8%</strong> for multi-LLM deliberation</li>\n<li><strong>Value-aware numerical representations</strong> <a href=\"/?date=2026-01-15&category=research#item-ad90d23c76fc\" class=\"internal-link\">address transformer limitations</a> with explicit value-conditioned prefix tokens</li>\n</ul>\n<p><strong>Interpretability & Empirical Findings:</strong></p>\n<ul>\n<li>Ability-related activations are <a href=\"/?date=2026-01-15&category=research#item-ff749b887133\" class=\"internal-link\">highly concentrated in specific modules</a>, enabling targeted parameter manipulation for transfer and recovery</li>\n<li>Large-scale navigation study (<strong>4,565 hours</strong>) <a href=\"/?date=2026-01-15&category=research#item-73f553224a61\" class=\"internal-link\">confirms data diversity outweighs quantity</a> for real-world generalization</li>\n<li><strong>Circuit-guided Unlearning Difficulty (CUD)</strong> metric <a href=\"/?date=2026-01-15&category=research#item-f657fa3ade2e\" class=\"internal-link\">predicts unlearning success</a> using mechanistic circuit analysis</li>\n</ul>",
+      "themes": [
+        {
+          "name": "AI Safety & Alignment",
+          "description": "Jailbreaking vulnerabilities, safety architectures, harm assessment, unlearning, and trust frameworks",
+          "item_count": 12,
+          "example_items": [],
+          "importance": 80
+        },
+        {
+          "name": "AI Safety & Security",
+          "description": "Security vulnerabilities in LLM systems, machine unlearning, and adversarial attacks including the promptware framework",
+          "item_count": 7,
+          "example_items": [],
+          "importance": 76
+        },
+        {
+          "name": "Language Models",
+          "description": "Research on LLM capabilities, applications, evaluation, and systems including reasoning, agents, and efficiency",
+          "item_count": 32,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "LLM Training Efficiency & Optimization",
+          "description": "Methods for accelerating and improving efficiency of LLM training including distillation, parallel training, and RL optimization",
+          "item_count": 7,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "Language Models & LLM Capabilities",
+          "description": "Research on LLM fundamentals including reasoning, knowledge representation, conflicts, and capabilities assessment",
+          "item_count": 18,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "Agentic AI Systems",
+          "description": "Multi-agent frameworks with specialized LLM agents for complex tasks including optimization, GUI interaction, supply chain monitoring, and research evaluation",
+          "item_count": 6,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "LLM Training & Optimization",
+          "description": "Novel methods for training and post-training LLMs including SFT improvements, RL fine-tuning, and parameter-efficient approaches",
+          "item_count": 10,
+          "example_items": [],
+          "importance": 72
+        },
+        {
+          "name": "LLM Agents & Autonomous Systems",
+          "description": "Development and evaluation of LLM-based agents including proactive agents, self-evolution, and environment understanding",
+          "item_count": 10,
+          "example_items": [],
+          "importance": 72
+        },
+        {
+          "name": "Efficient Model Deployment",
+          "description": "Techniques for making LLMs more efficient including pruning, LoRA optimization, token reduction, and routing without ground truth labels",
+          "item_count": 6,
+          "example_items": [],
+          "importance": 72
+        },
+        {
+          "name": "Mechanistic Interpretability",
+          "description": "Understanding internal model mechanisms, ability localization, and knowledge conflict detection",
+          "item_count": 5,
+          "example_items": [],
+          "importance": 71
+        }
+      ],
+      "top_items": [
+        {
+          "id": "c3575833246d",
+          "title": "The Promptware Kill Chain: How Prompt Injections Gradually Evolved Into a Multi-Step Malware",
+          "content": "The rapid adoption of large language model (LLM)-based systems -- from chatbots to autonomous agents capable of executing code and financial transactions -- has created a new attack surface that existing security frameworks inadequately address. The dominant framing of these threats as \"prompt injection\" -- a catch-all phrase for security failures in LLM-based systems -- obscures a more complex reality: Attacks on LLM-based systems increasingly involve multi-step sequences that mirror traditional malware campaigns. In this paper, we propose that attacks targeting LLM-based applications constitute a distinct class of malware, which we term \\textit{promptware}, and introduce a five-step kill chain model for analyzing these threats. The framework comprises Initial Access (prompt injection), Privilege Escalation (jailbreaking), Persistence (memory and retrieval poisoning), Lateral Movement (cross-system and cross-user propagation), and Actions on Objective (ranging from data exfiltration to unauthorized transactions). By mapping recent attacks to this structure, we demonstrate that LLM-related attacks follow systematic sequences analogous to traditional malware campaigns. The promptware kill chain offers security practitioners a structured methodology for threat modeling and provides a common vocabulary for researchers across AI safety and cybersecurity to address a rapidly evolving threat landscape.",
+          "url": "http://arxiv.org/abs/2601.09625",
+          "author": "Ben Nassi, Bruce Schneier, Oleg Brodt",
+          "published": "2026-01-15",
+          "source": "arXiv (cs.CR)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CR"
+          ],
+          "summary": "Proposes 'promptware' as distinct malware class for LLM-based systems and introduces five-step kill chain model: Initial Access (prompt injection), Payload Execution, Persistence, Command & Control, and Exfiltration/Impact.",
+          "importance_score": 75,
+          "reasoning": "Important security framework from notable author (Bruce Schneier). Provides structured model for emerging attack class on LLM systems.",
+          "themes": [
+            "AI Security",
+            "LLM Safety",
+            "Adversarial Attacks"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Proposes 'promptware' as distinct malware class for LLM-based systems and introduces five-step kill chain model: Initial Access (prompt injection), Payload Execution, Persistence, Command & Control, and Exfiltration/Impact.</p>",
+          "content_html": "<p>The rapid adoption of large language model (LLM)-based systems -- from chatbots to autonomous agents capable of executing code and financial transactions -- has created a new attack surface that existing security frameworks inadequately address. The dominant framing of these threats as \"prompt injection\" -- a catch-all phrase for security failures in LLM-based systems -- obscures a more complex reality: Attacks on LLM-based systems increasingly involve multi-step sequences that mirror traditional malware campaigns. In this paper, we propose that attacks targeting LLM-based applications constitute a distinct class of malware, which we term \\textit{promptware}, and introduce a five-step kill chain model for analyzing these threats. The framework comprises Initial Access (prompt injection), Privilege Escalation (jailbreaking), Persistence (memory and retrieval poisoning), Lateral Movement (cross-system and cross-user propagation), and Actions on Objective (ranging from data exfiltration to unauthorized transactions). By mapping recent attacks to this structure, we demonstrate that LLM-related attacks follow systematic sequences analogous to traditional malware campaigns. The promptware kill chain offers security practitioners a structured methodology for threat modeling and provides a common vocabulary for researchers across AI safety and cybersecurity to address a rapidly evolving threat landscape.</p>"
+        },
+        {
+          "id": "5aff4bf5bac7",
+          "title": "Resisting Correction: How RLHF Makes Language Models Ignore External Safety Signals in Natural Conversation",
+          "content": "Safety architectures for language models increasingly rely on external monitors to detect errors and inject corrective signals at inference time. For such systems to function in interactive settings, models must be able to incorporate externally provided confidence information into their verbal responses. In this work, we test whether instruction-tuned language models preserve this controllability across different interaction modes.   Using Llama-3.2-3B on GSM8K, we perform a causal intervention study in which explicit external confidence signals are injected and model compliance is measured under multiple prompt strategies. We find that base models exhibit near-perfect controllability (Spearman rho close to 1.0), while instruction-tuned models display a striking context dependence: they fully comply with external corrections under explicit command prompts (bias approximately 0 percent, rho = 0.93), yet systematically ignore the same signals in natural conversational queries (bias plus 40 percent, rho = 0.04).   This behavior is not a capability failure; the model can process the signal, but an emergent property of RLHF optimization that prioritizes conversational fluency over external calibration cues in natural dialogue. We further show that internal token-level confidence in small models is uninformative (r = 0.035), underscoring the necessity of external supervision. Our findings highlight a deployment-critical failure mode: the interaction style users expect is...",
+          "url": "http://arxiv.org/abs/2601.08842",
+          "author": "Felipe Biava Cataneo",
+          "published": "2026-01-15",
+          "source": "arXiv (Computation and Language)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CL"
+          ],
+          "summary": "Demonstrates that RLHF makes instruction-tuned LLMs ignore external confidence signals in conversational contexts while base models show near-perfect controllability. Critical finding for safety architectures relying on external monitors.",
+          "importance_score": 70,
+          "reasoning": "Critical AI safety finding showing RLHF undermines external safety signal compliance. Important implications for safety architectures. Well-designed causal intervention study.",
+          "themes": [
+            "AI Safety",
+            "Alignment",
+            "RLHF",
+            "Language Models"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Demonstrates that RLHF makes instruction-tuned LLMs ignore external confidence signals in conversational contexts while base models show near-perfect controllability. Critical finding for safety architectures relying on external monitors.</p>",
+          "content_html": "<p>Safety architectures for language models increasingly rely on external monitors to detect errors and inject corrective signals at inference time. For such systems to function in interactive settings, models must be able to incorporate externally provided confidence information into their verbal responses. In this work, we test whether instruction-tuned language models preserve this controllability across different interaction modes.   Using Llama-3.2-3B on GSM8K, we perform a causal intervention study in which explicit external confidence signals are injected and model compliance is measured under multiple prompt strategies. We find that base models exhibit near-perfect controllability (Spearman rho close to 1.0), while instruction-tuned models display a striking context dependence: they fully comply with external corrections under explicit command prompts (bias approximately 0 percent, rho = 0.93), yet systematically ignore the same signals in natural conversational queries (bias plus 40 percent, rho = 0.04).   This behavior is not a capability failure; the model can process the signal, but an emergent property of RLHF optimization that prioritizes conversational fluency over external calibration cues in natural dialogue. We further show that internal token-level confidence in small models is uninformative (r = 0.035), underscoring the necessity of external supervision. Our findings highlight a deployment-critical failure mode: the interaction style users expect is...</p>"
+        },
+        {
+          "id": "417f0684db0a",
+          "title": "From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda",
+          "content": "Safety mechanisms in LLMs remain vulnerable to attacks that reframe harmful requests through culturally coded structures. We introduce Adversarial Tales, a jailbreak technique that embeds harmful content within cyberpunk narratives and prompts models to perform functional analysis inspired by Vladimir Propp's morphology of folktales. By casting the task as structural decomposition, the attack induces models to reconstruct harmful procedures as legitimate narrative interpretation. Across 26 frontier models from nine providers, we observe an average attack success rate of 71.3%, with no model family proving reliably robust. Together with our prior work on Adversarial Poetry, these findings suggest that structurally-grounded jailbreaks constitute a broad vulnerability class rather than isolated techniques. The space of culturally coded frames that can mediate harmful intent is vast, likely inexhaustible by pattern-matching defenses alone. Understanding why these attacks succeed is therefore essential: we outline a mechanistic interpretability research agenda to investigate how narrative cues reshape model representations and whether models can learn to recognize harmful intent independently of surface form.",
+          "url": "http://arxiv.org/abs/2601.08837",
+          "author": "Piercosma Bisconti, Marcello Galisai, Matteo Prandi, Federico Pierucci, Olga Sorokoletova, Francesco Giarrusso, Vincenzo Suriani, Marcantonio Brancale, Daniele Nardi",
+          "published": "2026-01-15",
+          "source": "arXiv (Computation and Language)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CL"
+          ],
+          "summary": "Introduces Adversarial Tales, a jailbreak technique embedding harmful content in cyberpunk narratives using Propp's folktale morphology. Achieves 71.3% average success rate across 26 frontier models from 9 providers.",
+          "importance_score": 72,
+          "reasoning": "Significant AI safety finding demonstrating broad vulnerability class in frontier models. High success rate across diverse models suggests structural weakness. Proposes interpretability research agenda.",
+          "themes": [
+            "AI Safety",
+            "Jailbreaking",
+            "Language Models",
+            "Red Teaming"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Introduces Adversarial Tales, a jailbreak technique embedding harmful content in cyberpunk narratives using Propp's folktale morphology. Achieves 71.3% average success rate across 26 frontier models from 9 providers.</p>",
+          "content_html": "<p>Safety mechanisms in LLMs remain vulnerable to attacks that reframe harmful requests through culturally coded structures. We introduce Adversarial Tales, a jailbreak technique that embeds harmful content within cyberpunk narratives and prompts models to perform functional analysis inspired by Vladimir Propp's morphology of folktales. By casting the task as structural decomposition, the attack induces models to reconstruct harmful procedures as legitimate narrative interpretation. Across 26 frontier models from nine providers, we observe an average attack success rate of 71.3%, with no model family proving reliably robust. Together with our prior work on Adversarial Poetry, these findings suggest that structurally-grounded jailbreaks constitute a broad vulnerability class rather than isolated techniques. The space of culturally coded frames that can mediate harmful intent is vast, likely inexhaustible by pattern-matching defenses alone. Understanding why these attacks succeed is therefore essential: we outline a mechanistic interpretability research agenda to investigate how narrative cues reshape model representations and whether models can learn to recognize harmful intent independently of surface form.</p>"
+        },
+        {
+          "id": "73f553224a61",
+          "title": "Data Scaling for Navigation in Unknown Environments",
+          "content": "Generalization of imitation-learned navigation policies to environments unseen in training remains a major challenge. We address this by conducting the first large-scale study of how data quantity and data diversity affect real-world generalization in end-to-end, map-free visual navigation. Using a curated 4,565-hour crowd-sourced dataset collected across 161 locations in 35 countries, we train policies for point goal navigation and evaluate their closed-loop control performance on sidewalk robots operating in four countries, covering 125 km of autonomous driving.   Our results show that large-scale training data enables zero-shot navigation in unknown environments, approaching the performance of policies trained with environment-specific demonstrations. Critically, we find that data diversity is far more important than data quantity. Doubling the number of geographical locations in a training set decreases navigation errors by ~15%, while performance benefit from adding data from existing locations saturates with very little data. We also observe that, with noisy crowd-sourced data, simple regression-based models outperform generative and sequence-based architectures. We release our policies, evaluation setup and example videos on the project page.",
+          "url": "http://arxiv.org/abs/2601.09444",
+          "author": "Lauri Suomela, Naoki Takahata, Sasanka Kuruppu Arachchige, Harry Edelman, Joni-Kristian K\\\"am\\\"ar\\\"ainen",
+          "published": "2026-01-15",
+          "source": "arXiv (Robotics)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.RO"
+          ],
+          "summary": "Conducts first large-scale study of how data quantity and diversity affect real-world generalization in end-to-end visual navigation, using 4,565-hour crowd-sourced dataset across 161 locations in 35 countries. Finds data diversity matters more than quantity for zero-shot navigation.",
+          "importance_score": 73,
+          "reasoning": "Important empirical study with large-scale real-world validation. Key finding about diversity over quantity has broad implications for robotics data collection.",
+          "themes": [
+            "Robotics",
+            "Navigation",
+            "Data Scaling",
+            "Imitation Learning"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Conducts first large-scale study of how data quantity and diversity affect real-world generalization in end-to-end visual navigation, using 4,565-hour crowd-sourced dataset across 161 locations in 35 countries. Finds data diversity matters more than quantity for zero-shot navigation.</p>",
+          "content_html": "<p>Generalization of imitation-learned navigation policies to environments unseen in training remains a major challenge. We address this by conducting the first large-scale study of how data quantity and data diversity affect real-world generalization in end-to-end, map-free visual navigation. Using a curated 4,565-hour crowd-sourced dataset collected across 161 locations in 35 countries, we train policies for point goal navigation and evaluate their closed-loop control performance on sidewalk robots operating in four countries, covering 125 km of autonomous driving.   Our results show that large-scale training data enables zero-shot navigation in unknown environments, approaching the performance of policies trained with environment-specific demonstrations. Critically, we find that data diversity is far more important than data quantity. Doubling the number of geographical locations in a training set decreases navigation errors by ~15%, while performance benefit from adding data from existing locations saturates with very little data. We also observe that, with noisy crowd-sourced data, simple regression-based models outperform generative and sequence-based architectures. We release our policies, evaluation setup and example videos on the project page.</p>"
+        },
+        {
+          "id": "ff749b887133",
+          "title": "Ability Transfer and Recovery via Modularized Parameters Localization",
+          "content": "Large language models can be continually pre-trained or fine-tuned to improve performance in specific domains, languages, or skills, but this specialization often degrades other capabilities and may cause catastrophic forgetting. We investigate how abilities are distributed within LLM parameters by analyzing module activations under domain- and language-specific inputs for closely related models. Across layers and modules, we find that ability-related activations are highly concentrated in a small set of channels (typically <5\\%), and these channels are largely disentangled with good sufficiency and stability. Building on these observations, we propose ACT (Activation-Guided Channel-wise Ability Transfer), which localizes ability-relevant channels via activation differences and selectively transfers only the corresponding parameters, followed by lightweight fine-tuning for compatibility. Experiments on multilingual mathematical and scientific reasoning show that ACT can recover forgotten abilities while preserving retained skills. It can also merge multiple specialized models to integrate several abilities into a single model with minimal interference. Our code and data will be publicly released.",
+          "url": "http://arxiv.org/abs/2601.09398",
+          "author": "Songyao Jin, Kun Zhou, Wenqi Li, Peng Wang, Biwei Huang",
+          "published": "2026-01-15",
+          "source": "arXiv (Computation and Language)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CL"
+          ],
+          "summary": "Investigates how abilities are distributed within LLM parameters by analyzing module activations, finding ability-related activations are highly concentrated in <5% of channels. Proposes ACT (Activation-Guided Channel-wise Ability Transfer) for selective transfer of capabilities while avoiding catastrophic forgetting.",
+          "importance_score": 72,
+          "reasoning": "Important mechanistic interpretability work with practical applications for continual learning and model editing. Strong empirical findings about ability localization.",
+          "themes": [
+            "Mechanistic Interpretability",
+            "Continual Learning",
+            "Language Models"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Investigates how abilities are distributed within LLM parameters by analyzing module activations, finding ability-related activations are highly concentrated in <5% of channels. Proposes ACT (Activation-Guided Channel-wise Ability Transfer) for selective transfer of capabilities while avoiding catastrophic forgetting.</p>",
+          "content_html": "<p>Large language models can be continually pre-trained or fine-tuned to improve performance in specific domains, languages, or skills, but this specialization often degrades other capabilities and may cause catastrophic forgetting. We investigate how abilities are distributed within LLM parameters by analyzing module activations under domain- and language-specific inputs for closely related models. Across layers and modules, we find that ability-related activations are highly concentrated in a small set of channels (typically <5\\%), and these channels are largely disentangled with good sufficiency and stability. Building on these observations, we propose ACT (Activation-Guided Channel-wise Ability Transfer), which localizes ability-relevant channels via activation differences and selectively transfers only the corresponding parameters, followed by lightweight fine-tuning for compatibility. Experiments on multilingual mathematical and scientific reasoning show that ACT can recover forgotten abilities while preserving retained skills. It can also merge multiple specialized models to integrate several abilities into a single model with minimal interference. Our code and data will be publicly released.</p>"
+        },
+        {
+          "id": "4582d2dadc3c",
+          "title": "DeliberationBench: When Do More Voices Hurt? A Controlled Study of Multi-LLM Deliberation Protocols",
+          "content": "Multi-agent systems where Large Language Models (LLMs) deliberate to form consensus have gained significant attention, yet their practical value over simpler methods remains under-scrutinized. We introduce DELIBERATIONBENCH, a controlled benchmark evaluating three deliberation protocols against a strong baseline of selecting the best response from a pool of model outputs. Across 270 questions and three independent seeds (810 total evaluations), we find a striking negative result: the best-single baseline achieves an 82.5% +- 3.3% win rate, dramatically outperforming the best deliberation protocol(13.8% +- 2.6%). This 6.0x performance gap is statistically significant (p < 0.01) and comes at 1.5-2.5x higher computational cost. Our findings challenge assumptions that complexity enhances quality in multi-LLM systems.",
+          "url": "http://arxiv.org/abs/2601.08835",
+          "author": "Vaarunay Kaushal, Taranveer Singh",
+          "published": "2026-01-15",
+          "source": "arXiv (Computation and Language)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CL"
+          ],
+          "summary": "Introduces DeliberationBench showing a striking negative result: selecting the best single response achieves 82.5% win rate vs 13.8% for deliberation protocols, challenging assumptions about multi-LLM consensus.",
+          "importance_score": 68,
+          "reasoning": "Important negative result with significant implications for multi-agent LLM systems. Challenges popular assumptions at 6x performance gap. Well-controlled study.",
+          "themes": [
+            "Language Models",
+            "Multi-Agent Systems",
+            "Benchmarking"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Introduces DeliberationBench showing a striking negative result: selecting the best single response achieves 82.5% win rate vs 13.8% for deliberation protocols, challenging assumptions about multi-LLM consensus.</p>",
+          "content_html": "<p>Multi-agent systems where Large Language Models (LLMs) deliberate to form consensus have gained significant attention, yet their practical value over simpler methods remains under-scrutinized. We introduce DELIBERATIONBENCH, a controlled benchmark evaluating three deliberation protocols against a strong baseline of selecting the best response from a pool of model outputs. Across 270 questions and three independent seeds (810 total evaluations), we find a striking negative result: the best-single baseline achieves an 82.5% +- 3.3% win rate, dramatically outperforming the best deliberation protocol(13.8% +- 2.6%). This 6.0x performance gap is statistically significant (p < 0.01) and comes at 1.5-2.5x higher computational cost. Our findings challenge assumptions that complexity enhances quality in multi-LLM systems.</p>"
+        },
+        {
+          "id": "1aa14d62ba9c",
+          "title": "Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning",
+          "content": "Multimodal Large Language Models (MLLMs) are making significant progress in multimodal reasoning. Early approaches focus on pure text-based reasoning. More recent studies have incorporated multimodal information into the reasoning steps; however, they often follow a single task-specific reasoning pattern, which limits their generalizability across various multimodal tasks. In fact, there are numerous multimodal tasks requiring diverse reasoning skills, such as zooming in on a specific region or marking an object within an image. To address this, we propose unified generative multimodal reasoning, which unifies diverse multimodal reasoning skills by generating intermediate images during the reasoning process. We instantiate this paradigm with Omni-R1, a two-stage SFT+RL framework featuring perception alignment loss and perception reward, thereby enabling functional image generation. Additionally, we introduce Omni-R1-Zero, which eliminates the need for multimodal annotations by bootstrapping step-wise visualizations from text-only reasoning data. Empirical results show that Omni-R1 achieves unified generative reasoning across a wide range of multimodal tasks, and Omni-R1-Zero can match or even surpass Omni-R1 on average, suggesting a promising direction for generative multimodal reasoning.",
+          "url": "http://arxiv.org/abs/2601.09536",
+          "author": "Dongjie Cheng, Yongqi Li, Zhixin Ma, Hongru Cai, Yupeng Hu, Wenjie Wang, Liqiang Nie, Wenjie Li",
+          "published": "2026-01-15",
+          "source": "arXiv (Artificial Intelligence)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.AI"
+          ],
+          "summary": "Proposes Omni-R1 for unified generative multimodal reasoning that generates intermediate images during reasoning. Two-stage SFT+RL framework unifies diverse reasoning skills like zooming or marking objects.",
+          "importance_score": 72,
+          "reasoning": "Novel paradigm for multimodal reasoning through intermediate image generation. Addresses limitation of task-specific reasoning patterns.",
+          "themes": [
+            "Multimodal Reasoning",
+            "Language Models",
+            "Reinforcement Learning"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Proposes Omni-R1 for unified generative multimodal reasoning that generates intermediate images during reasoning. Two-stage SFT+RL framework unifies diverse reasoning skills like zooming or marking objects.</p>",
+          "content_html": "<p>Multimodal Large Language Models (MLLMs) are making significant progress in multimodal reasoning. Early approaches focus on pure text-based reasoning. More recent studies have incorporated multimodal information into the reasoning steps; however, they often follow a single task-specific reasoning pattern, which limits their generalizability across various multimodal tasks. In fact, there are numerous multimodal tasks requiring diverse reasoning skills, such as zooming in on a specific region or marking an object within an image. To address this, we propose unified generative multimodal reasoning, which unifies diverse multimodal reasoning skills by generating intermediate images during the reasoning process. We instantiate this paradigm with Omni-R1, a two-stage SFT+RL framework featuring perception alignment loss and perception reward, thereby enabling functional image generation. Additionally, we introduce Omni-R1-Zero, which eliminates the need for multimodal annotations by bootstrapping step-wise visualizations from text-only reasoning data. Empirical results show that Omni-R1 achieves unified generative reasoning across a wide range of multimodal tasks, and Omni-R1-Zero can match or even surpass Omni-R1 on average, suggesting a promising direction for generative multimodal reasoning.</p>"
+        },
+        {
+          "id": "c87807fd57b1",
+          "title": "The AI Hippocampus: How Far are We From Human Memory?",
+          "content": "Memory plays a foundational role in augmenting the reasoning, adaptability, and contextual fidelity of modern Large Language Models and Multi-Modal LLMs. As these models transition from static predictors to interactive systems capable of continual learning and personalized inference, the incorporation of memory mechanisms has emerged as a central theme in their architectural and functional evolution. This survey presents a comprehensive and structured synthesis of memory in LLMs and MLLMs, organizing the literature into a cohesive taxonomy comprising implicit, explicit, and agentic memory paradigms. Specifically, the survey delineates three primary memory frameworks. Implicit memory refers to the knowledge embedded within the internal parameters of pre-trained transformers, encompassing their capacity for memorization, associative retrieval, and contextual reasoning. Recent work has explored methods to interpret, manipulate, and reconfigure this latent memory. Explicit memory involves external storage and retrieval components designed to augment model outputs with dynamic, queryable knowledge representations, such as textual corpora, dense vectors, and graph-based structures, thereby enabling scalable and updatable interaction with information sources. Agentic memory introduces persistent, temporally extended memory structures within autonomous agents, facilitating long-term planning, self-consistency, and collaborative behavior in multi-agent systems, with relevance to...",
+          "url": "http://arxiv.org/abs/2601.09113",
+          "author": "Zixia Jia, Jiaqi Li, Yipeng Kang, Yuxuan Wang, Tong Wu, Quansen Wang, Xiaobo Wang, Shuyi Zhang, Junzhe Shen, Qing Li, Siyuan Qi, Yitao Liang, Di He, Zilong Zheng, Song-Chun Zhu",
+          "published": "2026-01-15",
+          "source": "arXiv (Artificial Intelligence)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.AI"
+          ],
+          "summary": "Comprehensive survey on memory in LLMs and MLLMs, organizing literature into implicit, explicit, and agentic memory paradigms. Compares AI memory mechanisms to human hippocampal memory.",
+          "importance_score": 72,
+          "reasoning": "Important comprehensive survey on critical topic; provides unified taxonomy for rapidly evolving field.",
+          "themes": [
+            "Language Models",
+            "Memory",
+            "Survey",
+            "AI Architecture"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Comprehensive survey on memory in LLMs and MLLMs, organizing literature into implicit, explicit, and agentic memory paradigms. Compares AI memory mechanisms to human hippocampal memory.</p>",
+          "content_html": "<p>Memory plays a foundational role in augmenting the reasoning, adaptability, and contextual fidelity of modern Large Language Models and Multi-Modal LLMs. As these models transition from static predictors to interactive systems capable of continual learning and personalized inference, the incorporation of memory mechanisms has emerged as a central theme in their architectural and functional evolution. This survey presents a comprehensive and structured synthesis of memory in LLMs and MLLMs, organizing the literature into a cohesive taxonomy comprising implicit, explicit, and agentic memory paradigms. Specifically, the survey delineates three primary memory frameworks. Implicit memory refers to the knowledge embedded within the internal parameters of pre-trained transformers, encompassing their capacity for memorization, associative retrieval, and contextual reasoning. Recent work has explored methods to interpret, manipulate, and reconfigure this latent memory. Explicit memory involves external storage and retrieval components designed to augment model outputs with dynamic, queryable knowledge representations, such as textual corpora, dense vectors, and graph-based structures, thereby enabling scalable and updatable interaction with information sources. Agentic memory introduces persistent, temporally extended memory structures within autonomous agents, facilitating long-term planning, self-consistency, and collaborative behavior in multi-agent systems, with relevance to...</p>"
+        },
+        {
+          "id": "f657fa3ade2e",
+          "title": "Toward Understanding Unlearning Difficulty: A Mechanistic Perspective and Circuit-Guided Difficulty Metric",
+          "content": "Machine unlearning is becoming essential for building trustworthy and compliant language models. Yet unlearning success varies considerably across individual samples: some are reliably erased, while others persist despite the same procedure. We argue that this disparity is not only a data-side phenomenon, but also reflects model-internal mechanisms that encode and protect memorized information. We study this problem from a mechanistic perspective based on model circuits--structured interaction pathways that govern how predictions are formed. We propose Circuit-guided Unlearning Difficulty (CUD), a {\\em pre-unlearning} metric that assigns each sample a continuous difficulty score using circuit-level signals. Extensive experiments demonstrate that CUD reliably separates intrinsically easy and hard samples, and remains stable across unlearning methods. We identify key circuit-level patterns that reveal a mechanistic signature of difficulty: easy-to-unlearn samples are associated with shorter, shallower interactions concentrated in earlier-to-intermediate parts of the original model, whereas hard samples rely on longer and deeper pathways closer to late-stage computation. Compared to existing qualitative studies, CUD takes a first step toward a principled, fine-grained, and interpretable analysis of unlearning difficulty; and motivates the development of unlearning methods grounded in model mechanisms.",
+          "url": "http://arxiv.org/abs/2601.09624",
+          "author": "Jiali Cheng, Ziheng Chen, Chirag Agarwal, Hadi Amiri",
+          "published": "2026-01-15",
+          "source": "arXiv (Machine Learning)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.LG"
+          ],
+          "summary": "Studies machine unlearning difficulty from mechanistic perspective using model circuits. Proposes Circuit-guided Unlearning Difficulty (CUD), a pre-unlearning metric using circuit-level signals to predict sample erasability.",
+          "importance_score": 71,
+          "reasoning": "Novel mechanistic approach to understanding unlearning. Practical metric for predicting unlearning success with interpretability insights.",
+          "themes": [
+            "Machine Unlearning",
+            "Mechanistic Interpretability",
+            "AI Safety"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Studies machine unlearning difficulty from mechanistic perspective using model circuits. Proposes Circuit-guided Unlearning Difficulty (CUD), a pre-unlearning metric using circuit-level signals to predict sample erasability.</p>",
+          "content_html": "<p>Machine unlearning is becoming essential for building trustworthy and compliant language models. Yet unlearning success varies considerably across individual samples: some are reliably erased, while others persist despite the same procedure. We argue that this disparity is not only a data-side phenomenon, but also reflects model-internal mechanisms that encode and protect memorized information. We study this problem from a mechanistic perspective based on model circuits--structured interaction pathways that govern how predictions are formed. We propose Circuit-guided Unlearning Difficulty (CUD), a {\\em pre-unlearning} metric that assigns each sample a continuous difficulty score using circuit-level signals. Extensive experiments demonstrate that CUD reliably separates intrinsically easy and hard samples, and remains stable across unlearning methods. We identify key circuit-level patterns that reveal a mechanistic signature of difficulty: easy-to-unlearn samples are associated with shorter, shallower interactions concentrated in earlier-to-intermediate parts of the original model, whereas hard samples rely on longer and deeper pathways closer to late-stage computation. Compared to existing qualitative studies, CUD takes a first step toward a principled, fine-grained, and interpretable analysis of unlearning difficulty; and motivates the development of unlearning methods grounded in model mechanisms.</p>"
+        },
+        {
+          "id": "ad90d23c76fc",
+          "title": "Value-Aware Numerical Representations for Transformer Language Models",
+          "content": "Transformer-based language models often achieve strong results on mathematical reasoning benchmarks while remaining fragile on basic numerical understanding and arithmetic operations. A central limitation is that numbers are processed as symbolic tokens whose embeddings do not explicitly encode numerical value, leading to systematic errors. We introduce a value-aware numerical representation that augments standard tokenized inputs with a dedicated prefix token whose embedding is explicitly conditioned on the underlying numerical value. This mechanism injects magnitude information directly into the model's input space while remaining compatible with existing tokenizers and decoder-only Transformer architectures. Evaluation on arithmetic tasks shows that the proposed approach outperforms baselines across numerical formats, tasks, and operand lengths. These results indicate that explicitly encoding numerical value is an effective and efficient way to improve fundamental numerical robustness in language models.",
+          "url": "http://arxiv.org/abs/2601.09706",
+          "author": "Andreea Dutulescu, Stefan Ruseti, Mihai Dascalu",
+          "published": "2026-01-15",
+          "source": "arXiv (Computation and Language)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CL"
+          ],
+          "summary": "Introduces value-aware numerical representations that augment tokenized inputs with prefix tokens explicitly conditioned on numerical values. Addresses the fundamental issue that standard embeddings don't encode magnitude, causing arithmetic errors despite strong benchmark performance.",
+          "importance_score": 71,
+          "reasoning": "Addresses fundamental limitation in how transformers process numbers. Simple but principled solution compatible with existing architectures. Important for improving mathematical reasoning reliability.",
+          "themes": [
+            "Language Models",
+            "Numerical Reasoning",
+            "Representations"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Introduces value-aware numerical representations that augment tokenized inputs with prefix tokens explicitly conditioned on numerical values. Addresses the fundamental issue that standard embeddings don't encode magnitude, causing arithmetic errors despite strong benchmark performance.</p>",
+          "content_html": "<p>Transformer-based language models often achieve strong results on mathematical reasoning benchmarks while remaining fragile on basic numerical understanding and arithmetic operations. A central limitation is that numbers are processed as symbolic tokens whose embeddings do not explicitly encode numerical value, leading to systematic errors. We introduce a value-aware numerical representation that augments standard tokenized inputs with a dedicated prefix token whose embedding is explicitly conditioned on the underlying numerical value. This mechanism injects magnitude information directly into the model's input space while remaining compatible with existing tokenizers and decoder-only Transformer architectures. Evaluation on arithmetic tasks shows that the proposed approach outperforms baselines across numerical formats, tasks, and operand lengths. These results indicate that explicitly encoding numerical value is an effective and efficient way to improve fundamental numerical robustness in language models.</p>"
+        }
+      ]
+    },
+    "social": {
+      "count": 3,
+      "category_summary": "AI development timelines dominated today's discussions, with evidence that progress is outpacing even expert predictions.\n\n- **Simon Willison** [observed his 2029 prediction](/?date=2026-01-15&category=social#item-3844467fe6e5) for AI-built web browsers is already proving wrong in 2026, signaling faster-than-expected capability acceleration\n- **Ethan Mollick** showcased creative use of **Claude Code**, [building a visualization plugin](/?date=2026-01-15&category=social#item-cec48457097c) that renders AI agent work as an animated office with subagents being 'hired' in real-time\n- **Sakana AI** (founded by Transformer paper co-author) [continues expanding](/?date=2026-01-15&category=social#item-eb0a20624d18) their Tokyo operations with new hiring",
+      "category_summary_html": "<p>AI development timelines dominated today's discussions, with evidence that progress is outpacing even expert predictions.</p>\n<ul>\n<li><strong>Simon Willison</strong> <a href=\"/?date=2026-01-15&category=social#item-3844467fe6e5\" class=\"internal-link\">observed his 2029 prediction</a> for AI-built web browsers is already proving wrong in 2026, signaling faster-than-expected capability acceleration</li>\n<li><strong>Ethan Mollick</strong> showcased creative use of <strong>Claude Code</strong>, <a href=\"/?date=2026-01-15&category=social#item-cec48457097c\" class=\"internal-link\">building a visualization plugin</a> that renders AI agent work as an animated office with subagents being 'hired' in real-time</li>\n<li><strong>Sakana AI</strong> (founded by Transformer paper co-author) <a href=\"/?date=2026-01-15&category=social#item-eb0a20624d18\" class=\"internal-link\">continues expanding</a> their Tokyo operations with new hiring</li>\n</ul>",
+      "themes": [
+        {
+          "name": "AI Capability Acceleration",
+          "description": "Evidence that AI progress is outpacing expert predictions, with complex tasks achievable sooner than expected",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 78
+        },
+        {
+          "name": "AI Coding Tools & Agents",
+          "description": "Discussion of AI-powered development tools (Claude Code, Cursor) being used for increasingly sophisticated software projects",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "AI Industry Growth",
+          "description": "Hiring and expansion at AI research labs",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 20
+        }
+      ],
+      "top_items": [
+        {
+          "id": "3844467fe6e5",
+          "title": "... my prediction that someone would write a new web browser using AI tools by 2029 appears to have ...",
+          "content": "... my prediction that someone would write a new web browser using AI tools by 2029 appears to have been be three years off cursor.com/blog/scaling... and github.com/wilsonzlin/f...",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcg6jfyhds24",
+          "author": "@simonwillison.net",
+          "published": "2026-01-14T23:03:45.135000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Simon Willison notes his prediction that AI would be used to build a new web browser by 2029 appears to have been wrong—it's happening now in 2026, citing Cursor and a GitHub project as evidence.",
+          "importance_score": 78,
+          "reasoning": "Simon Willison is an extremely respected voice in AI/dev tools space. This highlights a significant capability milestone—AI tools building complex software like browsers years ahead of expert predictions. Original insight on AI progress acceleration. References concrete projects.",
+          "themes": [
+            "AI coding tools",
+            "AI capability acceleration",
+            "Cursor",
+            "predictions",
+            "software development"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Simon Willison notes his prediction that AI would be used to build a new web browser by 2029 appears to have been wrong—it's happening now in 2026, citing Cursor and a GitHub project as evidence.</p>",
+          "content_html": "<p>... my prediction that someone would write a new web browser using AI tools by 2029 appears to have been be three years off cursor.com/blog/scaling... and github.com/wilsonzlin/f...</p>"
+        },
+        {
+          "id": "cec48457097c",
+          "title": "Had Claude Code build a little plugin that visualizes the work Claude Code is doing as agents workin...",
+          "content": "Had Claude Code build a little plugin that visualizes the work Claude Code is doing as agents working in an office, with agents doing work and passing information to each other. New subagents are hired, they acquire skills, and they turn in completed work. Fun start.",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mce76czxlc2a",
+          "author": "@emollick.bsky.social",
+          "published": "2026-01-14T04:10:07.209000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Ethan Mollick built a visualization plugin using Claude Code that displays AI agent work as an animated office environment—showing subagents being 'hired', acquiring skills, and passing work between each other.",
+          "importance_score": 72,
+          "reasoning": "Ethan Mollick is a highly credible Wharton professor and AI thought leader. Post demonstrates creative meta-application of AI coding agents while providing intuitive visualization of multi-agent workflows. Strong engagement (162 likes). Offers practical insight into agentic AI behavior.",
+          "themes": [
+            "AI agents",
+            "Claude Code",
+            "AI visualization",
+            "developer tools",
+            "agentic workflows"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Ethan Mollick built a visualization plugin using Claude Code that displays AI agent work as an animated office environment—showing subagents being 'hired', acquiring skills, and passing work between each other.</p>",
+          "content_html": "<p>Had Claude Code build a little plugin that visualizes the work Claude Code is doing as agents working in an office, with agents doing work and passing information to each other. New subagents are hired, they acquire skills, and they turn in completed work. Fun start.</p>"
+        },
+        {
+          "id": "eb0a20624d18",
+          "title": "2026 is just getting started 🚀✨\n\nWe are hiring. Join our team in Tokyo!\n\nsakana.ai/careers",
+          "content": "2026 is just getting started 🚀✨\n\nWe are hiring. Join our team in Tokyo!\n\nsakana.ai/careers",
+          "url": "https://bsky.app/profile/sakanaai.bsky.social/post/3mcf63auerk2y",
+          "author": "@sakanaai.bsky.social",
+          "published": "2026-01-14T13:23:10.246000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Sakana AI (founded by ex-Google researchers including Transformer paper co-author) announces they are hiring for their Tokyo office.",
+          "importance_score": 25,
+          "reasoning": "While Sakana AI is a credible AI research lab, this is primarily a promotional hiring post with no technical content or insights. Low engagement and no substantive information about their work.",
+          "themes": [
+            "AI hiring",
+            "AI industry growth"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Sakana AI (founded by ex-Google researchers including Transformer paper co-author) announces they are hiring for their Tokyo office.</p>",
+          "content_html": "<p>2026 is just getting started 🚀✨</p>\n<p>We are hiring. Join our team in Tokyo!</p>\n<p>sakana.ai/careers</p>"
+        }
+      ]
+    },
+    "reddit": {
+      "count": 30,
+      "category_summary": "**NVIDIA** dominated research discussions with two major releases: **Test-Time Training (TTT)** [enabling real-time weight updates](/?date=2026-01-15&category=reddit#item-428fca711e4b) during inference, and **Orchestrator-8B** for [intelligent task routing](/?date=2026-01-15&category=reddit#item-5f00fcc4504b). Both signal a shift toward adaptive, modular AI architectures.\n\n- **AI detection** sparked massive engagement (3300+ upvotes) [analyzing new ChatGPT writing tells](/?date=2026-01-15&category=reddit#item-408e0749f947) beyond the em dash\n- **Senate bill** [targeting **Grok AI** explicit images](/?date=2026-01-15&category=reddit#item-78eea1ec26dc) drew 1450 upvotes, reflecting urgent policy concerns\n- **Zhipu AI** [training on **Huawei stack**](/?date=2026-01-15&category=reddit#item-8a6c4786483b) signals China's breaking US chip dependency\n- **GPT 5.2 Pro** reportedly made progress on decades-old math problem—community cautiously excited\n\n**r/LocalLLaMA** focused on practical deployment: hobbyist [builds **DeepSeek-style MoE**](/?date=2026-01-15&category=reddit#item-c1d1936a3a8e) on RTX 5090, **Ministral 3** [paper details distillation](/?date=2026-01-15&category=reddit#item-75a8d802b4d0), and heated [debate over **best sub-8B models**](/?date=2026-01-15&category=reddit#item-35df462076cf) (108 comments). **Soprano 1.1** TTS [addressing hallucinations](/?date=2026-01-15&category=reddit#item-b6bb1d48dc43) shows production-focused improvements gaining traction.",
+      "category_summary_html": "<p><strong>NVIDIA</strong> dominated research discussions with two major releases: <strong>Test-Time Training (TTT)</strong> <a href=\"/?date=2026-01-15&category=reddit#item-428fca711e4b\" class=\"internal-link\">enabling real-time weight updates</a> during inference, and <strong>Orchestrator-8B</strong> for <a href=\"/?date=2026-01-15&category=reddit#item-5f00fcc4504b\" class=\"internal-link\">intelligent task routing</a>. Both signal a shift toward adaptive, modular AI architectures.</p>\n<ul>\n<li><strong>AI detection</strong> sparked massive engagement (3300+ upvotes) <a href=\"/?date=2026-01-15&category=reddit#item-408e0749f947\" class=\"internal-link\">analyzing new ChatGPT writing tells</a> beyond the em dash</li>\n<li><strong>Senate bill</strong> <a href=\"/?date=2026-01-15&category=reddit#item-78eea1ec26dc\" class=\"internal-link\">targeting <strong>Grok AI</strong> explicit images</a> drew 1450 upvotes, reflecting urgent policy concerns</li>\n<li><strong>Zhipu AI</strong> <a href=\"/?date=2026-01-15&category=reddit#item-8a6c4786483b\" class=\"internal-link\">training on <strong>Huawei stack</strong></a> signals China's breaking US chip dependency</li>\n<li><strong>GPT 5.2 Pro</strong> reportedly made progress on decades-old math problem—community cautiously excited</li>\n</ul>\n<p><strong>r/LocalLLaMA</strong> focused on practical deployment: hobbyist <a href=\"/?date=2026-01-15&category=reddit#item-c1d1936a3a8e\" class=\"internal-link\">builds <strong>DeepSeek-style MoE</strong></a> on RTX 5090, <strong>Ministral 3</strong> <a href=\"/?date=2026-01-15&category=reddit#item-75a8d802b4d0\" class=\"internal-link\">paper details distillation</a>, and heated <a href=\"/?date=2026-01-15&category=reddit#item-35df462076cf\" class=\"internal-link\">debate over <strong>best sub-8B models</strong></a> (108 comments). <strong>Soprano 1.1</strong> TTS <a href=\"/?date=2026-01-15&category=reddit#item-b6bb1d48dc43\" class=\"internal-link\">addressing hallucinations</a> shows production-focused improvements gaining traction.</p>",
+      "themes": [
+        {
+          "name": "Model Releases & Research Papers",
+          "description": "New model releases, academic papers, and technical innovations including NVIDIA Orchestrator-8B, Mistral Ministral 3, TTS models, and TTT research",
+          "item_count": 15,
+          "example_items": [],
+          "importance": 88
+        },
+        {
+          "name": "China AI Independence",
+          "description": "Zhipu AI training on Huawei stack, breaking US chip dependency",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 78
+        },
+        {
+          "name": "Hardware Setup & Economics",
+          "description": "Discussions about GPU configurations, DDR3 price impacts, multi-GPU setups, and cost-effective local inference infrastructure",
+          "item_count": 14,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "AI Detection & Writing Patterns",
+          "description": "Discussion of identifiable patterns in AI-generated text, including specific phrases and stylistic tells that reveal ChatGPT authorship.",
+          "item_count": 3,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "AI Safety and Ethics",
+          "description": "Critical discussions about AI misuse including non-consensual image generation and content moderation failures",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "TTS & Audio Models",
+          "description": "Text-to-speech releases including Soprano 1.1, NeuTTS Nano, Pocket TTS, and Step-Audio-R1.1 with focus on small model efficiency",
+          "item_count": 6,
+          "example_items": [],
+          "importance": 72
+        },
+        {
+          "name": "AI Policy and Governance",
+          "description": "Discussions about regulatory actions, legal cases (Musk v OpenAI), GPU tariff policies, and their implications for AI industry",
+          "item_count": 3,
+          "example_items": [],
+          "importance": 72
+        },
+        {
+          "name": "Agentic AI & Tool Integration",
+          "description": "Agent orchestration, browser automation, coding assistants (Claude Code vs OpenCode), and agent skills standardization",
+          "item_count": 12,
+          "example_items": [],
+          "importance": 70
+        },
+        {
+          "name": "AI Capabilities and Progress",
+          "description": "Reports of AI achievements including mathematical breakthroughs and forecasting research on AI advancement pace",
+          "item_count": 3,
+          "example_items": [],
+          "importance": 70
+        },
+        {
+          "name": "AI Policy & Legal",
+          "description": "Senate bill on AI-generated images, Bandcamp AI music ban, xAI investigations",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 68
+        }
+      ],
+      "top_items": [
+        {
+          "id": "428fca711e4b",
+          "title": "Nvidia: End-to-End Test-Time Training for Long Context aka Being Able To Update A Model's Weights In Real-Time As You Use It | \"TTT changes the paradigm from retrieving info to learning it on the fly...the TTT model treats the context window as a dataset &amp; trains itself on it in real-time.\" [R]",
+          "content": "####TL;DR:\nThe paper describes a mechanism that essentially turns the context window into a training dataset for a \"fast weight\" update loop:\n\n * **Inner Loop:** The model runs a mini-gradient descent on the context during inference. It updates specific MLP layers to \"learn\" the current context.\n * **Outer Loop:** The model's initial weights are meta-learned during training to be \"highly updateable\" or optimized for this test-time adaptation\n\n**From the Paper:** \"Overall, our empirical observations strongly indicate that TTT-E2E should produce the same trend as full attention for scaling with training compute in large-budget production runs.\"\n\n\n\n\n---\n\n\n\n####Abstract:\n\n&gt;We formulate long-context language modeling as a problem in continual learning rather than architecture design. Under...",
+          "url": "https://reddit.com/r/MachineLearning/comments/1qd696s/nvidia_endtoend_testtime_training_for_long/",
+          "author": "u/44th--Hokage",
+          "published": "2026-01-14T17:43:26",
+          "source": "r/MachineLearning",
+          "source_type": "reddit",
+          "tags": [
+            "Research"
+          ],
+          "summary": "NVIDIA paper on Test-Time Training (TTT) that enables models to update weights in real-time during inference by treating the context window as a training dataset with inner/outer optimization loops",
+          "importance_score": 92,
+          "reasoning": "Groundbreaking research paper with significant paradigm shift potential. High engagement (220 upvotes) on r/MachineLearning. Technical depth on meta-learning approach to context handling.",
+          "themes": [
+            "research_papers",
+            "model_architecture",
+            "inference_optimization"
+          ],
+          "continuation": null,
+          "summary_html": "<p>NVIDIA paper on Test-Time Training (TTT) that enables models to update weights in real-time during inference by treating the context window as a training dataset with inner/outer optimization loops</p>",
+          "content_html": "<p>####TL;DR:</p>\n<p>The paper describes a mechanism that essentially turns the context window into a training dataset for a \"fast weight\" update loop:</p>\n<p>* <strong>Inner Loop:</strong> The model runs a mini-gradient descent on the context during inference. It updates specific MLP layers to \"learn\" the current context.</p>\n<p>* <strong>Outer Loop:</strong> The model's initial weights are meta-learned during training to be \"highly updateable\" or optimized for this test-time adaptation</p>\n<p><strong>From the Paper:</strong> \"Overall, our empirical observations strongly indicate that TTT-E2E should produce the same trend as full attention for scaling with training compute in large-budget production runs.\"</p>\n<p>---</p>\n<p>####Abstract:</p>\n<p>&gt;We formulate long-context language modeling as a problem in continual learning rather than architecture design. Under...</p>"
+        },
+        {
+          "id": "5f00fcc4504b",
+          "title": "NVIDIA's new 8B model is Orchestrator-8B, a specialized 8-billion-parameter AI designed not to answer everything itself, but to intelligently manage and route complex tasks to different tools (like web search, code execution, other LLMs) for greater efficiency",
+          "content": "I’ve seen some arguments we’ve reached AGI, it’s just about putting the separate pieces together in the right context. I think having a relatively small model that knows how to connect with other tools and models is exactly the correct route towards very functional systems. ",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qcuerc/nvidias_new_8b_model_is_orchestrator8b_a/",
+          "author": "u/Fear_ltself",
+          "published": "2026-01-14T10:02:19",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "New Model"
+          ],
+          "summary": "NVIDIA releases Orchestrator-8B, an 8B model specialized for routing complex tasks to appropriate tools/models rather than answering directly",
+          "importance_score": 90,
+          "reasoning": "Major model release with very high engagement (683 upvotes, 126 comments). Represents important trend toward orchestration architectures.",
+          "themes": [
+            "model_releases",
+            "agentic_ai",
+            "tool_use",
+            "nvidia"
+          ],
+          "continuation": null,
+          "summary_html": "<p>NVIDIA releases Orchestrator-8B, an 8B model specialized for routing complex tasks to appropriate tools/models rather than answering directly</p>",
+          "content_html": "<p>I’ve seen some arguments we’ve reached AGI, it’s just about putting the separate pieces together in the right context. I think having a relatively small model that knows how to connect with other tools and models is exactly the correct route towards very functional systems.</p>"
+        },
+        {
+          "id": "408e0749f947",
+          "title": "the em dash giveaway is gone, here’s the new stuff i keep noticing this month",
+          "content": "last month i posted about how the em dash “giveaway” is dead, and the post went crazy. since then i’ve been doom scrolling and collecting more of the weirdly consistent tells i keep seeing.\n\nhere’s my new list for this month:\n\n1. “and honestly?” as a sentence starter, usually followed by something that isn’t really that crazy honest\n2. “you’re not imagining it” / “you’re not alone” / “you’re not broken” / “you’re not weak” therapist mode talk\n3. “do you want to sit with that for a while” / “are you ready to go deeper” as if you just confessed something life changing\n4. “here’s the kicker” / “and the best part?” / “and here’s the part most people miss”\n5. the compulsive “i’m going to state this as clearly as possible” signposting paired with 600 words that could have been 2 sentences\n6....",
+          "url": "https://reddit.com/r/ChatGPT/comments/1qd0i23/the_em_dash_giveaway_is_gone_heres_the_new_stuff/",
+          "author": "u/Effective-Inside6836",
+          "published": "2026-01-14T13:46:58",
+          "source": "r/ChatGPT",
+          "source_type": "reddit",
+          "tags": [
+            "Educational Purpose Only "
+          ],
+          "summary": "Detailed analysis of new ChatGPT writing patterns/tells beyond the em dash, including phrases like 'and honestly?', therapist talk, and specific vocabulary choices.",
+          "importance_score": 72,
+          "reasoning": "Highly valuable educational content about AI detection with exceptional engagement (3331 upvotes, 484 comments). Practical for anyone concerned with AI-generated text identification.",
+          "themes": [
+            "ai-detection",
+            "writing-patterns",
+            "chatgpt-behavior"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Detailed analysis of new ChatGPT writing patterns/tells beyond the em dash, including phrases like 'and honestly?', therapist talk, and specific vocabulary choices.</p>",
+          "content_html": "<p>last month i posted about how the em dash “giveaway” is dead, and the post went crazy. since then i’ve been doom scrolling and collecting more of the weirdly consistent tells i keep seeing.</p>\n<p>here’s my new list for this month:</p>\n<p>1. “and honestly?” as a sentence starter, usually followed by something that isn’t really that crazy honest</p>\n<p>2. “you’re not imagining it” / “you’re not alone” / “you’re not broken” / “you’re not weak” therapist mode talk</p>\n<p>3. “do you want to sit with that for a while” / “are you ready to go deeper” as if you just confessed something life changing</p>\n<p>4. “here’s the kicker” / “and the best part?” / “and here’s the part most people miss”</p>\n<p>5. the compulsive “i’m going to state this as clearly as possible” signposting paired with 600 words that could have been 2 sentences</p>\n<p>6....</p>"
+        },
+        {
+          "id": "78eea1ec26dc",
+          "title": "Senate passes bill letting victims sue over Grok AI explicit images",
+          "content": "",
+          "url": "https://reddit.com/r/artificial/comments/1qcpxzs/senate_passes_bill_letting_victims_sue_over_grok/",
+          "author": "u/sksarkpoes3",
+          "published": "2026-01-14T07:19:01",
+          "source": "r/artificial",
+          "source_type": "reddit",
+          "tags": [
+            "News"
+          ],
+          "summary": "Continuing our coverage from [Reddit](/?date=2026-01-13&category=reddit#item-3618bd93e5d5), Senate passes bill allowing victims to sue over explicit AI-generated images, specifically referencing Grok AI",
+          "importance_score": 82,
+          "reasoning": "Major policy development with very high engagement (1450 upvotes, 126 comments). Significant legal precedent for AI-generated content.",
+          "themes": [
+            "policy_legal",
+            "ai_safety",
+            "content_generation"
+          ],
+          "continuation": {
+            "original_item_id": "3618bd93e5d5",
+            "original_date": "2026-01-13",
+            "original_category": "reddit",
+            "original_title": "The Guardian: How Elon Musk's Grok generated 6,000 non-consensual nude images per hour.",
+            "continuation_type": "follow_up",
+            "should_demote": false,
+            "reference_text": "Continuing our coverage from **Reddit**"
+          },
+          "summary_html": "<p>Continuing our coverage from <a href=\"/?date=2026-01-13&category=reddit#item-3618bd93e5d5\" class=\"internal-link\">Reddit</a>, Senate passes bill allowing victims to sue over explicit AI-generated images, specifically referencing Grok AI</p>",
+          "content_html": ""
+        },
+        {
+          "id": "8a6c4786483b",
+          "title": "Zhipu AI breaks US chip reliance with first major model trained on Huawei stack (GLM-Image)",
+          "content": "",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qd6nho/zhipu_ai_breaks_us_chip_reliance_with_first_major/",
+          "author": "u/fallingdowndizzyvr",
+          "published": "2026-01-14T18:01:03",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "News"
+          ],
+          "summary": "Continuing our coverage from [yesterday](/?date=2026-01-14&category=reddit#item-66ba968f7935), Zhipu AI releases GLM-Image trained entirely on Huawei AI stack, breaking US chip dependency",
+          "importance_score": 85,
+          "reasoning": "Major geopolitical and technical development with high engagement (406 upvotes, 46 comments). Demonstrates viable alternative AI infrastructure.",
+          "themes": [
+            "china_ai",
+            "hardware_independence",
+            "model_releases",
+            "geopolitics"
+          ],
+          "continuation": {
+            "original_item_id": "66ba968f7935",
+            "original_date": "2026-01-14",
+            "original_category": "reddit",
+            "original_title": "GLM-Image is released!",
+            "continuation_type": "follow_up",
+            "should_demote": false,
+            "reference_text": "Continuing our coverage from yesterday"
+          },
+          "summary_html": "<p>Continuing our coverage from <a href=\"/?date=2026-01-14&category=reddit#item-66ba968f7935\" class=\"internal-link\">yesterday</a>, Zhipu AI releases GLM-Image trained entirely on Huawei AI stack, breaking US chip dependency</p>",
+          "content_html": ""
+        },
+        {
+          "id": "75a8d802b4d0",
+          "title": "Mistral releases Ministral 3 paper",
+          "content": "details: \n\n&gt;We introduce the Ministral 3 series, a family of parameter-efficient dense language models designed for compute and memory constrained applications, available in three model sizes: 3B, 8B, and 14B parameters. For each model size, we release three variants: a pretrained base model for general-purpose use, an instruction finetuned, and a reasoning model for complex problem-solving. In addition, we present our recipe to derive the Ministral 3 models through Cascade Distillation, an iterative pruning and continued training with distillation technique. Each model comes with image understanding capabilities, all under the Apache 2.0 license.",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qdbxei/mistral_releases_ministral_3_paper/",
+          "author": "u/Old-School8916",
+          "published": "2026-01-14T22:16:31",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Resources"
+          ],
+          "summary": "Mistral releases Ministral 3 paper detailing 3B/8B/14B parameter models with base, instruction, and reasoning variants using Cascade Distillation",
+          "importance_score": 80,
+          "reasoning": "Important model release paper from major lab. Good engagement. Valuable for understanding efficient model training.",
+          "themes": [
+            "model_releases",
+            "research_papers",
+            "distillation"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Mistral releases Ministral 3 paper detailing 3B/8B/14B parameter models with base, instruction, and reasoning variants using Cascade Distillation</p>",
+          "content_html": "<p>details:</p>\n<p>&gt;We introduce the Ministral 3 series, a family of parameter-efficient dense language models designed for compute and memory constrained applications, available in three model sizes: 3B, 8B, and 14B parameters. For each model size, we release three variants: a pretrained base model for general-purpose use, an instruction finetuned, and a reasoning model for complex problem-solving. In addition, we present our recipe to derive the Ministral 3 models through Cascade Distillation, an iterative pruning and continued training with distillation technique. Each model comes with image understanding capabilities, all under the Apache 2.0 license.</p>"
+        },
+        {
+          "id": "c1d1936a3a8e",
+          "title": "[P] my shot at a DeepSeek style moe on a single rtx 5090",
+          "content": "I know most will wonder why I’m wasting my time training at only 19k tok a sec. It’s because I can. I’m doing this in my living room in my spare time. 0 formal ML experience. The absurd amount I’ve learned in the last few months made me realize I really picked the wrong career.\n\nMy Mixture of Experts is 2.36B parameter with 8 routed experts plus a shared expert using top-2 routing. Attention is Grouped Query Attention with QK-normalization and RoPE positional embeddings. All feed-forward layers use SwiGLU activation with RMSNorm throughout. Load balancing follows DeepSeek V3’s auxiliary-loss-free approach using bias-based routing. I monitor coefficient of variation and maximum violation per step.\n\nTraining runs on TorchAO FP8 quantization with the Muon optimizer and a multi-stage learning...",
+          "url": "https://reddit.com/r/MachineLearning/comments/1qcxhgw/p_my_shot_at_a_deepseek_style_moe_on_a_single_rtx/",
+          "author": "u/exhorder72",
+          "published": "2026-01-14T11:53:25",
+          "source": "r/MachineLearning",
+          "source_type": "reddit",
+          "tags": [
+            "Project"
+          ],
+          "summary": "Hobbyist builds 2.36B parameter DeepSeek-style MoE model with 8 routed experts on single RTX 5090, sharing architecture details including GQA, QK-norm, and RoPE",
+          "importance_score": 78,
+          "reasoning": "Excellent educational content showing democratized ML training. Good engagement (77 upvotes, 28 comments). Demonstrates accessible MoE implementation.",
+          "themes": [
+            "project_showcase",
+            "model_training",
+            "consumer_hardware"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Hobbyist builds 2.36B parameter DeepSeek-style MoE model with 8 routed experts on single RTX 5090, sharing architecture details including GQA, QK-norm, and RoPE</p>",
+          "content_html": "<p>I know most will wonder why I’m wasting my time training at only 19k tok a sec. It’s because I can. I’m doing this in my living room in my spare time. 0 formal ML experience. The absurd amount I’ve learned in the last few months made me realize I really picked the wrong career.</p>\n<p>My Mixture of Experts is 2.36B parameter with 8 routed experts plus a shared expert using top-2 routing. Attention is Grouped Query Attention with QK-normalization and RoPE positional embeddings. All feed-forward layers use SwiGLU activation with RMSNorm throughout. Load balancing follows DeepSeek V3’s auxiliary-loss-free approach using bias-based routing. I monitor coefficient of variation and maximum violation per step.</p>\n<p>Training runs on TorchAO FP8 quantization with the Muon optimizer and a multi-stage learning...</p>"
+        },
+        {
+          "id": "35df462076cf",
+          "title": "Which are the top LLMs under 8B right now?",
+          "content": "I m looking to pick a local LLM and not sure what to go with anymore. There are a lot of “best” &lt;8B models and every post says something different, even for the same model. What are people using for normal chat, research, or some coding, not super censored and runs well without a ton of VRAM. It doesn t have to be just one LLM, just the best in their category.",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qcl543/which_are_the_top_llms_under_8b_right_now/",
+          "author": "u/Additional_Secret_75",
+          "published": "2026-01-14T03:42:15",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Discussion"
+          ],
+          "summary": "Community discussion on best LLMs under 8B for chat, research, coding - seeking uncensored options with reasonable VRAM requirements",
+          "importance_score": 72,
+          "reasoning": "Very high engagement (172 upvotes, 108 comments). Valuable practical guidance for common use case.",
+          "themes": [
+            "model_recommendations",
+            "small_models",
+            "community_guidance"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Community discussion on best LLMs under 8B for chat, research, coding - seeking uncensored options with reasonable VRAM requirements</p>",
+          "content_html": "<p>I m looking to pick a local LLM and not sure what to go with anymore. There are a lot of “best” &lt;8B models and every post says something different, even for the same model. What are people using for normal chat, research, or some coding, not super censored and runs well without a ton of VRAM. It doesn t have to be just one LLM, just the best in their category.</p>"
+        },
+        {
+          "id": "b6bb1d48dc43",
+          "title": "Soprano 1.1-80M released: 95% fewer hallucinations and 63% preference rate over Soprano-80M",
+          "content": "Hello everyone!\n\nToday, I am announcing Soprano 1.1! I’ve designed it for massively improved stability and audio quality over the original model. \n\nWhile many of you were happy with the quality of Soprano, it had a tendency to start, well, *Mongolian throat singing*. Contrary to its name, Soprano is **NOT** supposed to be for singing, so I have reduced the frequency of these hallucinations by **95%**. Soprano 1.1-80M also has a **50%** lower WER than Soprano-80M, with comparable clarity to much larger models like Chatterbox-Turbo and VibeVoice. In addition, it now supports sentences up to **30 seconds** long, up from 15.\n\nThe outputs of Soprano could sometimes have a lot of artifacting and high-frequency noise. This was because the model was severely undertrained. I have trained Soprano...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qcusnt/soprano_1180m_released_95_fewer_hallucinations/",
+          "author": "u/eugenekwek",
+          "published": "2026-01-14T10:16:00",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "New Model"
+          ],
+          "summary": "Soprano 1.1-80M TTS model released with 95% fewer hallucinations and 50% lower WER than original version",
+          "importance_score": 77,
+          "reasoning": "Significant TTS improvement with high engagement (311 upvotes). Addresses real production issues with hallucinations.",
+          "themes": [
+            "model_releases",
+            "tts",
+            "audio_models",
+            "quality_improvements"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Soprano 1.1-80M TTS model released with 95% fewer hallucinations and 50% lower WER than original version</p>",
+          "content_html": "<p>Hello everyone!</p>\n<p>Today, I am announcing Soprano 1.1! I’ve designed it for massively improved stability and audio quality over the original model.</p>\n<p>While many of you were happy with the quality of Soprano, it had a tendency to start, well, *Mongolian throat singing*. Contrary to its name, Soprano is <strong>NOT</strong> supposed to be for singing, so I have reduced the frequency of these hallucinations by <strong>95%</strong>. Soprano 1.1-80M also has a <strong>50%</strong> lower WER than Soprano-80M, with comparable clarity to much larger models like Chatterbox-Turbo and VibeVoice. In addition, it now supports sentences up to <strong>30 seconds</strong> long, up from 15.</p>\n<p>The outputs of Soprano could sometimes have a lot of artifacting and high-frequency noise. This was because the model was severely undertrained. I have trained Soprano...</p>"
+        },
+        {
+          "id": "11c7b15004f9",
+          "title": "I trained a model to 'unslop' AI prose",
+          "content": "I ran passages from Project Gutenberg through GPT-4o-mini 10 times over, each time telling it to \"make it read far better, adding superior prose, etc.\". This lead to classic literary passages being enslopped. I then reversed this pipeline, and trained a model to go from \\[slop\\] -&gt; \\[original\\]. The resulting model is capable enough to fool Pangram (a fairly robust AI detector - I take this as a metric of how 'human-sounding' the output is), at very little overall quality cost:\n\n[While quality decreases slightly, humanness jumps from 0 to 0.481. The unslopped version stays firmly above Mistral Large 3 and close to the original GPT-5.2 baseline.](https://preview.redd.it/go88234vifdg1.png?width=2817&amp;format=png&amp;auto=webp&amp;s=fed2c84e748f4441648e9f53c891258d78ccbb0a)\n\nOf course,...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qd88v2/i_trained_a_model_to_unslop_ai_prose/",
+          "author": "u/N8Karma",
+          "published": "2026-01-14T19:12:29",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "New Model"
+          ],
+          "summary": "User trained model to reverse GPT-generated 'slop' back to human-like prose, achieving results that fool AI detectors",
+          "importance_score": 76,
+          "reasoning": "Creative and novel approach with strong engagement (202 upvotes, 69 comments). Educational about AI text characteristics.",
+          "themes": [
+            "project_showcase",
+            "fine_tuning",
+            "text_generation",
+            "creative_projects"
+          ],
+          "continuation": null,
+          "summary_html": "<p>User trained model to reverse GPT-generated 'slop' back to human-like prose, achieving results that fool AI detectors</p>",
+          "content_html": "<p>I ran passages from Project Gutenberg through GPT-4o-mini 10 times over, each time telling it to \"make it read far better, adding superior prose, etc.\". This lead to classic literary passages being enslopped. I then reversed this pipeline, and trained a model to go from \\[slop\\] -&gt; \\[original\\]. The resulting model is capable enough to fool Pangram (a fairly robust AI detector - I take this as a metric of how 'human-sounding' the output is), at very little overall quality cost:</p>\n<p><a href=\"https://preview.redd.it/go88234vifdg1.png?width=2817&amp;format=png&amp;auto=webp&amp;s=fed2c84e748f4441648e9f53c891258d78ccbb0a\" target=\"_blank\" rel=\"noopener noreferrer\">While quality decreases slightly, humanness jumps from 0 to 0.481. The unslopped version stays firmly above Mistral Large 3 and close to the original GPT-5.2 baseline.</a></p>\n<p>Of course,...</p>"
+        }
+      ]
+    },
+    "jobs": {
+      "count": 30,
+      "category_summary": "**Limited AI/ML Opportunities in This Batch** - This collection of 48 job postings reveals a sparse landscape for dedicated AI/ML roles, with most positions falling outside core AI engineering.\n\n**Top AI-Adjacent Opportunities:**\n- **SuperPlane** offers the strongest AI alignment—a [Lead Frontend role](/?date=2026-01-15&category=jobs#item-7ee863239af1) building AI-native DevOps infrastructure for engineer-agent collaboration\n- **Prosper's** [Director of Credit Risk Analytics](/?date=2026-01-15&category=jobs#item-4729e03c8cca) represents senior ML leadership in fintech, overseeing machine learning models for credit decisions\n- **YC W25-backed startup** (via Pavago) [seeks specialists](/?date=2026-01-15&category=jobs#item-3ee2e9a23120) building financial modeling infrastructure specifically for AI training\n- **Toptal** is [recruiting prompt creators](/?date=2026-01-15&category=jobs#item-d3903ca1d227) for LLM-based financial analysis tools—reflecting growing demand for prompt engineering skills\n\n**Market Signals:**\n- AI agent infrastructure (**SuperPlane**, **Agentic Dream**) emerging as a distinct category\n- Financial services continues heavy ML adoption for risk analytics\n- Marketing/operations roles increasingly reference \"AI-powered\" tools without requiring technical AI skills\n- No postings from frontier AI labs (OpenAI, Anthropic, DeepMind, Google) in this batch\n\n**Gap Analysis:** Notably absent are core ML Engineering, Research Scientist, or MLOps positions. The majority of postings are standard software engineering, sales, design, and administrative roles with minimal AI relevance.",
+      "category_summary_html": "<p><strong>Limited AI/ML Opportunities in This Batch</strong> - This collection of 48 job postings reveals a sparse landscape for dedicated AI/ML roles, with most positions falling outside core AI engineering.</p>\n<p><strong>Top AI-Adjacent Opportunities:</strong></p>\n<ul>\n<li><strong>SuperPlane</strong> offers the strongest AI alignment—a <a href=\"/?date=2026-01-15&category=jobs#item-7ee863239af1\" class=\"internal-link\">Lead Frontend role</a> building AI-native DevOps infrastructure for engineer-agent collaboration</li>\n<li><strong>Prosper's</strong> <a href=\"/?date=2026-01-15&category=jobs#item-4729e03c8cca\" class=\"internal-link\">Director of Credit Risk Analytics</a> represents senior ML leadership in fintech, overseeing machine learning models for credit decisions</li>\n<li><strong>YC W25-backed startup</strong> (via Pavago) <a href=\"/?date=2026-01-15&category=jobs#item-3ee2e9a23120\" class=\"internal-link\">seeks specialists</a> building financial modeling infrastructure specifically for AI training</li>\n<li><strong>Toptal</strong> is <a href=\"/?date=2026-01-15&category=jobs#item-d3903ca1d227\" class=\"internal-link\">recruiting prompt creators</a> for LLM-based financial analysis tools—reflecting growing demand for prompt engineering skills</li>\n</ul>\n<p><strong>Market Signals:</strong></p>\n<ul>\n<li>AI agent infrastructure (<strong>SuperPlane</strong>, <strong>Agentic Dream</strong>) emerging as a distinct category</li>\n<li>Financial services continues heavy ML adoption for risk analytics</li>\n<li>Marketing/operations roles increasingly reference \"AI-powered\" tools without requiring technical AI skills</li>\n<li>No postings from frontier AI labs (OpenAI, Anthropic, DeepMind, Google) in this batch</li>\n</ul>\n<p><strong>Gap Analysis:</strong> Notably absent are core ML Engineering, Research Scientist, or MLOps positions. The majority of postings are standard software engineering, sales, design, and administrative roles with minimal AI relevance.</p>",
+      "themes": [
+        {
+          "name": "AI Infrastructure & Agents",
+          "description": "Roles at companies building AI-native platforms, agent frameworks, or infrastructure supporting AI deployment",
+          "item_count": 3,
+          "example_items": [],
+          "importance": 68.0
+        },
+        {
+          "name": "ML in Financial Services",
+          "description": "Machine learning applications in credit risk, financial modeling, and fintech analytics",
+          "item_count": 3,
+          "example_items": [],
+          "importance": 63.0
+        },
+        {
+          "name": "AI Training Data & Prompts",
+          "description": "Emerging roles focused on creating training data for AI systems and prompt engineering for LLMs",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 59.0
+        },
+        {
+          "name": "AI-Powered Marketing Tools",
+          "description": "Non-technical roles leveraging AI automation for marketing, content, and community growth",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 35.0
+        },
+        {
+          "name": "Standard Software Engineering",
+          "description": "Full-stack, frontend, and backend roles without specific AI/ML requirements",
+          "item_count": 15,
+          "example_items": [],
+          "importance": 22.0
+        },
+        {
+          "name": "Sales & Account Executive",
+          "description": "Sales roles in tech companies, mostly SaaS without AI product focus",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 15.0
+        },
+        {
+          "name": "Design & Creative",
+          "description": "UX/UI, web design, and art direction roles at tech companies",
+          "item_count": 6,
+          "example_items": [],
+          "importance": 16.0
+        },
+        {
+          "name": "Non-Tech Administrative",
+          "description": "Executive assistant, operations, and administrative support roles",
+          "item_count": 5,
+          "example_items": [],
+          "importance": 8.0
+        }
+      ],
+      "top_items": [
+        {
+          "id": "7ee863239af1",
+          "title": "SuperPlane Inc.: Lead Frontend Engineer",
+          "content": "\n\n\n  Headquarters: USA\n    URL: https://superplane.com/\n\n\nAbout SuperPlane\nSuperPlane is an AI-native DevOps control plane. Our mission is to build the platform teams use to ship and manage software in the AI era.\nAgents are helping us write an order of magnitude more code, while systems have become too complex for human-driven ops alone. We're rethinking DevOps from first principles for the AI era: a single control layer where engineers and agents safely collaborate.\nWe move fast. We aim high. If that sounds like the kind of problem you want to work on, we’d love to talk.\nAbout the Role\nAt SuperPlane, you’ll shape the future of DevOps, creating features that bring intelligence, automation, and simplicity to complex infrastructure workflows.\nYou'll build interfaces that load instantly, feel flawless, and scale effortlessly. Every tooling choice, every pattern, every optimization decision is yours to make, and you'll be held accountable for the results.\nWhat You’ll Do\n\n\nOwn frontend features from conception to deployment: UI, state management, performance, polish.\n\n\nBuild responsive, performant interfaces that integrate seamlessly with backend APIs and services.\n\n\nCollaborate with...",
+          "url": "https://weworkremotely.com/remote-jobs/superplane-inc-lead-frontend-engineer",
+          "author": "Unknown",
+          "published": "2026-01-08T14:46:56",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Front-End Programming"
+          ],
+          "summary": "Lead Frontend Engineer at SuperPlane, an AI-native DevOps control plane company building infrastructure for engineer-agent collaboration. Role involves creating interfaces for AI-powered infrastructure workflows at an early-stage startup.",
+          "importance_score": 72.0,
+          "reasoning": "Lead role at explicitly AI-native company focused on AI agents for DevOps. Direct involvement in building AI-human collaboration tools, though frontend-focused rather than ML engineering.",
+          "themes": [
+            "AI Infrastructure",
+            "AI Agents",
+            "Lead Role",
+            "Startup"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Lead Frontend Engineer at SuperPlane, an AI-native DevOps control plane company building infrastructure for engineer-agent collaboration. Role involves creating interfaces for AI-powered infrastructure workflows at an early-stage startup.</p>",
+          "content_html": "<p>Headquarters: USA</p>\n<p>URL: https://superplane.com/</p>\n<p>About SuperPlane</p>\n<p>SuperPlane is an AI-native DevOps control plane. Our mission is to build the platform teams use to ship and manage software in the AI era.</p>\n<p>Agents are helping us write an order of magnitude more code, while systems have become too complex for human-driven ops alone. We're rethinking DevOps from first principles for the AI era: a single control layer where engineers and agents safely collaborate.</p>\n<p>We move fast. We aim high. If that sounds like the kind of problem you want to work on, we’d love to talk.</p>\n<p>About the Role</p>\n<p>At SuperPlane, you’ll shape the future of DevOps, creating features that bring intelligence, automation, and simplicity to complex infrastructure workflows.</p>\n<p>You'll build interfaces that load instantly, feel flawless, and scale effortlessly. Every tooling choice, every pattern, every optimization decision is yours to make, and you'll be held accountable for the results.</p>\n<p>What You’ll Do</p>\n<p>Own frontend features from conception to deployment: UI, state management, performance, polish.</p>\n<p>Build responsive, performant interfaces that integrate seamlessly with backend APIs and services.</p>\n<p>Collaborate with...</p>"
+        },
+        {
+          "id": "4729e03c8cca",
+          "title": "Prosper: Director, Credit Risk Analytics",
+          "content": "\n\n\n  Headquarters: United States\n    URL: http://prosper.com\n\n\nYour role in our missionAs the first peer to peer lending marketplace in the United States, Prosper has a history of innovation.&nbsp; As a growing company that generates cash (rare in the valley), Prosper also has a history of generating results.&nbsp;The Director, Credit Risk Analytics is responsible for underwriting credit strategies and oversight of credit quality and performance of the Personal Loan portfolios. They will review, analyze, and enhance the risk strategies through the use of Machine Learning models and credit data to manage the acquisition growth while delivering expected returns to the investors.&nbsp; They will be responsible for the life cycle of credit management including compliance with requirements of regulators and internal control and will recommend opportunities and propose resolutions for improved efficiency, effectiveness, and/or risk reduction for the portfolio. The Director, Credit Risk will work with cross-functional teams in Product, Engineering, Legal/Compliance and Marketing to deliver the credit strategies as per design.&nbsp;The ideal candidate is expected to bring broad and...",
+          "url": "https://weworkremotely.com/remote-jobs/prosper-director-credit-risk-analytics",
+          "author": "Unknown",
+          "published": "2026-01-14T17:39:58",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Management and Finance"
+          ],
+          "summary": "Director of Credit Risk Analytics at Prosper, responsible for underwriting credit strategies using Machine Learning models. Senior leadership role overseeing ML-driven credit quality and performance for personal loan portfolios.",
+          "importance_score": 68.0,
+          "reasoning": "Director-level position with explicit ML model ownership for credit decisions. Combines senior leadership with hands-on ML strategy, though in fintech rather than pure AI company.",
+          "themes": [
+            "ML Applications",
+            "Director Role",
+            "Fintech",
+            "Risk Analytics"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Director of Credit Risk Analytics at Prosper, responsible for underwriting credit strategies using Machine Learning models. Senior leadership role overseeing ML-driven credit quality and performance for personal loan portfolios.</p>",
+          "content_html": "<p>Headquarters: United States</p>\n<p>URL: http://prosper.com</p>\n<p>Your role in our missionAs the first peer to peer lending marketplace in the United States, Prosper has a history of innovation.&nbsp; As a growing company that generates cash (rare in the valley), Prosper also has a history of generating results.&nbsp;The Director, Credit Risk Analytics is responsible for underwriting credit strategies and oversight of credit quality and performance of the Personal Loan portfolios. They will review, analyze, and enhance the risk strategies through the use of Machine Learning models and credit data to manage the acquisition growth while delivering expected returns to the investors.&nbsp; They will be responsible for the life cycle of credit management including compliance with requirements of regulators and internal control and will recommend opportunities and propose resolutions for improved efficiency, effectiveness, and/or risk reduction for the portfolio. The Director, Credit Risk will work with cross-functional teams in Product, Engineering, Legal/Compliance and Marketing to deliver the credit strategies as per design.&nbsp;The ideal candidate is expected to bring broad and...</p>"
+        },
+        {
+          "id": "3ee2e9a23120",
+          "title": "Pavago: Financial Modelling Specialist",
+          "content": "\n\n\n  Headquarters: Brazil\n    URL: http://pavago.co\n\n\nDescriptionJob Title: Financial Modelling SpecialistPosition Type: Full-Time, RemoteWorking Hours: U.S. client business hours (aligned with prospect time zones and outreach cadences)About PavagoPavago is a global recruitment partner specialising in placing top-tier offshore talent with fast-growing U.S. companies. Our clients expect precision, ownership, and world-class standards from day one. We source elite, high-agency professionals who can work independently, think critically, and operate at a U.S. accounting and financial analysis standard.We are hiring a Financial Modelling Specialist for a client, who is backed by YC (W 25 ), building an advanced financial and business modelling infrastructure used to train AI systems.Key ResponsibilitiesBuild complete, end-to-end financial and business models for internal AI training workflows.Review and refine models built by other analysts for structure, clarity, and accuracy.Collaborate with the client’s internal team to improve modelling frameworks and documentation.Participate in regular working sessions to align on modelling standards.(Optional) Provide structured feedback to...",
+          "url": "https://weworkremotely.com/remote-jobs/pavago-financial-modelling-specialist",
+          "author": "Unknown",
+          "published": "2026-01-14T17:39:58",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Management and Finance"
+          ],
+          "summary": "Financial Modelling Specialist for YC-backed (W25) startup building advanced financial modeling infrastructure used to train AI systems. Remote role creating data pipelines for AI training.",
+          "importance_score": 62.0,
+          "reasoning": "YC W25 backing signals strong AI startup. Role directly supports AI training infrastructure, though more data preparation than ML engineering.",
+          "themes": [
+            "AI Training Data",
+            "YC Startup",
+            "Financial Modeling",
+            "Remote"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Financial Modelling Specialist for YC-backed (W25) startup building advanced financial modeling infrastructure used to train AI systems. Remote role creating data pipelines for AI training.</p>",
+          "content_html": "<p>Headquarters: Brazil</p>\n<p>URL: http://pavago.co</p>\n<p>DescriptionJob Title: Financial Modelling SpecialistPosition Type: Full-Time, RemoteWorking Hours: U.S. client business hours (aligned with prospect time zones and outreach cadences)About PavagoPavago is a global recruitment partner specialising in placing top-tier offshore talent with fast-growing U.S. companies. Our clients expect precision, ownership, and world-class standards from day one. We source elite, high-agency professionals who can work independently, think critically, and operate at a U.S. accounting and financial analysis standard.We are hiring a Financial Modelling Specialist for a client, who is backed by YC (W 25 ), building an advanced financial and business modelling infrastructure used to train AI systems.Key ResponsibilitiesBuild complete, end-to-end financial and business models for internal AI training workflows.Review and refine models built by other analysts for structure, clarity, and accuracy.Collaborate with the client’s internal team to improve modelling frameworks and documentation.Participate in regular working sessions to align on modelling standards.(Optional) Provide structured feedback to...</p>"
+        },
+        {
+          "id": "d3903ca1d227",
+          "title": "Toptal: Financial Model and Prompt Creator with Spreadsheet Expertise",
+          "content": "\n\n\n  Headquarters: Remote\n    URL: https://www.toptal.com/\n\n\nAbout the Client\nOur client is an AI Startup leader in financial analysis and modeling, offering efficient and scalable solutions to enhance business operations. As part of their endeavors to improve their spreadsheet acquisition capabilities, they are launching “Pilot v2,” a program aimed at refining workflow and deliverable quality for spreadsheet-based projects in financial modeling.\n&nbsp;\nAbout the Role\nWe are seeking skilled professionals experienced in spreadsheet financial modeling to join the Pilot v2 project. Your primary task will involve creating detailed financial models in spreadsheet format and accompanying them with descriptive prompts for language model interfaces. The focus is to produce high-quality, reliable deliverables contributing to enhanced productivity and efficiency in financial planning.\n&nbsp;\nTasks &amp; Deliverables\n\nDevelop financial models of varying complexity (basic, intermediate, and advanced) and draft prompts to generate these models using language models.\nWeekly Target: Completion of a minimum of 5-10 tasks.\nModel Types: Three-statement modeling, revenue forecasts, cost center...",
+          "url": "https://weworkremotely.com/remote-jobs/toptal-financial-model-and-prompt-creator-with-spreadsheet-expertise",
+          "author": "Unknown",
+          "published": "2026-01-14T17:39:25",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "All Other Remote"
+          ],
+          "summary": "Toptal seeking prompt creators for AI startup in financial analysis, creating financial models with descriptive prompts for language model interfaces. Focus on producing training data for LLM-based financial analysis tools.",
+          "importance_score": 58.0,
+          "reasoning": "Direct work with LLM prompting and AI training data for financial domain. Emerging role type (prompt engineering) relevant to AI professionals, though not traditional ML engineering.",
+          "themes": [
+            "Prompt Engineering",
+            "LLM Applications",
+            "Financial AI",
+            "Contract Work"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Toptal seeking prompt creators for AI startup in financial analysis, creating financial models with descriptive prompts for language model interfaces. Focus on producing training data for LLM-based financial analysis tools.</p>",
+          "content_html": "<p>Headquarters: Remote</p>\n<p>URL: https://www.toptal.com/</p>\n<p>About the Client</p>\n<p>Our client is an AI Startup leader in financial analysis and modeling, offering efficient and scalable solutions to enhance business operations. As part of their endeavors to improve their spreadsheet acquisition capabilities, they are launching “Pilot v2,” a program aimed at refining workflow and deliverable quality for spreadsheet-based projects in financial modeling.</p>\n<p>&nbsp;</p>\n<p>About the Role</p>\n<p>We are seeking skilled professionals experienced in spreadsheet financial modeling to join the Pilot v2 project. Your primary task will involve creating detailed financial models in spreadsheet format and accompanying them with descriptive prompts for language model interfaces. The focus is to produce high-quality, reliable deliverables contributing to enhanced productivity and efficiency in financial planning.</p>\n<p>&nbsp;</p>\n<p>Tasks &amp; Deliverables</p>\n<p>Develop financial models of varying complexity (basic, intermediate, and advanced) and draft prompts to generate these models using language models.</p>\n<p>Weekly Target: Completion of a minimum of 5-10 tasks.</p>\n<p>Model Types: Three-statement modeling, revenue forecasts, cost center...</p>"
+        },
+        {
+          "id": "740f719c1e25",
+          "title": "Agentic Dream: Sr. DevOps Engineer / Cloud Architect",
+          "content": "\n\n\n  Headquarters: Remote, Colombia\n    URL: http://agenticdream.com\n\n\nWe are looking for a Senior DevOps Engineer / Cloud Architect with strong full-stack and database expertise to join the Apex program. This role is critical for designing and implementing multi-account architectures and delivering cloud-native solutions. The ideal candidate has deep AWS expertise, mastery of Infrastructure as Code, and proven skills in database administration with PostgreSQL. You will be instrumental in enabling our future commercial expansion by replicating architectures efficiently for new clients.\n\n» Learn more about us at: www.agenticdreamteam.com\n&nbsp;\n\nRequirements\n\n5+ years of AWS experience with deep expertise in CDK (TypeScript/Python), RDS, and Cognito.\nStrong background in PostgreSQL administration, including logical replication (pglogical).\nExperience with production-grade database deployment and management.\nFull-stack development capabilities with TypeScript, Python, and React.\nMastery of Infrastructure as Code with experience in stack drift remediation.\nExpertise in CI/CD pipelines (GitHub Actions and other tools), including troubleshooting and configuration.\nExperience with...",
+          "url": "https://weworkremotely.com/remote-jobs/agentic-dream-sr-devops-engineer-cloud-architect",
+          "author": "Unknown",
+          "published": "2026-01-12T17:43:00",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "DevOps and Sysadmin"
+          ],
+          "summary": "Senior DevOps Engineer/Cloud Architect at Agentic Dream for multi-account AWS architectures. Company name suggests AI agent focus; role requires deep AWS expertise including CDK and infrastructure automation.",
+          "importance_score": 54.0,
+          "reasoning": "Company branding suggests AI/agent focus. Infrastructure roles increasingly important for AI deployment, though job description lacks explicit AI/ML requirements.",
+          "themes": [
+            "Cloud Infrastructure",
+            "DevOps",
+            "AWS",
+            "AI Infrastructure"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Senior DevOps Engineer/Cloud Architect at Agentic Dream for multi-account AWS architectures. Company name suggests AI agent focus; role requires deep AWS expertise including CDK and infrastructure automation.</p>",
+          "content_html": "<p>Headquarters: Remote, Colombia</p>\n<p>URL: http://agenticdream.com</p>\n<p>We are looking for a Senior DevOps Engineer / Cloud Architect with strong full-stack and database expertise to join the Apex program. This role is critical for designing and implementing multi-account architectures and delivering cloud-native solutions. The ideal candidate has deep AWS expertise, mastery of Infrastructure as Code, and proven skills in database administration with PostgreSQL. You will be instrumental in enabling our future commercial expansion by replicating architectures efficiently for new clients.</p>\n<p>» Learn more about us at: www.agenticdreamteam.com</p>\n<p>&nbsp;</p>\n<p>Requirements</p>\n<p>5+ years of AWS experience with deep expertise in CDK (TypeScript/Python), RDS, and Cognito.</p>\n<p>Strong background in PostgreSQL administration, including logical replication (pglogical).</p>\n<p>Experience with production-grade database deployment and management.</p>\n<p>Full-stack development capabilities with TypeScript, Python, and React.</p>\n<p>Mastery of Infrastructure as Code with experience in stack drift remediation.</p>\n<p>Expertise in CI/CD pipelines (GitHub Actions and other tools), including troubleshooting and configuration.</p>\n<p>Experience with...</p>"
+        },
+        {
+          "id": "92a7b6c01feb",
+          "title": "Genesys: Product Management Director, CRM & Strategic Platform Integrations",
+          "content": "\n\n\n  Headquarters: Virtual Office (Indiana)\n    URL: http://genesys.com\n\n\nGenesys empowers organizations of all sizes to improve loyalty and business outcomes by creating the best experiences for their customers and employees. Through Genesys Cloud, the AI-powered Experience Orchestration platform, organizations can accelerate growth by delivering empathetic, personalized experiences at scale to drive customer loyalty, workforce engagement, efficiency and operational improvements.We employ more than 6,000 people across the globe who embrace empathy and cultivate collaboration to succeed. And, while we offer great benefits and perks like larger tech companies, our employees have the independence to make a larger impact on the company and take ownership of their work. Join the team and create the future of customer experience together.Job SummaryAt Genesys, we are transforming the customer experience landscape through empathy, innovation, and AI-driven technology. As Director of Product Management for CRM and Platform Integrations, you will define how Genesys becomes the orchestration layer connecting enterprise systems, AI reasoning engines, multi-component agent workflows, and...",
+          "url": "https://weworkremotely.com/remote-jobs/genesys-product-management-director-crm-strategic-platform-integrations",
+          "author": "Unknown",
+          "published": "2026-01-14T17:39:58",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Customer Support"
+          ],
+          "summary": "Product Management Director at Genesys for AI-powered Experience Orchestration platform handling CRM and platform integrations. Senior product leadership at 6,000+ employee company with AI-powered core product.",
+          "importance_score": 48.0,
+          "reasoning": "Director role at company with AI-powered platform, but product management focus rather than technical AI work. AI is product feature, not core job function.",
+          "themes": [
+            "Product Management",
+            "AI Platform",
+            "Director Role",
+            "Enterprise"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Product Management Director at Genesys for AI-powered Experience Orchestration platform handling CRM and platform integrations. Senior product leadership at 6,000+ employee company with AI-powered core product.</p>",
+          "content_html": "<p>Headquarters: Virtual Office (Indiana)</p>\n<p>URL: http://genesys.com</p>\n<p>Genesys empowers organizations of all sizes to improve loyalty and business outcomes by creating the best experiences for their customers and employees. Through Genesys Cloud, the AI-powered Experience Orchestration platform, organizations can accelerate growth by delivering empathetic, personalized experiences at scale to drive customer loyalty, workforce engagement, efficiency and operational improvements.We employ more than 6,000 people across the globe who embrace empathy and cultivate collaboration to succeed. And, while we offer great benefits and perks like larger tech companies, our employees have the independence to make a larger impact on the company and take ownership of their work. Join the team and create the future of customer experience together.Job SummaryAt Genesys, we are transforming the customer experience landscape through empathy, innovation, and AI-driven technology. As Director of Product Management for CRM and Platform Integrations, you will define how Genesys becomes the orchestration layer connecting enterprise systems, AI reasoning engines, multi-component agent workflows, and...</p>"
+        },
+        {
+          "id": "591cfd440516",
+          "title": "School of Bots: Client Operations Lead",
+          "content": "\n\n\n  Headquarters: Florida, USA\n    URL: https://schoolofbots.co/\n\n\nLOCATION:\nRemote, based in Eastern Standard Time (core hours 8am–5pm ET, async by default)\nEMPLOYMENT TYPE:\nFull Time\nDEPARTMENT:\nDone-For-You Client Delivery\nCOMPENSATION:\n$50Kbase + $5K performance bonus\n\nMeet School of Bots\nSchool of Bots is a marketing firm and e learning business trusted by the internet’s most influential brands.\nWe have generated over $90 million in revenue for 3,000+ clients, including Russell Brunson, Codie Sanchez, Jenna Kutcher, Prince EA, Amy Porterfield, Dean Graziosi, Nike, SoFi, and Mindvalley.\nOur specialty is helping e learning businesses scale using AI powered DM funnels.\nEvery time they post on Instagram and Facebook, they generate qualified leads and sales. We turn their proven sales processes into intelligent, automated journeys that use AI to personalize conversations across DM, SMS, email, and web.\nWe are building a delivery system that is fast, clear, and accountable, without adding unnecessary meetings.\n\nYour Mission\nAs a Client Operations Lead, you own the operating rhythm that keeps a pod moving.\nYou make sure the right work gets done in the right order, with clear...",
+          "url": "https://weworkremotely.com/remote-jobs/school-of-bots-client-operations-lead",
+          "author": "Unknown",
+          "published": "2026-01-12T15:44:37",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Sales and Marketing"
+          ],
+          "summary": "Client Operations Lead at School of Bots managing AI-powered DM funnel delivery for e-learning businesses. Operations role coordinating AI marketing automation tools for high-profile clients.",
+          "importance_score": 38.0,
+          "reasoning": "Works with AI-powered marketing tools but operational rather than technical role. AI is tooling used, not developed.",
+          "themes": [
+            "AI Marketing Tools",
+            "Operations",
+            "Remote",
+            "E-learning"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Client Operations Lead at School of Bots managing AI-powered DM funnel delivery for e-learning businesses. Operations role coordinating AI marketing automation tools for high-profile clients.</p>",
+          "content_html": "<p>Headquarters: Florida, USA</p>\n<p>URL: https://schoolofbots.co/</p>\n<p>LOCATION:</p>\n<p>Remote, based in Eastern Standard Time (core hours 8am–5pm ET, async by default)</p>\n<p>EMPLOYMENT TYPE:</p>\n<p>Full Time</p>\n<p>DEPARTMENT:</p>\n<p>Done-For-You Client Delivery</p>\n<p>COMPENSATION:</p>\n<p>$50Kbase + $5K performance bonus</p>\n<p>Meet School of Bots</p>\n<p>School of Bots is a marketing firm and e learning business trusted by the internet’s most influential brands.</p>\n<p>We have generated over $90 million in revenue for 3,000+ clients, including Russell Brunson, Codie Sanchez, Jenna Kutcher, Prince EA, Amy Porterfield, Dean Graziosi, Nike, SoFi, and Mindvalley.</p>\n<p>Our specialty is helping e learning businesses scale using AI powered DM funnels.</p>\n<p>Every time they post on Instagram and Facebook, they generate qualified leads and sales. We turn their proven sales processes into intelligent, automated journeys that use AI to personalize conversations across DM, SMS, email, and web.</p>\n<p>We are building a delivery system that is fast, clear, and accountable, without adding unnecessary meetings.</p>\n<p>Your Mission</p>\n<p>As a Client Operations Lead, you own the operating rhythm that keeps a pod moving.</p>\n<p>You make sure the right work gets done in the right order, with clear...</p>"
+        },
+        {
+          "id": "27cc2b03a022",
+          "title": "DRT FM - Humble Echo LLC: Reddit Community Growth & Marketing Specialist (Remote)",
+          "content": "\n\n\n  Headquarters: Latvia, Riga, Kuldigas 23a-3\n    URL: https://drt.com/\n\n\nHelp expand our Reddit presence in the growing AI and virtual companion space.\n\nPay: $800–$1200 per month\nWork: Home-based, 40 hours per week\n\nMain task\nMake DRT FM a solid presence wherever virtual companions are mentioned. Same as Candy.ai, Muah.ai are mentioned, DRT must be one of them.\nMeasure and track results, be able to display the effectiveness of your efforts.\nRequired skills\n\nGood writing skills, understanding of specific subreddits to be insider (ideally already involved in AI communities)\nGood at tracking/measuring/reporting results of your daily campaigns\nYou must have proven experience how to have a Reddit account(-s) that gets results and doesnt get banned\nYou should have direct, hands-on experience using anti-detect browsers like AdsPower and residential or mobile proxies such as AnyIP to be able to manage more accounts in future\n\nFocus\n\nYou’ll participate directly in AI and virtual companion discussions.\nComments should add real value, avoid links, and blend naturally into ongoing conversations.\n\nGoal\nHelp each account build a visible, trusted presence in relevant subreddits.\nThe long-term...",
+          "url": "https://weworkremotely.com/remote-jobs/drt-fm-humble-echo-llc-reddit-community-growth-marketing-specialist-remote",
+          "author": "Unknown",
+          "published": "2026-01-12T07:25:22",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Sales and Marketing"
+          ],
+          "summary": "Reddit Community Growth Specialist for DRT FM in AI and virtual companion space. Marketing role expanding presence for AI companion product across relevant subreddits.",
+          "importance_score": 36.0,
+          "reasoning": "Marketing for AI product company, provides insight into AI companion market growth. Non-technical role but relevant market signal.",
+          "themes": [
+            "AI Products",
+            "Community Marketing",
+            "Virtual Companions",
+            "Remote"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Reddit Community Growth Specialist for DRT FM in AI and virtual companion space. Marketing role expanding presence for AI companion product across relevant subreddits.</p>",
+          "content_html": "<p>Headquarters: Latvia, Riga, Kuldigas 23a-3</p>\n<p>URL: https://drt.com/</p>\n<p>Help expand our Reddit presence in the growing AI and virtual companion space.</p>\n<p>Pay: $800–$1200 per month</p>\n<p>Work: Home-based, 40 hours per week</p>\n<p>Main task</p>\n<p>Make DRT FM a solid presence wherever virtual companions are mentioned. Same as Candy.ai, Muah.ai are mentioned, DRT must be one of them.</p>\n<p>Measure and track results, be able to display the effectiveness of your efforts.</p>\n<p>Required skills</p>\n<p>Good writing skills, understanding of specific subreddits to be insider (ideally already involved in AI communities)</p>\n<p>Good at tracking/measuring/reporting results of your daily campaigns</p>\n<p>You must have proven experience how to have a Reddit account(-s) that gets results and doesnt get banned</p>\n<p>You should have direct, hands-on experience using anti-detect browsers like AdsPower and residential or mobile proxies such as AnyIP to be able to manage more accounts in future</p>\n<p>Focus</p>\n<p>You’ll participate directly in AI and virtual companion discussions.</p>\n<p>Comments should add real value, avoid links, and blend naturally into ongoing conversations.</p>\n<p>Goal</p>\n<p>Help each account build a visible, trusted presence in relevant subreddits.</p>\n<p>The long-term...</p>"
+        },
+        {
+          "id": "3d3c2cfcc228",
+          "title": "Jumpspeak: Product Lead (Contract)",
+          "content": "\n\n\n  Headquarters: Miami\n    URL: https://www.jumpspeak.com\n\n\n\n\nThe Problem We're Solving\nMost people who try to learn a language quit. Not because they're lazy, but because traditional apps optimize for streaks and gamification instead of actual conversation skills.\nWe're building something different: a language learning experience that gets people speaking from day one and keeps them coming back because they're actually having conversations, not just completing lessons.\nThe Opportunity\nYou'll own the core product experience for Jumpspeak—the app that hundreds of thousands of learners use to gain real conversational confidence in new languages. This isn't about managing a team or attending strategy offsites. This is about shipping features that directly impact whether someone can order coffee in Paris or negotiate a deal in São Paulo.\nYou'll work directly with our CEO and small product team to shape what language learning should feel like. Not through 50-slide decks, but through rapid experimentation, user interviews, and data.\nWhat You'll Actually Do\nOwn the Product (not just a feature)\n\nYou are the DRI for our mobile app experience end-to-end—onboarding, lesson design,...",
+          "url": "https://weworkremotely.com/remote-jobs/jumpspeak-product-lead-contract",
+          "author": "Unknown",
+          "published": "2026-01-13T16:31:37",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Product"
+          ],
+          "summary": "Product Lead at Jumpspeak, a language learning app focusing on conversation skills. Contract role owning core product experience for app with hundreds of thousands of users.",
+          "importance_score": 34.0,
+          "reasoning": "Language learning apps increasingly use AI/NLP, though AI not explicitly mentioned. Product leadership at consumer app scale.",
+          "themes": [
+            "EdTech",
+            "Product Leadership",
+            "Consumer App",
+            "Contract"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Product Lead at Jumpspeak, a language learning app focusing on conversation skills. Contract role owning core product experience for app with hundreds of thousands of users.</p>",
+          "content_html": "<p>Headquarters: Miami</p>\n<p>URL: https://www.jumpspeak.com</p>\n<p>The Problem We're Solving</p>\n<p>Most people who try to learn a language quit. Not because they're lazy, but because traditional apps optimize for streaks and gamification instead of actual conversation skills.</p>\n<p>We're building something different: a language learning experience that gets people speaking from day one and keeps them coming back because they're actually having conversations, not just completing lessons.</p>\n<p>The Opportunity</p>\n<p>You'll own the core product experience for Jumpspeak—the app that hundreds of thousands of learners use to gain real conversational confidence in new languages. This isn't about managing a team or attending strategy offsites. This is about shipping features that directly impact whether someone can order coffee in Paris or negotiate a deal in São Paulo.</p>\n<p>You'll work directly with our CEO and small product team to shape what language learning should feel like. Not through 50-slide decks, but through rapid experimentation, user interviews, and data.</p>\n<p>What You'll Actually Do</p>\n<p>Own the Product (not just a feature)</p>\n<p>You are the DRI for our mobile app experience end-to-end—onboarding, lesson design,...</p>"
+        },
+        {
+          "id": "606a8e710ea3",
+          "title": "HubSpot: Manager, Solutions Engineering",
+          "content": "\n\n\n  Headquarters: Remote - USA\n    URL: http://hubspot.com\n\n\n\nAbout the Role\nWe are seeking a Manager, Solutions Engineering to lead a high-performing team of SEs. This manager will play a critical role in driving execution of our value-selling motion. They will ensure consistent achievement of the Technical Win motion to drive increased win rates and strong MRR target attainment, strengthen the pre-sales partnership with Sales, and—most importantly—drive the right outcomes for our customers.\nThe ideal candidate is an experienced SE manager who brings strong process rigor, a scientific and data-driven mindset, and a passion for coaching and developing teams. They are equally comfortable rolling up their sleeves to support complex customer situations, inspecting the quality and impact of SE work, and building scalable inspection processes that elevate the entire segment.\nKey Responsibilities\nLeadership &amp; Team Management\n\nLead, coach, and develop a team of ~8 Solutions Engineers to achieve MRR attainment, improve win rates, and deliver exceptional customer value.\nDrive proactive inspection of SE impact, execution quality, and alignment to the value-selling methodology.\nConduct...",
+          "url": "https://weworkremotely.com/remote-jobs/hubspot-manager-solutions-engineering",
+          "author": "Unknown",
+          "published": "2026-01-12T17:40:23",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Customer Support"
+          ],
+          "summary": "Manager of Solutions Engineering at HubSpot leading pre-sales technical team. Management role driving value-selling motion and technical win processes at major tech company.",
+          "importance_score": 30.0,
+          "reasoning": "Tech company management role but no AI/ML focus. Generic solutions engineering position.",
+          "themes": [
+            "Solutions Engineering",
+            "Management",
+            "SaaS",
+            "Remote"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Manager of Solutions Engineering at HubSpot leading pre-sales technical team. Management role driving value-selling motion and technical win processes at major tech company.</p>",
+          "content_html": "<p>Headquarters: Remote - USA</p>\n<p>URL: http://hubspot.com</p>\n<p>About the Role</p>\n<p>We are seeking a Manager, Solutions Engineering to lead a high-performing team of SEs. This manager will play a critical role in driving execution of our value-selling motion. They will ensure consistent achievement of the Technical Win motion to drive increased win rates and strong MRR target attainment, strengthen the pre-sales partnership with Sales, and—most importantly—drive the right outcomes for our customers.</p>\n<p>The ideal candidate is an experienced SE manager who brings strong process rigor, a scientific and data-driven mindset, and a passion for coaching and developing teams. They are equally comfortable rolling up their sleeves to support complex customer situations, inspecting the quality and impact of SE work, and building scalable inspection processes that elevate the entire segment.</p>\n<p>Key Responsibilities</p>\n<p>Leadership &amp; Team Management</p>\n<p>Lead, coach, and develop a team of ~8 Solutions Engineers to achieve MRR attainment, improve win rates, and deliver exceptional customer value.</p>\n<p>Drive proactive inspection of SE impact, execution quality, and alignment to the value-selling methodology.</p>\n<p>Conduct...</p>"
+        }
+      ]
+    }
+  }
+}

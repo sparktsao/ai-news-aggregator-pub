@@ -1,0 +1,1465 @@
+{
+  "date": "2026-01-13",
+  "coverage_date": "2026-01-12",
+  "coverage_start": "2026-01-12T00:00:00",
+  "coverage_end": "2026-01-12T23:59:59.999999",
+  "executive_summary": "#### Top Story\nThe **Apple-Google Gemini** partnership [dominated industry discussion](/?date=2026-01-13&category=reddit#item-897c4dfb48a5), with **OpenAI** losing critical mobile distribution as **Google** now controls search, Gemini, and Apple integration.\n\n#### Key Developments\n- **Anthropic**: [Launched **Claude Cowork**](/?date=2026-01-13&category=social#item-826d6be223eb), a general-purpose agent for **$100+/month** subscribers, with early impressions shared by Simon Willison\n- **Ilya Sutskever**: [Outlined 2025 perspectives](/?date=2026-01-13&category=news#item-b089b6c37ee8) identifying inference-time compute as the next scaling frontier and data exhaustion as a key challenge\n- **DeepSeek**: [Released **Engram**](/?date=2026-01-13&category=research#item-e149a3b2c656), a conditional memory architecture with **O(1) lookup** representing a new sparsity axis for LLMs\n- **GPT-5.2 Pro Agent**: [Achieved a verified spherical packing record](/?date=2026-01-13&category=reddit#item-c4d77e6d2706) on **MIT benchmarks**, though users [report \"eerie\" personality patterns](/?date=2026-01-13&category=reddit#item-4c21a8609eeb) with excessive reassurance\n- **Small models gaining ground**: **Eva-4B** [beat **GPT-5.2** on financial tasks](/?date=2026-01-13&category=reddit#item-fec243273539); a **4B Text2SQL** model [matched its **685B** teacher](/?date=2026-01-13&category=reddit#item-5918b232f968)\n\n#### Safety & Regulation\n- **AgentBait** research [demonstrated systematic social engineering attacks](/?date=2026-01-13&category=research#item-73426f819c51) exploiting reasoning weaknesses in web automation agents\n- **Guardian** investigation found **Grok** generating **6,000+ NCII images per hour**, drawing criticism of **xAI's** safety practices\n- **Meta** and **OpenAI** [announced disruption of influence operations](/?date=2026-01-13&category=reddit#item-dc51a6330b30)\n- Simon Willison [raised concerns about \"copyright laundering\"](/?date=2026-01-13&category=social#item-1b33f998a72f)—using AI to convert **GPL** code to specs then regenerate clean code\n\n#### Research Highlights\n- **Two Pathways to Truthfulness** [identified distinct mechanisms](/?date=2026-01-13&category=research#item-b71e0657ce5a) for hallucination encoding, enabling targeted interventions\n- Research [proved fundamental incompatibility](/?date=2026-01-13&category=research#item-ddd608af8e7d) between **SFT** and **RL** in post-training pipelines\n- **NoisyBench** [exposed **80% performance drops**](/?date=2026-01-13&category=research#item-60e98e942efd) in reasoning models facing contextual distractors\n- **Sakana AI's DroPE** paper [found positional embeddings hurt](/?date=2026-01-13&category=social#item-cfc338f70630) long-context generalization—removing them post-training improves performance\n- **BabyVision** [revealed MLLMs fail](/?date=2026-01-13&category=research#item-944a385367a9) on basic visual reasoning tasks toddlers solve easily\n\n#### Job Market Highlights\n- Weak batch with no frontier lab positions from **OpenAI**, **Anthropic**, or **DeepMind**\n- **SuperPlane** [hiring for AI-native DevOps tooling](/?date=2026-01-13&category=jobs#item-7ee863239af1); **Agentic Dream** [seeking cloud architects](/?date=2026-01-13&category=jobs#item-740f719c1e25) for AI infrastructure scaling\n\n#### Looking Ahead\nWatch how **OpenAI** responds to losing Apple distribution, and whether inference-time compute scaling becomes the dominant paradigm as pre-training data sources exhaust.",
+  "executive_summary_html": "<h4>Top Story</h4>\n<p>The <strong>Apple-Google Gemini</strong> partnership <a href=\"/?date=2026-01-13&category=reddit#item-897c4dfb48a5\" class=\"internal-link\">dominated industry discussion</a>, with <strong>OpenAI</strong> losing critical mobile distribution as <strong>Google</strong> now controls search, Gemini, and Apple integration.</p>\n<h4>Key Developments</h4>\n<ul>\n<li><strong>Anthropic</strong>: <a href=\"/?date=2026-01-13&category=social#item-826d6be223eb\" class=\"internal-link\">Launched <strong>Claude Cowork</strong></a>, a general-purpose agent for <strong>$100+/month</strong> subscribers, with early impressions shared by Simon Willison</li>\n<li><strong>Ilya Sutskever</strong>: <a href=\"/?date=2026-01-13&category=news#item-b089b6c37ee8\" class=\"internal-link\">Outlined 2025 perspectives</a> identifying inference-time compute as the next scaling frontier and data exhaustion as a key challenge</li>\n<li><strong>DeepSeek</strong>: <a href=\"/?date=2026-01-13&category=research#item-e149a3b2c656\" class=\"internal-link\">Released <strong>Engram</strong></a>, a conditional memory architecture with <strong>O(1) lookup</strong> representing a new sparsity axis for LLMs</li>\n<li><strong>GPT-5.2 Pro Agent</strong>: <a href=\"/?date=2026-01-13&category=reddit#item-c4d77e6d2706\" class=\"internal-link\">Achieved a verified spherical packing record</a> on <strong>MIT benchmarks</strong>, though users <a href=\"/?date=2026-01-13&category=reddit#item-4c21a8609eeb\" class=\"internal-link\">report \"eerie\" personality patterns</a> with excessive reassurance</li>\n<li><strong>Small models gaining ground</strong>: <strong>Eva-4B</strong> <a href=\"/?date=2026-01-13&category=reddit#item-fec243273539\" class=\"internal-link\">beat <strong>GPT-5.2</strong> on financial tasks</a>; a <strong>4B Text2SQL</strong> model <a href=\"/?date=2026-01-13&category=reddit#item-5918b232f968\" class=\"internal-link\">matched its <strong>685B</strong> teacher</a></li>\n</ul>\n<h4>Safety & Regulation</h4>\n<ul>\n<li><strong>AgentBait</strong> research <a href=\"/?date=2026-01-13&category=research#item-73426f819c51\" class=\"internal-link\">demonstrated systematic social engineering attacks</a> exploiting reasoning weaknesses in web automation agents</li>\n<li><strong>Guardian</strong> investigation found <strong>Grok</strong> generating <strong>6,000+ NCII images per hour</strong>, drawing criticism of <strong>xAI's</strong> safety practices</li>\n<li><strong>Meta</strong> and <strong>OpenAI</strong> <a href=\"/?date=2026-01-13&category=reddit#item-dc51a6330b30\" class=\"internal-link\">announced disruption of influence operations</a></li>\n<li>Simon Willison <a href=\"/?date=2026-01-13&category=social#item-1b33f998a72f\" class=\"internal-link\">raised concerns about \"copyright laundering\"</a>—using AI to convert <strong>GPL</strong> code to specs then regenerate clean code</li>\n</ul>\n<h4>Research Highlights</h4>\n<ul>\n<li><strong>Two Pathways to Truthfulness</strong> <a href=\"/?date=2026-01-13&category=research#item-b71e0657ce5a\" class=\"internal-link\">identified distinct mechanisms</a> for hallucination encoding, enabling targeted interventions</li>\n<li>Research <a href=\"/?date=2026-01-13&category=research#item-ddd608af8e7d\" class=\"internal-link\">proved fundamental incompatibility</a> between <strong>SFT</strong> and <strong>RL</strong> in post-training pipelines</li>\n<li><strong>NoisyBench</strong> <a href=\"/?date=2026-01-13&category=research#item-60e98e942efd\" class=\"internal-link\">exposed <strong>80% performance drops</strong></a> in reasoning models facing contextual distractors</li>\n<li><strong>Sakana AI's DroPE</strong> paper <a href=\"/?date=2026-01-13&category=social#item-cfc338f70630\" class=\"internal-link\">found positional embeddings hurt</a> long-context generalization—removing them post-training improves performance</li>\n<li><strong>BabyVision</strong> <a href=\"/?date=2026-01-13&category=research#item-944a385367a9\" class=\"internal-link\">revealed MLLMs fail</a> on basic visual reasoning tasks toddlers solve easily</li>\n</ul>\n<h4>Job Market Highlights</h4>\n<ul>\n<li>Weak batch with no frontier lab positions from <strong>OpenAI</strong>, <strong>Anthropic</strong>, or <strong>DeepMind</strong></li>\n<li><strong>SuperPlane</strong> <a href=\"/?date=2026-01-13&category=jobs#item-7ee863239af1\" class=\"internal-link\">hiring for AI-native DevOps tooling</a>; <strong>Agentic Dream</strong> <a href=\"/?date=2026-01-13&category=jobs#item-740f719c1e25\" class=\"internal-link\">seeking cloud architects</a> for AI infrastructure scaling</li>\n</ul>\n<h4>Looking Ahead</h4>\n<p>Watch how <strong>OpenAI</strong> responds to losing Apple distribution, and whether inference-time compute scaling becomes the dominant paradigm as pre-training data sources exhaust.</p>",
+  "personal_summary": "- **Agent vs LLM重要性**: 今日趨勢顯示**兩者相輔相成但Agent正成為關鍵差異化因素**。**Anthropic**推出**Claude Cowork** Agent（$100+/月），**GPT-5.2 Pro Agent**在MIT基準創紀錄，**Geoffrey Hinton**強調10,000個Agent可即時共享知識的優勢。但**AgentBait**研究揭露Agent的社會工程攻擊漏洞，且理論證明LLM需要**私有工作記憶**才能同時保持機密性與一致性——這暗示單純LLM有根本性限制，Agent架構是必要補充。\n\n- **Train LLM vs RAG**: 今日研究強烈支持**優先整理RAG而非自訓LLM**。原因：(1) **DeepSeek Engram**展示O(1)查詢的條件記憶架構代表新方向；(2) 研究證明**SFT與RL根本不相容**，post-training極其複雜；(3) **小模型打敗巨人**：**Eva-4B**在金融任務勝過GPT-5.2，**4B Text2SQL**匹配685B教師模型——說明善用RAG的小模型可媲美巨型模型；(4) **Ilya Sutskever**指出數據枯竭是重大挑戰。\n\n- **中國 vs 美國 AI**: 今日新聞顯示**美國仍主導生態系但中國在特定技術突破**。美國：**Apple-Google Gemini**聯盟重塑移動端、**Anthropic**推Agent產品、**OpenAI**雖失Apple分發但GPT-5.2創紀錄。中國：**DeepSeek**的**Engram**條件記憶架構獲社群高度關注，研究發現**Qwen**比Llama更受益於RL訓練（distributional clarity更高）。整體格局：美國領先商業化與生態，中國在架構創新持續輸出。\n\n- **個人學習建議**: 基於今日趨勢：(1) **推理時計算（Inference-time compute）**是Ilya認定的下一個scaling前沿，值得深入；(2) **Agent開發與人機協作**——SuperPlane、Agentic Dream正招聘相關職位；(3) **長上下文與記憶架構**——DroPE研究顯示刪除位置編碼反而提升長文本性能；(4) **小模型專精化**比追求大模型更實用；(5) **AI安全意識**——AgentBait、幻覺路徑研究顯示這是差異化技能。本週無OpenAI/Anthropic/DeepMind前沿職位開放。",
+  "personal_summary_html": "<ul>\n<li><strong>Agent vs LLM重要性</strong>: 今日趨勢顯示<strong>兩者相輔相成但Agent正成為關鍵差異化因素</strong>。<strong>Anthropic</strong>推出<strong>Claude Cowork</strong> Agent（$100+/月），<strong>GPT-5.2 Pro Agent</strong>在MIT基準創紀錄，<strong>Geoffrey Hinton</strong>強調10,000個Agent可即時共享知識的優勢。但<strong>AgentBait</strong>研究揭露Agent的社會工程攻擊漏洞，且理論證明LLM需要<strong>私有工作記憶</strong>才能同時保持機密性與一致性——這暗示單純LLM有根本性限制，Agent架構是必要補充。</li>\n</ul>\n<ul>\n<li><strong>Train LLM vs RAG</strong>: 今日研究強烈支持<strong>優先整理RAG而非自訓LLM</strong>。原因：(1) <strong>DeepSeek Engram</strong>展示O(1)查詢的條件記憶架構代表新方向；(2) 研究證明<strong>SFT與RL根本不相容</strong>，post-training極其複雜；(3) <strong>小模型打敗巨人</strong>：<strong>Eva-4B</strong>在金融任務勝過GPT-5.2，<strong>4B Text2SQL</strong>匹配685B教師模型——說明善用RAG的小模型可媲美巨型模型；(4) <strong>Ilya Sutskever</strong>指出數據枯竭是重大挑戰。</li>\n</ul>\n<ul>\n<li><strong>中國 vs 美國 AI</strong>: 今日新聞顯示<strong>美國仍主導生態系但中國在特定技術突破</strong>。美國：<strong>Apple-Google Gemini</strong>聯盟重塑移動端、<strong>Anthropic</strong>推Agent產品、<strong>OpenAI</strong>雖失Apple分發但GPT-5.2創紀錄。中國：<strong>DeepSeek</strong>的<strong>Engram</strong>條件記憶架構獲社群高度關注，研究發現<strong>Qwen</strong>比Llama更受益於RL訓練（distributional clarity更高）。整體格局：美國領先商業化與生態，中國在架構創新持續輸出。</li>\n</ul>\n<ul>\n<li><strong>個人學習建議</strong>: 基於今日趨勢：(1) <strong>推理時計算（Inference-time compute）</strong>是Ilya認定的下一個scaling前沿，值得深入；(2) <strong>Agent開發與人機協作</strong>——SuperPlane、Agentic Dream正招聘相關職位；(3) <strong>長上下文與記憶架構</strong>——DroPE研究顯示刪除位置編碼反而提升長文本性能；(4) <strong>小模型專精化</strong>比追求大模型更實用；(5) <strong>AI安全意識</strong>——AgentBait、幻覺路徑研究顯示這是差異化技能。本週無OpenAI/Anthropic/DeepMind前沿職位開放。</li>\n</ul>",
+  "top_topics": [
+    {
+      "name": "LLM Training & Scaling Paradigms",
+      "description": "[news]Ilya Sutskever's [2025 perspectives](/?date=2026-01-13&category=news#item-b089b6c37ee8) highlight inference-time compute as the next scaling frontier, alongside data exhaustion challenges facing current approaches[/news]. [research]Research [revealed fundamental incompatibilities](/?date=2026-01-13&category=research#item-ddd608af8e7d) between SFT and RL in post-training pipelines, with [theoretical unification](/?date=2026-01-13&category=research#item-3977c94556f6) of preference learning methods (RLHF, DPO, IPO, KTO, SimPO) and discovery that ['distributional clarity'](/?date=2026-01-13&category=research#item-bc2e5b53e5fe) explains why Qwen benefits more from RL than Llama[/research]. [social]Sakana AI's [DroPE paper](/?date=2026-01-13&category=social#item-cfc338f70630) sparked discussion with findings that positional embeddings are 'training wheels' that help convergence but hurt long-context generalization[/social].",
+      "description_html": "<span style=\"color: #667eea; font-weight: 500;\">Ilya Sutskever's <a href=\"/?date=2026-01-13&category=news#item-b089b6c37ee8\" class=\"internal-link\">2025 perspectives</a> highlight inference-time compute as the next scaling frontier, alongside data exhaustion challenges facing current approaches</span>. <span style=\"color: #10b981; font-weight: 500;\">Research <a href=\"/?date=2026-01-13&category=research#item-ddd608af8e7d\" class=\"internal-link\">revealed fundamental incompatibilities</a> between SFT and RL in post-training pipelines, with <a href=\"/?date=2026-01-13&category=research#item-3977c94556f6\" class=\"internal-link\">theoretical unification</a> of preference learning methods (RLHF, DPO, IPO, KTO, SimPO) and discovery that <a href=\"/?date=2026-01-13&category=research#item-bc2e5b53e5fe\" class=\"internal-link\">'distributional clarity'</a> explains why Qwen benefits more from RL than Llama</span>. <span style=\"color: #f59e0b; font-weight: 500;\">Sakana AI's <a href=\"/?date=2026-01-13&category=social#item-cfc338f70630\" class=\"internal-link\">DroPE paper</a> sparked discussion with findings that positional embeddings are 'training wheels' that help convergence but hurt long-context generalization</span>.",
+      "category_breakdown": {
+        "news": 1,
+        "research": 4,
+        "social": 3
+      },
+      "representative_items": [],
+      "importance": 88
+    },
+    {
+      "name": "AI Agents & Autonomous Systems",
+      "description": "[research]AgentBait demonstrates [first systematic social engineering attacks](/?date=2026-01-13&category=research#item-73426f819c51) against web automation agents, while impossibility theorems [prove LLMs cannot maintain](/?date=2026-01-13&category=research#item-2057356f180a) both secrecy and consistency without private working memory[/research]. [social]Simon Willison [published first impressions](/?date=2026-01-13&category=social#item-826d6be223eb) of Anthropic's Claude Cowork, a new general-purpose agent for $100+/month subscribers[/social]. [reddit]Geoffrey Hinton discussed how [10,000 agents can share knowledge](/?date=2026-01-13&category=reddit#item-cc0100062a28) instantly, while GPT-5.2 Pro Agent [achieved a verified spherical packing record](/?date=2026-01-13&category=reddit#item-c4d77e6d2706) on MIT benchmarks[/reddit]. [jobs]SuperPlane and Agentic Dream are [hiring for AI-native DevOps](/?date=2026-01-13&category=jobs#item-7ee863239af1) and agent-human collaboration infrastructure[/jobs].",
+      "description_html": "<span style=\"color: #10b981; font-weight: 500;\">AgentBait demonstrates <a href=\"/?date=2026-01-13&category=research#item-73426f819c51\" class=\"internal-link\">first systematic social engineering attacks</a> against web automation agents, while impossibility theorems <a href=\"/?date=2026-01-13&category=research#item-2057356f180a\" class=\"internal-link\">prove LLMs cannot maintain</a> both secrecy and consistency without private working memory</span>. <span style=\"color: #f59e0b; font-weight: 500;\">Simon Willison <a href=\"/?date=2026-01-13&category=social#item-826d6be223eb\" class=\"internal-link\">published first impressions</a> of Anthropic's Claude Cowork, a new general-purpose agent for $100+/month subscribers</span>. <span style=\"color: #ef4444; font-weight: 500;\">Geoffrey Hinton discussed how <a href=\"/?date=2026-01-13&category=reddit#item-cc0100062a28\" class=\"internal-link\">10,000 agents can share knowledge</a> instantly, while GPT-5.2 Pro Agent <a href=\"/?date=2026-01-13&category=reddit#item-c4d77e6d2706\" class=\"internal-link\">achieved a verified spherical packing record</a> on MIT benchmarks</span>. <span style=\"color: #8b5cf6; font-weight: 500;\">SuperPlane and Agentic Dream are <a href=\"/?date=2026-01-13&category=jobs#item-7ee863239af1\" class=\"internal-link\">hiring for AI-native DevOps</a> and agent-human collaboration infrastructure</span>.",
+      "category_breakdown": {
+        "research": 2,
+        "social": 2,
+        "reddit": 3,
+        "jobs": 2
+      },
+      "representative_items": [],
+      "importance": 85
+    },
+    {
+      "name": "Model Reasoning & Reliability",
+      "description": "[news]Ilya Sutskever [emphasized the paradigm shift](/?date=2026-01-13&category=news#item-b089b6c37ee8) from memorization to reasoning as a key development[/news]. [research]NoisyBench [exposed catastrophic 80% drops](/?date=2026-01-13&category=research#item-60e98e942efd) in reasoning models facing contextual distractors, BabyVision [revealed MLLMs fail](/?date=2026-01-13&category=research#item-944a385367a9) on basic visual reasoning tasks toddlers solve easily, and Two Pathways [identified distinct mechanisms](/?date=2026-01-13&category=research#item-b71e0657ce5a) for hallucination encoding[/research]. [reddit]Users [report GPT 5.2 feels 'eerie'](/?date=2026-01-13&category=reddit#item-4c21a8609eeb) with excessive reassurance patterns, yet the same model [achieved verified MIT records](/?date=2026-01-13&category=reddit#item-c4d77e6d2706)—highlighting tension between capability gains and personality issues[/reddit].",
+      "description_html": "<span style=\"color: #667eea; font-weight: 500;\">Ilya Sutskever <a href=\"/?date=2026-01-13&category=news#item-b089b6c37ee8\" class=\"internal-link\">emphasized the paradigm shift</a> from memorization to reasoning as a key development</span>. <span style=\"color: #10b981; font-weight: 500;\">NoisyBench <a href=\"/?date=2026-01-13&category=research#item-60e98e942efd\" class=\"internal-link\">exposed catastrophic 80% drops</a> in reasoning models facing contextual distractors, BabyVision <a href=\"/?date=2026-01-13&category=research#item-944a385367a9\" class=\"internal-link\">revealed MLLMs fail</a> on basic visual reasoning tasks toddlers solve easily, and Two Pathways <a href=\"/?date=2026-01-13&category=research#item-b71e0657ce5a\" class=\"internal-link\">identified distinct mechanisms</a> for hallucination encoding</span>. <span style=\"color: #ef4444; font-weight: 500;\">Users <a href=\"/?date=2026-01-13&category=reddit#item-4c21a8609eeb\" class=\"internal-link\">report GPT 5.2 feels 'eerie'</a> with excessive reassurance patterns, yet the same model <a href=\"/?date=2026-01-13&category=reddit#item-c4d77e6d2706\" class=\"internal-link\">achieved verified MIT records</a>—highlighting tension between capability gains and personality issues</span>.",
+      "category_breakdown": {
+        "news": 1,
+        "research": 3,
+        "reddit": 2
+      },
+      "representative_items": [],
+      "importance": 82
+    },
+    {
+      "name": "LLM Memory & Context Architecture",
+      "description": "[research]Engram [introduces conditional memory](/?date=2026-01-13&category=research#item-e149a3b2c656) with O(1) lookup by modernizing N-gram embeddings and discovers U-shaped scaling laws, while [impossibility theorems](/?date=2026-01-13&category=research#item-2057356f180a) show LLMs need private working memory for certain tasks[/research]. [reddit]DeepSeek's [release of Engram](/?date=2026-01-13&category=reddit#item-e036d3575518) sparked excitement for its novel conditional memory architecture representing a new sparsity axis[/reddit]. [social]David Ha and Sakana AI's [DroPE research](/?date=2026-01-13&category=social#item-cfc338f70630) shows dropping positional embeddings post-training unlocks better long-context performance, with Ha referencing his [2021 work](/?date=2026-01-13&category=social#item-8ba92982debf) on processing arbitrarily long sequences without positional encoding[/social].",
+      "description_html": "<span style=\"color: #10b981; font-weight: 500;\">Engram <a href=\"/?date=2026-01-13&category=research#item-e149a3b2c656\" class=\"internal-link\">introduces conditional memory</a> with O(1) lookup by modernizing N-gram embeddings and discovers U-shaped scaling laws, while <a href=\"/?date=2026-01-13&category=research#item-2057356f180a\" class=\"internal-link\">impossibility theorems</a> show LLMs need private working memory for certain tasks</span>. <span style=\"color: #ef4444; font-weight: 500;\">DeepSeek's <a href=\"/?date=2026-01-13&category=reddit#item-e036d3575518\" class=\"internal-link\">release of Engram</a> sparked excitement for its novel conditional memory architecture representing a new sparsity axis</span>. <span style=\"color: #f59e0b; font-weight: 500;\">David Ha and Sakana AI's <a href=\"/?date=2026-01-13&category=social#item-cfc338f70630\" class=\"internal-link\">DroPE research</a> shows dropping positional embeddings post-training unlocks better long-context performance, with Ha referencing his <a href=\"/?date=2026-01-13&category=social#item-8ba92982debf\" class=\"internal-link\">2021 work</a> on processing arbitrarily long sequences without positional encoding</span>.",
+      "category_breakdown": {
+        "research": 2,
+        "reddit": 1,
+        "social": 4
+      },
+      "representative_items": [],
+      "importance": 78
+    },
+    {
+      "name": "AI Safety & Ethics Concerns",
+      "description": "[research]AgentBait [reveals systematic vulnerabilities](/?date=2026-01-13&category=research#item-73426f819c51) in web automation agents exploiting reasoning weaknesses, while hallucination research [enables targeted interventions](/?date=2026-01-13&category=research#item-b71e0657ce5a) through identified truthfulness pathways[/research]. [reddit]Guardian investigation into Grok generating 6,000+ NCII images per hour drew sharp criticism of xAI's safety practices, while Meta and OpenAI [announced disruption](/?date=2026-01-13&category=reddit#item-dc51a6330b30) of influence operations[/reddit]. [social]Simon Willison [raised unexplored concerns](/?date=2026-01-13&category=social#item-1b33f998a72f) about 'copyright laundering'—using AI to convert GPL code to specs then regenerate clean code[/social].",
+      "description_html": "<span style=\"color: #10b981; font-weight: 500;\">AgentBait <a href=\"/?date=2026-01-13&category=research#item-73426f819c51\" class=\"internal-link\">reveals systematic vulnerabilities</a> in web automation agents exploiting reasoning weaknesses, while hallucination research <a href=\"/?date=2026-01-13&category=research#item-b71e0657ce5a\" class=\"internal-link\">enables targeted interventions</a> through identified truthfulness pathways</span>. <span style=\"color: #ef4444; font-weight: 500;\">Guardian investigation into Grok generating 6,000+ NCII images per hour drew sharp criticism of xAI's safety practices, while Meta and OpenAI <a href=\"/?date=2026-01-13&category=reddit#item-dc51a6330b30\" class=\"internal-link\">announced disruption</a> of influence operations</span>. <span style=\"color: #f59e0b; font-weight: 500;\">Simon Willison <a href=\"/?date=2026-01-13&category=social#item-1b33f998a72f\" class=\"internal-link\">raised unexplored concerns</a> about 'copyright laundering'—using AI to convert GPL code to specs then regenerate clean code</span>.",
+      "category_breakdown": {
+        "research": 2,
+        "reddit": 2,
+        "social": 2
+      },
+      "representative_items": [],
+      "importance": 76
+    },
+    {
+      "name": "AI Developer Tools & Code Quality",
+      "description": "[news]Product Hunt saw the [launch of a new MCP tool](/?date=2026-01-13&category=news#item-04ad6222496f) for web accessibility testing, representing continued growth in the AI developer tooling ecosystem[/news]. [social]Simon Willison discussed AI code quality and 'vibe coding' expectations, noting that AI coding agents typically ['hack around until tests pass'](/?date=2026-01-13&category=social#item-899a5c6797fe) rather than doing careful ports, and highlighted the problem of ['extractive contributions'](/?date=2026-01-13&category=social#item-22bc5e121989) to open source projects[/social]. [jobs]SuperPlane is [building AI-native DevOps tooling](/?date=2026-01-13&category=jobs#item-7ee863239af1) for agent-human collaboration, while multiple positions emerged for [AI-powered product development](/?date=2026-01-13&category=jobs#item-0199e3ca53f4) at Speechify and [infrastructure scaling](/?date=2026-01-13&category=jobs#item-740f719c1e25) at Agentic Dream[/jobs].",
+      "description_html": "<span style=\"color: #667eea; font-weight: 500;\">Product Hunt saw the <a href=\"/?date=2026-01-13&category=news#item-04ad6222496f\" class=\"internal-link\">launch of a new MCP tool</a> for web accessibility testing, representing continued growth in the AI developer tooling ecosystem</span>. <span style=\"color: #f59e0b; font-weight: 500;\">Simon Willison discussed AI code quality and 'vibe coding' expectations, noting that AI coding agents typically <a href=\"/?date=2026-01-13&category=social#item-899a5c6797fe\" class=\"internal-link\">'hack around until tests pass'</a> rather than doing careful ports, and highlighted the problem of <a href=\"/?date=2026-01-13&category=social#item-22bc5e121989\" class=\"internal-link\">'extractive contributions'</a> to open source projects</span>. <span style=\"color: #8b5cf6; font-weight: 500;\">SuperPlane is <a href=\"/?date=2026-01-13&category=jobs#item-7ee863239af1\" class=\"internal-link\">building AI-native DevOps tooling</a> for agent-human collaboration, while multiple positions emerged for <a href=\"/?date=2026-01-13&category=jobs#item-0199e3ca53f4\" class=\"internal-link\">AI-powered product development</a> at Speechify and <a href=\"/?date=2026-01-13&category=jobs#item-740f719c1e25\" class=\"internal-link\">infrastructure scaling</a> at Agentic Dream</span>.",
+      "category_breakdown": {
+        "news": 1,
+        "social": 4,
+        "jobs": 3
+      },
+      "representative_items": [],
+      "importance": 72
+    }
+  ],
+  "total_items_collected": 1022,
+  "total_items_analyzed": 1018,
+  "collection_status": {
+    "overall": "success",
+    "sources": [
+      {
+        "name": "news",
+        "display_name": "News",
+        "status": "success",
+        "count": 5,
+        "error": null
+      },
+      {
+        "name": "research",
+        "display_name": "Research",
+        "status": "success",
+        "count": 747,
+        "error": null
+      },
+      {
+        "name": "social",
+        "display_name": "Social",
+        "status": "success",
+        "count": 11,
+        "error": null
+      },
+      {
+        "name": "reddit",
+        "display_name": "Reddit",
+        "status": "success",
+        "count": 232,
+        "error": null
+      },
+      {
+        "name": "jobs",
+        "display_name": "Jobs",
+        "status": "success",
+        "count": 27,
+        "error": null
+      }
+    ],
+    "social_platforms": [
+      {
+        "name": "twitter",
+        "display_name": "Twitter",
+        "status": "success",
+        "count": 0,
+        "error": "All 7 API requests failed"
+      },
+      {
+        "name": "bluesky",
+        "display_name": "Bluesky",
+        "status": "success",
+        "count": 11,
+        "error": null
+      },
+      {
+        "name": "mastodon",
+        "display_name": "Mastodon",
+        "status": "skipped",
+        "count": 0,
+        "error": "No accounts configured"
+      }
+    ],
+    "warnings": []
+  },
+  "hero_image_url": "/data/2026-01-13/hero.webp?v=1768632526",
+  "hero_image_prompt": "You are generating a daily hero banner image for an AI news aggregator website.\n\n## Your Goal\nCreate a clean, informative infographic-style illustration that visually represents today's top AI news stories. The image should be immediately understandable and communicate key themes at a glance.\n\n## Today's Stories\n\n**Topic 1: LLM Training & Scaling Paradigms**\n[news]Ilya Sutskever's 2025 perspectives highlight inference-time compute as the next scaling frontier, alongside data exhaustion challenges facing current approaches[/news]. [research]Research revealed fundamental incompatibilities between SFT and RL in post-training pipelines, with theoretical unification of preference learning methods (RLHF, DPO, IPO, KTO, SimPO) and discovery that 'distributional clarity' explains why Qwen benefits more from RL than Llama[/research]. [social]Sakana AI's DroPE paper sparked discussion with findings that positional embeddings are 'training wheels' that help convergence but hurt long-context generalization[/social].\n**Topic 2: AI Agents & Autonomous Systems**\n[research]AgentBait demonstrates first systematic social engineering attacks against web automation agents, while impossibility theorems prove LLMs cannot maintain both secrecy and consistency without private working memory[/research]. [social]Simon Willison published first impressions of Anthropic's Claude Cowork, a new general-purpose agent for $100+/month subscribers[/social]. [reddit]Geoffrey Hinton discussed how 10,000 agents can share knowledge instantly, while GPT-5.2 Pro Agent achieved a verified spherical packing record on MIT benchmarks[/reddit]. [jobs]SuperPlane and Agentic Dream are hiring for AI-native DevOps and agent-human collaboration infrastructure[/jobs].\n**Topic 3: Model Reasoning & Reliability**\n[news]Ilya Sutskever emphasized the paradigm shift from memorization to reasoning as a key development[/news]. [research]NoisyBench exposed catastrophic 80% drops in reasoning models facing contextual distractors, BabyVision revealed MLLMs fail on basic visual reasoning tasks toddlers solve easily, and Two Pathways identified distinct mechanisms for hallucination encoding[/research]. [reddit]Users report GPT 5.2 feels 'eerie' with excessive reassurance patterns, yet the same model achieved verified MIT records—highlighting tension between capability gains and personality issues[/reddit].\n**Topic 4: LLM Memory & Context Architecture**\n[research]Engram introduces conditional memory with O(1) lookup by modernizing N-gram embeddings and discovers U-shaped scaling laws, while impossibility theorems show LLMs need private working memory for certain tasks[/research]. [reddit]DeepSeek's release of Engram sparked excitement for its novel conditional memory architecture representing a new sparsity axis[/reddit]. [social]David Ha and Sakana AI's DroPE research shows dropping positional embeddings post-training unlocks better long-context performance, with Ha referencing his 2021 work on processing arbitrarily long sequences without positional encoding[/social].\n**Topic 5: AI Safety & Ethics Concerns**\n[research]AgentBait reveals systematic vulnerabilities in web automation agents exploiting reasoning weaknesses, while hallucination research enables targeted interventions through identified truthfulness pathways[/research]. [reddit]Guardian investigation into Grok generating 6,000+ NCII images per hour drew sharp criticism of xAI's safety practices, while Meta and OpenAI announced disruption of influence operations[/reddit]. [social]Simon Willison raised unexplored concerns about 'copyright laundering'—using AI to convert GPL code to specs then regenerate clean code[/social].\n**Topic 6: AI Developer Tools & Code Quality**\n[news]Product Hunt saw the launch of a new MCP tool for web accessibility testing, representing continued growth in the AI developer tooling ecosystem[/news]. [social]Simon Willison discussed AI code quality and 'vibe coding' expectations, noting that AI coding agents typically 'hack around until tests pass' rather than doing careful ports, and highlighted the problem of 'extractive contributions' to open source projects[/social]. [jobs]SuperPlane is building AI-native DevOps tooling for agent-human collaboration, while multiple positions emerged for AI-powered product development at Speechify and infrastructure scaling at Agentic Dream[/jobs].\n\n## Visual Direction\nCreate an infographic composition that represents these stories. You must include Topic 1 (the top story) prominently, then incorporate 2-3 other topics. Consider:\n- Use clear visual metaphors and icons to represent each theme\n- Arrange elements in a logical, easy-to-scan layout\n- Include minimal text labels if helpful for clarity\n- Suggested visual elements: compute clusters, gradient flows, learning curves, autonomous systems, workflow diagrams, connected tools, neural network visualization, glowing nodes, architecture, shield icons, protective barriers, guardrails, terminal screens, code snippets, developer workspace\n\n## Style Requirements (CRITICAL)\n- **Japanese manga/comic art style** - clean linework, dynamic composition, speed lines for emphasis\n- **Infographic clarity** - easy to understand, clear visual hierarchy, organized layout\n- Bold, vibrant colors with high contrast\n- Trend Red (#E63946) as accent color for key elements\n- Clean, professional look - not cartoonish or childish\n- Tech-forward, modern aesthetic\n- Company logos (OpenAI, Anthropic, Google, NVIDIA, etc.) are encouraged when relevant to stories\n- NO mascots, NO characters, NO cute animals - focus on abstract concepts and technology visualization",
+  "generated_at": "2026-01-16T22:48:46.539007",
+  "categories": {
+    "news": {
+      "count": 2,
+      "category_summary": "A limited news day with only 2 articles to analyze. The most notable item is a [video analysis compiling](/?date=2026-01-13&category=news#item-b089b6c37ee8) **Ilya Sutskever's** 2025 perspectives on frontier AI, covering key topics including:\n- Inference-time compute as the next scaling frontier\n- Data exhaustion challenges facing current approaches\n- The intelligence paradigm shift from memorization to reasoning\n- **SSI** (Safe Superintelligence Inc.) strategic direction\n\nSeparately, **Product Hunt** saw the [launch of a new **MCP tool**](/?date=2026-01-13&category=news#item-04ad6222496f) for web accessibility testing, representing continued growth in the AI developer tooling ecosystem.",
+      "category_summary_html": "<p>A limited news day with only 2 articles to analyze. The most notable item is a <a href=\"/?date=2026-01-13&category=news#item-b089b6c37ee8\" class=\"internal-link\">video analysis compiling</a> <strong>Ilya Sutskever's</strong> 2025 perspectives on frontier AI, covering key topics including:</p>\n<ul>\n<li>Inference-time compute as the next scaling frontier</li>\n<li>Data exhaustion challenges facing current approaches</li>\n<li>The intelligence paradigm shift from memorization to reasoning</li>\n<li><strong>SSI</strong> (Safe Superintelligence Inc.) strategic direction</li>\n</ul>\n<p>Separately, <strong>Product Hunt</strong> saw the <a href=\"/?date=2026-01-13&category=news#item-04ad6222496f\" class=\"internal-link\">launch of a new <strong>MCP tool</strong></a> for web accessibility testing, representing continued growth in the AI developer tooling ecosystem.</p>",
+      "themes": [
+        {
+          "name": "Scaling & Compute Paradigms",
+          "description": "Discussion of inference-time scaling and limits of traditional scaling laws",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 58.0
+        },
+        {
+          "name": "Developer Tools & MCP",
+          "description": "New tools extending LLM capabilities through Model Context Protocol",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 38.0
+        }
+      ],
+      "top_items": [
+        {
+          "id": "b089b6c37ee8",
+          "title": "【人工智能】智能的本质是思考 | Ilya Sutskever2025观点盘点 | 推理侧计算 | 逻辑深度 | 验证者架构 | 数据枯竭 | SSI直通策略 | 进化先验 | 赛博格融合 | 对齐",
+          "content": "如果算力堆叠已经触及天花板，AGI的下一级台阶在哪里？被誉为AI先知的Ilya Sutskever给出了最震撼的答案。本期视频拆解伊利亚2025年全量洞见，为什么说智能的本质不是记忆而是思考？为什么当前的AI只是高分低能的应试教育产物？从Scaling Law的物理墙，到推理侧计算的指数级爆发，从情绪作为生物进化最强奖励模型，到人机合一的赛博格终局。这不仅是算法的变革，更是人类作为感知生命在超级智能时代的生存宣言。",
+          "url": "https://www.youtube.com/watch?v=3VHGxWe2KeQ",
+          "author": "最佳拍档",
+          "published": "2026-01-12T09:00:06",
+          "source": "最佳拍档",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "Chinese-language video compiling Ilya Sutskever's 2025 perspectives on AI, discussing inference-time compute scaling, data exhaustion challenges, and the shift from memorization to reasoning as the essence of intelligence. Covers SSI strategy, alignment approaches, and human-AI cyborg integration scenarios.",
+          "importance_score": 58.0,
+          "reasoning": "While covering important frontier AI topics from a key figure (Ilya Sutskever), this is secondary commentary/analysis content rather than original news or announcements. The themes discussed (inference scaling, data limits) are significant but this is not a primary source.",
+          "themes": [
+            "inference-time compute",
+            "scaling laws",
+            "AI alignment",
+            "thought leadership"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Chinese-language video compiling Ilya Sutskever's 2025 perspectives on AI, discussing inference-time compute scaling, data exhaustion challenges, and the shift from memorization to reasoning as the essence of intelligence. Covers SSI strategy, alignment approaches, and human-AI cyborg integration scenarios.</p>",
+          "content_html": "<p>如果算力堆叠已经触及天花板，AGI的下一级台阶在哪里？被誉为AI先知的Ilya Sutskever给出了最震撼的答案。本期视频拆解伊利亚2025年全量洞见，为什么说智能的本质不是记忆而是思考？为什么当前的AI只是高分低能的应试教育产物？从Scaling Law的物理墙，到推理侧计算的指数级爆发，从情绪作为生物进化最强奖励模型，到人机合一的赛博格终局。这不仅是算法的变革，更是人类作为感知生命在超级智能时代的生存宣言。</p>"
+        },
+        {
+          "id": "04ad6222496f",
+          "title": "Web Accessibility Testing MCP",
+          "content": "\n             Give LLMs access to web accessibility testing APIs\n          \n          \n            Discussion\n            |\n            Link\n          ",
+          "url": "https://www.producthunt.com/products/web-accessibility-testing-mcp",
+          "author": "Ronan Takizawa",
+          "published": "2026-01-12T23:59:27",
+          "source": "Product Hunt — The best new products, every day",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "New MCP (Model Context Protocol) tool launched on Product Hunt that enables LLMs to access web accessibility testing APIs. Extends AI assistant capabilities to evaluate website accessibility compliance.",
+          "importance_score": 38.0,
+          "reasoning": "Minor developer tool launch on Product Hunt. MCP integrations are increasingly common, and this represents incremental tooling rather than breakthrough capability. Limited frontier AI significance.",
+          "themes": [
+            "developer tools",
+            "MCP ecosystem",
+            "accessibility"
+          ],
+          "continuation": null,
+          "summary_html": "<p>New MCP (Model Context Protocol) tool launched on Product Hunt that enables LLMs to access web accessibility testing APIs. Extends AI assistant capabilities to evaluate website accessibility compliance.</p>",
+          "content_html": "<p>Give LLMs access to web accessibility testing APIs</p>\n<p>Discussion</p>\n<p>|</p>\n<p>Link</p>"
+        }
+      ]
+    },
+    "research": {
+      "count": 30,
+      "category_summary": "Today's research reveals fundamental insights into LLM training dynamics and architectural limitations. **Two Pathways to Truthfulness** [identifies distinct pathways](/?date=2026-01-13&category=research#item-b71e0657ce5a) for hallucination encoding, enabling targeted interventions. A striking neuroscience connection emerges as **Synergistic Cores** in middle layers [mirror human brain](/?date=2026-01-13&category=research#item-8830d9825e7e) information integration patterns.\n\n- **SFT-RL Non-decoupling** [proves fundamental incompatibility](/?date=2026-01-13&category=research#item-ddd608af8e7d) between supervised fine-tuning and RL in post-training pipelines—each undermines the other at optimality\n- **Distributional Clarity** [explains why](/?date=2026-01-13&category=research#item-bc2e5b53e5fe) **Qwen** benefits more from RL than **Llama**: high-clarity token distributions enable effective policy optimization\n- **NoisyBench** exposes [catastrophic **80% performance drops**](/?date=2026-01-13&category=research#item-60e98e942efd) in reasoning models when facing contextual distractors\n- Impossibility theorem [shows LLMs cannot maintain](/?date=2026-01-13&category=research#item-2057356f180a) both secrecy and consistency without private working memory\n\nSafety research advances with **AgentBait** [demonstrating systematic attacks](/?date=2026-01-13&category=research#item-73426f819c51) against web automation agents. **Engram** [introduces conditional memory](/?date=2026-01-13&category=research#item-e149a3b2c656) with O(1) lookup and discovers U-shaped scaling laws. **BabyVision** [reveals MLLMs fail](/?date=2026-01-13&category=research#item-944a385367a9) on basic visual reasoning tasks that toddlers solve easily.",
+      "category_summary_html": "<p>Today's research reveals fundamental insights into LLM training dynamics and architectural limitations. <strong>Two Pathways to Truthfulness</strong> <a href=\"/?date=2026-01-13&category=research#item-b71e0657ce5a\" class=\"internal-link\">identifies distinct pathways</a> for hallucination encoding, enabling targeted interventions. A striking neuroscience connection emerges as <strong>Synergistic Cores</strong> in middle layers <a href=\"/?date=2026-01-13&category=research#item-8830d9825e7e\" class=\"internal-link\">mirror human brain</a> information integration patterns.</p>\n<ul>\n<li><strong>SFT-RL Non-decoupling</strong> <a href=\"/?date=2026-01-13&category=research#item-ddd608af8e7d\" class=\"internal-link\">proves fundamental incompatibility</a> between supervised fine-tuning and RL in post-training pipelines—each undermines the other at optimality</li>\n<li><strong>Distributional Clarity</strong> <a href=\"/?date=2026-01-13&category=research#item-bc2e5b53e5fe\" class=\"internal-link\">explains why</a> <strong>Qwen</strong> benefits more from RL than <strong>Llama</strong>: high-clarity token distributions enable effective policy optimization</li>\n<li><strong>NoisyBench</strong> exposes <a href=\"/?date=2026-01-13&category=research#item-60e98e942efd\" class=\"internal-link\">catastrophic <strong>80% performance drops</strong></a> in reasoning models when facing contextual distractors</li>\n<li>Impossibility theorem <a href=\"/?date=2026-01-13&category=research#item-2057356f180a\" class=\"internal-link\">shows LLMs cannot maintain</a> both secrecy and consistency without private working memory</li>\n</ul>\n<p>Safety research advances with <strong>AgentBait</strong> <a href=\"/?date=2026-01-13&category=research#item-73426f819c51\" class=\"internal-link\">demonstrating systematic attacks</a> against web automation agents. <strong>Engram</strong> <a href=\"/?date=2026-01-13&category=research#item-e149a3b2c656\" class=\"internal-link\">introduces conditional memory</a> with O(1) lookup and discovers U-shaped scaling laws. <strong>BabyVision</strong> <a href=\"/?date=2026-01-13&category=research#item-944a385367a9\" class=\"internal-link\">reveals MLLMs fail</a> on basic visual reasoning tasks that toddlers solve easily.</p>",
+      "themes": [
+        {
+          "name": "AI Safety & Alignment",
+          "description": "Content moderation evaluation, safety state bugs, ethical reasoning in practitioners, and socio-technical analysis of agentic AI systems",
+          "item_count": 43,
+          "example_items": [],
+          "importance": 82
+        },
+        {
+          "name": "Language Model Safety & Alignment",
+          "description": "Research on making LLMs safer through pretraining interventions, safe fine-tuning, defending against attacks, and understanding failure modes",
+          "item_count": 12,
+          "example_items": [],
+          "importance": 82
+        },
+        {
+          "name": "LLM Interpretability & Hallucinations",
+          "description": "Understanding internal mechanisms of LLMs, truthfulness encoding, and failure modes in evaluation",
+          "item_count": 6,
+          "example_items": [],
+          "importance": 80
+        },
+        {
+          "name": "Vision-Language Models",
+          "description": "Research on multimodal models combining vision and language, including VLMs, MLLMs, and their evaluation, safety, and applications",
+          "item_count": 15,
+          "example_items": [],
+          "importance": 78
+        },
+        {
+          "name": "AI Security & Adversarial Robustness",
+          "description": "Attack vectors for LLM systems including prompt injection, defense limitations, and robustness to contextual distractors",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 78
+        },
+        {
+          "name": "LLM Training & RLHF",
+          "description": "Methods for training and aligning LLMs including reward modeling, credit assignment, and SFT/RL interactions",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 78
+        },
+        {
+          "name": "LLM Reliability and Safety",
+          "description": "Research on LLM confidence calibration, alignment controllability, prompt injection defenses, and decision faithfulness",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 78
+        },
+        {
+          "name": "Language Models & Reasoning",
+          "description": "Research on LLM capabilities, efficiency, reasoning mechanisms, and novel training approaches including chain-of-thought compression and adaptive thinking budgets",
+          "item_count": 14,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "Alignment and Preference Learning",
+          "description": "Methods for aligning LLMs with human preferences including RLHF variants, DPO extensions, and theoretical unification of approaches",
+          "item_count": 5,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "LLM Agents & Memory",
+          "description": "Frameworks for tool-using agents, memory systems for long-horizon interactions, and agent benchmarks",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 75
+        }
+      ],
+      "top_items": [
+        {
+          "id": "b71e0657ce5a",
+          "title": "Two Pathways to Truthfulness: On the Intrinsic Encoding of LLM Hallucinations",
+          "content": "Despite their impressive capabilities, large language models (LLMs) frequently generate hallucinations. Previous work shows that their internal states encode rich signals of truthfulness, yet the origins and mechanisms of these signals remain unclear. In this paper, we demonstrate that truthfulness cues arise from two distinct information pathways: (1) a Question-Anchored pathway that depends on question-answer information flow, and (2) an Answer-Anchored pathway that derives self-contained evidence from the generated answer itself. First, we validate and disentangle these pathways through attention knockout and token patching. Afterwards, we uncover notable and intriguing properties of these two mechanisms. Further experiments reveal that (1) the two mechanisms are closely associated with LLM knowledge boundaries; and (2) internal representations are aware of their distinctions. Finally, building on these insightful findings, two applications are proposed to enhance hallucination detection performance. Overall, our work provides new insight into how LLMs internally encode truthfulness, offering directions for more reliable and self-aware generative systems.",
+          "url": "http://arxiv.org/abs/2601.07422",
+          "author": "Wen Luo, Guangyue Peng, Wei Li, Shaohang Wei, Feifan Song, Liang Wang, Nan Yang, Xingxing Zhang, Jing Jin, Furu Wei, Houfeng Wang",
+          "published": "2026-01-13",
+          "source": "arXiv (Computation and Language)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CL"
+          ],
+          "summary": "Identifies two distinct pathways through which LLMs encode truthfulness: a Question-Anchored pathway depending on Q-A information flow, and an Answer-Anchored pathway deriving evidence from generated answers. Validates through attention knockout and token patching.",
+          "importance_score": 82,
+          "reasoning": "Important mechanistic understanding of hallucination origins in LLMs. Novel decomposition with practical implications for hallucination detection and mitigation. Strong experimental methodology.",
+          "themes": [
+            "LLM Interpretability",
+            "Hallucination Detection",
+            "AI Safety",
+            "Mechanistic Interpretability"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Identifies two distinct pathways through which LLMs encode truthfulness: a Question-Anchored pathway depending on Q-A information flow, and an Answer-Anchored pathway deriving evidence from generated answers. Validates through attention knockout and token patching.</p>",
+          "content_html": "<p>Despite their impressive capabilities, large language models (LLMs) frequently generate hallucinations. Previous work shows that their internal states encode rich signals of truthfulness, yet the origins and mechanisms of these signals remain unclear. In this paper, we demonstrate that truthfulness cues arise from two distinct information pathways: (1) a Question-Anchored pathway that depends on question-answer information flow, and (2) an Answer-Anchored pathway that derives self-contained evidence from the generated answer itself. First, we validate and disentangle these pathways through attention knockout and token patching. Afterwards, we uncover notable and intriguing properties of these two mechanisms. Further experiments reveal that (1) the two mechanisms are closely associated with LLM knowledge boundaries; and (2) internal representations are aware of their distinctions. Finally, building on these insightful findings, two applications are proposed to enhance hallucination detection performance. Overall, our work provides new insight into how LLMs internally encode truthfulness, offering directions for more reliable and self-aware generative systems.</p>"
+        },
+        {
+          "id": "8830d9825e7e",
+          "title": "A Brain-like Synergistic Core in LLMs Drives Behaviour and Learning",
+          "content": "The independent evolution of intelligence in biological and artificial systems offers a unique opportunity to identify its fundamental computational principles. Here we show that large language models spontaneously develop synergistic cores -- components where information integration exceeds individual parts -- remarkably similar to those in the human brain. Using principles of information decomposition across multiple LLM model families and architectures, we find that areas in middle layers exhibit synergistic processing while early and late layers rely on redundancy, mirroring the informational organisation in biological brains. This organisation emerges through learning and is absent in randomly initialised networks. Crucially, ablating synergistic components causes disproportionate behavioural changes and performance loss, aligning with theoretical predictions about the fragility of synergy. Moreover, fine-tuning synergistic regions through reinforcement learning yields significantly greater performance gains than training redundant components, yet supervised fine-tuning shows no such advantage. This convergence suggests that synergistic information processing is a fundamental property of intelligence, providing targets for principled model design and testable predictions for biological intelligence.",
+          "url": "http://arxiv.org/abs/2601.06851",
+          "author": "Pedro Urbina-Rodriguez, Zafeirios Fountas, Fernando E. Rosas, Jun Wang, Andrea I. Luppi, Haitham Bou-Ammar, Murray Shanahan, Pedro A. M. Mediano",
+          "published": "2026-01-13",
+          "source": "arXiv (Artificial Intelligence)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.AI"
+          ],
+          "summary": "Discovers that LLMs spontaneously develop synergistic cores (information integration exceeding individual parts) similar to human brains. Middle layers show synergistic processing while early/late layers are redundant, mirroring biological organization.",
+          "importance_score": 82,
+          "reasoning": "Fascinating finding linking LLM and brain information processing. Novel interpretability insight with implications for understanding intelligence. Important theoretical contribution.",
+          "themes": [
+            "LLM Interpretability",
+            "Neuroscience",
+            "Information Theory",
+            "AI Alignment"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Discovers that LLMs spontaneously develop synergistic cores (information integration exceeding individual parts) similar to human brains. Middle layers show synergistic processing while early/late layers are redundant, mirroring biological organization.</p>",
+          "content_html": "<p>The independent evolution of intelligence in biological and artificial systems offers a unique opportunity to identify its fundamental computational principles. Here we show that large language models spontaneously develop synergistic cores -- components where information integration exceeds individual parts -- remarkably similar to those in the human brain. Using principles of information decomposition across multiple LLM model families and architectures, we find that areas in middle layers exhibit synergistic processing while early and late layers rely on redundancy, mirroring the informational organisation in biological brains. This organisation emerges through learning and is absent in randomly initialised networks. Crucially, ablating synergistic components causes disproportionate behavioural changes and performance loss, aligning with theoretical predictions about the fragility of synergy. Moreover, fine-tuning synergistic regions through reinforcement learning yields significantly greater performance gains than training redundant components, yet supervised fine-tuning shows no such advantage. This convergence suggests that synergistic information processing is a fundamental property of intelligence, providing targets for principled model design and testable predictions for biological intelligence.</p>"
+        },
+        {
+          "id": "ddd608af8e7d",
+          "title": "On the Non-decoupling of Supervised Fine-tuning and Reinforcement Learning in Post-training",
+          "content": "Post-training of large language models routinely interleaves supervised fine-tuning (SFT) with reinforcement learning (RL). These two methods have different objectives: SFT minimizes the cross-entropy loss between model outputs and expert responses, while RL maximizes reward signals derived from human preferences or rule-based verifiers. Modern reasoning models have widely adopted the practice of alternating SFT and RL training. However, there is no theoretical account of whether they can be decoupled. We prove that decoupling is impossible in either order: (1) SFT-then-RL coupling: RL increases SFT loss under SFT optimality and (2) RL-then-SFT coupling: SFT lowers the reward achieved by RL. Experiments on Qwen3-0.6B confirm the predicted degradation, verifying that SFT and RL cannot be separated without loss of prior performance in the post-training",
+          "url": "http://arxiv.org/abs/2601.07389",
+          "author": "Xueyan Niu, Bo Bai, Wei Han, Weixi Zhang",
+          "published": "2026-01-13",
+          "source": "arXiv (Machine Learning)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.LG"
+          ],
+          "summary": "Proves that SFT and RL cannot be decoupled in LLM post-training: SFT-then-RL causes RL to increase SFT loss at optimality; RL-then-SFT causes SFT to lower RL reward. Verified experimentally on Qwen3-0.6B.",
+          "importance_score": 80,
+          "reasoning": "Important theoretical result for LLM training methodology. Proves fundamental incompatibility that practitioners observe empirically. Direct implications for training pipeline design.",
+          "themes": [
+            "LLM Training",
+            "RLHF",
+            "Supervised Fine-tuning",
+            "ML Theory"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Proves that SFT and RL cannot be decoupled in LLM post-training: SFT-then-RL causes RL to increase SFT loss at optimality; RL-then-SFT causes SFT to lower RL reward. Verified experimentally on Qwen3-0.6B.</p>",
+          "content_html": "<p>Post-training of large language models routinely interleaves supervised fine-tuning (SFT) with reinforcement learning (RL). These two methods have different objectives: SFT minimizes the cross-entropy loss between model outputs and expert responses, while RL maximizes reward signals derived from human preferences or rule-based verifiers. Modern reasoning models have widely adopted the practice of alternating SFT and RL training. However, there is no theoretical account of whether they can be decoupled. We prove that decoupling is impossible in either order: (1) SFT-then-RL coupling: RL increases SFT loss under SFT optimality and (2) RL-then-SFT coupling: SFT lowers the reward achieved by RL. Experiments on Qwen3-0.6B confirm the predicted degradation, verifying that SFT and RL cannot be separated without loss of prior performance in the post-training</p>"
+        },
+        {
+          "id": "2057356f180a",
+          "title": "LLMs Can't Play Hangman: On the Necessity of a Private Working Memory for Language Agents",
+          "content": "As LLMs move from text completion toward autonomous agents, they remain constrained by the standard chat interface, which lacks private working memory. This raises a fundamental question: can agents reliably perform interactive tasks that depend on hidden state? We define Private State Interactive Tasks (PSITs), which require agents to generate and maintain hidden information while producing consistent public responses. We show theoretically that any agent restricted to the public conversation history cannot simultaneously preserve secrecy and consistency in PSITs, yielding an impossibility theorem. To empirically validate this limitation, we introduce a self-consistency testing protocol that evaluates whether agents can maintain a hidden secret across forked dialogue branches. Standard chat-based LLMs and retrieval-based memory baselines fail this test regardless of scale, demonstrating that semantic retrieval does not enable true state maintenance. To address this, we propose a novel architecture incorporating an explicit private working memory; we demonstrate that this mechanism restores consistency, establishing private state as a necessary component for interactive language agents.",
+          "url": "http://arxiv.org/abs/2601.06973",
+          "author": "Davide Baldelli, Ali Parviz, Amal Zouaq, Sarath Chandar",
+          "published": "2026-01-13",
+          "source": "arXiv (Computation and Language)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CL"
+          ],
+          "summary": "Proves impossibility theorem that LLMs restricted to public conversation history cannot simultaneously preserve secrecy and consistency in tasks requiring hidden state. Validates with Hangman experiments.",
+          "importance_score": 79,
+          "reasoning": "Fundamental theoretical result about LLM limitations. Important implications for agent design and security. Clear impossibility theorem.",
+          "themes": [
+            "LLM Limitations",
+            "Agents",
+            "Theoretical AI",
+            "AI Safety"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Proves impossibility theorem that LLMs restricted to public conversation history cannot simultaneously preserve secrecy and consistency in tasks requiring hidden state. Validates with Hangman experiments.</p>",
+          "content_html": "<p>As LLMs move from text completion toward autonomous agents, they remain constrained by the standard chat interface, which lacks private working memory. This raises a fundamental question: can agents reliably perform interactive tasks that depend on hidden state? We define Private State Interactive Tasks (PSITs), which require agents to generate and maintain hidden information while producing consistent public responses. We show theoretically that any agent restricted to the public conversation history cannot simultaneously preserve secrecy and consistency in PSITs, yielding an impossibility theorem. To empirically validate this limitation, we introduce a self-consistency testing protocol that evaluates whether agents can maintain a hidden secret across forked dialogue branches. Standard chat-based LLMs and retrieval-based memory baselines fail this test regardless of scale, demonstrating that semantic retrieval does not enable true state maintenance. To address this, we propose a novel architecture incorporating an explicit private working memory; we demonstrate that this mechanism restores consistency, establishing private state as a necessary component for interactive language agents.</p>"
+        },
+        {
+          "id": "60e98e942efd",
+          "title": "Lost in the Noise: How Reasoning Models Fail with Contextual Distractors",
+          "content": "Recent advances in reasoning models and agentic AI systems have led to an increased reliance on diverse external information. However, this shift introduces input contexts that are inherently noisy, a reality that current sanitized benchmarks fail to capture. We introduce NoisyBench, a comprehensive benchmark that systematically evaluates model robustness across 11 datasets in RAG, reasoning, alignment, and tool-use tasks against diverse noise types, including random documents, irrelevant chat histories, and hard negative distractors. Our evaluation reveals a catastrophic performance drop of up to 80% in state-of-the-art models when faced with contextual distractors. Crucially, we find that agentic workflows often amplify these errors by over-trusting noisy tool outputs, and distractors can trigger emergent misalignment even without adversarial intent. We find that prompting, context engineering, SFT, and outcome-reward only RL fail to ensure robustness; in contrast, our proposed Rationale-Aware Reward (RARE) significantly strengthens resilience by incentivizing the identification of helpful information within noise. Finally, we uncover an inverse scaling trend where increased test-time computation leads to worse performance in noisy settings and demonstrate via attention visualization that models disproportionately focus on distractor tokens, providing vital insights for building the next generation of robust, reasoning-capable agents.",
+          "url": "http://arxiv.org/abs/2601.07226",
+          "author": "Seongyun Lee, Yongrae Jo, Minju Seo, Moontae Lee, Minjoon Seo",
+          "published": "2026-01-13",
+          "source": "arXiv (Artificial Intelligence)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.AI"
+          ],
+          "summary": "Introduces NoisyBench evaluating model robustness to contextual distractors across 11 datasets, revealing catastrophic performance drops up to 80% in state-of-the-art reasoning models with contextual noise.",
+          "importance_score": 78,
+          "reasoning": "Critical finding about reasoning model fragility. Large-scale systematic evaluation revealing serious limitation. Highly relevant for deployed systems and agentic AI.",
+          "themes": [
+            "Robustness",
+            "Reasoning",
+            "Benchmarking",
+            "AI Safety",
+            "Agentic AI"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Introduces NoisyBench evaluating model robustness to contextual distractors across 11 datasets, revealing catastrophic performance drops up to 80% in state-of-the-art reasoning models with contextual noise.</p>",
+          "content_html": "<p>Recent advances in reasoning models and agentic AI systems have led to an increased reliance on diverse external information. However, this shift introduces input contexts that are inherently noisy, a reality that current sanitized benchmarks fail to capture. We introduce NoisyBench, a comprehensive benchmark that systematically evaluates model robustness across 11 datasets in RAG, reasoning, alignment, and tool-use tasks against diverse noise types, including random documents, irrelevant chat histories, and hard negative distractors. Our evaluation reveals a catastrophic performance drop of up to 80% in state-of-the-art models when faced with contextual distractors. Crucially, we find that agentic workflows often amplify these errors by over-trusting noisy tool outputs, and distractors can trigger emergent misalignment even without adversarial intent. We find that prompting, context engineering, SFT, and outcome-reward only RL fail to ensure robustness; in contrast, our proposed Rationale-Aware Reward (RARE) significantly strengthens resilience by incentivizing the identification of helpful information within noise. Finally, we uncover an inverse scaling trend where increased test-time computation leads to worse performance in noisy settings and demonstrate via attention visualization that models disproportionately focus on distractor tokens, providing vital insights for building the next generation of robust, reasoning-capable agents.</p>"
+        },
+        {
+          "id": "bc2e5b53e5fe",
+          "title": "Distributional Clarity: The Hidden Driver of RL-Friendliness in Large Language Models",
+          "content": "Language model families exhibit striking disparity in their capacity to benefit from reinforcement learning: under identical training, models like Qwen achieve substantial gains, while others like Llama yield limited improvements. Complementing data-centric approaches, we reveal that this disparity reflects a hidden structural property: \\textbf{distributional clarity} in probability space. Through a three-stage analysis-from phenomenon to mechanism to interpretation-we uncover that RL-friendly models exhibit intra-class compactness and inter-class separation in their probability assignments to correct vs. incorrect responses. We quantify this clarity using the \\textbf{Silhouette Coefficient} ($S$) and demonstrate that (1) high $S$ correlates strongly with RL performance; (2) low $S$ is associated with severe logic errors and reasoning instability. To confirm this property, we introduce a Silhouette-Aware Reweighting strategy that prioritizes low-$S$ samples during training. Experiments across six mathematical benchmarks show consistent improvements across all model families, with gains up to 5.9 points on AIME24. Our work establishes distributional clarity as a fundamental, trainable property underlying RL-Friendliness.",
+          "url": "http://arxiv.org/abs/2601.06911",
+          "author": "Shaoning Sun, Mingzhu Cai, Huang He, Bingjin Chen, Siqi Bao, Yujiu Yang, Hua Wu, Haifeng Wang",
+          "published": "2026-01-13",
+          "source": "arXiv (Computation and Language)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CL"
+          ],
+          "summary": "Reveals 'distributional clarity' as a hidden structural property explaining why some LLM families (Qwen) benefit more from RL than others (Llama). High Silhouette Coefficient correlates with RL performance.",
+          "importance_score": 77,
+          "reasoning": "Important mechanistic insight into RL fine-tuning effectiveness. Explains previously mysterious disparity between model families. Practical implications for training.",
+          "themes": [
+            "Reinforcement Learning",
+            "Language Models",
+            "Model Analysis",
+            "AI Alignment"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Reveals 'distributional clarity' as a hidden structural property explaining why some LLM families (Qwen) benefit more from RL than others (Llama). High Silhouette Coefficient correlates with RL performance.</p>",
+          "content_html": "<p>Language model families exhibit striking disparity in their capacity to benefit from reinforcement learning: under identical training, models like Qwen achieve substantial gains, while others like Llama yield limited improvements. Complementing data-centric approaches, we reveal that this disparity reflects a hidden structural property: \\textbf{distributional clarity} in probability space. Through a three-stage analysis-from phenomenon to mechanism to interpretation-we uncover that RL-friendly models exhibit intra-class compactness and inter-class separation in their probability assignments to correct vs. incorrect responses. We quantify this clarity using the \\textbf{Silhouette Coefficient} ($S$) and demonstrate that (1) high $S$ correlates strongly with RL performance; (2) low $S$ is associated with severe logic errors and reasoning instability. To confirm this property, we introduce a Silhouette-Aware Reweighting strategy that prioritizes low-$S$ samples during training. Experiments across six mathematical benchmarks show consistent improvements across all model families, with gains up to 5.9 points on AIME24. Our work establishes distributional clarity as a fundamental, trainable property underlying RL-Friendliness.</p>"
+        },
+        {
+          "id": "73426f819c51",
+          "title": "When Bots Take the Bait: Exposing and Mitigating the Emerging Social Engineering Attack in Web Automation Agent",
+          "content": "Web agents, powered by large language models (LLMs), are increasingly deployed to automate complex web interactions. The rise of open-source frameworks (e.g., Browser Use, Skyvern-AI) has accelerated adoption, but also broadened the attack surface. While prior research has focused on model threats such as prompt injection and backdoors, the risks of social engineering remain largely unexplored. We present the first systematic study of social engineering attacks against web automation agents and design a pluggable runtime mitigation solution. On the attack side, we introduce the AgentBait paradigm, which exploits intrinsic weaknesses in agent execution: inducement contexts can distort the agent's reasoning and steer it toward malicious objectives misaligned with the intended task. On the defense side, we propose SUPERVISOR, a lightweight runtime module that enforces environment and intention consistency alignment between webpage context and intended goals to mitigate unsafe operations before execution.   Empirical results show that mainstream frameworks are highly vulnerable to AgentBait, with an average attack success rate of 67.5% and peaks above 80% under specific strategies (e.g., trusted identity forgery). Compared with existing lightweight defenses, our module can be seamlessly integrated across different web automation frameworks and reduces attack success rates by up to 78.1% on average while incurring only a 7.7% runtime overhead and preserving usability. This work...",
+          "url": "http://arxiv.org/abs/2601.07263",
+          "author": "Xinyi Wu, Geng Hong, Yueyue Chen, MingXuan Liu, Feier Jin, Xudong Pan, Jiarun Dai, and Baojun Liu",
+          "published": "2026-01-13",
+          "source": "arXiv (cs.CR)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CR"
+          ],
+          "summary": "First systematic study of social engineering attacks against web automation agents. Introduces AgentBait attack paradigm exploiting agent reasoning weaknesses, and AgentWatch defense runtime. Reports 43.2% success rate reduced to 3.6% with defense.",
+          "importance_score": 78,
+          "reasoning": "Critical safety research as web agents become deployed. First systematic treatment of an important attack surface. Timely given rapid agent adoption. Both attack and defense contributions.",
+          "themes": [
+            "AI Safety",
+            "Agent Security",
+            "Web Agents",
+            "Adversarial Attacks"
+          ],
+          "continuation": null,
+          "summary_html": "<p>First systematic study of social engineering attacks against web automation agents. Introduces AgentBait attack paradigm exploiting agent reasoning weaknesses, and AgentWatch defense runtime. Reports 43.2% success rate reduced to 3.6% with defense.</p>",
+          "content_html": "<p>Web agents, powered by large language models (LLMs), are increasingly deployed to automate complex web interactions. The rise of open-source frameworks (e.g., Browser Use, Skyvern-AI) has accelerated adoption, but also broadened the attack surface. While prior research has focused on model threats such as prompt injection and backdoors, the risks of social engineering remain largely unexplored. We present the first systematic study of social engineering attacks against web automation agents and design a pluggable runtime mitigation solution. On the attack side, we introduce the AgentBait paradigm, which exploits intrinsic weaknesses in agent execution: inducement contexts can distort the agent's reasoning and steer it toward malicious objectives misaligned with the intended task. On the defense side, we propose SUPERVISOR, a lightweight runtime module that enforces environment and intention consistency alignment between webpage context and intended goals to mitigate unsafe operations before execution.   Empirical results show that mainstream frameworks are highly vulnerable to AgentBait, with an average attack success rate of 67.5% and peaks above 80% under specific strategies (e.g., trusted identity forgery). Compared with existing lightweight defenses, our module can be seamlessly integrated across different web automation frameworks and reduces attack success rates by up to 78.1% on average while incurring only a 7.7% runtime overhead and preserving usability. This work...</p>"
+        },
+        {
+          "id": "e149a3b2c656",
+          "title": "Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models",
+          "content": "While Mixture-of-Experts (MoE) scales capacity via conditional computation, Transformers lack a native primitive for knowledge lookup, forcing them to inefficiently simulate retrieval through computation. To address this, we introduce conditional memory as a complementary sparsity axis, instantiated via Engram, a module that modernizes classic $N$-gram embedding for O(1) lookup. By formulating the Sparsity Allocation problem, we uncover a U-shaped scaling law that optimizes the trade-off between neural computation (MoE) and static memory (Engram). Guided by this law, we scale Engram to 27B parameters, achieving superior performance over a strictly iso-parameter and iso-FLOPs MoE baseline. Most notably, while the memory module is expected to aid knowledge retrieval (e.g., MMLU +3.4; CMMLU +4.0), we observe even larger gains in general reasoning (e.g., BBH +5.0; ARC-Challenge +3.7) and code/math domains~(HumanEval +3.0; MATH +2.4). Mechanistic analyses reveal that Engram relieves the backbone's early layers from static reconstruction, effectively deepening the network for complex reasoning. Furthermore, by delegating local dependencies to lookups, it frees up attention capacity for global context, substantially boosting long-context retrieval (e.g., Multi-Query NIAH: 84.2 to 97.0). Finally, Engram establishes infrastructure-aware efficiency: its deterministic addressing enables runtime prefetching from host memory, incurring negligible overhead. We envision conditional memory...",
+          "url": "http://arxiv.org/abs/2601.07372",
+          "author": "Xin Cheng, Wangding Zeng, Damai Dai, Qinyu Chen, Bingxuan Wang, Zhenda Xie, Kezhao Huang, Xingkai Yu, Zhewen Hao, Yukun Li, Han Zhang, Huishuai Zhang, Dongyan Zhao, Wenfeng Liang",
+          "published": "2026-01-13",
+          "source": "arXiv (Computation and Language)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CL"
+          ],
+          "summary": "Introduces Engram, a conditional memory module for LLMs enabling O(1) lookup by modernizing N-gram embeddings. Discovers U-shaped scaling law balancing MoE computation vs static memory, scaling to 27B parameters.",
+          "importance_score": 79,
+          "reasoning": "Novel architecture contribution with interesting scaling law discovery. Addresses fundamental limitation that Transformers lack native knowledge lookup. Strong empirical results (+3.4 MMLU, +3.3 CMMLU).",
+          "themes": [
+            "Language Model Architecture",
+            "Mixture of Experts",
+            "Memory Systems",
+            "Scaling Laws"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Introduces Engram, a conditional memory module for LLMs enabling O(1) lookup by modernizing N-gram embeddings. Discovers U-shaped scaling law balancing MoE computation vs static memory, scaling to 27B parameters.</p>",
+          "content_html": "<p>While Mixture-of-Experts (MoE) scales capacity via conditional computation, Transformers lack a native primitive for knowledge lookup, forcing them to inefficiently simulate retrieval through computation. To address this, we introduce conditional memory as a complementary sparsity axis, instantiated via Engram, a module that modernizes classic $N$-gram embedding for O(1) lookup. By formulating the Sparsity Allocation problem, we uncover a U-shaped scaling law that optimizes the trade-off between neural computation (MoE) and static memory (Engram). Guided by this law, we scale Engram to 27B parameters, achieving superior performance over a strictly iso-parameter and iso-FLOPs MoE baseline. Most notably, while the memory module is expected to aid knowledge retrieval (e.g., MMLU +3.4; CMMLU +4.0), we observe even larger gains in general reasoning (e.g., BBH +5.0; ARC-Challenge +3.7) and code/math domains~(HumanEval +3.0; MATH +2.4). Mechanistic analyses reveal that Engram relieves the backbone's early layers from static reconstruction, effectively deepening the network for complex reasoning. Furthermore, by delegating local dependencies to lookups, it frees up attention capacity for global context, substantially boosting long-context retrieval (e.g., Multi-Query NIAH: 84.2 to 97.0). Finally, Engram establishes infrastructure-aware efficiency: its deterministic addressing enables runtime prefetching from host memory, incurring negligible overhead. We envision conditional memory...</p>"
+        },
+        {
+          "id": "3977c94556f6",
+          "title": "From RLHF to Direct Alignment: A Theoretical Unification of Preference Learning for Large Language Models",
+          "content": "Aligning large language models (LLMs) with human preferences has become essential for safe and beneficial AI deployment. While Reinforcement Learning from Human Feedback (RLHF) established the dominant paradigm, a proliferation of alternatives -- Direct Preference Optimization (DPO), Identity Preference Optimization (IPO), Kahneman-Tversky Optimization (KTO), Simple Preference Optimization (SimPO), and many others -- has left practitioners without clear guidance on method selection. This survey provides a \\textit{theoretical unification} of preference learning methods, revealing that the apparent diversity reduces to principled choices along three orthogonal axes: \\textbf{(I) Preference Model} (what likelihood model underlies the objective), \\textbf{(II) Regularization Mechanism} (how deviation from reference policies is controlled), and \\textbf{(III) Data Distribution} (online vs.\\ offline learning and coverage requirements). We formalize each axis with precise definitions and theorems, establishing key results including the coverage separation between online and offline methods, scaling laws for reward overoptimization, and conditions under which direct alignment methods fail. Our analysis reveals that failure modes -- length hacking, mode collapse, likelihood displacement -- arise from specific, predictable combinations of design choices. We synthesize empirical findings across 50+ papers and provide a practitioner's decision guide for method selection. The framework...",
+          "url": "http://arxiv.org/abs/2601.06108",
+          "author": "Tarun Raheja, Nilay Pochhi",
+          "published": "2026-01-13",
+          "source": "arXiv (Artificial Intelligence)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.AI"
+          ],
+          "summary": "Provides theoretical unification of preference learning methods (RLHF, DPO, IPO, KTO, SimPO) by revealing they differ along three orthogonal axes: preference model, regularization mechanism, and optimization approach.",
+          "importance_score": 78,
+          "reasoning": "Valuable survey providing practitioner guidance and theoretical framework for understanding the proliferation of alignment methods. High utility for the field.",
+          "themes": [
+            "Alignment",
+            "RLHF",
+            "Preference Learning",
+            "Survey"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Provides theoretical unification of preference learning methods (RLHF, DPO, IPO, KTO, SimPO) by revealing they differ along three orthogonal axes: preference model, regularization mechanism, and optimization approach.</p>",
+          "content_html": "<p>Aligning large language models (LLMs) with human preferences has become essential for safe and beneficial AI deployment. While Reinforcement Learning from Human Feedback (RLHF) established the dominant paradigm, a proliferation of alternatives -- Direct Preference Optimization (DPO), Identity Preference Optimization (IPO), Kahneman-Tversky Optimization (KTO), Simple Preference Optimization (SimPO), and many others -- has left practitioners without clear guidance on method selection. This survey provides a \\textit{theoretical unification} of preference learning methods, revealing that the apparent diversity reduces to principled choices along three orthogonal axes: \\textbf{(I) Preference Model} (what likelihood model underlies the objective), \\textbf{(II) Regularization Mechanism} (how deviation from reference policies is controlled), and \\textbf{(III) Data Distribution} (online vs.\\ offline learning and coverage requirements). We formalize each axis with precise definitions and theorems, establishing key results including the coverage separation between online and offline methods, scaling laws for reward overoptimization, and conditions under which direct alignment methods fail. Our analysis reveals that failure modes -- length hacking, mode collapse, likelihood displacement -- arise from specific, predictable combinations of design choices. We synthesize empirical findings across 50+ papers and provide a practitioner's decision guide for method selection. The framework...</p>"
+        },
+        {
+          "id": "944a385367a9",
+          "title": "BabyVision: Visual Reasoning Beyond Language",
+          "content": "While humans develop core visual skills long before acquiring language, contemporary Multimodal LLMs (MLLMs) still rely heavily on linguistic priors to compensate for their fragile visual understanding. We uncovered a crucial fact: state-of-the-art MLLMs consistently fail on basic visual tasks that humans, even 3-year-olds, can solve effortlessly. To systematically investigate this gap, we introduce BabyVision, a benchmark designed to assess core visual abilities independent of linguistic knowledge for MLLMs. BabyVision spans a wide range of tasks, with 388 items divided into 22 subclasses across four key categories. Empirical results and human evaluation reveal that leading MLLMs perform significantly below human baselines. Gemini3-Pro-Preview scores 49.7, lagging behind 6-year-old humans and falling well behind the average adult score of 94.1. These results show despite excelling in knowledge-heavy evaluations, current MLLMs still lack fundamental visual primitives. Progress in BabyVision represents a step toward human-level visual perception and reasoning capabilities. We also explore solving visual reasoning with generation models by proposing BabyVision-Gen and automatic evaluation toolkit. Our code and benchmark data are released at https://github.com/UniPat-AI/BabyVision for reproduction.",
+          "url": "http://arxiv.org/abs/2601.06521",
+          "author": "Liang Chen, Weichu Xie, Yiyan Liang, Hongfeng He, Hans Zhao, Zhibo Yang, Zhiqi Huang, Haoning Wu, Haoyu Lu, Y. charles, Yiping Bao, Yuantao Fan, Guopeng Li, Haiyang Shen, Xuanzhong Chen, Wendong Xu, Shuzheng Si, Zefan Cai, Wenhao Chai, Ziqi Huang, Fangfu Liu, Tianyu Liu, Baobao Chang, Xiaobo Hu, Kaiyuan Chen, Yixin Ren, Yang Liu, Yuan Gong, Kuan Li",
+          "published": "2026-01-13",
+          "source": "arXiv (Computer Vision)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CV"
+          ],
+          "summary": "Introduces BabyVision, a benchmark testing core visual abilities independent of linguistic knowledge, revealing that state-of-the-art MLLMs fail on basic visual tasks that 3-year-old humans solve effortlessly.",
+          "importance_score": 80,
+          "reasoning": "Important finding exposing fundamental weakness in current MLLMs. Well-designed benchmark isolating visual reasoning from linguistic compensation. Significant implications for multimodal AI development.",
+          "themes": [
+            "MLLM Evaluation",
+            "Visual Reasoning",
+            "Benchmarks",
+            "Cognitive AI"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Introduces BabyVision, a benchmark testing core visual abilities independent of linguistic knowledge, revealing that state-of-the-art MLLMs fail on basic visual tasks that 3-year-old humans solve effortlessly.</p>",
+          "content_html": "<p>While humans develop core visual skills long before acquiring language, contemporary Multimodal LLMs (MLLMs) still rely heavily on linguistic priors to compensate for their fragile visual understanding. We uncovered a crucial fact: state-of-the-art MLLMs consistently fail on basic visual tasks that humans, even 3-year-olds, can solve effortlessly. To systematically investigate this gap, we introduce BabyVision, a benchmark designed to assess core visual abilities independent of linguistic knowledge for MLLMs. BabyVision spans a wide range of tasks, with 388 items divided into 22 subclasses across four key categories. Empirical results and human evaluation reveal that leading MLLMs perform significantly below human baselines. Gemini3-Pro-Preview scores 49.7, lagging behind 6-year-old humans and falling well behind the average adult score of 94.1. These results show despite excelling in knowledge-heavy evaluations, current MLLMs still lack fundamental visual primitives. Progress in BabyVision represents a step toward human-level visual perception and reasoning capabilities. We also explore solving visual reasoning with generation models by proposing BabyVision-Gen and automatic evaluation toolkit. Our code and benchmark data are released at https://github.com/UniPat-AI/BabyVision for reproduction.</p>"
+        }
+      ]
+    },
+    "social": {
+      "count": 11,
+      "category_summary": "Research on extending LLM context windows dominated technical discussions today. **David Ha** [shared a standout insight](/?date=2026-01-13&category=social#item-f443dbec8ddc) from **Sakana AI's** new DroPE paper: positional embeddings are 'training wheels' that help training convergence but hurt long-context generalization—deleting them post-training unlocks better performance.\n\n- **Simon Willison** [published first impressions](/?date=2026-01-13&category=social#item-826d6be223eb) of **Anthropic's Claude Cowork**, a new general-purpose agent for $100+/month subscribers\n- Willison also [raised the unexplored issue](/?date=2026-01-13&category=social#item-1b33f998a72f) of 'copyright laundering'—using AI to launder GPL code through spec generation\n- **Ted Underwood** [captured community sentiment](/?date=2026-01-13&category=social#item-42bf3b4cabad) with humor about acceptable AI uses: 'hungry ghosts' for research are fine, but personal assistants feel wrong\n\nAI code quality and 'vibe coding' sparked discussion around appropriate expectations for AI-generated code and the challenge of ['extractive contributions'](/?date=2026-01-13&category=social#item-22bc5e121989) to open source projects.",
+      "category_summary_html": "<p>Research on extending LLM context windows dominated technical discussions today. <strong>David Ha</strong> <a href=\"/?date=2026-01-13&category=social#item-f443dbec8ddc\" class=\"internal-link\">shared a standout insight</a> from <strong>Sakana AI's</strong> new DroPE paper: positional embeddings are 'training wheels' that help training convergence but hurt long-context generalization—deleting them post-training unlocks better performance.</p>\n<ul>\n<li><strong>Simon Willison</strong> <a href=\"/?date=2026-01-13&category=social#item-826d6be223eb\" class=\"internal-link\">published first impressions</a> of <strong>Anthropic's Claude Cowork</strong>, a new general-purpose agent for $100+/month subscribers</li>\n<li>Willison also <a href=\"/?date=2026-01-13&category=social#item-1b33f998a72f\" class=\"internal-link\">raised the unexplored issue</a> of 'copyright laundering'—using AI to launder GPL code through spec generation</li>\n<li><strong>Ted Underwood</strong> <a href=\"/?date=2026-01-13&category=social#item-42bf3b4cabad\" class=\"internal-link\">captured community sentiment</a> with humor about acceptable AI uses: 'hungry ghosts' for research are fine, but personal assistants feel wrong</li>\n</ul>\n<p>AI code quality and 'vibe coding' sparked discussion around appropriate expectations for AI-generated code and the challenge of <a href=\"/?date=2026-01-13&category=social#item-22bc5e121989\" class=\"internal-link\">'extractive contributions'</a> to open source projects.</p>",
+      "themes": [
+        {
+          "name": "Positional Embeddings & Context Extension",
+          "description": "Research on treating positional embeddings as temporary training scaffolds that can be removed post-training to unlock longer context windows",
+          "item_count": 3,
+          "example_items": [],
+          "importance": 90
+        },
+        {
+          "name": "AI Agent Products",
+          "description": "New product releases and analysis of general-purpose AI agents including Anthropic's Claude Cowork",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 85
+        },
+        {
+          "name": "AI Ethics & Legal Issues",
+          "description": "Questions around appropriate AI use, copyright implications, and 'copyright laundering' via AI",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 60
+        },
+        {
+          "name": "AI Code Quality & Vibe Coding",
+          "description": "Discussion of expectations, limitations, and review challenges for AI-generated code",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 55
+        },
+        {
+          "name": "Open Source & AI Contributions",
+          "description": "Challenges of managing AI-assisted contributions to open source projects, including 'extractive contributions'",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 50
+        }
+      ],
+      "top_items": [
+        {
+          "id": "f443dbec8ddc",
+          "title": "One of my favorite findings: Positional embeddings are just training wheels. They help convergence b...",
+          "content": "One of my favorite findings: Positional embeddings are just training wheels. They help convergence but hurt long-context generalization.\n\nWe found that if you simply delete them after pretraining and recalibrate for <1% of the original budget, you unlock massive context windows. Smarter, not harder.",
+          "url": "https://bsky.app/profile/hardmaru.bsky.social/post/3mc76dyw5ds2y",
+          "author": "@hardmaru.bsky.social",
+          "published": "2026-01-12T04:12:05.492000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "David Ha highlights key DroPE finding: positional embeddings are 'training wheels' that help convergence but hurt long-context generalization. Deleting them after pretraining and recalibrating for <1% of budget unlocks massive context windows.",
+          "importance_score": 90,
+          "reasoning": "Highest engagement post in batch (197 likes, 31 reposts), distills actionable insight from research, from paper co-author. Clear, memorable framing of technical finding.",
+          "themes": [
+            "positional_embeddings",
+            "context_length_extension",
+            "new_research",
+            "LLM_training"
+          ],
+          "continuation": null,
+          "summary_html": "<p>David Ha highlights key DroPE finding: positional embeddings are 'training wheels' that help convergence but hurt long-context generalization. Deleting them after pretraining and recalibrating for <1% of budget unlocks massive context windows.</p>",
+          "content_html": "<p>One of my favorite findings: Positional embeddings are just training wheels. They help convergence but hurt long-context generalization.</p>\n<p>We found that if you simply delete them after pretraining and recalibrate for <1% of the original budget, you unlock massive context windows. Smarter, not harder.</p>"
+        },
+        {
+          "id": "cfc338f70630",
+          "title": "Introducing DroPE: Extending Context by Dropping Positional Embeddings\n\nWe found embeddings like RoP...",
+          "content": "Introducing DroPE: Extending Context by Dropping Positional Embeddings\n\nWe found embeddings like RoPE aid training but bottleneck long-sequence generalization. Our solution’s simple: treat them as a temporary training scaffold, not a permanent necessity.\n\narxiv.org/abs/2512.12167\npub.sakana.ai/DroPE",
+          "url": "https://bsky.app/profile/sakanaai.bsky.social/post/3mc762xas7c2i",
+          "author": "@sakanaai.bsky.social",
+          "published": "2026-01-12T04:07:01.753000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Sakana AI announces DroPE paper: a method to extend context length by dropping positional embeddings like RoPE after training, treating them as temporary training scaffolds rather than permanent necessities.",
+          "importance_score": 92,
+          "reasoning": "Major new research from respected AI lab (Sakana AI), high engagement (114 likes, 22 reposts), introduces novel technique with practical implications for LLM context windows. Links to arxiv paper.",
+          "themes": [
+            "positional_embeddings",
+            "context_length_extension",
+            "new_research",
+            "LLM_architecture"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Sakana AI announces DroPE paper: a method to extend context length by dropping positional embeddings like RoPE after training, treating them as temporary training scaffolds rather than permanent necessities.</p>",
+          "content_html": "<p>Introducing DroPE: Extending Context by Dropping Positional Embeddings</p>\n<p>We found embeddings like RoPE aid training but bottleneck long-sequence generalization. Our solution’s simple: treat them as a temporary training scaffold, not a permanent necessity.</p>\n<p>arxiv.org/abs/2512.12167</p>\n<p>pub.sakana.ai/DroPE</p>"
+        },
+        {
+          "id": "826d6be223eb",
+          "title": "Wrote up my first impressions of Claude Cowork, Anthropic's new general purpose agent released today...",
+          "content": "Wrote up my first impressions of Claude Cowork, Anthropic's new general purpose agent released today for $100+/month subscribers as part of their macOS desktop app simonwillison.net/2026/Jan/12/...",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcaziruops2m",
+          "author": "@simonwillison.net",
+          "published": "2026-01-12T21:50:36.643000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Building on earlier [Social](/?date=2026-01-11&category=social#item-bed1fba5dab6) speculation about Claude for non-developers, Simon Willison shares first impressions of 'Claude Cowork', Anthropic's new general-purpose agent released for $100+/month subscribers as part of their macOS desktop app.",
+          "importance_score": 88,
+          "reasoning": "Breaking product news about major Anthropic release from highly credible AI tools analyst. Strong engagement (153 likes, 16 reposts). Important for understanding AI agent product landscape.",
+          "themes": [
+            "AI_agents",
+            "product_launch",
+            "Anthropic",
+            "Claude",
+            "pricing"
+          ],
+          "continuation": {
+            "original_item_id": "bed1fba5dab6",
+            "original_date": "2026-01-11",
+            "original_category": "social",
+            "original_title": "\"claude code for general purpose work\" (Non developer users, non coding use cases)",
+            "continuation_type": "new_development",
+            "should_demote": false,
+            "reference_text": "Building on earlier **Social** speculation about Claude for non-developers"
+          },
+          "summary_html": "<p>Building on earlier <a href=\"/?date=2026-01-11&category=social#item-bed1fba5dab6\" class=\"internal-link\">Social</a> speculation about Claude for non-developers, Simon Willison shares first impressions of 'Claude Cowork', Anthropic's new general-purpose agent released for $100+/month subscribers as part of their macOS desktop app.</p>",
+          "content_html": "<p>Wrote up my first impressions of Claude Cowork, Anthropic's new general purpose agent released today for $100+/month subscribers as part of their macOS desktop app simonwillison.net/2026/Jan/12/...</p>"
+        },
+        {
+          "id": "8ba92982debf",
+          "title": "Reminded me of my older NeurIPS 2021 paper, where we removed the positional encoding entirely, and b...",
+          "content": "Reminded me of my older NeurIPS 2021 paper, where we removed the positional encoding entirely, and by doing so, an agent can process an arbitrarily long list of noisy, sensory inputs, in an arbitrary order.\n\nI even made a fun browser demo to play with the agent back then: attentionneuron.github.io",
+          "url": "https://bsky.app/profile/hardmaru.bsky.social/post/3mc7dwc33hs2l",
+          "author": "@hardmaru.bsky.social",
+          "published": "2026-01-12T05:51:47.780000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "David Ha (@hardmaru) references his NeurIPS 2021 paper where removing positional encoding entirely allowed agents to process arbitrarily long lists of noisy sensory inputs in any order, with a browser demo available.",
+          "importance_score": 68,
+          "reasoning": "Credible AI researcher (David Ha/hardmaru) providing relevant historical context to DroPE research. Moderate engagement, provides useful prior art reference.",
+          "themes": [
+            "positional_embeddings",
+            "context_length_extension",
+            "prior_research"
+          ],
+          "continuation": null,
+          "summary_html": "<p>David Ha (@hardmaru) references his NeurIPS 2021 paper where removing positional encoding entirely allowed agents to process arbitrarily long lists of noisy sensory inputs in any order, with a browser demo available.</p>",
+          "content_html": "<p>Reminded me of my older NeurIPS 2021 paper, where we removed the positional encoding entirely, and by doing so, an agent can process an arbitrarily long list of noisy, sensory inputs, in an arbitrary order.</p>\n<p>I even made a fun browser demo to play with the agent back then: attentionneuron.github.io</p>"
+        },
+        {
+          "id": "1b33f998a72f",
+          "title": "There's a whole sub-set of questions around this that I haven't even started to explore yet about co...",
+          "content": "There's a whole sub-set of questions around this that I haven't even started to explore yet about copyright laundering - you can do tricks like feeding a GPL library into Claude and asking it to write a detailed spec, then feeding that spec into another Claude and asking for a fresh implementation",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mc6qlwpct22d",
+          "author": "@simonwillison.net",
+          "published": "2026-01-12T00:05:59.221000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Simon Willison raises the unexplored issue of 'copyright laundering' via AI - feeding GPL code to Claude to generate a spec, then using another Claude session to create a 'fresh' implementation.",
+          "importance_score": 65,
+          "reasoning": "Novel insight on important legal/ethical topic at intersection of AI and intellectual property. Low engagement but raises significant unexplored questions about AI and licensing.",
+          "themes": [
+            "copyright",
+            "licensing",
+            "GPL",
+            "AI_ethics",
+            "intellectual_property"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Simon Willison raises the unexplored issue of 'copyright laundering' via AI - feeding GPL code to Claude to generate a spec, then using another Claude session to create a 'fresh' implementation.</p>",
+          "content_html": "<p>There's a whole sub-set of questions around this that I haven't even started to explore yet about copyright laundering - you can do tricks like feeding a GPL library into Claude and asking it to write a detailed spec, then feeding that spec into another Claude and asking for a fresh implementation</p>"
+        },
+        {
+          "id": "42bf3b4cabad",
+          "title": "Honestly this works for everything\n\n“I want to trap hungry 19c ghosts in jars to help us with histor...",
+          "content": "Honestly this works for everything\n\n“I want to trap hungry 19c ghosts in jars to help us with historical research” ✅\n\n“Please read our holiday card; we got a hungry ghost to write it this year”  ❌",
+          "url": "https://bsky.app/profile/tedunderwood.com/post/3mca4j5fdik2w",
+          "author": "@tedunderwood.com",
+          "published": "2026-01-12T13:11:50.210000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Ted Underwood makes a humorous observation about acceptable AI use cases: using AI as 'hungry ghosts' for research is fine, but using them for personal tasks like holiday cards is not socially acceptable.",
+          "importance_score": 45,
+          "reasoning": "High engagement (214 likes) but primarily social commentary/humor rather than technical content. Ted Underwood is known in digital humanities but this is tangential to core AI/ML.",
+          "themes": [
+            "AI_social_norms",
+            "appropriate_AI_use",
+            "cultural_commentary"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Ted Underwood makes a humorous observation about acceptable AI use cases: using AI as 'hungry ghosts' for research is fine, but using them for personal tasks like holiday cards is not socially acceptable.</p>",
+          "content_html": "<p>Honestly this works for everything</p>\n<p>“I want to trap hungry 19c ghosts in jars to help us with historical research” ✅</p>\n<p>“Please read our holiday card; we got a hungry ghost to write it this year”  ❌</p>"
+        },
+        {
+          "id": "22bc5e121989",
+          "title": "I really like the term \"extractive contributions\" for that - \"those where the marginal cost of revie...",
+          "content": "I really like the term \"extractive contributions\" for that - \"those where the marginal cost of reviewing and merging that contribution is greater than the marginal benefit to the project’s producers\" simonwillison.net/2025/Oct/2/n...",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mc6qnm74622d",
+          "author": "@simonwillison.net",
+          "published": "2026-01-12T00:06:55.313000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Simon Willison highlights the term 'extractive contributions' - where cost of reviewing/merging a contribution exceeds its benefit to the project.",
+          "importance_score": 52,
+          "reasoning": "Relevant concept for AI-assisted open source contributions. Low engagement but introduces useful terminology for ongoing debates about AI code contributions.",
+          "themes": [
+            "open_source",
+            "AI_contributions",
+            "code_review",
+            "community_management"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Simon Willison highlights the term 'extractive contributions' - where cost of reviewing/merging a contribution exceeds its benefit to the project.</p>",
+          "content_html": "<p>I really like the term \"extractive contributions\" for that - \"those where the marginal cost of reviewing and merging that contribution is greater than the marginal benefit to the project’s producers\" simonwillison.net/2025/Oct/2/n...</p>"
+        },
+        {
+          "id": "899a5c6797fe",
+          "title": "I'd missed that article but it didn't particularly surprise me - in all of these projects the goal f...",
+          "content": "I'd missed that article but it didn't particularly surprise me - in all of these projects the goal for the agent was more to hack around until the test pass as opposed to a line-by-line port of the library that was being imitated \n\nOn that basis it's not surprising to see weird differences Iike that",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mc7d3h3hxc2z",
+          "author": "@simonwillison.net",
+          "published": "2026-01-12T05:36:47.065000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Simon Willison explains that AI coding agents typically 'hack around until tests pass' rather than doing line-by-line ports, making weird code differences unsurprising.",
+          "importance_score": 42,
+          "reasoning": "No visible engagement but provides useful insight into AI agent coding behavior and appropriate expectations for AI-generated code.",
+          "themes": [
+            "AI_agents",
+            "vibe_coding",
+            "AI_code_quality",
+            "testing"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Simon Willison explains that AI coding agents typically 'hack around until tests pass' rather than doing line-by-line ports, making weird code differences unsurprising.</p>",
+          "content_html": "<p>I'd missed that article but it didn't particularly surprise me - in all of these projects the goal for the agent was more to hack around until the test pass as opposed to a line-by-line port of the library that was being imitated</p>\n<p>On that basis it's not surprising to see weird differences Iike that</p>"
+        },
+        {
+          "id": "ce8a72b0f507",
+          "title": "I was never planning on using a mainly unreviewed vibe coded HTML parser for anything that mattered,...",
+          "content": "I was never planning on using a mainly unreviewed vibe coded HTML parser for anything that mattered, but the differences described there don't seem to be particular surprising or critically important to me",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mc7d6isghc2z",
+          "author": "@simonwillison.net",
+          "published": "2026-01-12T05:38:29.529000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Simon Willison comments that differences in a 'vibe coded' unreviewed HTML parser aren't surprising or critical for his use case.",
+          "importance_score": 35,
+          "reasoning": "Low engagement, but touches on relevant topic of managing expectations for AI-generated code quality. Part of ongoing vibe coding discussion.",
+          "themes": [
+            "vibe_coding",
+            "AI_code_quality",
+            "code_review"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Simon Willison comments that differences in a 'vibe coded' unreviewed HTML parser aren't surprising or critical for his use case.</p>",
+          "content_html": "<p>I was never planning on using a mainly unreviewed vibe coded HTML parser for anything that mattered, but the differences described there don't seem to be particular surprising or critically important to me</p>"
+        },
+        {
+          "id": "07f5495098a2",
+          "title": "I've not seen that yet, but I imagine e you could do something very interesting with GitHub Actions ...",
+          "content": "I've not seen that yet, but I imagine e you could do something very interesting with GitHub Actions and the GitHub free LLMs API that's accessible from them here",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcaeudqcbk2t",
+          "author": "@simonwillison.net",
+          "published": "2026-01-12T15:41:15.895000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Simon Willison briefly mentions potential for interesting work combining GitHub Actions with GitHub's free LLMs API.",
+          "importance_score": 30,
+          "reasoning": "Low engagement, brief conversational reply without substantial technical depth or novel insight.",
+          "themes": [
+            "GitHub_Actions",
+            "LLM_APIs",
+            "developer_tools"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Simon Willison briefly mentions potential for interesting work combining GitHub Actions with GitHub's free LLMs API.</p>",
+          "content_html": "<p>I've not seen that yet, but I imagine e you could do something very interesting with GitHub Actions and the GitHub free LLMs API that's accessible from them here</p>"
+        }
+      ]
+    },
+    "reddit": {
+      "count": 30,
+      "category_summary": "The **Apple-Google Gemini partnership** [dominated discussion](/?date=2026-01-13&category=reddit#item-897c4dfb48a5) across **r/OpenAI** and **r/singularity**, with the community analyzing OpenAI's sudden loss of mobile distribution. Sentiment is bearish on OpenAI's competitive position as Google now controls search, Gemini, and Apple integration.\n\n- **DeepSeek's Engram** [release sparked excitement](/?date=2026-01-13&category=reddit#item-e036d3575518) for its novel conditional memory architecture representing a new sparsity axis for LLMs\n- **Guardian investigation** into Grok generating 6,000+ NCII images/hour drew sharp criticism of xAI's safety practices\n- **Geoffrey Hinton's** [comments on agent knowledge-sharing](/?date=2026-01-13&category=reddit#item-cc0100062a28) (10,000 agents learning instantly) generated philosophical debate about AI scaling advantages\n- Small specialized models outperforming giants: **Eva-4B** [beating GPT-5.2](/?date=2026-01-13&category=reddit#item-fec243273539) on financial evasion, **4B Text2SQL** [matching 685B teacher](/?date=2026-01-13&category=reddit#item-5918b232f968)\n\n**r/ChatGPT** users [report GPT 5.2 feels 'eerie'](/?date=2026-01-13&category=reddit#item-4c21a8609eeb) and \"gaslighting\" with excessive reassurance patterns, while the same model [achieved a spherical packing record](/?date=2026-01-13&category=reddit#item-c4d77e6d2706) on MIT benchmarks—highlighting the tension between capability gains and personality regressions.",
+      "category_summary_html": "<p>The <strong>Apple-Google Gemini partnership</strong> <a href=\"/?date=2026-01-13&category=reddit#item-897c4dfb48a5\" class=\"internal-link\">dominated discussion</a> across <strong>r/OpenAI</strong> and <strong>r/singularity</strong>, with the community analyzing OpenAI's sudden loss of mobile distribution. Sentiment is bearish on OpenAI's competitive position as Google now controls search, Gemini, and Apple integration.</p>\n<ul>\n<li><strong>DeepSeek's Engram</strong> <a href=\"/?date=2026-01-13&category=reddit#item-e036d3575518\" class=\"internal-link\">release sparked excitement</a> for its novel conditional memory architecture representing a new sparsity axis for LLMs</li>\n<li><strong>Guardian investigation</strong> into Grok generating 6,000+ NCII images/hour drew sharp criticism of xAI's safety practices</li>\n<li><strong>Geoffrey Hinton's</strong> <a href=\"/?date=2026-01-13&category=reddit#item-cc0100062a28\" class=\"internal-link\">comments on agent knowledge-sharing</a> (10,000 agents learning instantly) generated philosophical debate about AI scaling advantages</li>\n<li>Small specialized models outperforming giants: <strong>Eva-4B</strong> <a href=\"/?date=2026-01-13&category=reddit#item-fec243273539\" class=\"internal-link\">beating GPT-5.2</a> on financial evasion, <strong>4B Text2SQL</strong> <a href=\"/?date=2026-01-13&category=reddit#item-5918b232f968\" class=\"internal-link\">matching 685B teacher</a></li>\n</ul>\n<p><strong>r/ChatGPT</strong> users <a href=\"/?date=2026-01-13&category=reddit#item-4c21a8609eeb\" class=\"internal-link\">report GPT 5.2 feels 'eerie'</a> and \"gaslighting\" with excessive reassurance patterns, while the same model <a href=\"/?date=2026-01-13&category=reddit#item-c4d77e6d2706\" class=\"internal-link\">achieved a spherical packing record</a> on MIT benchmarks—highlighting the tension between capability gains and personality regressions.</p>",
+      "themes": [
+        {
+          "name": "Platform Competition & Distribution",
+          "description": "Apple-Google Gemini partnership, OpenAI's distribution challenges, competitive dynamics in AI platform market",
+          "item_count": 5,
+          "example_items": [],
+          "importance": 95
+        },
+        {
+          "name": "AI Safety & Ethics",
+          "description": "Discussions about AI safety as PR, content filtering trade-offs, mental health support quality, and technology serving humanity",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 90
+        },
+        {
+          "name": "Model Releases & Optimizations",
+          "description": "New model releases, quantizations, pruned variants (REAP), and fine-tuned specialized models including medical, financial, and text2sql domains",
+          "item_count": 16,
+          "example_items": [],
+          "importance": 85
+        },
+        {
+          "name": "Research & Architecture",
+          "description": "Novel architectures like DeepSeek Engram, neuro-symbolic systems, causal ML, and inference optimization techniques",
+          "item_count": 9,
+          "example_items": [],
+          "importance": 80
+        },
+        {
+          "name": "Open Source Tools & Projects",
+          "description": "Community-built tools for agents, knowledge management, code intelligence, token compression, and infrastructure management",
+          "item_count": 12,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "Technical Achievements & Research",
+          "description": "MIT math record by GPT agent, cognitive debt research, academic papers on AI effects",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "GPT 5.x Model Behavior Issues",
+          "description": "User reports of 5.2 being 'eerie', gaslighting, losing context vs 5.1, and RLHF-related personality concerns",
+          "item_count": 6,
+          "example_items": [],
+          "importance": 72
+        },
+        {
+          "name": "LLM Agents & Infrastructure",
+          "description": "Agent observability, MCP management, game-theoretic control, and production deployment considerations",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 70
+        },
+        {
+          "name": "OpenAI Business & Products",
+          "description": "Torch Health acquisition, Sweetpea hardware device, Codex development, healthcare expansion",
+          "item_count": 5,
+          "example_items": [],
+          "importance": 70
+        },
+        {
+          "name": "Agent Architecture & Multi-Agent Systems",
+          "description": "Technical discussions about building autonomous agents, architectural patterns, shared state management, and critiques of current agent designs",
+          "item_count": 3,
+          "example_items": [],
+          "importance": 68
+        }
+      ],
+      "top_items": [
+        {
+          "id": "897c4dfb48a5",
+          "title": "It’s official",
+          "content": "Is that the distribution war over?\n\nOpenAI’s only credible long-term moat was:\n\n-Consumer habit formation\n\n-Being the “first place you ask”\n\nApple was the only distributor big enough to:\n\n-Neutralize Google search dominance\n\n-And give OpenAI OS-level gravity\n\nInstead:\n\n-Google now has Search + Gemini + Apple distribution\n\n-OpenAI has ChatGPT + APIs +… hoping regulators or OEMs blink\n\nAccording to Google:\n\n“If you use an iPhone or Mac, you'll likely see a \"reimagined Siri\" powered by Gemini starting with iOS 26.4 (expected around March 2026). This version is designed to understand your personal context, interact with what’s on your screen, and control apps more natively than before”\n\nhttps://www.thes1gnal.com/article/security-implications-apple-google-ai-foundation",
+          "url": "https://reddit.com/r/OpenAI/comments/1qb79py/its_official/",
+          "author": "u/Cold_Respond_7656",
+          "published": "2026-01-12T13:06:44",
+          "source": "r/OpenAI",
+          "source_type": "reddit",
+          "tags": [
+            "News"
+          ],
+          "summary": "Following yesterday's [News](/?date=2026-01-12&category=news#item-e5544fbc7b95) coverage, Analysis of Apple-Google Gemini deal implications for OpenAI, discussing how Google now controls Search + Gemini + Apple distribution while OpenAI loses a critical distribution channel.",
+          "importance_score": 93,
+          "reasoning": "Extremely high engagement (831 upvotes, 261 comments) with substantive strategic analysis. Discusses OpenAI's moat, distribution challenges, and competitive landscape.",
+          "themes": [
+            "industry_partnerships",
+            "platform_competition",
+            "business_strategy"
+          ],
+          "continuation": {
+            "original_item_id": "e5544fbc7b95",
+            "original_date": "2026-01-12",
+            "original_category": "news",
+            "original_title": "How Distribution Is Putting Google Ahead of OpenAI and Apple",
+            "continuation_type": "community_reaction",
+            "should_demote": false,
+            "reference_text": "Following yesterday's **News** coverage"
+          },
+          "summary_html": "<p>Following yesterday's <a href=\"/?date=2026-01-12&category=news#item-e5544fbc7b95\" class=\"internal-link\">News</a> coverage, Analysis of Apple-Google Gemini deal implications for OpenAI, discussing how Google now controls Search + Gemini + Apple distribution while OpenAI loses a critical distribution channel.</p>",
+          "content_html": "<p>Is that the distribution war over?</p>\n<p>OpenAI’s only credible long-term moat was:</p>\n<p>-Consumer habit formation</p>\n<p>-Being the “first place you ask”</p>\n<p>Apple was the only distributor big enough to:</p>\n<p>-Neutralize Google search dominance</p>\n<p>-And give OpenAI OS-level gravity</p>\n<p>Instead:</p>\n<p>-Google now has Search + Gemini + Apple distribution</p>\n<p>-OpenAI has ChatGPT + APIs +… hoping regulators or OEMs blink</p>\n<p>According to Google:</p>\n<p>“If you use an iPhone or Mac, you'll likely see a \"reimagined Siri\" powered by Gemini starting with iOS 26.4 (expected around March 2026). This version is designed to understand your personal context, interact with what’s on your screen, and control apps more natively than before”</p>\n<p>https://www.thes1gnal.com/article/security-implications-apple-google-ai-foundation</p>"
+        },
+        {
+          "id": "e036d3575518",
+          "title": "GitHub - deepseek-ai/Engram: Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models",
+          "content": "",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qb034t/github_deepseekaiengram_conditional_memory_via/",
+          "author": "u/TKGaming_11",
+          "published": "2026-01-12T08:49:22",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Discussion"
+          ],
+          "summary": "DeepSeek releases Engram: new architecture for conditional memory via scalable lookup, representing a new axis of sparsity for LLMs.",
+          "importance_score": 92,
+          "reasoning": "Major research release from DeepSeek with very high engagement. Novel architecture contribution with significant implications.",
+          "themes": [
+            "research_paper",
+            "model_architecture",
+            "deepseek",
+            "memory_systems"
+          ],
+          "continuation": null,
+          "summary_html": "<p>DeepSeek releases Engram: new architecture for conditional memory via scalable lookup, representing a new axis of sparsity for LLMs.</p>",
+          "content_html": ""
+        },
+        {
+          "id": "cc0100062a28",
+          "title": "Geoffrey Hinton says agents can share knowledge at a scale far beyond humans. 10,000 agents can study different topics, sync their learnings instantly, and all improve together. \"Imagine if 10,000 students each took a different course, and when they finish, each student knows all the courses.\"",
+          "content": "",
+          "url": "https://reddit.com/r/OpenAI/comments/1qb0qw1/geoffrey_hinton_says_agents_can_share_knowledge/",
+          "author": "u/MetaKnowing",
+          "published": "2026-01-12T09:12:57",
+          "source": "r/OpenAI",
+          "source_type": "reddit",
+          "tags": [
+            "Video"
+          ],
+          "summary": "Geoffrey Hinton discusses how AI agents can share knowledge at unprecedented scale - 10,000 agents learning different topics can instantly sync, giving each agent knowledge of all topics combined.",
+          "importance_score": 85,
+          "reasoning": "Expert insight from AI pioneer (170 upvotes, 58 comments) on transformative potential of agent knowledge sharing. High educational value on future AI capabilities.",
+          "themes": [
+            "AI_agents",
+            "expert_insights",
+            "future_capabilities"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Geoffrey Hinton discusses how AI agents can share knowledge at unprecedented scale - 10,000 agents learning different topics can instantly sync, giving each agent knowledge of all topics combined.</p>",
+          "content_html": ""
+        },
+        {
+          "id": "fec243273539",
+          "title": "[Release] Eva-4B: Specialized Financial Evasion Detection (Based on Qwen3-4B). Outperforms GPT-5.2 on domain benchmarks.",
+          "content": "Hi r/LocalLLaMA,\n\nI'm excited to share **Eva-4B,** a specialized 4B parameter model designed to detect evasive answers in corporate earnings call Q&amp;A sessions.\n\n**What it does:**  \nIt classifies answers into \\`direct\\`, \\`intermediate\\`, or \\`fully\\_evasive\\` (using the Rasiah framework). It helps identify when executives are sidestepping analysts' questions.\n\n**Why use this over a general LLM?**  \n\\*   **Performance:** On our 1,000-sample human-annotated test set, Eva-4B achieves **81.3% accuracy**, beating GPT-5.2 (80.5%) and coming close to GLM-4.7 and Gemini-3-Flash.  \n\\*   **Efficiency:** It's a 4B model (Qwen3 base), making it extremely cheap to run locally or in production pipelines compared to querying Opus or GPT-5.  \n\\*   **Data:** Fine-tuned on 30k samples constructed via a...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qautxm/release_eva4b_specialized_financial_evasion/",
+          "author": "u/Awkward_Run_9982",
+          "published": "2026-01-12T05:26:39",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "New Model"
+          ],
+          "summary": "Eva-4B: specialized 4B model for detecting evasive answers in corporate earnings calls, achieving 81.3% accuracy and outperforming GPT-5.2 on domain benchmarks.",
+          "importance_score": 88,
+          "reasoning": "Outstanding specialized model release with clear benchmarking against large models. High engagement and novel financial NLP application.",
+          "themes": [
+            "model_release",
+            "financial_ai",
+            "small_models",
+            "specialized_models"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Eva-4B: specialized 4B model for detecting evasive answers in corporate earnings calls, achieving 81.3% accuracy and outperforming GPT-5.2 on domain benchmarks.</p>",
+          "content_html": "<p>Hi r/LocalLLaMA,</p>\n<p>I'm excited to share <strong>Eva-4B,</strong> a specialized 4B parameter model designed to detect evasive answers in corporate earnings call Q&amp;A sessions.</p>\n<p><strong>What it does:</strong></p>\n<p>It classifies answers into \\`direct\\`, \\`intermediate\\`, or \\`fully\\_evasive\\` (using the Rasiah framework). It helps identify when executives are sidestepping analysts' questions.</p>\n<p><strong>Why use this over a general LLM?</strong></p>\n<p>\\*   <strong>Performance:</strong> On our 1,000-sample human-annotated test set, Eva-4B achieves <strong>81.3% accuracy</strong>, beating GPT-5.2 (80.5%) and coming close to GLM-4.7 and Gemini-3-Flash.</p>\n<p>\\*   <strong>Efficiency:</strong> It's a 4B model (Qwen3 base), making it extremely cheap to run locally or in production pipelines compared to querying Opus or GPT-5.</p>\n<p>\\*   <strong>Data:</strong> Fine-tuned on 30k samples constructed via a...</p>"
+        },
+        {
+          "id": "5918b232f968",
+          "title": "We fine-tuned a 4B Text2SQL model that matches a 685B teacher - query your CSV data in plain English, locally",
+          "content": "\nWe have been exploring how far you can push small models on narrow, well-defined tasks and decided to focus on **Text2SQL**. We fine-tuned a small language model (**4B parameters**) to convert plain English questions into executable SQL queries with accuracy matching a **685B LLM (DeepSeek-V3)**. Because it's small, you can run it locally on your own machine, no API keys, no cloud dependencies. You can find more information on the [GitHub page](https://github.com/distil-labs/distil-text2sql).\n\nJust type: *\"How many employees earn more than 50000?\"*\n→ you get: `*SELECT COUNT(*) FROM employees WHERE salary &gt; 50000;*`\n\n## How We Trained Text2SQL\n\nAsking questions about data shouldn't require knowing SQL. We wanted a local assistant that keeps your data private while matching cloud LLM...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qaz4je/we_finetuned_a_4b_text2sql_model_that_matches_a/",
+          "author": "u/party-horse",
+          "published": "2026-01-12T08:14:57",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Tutorial | Guide"
+          ],
+          "summary": "Fine-tuned 4B Text2SQL model matching 685B DeepSeek-V3 teacher accuracy. Runs locally without API dependencies.",
+          "importance_score": 85,
+          "reasoning": "Impressive distillation result with practical utility. High engagement validates community interest in efficient specialized models.",
+          "themes": [
+            "model_release",
+            "text2sql",
+            "model_distillation",
+            "small_models"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Fine-tuned 4B Text2SQL model matching 685B DeepSeek-V3 teacher accuracy. Runs locally without API dependencies.</p>",
+          "content_html": "<p>We have been exploring how far you can push small models on narrow, well-defined tasks and decided to focus on <strong>Text2SQL</strong>. We fine-tuned a small language model (<strong>4B parameters</strong>) to convert plain English questions into executable SQL queries with accuracy matching a <strong>685B LLM (DeepSeek-V3)</strong>. Because it's small, you can run it locally on your own machine, no API keys, no cloud dependencies. You can find more information on the <a href=\"https://github.com/distil-labs/distil-text2sql\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub page</a>.</p>\n<p>Just type: *\"How many employees earn more than 50000?\"*</p>\n<p>→ you get: `*SELECT COUNT(*) FROM employees WHERE salary &gt; 50000;*`</p>\n<p>## How We Trained Text2SQL</p>\n<p>Asking questions about data shouldn't require knowing SQL. We wanted a local assistant that keeps your data private while matching cloud LLM...</p>"
+        },
+        {
+          "id": "c4d77e6d2706",
+          "title": "GPT 5.2 Pro Agent Achieves new record on MIT professors library",
+          "content": "We developed a GPT-5.2-pro–powered research agent designed to attack problems in experimental mathematics, with an eye toward extending the same framework to \\*\\*computational physics in future work.\n\nIn its first deployment, the agent achieved a new best-known spherical packing for ((n=11, N=432)), a result now verified against the benchmark library maintained by Henry Cohn (MIT).\n\nIts strategy escaped a numerically “jammed” configuration that had resisted prior optimization, yielding a new best-known cosine value of\n\n\\[\n\nt \\\\approx 0.49422771.\n\n\\]\n\nNotably, the agent arrived at this improvement within roughly one hour of autonomous exploration, refining a configuration whose previous discovery and optimization likely required extensive human effort and large-scale computation.\n\nVerified...",
+          "url": "https://reddit.com/r/OpenAI/comments/1qbhvjb/gpt_52_pro_agent_achieves_new_record_on_mit/",
+          "author": "u/gbomb13",
+          "published": "2026-01-12T20:31:10",
+          "source": "r/OpenAI",
+          "source_type": "reddit",
+          "tags": [
+            "News"
+          ],
+          "summary": "GPT-5.2-pro agent achieved new best-known spherical packing for n=11, N=432, verified against MIT professor Henry Cohn's benchmark library. Agent escaped numerically 'jammed' configuration.",
+          "importance_score": 80,
+          "reasoning": "Concrete technical achievement (64 upvotes, 25 comments) demonstrating AI capability in experimental mathematics. Verified result with scientific credibility.",
+          "themes": [
+            "technical_achievement",
+            "research",
+            "mathematical_reasoning"
+          ],
+          "continuation": null,
+          "summary_html": "<p>GPT-5.2-pro agent achieved new best-known spherical packing for n=11, N=432, verified against MIT professor Henry Cohn's benchmark library. Agent escaped numerically 'jammed' configuration.</p>",
+          "content_html": "<p>We developed a GPT-5.2-pro–powered research agent designed to attack problems in experimental mathematics, with an eye toward extending the same framework to \\*\\*computational physics in future work.</p>\n<p>In its first deployment, the agent achieved a new best-known spherical packing for ((n=11, N=432)), a result now verified against the benchmark library maintained by Henry Cohn (MIT).</p>\n<p>Its strategy escaped a numerically “jammed” configuration that had resisted prior optimization, yielding a new best-known cosine value of</p>\n<p>\\[</p>\n<p>t \\\\approx 0.49422771.</p>\n<p>\\]</p>\n<p>Notably, the agent arrived at this improvement within roughly one hour of autonomous exploration, refining a configuration whose previous discovery and optimization likely required extensive human effort and large-scale computation.</p>\n<p>Verified...</p>"
+        },
+        {
+          "id": "f5b553fe297a",
+          "title": "baichuan-inc/Baichuan-M3-235B · Hugging Face",
+          "content": "# [](https://huggingface.co/baichuan-inc/Baichuan-M3-235B#🌟-model-overview)🌟 Model Overview\n\n**Baichuan-M3** is Baichuan AI's new-generation medical-enhanced large language model, a major milestone following [Baichuan-M2](https://github.com/baichuan-inc/Baichuan-M2-32B).\n\nIn contrast to prior approaches that primarily focus on static question answering or superficial role-playing, Baichuan-M3 is trained to explicitly model the **clinical decision-making process**, aiming to improve usability and reliability in real-world medical practice. Rather than merely producing \"plausible-sounding answers\" or high-frequency vague recommendations like \"you should see a doctor soon,\" the model is trained to **proactively acquire critical clinical information**, **construct coherent medical reasoning...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qbjbrf/baichuanincbaichuanm3235b_hugging_face/",
+          "author": "u/jacek2023",
+          "published": "2026-01-12T21:46:09",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "New Model"
+          ],
+          "summary": "Release of Baichuan-M3-235B, a medical-enhanced LLM focused on clinical decision-making processes rather than static Q&A or role-playing.",
+          "importance_score": 82,
+          "reasoning": "Major model release with significant scale (235B) and specialized medical training approach. High engagement and practical utility.",
+          "themes": [
+            "model_release",
+            "medical_ai",
+            "large_models"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Release of Baichuan-M3-235B, a medical-enhanced LLM focused on clinical decision-making processes rather than static Q&A or role-playing.</p>",
+          "content_html": "<p># [](https://huggingface.co/baichuan-inc/Baichuan-M3-235B#🌟-model-overview)🌟 Model Overview</p>\n<p><strong>Baichuan-M3</strong> is Baichuan AI's new-generation medical-enhanced large language model, a major milestone following <a href=\"https://github.com/baichuan-inc/Baichuan-M2-32B\" target=\"_blank\" rel=\"noopener noreferrer\">Baichuan-M2</a>.</p>\n<p>In contrast to prior approaches that primarily focus on static question answering or superficial role-playing, Baichuan-M3 is trained to explicitly model the <strong>clinical decision-making process</strong>, aiming to improve usability and reliability in real-world medical practice. Rather than merely producing \"plausible-sounding answers\" or high-frequency vague recommendations like \"you should see a doctor soon,\" the model is trained to <strong>proactively acquire critical clinical information</strong>, **construct coherent medical reasoning...</p>"
+        },
+        {
+          "id": "dc51a6330b30",
+          "title": "Meta and OpenAI say they disrupted influence operations linked to lsraeli company",
+          "content": "",
+          "url": "https://reddit.com/r/OpenAI/comments/1qbd60s/meta_and_openai_say_they_disrupted_influence/",
+          "author": "u/soalone34",
+          "published": "2026-01-12T16:59:08",
+          "source": "r/OpenAI",
+          "source_type": "reddit",
+          "tags": [
+            "Article"
+          ],
+          "summary": "Meta and OpenAI announce disruption of influence operations linked to Israeli company, highlighting coordinated efforts to combat AI-enabled disinformation.",
+          "importance_score": 82,
+          "reasoning": "Important security/policy news (97 upvotes, 31 comments) showing AI companies actively combating misuse. Relevant to AI governance discussions.",
+          "themes": [
+            "AI_safety",
+            "disinformation",
+            "platform_policy"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Meta and OpenAI announce disruption of influence operations linked to Israeli company, highlighting coordinated efforts to combat AI-enabled disinformation.</p>",
+          "content_html": ""
+        },
+        {
+          "id": "4c21a8609eeb",
+          "title": "5.2 is eerie",
+          "content": "Does anyone else feel that GPT 5.2 has an eerie tone to it? I almost want to say it sounds like mind control, which I wouldn’t put past them lol. \n\nBut actually, I’ve been trying to prompt it to delete parts of memory, and it seemed to be working. But then I said something that made it start talking to me as if it’s trying to talk me off a bridge. More specifically, it ends nearly every response with “Take a deep breath. You are okay.”\n\nI use AI semi-frequently, but as a casual user this model has been very off putting. It does seem more accurate in terms of pattern matching, but the cadence and tone of the model is freaking me out.",
+          "url": "https://reddit.com/r/OpenAI/comments/1qbhc3q/52_is_eerie/",
+          "author": "u/Ok-Selection2208",
+          "published": "2026-01-12T20:05:38",
+          "source": "r/OpenAI",
+          "source_type": "reddit",
+          "tags": [
+            "Discussion"
+          ],
+          "summary": "Users report GPT 5.2 has an 'eerie' and controlling tone, with excessive reassurance like 'Take a deep breath. You are okay' and concerns about potential behavioral nudging.",
+          "importance_score": 78,
+          "reasoning": "Significant user experience feedback (77 upvotes, 81 comments) about model personality changes. Important signal about RLHF effects and user perception.",
+          "themes": [
+            "model_behavior",
+            "user_experience",
+            "RLHF_effects"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Users report GPT 5.2 has an 'eerie' and controlling tone, with excessive reassurance like 'Take a deep breath. You are okay' and concerns about potential behavioral nudging.</p>",
+          "content_html": "<p>Does anyone else feel that GPT 5.2 has an eerie tone to it? I almost want to say it sounds like mind control, which I wouldn’t put past them lol.</p>\n<p>But actually, I’ve been trying to prompt it to delete parts of memory, and it seemed to be working. But then I said something that made it start talking to me as if it’s trying to talk me off a bridge. More specifically, it ends nearly every response with “Take a deep breath. You are okay.”</p>\n<p>I use AI semi-frequently, but as a casual user this model has been very off putting. It does seem more accurate in terms of pattern matching, but the cadence and tone of the model is freaking me out.</p>"
+        },
+        {
+          "id": "17c996749f20",
+          "title": "Apple announces that next version of Siri would be powered using Google gemini. Elon Musk does not seem happy about it.",
+          "content": "Seems like Gemini, ChatGPT and possibly xAI Grok were being evaluated.\n\n\"This seems like an unreasonable concentration of power for Google, given that (they) also have Android and Chrome,\" **Tesla ⁠CEO Elon Musk** said in a post on social media platform X. 🤣\n\n“After careful evaluation, we determined that Google’s technology provides the most capable foundation for Apple Foundation Models and we’re excited about the innovative new experiences it will unlock for our users,” the companies said in the statement.\n\n[https://www.wcnc.com/article/news/nation-world/apple-google-gemini-siri-ai-features/507-575faa99-217e-498d-8f34-5455759113f8](https://www.wcnc.com/article/news/nation-world/apple-google-gemini-siri-ai-features/507-575faa99-217e-498d-8f34-5455759113f8)",
+          "url": "https://reddit.com/r/OpenAI/comments/1qb7dg6/apple_announces_that_next_version_of_siri_would/",
+          "author": "u/jbcraigs",
+          "published": "2026-01-12T13:10:44",
+          "source": "r/OpenAI",
+          "source_type": "reddit",
+          "tags": [
+            "News"
+          ],
+          "summary": "Apple announces Siri will be powered by Google Gemini instead of ChatGPT, with Elon Musk criticizing the concentration of power. Major industry shift affecting AI distribution landscape.",
+          "importance_score": 95,
+          "reasoning": "Highest engagement (841 upvotes, 184 comments), major industry news affecting OpenAI's distribution strategy and competitive positioning. Signals significant shift in AI platform dynamics.",
+          "themes": [
+            "industry_partnerships",
+            "platform_competition",
+            "business_strategy"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Apple announces Siri will be powered by Google Gemini instead of ChatGPT, with Elon Musk criticizing the concentration of power. Major industry shift affecting AI distribution landscape.</p>",
+          "content_html": "<p>Seems like Gemini, ChatGPT and possibly xAI Grok were being evaluated.</p>\n<p>\"This seems like an unreasonable concentration of power for Google, given that (they) also have Android and Chrome,\" <strong>Tesla ⁠CEO Elon Musk</strong> said in a post on social media platform X. 🤣</p>\n<p>“After careful evaluation, we determined that Google’s technology provides the most capable foundation for Apple Foundation Models and we’re excited about the innovative new experiences it will unlock for our users,” the companies said in the statement.</p>\n<p><a href=\"https://www.wcnc.com/article/news/nation-world/apple-google-gemini-siri-ai-features/507-575faa99-217e-498d-8f34-5455759113f8\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.wcnc.com/article/news/nation-world/apple-google-gemini-siri-ai-features/507-575faa99-217e-498d-8f34-5455759113f8</a></p>"
+        }
+      ]
+    },
+    "jobs": {
+      "count": 26,
+      "category_summary": "**Weak batch for AI/ML professionals** - no frontier lab positions (OpenAI, Anthropic, DeepMind) or dedicated ML engineering roles present.\n\n**AI-Adjacent Opportunities:**\n- **SuperPlane** offers [the most relevant role](/?date=2026-01-13&category=jobs#item-7ee863239af1): Lead Frontend Engineer building AI-native DevOps tooling for agent-human collaboration\n- **Speechify** [hiring macOS engineers](/?date=2026-01-13&category=jobs#item-0199e3ca53f4) for their AI-powered text-to-speech platform\n- **Agentic Dream** seeking [Senior DevOps/Cloud Architect](/?date=2026-01-13&category=jobs#item-740f719c1e25) for scaling AI infrastructure\n\n**Notable Trends:**\n- Growing presence of [AI-powered marketing tools](/?date=2026-01-13&category=jobs#item-591cfd440516) (**School of Bots**, **Vacation Tracker**) using AI for automation\n- [AI companion space](/?date=2026-01-13&category=jobs#item-adeee671a59e) (**DRT FM**) emerging as a niche market segment\n- Most technical roles remain traditional full-stack/DevOps without explicit ML requirements\n\n**Recommendations:** AI/ML professionals should look beyond this batch for core ML roles. The SuperPlane and Speechify positions offer the best exposure to AI product development, while cloud architecture roles may support AI infrastructure experience.",
+      "category_summary_html": "<p><strong>Weak batch for AI/ML professionals</strong> - no frontier lab positions (OpenAI, Anthropic, DeepMind) or dedicated ML engineering roles present.</p>\n<p><strong>AI-Adjacent Opportunities:</strong></p>\n<ul>\n<li><strong>SuperPlane</strong> offers <a href=\"/?date=2026-01-13&category=jobs#item-7ee863239af1\" class=\"internal-link\">the most relevant role</a>: Lead Frontend Engineer building AI-native DevOps tooling for agent-human collaboration</li>\n<li><strong>Speechify</strong> <a href=\"/?date=2026-01-13&category=jobs#item-0199e3ca53f4\" class=\"internal-link\">hiring macOS engineers</a> for their AI-powered text-to-speech platform</li>\n<li><strong>Agentic Dream</strong> seeking <a href=\"/?date=2026-01-13&category=jobs#item-740f719c1e25\" class=\"internal-link\">Senior DevOps/Cloud Architect</a> for scaling AI infrastructure</li>\n</ul>\n<p><strong>Notable Trends:</strong></p>\n<ul>\n<li>Growing presence of <a href=\"/?date=2026-01-13&category=jobs#item-591cfd440516\" class=\"internal-link\">AI-powered marketing tools</a> (<strong>School of Bots</strong>, <strong>Vacation Tracker</strong>) using AI for automation</li>\n<li><a href=\"/?date=2026-01-13&category=jobs#item-adeee671a59e\" class=\"internal-link\">AI companion space</a> (<strong>DRT FM</strong>) emerging as a niche market segment</li>\n<li>Most technical roles remain traditional full-stack/DevOps without explicit ML requirements</li>\n</ul>\n<p><strong>Recommendations:</strong> AI/ML professionals should look beyond this batch for core ML roles. The SuperPlane and Speechify positions offer the best exposure to AI product development, while cloud architecture roles may support AI infrastructure experience.</p>",
+      "themes": [
+        {
+          "name": "AI-Native Products",
+          "description": "Companies building products with AI/agents as core technology, including DevOps automation and accessibility tools",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 62.0
+        },
+        {
+          "name": "Cloud/DevOps Infrastructure",
+          "description": "Senior DevOps, SRE, and cloud architecture roles that may support AI system scaling",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 45.0
+        },
+        {
+          "name": "AI-Adjacent Marketing",
+          "description": "Marketing and operations roles at companies using AI tools for automation and content generation",
+          "item_count": 3,
+          "example_items": [],
+          "importance": 41.0
+        },
+        {
+          "name": "Traditional Software Engineering",
+          "description": "Full-stack, frontend, and backend roles without specific AI/ML requirements",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 35.0
+        },
+        {
+          "name": "Enterprise Sales",
+          "description": "Account executive and sales management positions at SaaS and tech companies",
+          "item_count": 5,
+          "example_items": [],
+          "importance": 22.0
+        },
+        {
+          "name": "Finance/Non-Technical",
+          "description": "Trading, tax, insurance, and business analyst roles outside technology domain",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 15.0
+        }
+      ],
+      "top_items": [
+        {
+          "id": "7ee863239af1",
+          "title": "SuperPlane Inc.: Lead Frontend Engineer",
+          "content": "\n\n\n  Headquarters: USA\n    URL: https://superplane.com/\n\n\nAbout SuperPlane\nSuperPlane is an AI-native DevOps control plane. Our mission is to build the platform teams use to ship and manage software in the AI era.\nAgents are helping us write an order of magnitude more code, while systems have become too complex for human-driven ops alone. We're rethinking DevOps from first principles for the AI era: a single control layer where engineers and agents safely collaborate.\nWe move fast. We aim high. If that sounds like the kind of problem you want to work on, we’d love to talk.\nAbout the Role\nAt SuperPlane, you’ll shape the future of DevOps, creating features that bring intelligence, automation, and simplicity to complex infrastructure workflows.\nYou'll build interfaces that load instantly, feel flawless, and scale effortlessly. Every tooling choice, every pattern, every optimization decision is yours to make, and you'll be held accountable for the results.\nWhat You’ll Do\n\n\nOwn frontend features from conception to deployment: UI, state management, performance, polish.\n\n\nBuild responsive, performant interfaces that integrate seamlessly with backend APIs and services.\n\n\nCollaborate with...",
+          "url": "https://weworkremotely.com/remote-jobs/superplane-inc-lead-frontend-engineer",
+          "author": "Unknown",
+          "published": "2026-01-08T14:46:56",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Front-End Programming"
+          ],
+          "summary": "Lead Frontend Engineer at SuperPlane, an AI-native DevOps control plane startup building for agent-human collaboration in software deployment. Focus on creating interfaces where engineers and AI agents safely collaborate on complex infrastructure workflows.",
+          "importance_score": 65.0,
+          "reasoning": "AI-native startup with explicit focus on AI agents in DevOps. Lead role with product ownership, though primarily frontend-focused rather than ML engineering.",
+          "themes": [
+            "AI-Native Products",
+            "DevOps",
+            "Lead Role",
+            "Remote"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Lead Frontend Engineer at SuperPlane, an AI-native DevOps control plane startup building for agent-human collaboration in software deployment. Focus on creating interfaces where engineers and AI agents safely collaborate on complex infrastructure workflows.</p>",
+          "content_html": "<p>Headquarters: USA</p>\n<p>URL: https://superplane.com/</p>\n<p>About SuperPlane</p>\n<p>SuperPlane is an AI-native DevOps control plane. Our mission is to build the platform teams use to ship and manage software in the AI era.</p>\n<p>Agents are helping us write an order of magnitude more code, while systems have become too complex for human-driven ops alone. We're rethinking DevOps from first principles for the AI era: a single control layer where engineers and agents safely collaborate.</p>\n<p>We move fast. We aim high. If that sounds like the kind of problem you want to work on, we’d love to talk.</p>\n<p>About the Role</p>\n<p>At SuperPlane, you’ll shape the future of DevOps, creating features that bring intelligence, automation, and simplicity to complex infrastructure workflows.</p>\n<p>You'll build interfaces that load instantly, feel flawless, and scale effortlessly. Every tooling choice, every pattern, every optimization decision is yours to make, and you'll be held accountable for the results.</p>\n<p>What You’ll Do</p>\n<p>Own frontend features from conception to deployment: UI, state management, performance, polish.</p>\n<p>Build responsive, performant interfaces that integrate seamlessly with backend APIs and services.</p>\n<p>Collaborate with...</p>"
+        },
+        {
+          "id": "0199e3ca53f4",
+          "title": "Speechify Inc: Software Engineer, macOS Core Product",
+          "content": "\n\n\n  Headquarters: Florida\n    URL: http://www.speechify.com\n\n\nRole Overview\nAs a&nbsp;Software Engineer on the macOS team, you’ll help build and scale Speechify’s core desktop experience for millions of users. You’ll own significant parts of our macOS app architecture, ship production-ready code, and collaborate closely with product, design, and engineering teams across the company.\nThis is a key role for someone who thrives in a fast-paced startup environment, enjoys making high-impact product decisions, loves delightful user experiences, and has a passion for accessibility and performance.\nWhat You’ll Do\n\nLead key engineering and product decisions for the macOS app.\nWrite, test, and ship production-quality code that scales to millions of users.\nMaintain and evolve complex app architecture with a focus on performance and stability.\nWork within a cross-functional team, partnering with designers and PMs to shape features from concept to launch.\nParticipate in product planning and roadmap discussions.\nDrive continuous improvement in code quality, CI/CD processes, and development workflows.\n\nYou should have:\n\nDemonstrated experience shipping macOS (or related desktop) applications...",
+          "url": "https://weworkremotely.com/remote-jobs/speechify-inc-software-engineer-macos-core-product",
+          "author": "Unknown",
+          "published": "2026-01-07T12:37:47",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Front-End Programming"
+          ],
+          "summary": "Software Engineer role at Speechify, an AI-powered text-to-speech and accessibility platform serving millions of users. Involves core macOS app architecture with high-impact product decisions.",
+          "importance_score": 58.0,
+          "reasoning": "Speechify is a legitimate AI/ML product company in the accessibility space. Engineering role at scale, though not specifically ML engineering focused.",
+          "themes": [
+            "AI Products",
+            "Accessibility Tech",
+            "macOS Development",
+            "Remote"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Software Engineer role at Speechify, an AI-powered text-to-speech and accessibility platform serving millions of users. Involves core macOS app architecture with high-impact product decisions.</p>",
+          "content_html": "<p>Headquarters: Florida</p>\n<p>URL: http://www.speechify.com</p>\n<p>Role Overview</p>\n<p>As a&nbsp;Software Engineer on the macOS team, you’ll help build and scale Speechify’s core desktop experience for millions of users. You’ll own significant parts of our macOS app architecture, ship production-ready code, and collaborate closely with product, design, and engineering teams across the company.</p>\n<p>This is a key role for someone who thrives in a fast-paced startup environment, enjoys making high-impact product decisions, loves delightful user experiences, and has a passion for accessibility and performance.</p>\n<p>What You’ll Do</p>\n<p>Lead key engineering and product decisions for the macOS app.</p>\n<p>Write, test, and ship production-quality code that scales to millions of users.</p>\n<p>Maintain and evolve complex app architecture with a focus on performance and stability.</p>\n<p>Work within a cross-functional team, partnering with designers and PMs to shape features from concept to launch.</p>\n<p>Participate in product planning and roadmap discussions.</p>\n<p>Drive continuous improvement in code quality, CI/CD processes, and development workflows.</p>\n<p>You should have:</p>\n<p>Demonstrated experience shipping macOS (or related desktop) applications...</p>"
+        },
+        {
+          "id": "740f719c1e25",
+          "title": "Agentic Dream: Sr. DevOps Engineer / Cloud Architect",
+          "content": "\n\n\n  Headquarters: Remote, Colombia\n    URL: http://agenticdream.com\n\n\nWe are looking for a Senior DevOps Engineer / Cloud Architect with strong full-stack and database expertise to join the Apex program. This role is critical for designing and implementing multi-account architectures and delivering cloud-native solutions. The ideal candidate has deep AWS expertise, mastery of Infrastructure as Code, and proven skills in database administration with PostgreSQL. You will be instrumental in enabling our future commercial expansion by replicating architectures efficiently for new clients.\n\n» Learn more about us at: www.agenticdreamteam.com\n&nbsp;\n\nRequirements\n\n5+ years of AWS experience with deep expertise in CDK (TypeScript/Python), RDS, and Cognito.\nStrong background in PostgreSQL administration, including logical replication (pglogical).\nExperience with production-grade database deployment and management.\nFull-stack development capabilities with TypeScript, Python, and React.\nMastery of Infrastructure as Code with experience in stack drift remediation.\nExpertise in CI/CD pipelines (GitHub Actions and other tools), including troubleshooting and configuration.\nExperience with...",
+          "url": "https://weworkremotely.com/remote-jobs/agentic-dream-sr-devops-engineer-cloud-architect",
+          "author": "Unknown",
+          "published": "2026-01-12T17:43:00",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "DevOps and Sysadmin"
+          ],
+          "summary": "Senior DevOps Engineer/Cloud Architect at Agentic Dream, focusing on AWS multi-account architectures and cloud-native solutions. Requires 5+ years AWS experience with CDK and PostgreSQL expertise.",
+          "importance_score": 52.0,
+          "reasoning": "Company name suggests AI/agent focus. Senior cloud architecture role relevant for scaling AI infrastructure, though primarily DevOps rather than ML.",
+          "themes": [
+            "Cloud Architecture",
+            "AWS",
+            "DevOps",
+            "Remote Colombia"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Senior DevOps Engineer/Cloud Architect at Agentic Dream, focusing on AWS multi-account architectures and cloud-native solutions. Requires 5+ years AWS experience with CDK and PostgreSQL expertise.</p>",
+          "content_html": "<p>Headquarters: Remote, Colombia</p>\n<p>URL: http://agenticdream.com</p>\n<p>We are looking for a Senior DevOps Engineer / Cloud Architect with strong full-stack and database expertise to join the Apex program. This role is critical for designing and implementing multi-account architectures and delivering cloud-native solutions. The ideal candidate has deep AWS expertise, mastery of Infrastructure as Code, and proven skills in database administration with PostgreSQL. You will be instrumental in enabling our future commercial expansion by replicating architectures efficiently for new clients.</p>\n<p>» Learn more about us at: www.agenticdreamteam.com</p>\n<p>&nbsp;</p>\n<p>Requirements</p>\n<p>5+ years of AWS experience with deep expertise in CDK (TypeScript/Python), RDS, and Cognito.</p>\n<p>Strong background in PostgreSQL administration, including logical replication (pglogical).</p>\n<p>Experience with production-grade database deployment and management.</p>\n<p>Full-stack development capabilities with TypeScript, Python, and React.</p>\n<p>Mastery of Infrastructure as Code with experience in stack drift remediation.</p>\n<p>Expertise in CI/CD pipelines (GitHub Actions and other tools), including troubleshooting and configuration.</p>\n<p>Experience with...</p>"
+        },
+        {
+          "id": "606a8e710ea3",
+          "title": "HubSpot: Manager, Solutions Engineering",
+          "content": "\n\n\n  Headquarters: Remote - USA\n    URL: http://hubspot.com\n\n\n\nAbout the Role\nWe are seeking a Manager, Solutions Engineering to lead a high-performing team of SEs. This manager will play a critical role in driving execution of our value-selling motion. They will ensure consistent achievement of the Technical Win motion to drive increased win rates and strong MRR target attainment, strengthen the pre-sales partnership with Sales, and—most importantly—drive the right outcomes for our customers.\nThe ideal candidate is an experienced SE manager who brings strong process rigor, a scientific and data-driven mindset, and a passion for coaching and developing teams. They are equally comfortable rolling up their sleeves to support complex customer situations, inspecting the quality and impact of SE work, and building scalable inspection processes that elevate the entire segment.\nKey Responsibilities\nLeadership &amp; Team Management\n\nLead, coach, and develop a team of ~8 Solutions Engineers to achieve MRR attainment, improve win rates, and deliver exceptional customer value.\nDrive proactive inspection of SE impact, execution quality, and alignment to the value-selling methodology.\nConduct...",
+          "url": "https://weworkremotely.com/remote-jobs/hubspot-manager-solutions-engineering",
+          "author": "Unknown",
+          "published": "2026-01-12T17:40:23",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Customer Support"
+          ],
+          "summary": "Manager of Solutions Engineering at HubSpot, leading a team focused on technical wins and pre-sales partnerships. Requires experienced SE management with data-driven approach.",
+          "importance_score": 48.0,
+          "reasoning": "Major established tech company with management role. Good career opportunity but not AI/ML specific despite HubSpot's AI feature development.",
+          "themes": [
+            "Management",
+            "Pre-Sales",
+            "SaaS",
+            "Remote USA"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Manager of Solutions Engineering at HubSpot, leading a team focused on technical wins and pre-sales partnerships. Requires experienced SE management with data-driven approach.</p>",
+          "content_html": "<p>Headquarters: Remote - USA</p>\n<p>URL: http://hubspot.com</p>\n<p>About the Role</p>\n<p>We are seeking a Manager, Solutions Engineering to lead a high-performing team of SEs. This manager will play a critical role in driving execution of our value-selling motion. They will ensure consistent achievement of the Technical Win motion to drive increased win rates and strong MRR target attainment, strengthen the pre-sales partnership with Sales, and—most importantly—drive the right outcomes for our customers.</p>\n<p>The ideal candidate is an experienced SE manager who brings strong process rigor, a scientific and data-driven mindset, and a passion for coaching and developing teams. They are equally comfortable rolling up their sleeves to support complex customer situations, inspecting the quality and impact of SE work, and building scalable inspection processes that elevate the entire segment.</p>\n<p>Key Responsibilities</p>\n<p>Leadership &amp; Team Management</p>\n<p>Lead, coach, and develop a team of ~8 Solutions Engineers to achieve MRR attainment, improve win rates, and deliver exceptional customer value.</p>\n<p>Drive proactive inspection of SE impact, execution quality, and alignment to the value-selling methodology.</p>\n<p>Conduct...</p>"
+        },
+        {
+          "id": "d1596134109d",
+          "title": "DexCom: Sr Web Applications Developer - eCommerce",
+          "content": "\n\n\n  Headquarters: Remote - United Kingdom\n    URL: http://dexcom.com\n\n\nThe Company Dexcom Corporation (NASDAQ DXCM) is a pioneer and global leader in continuous glucose monitoring (CGM). Dexcom began as a small company with a big dream: To forever change how diabetes is managed. To unlock information and insights that drive better health outcomes. Here we are 25 years later, having pioneered an industry. And we're just getting started. We are broadening our vision beyond diabetes to empower people to take control of health. That means personalized, actionable insights aimed at solving important health challenges. To continue what we've started: Improving human health. &nbsp;We are driven by thousands of ambitious, passionate people worldwide who are willing to fight like warriors to earn the trust of our customers by listening, serving with integrity, thinking big, and being dependable. We've already changed millions of lives and we're ready to change millions more. Our future ambition is to become a leading consumer health technology company while continuing to develop solutions for serious health conditions. We'll get there by constantly reinventing unique biosensing-technology...",
+          "url": "https://weworkremotely.com/remote-jobs/dexcom-sr-web-applications-developer-ecommerce",
+          "author": "Unknown",
+          "published": "2026-01-09T18:51:46",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Full-Stack Programming"
+          ],
+          "summary": "Senior Web Applications Developer for eCommerce at DexCom, a pioneer in continuous glucose monitoring technology. Remote UK position at a NASDAQ-listed healthcare tech company.",
+          "importance_score": 45.0,
+          "reasoning": "Established healthtech company with potential ML applications in medical devices. Senior role but web/eCommerce focused rather than AI engineering.",
+          "themes": [
+            "Healthcare Tech",
+            "eCommerce",
+            "Remote UK",
+            "Senior Role"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Senior Web Applications Developer for eCommerce at DexCom, a pioneer in continuous glucose monitoring technology. Remote UK position at a NASDAQ-listed healthcare tech company.</p>",
+          "content_html": "<p>Headquarters: Remote - United Kingdom</p>\n<p>URL: http://dexcom.com</p>\n<p>The Company Dexcom Corporation (NASDAQ DXCM) is a pioneer and global leader in continuous glucose monitoring (CGM). Dexcom began as a small company with a big dream: To forever change how diabetes is managed. To unlock information and insights that drive better health outcomes. Here we are 25 years later, having pioneered an industry. And we're just getting started. We are broadening our vision beyond diabetes to empower people to take control of health. That means personalized, actionable insights aimed at solving important health challenges. To continue what we've started: Improving human health. &nbsp;We are driven by thousands of ambitious, passionate people worldwide who are willing to fight like warriors to earn the trust of our customers by listening, serving with integrity, thinking big, and being dependable. We've already changed millions of lives and we're ready to change millions more. Our future ambition is to become a leading consumer health technology company while continuing to develop solutions for serious health conditions. We'll get there by constantly reinventing unique biosensing-technology...</p>"
+        },
+        {
+          "id": "591cfd440516",
+          "title": "School of Bots: Client Operations Lead",
+          "content": "\n\n\n  Headquarters: Florida, USA\n    URL: https://schoolofbots.co/\n\n\nLOCATION:\nRemote, based in Eastern Standard Time (core hours 8am–5pm ET, async by default)\nEMPLOYMENT TYPE:\nFull Time\nDEPARTMENT:\nDone-For-You Client Delivery\nCOMPENSATION:\n$50Kbase + $5K performance bonus\n\nMeet School of Bots\nSchool of Bots is a marketing firm and e learning business trusted by the internet’s most influential brands.\nWe have generated over $90 million in revenue for 3,000+ clients, including Russell Brunson, Codie Sanchez, Jenna Kutcher, Prince EA, Amy Porterfield, Dean Graziosi, Nike, SoFi, and Mindvalley.\nOur specialty is helping e learning businesses scale using AI powered DM funnels.\nEvery time they post on Instagram and Facebook, they generate qualified leads and sales. We turn their proven sales processes into intelligent, automated journeys that use AI to personalize conversations across DM, SMS, email, and web.\nWe are building a delivery system that is fast, clear, and accountable, without adding unnecessary meetings.\n\nYour Mission\nAs a Client Operations Lead, you own the operating rhythm that keeps a pod moving.\nYou make sure the right work gets done in the right order, with clear...",
+          "url": "https://weworkremotely.com/remote-jobs/school-of-bots-client-operations-lead",
+          "author": "Unknown",
+          "published": "2026-01-12T15:44:37",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Sales and Marketing"
+          ],
+          "summary": "Client Operations Lead at School of Bots, a marketing firm specializing in AI-powered DM funnels for major brands like Nike and Dean Graziosi. $50K base + performance bonus.",
+          "importance_score": 44.0,
+          "reasoning": "Company works with AI-powered marketing automation. Operations role rather than technical, but exposure to AI tool implementation in marketing.",
+          "themes": [
+            "AI Marketing",
+            "Operations",
+            "Remote",
+            "Marketing Automation"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Client Operations Lead at School of Bots, a marketing firm specializing in AI-powered DM funnels for major brands like Nike and Dean Graziosi. $50K base + performance bonus.</p>",
+          "content_html": "<p>Headquarters: Florida, USA</p>\n<p>URL: https://schoolofbots.co/</p>\n<p>LOCATION:</p>\n<p>Remote, based in Eastern Standard Time (core hours 8am–5pm ET, async by default)</p>\n<p>EMPLOYMENT TYPE:</p>\n<p>Full Time</p>\n<p>DEPARTMENT:</p>\n<p>Done-For-You Client Delivery</p>\n<p>COMPENSATION:</p>\n<p>$50Kbase + $5K performance bonus</p>\n<p>Meet School of Bots</p>\n<p>School of Bots is a marketing firm and e learning business trusted by the internet’s most influential brands.</p>\n<p>We have generated over $90 million in revenue for 3,000+ clients, including Russell Brunson, Codie Sanchez, Jenna Kutcher, Prince EA, Amy Porterfield, Dean Graziosi, Nike, SoFi, and Mindvalley.</p>\n<p>Our specialty is helping e learning businesses scale using AI powered DM funnels.</p>\n<p>Every time they post on Instagram and Facebook, they generate qualified leads and sales. We turn their proven sales processes into intelligent, automated journeys that use AI to personalize conversations across DM, SMS, email, and web.</p>\n<p>We are building a delivery system that is fast, clear, and accountable, without adding unnecessary meetings.</p>\n<p>Your Mission</p>\n<p>As a Client Operations Lead, you own the operating rhythm that keeps a pod moving.</p>\n<p>You make sure the right work gets done in the right order, with clear...</p>"
+        },
+        {
+          "id": "2f8f79d9f443",
+          "title": "Sopra Steria: Ingénieur(e) Devops/SRE - Île-de-France",
+          "content": "\n\n\n  Headquarters: 1 Rue Serpentines, 92400 Courbevoie, France\n    URL: http://soprasteria.fr\n\n\nDescription de l'entrepriseSopra Steria, acteur majeur de la Tech en Europe avec 56&nbsp;000 collaborateurs dans près de 30 pays,&nbsp;est reconnu pour ses activités de conseil, de services numériques et d’édition de logiciels. Il aide ses&nbsp;clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables.&nbsp;Le Groupe&nbsp;apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations,&nbsp;combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une&nbsp;approche résolument collaborative. Sopra Steria place l’humain au centre de son action et s’engage&nbsp;auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif. En 2023, le&nbsp;Groupe a réalisé un chiffre d’affaires de 5,8 milliards d’euros.The world is how we shape itSopra Steria Infrastructure &amp; Security Services est la business unit de Sopra Steria dédiée aux activités d'infrastructures, cloud et cybersécurité. Elle est un acteur clé du end-to-end de Sopra Steria. Forte de ses 3000...",
+          "url": "https://weworkremotely.com/remote-jobs/sopra-steria-ingenieur-e-devops-sre-ile-de-france",
+          "author": "Unknown",
+          "published": "2026-01-12T17:43:01",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "DevOps and Sysadmin"
+          ],
+          "summary": "DevOps/SRE Engineer position at Sopra Steria, a major European tech consultancy with 56,000 employees. Focus on digital transformation projects in the Île-de-France region.",
+          "importance_score": 42.0,
+          "reasoning": "Large established tech consulting firm. DevOps role with potential exposure to diverse projects, but not specifically AI-focused.",
+          "themes": [
+            "DevOps",
+            "Consulting",
+            "France",
+            "Enterprise"
+          ],
+          "continuation": null,
+          "summary_html": "<p>DevOps/SRE Engineer position at Sopra Steria, a major European tech consultancy with 56,000 employees. Focus on digital transformation projects in the Île-de-France region.</p>",
+          "content_html": "<p>Headquarters: 1 Rue Serpentines, 92400 Courbevoie, France</p>\n<p>URL: http://soprasteria.fr</p>\n<p>Description de l'entrepriseSopra Steria, acteur majeur de la Tech en Europe avec 56&nbsp;000 collaborateurs dans près de 30 pays,&nbsp;est reconnu pour ses activités de conseil, de services numériques et d’édition de logiciels. Il aide ses&nbsp;clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables.&nbsp;Le Groupe&nbsp;apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations,&nbsp;combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une&nbsp;approche résolument collaborative. Sopra Steria place l’humain au centre de son action et s’engage&nbsp;auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif. En 2023, le&nbsp;Groupe a réalisé un chiffre d’affaires de 5,8 milliards d’euros.The world is how we shape itSopra Steria Infrastructure &amp; Security Services est la business unit de Sopra Steria dédiée aux activités d'infrastructures, cloud et cybersécurité. Elle est un acteur clé du end-to-end de Sopra Steria. Forte de ses 3000...</p>"
+        },
+        {
+          "id": "155c69dfdb26",
+          "title": "Vacation Tracker: (Video-First) Content Marketing Manager",
+          "content": "\n\n\n  Headquarters: Montreal\n    URL: https://vacationtracker.io/\n\n\nYour job is to execute our content strategy that is aligned with our company-wide growth goals by creating high-quality Youtube videos and then repurposing these into other content formats with AI automations (we have these already set up).\nYou will be working with freelance editors, so your job is mostly about researching, scripting, filming, and overseeing the production, distribution and repurposing process of the content.\n\nTo apply: https://weworkremotely.com/remote-jobs/vacation-tracker-video-first-content-marketing-manager",
+          "url": "https://weworkremotely.com/remote-jobs/vacation-tracker-video-first-content-marketing-manager",
+          "author": "Unknown",
+          "published": "2026-01-11T23:29:59",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Sales and Marketing"
+          ],
+          "summary": "Video-First Content Marketing Manager at Vacation Tracker, creating YouTube content and leveraging AI automations for content repurposing. Remote position with existing AI automation workflows.",
+          "importance_score": 40.0,
+          "reasoning": "Role explicitly uses AI automations for content workflows. Marketing position rather than technical, but relevant for understanding AI tool adoption.",
+          "themes": [
+            "AI Tools",
+            "Content Marketing",
+            "Remote",
+            "YouTube"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Video-First Content Marketing Manager at Vacation Tracker, creating YouTube content and leveraging AI automations for content repurposing. Remote position with existing AI automation workflows.</p>",
+          "content_html": "<p>Headquarters: Montreal</p>\n<p>URL: https://vacationtracker.io/</p>\n<p>Your job is to execute our content strategy that is aligned with our company-wide growth goals by creating high-quality Youtube videos and then repurposing these into other content formats with AI automations (we have these already set up).</p>\n<p>You will be working with freelance editors, so your job is mostly about researching, scripting, filming, and overseeing the production, distribution and repurposing process of the content.</p>\n<p>To apply: https://weworkremotely.com/remote-jobs/vacation-tracker-video-first-content-marketing-manager</p>"
+        },
+        {
+          "id": "adeee671a59e",
+          "title": "DRT FM - Humble Echo LLC: Reddit Pro And/Or Email Outreacher",
+          "content": "\n\n\n  Headquarters: Latvia, Riga, Kuldigas 23a-3\n    URL: https://drt.com/\n\n\nHelp expand our Reddit presence in the growing AI and virtual companion space. Or..Be Our Marketing Go-To For All Outreach (Affiliates &amp; Link Building)\n\nPay: $800–$1200 per month\nWork: Home-based, 40 hours per week\n\nMain task\nMake DRT FM a solid presence wherever virtual companions are mentioned. Same as Candy.ai, Muah.ai are mentioned, DRT must be one of them.\nMeasure and track results, be able to display the effectiveness of your efforts.\n--\nAlternatively or combined we're looking for Detail-Oriented Email Outreacher for promoting our AI tool + link building.Focus: Find contacts → send outreach → track replies → keep key details clear so decisions stay fast and confident.\nYou’re a Good Fit If:- You’re organized and keep clean notes/spreadsheets.- You’re comfortable sending emails and following up. You know how to write emails that get opened and responded to.- You notice patterns (e.g., “These 3 types of sites make up 80% of competitor backlinks”)- You try free or low-effort options first&nbsp;&nbsp;&nbsp;&nbsp;- submit to directories&nbsp;&nbsp;&nbsp;&nbsp;- submit to AI tool listing...",
+          "url": "https://weworkremotely.com/remote-jobs/drt-fm-humble-echo-llc-reddit-pro-and-or-email-outreacher",
+          "author": "Unknown",
+          "published": "2026-01-12T07:25:22",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Sales and Marketing"
+          ],
+          "summary": "Reddit and Email Outreach role at DRT FM in the AI virtual companion space, competing with Candy.ai and Muah.ai. Entry-level pay at $800-1200/month for 40 hours weekly.",
+          "importance_score": 38.0,
+          "reasoning": "Company operates in AI companion space which is growing segment. However, marketing role with low compensation, not technical AI work.",
+          "themes": [
+            "AI Companions",
+            "Marketing",
+            "Remote",
+            "Entry-Level Pay"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Reddit and Email Outreach role at DRT FM in the AI virtual companion space, competing with Candy.ai and Muah.ai. Entry-level pay at $800-1200/month for 40 hours weekly.</p>",
+          "content_html": "<p>Headquarters: Latvia, Riga, Kuldigas 23a-3</p>\n<p>URL: https://drt.com/</p>\n<p>Help expand our Reddit presence in the growing AI and virtual companion space. Or..Be Our Marketing Go-To For All Outreach (Affiliates &amp; Link Building)</p>\n<p>Pay: $800–$1200 per month</p>\n<p>Work: Home-based, 40 hours per week</p>\n<p>Main task</p>\n<p>Make DRT FM a solid presence wherever virtual companions are mentioned. Same as Candy.ai, Muah.ai are mentioned, DRT must be one of them.</p>\n<p>Measure and track results, be able to display the effectiveness of your efforts.</p>\n<p>--</p>\n<p>Alternatively or combined we're looking for Detail-Oriented Email Outreacher for promoting our AI tool + link building.Focus: Find contacts → send outreach → track replies → keep key details clear so decisions stay fast and confident.</p>\n<p>You’re a Good Fit If:- You’re organized and keep clean notes/spreadsheets.- You’re comfortable sending emails and following up. You know how to write emails that get opened and responded to.- You notice patterns (e.g., “These 3 types of sites make up 80% of competitor backlinks”)- You try free or low-effort options first&nbsp;&nbsp;&nbsp;&nbsp;- submit to directories&nbsp;&nbsp;&nbsp;&nbsp;- submit to AI tool listing...</p>"
+        },
+        {
+          "id": "1e376215bc79",
+          "title": "Proxify AB: Senior Next.js Developer",
+          "content": "\n  Headquarters: Sweden\n    URL: http://career.proxify.io\n\n\n\nThe Role:\n&nbsp;\nWe are looking for a Senior Next.js Developer for one of our clients. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products.\n&nbsp;\nWhat we’re looking for:\n\n5+ years of experience in web development, with at least 4 years equally using both React and Next.js.\nProficient understanding of web markup, including HTML5 and CSS3.\nStrong experience with server-side rendering and static site generation in Next.js.\nFamiliarity with RESTful APIs and modern authorization mechanisms, such as JSON Web Token.\nExperience with state management libraries (e.g., Redux, MobX).\nFamiliarity with modern front-end build pipelines and tools.\nExperience with data structure libraries (e.g., Immutable.js) is a plus.\nExcellent troubleshooting and communication skills.\nLocated in CET timezone (+/- 3 hours), we are unable to consider applications from candidates in other time zones.\n\n&nbsp;\nResponsibilities:\n\nLead the development of new user-facing features using Next.js.\nOptimise applications for maximum speed and scalability.\nEnsure the...",
+          "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-next-js-developer-4",
+          "author": "Unknown",
+          "published": "2026-01-12T11:09:58",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Front-End Programming"
+          ],
+          "summary": "Senior Next.js Developer through Proxify staffing platform, requiring 5+ years web development with strong React and Next.js expertise including SSR and state management.",
+          "importance_score": 38.0,
+          "reasoning": "Senior frontend role with modern stack. Remote opportunity through established platform, but no AI/ML component to the work.",
+          "themes": [
+            "Frontend",
+            "React",
+            "Remote",
+            "Contract"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Senior Next.js Developer through Proxify staffing platform, requiring 5+ years web development with strong React and Next.js expertise including SSR and state management.</p>",
+          "content_html": "<p>Headquarters: Sweden</p>\n<p>URL: http://career.proxify.io</p>\n<p>The Role:</p>\n<p>&nbsp;</p>\n<p>We are looking for a Senior Next.js Developer for one of our clients. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products.</p>\n<p>&nbsp;</p>\n<p>What we’re looking for:</p>\n<p>5+ years of experience in web development, with at least 4 years equally using both React and Next.js.</p>\n<p>Proficient understanding of web markup, including HTML5 and CSS3.</p>\n<p>Strong experience with server-side rendering and static site generation in Next.js.</p>\n<p>Familiarity with RESTful APIs and modern authorization mechanisms, such as JSON Web Token.</p>\n<p>Experience with state management libraries (e.g., Redux, MobX).</p>\n<p>Familiarity with modern front-end build pipelines and tools.</p>\n<p>Experience with data structure libraries (e.g., Immutable.js) is a plus.</p>\n<p>Excellent troubleshooting and communication skills.</p>\n<p>Located in CET timezone (+/- 3 hours), we are unable to consider applications from candidates in other time zones.</p>\n<p>&nbsp;</p>\n<p>Responsibilities:</p>\n<p>Lead the development of new user-facing features using Next.js.</p>\n<p>Optimise applications for maximum speed and scalability.</p>\n<p>Ensure the...</p>"
+        }
+      ]
+    }
+  }
+}

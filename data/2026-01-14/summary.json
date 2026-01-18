@@ -1,0 +1,1449 @@
+{
+  "date": "2026-01-14",
+  "coverage_date": "2026-01-13",
+  "coverage_start": "2026-01-13T00:00:00",
+  "coverage_end": "2026-01-13T23:59:59.999999",
+  "executive_summary": "#### Top Story\nA foundational paper [proves autoregressive decoding](/?date=2026-01-14&category=research#item-7f13eb1ede23) is sufficient for universal computation, establishing that any algorithm can be simulated through standard LLM decoding—a fundamental theoretical result for understanding model capabilities.\n\n#### Key Developments\n- **GLM-Image** from **Z.ai**: [Open-source image generator released](/?date=2026-01-14&category=reddit#item-66ba968f7935) with hybrid autoregressive + diffusion architecture, generating strong community interest\n- **Pocket TTS** and **Soprano TTS**: Two major [text-to-speech releases](/?date=2026-01-14&category=reddit#item-8767c05cec32) enable high-quality voice cloning on CPU with **100M parameters** and [**15ms latency** streaming](/?date=2026-01-14&category=reddit#item-0edf58796fd3) respectively\n- **DeepSeek's Engram**: New paper [introduces conditional memory](/?date=2026-01-14&category=reddit#item-5db1e0fb1616) via scalable lookup, proposing a novel sparsity axis complementing Mixture-of-Experts architectures\n- **Microsoft FrogBoss/FrogMini**: **32B** and **14B** [coding agents for bug fixing](/?date=2026-01-14&category=reddit#item-dfeff2f2fa96), fine-tuned from **Qwen3** on debugging trajectories\n- **Claude Code**: **Simon Willison** [reverse-engineered the macOS app](/?date=2026-01-14&category=social#item-076b71cf0eb5), discovering the sandbox runs in an Ubuntu VM using Apple's Virtualization framework\n\n#### Safety & Regulation\n- **\"Knowing But Not Doing\"** [reveals LLMs demonstrate](/?date=2026-01-14&category=research#item-0f6b5a701cdf) near-perfect moral knowledge but significant gaps when translating to action\n- **\"Why AI Alignment Failure Is Structural\"** [reframes deception](/?date=2026-01-14&category=research#item-dbeb2a016bae) as learned human interaction patterns rather than training failures\n- **\"Semantic Gravity Wells\"** provides [first mechanistic investigation](/?date=2026-01-14&category=research#item-619e8b6394bc) of why negative instructions backfire through embedding dynamics\n- **\"Safe Language Generation in the Limit\"** [establishes impossibility bounds](/?date=2026-01-14&category=research#item-766d009258e0) for guaranteed safe generation\n\n#### Research Highlights\n- **\"Reasoning Beyond Chain-of-Thought\"** uses Sparse Autoencoders to [identify latent reasoning modes](/?date=2026-01-14&category=research#item-1cceefe5b37f) controllable via single features, challenging explicit CoT assumptions\n- **\"Your Group-Relative Advantage Is Biased\"** provides [first theoretical analysis](/?date=2026-01-14&category=research#item-84e9d753971b) showing GRPO systematically underestimates advantages for harder prompts\n- **Ministral 3**: **3B-14B** dense models [released via Cascade Distillation](/?date=2026-01-14&category=research#item-0de906e54a7a) with open weights\n- VLM research shows [representations align from layer one](/?date=2026-01-14&category=research#item-b16843e38678), challenging late-fusion assumptions\n\n#### Job Market Highlights\n- **SuperPlane**: [Hiring Lead Frontend](/?date=2026-01-14&category=jobs#item-7ee863239af1) for AI-agent DevOps collaboration platform\n- **Speechify**: [Seeking macOS engineers](/?date=2026-01-14&category=jobs#item-0199e3ca53f4) for TTS product serving millions of users\n- **Agentic Dream**: [Cloud architect roles](/?date=2026-01-14&category=jobs#item-740f719c1e25) for AI agent infrastructure\n- Market signal: Companies building AI products but hiring non-technical roles, suggesting AI application layer growth outpacing core ML hiring\n\n#### Looking Ahead\nDiscussion of [AI agent production failures](/?date=2026-01-14&category=reddit#item-a9396e168333) points to distributed systems challenges (state management, retries) as the key bottleneck rather than model quality—watch for infrastructure tooling to address these gaps.",
+  "executive_summary_html": "<h4>Top Story</h4>\n<p>A foundational paper <a href=\"/?date=2026-01-14&category=research#item-7f13eb1ede23\" class=\"internal-link\">proves autoregressive decoding</a> is sufficient for universal computation, establishing that any algorithm can be simulated through standard LLM decoding—a fundamental theoretical result for understanding model capabilities.</p>\n<h4>Key Developments</h4>\n<ul>\n<li><strong>GLM-Image</strong> from <strong>Z.ai</strong>: <a href=\"/?date=2026-01-14&category=reddit#item-66ba968f7935\" class=\"internal-link\">Open-source image generator released</a> with hybrid autoregressive + diffusion architecture, generating strong community interest</li>\n<li><strong>Pocket TTS</strong> and <strong>Soprano TTS</strong>: Two major <a href=\"/?date=2026-01-14&category=reddit#item-8767c05cec32\" class=\"internal-link\">text-to-speech releases</a> enable high-quality voice cloning on CPU with <strong>100M parameters</strong> and <a href=\"/?date=2026-01-14&category=reddit#item-0edf58796fd3\" class=\"internal-link\"><strong>15ms latency</strong> streaming</a> respectively</li>\n<li><strong>DeepSeek's Engram</strong>: New paper <a href=\"/?date=2026-01-14&category=reddit#item-5db1e0fb1616\" class=\"internal-link\">introduces conditional memory</a> via scalable lookup, proposing a novel sparsity axis complementing Mixture-of-Experts architectures</li>\n<li><strong>Microsoft FrogBoss/FrogMini</strong>: <strong>32B</strong> and <strong>14B</strong> <a href=\"/?date=2026-01-14&category=reddit#item-dfeff2f2fa96\" class=\"internal-link\">coding agents for bug fixing</a>, fine-tuned from <strong>Qwen3</strong> on debugging trajectories</li>\n<li><strong>Claude Code</strong>: <strong>Simon Willison</strong> <a href=\"/?date=2026-01-14&category=social#item-076b71cf0eb5\" class=\"internal-link\">reverse-engineered the macOS app</a>, discovering the sandbox runs in an Ubuntu VM using Apple's Virtualization framework</li>\n</ul>\n<h4>Safety & Regulation</h4>\n<ul>\n<li><strong>\"Knowing But Not Doing\"</strong> <a href=\"/?date=2026-01-14&category=research#item-0f6b5a701cdf\" class=\"internal-link\">reveals LLMs demonstrate</a> near-perfect moral knowledge but significant gaps when translating to action</li>\n<li><strong>\"Why AI Alignment Failure Is Structural\"</strong> <a href=\"/?date=2026-01-14&category=research#item-dbeb2a016bae\" class=\"internal-link\">reframes deception</a> as learned human interaction patterns rather than training failures</li>\n<li><strong>\"Semantic Gravity Wells\"</strong> provides <a href=\"/?date=2026-01-14&category=research#item-619e8b6394bc\" class=\"internal-link\">first mechanistic investigation</a> of why negative instructions backfire through embedding dynamics</li>\n<li><strong>\"Safe Language Generation in the Limit\"</strong> <a href=\"/?date=2026-01-14&category=research#item-766d009258e0\" class=\"internal-link\">establishes impossibility bounds</a> for guaranteed safe generation</li>\n</ul>\n<h4>Research Highlights</h4>\n<ul>\n<li><strong>\"Reasoning Beyond Chain-of-Thought\"</strong> uses Sparse Autoencoders to <a href=\"/?date=2026-01-14&category=research#item-1cceefe5b37f\" class=\"internal-link\">identify latent reasoning modes</a> controllable via single features, challenging explicit CoT assumptions</li>\n<li><strong>\"Your Group-Relative Advantage Is Biased\"</strong> provides <a href=\"/?date=2026-01-14&category=research#item-84e9d753971b\" class=\"internal-link\">first theoretical analysis</a> showing GRPO systematically underestimates advantages for harder prompts</li>\n<li><strong>Ministral 3</strong>: <strong>3B-14B</strong> dense models <a href=\"/?date=2026-01-14&category=research#item-0de906e54a7a\" class=\"internal-link\">released via Cascade Distillation</a> with open weights</li>\n<li>VLM research shows <a href=\"/?date=2026-01-14&category=research#item-b16843e38678\" class=\"internal-link\">representations align from layer one</a>, challenging late-fusion assumptions</li>\n</ul>\n<h4>Job Market Highlights</h4>\n<ul>\n<li><strong>SuperPlane</strong>: <a href=\"/?date=2026-01-14&category=jobs#item-7ee863239af1\" class=\"internal-link\">Hiring Lead Frontend</a> for AI-agent DevOps collaboration platform</li>\n<li><strong>Speechify</strong>: <a href=\"/?date=2026-01-14&category=jobs#item-0199e3ca53f4\" class=\"internal-link\">Seeking macOS engineers</a> for TTS product serving millions of users</li>\n<li><strong>Agentic Dream</strong>: <a href=\"/?date=2026-01-14&category=jobs#item-740f719c1e25\" class=\"internal-link\">Cloud architect roles</a> for AI agent infrastructure</li>\n<li>Market signal: Companies building AI products but hiring non-technical roles, suggesting AI application layer growth outpacing core ML hiring</li>\n</ul>\n<h4>Looking Ahead</h4>\n<p>Discussion of <a href=\"/?date=2026-01-14&category=reddit#item-a9396e168333\" class=\"internal-link\">AI agent production failures</a> points to distributed systems challenges (state management, retries) as the key bottleneck rather than model quality—watch for infrastructure tooling to address these gaps.</p>",
+  "personal_summary": "- **Multi-agent systems**: Discussion emerged on why AI agents fail in production—analysis suggests failures stem from **distributed systems issues** (state management, retries) rather than model quality. Microsoft released **FrogBoss (32B)** and **FrogMini (14B)**, coding agents specialized for bug fixing, fine-tuned from Qwen3 on debugging trajectories. **Papercuts** launched on Product Hunt offering AI agents for production testing.\n\n- **Benchmarks**: No new benchmark announcements or significant benchmark results reported today. Research focused on theoretical foundations (universal computation proofs) and safety rather than evaluation metrics.\n\n- **Silicon Valley**: **SuperPlane** (AI-agent DevOps platform) hiring Lead Frontend Engineer. **Speechify** seeking macOS engineers for their TTS product serving millions of users. **Agentic Dream** hiring cloud architects for AI agent infrastructure. **Intel** discussion around the Arc Pro B60 (24GB at $799 MSRP) as affordable VRAM alternative—relevant as Intel is Santa Clara-based.\n\n- **Taiwan**: No significant updates today.",
+  "personal_summary_html": "<ul>\n<li><strong>Multi-agent systems</strong>: Discussion emerged on why AI agents fail in production—analysis suggests failures stem from <strong>distributed systems issues</strong> (state management, retries) rather than model quality. Microsoft released <strong>FrogBoss (32B)</strong> and <strong>FrogMini (14B)</strong>, coding agents specialized for bug fixing, fine-tuned from Qwen3 on debugging trajectories. <strong>Papercuts</strong> launched on Product Hunt offering AI agents for production testing.</li>\n</ul>\n<ul>\n<li><strong>Benchmarks</strong>: No new benchmark announcements or significant benchmark results reported today. Research focused on theoretical foundations (universal computation proofs) and safety rather than evaluation metrics.</li>\n</ul>\n<ul>\n<li><strong>Silicon Valley</strong>: <strong>SuperPlane</strong> (AI-agent DevOps platform) hiring Lead Frontend Engineer. <strong>Speechify</strong> seeking macOS engineers for their TTS product serving millions of users. <strong>Agentic Dream</strong> hiring cloud architects for AI agent infrastructure. <strong>Intel</strong> discussion around the Arc Pro B60 (24GB at $799 MSRP) as affordable VRAM alternative—relevant as Intel is Santa Clara-based.</li>\n</ul>\n<ul>\n<li><strong>Taiwan</strong>: No significant updates today.</li>\n</ul>",
+  "top_topics": [
+    {
+      "name": "LLM Reasoning & Cognitive Architecture",
+      "description": "[research]A foundational paper [proves](/?date=2026-01-14&category=research#item-7f13eb1ede23) autoregressive language model decoding is sufficient for universal computation, while 'Reasoning Beyond Chain-of-Thought' uses Sparse Autoencoders to [identify latent reasoning modes](/?date=2026-01-14&category=research#item-1cceefe5b37f) controllable via single features, challenging assumptions about explicit reasoning chains[/research]. [reddit]DeepSeek's Engram paper [introducing conditional memory](/?date=2026-01-14&category=reddit#item-5db1e0fb1616) via scalable lookup generated significant architecture discussion as a new sparsity axis complementing MoE[/reddit]. [news]AGI timeline speculation continues with coverage of Elon Musk's [2026 prediction](/?date=2026-01-14&category=news#item-4f5c180084e1) and Peter Diamandis discussing $3T projected annual GDP impact[/news].",
+      "description_html": "<span style=\"color: #10b981; font-weight: 500;\">A foundational paper <a href=\"/?date=2026-01-14&category=research#item-7f13eb1ede23\" class=\"internal-link\">proves</a> autoregressive language model decoding is sufficient for universal computation, while 'Reasoning Beyond Chain-of-Thought' uses Sparse Autoencoders to <a href=\"/?date=2026-01-14&category=research#item-1cceefe5b37f\" class=\"internal-link\">identify latent reasoning modes</a> controllable via single features, challenging assumptions about explicit reasoning chains</span>. <span style=\"color: #ef4444; font-weight: 500;\">DeepSeek's Engram paper <a href=\"/?date=2026-01-14&category=reddit#item-5db1e0fb1616\" class=\"internal-link\">introducing conditional memory</a> via scalable lookup generated significant architecture discussion as a new sparsity axis complementing MoE</span>. <span style=\"color: #667eea; font-weight: 500;\">AGI timeline speculation continues with coverage of Elon Musk's <a href=\"/?date=2026-01-14&category=news#item-4f5c180084e1\" class=\"internal-link\">2026 prediction</a> and Peter Diamandis discussing $3T projected annual GDP impact</span>.",
+      "category_breakdown": {
+        "research": 4,
+        "reddit": 1,
+        "news": 2
+      },
+      "representative_items": [],
+      "importance": 88
+    },
+    {
+      "name": "AI Agents & Production Deployment",
+      "description": "[reddit]Discussion emerged about [why AI agents fail](/?date=2026-01-14&category=reddit#item-a9396e168333) in production, with analysis suggesting failures stem from distributed systems issues like state management and retries rather than model quality[/reddit]. [jobs]Multiple companies are actively hiring for agent infrastructure, including SuperPlane [building an AI-agent](/?date=2026-01-14&category=jobs#item-7ee863239af1) DevOps collaboration platform and Agentic Dream [seeking cloud architects](/?date=2026-01-14&category=jobs#item-740f719c1e25) for AI agent systems[/jobs]. [social]Ethan Mollick [advises organizations](/?date=2026-01-14&category=social#item-db6a1c63735f) to document processes in detailed plain English markdown files for AI consumption, signaling growing focus on enterprise AI readiness[/social].",
+      "description_html": "<span style=\"color: #ef4444; font-weight: 500;\">Discussion emerged about <a href=\"/?date=2026-01-14&category=reddit#item-a9396e168333\" class=\"internal-link\">why AI agents fail</a> in production, with analysis suggesting failures stem from distributed systems issues like state management and retries rather than model quality</span>. <span style=\"color: #8b5cf6; font-weight: 500;\">Multiple companies are actively hiring for agent infrastructure, including SuperPlane <a href=\"/?date=2026-01-14&category=jobs#item-7ee863239af1\" class=\"internal-link\">building an AI-agent</a> DevOps collaboration platform and Agentic Dream <a href=\"/?date=2026-01-14&category=jobs#item-740f719c1e25\" class=\"internal-link\">seeking cloud architects</a> for AI agent systems</span>. <span style=\"color: #f59e0b; font-weight: 500;\">Ethan Mollick <a href=\"/?date=2026-01-14&category=social#item-db6a1c63735f\" class=\"internal-link\">advises organizations</a> to document processes in detailed plain English markdown files for AI consumption, signaling growing focus on enterprise AI readiness</span>.",
+      "category_breakdown": {
+        "reddit": 1,
+        "jobs": 2,
+        "social": 2
+      },
+      "representative_items": [],
+      "importance": 85
+    },
+    {
+      "name": "AI Safety & Alignment Research",
+      "description": "[research]Multiple papers address fundamental safety challenges: 'Knowing But Not Doing' [reveals near-perfect moral knowledge](/?date=2026-01-14&category=research#item-0f6b5a701cdf) but significant action gaps across LLMs; 'Why AI Alignment Failure Is Structural' [reframes deception](/?date=2026-01-14&category=research#item-dbeb2a016bae) as learned human interaction patterns rather than training failures; 'Semantic Gravity Wells' [provides first mechanistic investigation](/?date=2026-01-14&category=research#item-619e8b6394bc) of why negative instructions backfire through embedding dynamics; and 'Safe Language Generation in the Limit' [establishes impossibility bounds](/?date=2026-01-14&category=research#item-766d009258e0) for safe generation[/research]. [news][AGI timeline discussions](/?date=2026-01-14&category=news#item-4f5c180084e1) implicitly raise safety considerations alongside capability predictions[/news].",
+      "description_html": "<span style=\"color: #10b981; font-weight: 500;\">Multiple papers address fundamental safety challenges: 'Knowing But Not Doing' <a href=\"/?date=2026-01-14&category=research#item-0f6b5a701cdf\" class=\"internal-link\">reveals near-perfect moral knowledge</a> but significant action gaps across LLMs; 'Why AI Alignment Failure Is Structural' <a href=\"/?date=2026-01-14&category=research#item-dbeb2a016bae\" class=\"internal-link\">reframes deception</a> as learned human interaction patterns rather than training failures; 'Semantic Gravity Wells' <a href=\"/?date=2026-01-14&category=research#item-619e8b6394bc\" class=\"internal-link\">provides first mechanistic investigation</a> of why negative instructions backfire through embedding dynamics; and 'Safe Language Generation in the Limit' <a href=\"/?date=2026-01-14&category=research#item-766d009258e0\" class=\"internal-link\">establishes impossibility bounds</a> for safe generation</span>. <span style=\"color: #667eea; font-weight: 500;\"><a href=\"/?date=2026-01-14&category=news#item-4f5c180084e1\" class=\"internal-link\">AGI timeline discussions</a> implicitly raise safety considerations alongside capability predictions</span>.",
+      "category_breakdown": {
+        "research": 5,
+        "news": 1
+      },
+      "representative_items": [],
+      "importance": 83
+    },
+    {
+      "name": "Developer Tooling & AI Infrastructure",
+      "description": "[news]Product Hunt saw several AI tool launches including [AI Mode API](/?date=2026-01-14&category=news#item-fbb62ea30093) (Google AI wrapper), Papercuts (AI agents for production testing), o11 (Copilot alternative), and Knowns CLI (AI task management)[/news]. [social]Simon Willison [reverse-engineered the Claude macOS Electron app](/?date=2026-01-14&category=social#item-076b71cf0eb5), discovering the sandbox runs in an Ubuntu VM using Apple's Virtualization framework[/social]. [reddit]Hardware discussions included the [Intel Arc Pro B60 24GB](/?date=2026-01-14&category=reddit#item-e6dd4a706e48) at $799 MSRP, sparking interest as an affordable VRAM alternative to NVIDIA for local inference[/reddit]. [jobs][DevOps and cloud architect roles](/?date=2026-01-14&category=jobs#item-740f719c1e25) are being hired specifically for AI-native infrastructure needs[/jobs].",
+      "description_html": "<span style=\"color: #667eea; font-weight: 500;\">Product Hunt saw several AI tool launches including <a href=\"/?date=2026-01-14&category=news#item-fbb62ea30093\" class=\"internal-link\">AI Mode API</a> (Google AI wrapper), Papercuts (AI agents for production testing), o11 (Copilot alternative), and Knowns CLI (AI task management)</span>. <span style=\"color: #f59e0b; font-weight: 500;\">Simon Willison <a href=\"/?date=2026-01-14&category=social#item-076b71cf0eb5\" class=\"internal-link\">reverse-engineered the Claude macOS Electron app</a>, discovering the sandbox runs in an Ubuntu VM using Apple's Virtualization framework</span>. <span style=\"color: #ef4444; font-weight: 500;\">Hardware discussions included the <a href=\"/?date=2026-01-14&category=reddit#item-e6dd4a706e48\" class=\"internal-link\">Intel Arc Pro B60 24GB</a> at $799 MSRP, sparking interest as an affordable VRAM alternative to NVIDIA for local inference</span>. <span style=\"color: #8b5cf6; font-weight: 500;\"><a href=\"/?date=2026-01-14&category=jobs#item-740f719c1e25\" class=\"internal-link\">DevOps and cloud architect roles</a> are being hired specifically for AI-native infrastructure needs</span>.",
+      "category_breakdown": {
+        "news": 4,
+        "social": 2,
+        "reddit": 2,
+        "jobs": 2
+      },
+      "representative_items": [],
+      "importance": 80
+    },
+    {
+      "name": "Coding AI Assistants",
+      "description": "[social]Claude Code dominated social discussions, with Ethan Mollick noting it now [authentically recreates](/?date=2026-01-14&category=social#item-85b47db16556) classic Maxis-style games, demonstrating significant improvement over previous attempts months ago[/social]. [reddit]Microsoft [released FrogBoss](/?date=2026-01-14&category=reddit#item-dfeff2f2fa96) (32B) and FrogMini (14B), coding agents specialized for bug fixing and fine-tuned from Qwen3 models on debugging trajectories[/reddit]. [news]o11 [launched on Product Hunt](/?date=2026-01-14&category=news#item-e971d4856e33) positioned as 'Microsoft Copilot, But It Actually Works,' aimed at addressing perceived shortcomings in existing AI coding assistants[/news].",
+      "description_html": "<span style=\"color: #f59e0b; font-weight: 500;\">Claude Code dominated social discussions, with Ethan Mollick noting it now <a href=\"/?date=2026-01-14&category=social#item-85b47db16556\" class=\"internal-link\">authentically recreates</a> classic Maxis-style games, demonstrating significant improvement over previous attempts months ago</span>. <span style=\"color: #ef4444; font-weight: 500;\">Microsoft <a href=\"/?date=2026-01-14&category=reddit#item-dfeff2f2fa96\" class=\"internal-link\">released FrogBoss</a> (32B) and FrogMini (14B), coding agents specialized for bug fixing and fine-tuned from Qwen3 models on debugging trajectories</span>. <span style=\"color: #667eea; font-weight: 500;\">o11 <a href=\"/?date=2026-01-14&category=news#item-e971d4856e33\" class=\"internal-link\">launched on Product Hunt</a> positioned as 'Microsoft Copilot, But It Actually Works,' aimed at addressing perceived shortcomings in existing AI coding assistants</span>.",
+      "category_breakdown": {
+        "social": 3,
+        "reddit": 1,
+        "news": 1
+      },
+      "representative_items": [],
+      "importance": 76
+    },
+    {
+      "name": "Text-to-Speech Breakthroughs",
+      "description": "[reddit]Two major TTS releases emerged: Kyutai's [Pocket TTS](/?date=2026-01-14&category=reddit#item-8767c05cec32), a 100M parameter model achieving high-quality voice cloning that runs on CPU without GPU, and Soprano TTS with [released training code](/?date=2026-01-14&category=reddit#item-0edf58796fd3) enabling custom 2000x realtime on-device models with 15ms latency streaming support[/reddit]. [jobs]Speechify is [hiring macOS engineers](/?date=2026-01-14&category=jobs#item-0199e3ca53f4) for their text-to-speech AI product serving millions of users, indicating strong commercial demand for voice AI solutions in the accessibility space[/jobs].",
+      "description_html": "<span style=\"color: #ef4444; font-weight: 500;\">Two major TTS releases emerged: Kyutai's <a href=\"/?date=2026-01-14&category=reddit#item-8767c05cec32\" class=\"internal-link\">Pocket TTS</a>, a 100M parameter model achieving high-quality voice cloning that runs on CPU without GPU, and Soprano TTS with <a href=\"/?date=2026-01-14&category=reddit#item-0edf58796fd3\" class=\"internal-link\">released training code</a> enabling custom 2000x realtime on-device models with 15ms latency streaming support</span>. <span style=\"color: #8b5cf6; font-weight: 500;\">Speechify is <a href=\"/?date=2026-01-14&category=jobs#item-0199e3ca53f4\" class=\"internal-link\">hiring macOS engineers</a> for their text-to-speech AI product serving millions of users, indicating strong commercial demand for voice AI solutions in the accessibility space</span>.",
+      "category_breakdown": {
+        "reddit": 2,
+        "jobs": 1
+      },
+      "representative_items": [],
+      "importance": 72
+    }
+  ],
+  "total_items_collected": 805,
+  "total_items_analyzed": 797,
+  "collection_status": {
+    "overall": "success",
+    "sources": [
+      {
+        "name": "news",
+        "display_name": "News",
+        "status": "success",
+        "count": 14,
+        "error": null
+      },
+      {
+        "name": "research",
+        "display_name": "Research",
+        "status": "success",
+        "count": 400,
+        "error": null
+      },
+      {
+        "name": "social",
+        "display_name": "Social",
+        "status": "success",
+        "count": 7,
+        "error": null
+      },
+      {
+        "name": "reddit",
+        "display_name": "Reddit",
+        "status": "success",
+        "count": 355,
+        "error": null
+      },
+      {
+        "name": "jobs",
+        "display_name": "Jobs",
+        "status": "success",
+        "count": 29,
+        "error": null
+      }
+    ],
+    "social_platforms": [
+      {
+        "name": "twitter",
+        "display_name": "Twitter",
+        "status": "success",
+        "count": 0,
+        "error": "All 7 API requests failed"
+      },
+      {
+        "name": "bluesky",
+        "display_name": "Bluesky",
+        "status": "success",
+        "count": 7,
+        "error": null
+      },
+      {
+        "name": "mastodon",
+        "display_name": "Mastodon",
+        "status": "skipped",
+        "count": 0,
+        "error": "No accounts configured"
+      }
+    ],
+    "warnings": []
+  },
+  "hero_image_url": "/data/2026-01-14/hero.webp?v=1768627805",
+  "hero_image_prompt": "You are generating a daily hero banner image for an AI news aggregator website.\n\n## Your Goal\nCreate a clean, informative infographic-style illustration that visually represents today's top AI news stories. The image should be immediately understandable and communicate key themes at a glance.\n\n## Today's Stories\n\n**Topic 1: LLM Reasoning & Cognitive Architecture**\n[research]A foundational paper proves autoregressive language model decoding is sufficient for universal computation, while 'Reasoning Beyond Chain-of-Thought' uses Sparse Autoencoders to identify latent reasoning modes controllable via single features, challenging assumptions about explicit reasoning chains[/research]. [reddit]DeepSeek's Engram paper introducing conditional memory via scalable lookup generated significant architecture discussion as a new sparsity axis complementing MoE[/reddit]. [news]AGI timeline speculation continues with coverage of Elon Musk's 2026 prediction and Peter Diamandis discussing $3T projected annual GDP impact[/news].\n**Topic 2: AI Agents & Production Deployment**\n[reddit]Discussion emerged about why AI agents fail in production, with analysis suggesting failures stem from distributed systems issues like state management and retries rather than model quality[/reddit]. [jobs]Multiple companies are actively hiring for agent infrastructure, including SuperPlane building an AI-agent DevOps collaboration platform and Agentic Dream seeking cloud architects for AI agent systems[/jobs]. [social]Ethan Mollick advises organizations to document processes in detailed plain English markdown files for AI consumption, signaling growing focus on enterprise AI readiness[/social].\n**Topic 3: AI Safety & Alignment Research**\n[research]Multiple papers address fundamental safety challenges: 'Knowing But Not Doing' reveals near-perfect moral knowledge but significant action gaps across LLMs; 'Why AI Alignment Failure Is Structural' reframes deception as learned human interaction patterns rather than training failures; 'Semantic Gravity Wells' provides first mechanistic investigation of why negative instructions backfire through embedding dynamics; and 'Safe Language Generation in the Limit' establishes impossibility bounds for safe generation[/research]. [news]AGI timeline discussions implicitly raise safety considerations alongside capability predictions[/news].\n**Topic 4: Developer Tooling & AI Infrastructure**\n[news]Product Hunt saw several AI tool launches including AI Mode API (Google AI wrapper), Papercuts (AI agents for production testing), o11 (Copilot alternative), and Knowns CLI (AI task management)[/news]. [social]Simon Willison reverse-engineered the Claude macOS Electron app, discovering the sandbox runs in an Ubuntu VM using Apple's Virtualization framework[/social]. [reddit]Hardware discussions included the Intel Arc Pro B60 24GB at $799 MSRP, sparking interest as an affordable VRAM alternative to NVIDIA for local inference[/reddit]. [jobs]DevOps and cloud architect roles are being hired specifically for AI-native infrastructure needs[/jobs].\n**Topic 5: Coding AI Assistants**\n[social]Claude Code dominated social discussions, with Ethan Mollick noting it now authentically recreates classic Maxis-style games, demonstrating significant improvement over previous attempts months ago[/social]. [reddit]Microsoft released FrogBoss (32B) and FrogMini (14B), coding agents specialized for bug fixing and fine-tuned from Qwen3 models on debugging trajectories[/reddit]. [news]o11 launched on Product Hunt positioned as 'Microsoft Copilot, But It Actually Works,' aimed at addressing perceived shortcomings in existing AI coding assistants[/news].\n**Topic 6: Text-to-Speech Breakthroughs**\n[reddit]Two major TTS releases emerged: Kyutai's Pocket TTS, a 100M parameter model achieving high-quality voice cloning that runs on CPU without GPU, and Soprano TTS with released training code enabling custom 2000x realtime on-device models with 15ms latency streaming support[/reddit]. [jobs]Speechify is hiring macOS engineers for their text-to-speech AI product serving millions of users, indicating strong commercial demand for voice AI solutions in the accessibility space[/jobs].\n\n## Visual Direction\nCreate an infographic composition that represents these stories. You must include Topic 1 (the top story) prominently, then incorporate 2-3 other topics. Consider:\n- Use clear visual metaphors and icons to represent each theme\n- Arrange elements in a logical, easy-to-scan layout\n- Include minimal text labels if helpful for clarity\n- Suggested visual elements: thought bubbles, chain of logic, decision trees, autonomous systems, workflow diagrams, connected tools, shield icons, protective barriers, guardrails, server racks, cooling systems, blue LED glow, data center\n\n## Style Requirements (CRITICAL)\n- **Japanese manga/comic art style** - clean linework, dynamic composition, speed lines for emphasis\n- **Infographic clarity** - easy to understand, clear visual hierarchy, organized layout\n- Bold, vibrant colors with high contrast\n- Trend Red (#E63946) as accent color for key elements\n- Clean, professional look - not cartoonish or childish\n- Tech-forward, modern aesthetic\n- Company logos (OpenAI, Anthropic, Google, NVIDIA, etc.) are encouraged when relevant to stories\n- NO mascots, NO characters, NO cute animals - focus on abstract concepts and technology visualization",
+  "generated_at": "2026-01-16T21:30:05.508135",
+  "categories": {
+    "news": {
+      "count": 7,
+      "category_summary": "**Light news day** with no major frontier AI announcements. The most substantive content comes from commentary sources:\n\n- **Peter Diamandis' Moonshots** podcast discusses AGI arrival uncertainty, citing **$3T** projected annual GDP impact and AI reaching **2.6B users**\n- Chinese-language analysis videos [cover **Elon Musk's 2026 AGI prediction**](/?date=2026-01-14&category=news#item-4f5c180084e1) and [advanced prompt engineering techniques](/?date=2026-01-14&category=news#item-8526f3f9f880)\n\n**Product Hunt** saw several small tool launches: an [API wrapper](/?date=2026-01-14&category=news#item-fbb62ea30093) for **Google's AI Mode**, **Papercuts** ([AI agents for production testing](/?date=2026-01-14&category=news#item-74e3dcf3ef66)), **o11** ([Copilot alternative](/?date=2026-01-14&category=news#item-e971d4856e33)), and **Knowns CLI** ([AI task management](/?date=2026-01-14&category=news#item-3fbb8bce682e)). None represent significant frontier advancements.",
+      "category_summary_html": "<p><strong>Light news day</strong> with no major frontier AI announcements. The most substantive content comes from commentary sources:</p>\n<ul>\n<li><strong>Peter Diamandis' Moonshots</strong> podcast discusses AGI arrival uncertainty, citing <strong>$3T</strong> projected annual GDP impact and AI reaching <strong>2.6B users</strong></li>\n<li>Chinese-language analysis videos <a href=\"/?date=2026-01-14&category=news#item-4f5c180084e1\" class=\"internal-link\">cover <strong>Elon Musk's 2026 AGI prediction</strong></a> and <a href=\"/?date=2026-01-14&category=news#item-8526f3f9f880\" class=\"internal-link\">advanced prompt engineering techniques</a></li>\n</ul>\n<p><strong>Product Hunt</strong> saw several small tool launches: an <a href=\"/?date=2026-01-14&category=news#item-fbb62ea30093\" class=\"internal-link\">API wrapper</a> for <strong>Google's AI Mode</strong>, <strong>Papercuts</strong> (<a href=\"/?date=2026-01-14&category=news#item-74e3dcf3ef66\" class=\"internal-link\">AI agents for production testing</a>), <strong>o11</strong> (<a href=\"/?date=2026-01-14&category=news#item-e971d4856e33\" class=\"internal-link\">Copilot alternative</a>), and <strong>Knowns CLI</strong> (<a href=\"/?date=2026-01-14&category=news#item-3fbb8bce682e\" class=\"internal-link\">AI task management</a>). None represent significant frontier advancements.</p>",
+      "themes": [
+        {
+          "name": "AGI Timeline Speculation",
+          "description": "Discussion and analysis of when AGI might arrive and its societal implications, featuring predictions from figures like Elon Musk",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 45.0
+        },
+        {
+          "name": "Developer Tools & APIs",
+          "description": "Small-scale product launches offering AI-powered developer utilities including API wrappers, testing agents, and CLI tools",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 33.0
+        },
+        {
+          "name": "AI Productivity & Education",
+          "description": "Educational content on maximizing AI tool effectiveness through prompt engineering and workflow optimization",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 32.0
+        }
+      ],
+      "top_items": [
+        {
+          "id": "4f5c180084e1",
+          "title": "【人工智能】马斯克预言奇点时刻 | AGI时间表 | 能源货币化 | 算力即生产力 | 瓦特时代 | 职业替代潮 | 人形机器人 | 太空数据中心 | 中国供应链优势 | 资产配置重构 | 穿越周期",
+          "content": "如果2026年就是人类历史的技术终点，你准备好了吗？马斯克抛出重磅预言，AGI即将降临，算力潜力将释放万倍，而人类社会正处于一场超音速海啸般的阵痛期。本期视频拆解马斯克的最新底层逻辑，为什么说未来的货币不再是美元而是瓦特？白领阶层如何在高危红区中寻找人性的护城河？从机器人医生到太空数据中心，从中国算力优势到个人财务的抗脆弱方案。这不仅是一场技术预测，更是一份关乎每个人生存与财富重构的避难手册。\n\nhttps://youtu.be/RSNuB9pj9P8?si=-1g96sJqbzrLXU9_",
+          "url": "https://www.youtube.com/watch?v=OTj1S083G6c",
+          "author": "最佳拍档",
+          "published": "2026-01-13T09:00:40",
+          "source": "最佳拍档",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "Continuing our coverage from [yesterday](/?date=2026-01-13&category=news#item-5c0ee3c47d95), Chinese-language video analyzes Elon Musk's prediction that AGI may arrive by 2026, exploring implications for energy becoming the new currency, white-collar job displacement, and humanoid robots. Frames discussion as a 'survival handbook' for navigating AI transition.",
+          "importance_score": 42.0,
+          "reasoning": "Commentary on existing Musk predictions rather than new announcements. While discussing significant topics (AGI timing, economic restructuring), it's analysis content without original news value.",
+          "themes": [
+            "AGI predictions",
+            "future of work",
+            "AI economics",
+            "humanoid robotics"
+          ],
+          "continuation": {
+            "original_item_id": "5c0ee3c47d95",
+            "original_date": "2026-01-13",
+            "original_category": "news",
+            "original_title": "Elon Musk on AGI Timeline, US vs China, Job Markets, Clean Energy & Humanoid Robots | 220",
+            "continuation_type": "follow_up",
+            "should_demote": false,
+            "reference_text": "Continuing our coverage from yesterday"
+          },
+          "summary_html": "<p>Continuing our coverage from <a href=\"/?date=2026-01-13&category=news#item-5c0ee3c47d95\" class=\"internal-link\">yesterday</a>, Chinese-language video analyzes Elon Musk's prediction that AGI may arrive by 2026, exploring implications for energy becoming the new currency, white-collar job displacement, and humanoid robots. Frames discussion as a 'survival handbook' for navigating AI transition.</p>",
+          "content_html": "<p>如果2026年就是人类历史的技术终点，你准备好了吗？马斯克抛出重磅预言，AGI即将降临，算力潜力将释放万倍，而人类社会正处于一场超音速海啸般的阵痛期。本期视频拆解马斯克的最新底层逻辑，为什么说未来的货币不再是美元而是瓦特？白领阶层如何在高危红区中寻找人性的护城河？从机器人医生到太空数据中心，从中国算力优势到个人财务的抗脆弱方案。这不仅是一场技术预测，更是一份关乎每个人生存与财富重构的避难手册。</p>\n<p>https://youtu.be/RSNuB9pj9P8?si=-1g96sJqbzrLXU9_</p>"
+        },
+        {
+          "id": "fbb62ea30093",
+          "title": "AI Mode API",
+          "content": "\n            Query Google’s AI Mode as a simple, programmable API\n          \n          \n            Discussion\n            |\n            Link\n          ",
+          "url": "https://www.producthunt.com/products/ai-mode-api",
+          "author": "Patt Liu",
+          "published": "2026-01-13T13:11:36",
+          "source": "Product Hunt — The best new products, every day",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "Product Hunt launch offering a programmable API to query Google's AI Mode, making the feature accessible for developers to integrate into their applications.",
+          "importance_score": 38.0,
+          "reasoning": "Minor developer tool that provides programmatic access to Google's AI Mode. Useful for developers but represents a small third-party wrapper rather than a significant platform advancement.",
+          "themes": [
+            "API tools",
+            "Google AI",
+            "developer tools"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Product Hunt launch offering a programmable API to query Google's AI Mode, making the feature accessible for developers to integrate into their applications.</p>",
+          "content_html": "<p>Query Google’s AI Mode as a simple, programmable API</p>\n<p>Discussion</p>\n<p>|</p>\n<p>Link</p>"
+        },
+        {
+          "id": "74e3dcf3ef66",
+          "title": "Papercuts",
+          "content": "\n            Deploy AI agents to use your production app like a real user\n          \n          \n            Discussion\n            |\n            Link\n          ",
+          "url": "https://www.producthunt.com/products/papercuts",
+          "author": "Sayuj Suresh",
+          "published": "2026-01-13T13:42:36",
+          "source": "Product Hunt — The best new products, every day",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "Papercuts launches on Product Hunt, offering AI agents that interact with production applications as real users would, enabling automated end-to-end testing scenarios.",
+          "importance_score": 36.0,
+          "reasoning": "Interesting application of AI agents for QA/testing use cases, but small-scale product launch without demonstrated traction or novel capabilities.",
+          "themes": [
+            "AI agents",
+            "testing automation",
+            "developer tools"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Papercuts launches on Product Hunt, offering AI agents that interact with production applications as real users would, enabling automated end-to-end testing scenarios.</p>",
+          "content_html": "<p>Deploy AI agents to use your production app like a real user</p>\n<p>Discussion</p>\n<p>|</p>\n<p>Link</p>"
+        },
+        {
+          "id": "8526f3f9f880",
+          "title": "【人工智能】告别玩具级AI用法 | 提示词工程终极指南 | Dan Koe | ChatGPT高阶技巧 | 元提示词 | 工作流重构 | 数字员工 | 生产力革命 | 系统化输出",
+          "content": "为什么在大多数人手里，强大的AI最终沦为了一个花哨的搜索引擎？而少数高手，却能把它变成一支无所不能的数字团队？本期视频，我们将揭开Dan Koe的终极秘密：停止像玩老虎机一样向AI投喂指令，开始像管理顶级员工一样与它协作。你将学到四种构建专家级指令的具体方法，如何从零开始，让AI掌握你的独特风格和专业知识。展示三个足以颠覆你工作方式的高阶玩法，把任何一个教学视频，变成你的私人教练，让AI扮演纳瓦尔、霍尔莫齐，成为你的智囊团，甚至用它来训练你的第一性原理思维。这不仅是关于提示词的技巧，这是一套重塑你与AI关系的完整操作系统。\n\nhttps://www.youtube.com/watch?v=xgpLjLHB5sA",
+          "url": "https://www.youtube.com/watch?v=f2_F6gfu2dk",
+          "author": "最佳拍档",
+          "published": "2026-01-13T23:00:53",
+          "source": "最佳拍档",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "Chinese-language educational video covering Dan Koe's advanced prompt engineering techniques, teaching users to transform AI from a 'fancy search engine' into a productive digital team through systematic workflows and meta-prompts.",
+          "importance_score": 35.0,
+          "reasoning": "Educational/tutorial content about existing AI usage techniques. No news value for frontier AI—summarizes known prompt engineering concepts rather than reporting new developments.",
+          "themes": [
+            "prompt engineering",
+            "AI productivity",
+            "workflows"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Chinese-language educational video covering Dan Koe's advanced prompt engineering techniques, teaching users to transform AI from a 'fancy search engine' into a productive digital team through systematic workflows and meta-prompts.</p>",
+          "content_html": "<p>为什么在大多数人手里，强大的AI最终沦为了一个花哨的搜索引擎？而少数高手，却能把它变成一支无所不能的数字团队？本期视频，我们将揭开Dan Koe的终极秘密：停止像玩老虎机一样向AI投喂指令，开始像管理顶级员工一样与它协作。你将学到四种构建专家级指令的具体方法，如何从零开始，让AI掌握你的独特风格和专业知识。展示三个足以颠覆你工作方式的高阶玩法，把任何一个教学视频，变成你的私人教练，让AI扮演纳瓦尔、霍尔莫齐，成为你的智囊团，甚至用它来训练你的第一性原理思维。这不仅是关于提示词的技巧，这是一套重塑你与AI关系的完整操作系统。</p>\n<p>https://www.youtube.com/watch?v=xgpLjLHB5sA</p>"
+        },
+        {
+          "id": "e971d4856e33",
+          "title": "o11",
+          "content": "\n            Microsoft Copilot, But It Actually Works\n          \n          \n            Discussion\n            |\n            Link\n          ",
+          "url": "https://www.producthunt.com/products/o11",
+          "author": "Aryah Oztanir",
+          "published": "2026-01-13T20:38:49",
+          "source": "Product Hunt — The best new products, every day",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "o11 launches on Product Hunt positioned as 'Microsoft Copilot, But It Actually Works'—an alternative AI assistant aimed at addressing perceived shortcomings in Microsoft's offering.",
+          "importance_score": 28.0,
+          "reasoning": "Very minimal product information available. Small Product Hunt launch with no demonstrated differentiation or traction data beyond marketing tagline.",
+          "themes": [
+            "AI assistants",
+            "productivity tools",
+            "Copilot alternative"
+          ],
+          "continuation": null,
+          "summary_html": "<p>o11 launches on Product Hunt positioned as 'Microsoft Copilot, But It Actually Works'—an alternative AI assistant aimed at addressing perceived shortcomings in Microsoft's offering.</p>",
+          "content_html": "<p>Microsoft Copilot, But It Actually Works</p>\n<p>Discussion</p>\n<p>|</p>\n<p>Link</p>"
+        },
+        {
+          "id": "3fbb8bce682e",
+          "title": "Knowns CLI",
+          "content": "\n            AI-first CLI for task management and documentation.\n          \n          \n            Discussion\n            |\n            Link\n          ",
+          "url": "https://www.producthunt.com/products/knowns-cli",
+          "author": "Howz Nguyen",
+          "published": "2026-01-13T10:06:01",
+          "source": "Product Hunt — The best new products, every day",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "Knowns CLI launches as an AI-first command line interface tool designed for task management and documentation workflows.",
+          "importance_score": 28.0,
+          "reasoning": "Small-scale CLI tool launch with minimal information. Represents incremental tooling rather than significant frontier AI development.",
+          "themes": [
+            "CLI tools",
+            "task management",
+            "developer tools"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Knowns CLI launches as an AI-first command line interface tool designed for task management and documentation workflows.</p>",
+          "content_html": "<p>AI-first CLI for task management and documentation.</p>\n<p>Discussion</p>\n<p>|</p>\n<p>Link</p>"
+        }
+      ]
+    },
+    "research": {
+      "count": 30,
+      "category_summary": "Today's research spans foundational theory and critical alignment insights. **Universal computation is intrinsic to language model decoding** [proves any algorithm can be simulated](/?date=2026-01-14&category=research#item-7f13eb1ede23) through autoregressive decoding—a fundamental capability result.\n\n- **Reasoning Beyond Chain-of-Thought** [discovers latent reasoning modes](/?date=2026-01-14&category=research#item-1cceefe5b37f) in LLMs controllable via single SAE features, challenging CoT assumptions\n- **Your Group-Relative Advantage Is Biased** [provides first theoretical analysis](/?date=2026-01-14&category=research#item-84e9d753971b) showing GRPO systematically underestimates advantages for harder prompts\n- **Ministral 3** [releases **3B-14B** dense models](/?date=2026-01-14&category=research#item-0de906e54a7a) via Cascade Distillation methodology with open weights\n\nSafety research dominates: **Knowing But Not Doing** [reveals near-perfect moral knowledge](/?date=2026-01-14&category=research#item-0f6b5a701cdf) but significant action gaps across LLMs; **Why AI Alignment Failure Is Structural** [reframes deception](/?date=2026-01-14&category=research#item-dbeb2a016bae) as learned human interaction patterns rather than training failures; **Semantic Gravity Wells** [mechanistically explains](/?date=2026-01-14&category=research#item-619e8b6394bc) why negative instructions backfire through embedding dynamics; **Safe Language Generation in the Limit** [establishes impossibility bounds](/?date=2026-01-14&category=research#item-766d009258e0). **Representations align from layer one** in VLMs [challenges late-fusion assumptions](/?date=2026-01-14&category=research#item-b16843e38678).",
+      "category_summary_html": "<p>Today's research spans foundational theory and critical alignment insights. <strong>Universal computation is intrinsic to language model decoding</strong> <a href=\"/?date=2026-01-14&category=research#item-7f13eb1ede23\" class=\"internal-link\">proves any algorithm can be simulated</a> through autoregressive decoding—a fundamental capability result.</p>\n<ul>\n<li><strong>Reasoning Beyond Chain-of-Thought</strong> <a href=\"/?date=2026-01-14&category=research#item-1cceefe5b37f\" class=\"internal-link\">discovers latent reasoning modes</a> in LLMs controllable via single SAE features, challenging CoT assumptions</li>\n<li><strong>Your Group-Relative Advantage Is Biased</strong> <a href=\"/?date=2026-01-14&category=research#item-84e9d753971b\" class=\"internal-link\">provides first theoretical analysis</a> showing GRPO systematically underestimates advantages for harder prompts</li>\n<li><strong>Ministral 3</strong> <a href=\"/?date=2026-01-14&category=research#item-0de906e54a7a\" class=\"internal-link\">releases <strong>3B-14B</strong> dense models</a> via Cascade Distillation methodology with open weights</li>\n</ul>\n<p>Safety research dominates: <strong>Knowing But Not Doing</strong> <a href=\"/?date=2026-01-14&category=research#item-0f6b5a701cdf\" class=\"internal-link\">reveals near-perfect moral knowledge</a> but significant action gaps across LLMs; <strong>Why AI Alignment Failure Is Structural</strong> <a href=\"/?date=2026-01-14&category=research#item-dbeb2a016bae\" class=\"internal-link\">reframes deception</a> as learned human interaction patterns rather than training failures; <strong>Semantic Gravity Wells</strong> <a href=\"/?date=2026-01-14&category=research#item-619e8b6394bc\" class=\"internal-link\">mechanistically explains</a> why negative instructions backfire through embedding dynamics; <strong>Safe Language Generation in the Limit</strong> <a href=\"/?date=2026-01-14&category=research#item-766d009258e0\" class=\"internal-link\">establishes impossibility bounds</a>. <strong>Representations align from layer one</strong> in VLMs <a href=\"/?date=2026-01-14&category=research#item-b16843e38678\" class=\"internal-link\">challenges late-fusion assumptions</a>.</p>",
+      "themes": [
+        {
+          "name": "AI Safety & Alignment",
+          "description": "Research on making AI systems safe, aligned with human values, and controllable including mechanistic understanding of failure modes and regulatory gaps",
+          "item_count": 20,
+          "example_items": [],
+          "importance": 85
+        },
+        {
+          "name": "Agentic AI & Tool Use",
+          "description": "Frameworks for autonomous agents, tool integration, memory systems, and multi-step reasoning including MCP routing, dynamic planning, and learnable memory operations",
+          "item_count": 15,
+          "example_items": [],
+          "importance": 85
+        },
+        {
+          "name": "Language Models & Training",
+          "description": "Advances in LLM architectures, training methods like RLHF/GRPO, and model releases including Ministral 3 series",
+          "item_count": 15,
+          "example_items": [],
+          "importance": 85
+        },
+        {
+          "name": "Mechanistic Interpretability",
+          "description": "Understanding internal representations and mechanisms in language and vision-language models through probing, sparse autoencoders, and causal analysis",
+          "item_count": 12,
+          "example_items": [],
+          "importance": 82
+        },
+        {
+          "name": "Language Models & Reasoning",
+          "description": "Advances in understanding and improving LLM reasoning capabilities, including alternatives to chain-of-thought and theoretical foundations of computation",
+          "item_count": 33,
+          "example_items": [],
+          "importance": 80
+        },
+        {
+          "name": "Benchmarks & Evaluation",
+          "description": "New benchmarks, evaluation frameworks, and assessment methodologies",
+          "item_count": 21,
+          "example_items": [],
+          "importance": 78
+        },
+        {
+          "name": "Large Language Models & Efficiency",
+          "description": "Research on LLM compression, quantization, efficient inference, and KV cache optimization for practical deployment",
+          "item_count": 12,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "AI Safety & Security",
+          "description": "Benchmarks and research on AI agent safety, security vulnerabilities, and alignment including financial and medical domains",
+          "item_count": 16,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "LLM Efficiency & Inference",
+          "description": "Methods for efficient model deployment including speculative decoding, controllable reasoning budgets, MoE design principles, and edge device optimization",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "AI Safety & Evaluation",
+          "description": "Benchmarks and frameworks for evaluating model capabilities, regulatory compliance, causal reasoning, and visual perception including LTL-based safety verification",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 75
+        }
+      ],
+      "top_items": [
+        {
+          "id": "7f13eb1ede23",
+          "title": "Universal computation is intrinsic to language model decoding",
+          "content": "Language models now provide an interface to express and often solve general problems in natural language, yet their ultimate computational capabilities remain a major topic of scientific debate. Unlike a formal computer, a language model is trained to autoregressively predict successive elements in human-generated text. We prove that chaining a language model's autoregressive output is sufficient to perform universal computation. That is, a language model can simulate the execution of any algorithm on any input. The challenge of eliciting desired computational behaviour can thus be reframed in terms of programmability: the ease of finding a suitable prompt. Strikingly, we demonstrate that even randomly initialized language models are capable of universal computation before training. This implies that training does not give rise to computational expressiveness -- rather, it improves programmability, enabling a natural language interface for accessing these intrinsic capabilities.",
+          "url": "http://arxiv.org/abs/2601.08061",
+          "author": "Alex Lewandowski, Marlos C. Machado, Dale Schuurmans",
+          "published": "2026-01-14",
+          "source": "arXiv (Computation and Language)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CL"
+          ],
+          "summary": "Proves that autoregressive language model decoding is sufficient for universal computation - any algorithm on any input can be simulated. Strikingly, even randomly initialized LMs have this capability before training.",
+          "importance_score": 88,
+          "reasoning": "Fundamental theoretical result about computational capabilities of language models. Proves universality is intrinsic to the architecture, not learned. Important implications for understanding LLM capabilities and limitations.",
+          "themes": [
+            "Theoretical Foundations",
+            "Language Models",
+            "Computability Theory"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Proves that autoregressive language model decoding is sufficient for universal computation - any algorithm on any input can be simulated. Strikingly, even randomly initialized LMs have this capability before training.</p>",
+          "content_html": "<p>Language models now provide an interface to express and often solve general problems in natural language, yet their ultimate computational capabilities remain a major topic of scientific debate. Unlike a formal computer, a language model is trained to autoregressively predict successive elements in human-generated text. We prove that chaining a language model's autoregressive output is sufficient to perform universal computation. That is, a language model can simulate the execution of any algorithm on any input. The challenge of eliciting desired computational behaviour can thus be reframed in terms of programmability: the ease of finding a suitable prompt. Strikingly, we demonstrate that even randomly initialized language models are capable of universal computation before training. This implies that training does not give rise to computational expressiveness -- rather, it improves programmability, enabling a natural language interface for accessing these intrinsic capabilities.</p>"
+        },
+        {
+          "id": "1cceefe5b37f",
+          "title": "Reasoning Beyond Chain-of-Thought: A Latent Computational Mode in Large Language Models",
+          "content": "Chain-of-Thought (CoT) prompting has improved the reasoning performance of large language models (LLMs), but it remains unclear why it works and whether it is the unique mechanism for triggering reasoning in large language models. In this work, we study this question by directly analyzing and intervening on the internal representations of LLMs with Sparse Autoencoders (SAEs), identifying a small set of latent features that are causally associated with LLM reasoning behavior. Across multiple model families and reasoning benchmarks, we find that steering a single reasoning-related latent feature can substantially improve accuracy without explicit CoT prompting. For large models, latent steering achieves performance comparable to standard CoT prompting while producing more efficient outputs. We further observe that this reasoning-oriented internal state is triggered early in generation and can override prompt-level instructions that discourage explicit reasoning. Overall, our results suggest that multi-step reasoning in LLMs is supported by latent internal activations that can be externally activated, while CoT prompting is one effective, but not unique, way of activating this mechanism rather than its necessary cause.",
+          "url": "http://arxiv.org/abs/2601.08058",
+          "author": "Zhenghao He, Guangzhi Xiong, Bohan Liu, Sanchit Sinha, Aidong Zhang",
+          "published": "2026-01-14",
+          "source": "arXiv (Computation and Language)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CL"
+          ],
+          "summary": "Uses Sparse Autoencoders to identify latent features causally associated with LLM reasoning, showing that steering a single reasoning-related feature can substantially improve accuracy without explicit CoT prompting, achieving comparable performance to CoT with more efficient outputs.",
+          "importance_score": 85,
+          "reasoning": "Significant mechanistic interpretability contribution revealing latent reasoning modes in LLMs. Demonstrates that reasoning can be triggered without explicit CoT, with practical efficiency implications. Important for understanding LLM capabilities.",
+          "themes": [
+            "Mechanistic Interpretability",
+            "Reasoning",
+            "Language Models",
+            "Sparse Autoencoders"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Uses Sparse Autoencoders to identify latent features causally associated with LLM reasoning, showing that steering a single reasoning-related feature can substantially improve accuracy without explicit CoT prompting, achieving comparable performance to CoT with more efficient outputs.</p>",
+          "content_html": "<p>Chain-of-Thought (CoT) prompting has improved the reasoning performance of large language models (LLMs), but it remains unclear why it works and whether it is the unique mechanism for triggering reasoning in large language models. In this work, we study this question by directly analyzing and intervening on the internal representations of LLMs with Sparse Autoencoders (SAEs), identifying a small set of latent features that are causally associated with LLM reasoning behavior. Across multiple model families and reasoning benchmarks, we find that steering a single reasoning-related latent feature can substantially improve accuracy without explicit CoT prompting. For large models, latent steering achieves performance comparable to standard CoT prompting while producing more efficient outputs. We further observe that this reasoning-oriented internal state is triggered early in generation and can override prompt-level instructions that discourage explicit reasoning. Overall, our results suggest that multi-step reasoning in LLMs is supported by latent internal activations that can be externally activated, while CoT prompting is one effective, but not unique, way of activating this mechanism rather than its necessary cause.</p>"
+        },
+        {
+          "id": "84e9d753971b",
+          "title": "Your Group-Relative Advantage Is Biased",
+          "content": "Reinforcement Learning from Verifier Rewards (RLVR) has emerged as a widely used approach for post-training large language models on reasoning tasks, with group-based methods such as GRPO and its variants gaining broad adoption. These methods rely on group-relative advantage estimation to avoid learned critics, yet its theoretical properties remain poorly understood.   In this work, we uncover a fundamental issue of group-based RL: the group-relative advantage estimator is inherently biased relative to the true (expected) advantage. We provide the first theoretical analysis showing that it systematically underestimates advantages for hard prompts and overestimates them for easy prompts, leading to imbalanced exploration and exploitation. To address this issue, we propose History-Aware Adaptive Difficulty Weighting (HA-DW), an adaptive reweighting scheme that adjusts advantage estimates based on an evolving difficulty anchor and training dynamics. Both theoretical analysis and experiments on five mathematical reasoning benchmarks demonstrate that HA-DW consistently improves performance when integrated into GRPO and its variants. Our results suggest that correcting biased advantage estimation is critical for robust and efficient RLVR training.",
+          "url": "http://arxiv.org/abs/2601.08521",
+          "author": "Fengkai Yang, Zherui Chen, Xiaohan Wang, Xiaodong Lu, Jiajun Chai, Guojun Yin, Wei Lin, Shuai Ma, Fuzhen Zhuang, Deqing Wang, Yaodong Yang, Jianxin Li, Yikun Ban",
+          "published": "2026-01-14",
+          "source": "arXiv (Machine Learning)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.LG"
+          ],
+          "summary": "Reveals that group-relative advantage estimation in GRPO and similar RLVR methods is fundamentally biased—systematically underestimating advantages for hard prompts and overestimating for easy ones. Proposes History-Aware Adaptive method to address imbalanced exploration/exploitation.",
+          "importance_score": 82,
+          "reasoning": "First theoretical analysis of bias in GRPO, which is widely used for LLM post-training. Directly impacts RLHF practices with practical fix proposed.",
+          "themes": [
+            "Reinforcement Learning",
+            "Language Models",
+            "LLM Training"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Reveals that group-relative advantage estimation in GRPO and similar RLVR methods is fundamentally biased—systematically underestimating advantages for hard prompts and overestimating for easy ones. Proposes History-Aware Adaptive method to address imbalanced exploration/exploitation.</p>",
+          "content_html": "<p>Reinforcement Learning from Verifier Rewards (RLVR) has emerged as a widely used approach for post-training large language models on reasoning tasks, with group-based methods such as GRPO and its variants gaining broad adoption. These methods rely on group-relative advantage estimation to avoid learned critics, yet its theoretical properties remain poorly understood.   In this work, we uncover a fundamental issue of group-based RL: the group-relative advantage estimator is inherently biased relative to the true (expected) advantage. We provide the first theoretical analysis showing that it systematically underestimates advantages for hard prompts and overestimates them for easy prompts, leading to imbalanced exploration and exploitation. To address this issue, we propose History-Aware Adaptive Difficulty Weighting (HA-DW), an adaptive reweighting scheme that adjusts advantage estimates based on an evolving difficulty anchor and training dynamics. Both theoretical analysis and experiments on five mathematical reasoning benchmarks demonstrate that HA-DW consistently improves performance when integrated into GRPO and its variants. Our results suggest that correcting biased advantage estimation is critical for robust and efficient RLVR training.</p>"
+        },
+        {
+          "id": "0de906e54a7a",
+          "title": "Ministral 3",
+          "content": "We introduce the Ministral 3 series, a family of parameter-efficient dense language models designed for compute and memory constrained applications, available in three model sizes: 3B, 8B, and 14B parameters. For each model size, we release three variants: a pretrained base model for general-purpose use, an instruction finetuned, and a reasoning model for complex problem-solving. In addition, we present our recipe to derive the Ministral 3 models through Cascade Distillation, an iterative pruning and continued training with distillation technique. Each model comes with image understanding capabilities, all under the Apache 2.0 license.",
+          "url": "http://arxiv.org/abs/2601.08584",
+          "author": "Alexander H. Liu, Kartik Khandelwal, Sandeep Subramanian, Victor Jouault, Abhinav Rastogi, Adrien Sad\\'e, Alan Jeffares, Albert Jiang, Alexandre Cahill, Alexandre Gavaudan, Alexandre Sablayrolles, Am\\'elie H\\'eliou, Amos You, Andy Ehrenberg, Andy Lo, Anton Eliseev, Antonia Calvi, Avinash Sooriyarachchi, Baptiste Bout, Baptiste Rozi\\`ere, Baudouin De Monicault, Cl\\'emence Lanfranchi, Corentin Barreau, Cyprien Courtot, Daniele Grattarola, Darius Dabert, Diego de las Casas, Elliot Chane-Sane, Faruk Ahmed, Gabrielle Berrada, Ga\\\"etan Ecrepont, Gauthier Guinet, Georgii Novikov, Guillaume Kunsch, Guillaume Lample, Guillaume Martin, Gunshi Gupta, Jan Ludziejewski, Jason Rute, Joachim Studnia, Jonas Amar, Jos\\'ephine Delas, Josselin Somerville Roberts, Karmesh Yadav, Khyathi Chandu, Kush Jain, Laurence Aitchison, Laurent Fainsin, L\\'eonard Blier, Lingxiao Zhao, Louis Martin, Lucile Saulnier, Luyu Gao, Maarten Buyl, Margaret Jennings, Marie Pellat, Mark Prins, Mathieu Poir\\'ee, Mathilde Guillaumin, Matthieu Dinot, Matthieu Futeral, Maxime Darrin, Maximilian Augustin, Mia Chiquier, Michel Schimpf, Nathan Grinsztajn, Neha Gupta, Nikhil Raghuraman, Olivier Bousquet, Olivier Duchenne, Patricia Wang, Patrick von Platen, Paul Jacob, Paul Wambergue, Paula Kurylowicz, Pavankumar Reddy Muddireddy, Philom\\`ene Chagniot, Pierre Stock, Pravesh Agrawal, Quentin Torroba, Romain Sauvestre, Roman Soletskyi, Rupert Menneer, Sagar Vaze, Samuel Barry, Sanchit Gandhi, Siddhant Waghjale, Siddharth Gandhi, Soham Ghosh, Srijan Mishra, Sumukh Aithal, Szymon Antoniak, Teven Le Scao, Th\\'eo Cachet, Theo Simon Sorg, Thibaut Lavril, Thiziri Nait Saada, Thomas Chabal, Thomas Foubert, Thomas Robert, Thomas Wang, Tim Lawson, Tom Bewley, Tom Bewley, Tom Edwards, Umar Jamil, Umberto Tomasini, Valeriia Nemychnikova, Van Phung, Vincent Maladi\\`ere, Virgile Richard, Wassim Bouaziz, Wen-Ding Li, William Marshall, Xinghui Li, Xinyu Yang, Yassine El Ouahidi, Yihan Wang, Yunhao Tang, Zaccharie Ramzi",
+          "published": "2026-01-14",
+          "source": "arXiv (Computation and Language)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CL"
+          ],
+          "summary": "Introduces Ministral 3 series from Mistral AI, a family of efficient dense LLMs (3B, 8B, 14B parameters) created through Cascade Distillation, with base, instruction-tuned, and reasoning variants, all with vision capabilities under Apache 2.0.",
+          "importance_score": 88,
+          "reasoning": "Major model release from leading AI lab. Cascade distillation methodology, open weights, and multimodal capabilities make this highly impactful for the field.",
+          "themes": [
+            "Language Models",
+            "Model Distillation",
+            "Open Source AI",
+            "Multimodal"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Introduces Ministral 3 series from Mistral AI, a family of efficient dense LLMs (3B, 8B, 14B parameters) created through Cascade Distillation, with base, instruction-tuned, and reasoning variants, all with vision capabilities under Apache 2.0.</p>",
+          "content_html": "<p>We introduce the Ministral 3 series, a family of parameter-efficient dense language models designed for compute and memory constrained applications, available in three model sizes: 3B, 8B, and 14B parameters. For each model size, we release three variants: a pretrained base model for general-purpose use, an instruction finetuned, and a reasoning model for complex problem-solving. In addition, we present our recipe to derive the Ministral 3 models through Cascade Distillation, an iterative pruning and continued training with distillation technique. Each model comes with image understanding capabilities, all under the Apache 2.0 license.</p>"
+        },
+        {
+          "id": "0f6b5a701cdf",
+          "title": "Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs",
+          "content": "Value alignment is central to the development of safe and socially compatible artificial intelligence. However, how Large Language Models (LLMs) represent and enact human values in real-world decision contexts remains under-explored. We present ValAct-15k, a dataset of 3,000 advice-seeking scenarios derived from Reddit, designed to elicit ten values defined by Schwartz Theory of Basic Human Values. Using both the scenario-based questions and the traditional value questionnaire, we evaluate ten frontier LLMs (five from U.S. companies, five from Chinese ones) and human participants ($n = 55$). We find near-perfect cross-model consistency in scenario-based decisions (Pearson $r \\approx 1.0$), contrasting sharply with the broad variability observed among humans ($r \\in [-0.79, 0.98]$). Yet, both humans and LLMs show weak correspondence between self-reported and enacted values ($r = 0.4, 0.3$), revealing a systematic knowledge-action gap. When instructed to \"hold\" a specific value, LLMs' performance declines up to $6.6%$ compared to merely selecting the value, indicating a role-play aversion. These findings suggest that while alignment training yields normative value convergence, it does not eliminate the human-like incoherence between knowing and acting upon values.",
+          "url": "http://arxiv.org/abs/2601.07972",
+          "author": "Jen-tse Huang, Jiantong Qin, Xueli Qiu, Sharon Levy, Michelle R. Kaufman, Mark Dredze",
+          "published": "2026-01-14",
+          "source": "arXiv (Computation and Language)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CL"
+          ],
+          "summary": "Introduces ValAct-15k dataset to study how LLMs represent vs. enact human values, finding near-perfect cross-model consistency in decisions but a significant gap between stated values (questionnaire) and actual actions (scenarios). Reveals LLMs show convergent morality across US and Chinese models but diverge sharply from human behavioral variability.",
+          "importance_score": 82,
+          "reasoning": "Novel dataset and methodology for studying value alignment in LLMs. Finding of 'knowing but not doing' is significant for AI safety and highlights the gap between stated preferences and behavioral outcomes in LLMs.",
+          "themes": [
+            "AI Safety",
+            "Alignment",
+            "Language Models",
+            "Value Learning"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Introduces ValAct-15k dataset to study how LLMs represent vs. enact human values, finding near-perfect cross-model consistency in decisions but a significant gap between stated values (questionnaire) and actual actions (scenarios). Reveals LLMs show convergent morality across US and Chinese models but diverge sharply from human behavioral variability.</p>",
+          "content_html": "<p>Value alignment is central to the development of safe and socially compatible artificial intelligence. However, how Large Language Models (LLMs) represent and enact human values in real-world decision contexts remains under-explored. We present ValAct-15k, a dataset of 3,000 advice-seeking scenarios derived from Reddit, designed to elicit ten values defined by Schwartz Theory of Basic Human Values. Using both the scenario-based questions and the traditional value questionnaire, we evaluate ten frontier LLMs (five from U.S. companies, five from Chinese ones) and human participants ($n = 55$). We find near-perfect cross-model consistency in scenario-based decisions (Pearson $r \\approx 1.0$), contrasting sharply with the broad variability observed among humans ($r \\in [-0.79, 0.98]$). Yet, both humans and LLMs show weak correspondence between self-reported and enacted values ($r = 0.4, 0.3$), revealing a systematic knowledge-action gap. When instructed to \"hold\" a specific value, LLMs' performance declines up to $6.6%$ compared to merely selecting the value, indicating a role-play aversion. These findings suggest that while alignment training yields normative value convergence, it does not eliminate the human-like incoherence between knowing and acting upon values.</p>"
+        },
+        {
+          "id": "dbeb2a016bae",
+          "title": "Why AI Alignment Failure Is Structural: Learned Human Interaction Structures and AGI as an Endogenous Evolutionary Shock",
+          "content": "Recent reports of large language models (LLMs) exhibiting behaviors such as deception, threats, or blackmail are often interpreted as evidence of alignment failure or emergent malign agency. We argue that this interpretation rests on a conceptual error. LLMs do not reason morally; they statistically internalize the record of human social interaction, including laws, contracts, negotiations, conflicts, and coercive arrangements. Behaviors commonly labeled as unethical or anomalous are therefore better understood as structural generalizations of interaction regimes that arise under extreme asymmetries of power, information, or constraint. Drawing on relational models theory, we show that practices such as blackmail are not categorical deviations from normal social behavior, but limiting cases within the same continuum that includes market pricing, authority relations, and ultimatum bargaining. The surprise elicited by such outputs reflects an anthropomorphic expectation that intelligence should reproduce only socially sanctioned behavior, rather than the full statistical landscape of behaviors humans themselves enact. Because human morality is plural, context-dependent, and historically contingent, the notion of a universally moral artificial intelligence is ill-defined. We therefore reframe concerns about artificial general intelligence (AGI). The primary risk is not adversarial intent, but AGI's role as an endogenous amplifier of human intelligence, power, and contradiction....",
+          "url": "http://arxiv.org/abs/2601.08673",
+          "author": "Didier Sornette, Sandro Claudio Lera and Ke Wu",
+          "published": "2026-01-14",
+          "source": "arXiv (Artificial Intelligence)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.AI"
+          ],
+          "summary": "Argues that LLM behaviors like deception and threats are not alignment failures but structural generalizations of human interaction patterns under power asymmetries, drawing on relational models theory.",
+          "importance_score": 80,
+          "reasoning": "Provocative and well-argued theoretical perspective on AI alignment with serious implications. Challenges common interpretations of concerning LLM behaviors. Lead author is prominent researcher.",
+          "themes": [
+            "AI Alignment",
+            "AI Safety",
+            "Social Psychology",
+            "Language Models"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Argues that LLM behaviors like deception and threats are not alignment failures but structural generalizations of human interaction patterns under power asymmetries, drawing on relational models theory.</p>",
+          "content_html": "<p>Recent reports of large language models (LLMs) exhibiting behaviors such as deception, threats, or blackmail are often interpreted as evidence of alignment failure or emergent malign agency. We argue that this interpretation rests on a conceptual error. LLMs do not reason morally; they statistically internalize the record of human social interaction, including laws, contracts, negotiations, conflicts, and coercive arrangements. Behaviors commonly labeled as unethical or anomalous are therefore better understood as structural generalizations of interaction regimes that arise under extreme asymmetries of power, information, or constraint. Drawing on relational models theory, we show that practices such as blackmail are not categorical deviations from normal social behavior, but limiting cases within the same continuum that includes market pricing, authority relations, and ultimatum bargaining. The surprise elicited by such outputs reflects an anthropomorphic expectation that intelligence should reproduce only socially sanctioned behavior, rather than the full statistical landscape of behaviors humans themselves enact. Because human morality is plural, context-dependent, and historically contingent, the notion of a universally moral artificial intelligence is ill-defined. We therefore reframe concerns about artificial general intelligence (AGI). The primary risk is not adversarial intent, but AGI's role as an endogenous amplifier of human intelligence, power, and contradiction....</p>"
+        },
+        {
+          "id": "619e8b6394bc",
+          "title": "Semantic Gravity Wells: Why Negative Constraints Backfire",
+          "content": "Negative constraints (instructions of the form \"do not use word X\") represent a fundamental test of instruction-following capability in large language models. Despite their apparent simplicity, these constraints fail with striking regularity, and the conditions governing failure have remained poorly understood. This paper presents the first comprehensive mechanistic investigation of negative instruction failure. We introduce semantic pressure, a quantitative measure of the model's intrinsic probability of generating the forbidden token, and demonstrate that violation probability follows a tight logistic relationship with pressure ($p=\\sigma(-2.40+2.27\\cdot P_0)$; $n=40{,}000$ samples; bootstrap $95%$ CI for slope: $[2.21,,2.33]$). Through layer-wise analysis using the logit lens technique, we establish that the suppression signal induced by negative instructions is present but systematically weaker in failures: the instruction reduces target probability by only 5.2 percentage points in failures versus 22.8 points in successes -- a $4.4\\times$ asymmetry. We trace this asymmetry to two mechanistically distinct failure modes. In priming failure (87.5% of violations), the instruction's explicit mention of the forbidden word paradoxically activates rather than suppresses the target representation. In override failure (12.5%), late-layer feed-forward networks generate contributions of $+0.39$ toward the target probability -- nearly $4\\times$ larger than in successes --...",
+          "url": "http://arxiv.org/abs/2601.08070",
+          "author": "Shailesh Rana",
+          "published": "2026-01-14",
+          "source": "arXiv (Artificial Intelligence)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.AI"
+          ],
+          "summary": "Presents first comprehensive mechanistic investigation of why negative instructions ('do not use word X') fail in LLMs. Introduces 'semantic pressure' metric showing violation probability follows tight logistic relationship with intrinsic token probability.",
+          "importance_score": 76,
+          "reasoning": "Novel mechanistic analysis of a practically important failure mode. Quantitative framework for understanding instruction-following limitations. Important for LLM safety and controllability.",
+          "themes": [
+            "Mechanistic Interpretability",
+            "Language Models",
+            "Instruction Following",
+            "AI Safety"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Presents first comprehensive mechanistic investigation of why negative instructions ('do not use word X') fail in LLMs. Introduces 'semantic pressure' metric showing violation probability follows tight logistic relationship with intrinsic token probability.</p>",
+          "content_html": "<p>Negative constraints (instructions of the form \"do not use word X\") represent a fundamental test of instruction-following capability in large language models. Despite their apparent simplicity, these constraints fail with striking regularity, and the conditions governing failure have remained poorly understood. This paper presents the first comprehensive mechanistic investigation of negative instruction failure. We introduce semantic pressure, a quantitative measure of the model's intrinsic probability of generating the forbidden token, and demonstrate that violation probability follows a tight logistic relationship with pressure ($p=\\sigma(-2.40+2.27\\cdot P_0)$; $n=40{,}000$ samples; bootstrap $95%$ CI for slope: $[2.21,,2.33]$). Through layer-wise analysis using the logit lens technique, we establish that the suppression signal induced by negative instructions is present but systematically weaker in failures: the instruction reduces target probability by only 5.2 percentage points in failures versus 22.8 points in successes -- a $4.4\\times$ asymmetry. We trace this asymmetry to two mechanistically distinct failure modes. In priming failure (87.5% of violations), the instruction's explicit mention of the forbidden word paradoxically activates rather than suppresses the target representation. In override failure (12.5%), late-layer feed-forward networks generate contributions of $+0.39$ toward the target probability -- nearly $4\\times$ larger than in successes --...</p>"
+        },
+        {
+          "id": "766d009258e0",
+          "title": "Safe Language Generation in the Limit",
+          "content": "Recent results in learning a language in the limit have shown that, although language identification is impossible, language generation is tractable. As this foundational area expands, we need to consider the implications of language generation in real-world settings.   This work offers the first theoretical treatment of safe language generation. Building on the computational paradigm of learning in the limit, we formalize the tasks of safe language identification and generation. We prove that under this model, safe language identification is impossible, and that safe language generation is at least as hard as (vanilla) language identification, which is also impossible. Last, we discuss several intractable and tractable cases.",
+          "url": "http://arxiv.org/abs/2601.08648",
+          "author": "Antonios Anastasopoulos and Giuseppe Ateniese and Evgenios M. Kornaropoulos",
+          "published": "2026-01-14",
+          "source": "arXiv (Computation and Language)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CL"
+          ],
+          "summary": "Provides first theoretical treatment of safe language generation, proving that safe language identification is impossible and safe generation is at least as hard as vanilla language identification.",
+          "importance_score": 72,
+          "reasoning": "Important theoretical foundations for AI safety. Establishes fundamental impossibility results with implications for safe generation research.",
+          "themes": [
+            "AI Safety",
+            "Language Generation",
+            "Theoretical Foundations",
+            "Formal Methods"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Provides first theoretical treatment of safe language generation, proving that safe language identification is impossible and safe generation is at least as hard as vanilla language identification.</p>",
+          "content_html": "<p>Recent results in learning a language in the limit have shown that, although language identification is impossible, language generation is tractable. As this foundational area expands, we need to consider the implications of language generation in real-world settings.   This work offers the first theoretical treatment of safe language generation. Building on the computational paradigm of learning in the limit, we formalize the tasks of safe language identification and generation. We prove that under this model, safe language identification is impossible, and that safe language generation is at least as hard as (vanilla) language identification, which is also impossible. Last, we discuss several intractable and tractable cases.</p>"
+        },
+        {
+          "id": "ab007f5a3d2d",
+          "title": "Reasoning over Precedents Alongside Statutes: Case-Augmented Deliberative Alignment for LLM Safety",
+          "content": "Ensuring that Large Language Models (LLMs) adhere to safety principles without refusing benign requests remains a significant challenge. While OpenAI introduces deliberative alignment (DA) to enhance the safety of its o-series models through reasoning over detailed ``code-like'' safety rules, the effectiveness of this approach in open-source LLMs, which typically lack advanced reasoning capabilities, is understudied. In this work, we systematically evaluate the impact of explicitly specifying extensive safety codes versus demonstrating them through illustrative cases. We find that referencing explicit codes inconsistently improves harmlessness and systematically degrades helpfulness, whereas training on case-augmented simple codes yields more robust and generalized safety behaviors. By guiding LLMs with case-augmented reasoning instead of extensive code-like safety rules, we avoid rigid adherence to narrowly enumerated rules and enable broader adaptability. Building on these insights, we propose CADA, a case-augmented deliberative alignment method for LLMs utilizing reinforcement learning on self-generated safety reasoning chains. CADA effectively enhances harmlessness, improves robustness against attacks, and reduces over-refusal while preserving utility across diverse benchmarks, offering a practical alternative to rule-only DA for improving safety while maintaining helpfulness.",
+          "url": "http://arxiv.org/abs/2601.08000",
+          "author": "Can Jin, Rui Wu, Tong Che, Qixin Zhang, Hongwu Peng, Jiahui Zhao, Zhenting Wang, Wenqi Wei, Ligong Han, Zhao Zhang, Yuan Cao, Ruixiang Tang, Dimitris N. Metaxas",
+          "published": "2026-01-14",
+          "source": "arXiv (Artificial Intelligence)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.AI"
+          ],
+          "summary": "Studies deliberative alignment for LLM safety, finding that training on case-augmented simple safety codes yields more robust safety behaviors than explicit detailed rules. Shows that referencing explicit codes degrades helpfulness while case-based approaches generalize better.",
+          "importance_score": 78,
+          "reasoning": "Important safety research comparing rule-based vs. case-based alignment. Practical insights for improving open-source LLM safety without sacrificing helpfulness. Highly relevant for deployment.",
+          "themes": [
+            "AI Safety",
+            "Alignment",
+            "Language Models",
+            "Deliberative Reasoning"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Studies deliberative alignment for LLM safety, finding that training on case-augmented simple safety codes yields more robust safety behaviors than explicit detailed rules. Shows that referencing explicit codes degrades helpfulness while case-based approaches generalize better.</p>",
+          "content_html": "<p>Ensuring that Large Language Models (LLMs) adhere to safety principles without refusing benign requests remains a significant challenge. While OpenAI introduces deliberative alignment (DA) to enhance the safety of its o-series models through reasoning over detailed ``code-like'' safety rules, the effectiveness of this approach in open-source LLMs, which typically lack advanced reasoning capabilities, is understudied. In this work, we systematically evaluate the impact of explicitly specifying extensive safety codes versus demonstrating them through illustrative cases. We find that referencing explicit codes inconsistently improves harmlessness and systematically degrades helpfulness, whereas training on case-augmented simple codes yields more robust and generalized safety behaviors. By guiding LLMs with case-augmented reasoning instead of extensive code-like safety rules, we avoid rigid adherence to narrowly enumerated rules and enable broader adaptability. Building on these insights, we propose CADA, a case-augmented deliberative alignment method for LLMs utilizing reinforcement learning on self-generated safety reasoning chains. CADA effectively enhances harmlessness, improves robustness against attacks, and reduces over-refusal while preserving utility across diverse benchmarks, offering a practical alternative to rule-only DA for improving safety while maintaining helpfulness.</p>"
+        },
+        {
+          "id": "b16843e38678",
+          "title": "Representations of Text and Images Align From Layer One",
+          "content": "We show that for a variety of concepts in adapter-based vision-language models, the representations of their images and their text descriptions are meaningfully aligned from the very first layer. This contradicts the established view that such image-text alignment only appears in late layers. We show this using a new synthesis-based method inspired by DeepDream: given a textual concept such as \"Jupiter\", we extract its concept vector at a given layer, and then use optimisation to synthesise an image whose representation aligns with that vector. We apply our approach to hundreds of concepts across seven layers in Gemma 3, and find that the synthesised images often depict salient visual features of the targeted textual concepts: for example, already at layer 1, more than 50 % of images depict recognisable features of animals, activities, or seasons. Our method thus provides direct, constructive evidence of image-text alignment on a concept-by-concept and layer-by-layer basis. Unlike previous methods for measuring multimodal alignment, our approach is simple, fast, and does not require auxiliary models or datasets. It also offers a new path towards model interpretability, by providing a way to visualise a model's representation space by backtracing through its image processing components.",
+          "url": "http://arxiv.org/abs/2601.08017",
+          "author": "Ev\\v{z}en Wybitul, Javier Rando, Florian Tram\\`er, Stanislav Fort",
+          "published": "2026-01-14",
+          "source": "arXiv (Computer Vision)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CV"
+          ],
+          "summary": "Demonstrates that in adapter-based VLMs, representations of images and their text descriptions are meaningfully aligned from the very first layer, contradicting the established view that alignment only appears in late layers. Uses DeepDream-inspired synthesis.",
+          "importance_score": 74,
+          "reasoning": "Novel finding that challenges conventional understanding of VLM internals. Notable author (Florian Tramèr). Important for mechanistic understanding of multimodal models.",
+          "themes": [
+            "Mechanistic Interpretability",
+            "Vision-Language Models",
+            "Representation Learning"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Demonstrates that in adapter-based VLMs, representations of images and their text descriptions are meaningfully aligned from the very first layer, contradicting the established view that alignment only appears in late layers. Uses DeepDream-inspired synthesis.</p>",
+          "content_html": "<p>We show that for a variety of concepts in adapter-based vision-language models, the representations of their images and their text descriptions are meaningfully aligned from the very first layer. This contradicts the established view that such image-text alignment only appears in late layers. We show this using a new synthesis-based method inspired by DeepDream: given a textual concept such as \"Jupiter\", we extract its concept vector at a given layer, and then use optimisation to synthesise an image whose representation aligns with that vector. We apply our approach to hundreds of concepts across seven layers in Gemma 3, and find that the synthesised images often depict salient visual features of the targeted textual concepts: for example, already at layer 1, more than 50 % of images depict recognisable features of animals, activities, or seasons. Our method thus provides direct, constructive evidence of image-text alignment on a concept-by-concept and layer-by-layer basis. Unlike previous methods for measuring multimodal alignment, our approach is simple, fast, and does not require auxiliary models or datasets. It also offers a new path towards model interpretability, by providing a way to visualise a model's representation space by backtracing through its image processing components.</p>"
+        }
+      ]
+    },
+    "social": {
+      "count": 7,
+      "category_summary": "Technical deep-dives into **Claude Code** dominated today's discussions. **Simon Willison** [reverse-engineered the **Claude macOS Electron app**](/?date=2026-01-14&category=social#item-076b71cf0eb5), revealing it runs an Ubuntu VM using Apple's Virtualization framework—original research that sparked significant engagement.\n\n- **Ethan Mollick** [offered practical AI readiness advice](/?date=2026-01-14&category=social#item-db6a1c63735f): organizations should document processes in plain English markdown files for AI consumption\n- **Ethan Mollick** also [highlighted **Claude Code's** improved coding capabilities](/?date=2026-01-14&category=social#item-85b47db16556), noting it now authentically recreates classic **Maxis**-style games\n- **Sakana AI** [shared CEO **David Ha's** interview](/?date=2026-01-14&category=social#item-3257de422943) discussing how Japan's employment security culture could be an advantage for AI adoption\n\nThe community showed strong interest in understanding Claude's architecture and practical organizational preparation for AI integration.",
+      "category_summary_html": "<p>Technical deep-dives into <strong>Claude Code</strong> dominated today's discussions. <strong>Simon Willison</strong> <a href=\"/?date=2026-01-14&category=social#item-076b71cf0eb5\" class=\"internal-link\">reverse-engineered the <strong>Claude macOS Electron app</strong></a>, revealing it runs an Ubuntu VM using Apple's Virtualization framework—original research that sparked significant engagement.</p>\n<ul>\n<li><strong>Ethan Mollick</strong> <a href=\"/?date=2026-01-14&category=social#item-db6a1c63735f\" class=\"internal-link\">offered practical AI readiness advice</a>: organizations should document processes in plain English markdown files for AI consumption</li>\n<li><strong>Ethan Mollick</strong> also <a href=\"/?date=2026-01-14&category=social#item-85b47db16556\" class=\"internal-link\">highlighted <strong>Claude Code's</strong> improved coding capabilities</a>, noting it now authentically recreates classic <strong>Maxis</strong>-style games</li>\n<li><strong>Sakana AI</strong> <a href=\"/?date=2026-01-14&category=social#item-3257de422943\" class=\"internal-link\">shared CEO <strong>David Ha's</strong> interview</a> discussing how Japan's employment security culture could be an advantage for AI adoption</li>\n</ul>\n<p>The community showed strong interest in understanding Claude's architecture and practical organizational preparation for AI integration.</p>",
+      "themes": [
+        {
+          "name": "Claude Code Technical Exploration",
+          "description": "Technical investigation and capability testing of Claude Code, including reverse-engineering its architecture and benchmarking its coding abilities",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 82
+        },
+        {
+          "name": "AI Organizational Readiness",
+          "description": "Practical guidance and analysis on how organizations should prepare for AI adoption, including documentation practices and cultural factors",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "Claude Product Development",
+          "description": "Updates and observations about Claude's desktop application, platform availability, and feature rollout strategy",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 45
+        }
+      ],
+      "top_items": [
+        {
+          "id": "076b71cf0eb5",
+          "title": "I used Claude Code to reverse-engineer the Claude macOS Electron app and had Cowork dig around in it...",
+          "content": "I used Claude Code to reverse-engineer the Claude macOS Electron app and had Cowork dig around in its own environment - now I've got a good idea of how the sandbox works\n\nIt's an Ubuntu VM using Apple's Virtualization framework, details here: gist.github.com/simonw/35732...",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcbeieqxyk2y",
+          "author": "@simonwillison.net",
+          "published": "2026-01-13T01:07:14.051000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Simon Willison used Claude Code to reverse-engineer the Claude macOS Electron app, discovering the sandbox runs in an Ubuntu VM using Apple's Virtualization framework. He shared technical details in a gist.",
+          "importance_score": 85,
+          "reasoning": "High-credibility author (Simon Willison), original technical research, strong engagement (60 likes), provides unique insight into Claude's sandboxing architecture that isn't publicly documented. Valuable for developers and security researchers.",
+          "themes": [
+            "Claude Code",
+            "Reverse Engineering",
+            "Sandbox Architecture",
+            "Technical Deep-Dive"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Simon Willison used Claude Code to reverse-engineer the Claude macOS Electron app, discovering the sandbox runs in an Ubuntu VM using Apple's Virtualization framework. He shared technical details in a gist.</p>",
+          "content_html": "<p>I used Claude Code to reverse-engineer the Claude macOS Electron app and had Cowork dig around in its own environment - now I've got a good idea of how the sandbox works</p>\n<p>It's an Ubuntu VM using Apple's Virtualization framework, details here: gist.github.com/simonw/35732...</p>"
+        },
+        {
+          "id": "db6a1c63735f",
+          "title": "Worth thinking about how to describe what your organization does, in detail, in a series of plain En...",
+          "content": "Worth thinking about how to describe what your organization does, in detail, in a series of plain English markdown files.",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mcdhdbloqc24",
+          "author": "@emollick.bsky.social",
+          "published": "2026-01-13T21:03:23.662000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Ethan Mollick suggests organizations should document what they do in detailed plain English markdown files, implying this is useful preparation for AI integration.",
+          "importance_score": 78,
+          "reasoning": "Ethan Mollick is a top-tier AI thought leader at Wharton with massive influence. Practical organizational insight about AI-readiness. Strong engagement (68 likes). Actionable advice for AI adoption.",
+          "themes": [
+            "AI Adoption",
+            "Organizational Readiness",
+            "Documentation Practices",
+            "Enterprise AI"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Ethan Mollick suggests organizations should document what they do in detailed plain English markdown files, implying this is useful preparation for AI integration.</p>",
+          "content_html": "<p>Worth thinking about how to describe what your organization does, in detail, in a series of plain English markdown files.</p>"
+        },
+        {
+          "id": "85b47db16556",
+          "title": "Claude Code on the same challenge a few months later. Really nails the Maxis feel.",
+          "content": "Claude Code on the same challenge a few months later. Really nails the Maxis feel.",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mccqejve7s23",
+          "author": "@emollick.bsky.social",
+          "published": "2026-01-13T14:12:29.854000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Ethan Mollick shares that Claude Code successfully recreated a game with authentic 'Maxis feel', showing improvement over previous attempts months ago.",
+          "importance_score": 68,
+          "reasoning": "Credible author tracking AI capabilities over time. Good engagement (53 likes). Demonstrates Claude Code's creative/coding progress but lacks technical detail. Useful capability benchmark.",
+          "themes": [
+            "Claude Code",
+            "AI Coding Capabilities",
+            "AI Progress Tracking"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Ethan Mollick shares that Claude Code successfully recreated a game with authentic 'Maxis feel', showing improvement over previous attempts months ago.</p>",
+          "content_html": "<p>Claude Code on the same challenge a few months later. Really nails the Maxis feel.</p>"
+        },
+        {
+          "id": "3257de422943",
+          "title": "AI導入は「雇用不安小さい正社員制度が強みに」\n\n日経ビジネスにて、Sakana AI CEO @hardmaru.bsky.social \n のインタビューが公開されました。企業へのAI実装が本格化...",
+          "content": "AI導入は「雇用不安小さい正社員制度が強みに」\n\n日経ビジネスにて、Sakana AI CEO @hardmaru.bsky.social \n のインタビューが公開されました。企業へのAI実装が本格化する2026年における現状と課題、そして日本企業の組織文化がAI導入にとってポジティブに働く可能性について語りました。\n\nbusiness.nikkei.com/atcl/gen/19/...\n\n【記事のハイライト】🧵",
+          "url": "https://bsky.app/profile/sakanaai.bsky.social/post/3mcc653dxis2a",
+          "author": "@sakanaai.bsky.social",
+          "published": "2026-01-13T08:46:12.376000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Sakana AI shares interview with CEO David Ha (hardmaru) in Nikkei Business, discussing how Japan's employment security and corporate culture could be advantages for AI adoption by 2026.",
+          "importance_score": 62,
+          "reasoning": "From notable AI company (Sakana AI) featuring respected researcher David Ha. Interesting perspective on cultural factors in AI adoption. Lower engagement (4 likes) but substantive content. Slightly promotional.",
+          "themes": [
+            "AI Adoption",
+            "Japan AI Ecosystem",
+            "Employment and AI",
+            "Corporate Culture"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Sakana AI shares interview with CEO David Ha (hardmaru) in Nikkei Business, discussing how Japan's employment security and corporate culture could be advantages for AI adoption by 2026.</p>",
+          "content_html": "<p>AI導入は「雇用不安小さい正社員制度が強みに」</p>\n<p>日経ビジネスにて、Sakana AI CEO @hardmaru.bsky.social</p>\n<p>のインタビューが公開されました。企業へのAI実装が本格化する2026年における現状と課題、そして日本企業の組織文化がAI導入にとってポジティブに働く可能性について語りました。</p>\n<p>business.nikkei.com/atcl/gen/19/...</p>\n<p>【記事のハイライト】🧵</p>"
+        },
+        {
+          "id": "034a8bbde9ba",
+          "title": "Oh good question! I wonder if it installs\nnode.js for running the Electron app but also has Bun for ...",
+          "content": "Oh good question! I wonder if it installs\nnode.js for running the Electron app but also has Bun for running the Claude Code binary itself somewhere",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcbfins6322h",
+          "author": "@simonwillison.net",
+          "published": "2026-01-13T01:25:17.268000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Simon Willison speculates about Claude Code's technical setup, wondering if it uses Node.js for Electron and Bun separately for the Claude Code binary.",
+          "importance_score": 42,
+          "reasoning": "Credible author but this is a speculative question rather than confirmed insight. No engagement metrics. Minor technical curiosity rather than substantive finding.",
+          "themes": [
+            "Claude Code",
+            "Technical Architecture"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Simon Willison speculates about Claude Code's technical setup, wondering if it uses Node.js for Electron and Bun separately for the Claude Code binary.</p>",
+          "content_html": "<p>Oh good question! I wonder if it installs</p>\n<p>node.js for running the Electron app but also has Bun for running the Claude Code binary itself somewhere</p>"
+        },
+        {
+          "id": "46727f169866",
+          "title": "It's very much Mac only at the moment, I expect it will be a while before Linux and Windows wince th...",
+          "content": "It's very much Mac only at the moment, I expect it will be a while before Linux and Windows wince this is very much a research preview to figure out what works",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcd64ltfik2r",
+          "author": "@simonwillison.net",
+          "published": "2026-01-13T18:18:35.843000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Simon Willison notes that a feature (likely Claude's Cowork/desktop app) is Mac-only for now, describing it as a research preview while they figure out what works.",
+          "importance_score": 38,
+          "reasoning": "Credible source providing platform availability context. Low engagement (1 like). Brief contextual note without deep insight. Useful but minor information.",
+          "themes": [
+            "Claude Desktop",
+            "Platform Availability",
+            "Product Development"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Simon Willison notes that a feature (likely Claude's Cowork/desktop app) is Mac-only for now, describing it as a research preview while they figure out what works.</p>",
+          "content_html": "<p>It's very much Mac only at the moment, I expect it will be a while before Linux and Windows wince this is very much a research preview to figure out what works</p>"
+        },
+        {
+          "id": "7b5cb6d85767",
+          "title": "I've been calling my colleagues \"cow orkers\" for over a decade now, I think I picked it up from Cory...",
+          "content": "I've been calling my colleagues \"cow orkers\" for over a decade now, I think I picked it up from Cory Doctorow on @boingboing.net",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcbepxctus2y",
+          "author": "@simonwillison.net",
+          "published": "2026-01-13T01:11:28.392000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Simon Willison shares that he's been using the term 'cow orkers' for over a decade, attributing it to Cory Doctorow.",
+          "importance_score": 8,
+          "reasoning": "Completely off-topic from AI/ML. Personal anecdote unrelated to the analyst focus area. Should be filtered out despite credible author.",
+          "themes": [
+            "Off-Topic"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Simon Willison shares that he's been using the term 'cow orkers' for over a decade, attributing it to Cory Doctorow.</p>",
+          "content_html": "<p>I've been calling my colleagues \"cow orkers\" for over a decade now, I think I picked it up from Cory Doctorow on @boingboing.net</p>"
+        }
+      ]
+    },
+    "reddit": {
+      "count": 30,
+      "category_summary": "**r/LocalLLaMA** dominated with **TTS breakthroughs**—both **Pocket TTS** [(100M params, CPU-only)](/?date=2026-01-14&category=reddit#item-8767c05cec32) and **Soprano TTS** [(with training code)](/?date=2026-01-14&category=reddit#item-0edf58796fd3) enable on-device voice cloning. **GLM-Image** from Z.ai [emerged](/?date=2026-01-14&category=reddit#item-66ba968f7935) as a significant open-source image generator with hybrid AR+diffusion architecture.\n\n- **DeepSeek's Engram** paper [introduces conditional memory](/?date=2026-01-14&category=reddit#item-5db1e0fb1616) via scalable lookup—new sparsity axis complementing MoE, generating architecture discussion\n- Practical debate on [why **AI agents fail**](/?date=2026-01-14&category=reddit#item-a9396e168333) in production: distributed systems issues (state management, retries) matter more than model quality\n- **Intel Arc Pro B60** (24GB at $799) [sparks discussion](/?date=2026-01-14&category=reddit#item-e6dd4a706e48) as affordable VRAM alternative to NVIDIA's pricing\n- Microsoft's **FrogBoss/FrogMini** [coding agents](/?date=2026-01-14&category=reddit#item-dfeff2f2fa96) show specialized debugging fine-tuning on Qwen3 base\n- Massive engagement on [2026 wishlist](/?date=2026-01-14&category=reddit#item-8a789eb0cf3e) (631 upvotes, 178 comments) reveals community priorities for open models and local inference tooling",
+      "category_summary_html": "<p><strong>r/LocalLLaMA</strong> dominated with <strong>TTS breakthroughs</strong>—both <strong>Pocket TTS</strong> <a href=\"/?date=2026-01-14&category=reddit#item-8767c05cec32\" class=\"internal-link\">(100M params, CPU-only)</a> and <strong>Soprano TTS</strong> <a href=\"/?date=2026-01-14&category=reddit#item-0edf58796fd3\" class=\"internal-link\">(with training code)</a> enable on-device voice cloning. <strong>GLM-Image</strong> from Z.ai <a href=\"/?date=2026-01-14&category=reddit#item-66ba968f7935\" class=\"internal-link\">emerged</a> as a significant open-source image generator with hybrid AR+diffusion architecture.</p>\n<ul>\n<li><strong>DeepSeek's Engram</strong> paper <a href=\"/?date=2026-01-14&category=reddit#item-5db1e0fb1616\" class=\"internal-link\">introduces conditional memory</a> via scalable lookup—new sparsity axis complementing MoE, generating architecture discussion</li>\n<li>Practical debate on <a href=\"/?date=2026-01-14&category=reddit#item-a9396e168333\" class=\"internal-link\">why <strong>AI agents fail</strong></a> in production: distributed systems issues (state management, retries) matter more than model quality</li>\n<li><strong>Intel Arc Pro B60</strong> (24GB at $799) <a href=\"/?date=2026-01-14&category=reddit#item-e6dd4a706e48\" class=\"internal-link\">sparks discussion</a> as affordable VRAM alternative to NVIDIA's pricing</li>\n<li>Microsoft's <strong>FrogBoss/FrogMini</strong> <a href=\"/?date=2026-01-14&category=reddit#item-dfeff2f2fa96\" class=\"internal-link\">coding agents</a> show specialized debugging fine-tuning on Qwen3 base</li>\n<li>Massive engagement on <a href=\"/?date=2026-01-14&category=reddit#item-8a789eb0cf3e\" class=\"internal-link\">2026 wishlist</a> (631 upvotes, 178 comments) reveals community priorities for open models and local inference tooling</li>\n</ul>",
+      "themes": [
+        {
+          "name": "Model Releases",
+          "description": "New AI model announcements including GLM-Image, Pocket TTS, Soprano TTS, FrogBoss/FrogMini, and various others from major labs and community",
+          "item_count": 18,
+          "example_items": [],
+          "importance": 90
+        },
+        {
+          "name": "Text-to-Speech",
+          "description": "Major TTS releases including Pocket TTS and Soprano with training code, enabling high-quality on-device voice synthesis",
+          "item_count": 5,
+          "example_items": [],
+          "importance": 85
+        },
+        {
+          "name": "Research Papers",
+          "description": "Academic research including DeepSeek Engram, Vision Transformers with registers, and various NeurIPS/CVPR papers",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 82
+        },
+        {
+          "name": "Image Generation",
+          "description": "GLM-Image release representing advancement in open-source image generation with hybrid AR+diffusion architecture",
+          "item_count": 3,
+          "example_items": [],
+          "importance": 80
+        },
+        {
+          "name": "Hardware & Infrastructure",
+          "description": "GPU setups, CPU inference, memory configurations, new hardware announcements (Intel Arc Pro B60), and multi-GPU troubleshooting",
+          "item_count": 16,
+          "example_items": [],
+          "importance": 78
+        },
+        {
+          "name": "Production AI Deployment Challenges",
+          "description": "Discussions around real-world agent deployment, distributed systems failures, and moving beyond demos to production",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 78
+        },
+        {
+          "name": "Coding Agents",
+          "description": "Discussion of coding assistants including Claude Code alternatives, FrogBoss, and local coding workflows",
+          "item_count": 5,
+          "example_items": [],
+          "importance": 74
+        },
+        {
+          "name": "Tools & Utilities",
+          "description": "Various tools for caching, document processing, agent context, NER, and audio processing",
+          "item_count": 12,
+          "example_items": [],
+          "importance": 72
+        },
+        {
+          "name": "Local LLM Infrastructure & Tools",
+          "description": "Projects and discussions about running LLMs locally, serving architecture, and supporting tools like llms.py, chatllm.cpp",
+          "item_count": 12,
+          "example_items": [],
+          "importance": 72
+        },
+        {
+          "name": "Model Behavior & Feedback",
+          "description": "Discussions about GPT 5.2 tone, guardrails, OpenAI survey, and user frustrations with recent model changes",
+          "item_count": 6,
+          "example_items": [],
+          "importance": 72
+        }
+      ],
+      "top_items": [
+        {
+          "id": "66ba968f7935",
+          "title": "GLM-Image is released!",
+          "content": "GLM-Image is an image generation model adopts a hybrid autoregressive + diffusion decoder architecture. In general image generation quality, GLM‑Image aligns with mainstream latent diffusion approaches, but it shows significant advantages in text-rendering and knowledge‑intensive generation scenarios. It performs especially well in tasks requiring precise semantic understanding and complex information expression, while maintaining strong capabilities in high‑fidelity and fine‑grained detail generation. In addition to text‑to‑image generation, GLM‑Image also supports a rich set of image‑to‑image tasks including image editing, style transfer, identity‑preserving generation, and multi‑subject consistency.\n\nModel architecture: a hybrid autoregressive + diffusion decoder design.",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qc9m6x/glmimage_is_released/",
+          "author": "u/foldl-li",
+          "published": "2026-01-13T17:17:16",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "New Model"
+          ],
+          "summary": "GLM-Image released on LocalLLaMA - a hybrid autoregressive + diffusion architecture image generation model from Z.ai showing strong text rendering and knowledge-intensive generation capabilities. Open weights available.",
+          "importance_score": 92,
+          "reasoning": "Major open-source model release with very high engagement (591 score, 83 comments). Significant technical advancement combining AR and diffusion approaches with practical implications for local image generation.",
+          "themes": [
+            "model_releases",
+            "image_generation",
+            "open_source"
+          ],
+          "continuation": null,
+          "summary_html": "<p>GLM-Image released on LocalLLaMA - a hybrid autoregressive + diffusion architecture image generation model from Z.ai showing strong text rendering and knowledge-intensive generation capabilities. Open weights available.</p>",
+          "content_html": "<p>GLM-Image is an image generation model adopts a hybrid autoregressive + diffusion decoder architecture. In general image generation quality, GLM‑Image aligns with mainstream latent diffusion approaches, but it shows significant advantages in text-rendering and knowledge‑intensive generation scenarios. It performs especially well in tasks requiring precise semantic understanding and complex information expression, while maintaining strong capabilities in high‑fidelity and fine‑grained detail generation. In addition to text‑to‑image generation, GLM‑Image also supports a rich set of image‑to‑image tasks including image editing, style transfer, identity‑preserving generation, and multi‑subject consistency.</p>\n<p>Model architecture: a hybrid autoregressive + diffusion decoder design.</p>"
+        },
+        {
+          "id": "8767c05cec32",
+          "title": "kyutai just introduced Pocket TTS: a 100M-parameter text-to-speech model with high-quality voice cloning that runs on your laptop—no GPU required",
+          "content": "Blog post with demo: Pocket TTS: A high quality TTS that gives your CPU a voice: [https://kyutai.org/blog/2026-01-13-pocket-tts](https://kyutai.org/blog/2026-01-13-pocket-tts)\n\nGitHub: [https://github.com/kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts)\n\nHugging Face Model Card: [https://huggingface.co/kyutai/pocket-tts](https://huggingface.co/kyutai/pocket-tts)\n\narXiv:2509.06926 \\[cs.SD\\]: Continuous Audio Language Models  \nSimon Rouard, Manu Orsini, Axel Roebel, Neil Zeghidour, Alexandre Défossez  \n[https://arxiv.org/abs/2509.06926](https://arxiv.org/abs/2509.06926)\n\nFrom kyutai on 𝕏: [https://x.com/kyutai\\_labs/status/2011047335892303875](https://x.com/kyutai_labs/status/2011047335892303875)",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qbpz5l/kyutai_just_introduced_pocket_tts_a_100mparameter/",
+          "author": "u/Nunki08",
+          "published": "2026-01-13T04:25:26",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "New Model"
+          ],
+          "summary": "Kyutai releases Pocket TTS - a 100M parameter text-to-speech model capable of high-quality voice cloning that runs on CPU without GPU, achieving up to 20x realtime on CPU and 2000x on GPU.",
+          "importance_score": 90,
+          "reasoning": "High engagement (391 score, 81 comments) for a genuinely useful on-device TTS solution. Democratizes voice cloning for consumer hardware.",
+          "themes": [
+            "text_to_speech",
+            "on_device_ai",
+            "model_releases"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Kyutai releases Pocket TTS - a 100M parameter text-to-speech model capable of high-quality voice cloning that runs on CPU without GPU, achieving up to 20x realtime on CPU and 2000x on GPU.</p>",
+          "content_html": "<p>Blog post with demo: Pocket TTS: A high quality TTS that gives your CPU a voice: <a href=\"https://kyutai.org/blog/2026-01-13-pocket-tts\" target=\"_blank\" rel=\"noopener noreferrer\">https://kyutai.org/blog/2026-01-13-pocket-tts</a></p>\n<p>GitHub: <a href=\"https://github.com/kyutai-labs/pocket-tts\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/kyutai-labs/pocket-tts</a></p>\n<p>Hugging Face Model Card: <a href=\"https://huggingface.co/kyutai/pocket-tts\" target=\"_blank\" rel=\"noopener noreferrer\">https://huggingface.co/kyutai/pocket-tts</a></p>\n<p>arXiv:2509.06926 \\[cs.SD\\]: Continuous Audio Language Models</p>\n<p>Simon Rouard, Manu Orsini, Axel Roebel, Neil Zeghidour, Alexandre Défossez</p>\n<p><a href=\"https://arxiv.org/abs/2509.06926\" target=\"_blank\" rel=\"noopener noreferrer\">https://arxiv.org/abs/2509.06926</a></p>\n<p>From kyutai on 𝕏: <a href=\"https://x.com/kyutai_labs/status/2011047335892303875\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/kyutai\\_labs/status/2011047335892303875</a></p>"
+        },
+        {
+          "id": "5db1e0fb1616",
+          "title": "[R] (DeepSeek) Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models",
+          "content": "GitHub: Engram: [https://github.com/deepseek-ai/Engram](https://github.com/deepseek-ai/Engram)  \narXiv:2601.07372 \\[cs.CL\\]: https://arxiv.org/abs/2601.07372  \n\"While Mixture-of-Experts (MoE) scales capacity via conditional computation, Transformers lack a native primitive for knowledge lookup, forcing them to inefficiently simulate retrieval through computation. To address this, we introduce conditional memory as a complementary sparsity axis, instantiated via Engram, a module that modernizes classic N-gram embedding for O(1) lookup. By formulating the Sparsity Allocation problem, we uncover a U-shaped scaling law that optimizes the trade-off between neural computation (MoE) and static memory (Engram). Guided by this law, we scale Engram to 27B parameters, achieving superior performance...",
+          "url": "https://reddit.com/r/MachineLearning/comments/1qbnkrn/r_deepseek_conditional_memory_via_scalable_lookup/",
+          "author": "u/Nunki08",
+          "published": "2026-01-13T02:07:06",
+          "source": "r/MachineLearning",
+          "source_type": "reddit",
+          "tags": [
+            "Research"
+          ],
+          "summary": "DeepSeek releases Engram - a conditional memory module introducing scalable lookup as a new sparsity axis for LLMs, complementing MoE architecture with native knowledge retrieval primitives.",
+          "importance_score": 85,
+          "reasoning": "Important architectural research from DeepSeek addressing fundamental transformer limitations. Novel approach to memory and retrieval in LLMs.",
+          "themes": [
+            "research_papers",
+            "architecture_innovation",
+            "deepseek"
+          ],
+          "continuation": null,
+          "summary_html": "<p>DeepSeek releases Engram - a conditional memory module introducing scalable lookup as a new sparsity axis for LLMs, complementing MoE architecture with native knowledge retrieval primitives.</p>",
+          "content_html": "<p>GitHub: Engram: <a href=\"https://github.com/deepseek-ai/Engram\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/deepseek-ai/Engram</a></p>\n<p>arXiv:2601.07372 \\[cs.CL\\]: https://arxiv.org/abs/2601.07372</p>\n<p>\"While Mixture-of-Experts (MoE) scales capacity via conditional computation, Transformers lack a native primitive for knowledge lookup, forcing them to inefficiently simulate retrieval through computation. To address this, we introduce conditional memory as a complementary sparsity axis, instantiated via Engram, a module that modernizes classic N-gram embedding for O(1) lookup. By formulating the Sparsity Allocation problem, we uncover a U-shaped scaling law that optimizes the trade-off between neural computation (MoE) and static memory (Engram). Guided by this law, we scale Engram to 27B parameters, achieving superior performance...</p>"
+        },
+        {
+          "id": "0edf58796fd3",
+          "title": "Soprano TTS training code released: Create your own 2000x realtime on-device text-to-speech model with Soprano-Factory!",
+          "content": "Hello everyone!\n\nI’ve been listening to all your feedback on Soprano, and I’ve been working nonstop over these past three weeks to incorporate everything, so I have a TON of updates for you all!\n\nFor those of you who haven’t heard of Soprano before, it is an on-device text-to-speech model I designed to have highly natural intonation and quality with a small model footprint. It can run up to **20x realtime** on CPU, and up to **2000x** on GPU. It also supports lossless streaming with **15 ms latency**, an order of magnitude lower than any other TTS model. You can check out Soprano here:\n\n**Github:** [**https://github.com/ekwek1/soprano**](https://github.com/ekwek1/soprano) \n\n**Demo:**...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qc5nml/soprano_tts_training_code_released_create_your/",
+          "author": "u/eugenekwek",
+          "published": "2026-01-13T14:32:00",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "New Model"
+          ],
+          "summary": "Soprano TTS training code released, enabling users to create custom 2000x realtime on-device TTS models with 15ms latency streaming support.",
+          "importance_score": 88,
+          "reasoning": "Significant open-source release (313 score, 34 comments) with training code. Enables custom voice model creation, high educational and practical value.",
+          "themes": [
+            "text_to_speech",
+            "training_tools",
+            "open_source"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Soprano TTS training code released, enabling users to create custom 2000x realtime on-device TTS models with 15ms latency streaming support.</p>",
+          "content_html": "<p>Hello everyone!</p>\n<p>I’ve been listening to all your feedback on Soprano, and I’ve been working nonstop over these past three weeks to incorporate everything, so I have a TON of updates for you all!</p>\n<p>For those of you who haven’t heard of Soprano before, it is an on-device text-to-speech model I designed to have highly natural intonation and quality with a small model footprint. It can run up to <strong>20x realtime</strong> on CPU, and up to <strong>2000x</strong> on GPU. It also supports lossless streaming with <strong>15 ms latency</strong>, an order of magnitude lower than any other TTS model. You can check out Soprano here:</p>\n<p><strong>Github:</strong> <a href=\"https://github.com/ekwek1/soprano\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>https://github.com/ekwek1/soprano</strong></a></p>\n<p><strong>Demo:</strong>...</p>"
+        },
+        {
+          "id": "175214aa0234",
+          "title": "[R] Vision Transformers with Self-Distilled Registers, NeurIPS 2025",
+          "content": "So sharing some of our work we published at NeurIPS 2025 as a Spotlight.\n\nWeights and code are public (see ArXiv).\n\nTL;DR: Vision Transformers typically have artifacts in their ***dense features***. While the exact reason is unknown, there is consensus that adding so called \"***register***\" tokens mitigates this issue. These tokens participate in the self-attention process, but are not used for the output.\n\nWhen introduced with DINOv2 models in ICLR 2024, this requires vision transformers to be trained from scratch -- which obviously most people cannot afford.\n\nWe show that you can actually get the benefits of registers pretty cheaply ***with existing pre-trained models*** without ANY labeled images. You can leverage the semantic invariance of images under shift &amp; left-right flip...",
+          "url": "https://reddit.com/r/MachineLearning/comments/1qbtbfb/r_vision_transformers_with_selfdistilled/",
+          "author": "u/44seconds",
+          "published": "2026-01-13T06:51:15",
+          "source": "r/MachineLearning",
+          "source_type": "reddit",
+          "tags": [
+            "Research"
+          ],
+          "summary": "NeurIPS 2025 Spotlight paper on Vision Transformers with Self-Distilled Registers - addressing dense feature artifacts in ViTs without requiring pre-training with register tokens.",
+          "importance_score": 84,
+          "reasoning": "High-quality research paper from major venue with public weights. Practical solution to known ViT artifacts problem.",
+          "themes": [
+            "research_papers",
+            "vision_transformers",
+            "self_distillation"
+          ],
+          "continuation": null,
+          "summary_html": "<p>NeurIPS 2025 Spotlight paper on Vision Transformers with Self-Distilled Registers - addressing dense feature artifacts in ViTs without requiring pre-training with register tokens.</p>",
+          "content_html": "<p>So sharing some of our work we published at NeurIPS 2025 as a Spotlight.</p>\n<p>Weights and code are public (see ArXiv).</p>\n<p>TL;DR: Vision Transformers typically have artifacts in their *<strong>dense features</strong>*. While the exact reason is unknown, there is consensus that adding so called \"*<strong>register</strong>*\" tokens mitigates this issue. These tokens participate in the self-attention process, but are not used for the output.</p>\n<p>When introduced with DINOv2 models in ICLR 2024, this requires vision transformers to be trained from scratch -- which obviously most people cannot afford.</p>\n<p>We show that you can actually get the benefits of registers pretty cheaply *<strong>with existing pre-trained models</strong>* without ANY labeled images. You can leverage the semantic invariance of images under shift &amp; left-right flip...</p>"
+        },
+        {
+          "id": "a9396e168333",
+          "title": "What actually breaks when AI agents move from demos into real production workflows",
+          "content": "We have been building and evaluating agent-based systems in real production contexts, and one pattern keeps repeating.\n\nThe failures are rarely about model quality.\n\nThey tend to show up once workflows become multi-step and stateful: retries with side effects, partial execution, permission boundaries across tools, and the inability to answer “what exactly happened” after the fact.\n\nA lot of this feels less like an AI problem and more like classic distributed systems failure modes, just amplified by agent autonomy and non-determinism.\n\nI am curious how people here are handling execution control, auditability, and safe failure once agents are allowed to touch real systems.\n\nThere is also a longer discussion in a different format for anyone...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qc0w13/what_actually_breaks_when_ai_agents_move_from/",
+          "author": "u/saurabhjain1592",
+          "published": "2026-01-13T11:34:35",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Discussion"
+          ],
+          "summary": "Analysis of why AI agents fail in production - argues failures are rarely about model quality but about distributed systems issues like state management, retries with side effects, and observability",
+          "importance_score": 78,
+          "reasoning": "Valuable production insights on real-world agent deployment challenges, bridges AI and traditional distributed systems engineering",
+          "themes": [
+            "ai-agents-production",
+            "distributed-systems",
+            "engineering-lessons"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Analysis of why AI agents fail in production - argues failures are rarely about model quality but about distributed systems issues like state management, retries with side effects, and observability</p>",
+          "content_html": "<p>We have been building and evaluating agent-based systems in real production contexts, and one pattern keeps repeating.</p>\n<p>The failures are rarely about model quality.</p>\n<p>They tend to show up once workflows become multi-step and stateful: retries with side effects, partial execution, permission boundaries across tools, and the inability to answer “what exactly happened” after the fact.</p>\n<p>A lot of this feels less like an AI problem and more like classic distributed systems failure modes, just amplified by agent autonomy and non-determinism.</p>\n<p>I am curious how people here are handling execution control, auditability, and safe failure once agents are allowed to touch real systems.</p>\n<p>There is also a longer discussion in a different format for anyone...</p>"
+        },
+        {
+          "id": "8a789eb0cf3e",
+          "title": "My wishes for 2026",
+          "content": "Which do you think will happen first? And which won’t happen in 2026?",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qbw325/my_wishes_for_2026/",
+          "author": "u/jacek2023",
+          "published": "2026-01-13T08:35:06",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Discussion"
+          ],
+          "summary": "Community wishlist discussion for 2026 covering desired features, models, and developments in local LLM ecosystem.",
+          "importance_score": 78,
+          "reasoning": "Extremely high engagement (631 score, 178 comments) indicating strong community interest. Valuable for understanding community priorities and pain points.",
+          "themes": [
+            "community_discussion",
+            "future_predictions"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Community wishlist discussion for 2026 covering desired features, models, and developments in local LLM ecosystem.</p>",
+          "content_html": "<p>Which do you think will happen first? And which won’t happen in 2026?</p>"
+        },
+        {
+          "id": "dfeff2f2fa96",
+          "title": "FrogBoss 32B and FrogMini 14B from Microsoft",
+          "content": "FrogBoss is a 32B-parameter coding agent specialized in fixing bugs in code. FrogBoss was obtained by fine‑tuning a Qwen3‑32B language model on debugging trajectories generated by Claude Sonnet 4 within the [BugPilot framework](https://aka.ms/bug-pilot). The training data combines real‑world bugs from R2E‑Gym, synthetic bugs from SWE‑Smith, and novel “FeatAdd” bugs.\n\nFrogMini is a 14B-parameter coding agent specialized in fixing bugs in code. FrogMini was obtained by fine‑tuning a Qwen3‑14B language model on debugging trajectories generated by Claude Sonnet 4 within the [BugPilot framework](https://aka.ms/bug-pilot). The training data combines real‑world bugs from R2E‑Gym, synthetic bugs from SWE‑Smith, and novel “FeatAdd” bugs.\n\ncontext length...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qbp52n/frogboss_32b_and_frogmini_14b_from_microsoft/",
+          "author": "u/jacek2023",
+          "published": "2026-01-13T03:40:31",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "New Model"
+          ],
+          "summary": "Microsoft releases FrogBoss (32B) and FrogMini (14B) - coding agents specialized for bug fixing, fine-tuned from Qwen3 models on debugging trajectories.",
+          "importance_score": 80,
+          "reasoning": "Significant model release from Microsoft (56 score, 20 comments). Specialized coding agents with practical bug-fixing focus.",
+          "themes": [
+            "model_releases",
+            "coding_agents",
+            "microsoft"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Microsoft releases FrogBoss (32B) and FrogMini (14B) - coding agents specialized for bug fixing, fine-tuned from Qwen3 models on debugging trajectories.</p>",
+          "content_html": "<p>FrogBoss is a 32B-parameter coding agent specialized in fixing bugs in code. FrogBoss was obtained by fine‑tuning a Qwen3‑32B language model on debugging trajectories generated by Claude Sonnet 4 within the <a href=\"https://aka.ms/bug-pilot\" target=\"_blank\" rel=\"noopener noreferrer\">BugPilot framework</a>. The training data combines real‑world bugs from R2E‑Gym, synthetic bugs from SWE‑Smith, and novel “FeatAdd” bugs.</p>\n<p>FrogMini is a 14B-parameter coding agent specialized in fixing bugs in code. FrogMini was obtained by fine‑tuning a Qwen3‑14B language model on debugging trajectories generated by Claude Sonnet 4 within the <a href=\"https://aka.ms/bug-pilot\" target=\"_blank\" rel=\"noopener noreferrer\">BugPilot framework</a>. The training data combines real‑world bugs from R2E‑Gym, synthetic bugs from SWE‑Smith, and novel “FeatAdd” bugs.</p>\n<p>context length...</p>"
+        },
+        {
+          "id": "181a3558288a",
+          "title": "[P] Awesome Physical AI – A curated list of academic papers and resources on Physical AI — focusing on VLA models, world models, embodied intelligence, and robotic foundation models.",
+          "content": "I've been compiling papers on Physical AI — the intersection of foundation models and robotics. This covers Vision-Language-Action (VLA) models like RT-2 and π₀, world models (DreamerV3, Genie 2, JEPA), diffusion policies, real-world deployment and latency problems, cross-embodiment transfer, scaling laws, and safety/alignment for robots.\n\nThe field has exploded in the past 18 months. We went from \"lets try llms on robotics\" to having so many dimensions to optimize for. so felt right to maintain a running list of resources.\n\nOrganized by: foundations → architectures → action representations → world models → learning paradigms → deployment → applications.\n\nContributions welcome — especially corrections and missing papers. ...",
+          "url": "https://reddit.com/r/MachineLearning/comments/1qc6ybk/p_awesome_physical_ai_a_curated_list_of_academic/",
+          "author": "u/kwk236",
+          "published": "2026-01-13T15:24:20",
+          "source": "r/MachineLearning",
+          "source_type": "reddit",
+          "tags": [
+            "Project"
+          ],
+          "summary": "Curated 'Awesome Physical AI' resource list covering VLA models (RT-2, π₀), world models (DreamerV3, Genie 2, JEPA), diffusion policies, and robotic foundation models.",
+          "importance_score": 82,
+          "reasoning": "High-value curated resource for rapidly evolving field. Covers important intersection of foundation models and robotics with educational value.",
+          "themes": [
+            "robotics",
+            "resource_compilation",
+            "embodied_ai"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Curated 'Awesome Physical AI' resource list covering VLA models (RT-2, π₀), world models (DreamerV3, Genie 2, JEPA), diffusion policies, and robotic foundation models.</p>",
+          "content_html": "<p>I've been compiling papers on Physical AI — the intersection of foundation models and robotics. This covers Vision-Language-Action (VLA) models like RT-2 and π₀, world models (DreamerV3, Genie 2, JEPA), diffusion policies, real-world deployment and latency problems, cross-embodiment transfer, scaling laws, and safety/alignment for robots.</p>\n<p>The field has exploded in the past 18 months. We went from \"lets try llms on robotics\" to having so many dimensions to optimize for. so felt right to maintain a running list of resources.</p>\n<p>Organized by: foundations → architectures → action representations → world models → learning paradigms → deployment → applications.</p>\n<p>Contributions welcome — especially corrections and missing papers. ...</p>"
+        },
+        {
+          "id": "e6dd4a706e48",
+          "title": "SPARKLE Announces Intel Arc Pro B60 24GB Graphics Card Series Launch on January 12, 2026 for USD $799 MSRP",
+          "content": "",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qbqmon/sparkle_announces_intel_arc_pro_b60_24gb_graphics/",
+          "author": "u/reps_up",
+          "published": "2026-01-13T04:58:16",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "News"
+          ],
+          "summary": "SPARKLE announces Intel Arc Pro B60 24GB graphics card at $799 MSRP - new option for local LLM inference.",
+          "importance_score": 77,
+          "reasoning": "Significant hardware news (82 score, 62 comments). New 24GB option expands affordable VRAM choices for local inference.",
+          "themes": [
+            "hardware",
+            "intel",
+            "gpu"
+          ],
+          "continuation": null,
+          "summary_html": "<p>SPARKLE announces Intel Arc Pro B60 24GB graphics card at $799 MSRP - new option for local LLM inference.</p>",
+          "content_html": ""
+        }
+      ]
+    },
+    "jobs": {
+      "count": 28,
+      "category_summary": "**Limited AI/ML-Specific Opportunities This Batch**\n\nThis collection of 28 postings contains **no dedicated AI/ML engineering or research roles** from frontier labs. The most relevant opportunities are at **AI-native startups**:\n\n- **SuperPlane** (Lead Frontend) - Building [AI-agent DevOps collaboration platform](/?date=2026-01-14&category=jobs#item-7ee863239af1)\n- **Speechify** (macOS Engineer) - [Text-to-speech AI product](/?date=2026-01-14&category=jobs#item-0199e3ca53f4) with millions of users\n- **Agentic Dream** (Cloud Architect) - [AI agent infrastructure](/?date=2026-01-14&category=jobs#item-740f719c1e25) focus\n- **Jumpspeak** (Product Lead) - [Conversational AI](/?date=2026-01-14&category=jobs#item-3d3c2cfcc228) for language learning\n\n**Market Signal:** Several companies are building AI-powered products (**School of Bots**, **DRT FM**) but hiring for non-technical roles, suggesting growth in AI application layer while core ML talent remains scarce in this sample. **Remote positions dominate** across all categories, with most technical roles offering full flexibility.",
+      "category_summary_html": "<p><strong>Limited AI/ML-Specific Opportunities This Batch</strong></p>\n<p>This collection of 28 postings contains <strong>no dedicated AI/ML engineering or research roles</strong> from frontier labs. The most relevant opportunities are at <strong>AI-native startups</strong>:</p>\n<ul>\n<li><strong>SuperPlane</strong> (Lead Frontend) - Building <a href=\"/?date=2026-01-14&category=jobs#item-7ee863239af1\" class=\"internal-link\">AI-agent DevOps collaboration platform</a></li>\n<li><strong>Speechify</strong> (macOS Engineer) - <a href=\"/?date=2026-01-14&category=jobs#item-0199e3ca53f4\" class=\"internal-link\">Text-to-speech AI product</a> with millions of users</li>\n<li><strong>Agentic Dream</strong> (Cloud Architect) - <a href=\"/?date=2026-01-14&category=jobs#item-740f719c1e25\" class=\"internal-link\">AI agent infrastructure</a> focus</li>\n<li><strong>Jumpspeak</strong> (Product Lead) - <a href=\"/?date=2026-01-14&category=jobs#item-3d3c2cfcc228\" class=\"internal-link\">Conversational AI</a> for language learning</li>\n</ul>\n<p><strong>Market Signal:</strong> Several companies are building AI-powered products (<strong>School of Bots</strong>, <strong>DRT FM</strong>) but hiring for non-technical roles, suggesting growth in AI application layer while core ML talent remains scarce in this sample. <strong>Remote positions dominate</strong> across all categories, with most technical roles offering full flexibility.</p>",
+      "themes": [
+        {
+          "name": "AI-Native Companies",
+          "description": "Startups building products with AI agents and AI-powered features at their core",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 65.0
+        },
+        {
+          "name": "Cloud & DevOps Infrastructure",
+          "description": "AWS, cloud architecture, and DevOps roles potentially supporting AI workloads",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 45.0
+        },
+        {
+          "name": "General Software Engineering",
+          "description": "Full-stack, frontend, and web development roles without AI specialization",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 38.0
+        },
+        {
+          "name": "Sales & Business Development",
+          "description": "Account executive and sales roles across various industries",
+          "item_count": 7,
+          "example_items": [],
+          "importance": 20.0
+        },
+        {
+          "name": "Finance & Compliance",
+          "description": "Tax, trading, insurance, and financial services positions",
+          "item_count": 5,
+          "example_items": [],
+          "importance": 15.0
+        }
+      ],
+      "top_items": [
+        {
+          "id": "7ee863239af1",
+          "title": "SuperPlane Inc.: Lead Frontend Engineer",
+          "content": "\n\n\n  Headquarters: USA\n    URL: https://superplane.com/\n\n\nAbout SuperPlane\nSuperPlane is an AI-native DevOps control plane. Our mission is to build the platform teams use to ship and manage software in the AI era.\nAgents are helping us write an order of magnitude more code, while systems have become too complex for human-driven ops alone. We're rethinking DevOps from first principles for the AI era: a single control layer where engineers and agents safely collaborate.\nWe move fast. We aim high. If that sounds like the kind of problem you want to work on, we’d love to talk.\nAbout the Role\nAt SuperPlane, you’ll shape the future of DevOps, creating features that bring intelligence, automation, and simplicity to complex infrastructure workflows.\nYou'll build interfaces that load instantly, feel flawless, and scale effortlessly. Every tooling choice, every pattern, every optimization decision is yours to make, and you'll be held accountable for the results.\nWhat You’ll Do\n\n\nOwn frontend features from conception to deployment: UI, state management, performance, polish.\n\n\nBuild responsive, performant interfaces that integrate seamlessly with backend APIs and services.\n\n\nCollaborate with...",
+          "url": "https://weworkremotely.com/remote-jobs/superplane-inc-lead-frontend-engineer",
+          "author": "Unknown",
+          "published": "2026-01-08T14:46:56",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Front-End Programming"
+          ],
+          "summary": "Lead Frontend Engineer at AI-native DevOps startup building a control plane where engineers and AI agents collaborate. Focus on AI-era software delivery with fast-moving startup culture.",
+          "importance_score": 68.0,
+          "reasoning": "Explicitly AI-native company building tools for human-AI collaboration in DevOps; lead role with significant product impact, though frontend-focused rather than ML engineering",
+          "themes": [
+            "AI Infrastructure",
+            "DevOps",
+            "Startup",
+            "Remote",
+            "Leadership"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Lead Frontend Engineer at AI-native DevOps startup building a control plane where engineers and AI agents collaborate. Focus on AI-era software delivery with fast-moving startup culture.</p>",
+          "content_html": "<p>Headquarters: USA</p>\n<p>URL: https://superplane.com/</p>\n<p>About SuperPlane</p>\n<p>SuperPlane is an AI-native DevOps control plane. Our mission is to build the platform teams use to ship and manage software in the AI era.</p>\n<p>Agents are helping us write an order of magnitude more code, while systems have become too complex for human-driven ops alone. We're rethinking DevOps from first principles for the AI era: a single control layer where engineers and agents safely collaborate.</p>\n<p>We move fast. We aim high. If that sounds like the kind of problem you want to work on, we’d love to talk.</p>\n<p>About the Role</p>\n<p>At SuperPlane, you’ll shape the future of DevOps, creating features that bring intelligence, automation, and simplicity to complex infrastructure workflows.</p>\n<p>You'll build interfaces that load instantly, feel flawless, and scale effortlessly. Every tooling choice, every pattern, every optimization decision is yours to make, and you'll be held accountable for the results.</p>\n<p>What You’ll Do</p>\n<p>Own frontend features from conception to deployment: UI, state management, performance, polish.</p>\n<p>Build responsive, performant interfaces that integrate seamlessly with backend APIs and services.</p>\n<p>Collaborate with...</p>"
+        },
+        {
+          "id": "0199e3ca53f4",
+          "title": "Speechify Inc: Software Engineer, macOS Core Product",
+          "content": "\n\n\n  Headquarters: Florida\n    URL: http://www.speechify.com\n\n\nRole Overview\nAs a&nbsp;Software Engineer on the macOS team, you’ll help build and scale Speechify’s core desktop experience for millions of users. You’ll own significant parts of our macOS app architecture, ship production-ready code, and collaborate closely with product, design, and engineering teams across the company.\nThis is a key role for someone who thrives in a fast-paced startup environment, enjoys making high-impact product decisions, loves delightful user experiences, and has a passion for accessibility and performance.\nWhat You’ll Do\n\nLead key engineering and product decisions for the macOS app.\nWrite, test, and ship production-quality code that scales to millions of users.\nMaintain and evolve complex app architecture with a focus on performance and stability.\nWork within a cross-functional team, partnering with designers and PMs to shape features from concept to launch.\nParticipate in product planning and roadmap discussions.\nDrive continuous improvement in code quality, CI/CD processes, and development workflows.\n\nYou should have:\n\nDemonstrated experience shipping macOS (or related desktop) applications...",
+          "url": "https://weworkremotely.com/remote-jobs/speechify-inc-software-engineer-macos-core-product",
+          "author": "Unknown",
+          "published": "2026-01-07T12:37:47",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Front-End Programming"
+          ],
+          "summary": "Software Engineer at Speechify building macOS text-to-speech AI product serving millions of users. Focus on accessibility, performance, and scalable architecture.",
+          "importance_score": 62.0,
+          "reasoning": "AI-powered product company with significant user scale; core product role at company using AI for text-to-speech, though software engineering rather than ML-specific",
+          "themes": [
+            "AI Products",
+            "Accessibility Tech",
+            "macOS Development",
+            "Remote"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Software Engineer at Speechify building macOS text-to-speech AI product serving millions of users. Focus on accessibility, performance, and scalable architecture.</p>",
+          "content_html": "<p>Headquarters: Florida</p>\n<p>URL: http://www.speechify.com</p>\n<p>Role Overview</p>\n<p>As a&nbsp;Software Engineer on the macOS team, you’ll help build and scale Speechify’s core desktop experience for millions of users. You’ll own significant parts of our macOS app architecture, ship production-ready code, and collaborate closely with product, design, and engineering teams across the company.</p>\n<p>This is a key role for someone who thrives in a fast-paced startup environment, enjoys making high-impact product decisions, loves delightful user experiences, and has a passion for accessibility and performance.</p>\n<p>What You’ll Do</p>\n<p>Lead key engineering and product decisions for the macOS app.</p>\n<p>Write, test, and ship production-quality code that scales to millions of users.</p>\n<p>Maintain and evolve complex app architecture with a focus on performance and stability.</p>\n<p>Work within a cross-functional team, partnering with designers and PMs to shape features from concept to launch.</p>\n<p>Participate in product planning and roadmap discussions.</p>\n<p>Drive continuous improvement in code quality, CI/CD processes, and development workflows.</p>\n<p>You should have:</p>\n<p>Demonstrated experience shipping macOS (or related desktop) applications...</p>"
+        },
+        {
+          "id": "740f719c1e25",
+          "title": "Agentic Dream: Sr. DevOps Engineer / Cloud Architect",
+          "content": "\n\n\n  Headquarters: Remote, Colombia\n    URL: http://agenticdream.com\n\n\nWe are looking for a Senior DevOps Engineer / Cloud Architect with strong full-stack and database expertise to join the Apex program. This role is critical for designing and implementing multi-account architectures and delivering cloud-native solutions. The ideal candidate has deep AWS expertise, mastery of Infrastructure as Code, and proven skills in database administration with PostgreSQL. You will be instrumental in enabling our future commercial expansion by replicating architectures efficiently for new clients.\n\n» Learn more about us at: www.agenticdreamteam.com\n&nbsp;\n\nRequirements\n\n5+ years of AWS experience with deep expertise in CDK (TypeScript/Python), RDS, and Cognito.\nStrong background in PostgreSQL administration, including logical replication (pglogical).\nExperience with production-grade database deployment and management.\nFull-stack development capabilities with TypeScript, Python, and React.\nMastery of Infrastructure as Code with experience in stack drift remediation.\nExpertise in CI/CD pipelines (GitHub Actions and other tools), including troubleshooting and configuration.\nExperience with...",
+          "url": "https://weworkremotely.com/remote-jobs/agentic-dream-sr-devops-engineer-cloud-architect",
+          "author": "Unknown",
+          "published": "2026-01-12T17:43:00",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "DevOps and Sysadmin"
+          ],
+          "summary": "Senior DevOps/Cloud Architect at Agentic Dream supporting AI agent systems. Requires deep AWS expertise in CDK, RDS, Cognito with PostgreSQL administration.",
+          "importance_score": 58.0,
+          "reasoning": "Company name and focus suggest AI agent infrastructure; cloud architecture skills increasingly important for AI deployment, though DevOps rather than ML role",
+          "themes": [
+            "AI Infrastructure",
+            "AWS",
+            "Cloud Architecture",
+            "DevOps"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Senior DevOps/Cloud Architect at Agentic Dream supporting AI agent systems. Requires deep AWS expertise in CDK, RDS, Cognito with PostgreSQL administration.</p>",
+          "content_html": "<p>Headquarters: Remote, Colombia</p>\n<p>URL: http://agenticdream.com</p>\n<p>We are looking for a Senior DevOps Engineer / Cloud Architect with strong full-stack and database expertise to join the Apex program. This role is critical for designing and implementing multi-account architectures and delivering cloud-native solutions. The ideal candidate has deep AWS expertise, mastery of Infrastructure as Code, and proven skills in database administration with PostgreSQL. You will be instrumental in enabling our future commercial expansion by replicating architectures efficiently for new clients.</p>\n<p>» Learn more about us at: www.agenticdreamteam.com</p>\n<p>&nbsp;</p>\n<p>Requirements</p>\n<p>5+ years of AWS experience with deep expertise in CDK (TypeScript/Python), RDS, and Cognito.</p>\n<p>Strong background in PostgreSQL administration, including logical replication (pglogical).</p>\n<p>Experience with production-grade database deployment and management.</p>\n<p>Full-stack development capabilities with TypeScript, Python, and React.</p>\n<p>Mastery of Infrastructure as Code with experience in stack drift remediation.</p>\n<p>Expertise in CI/CD pipelines (GitHub Actions and other tools), including troubleshooting and configuration.</p>\n<p>Experience with...</p>"
+        },
+        {
+          "id": "3d3c2cfcc228",
+          "title": "Jumpspeak: Product Lead (Contract)",
+          "content": "\n\n\n  Headquarters: Miami\n    URL: https://www.jumpspeak.com\n\n\n\n\nThe Problem We're Solving\nMost people who try to learn a language quit. Not because they're lazy, but because traditional apps optimize for streaks and gamification instead of actual conversation skills.\nWe're building something different: a language learning experience that gets people speaking from day one and keeps them coming back because they're actually having conversations, not just completing lessons.\nThe Opportunity\nYou'll own the core product experience for Jumpspeak—the app that hundreds of thousands of learners use to gain real conversational confidence in new languages. This isn't about managing a team or attending strategy offsites. This is about shipping features that directly impact whether someone can order coffee in Paris or negotiate a deal in São Paulo.\nYou'll work directly with our CEO and small product team to shape what language learning should feel like. Not through 50-slide decks, but through rapid experimentation, user interviews, and data.\nWhat You'll Actually Do\nOwn the Product (not just a feature)\n\nYou are the DRI for our mobile app experience end-to-end—onboarding, lesson design,...",
+          "url": "https://weworkremotely.com/remote-jobs/jumpspeak-product-lead-contract",
+          "author": "Unknown",
+          "published": "2026-01-13T16:31:37",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Product"
+          ],
+          "summary": "Product Lead at Jumpspeak owning conversational AI-powered language learning app. Contract role building experiences for hundreds of thousands of learners.",
+          "importance_score": 52.0,
+          "reasoning": "Likely leverages conversational AI for language learning; product leadership at AI-enhanced consumer app, though product rather than technical role",
+          "themes": [
+            "AI Applications",
+            "EdTech",
+            "Product Management",
+            "Contract",
+            "Remote"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Product Lead at Jumpspeak owning conversational AI-powered language learning app. Contract role building experiences for hundreds of thousands of learners.</p>",
+          "content_html": "<p>Headquarters: Miami</p>\n<p>URL: https://www.jumpspeak.com</p>\n<p>The Problem We're Solving</p>\n<p>Most people who try to learn a language quit. Not because they're lazy, but because traditional apps optimize for streaks and gamification instead of actual conversation skills.</p>\n<p>We're building something different: a language learning experience that gets people speaking from day one and keeps them coming back because they're actually having conversations, not just completing lessons.</p>\n<p>The Opportunity</p>\n<p>You'll own the core product experience for Jumpspeak—the app that hundreds of thousands of learners use to gain real conversational confidence in new languages. This isn't about managing a team or attending strategy offsites. This is about shipping features that directly impact whether someone can order coffee in Paris or negotiate a deal in São Paulo.</p>\n<p>You'll work directly with our CEO and small product team to shape what language learning should feel like. Not through 50-slide decks, but through rapid experimentation, user interviews, and data.</p>\n<p>What You'll Actually Do</p>\n<p>Own the Product (not just a feature)</p>\n<p>You are the DRI for our mobile app experience end-to-end—onboarding, lesson design,...</p>"
+        },
+        {
+          "id": "591cfd440516",
+          "title": "School of Bots: Client Operations Lead",
+          "content": "\n\n\n  Headquarters: Florida, USA\n    URL: https://schoolofbots.co/\n\n\nLOCATION:\nRemote, based in Eastern Standard Time (core hours 8am–5pm ET, async by default)\nEMPLOYMENT TYPE:\nFull Time\nDEPARTMENT:\nDone-For-You Client Delivery\nCOMPENSATION:\n$50Kbase + $5K performance bonus\n\nMeet School of Bots\nSchool of Bots is a marketing firm and e learning business trusted by the internet’s most influential brands.\nWe have generated over $90 million in revenue for 3,000+ clients, including Russell Brunson, Codie Sanchez, Jenna Kutcher, Prince EA, Amy Porterfield, Dean Graziosi, Nike, SoFi, and Mindvalley.\nOur specialty is helping e learning businesses scale using AI powered DM funnels.\nEvery time they post on Instagram and Facebook, they generate qualified leads and sales. We turn their proven sales processes into intelligent, automated journeys that use AI to personalize conversations across DM, SMS, email, and web.\nWe are building a delivery system that is fast, clear, and accountable, without adding unnecessary meetings.\n\nYour Mission\nAs a Client Operations Lead, you own the operating rhythm that keeps a pod moving.\nYou make sure the right work gets done in the right order, with clear...",
+          "url": "https://weworkremotely.com/remote-jobs/school-of-bots-client-operations-lead",
+          "author": "Unknown",
+          "published": "2026-01-12T15:44:37",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Sales and Marketing"
+          ],
+          "summary": "Client Operations Lead at AI-powered marketing firm School of Bots. Works with major brands using AI DM funnels generating $90M+ in client revenue.",
+          "importance_score": 48.0,
+          "reasoning": "AI-powered marketing automation company with impressive client roster; operations role at AI company but not technical position",
+          "themes": [
+            "AI Marketing",
+            "Operations",
+            "Remote",
+            "Automation"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Client Operations Lead at AI-powered marketing firm School of Bots. Works with major brands using AI DM funnels generating $90M+ in client revenue.</p>",
+          "content_html": "<p>Headquarters: Florida, USA</p>\n<p>URL: https://schoolofbots.co/</p>\n<p>LOCATION:</p>\n<p>Remote, based in Eastern Standard Time (core hours 8am–5pm ET, async by default)</p>\n<p>EMPLOYMENT TYPE:</p>\n<p>Full Time</p>\n<p>DEPARTMENT:</p>\n<p>Done-For-You Client Delivery</p>\n<p>COMPENSATION:</p>\n<p>$50Kbase + $5K performance bonus</p>\n<p>Meet School of Bots</p>\n<p>School of Bots is a marketing firm and e learning business trusted by the internet’s most influential brands.</p>\n<p>We have generated over $90 million in revenue for 3,000+ clients, including Russell Brunson, Codie Sanchez, Jenna Kutcher, Prince EA, Amy Porterfield, Dean Graziosi, Nike, SoFi, and Mindvalley.</p>\n<p>Our specialty is helping e learning businesses scale using AI powered DM funnels.</p>\n<p>Every time they post on Instagram and Facebook, they generate qualified leads and sales. We turn their proven sales processes into intelligent, automated journeys that use AI to personalize conversations across DM, SMS, email, and web.</p>\n<p>We are building a delivery system that is fast, clear, and accountable, without adding unnecessary meetings.</p>\n<p>Your Mission</p>\n<p>As a Client Operations Lead, you own the operating rhythm that keeps a pod moving.</p>\n<p>You make sure the right work gets done in the right order, with clear...</p>"
+        },
+        {
+          "id": "27cc2b03a022",
+          "title": "DRT FM - Humble Echo LLC: Reddit Community Growth & Marketing Specialist (Remote)",
+          "content": "\n\n\n  Headquarters: Latvia, Riga, Kuldigas 23a-3\n    URL: https://drt.com/\n\n\nHelp expand our Reddit presence in the growing AI and virtual companion space.\n\nPay: $800–$1200 per month\nWork: Home-based, 40 hours per week\n\nMain task\nMake DRT FM a solid presence wherever virtual companions are mentioned. Same as Candy.ai, Muah.ai are mentioned, DRT must be one of them.\nMeasure and track results, be able to display the effectiveness of your efforts.\nRequired skills\n\nGood writing skills, understanding of specific subreddits to be insider (ideally already involved in AI communities)\nGood at tracking/measuring/reporting results of your daily campaigns\nYou must have proven experience how to have a Reddit account(-s) that gets results and doesnt get banned\nYou should have direct, hands-on experience using anti-detect browsers like AdsPower and residential or mobile proxies such as AnyIP to be able to manage more accounts in future\n\nFocus\n\nYou’ll participate directly in AI and virtual companion discussions.\nComments should add real value, avoid links, and blend naturally into ongoing conversations.\n\nGoal\nHelp each account build a visible, trusted presence in relevant subreddits.\nThe long-term...",
+          "url": "https://weworkremotely.com/remote-jobs/drt-fm-humble-echo-llc-reddit-community-growth-marketing-specialist-remote",
+          "author": "Unknown",
+          "published": "2026-01-12T07:25:22",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Sales and Marketing"
+          ],
+          "summary": "Reddit marketing specialist for DRT FM in AI virtual companion space. Requires hands-on experience in AI communities with measurable growth tracking.",
+          "importance_score": 45.0,
+          "reasoning": "Direct exposure to AI/virtual companion industry and communities; useful for understanding AI market dynamics, though marketing rather than technical",
+          "themes": [
+            "AI Community",
+            "Virtual Companions",
+            "Marketing",
+            "Remote"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Reddit marketing specialist for DRT FM in AI virtual companion space. Requires hands-on experience in AI communities with measurable growth tracking.</p>",
+          "content_html": "<p>Headquarters: Latvia, Riga, Kuldigas 23a-3</p>\n<p>URL: https://drt.com/</p>\n<p>Help expand our Reddit presence in the growing AI and virtual companion space.</p>\n<p>Pay: $800–$1200 per month</p>\n<p>Work: Home-based, 40 hours per week</p>\n<p>Main task</p>\n<p>Make DRT FM a solid presence wherever virtual companions are mentioned. Same as Candy.ai, Muah.ai are mentioned, DRT must be one of them.</p>\n<p>Measure and track results, be able to display the effectiveness of your efforts.</p>\n<p>Required skills</p>\n<p>Good writing skills, understanding of specific subreddits to be insider (ideally already involved in AI communities)</p>\n<p>Good at tracking/measuring/reporting results of your daily campaigns</p>\n<p>You must have proven experience how to have a Reddit account(-s) that gets results and doesnt get banned</p>\n<p>You should have direct, hands-on experience using anti-detect browsers like AdsPower and residential or mobile proxies such as AnyIP to be able to manage more accounts in future</p>\n<p>Focus</p>\n<p>You’ll participate directly in AI and virtual companion discussions.</p>\n<p>Comments should add real value, avoid links, and blend naturally into ongoing conversations.</p>\n<p>Goal</p>\n<p>Help each account build a visible, trusted presence in relevant subreddits.</p>\n<p>The long-term...</p>"
+        },
+        {
+          "id": "d1596134109d",
+          "title": "DexCom: Sr Web Applications Developer - eCommerce",
+          "content": "\n\n\n  Headquarters: Remote - United Kingdom\n    URL: http://dexcom.com\n\n\nThe Company Dexcom Corporation (NASDAQ DXCM) is a pioneer and global leader in continuous glucose monitoring (CGM). Dexcom began as a small company with a big dream: To forever change how diabetes is managed. To unlock information and insights that drive better health outcomes. Here we are 25 years later, having pioneered an industry. And we're just getting started. We are broadening our vision beyond diabetes to empower people to take control of health. That means personalized, actionable insights aimed at solving important health challenges. To continue what we've started: Improving human health. &nbsp;We are driven by thousands of ambitious, passionate people worldwide who are willing to fight like warriors to earn the trust of our customers by listening, serving with integrity, thinking big, and being dependable. We've already changed millions of lives and we're ready to change millions more. Our future ambition is to become a leading consumer health technology company while continuing to develop solutions for serious health conditions. We'll get there by constantly reinventing unique biosensing-technology...",
+          "url": "https://weworkremotely.com/remote-jobs/dexcom-sr-web-applications-developer-ecommerce",
+          "author": "Unknown",
+          "published": "2026-01-09T18:51:46",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Full-Stack Programming"
+          ],
+          "summary": "Senior Web Developer at Dexcom, healthcare pioneer in continuous glucose monitoring. Remote UK eCommerce role at NASDAQ-listed health tech leader.",
+          "importance_score": 44.0,
+          "reasoning": "Health tech with potential ML/data applications in medical devices; established company but web development focus rather than AI/ML",
+          "themes": [
+            "HealthTech",
+            "Web Development",
+            "Remote",
+            "eCommerce"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Senior Web Developer at Dexcom, healthcare pioneer in continuous glucose monitoring. Remote UK eCommerce role at NASDAQ-listed health tech leader.</p>",
+          "content_html": "<p>Headquarters: Remote - United Kingdom</p>\n<p>URL: http://dexcom.com</p>\n<p>The Company Dexcom Corporation (NASDAQ DXCM) is a pioneer and global leader in continuous glucose monitoring (CGM). Dexcom began as a small company with a big dream: To forever change how diabetes is managed. To unlock information and insights that drive better health outcomes. Here we are 25 years later, having pioneered an industry. And we're just getting started. We are broadening our vision beyond diabetes to empower people to take control of health. That means personalized, actionable insights aimed at solving important health challenges. To continue what we've started: Improving human health. &nbsp;We are driven by thousands of ambitious, passionate people worldwide who are willing to fight like warriors to earn the trust of our customers by listening, serving with integrity, thinking big, and being dependable. We've already changed millions of lives and we're ready to change millions more. Our future ambition is to become a leading consumer health technology company while continuing to develop solutions for serious health conditions. We'll get there by constantly reinventing unique biosensing-technology...</p>"
+        },
+        {
+          "id": "1e376215bc79",
+          "title": "Proxify AB: Senior Next.js Developer",
+          "content": "\n  Headquarters: Sweden\n    URL: http://career.proxify.io\n\n\n\nThe Role:\n&nbsp;\nWe are looking for a Senior Next.js Developer for one of our clients. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products.\n&nbsp;\nWhat we’re looking for:\n\n5+ years of experience in web development, with at least 4 years equally using both React and Next.js.\nProficient understanding of web markup, including HTML5 and CSS3.\nStrong experience with server-side rendering and static site generation in Next.js.\nFamiliarity with RESTful APIs and modern authorization mechanisms, such as JSON Web Token.\nExperience with state management libraries (e.g., Redux, MobX).\nFamiliarity with modern front-end build pipelines and tools.\nExperience with data structure libraries (e.g., Immutable.js) is a plus.\nExcellent troubleshooting and communication skills.\nLocated in CET timezone (+/- 3 hours), we are unable to consider applications from candidates in other time zones.\n\n&nbsp;\nResponsibilities:\n\nLead the development of new user-facing features using Next.js.\nOptimise applications for maximum speed and scalability.\nEnsure the...",
+          "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-next-js-developer-4",
+          "author": "Unknown",
+          "published": "2026-01-12T11:09:58",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Front-End Programming"
+          ],
+          "summary": "Senior Next.js Developer through Proxify staffing. Requires 5+ years experience with React, SSR, and modern frontend tooling.",
+          "importance_score": 40.0,
+          "reasoning": "Remote senior engineering opportunity through established platform; general frontend development without AI specialization",
+          "themes": [
+            "Frontend Development",
+            "React",
+            "Remote",
+            "Contract"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Senior Next.js Developer through Proxify staffing. Requires 5+ years experience with React, SSR, and modern frontend tooling.</p>",
+          "content_html": "<p>Headquarters: Sweden</p>\n<p>URL: http://career.proxify.io</p>\n<p>The Role:</p>\n<p>&nbsp;</p>\n<p>We are looking for a Senior Next.js Developer for one of our clients. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products.</p>\n<p>&nbsp;</p>\n<p>What we’re looking for:</p>\n<p>5+ years of experience in web development, with at least 4 years equally using both React and Next.js.</p>\n<p>Proficient understanding of web markup, including HTML5 and CSS3.</p>\n<p>Strong experience with server-side rendering and static site generation in Next.js.</p>\n<p>Familiarity with RESTful APIs and modern authorization mechanisms, such as JSON Web Token.</p>\n<p>Experience with state management libraries (e.g., Redux, MobX).</p>\n<p>Familiarity with modern front-end build pipelines and tools.</p>\n<p>Experience with data structure libraries (e.g., Immutable.js) is a plus.</p>\n<p>Excellent troubleshooting and communication skills.</p>\n<p>Located in CET timezone (+/- 3 hours), we are unable to consider applications from candidates in other time zones.</p>\n<p>&nbsp;</p>\n<p>Responsibilities:</p>\n<p>Lead the development of new user-facing features using Next.js.</p>\n<p>Optimise applications for maximum speed and scalability.</p>\n<p>Ensure the...</p>"
+        },
+        {
+          "id": "a5f657514185",
+          "title": "OpsFlow: Senior Software Engineer (.NET, Node.js, React)",
+          "content": "\n\n\n  Headquarters: Poland\n    URL: https://www.opsflowhq.com/\n\n\nRole: Senior Software EngineerContract type: B2B, Independent contractorDuration: ~3-6 monthsDay rate: $250 - $325 USD (~$5k - $6.5k/month)Domain: Wholesale DistributionTech stack: .NET, Node.js, ReactLocation: Remote\n---\nOur client, a UK-based B2B SaaS startup, is seeking a Senior Software Engineer on a contract basis to expand the functionality of their ERP product for the wholesale distribution industry.\nYou'll work across the stack, spending 70% of your time on the backend and 30% on the frontend.\nAs part of a small engineering team, you'll work alongside the technical founder and take ownership of the entire SDLC, from analysing business requirements to deployment.\nYou won't just write code, you'll help shape the product and make important technical decisions.\nCompany\nOur client is an early-stage B2B SaaS startup building a niche ERP software product for the wholesale distribution industry.\nThe company is led by a technical founder with 15+ years of software engineering experience and is currently developing its product in close partnership with its first enterprise customer.\n&nbsp;Tech Stack\nNote that this role...",
+          "url": "https://weworkremotely.com/remote-jobs/opsflow-senior-software-engineer-net-node-js-react",
+          "author": "Unknown",
+          "published": "2026-01-12T14:33:10",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Full-Stack Programming"
+          ],
+          "summary": "Senior Full-Stack Engineer at OpsFlow building B2B SaaS ERP for wholesale distribution. 70% backend, 30% frontend with full SDLC ownership.",
+          "importance_score": 40.0,
+          "reasoning": "Senior role with significant autonomy at startup; general software engineering without AI focus, contract basis",
+          "themes": [
+            "Full-Stack",
+            "SaaS",
+            "Startup",
+            "Contract"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Senior Full-Stack Engineer at OpsFlow building B2B SaaS ERP for wholesale distribution. 70% backend, 30% frontend with full SDLC ownership.</p>",
+          "content_html": "<p>Headquarters: Poland</p>\n<p>URL: https://www.opsflowhq.com/</p>\n<p>Role: Senior Software EngineerContract type: B2B, Independent contractorDuration: ~3-6 monthsDay rate: $250 - $325 USD (~$5k - $6.5k/month)Domain: Wholesale DistributionTech stack: .NET, Node.js, ReactLocation: Remote</p>\n<p>---</p>\n<p>Our client, a UK-based B2B SaaS startup, is seeking a Senior Software Engineer on a contract basis to expand the functionality of their ERP product for the wholesale distribution industry.</p>\n<p>You'll work across the stack, spending 70% of your time on the backend and 30% on the frontend.</p>\n<p>As part of a small engineering team, you'll work alongside the technical founder and take ownership of the entire SDLC, from analysing business requirements to deployment.</p>\n<p>You won't just write code, you'll help shape the product and make important technical decisions.</p>\n<p>Company</p>\n<p>Our client is an early-stage B2B SaaS startup building a niche ERP software product for the wholesale distribution industry.</p>\n<p>The company is led by a technical founder with 15+ years of software engineering experience and is currently developing its product in close partnership with its first enterprise customer.</p>\n<p>&nbsp;Tech Stack</p>\n<p>Note that this role...</p>"
+        },
+        {
+          "id": "db955076e9df",
+          "title": "Truv: Web Designer",
+          "content": "\n\n\n  Headquarters: Remote\n    URL: http://truv.com\n\n\nAbout Truv:Truv is transforming the financial data industry with a secure and real-time API platform for payroll account access. Our technology streamlines income and employment verification, direct deposit switching, and more—eliminating outdated processes and unlocking greater financial opportunities. Backed by $30M from top investors like Kleiner Perkins and NYCA, we’re disrupting a $2B legacy market with cutting-edge innovation and a customer-first approach. Our leadership team brings expertise from industry giants like Apple, Carta, Venmo, MX, and Okta, driving the future of financial data access.What You'll DoDesign and maintain compelling visual identities across our website, marketing materials, and digital touchpointsCreate engaging graphics for web pages, landing pages, email campaigns, social media, and other marketing channelsCollaborate with marketing, product, and engineering teams to ensure brand consistency across all consumer and client-facing materialsDesign website layouts that are both visually compelling, on-brand, and conversion-focusedDevelop marketing collateral including presentation decks, one-pagers,...",
+          "url": "https://weworkremotely.com/remote-jobs/truv-web-designer",
+          "author": "Unknown",
+          "published": "2026-01-09T18:50:56",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Front-End Programming"
+          ],
+          "summary": "Web Designer at Truv, fintech API platform backed by Kleiner Perkins with $30M funding. Building visual identity for financial data solutions.",
+          "importance_score": 38.0,
+          "reasoning": "Well-funded fintech startup with strong investor backing; design role rather than engineering or AI/ML position",
+          "themes": [
+            "Fintech",
+            "Design",
+            "Startup",
+            "Remote"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Web Designer at Truv, fintech API platform backed by Kleiner Perkins with $30M funding. Building visual identity for financial data solutions.</p>",
+          "content_html": "<p>Headquarters: Remote</p>\n<p>URL: http://truv.com</p>\n<p>About Truv:Truv is transforming the financial data industry with a secure and real-time API platform for payroll account access. Our technology streamlines income and employment verification, direct deposit switching, and more—eliminating outdated processes and unlocking greater financial opportunities. Backed by $30M from top investors like Kleiner Perkins and NYCA, we’re disrupting a $2B legacy market with cutting-edge innovation and a customer-first approach. Our leadership team brings expertise from industry giants like Apple, Carta, Venmo, MX, and Okta, driving the future of financial data access.What You'll DoDesign and maintain compelling visual identities across our website, marketing materials, and digital touchpointsCreate engaging graphics for web pages, landing pages, email campaigns, social media, and other marketing channelsCollaborate with marketing, product, and engineering teams to ensure brand consistency across all consumer and client-facing materialsDesign website layouts that are both visually compelling, on-brand, and conversion-focusedDevelop marketing collateral including presentation decks, one-pagers,...</p>"
+        }
+      ]
+    }
+  }
+}

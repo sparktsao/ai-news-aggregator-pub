@@ -1,0 +1,303 @@
+{
+  "category": "social",
+  "date": "2026-01-13",
+  "category_summary": "Research on extending LLM context windows dominated technical discussions today. **David Ha** [shared a standout insight](/?date=2026-01-13&category=social#item-f443dbec8ddc) from **Sakana AI's** new DroPE paper: positional embeddings are 'training wheels' that help training convergence but hurt long-context generalization—deleting them post-training unlocks better performance.\n\n- **Simon Willison** [published first impressions](/?date=2026-01-13&category=social#item-826d6be223eb) of **Anthropic's Claude Cowork**, a new general-purpose agent for $100+/month subscribers\n- Willison also [raised the unexplored issue](/?date=2026-01-13&category=social#item-1b33f998a72f) of 'copyright laundering'—using AI to launder GPL code through spec generation\n- **Ted Underwood** [captured community sentiment](/?date=2026-01-13&category=social#item-42bf3b4cabad) with humor about acceptable AI uses: 'hungry ghosts' for research are fine, but personal assistants feel wrong\n\nAI code quality and 'vibe coding' sparked discussion around appropriate expectations for AI-generated code and the challenge of ['extractive contributions'](/?date=2026-01-13&category=social#item-22bc5e121989) to open source projects.",
+  "category_summary_html": "<p>Research on extending LLM context windows dominated technical discussions today. <strong>David Ha</strong> <a href=\"/?date=2026-01-13&category=social#item-f443dbec8ddc\" class=\"internal-link\">shared a standout insight</a> from <strong>Sakana AI's</strong> new DroPE paper: positional embeddings are 'training wheels' that help training convergence but hurt long-context generalization—deleting them post-training unlocks better performance.</p>\n<ul>\n<li><strong>Simon Willison</strong> <a href=\"/?date=2026-01-13&category=social#item-826d6be223eb\" class=\"internal-link\">published first impressions</a> of <strong>Anthropic's Claude Cowork</strong>, a new general-purpose agent for $100+/month subscribers</li>\n<li>Willison also <a href=\"/?date=2026-01-13&category=social#item-1b33f998a72f\" class=\"internal-link\">raised the unexplored issue</a> of 'copyright laundering'—using AI to launder GPL code through spec generation</li>\n<li><strong>Ted Underwood</strong> <a href=\"/?date=2026-01-13&category=social#item-42bf3b4cabad\" class=\"internal-link\">captured community sentiment</a> with humor about acceptable AI uses: 'hungry ghosts' for research are fine, but personal assistants feel wrong</li>\n</ul>\n<p>AI code quality and 'vibe coding' sparked discussion around appropriate expectations for AI-generated code and the challenge of <a href=\"/?date=2026-01-13&category=social#item-22bc5e121989\" class=\"internal-link\">'extractive contributions'</a> to open source projects.</p>",
+  "themes": [
+    {
+      "name": "Positional Embeddings & Context Extension",
+      "description": "Research on treating positional embeddings as temporary training scaffolds that can be removed post-training to unlock longer context windows",
+      "item_count": 3,
+      "example_items": [],
+      "importance": 90
+    },
+    {
+      "name": "AI Agent Products",
+      "description": "New product releases and analysis of general-purpose AI agents including Anthropic's Claude Cowork",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 85
+    },
+    {
+      "name": "AI Ethics & Legal Issues",
+      "description": "Questions around appropriate AI use, copyright implications, and 'copyright laundering' via AI",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 60
+    },
+    {
+      "name": "AI Code Quality & Vibe Coding",
+      "description": "Discussion of expectations, limitations, and review challenges for AI-generated code",
+      "item_count": 4,
+      "example_items": [],
+      "importance": 55
+    },
+    {
+      "name": "Open Source & AI Contributions",
+      "description": "Challenges of managing AI-assisted contributions to open source projects, including 'extractive contributions'",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 50
+    }
+  ],
+  "total_items": 11,
+  "items": [
+    {
+      "id": "cfc338f70630",
+      "title": "Introducing DroPE: Extending Context by Dropping Positional Embeddings\n\nWe found embeddings like RoP...",
+      "content": "Introducing DroPE: Extending Context by Dropping Positional Embeddings\n\nWe found embeddings like RoPE aid training but bottleneck long-sequence generalization. Our solution’s simple: treat them as a temporary training scaffold, not a permanent necessity.\n\narxiv.org/abs/2512.12167\npub.sakana.ai/DroPE",
+      "url": "https://bsky.app/profile/sakanaai.bsky.social/post/3mc762xas7c2i",
+      "author": "@sakanaai.bsky.social",
+      "published": "2026-01-12T04:07:01.753000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Sakana AI announces DroPE paper: a method to extend context length by dropping positional embeddings like RoPE after training, treating them as temporary training scaffolds rather than permanent necessities.",
+      "importance_score": 92,
+      "reasoning": "Major new research from respected AI lab (Sakana AI), high engagement (114 likes, 22 reposts), introduces novel technique with practical implications for LLM context windows. Links to arxiv paper.",
+      "themes": [
+        "positional_embeddings",
+        "context_length_extension",
+        "new_research",
+        "LLM_architecture"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Sakana AI announces DroPE paper: a method to extend context length by dropping positional embeddings like RoPE after training, treating them as temporary training scaffolds rather than permanent necessities.</p>",
+      "content_html": "<p>Introducing DroPE: Extending Context by Dropping Positional Embeddings</p>\n<p>We found embeddings like RoPE aid training but bottleneck long-sequence generalization. Our solution’s simple: treat them as a temporary training scaffold, not a permanent necessity.</p>\n<p>arxiv.org/abs/2512.12167</p>\n<p>pub.sakana.ai/DroPE</p>"
+    },
+    {
+      "id": "f443dbec8ddc",
+      "title": "One of my favorite findings: Positional embeddings are just training wheels. They help convergence b...",
+      "content": "One of my favorite findings: Positional embeddings are just training wheels. They help convergence but hurt long-context generalization.\n\nWe found that if you simply delete them after pretraining and recalibrate for <1% of the original budget, you unlock massive context windows. Smarter, not harder.",
+      "url": "https://bsky.app/profile/hardmaru.bsky.social/post/3mc76dyw5ds2y",
+      "author": "@hardmaru.bsky.social",
+      "published": "2026-01-12T04:12:05.492000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "David Ha highlights key DroPE finding: positional embeddings are 'training wheels' that help convergence but hurt long-context generalization. Deleting them after pretraining and recalibrating for <1% of budget unlocks massive context windows.",
+      "importance_score": 90,
+      "reasoning": "Highest engagement post in batch (197 likes, 31 reposts), distills actionable insight from research, from paper co-author. Clear, memorable framing of technical finding.",
+      "themes": [
+        "positional_embeddings",
+        "context_length_extension",
+        "new_research",
+        "LLM_training"
+      ],
+      "continuation": null,
+      "summary_html": "<p>David Ha highlights key DroPE finding: positional embeddings are 'training wheels' that help convergence but hurt long-context generalization. Deleting them after pretraining and recalibrating for <1% of budget unlocks massive context windows.</p>",
+      "content_html": "<p>One of my favorite findings: Positional embeddings are just training wheels. They help convergence but hurt long-context generalization.</p>\n<p>We found that if you simply delete them after pretraining and recalibrate for <1% of the original budget, you unlock massive context windows. Smarter, not harder.</p>"
+    },
+    {
+      "id": "826d6be223eb",
+      "title": "Wrote up my first impressions of Claude Cowork, Anthropic's new general purpose agent released today...",
+      "content": "Wrote up my first impressions of Claude Cowork, Anthropic's new general purpose agent released today for $100+/month subscribers as part of their macOS desktop app simonwillison.net/2026/Jan/12/...",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mcaziruops2m",
+      "author": "@simonwillison.net",
+      "published": "2026-01-12T21:50:36.643000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Building on earlier [Social](/?date=2026-01-11&category=social#item-bed1fba5dab6) speculation about Claude for non-developers, Simon Willison shares first impressions of 'Claude Cowork', Anthropic's new general-purpose agent released for $100+/month subscribers as part of their macOS desktop app.",
+      "importance_score": 88,
+      "reasoning": "Breaking product news about major Anthropic release from highly credible AI tools analyst. Strong engagement (153 likes, 16 reposts). Important for understanding AI agent product landscape.",
+      "themes": [
+        "AI_agents",
+        "product_launch",
+        "Anthropic",
+        "Claude",
+        "pricing"
+      ],
+      "continuation": {
+        "original_item_id": "bed1fba5dab6",
+        "original_date": "2026-01-11",
+        "original_category": "social",
+        "original_title": "\"claude code for general purpose work\" (Non developer users, non coding use cases)",
+        "continuation_type": "new_development",
+        "should_demote": false,
+        "reference_text": "Building on earlier **Social** speculation about Claude for non-developers"
+      },
+      "summary_html": "<p>Building on earlier <a href=\"/?date=2026-01-11&category=social#item-bed1fba5dab6\" class=\"internal-link\">Social</a> speculation about Claude for non-developers, Simon Willison shares first impressions of 'Claude Cowork', Anthropic's new general-purpose agent released for $100+/month subscribers as part of their macOS desktop app.</p>",
+      "content_html": "<p>Wrote up my first impressions of Claude Cowork, Anthropic's new general purpose agent released today for $100+/month subscribers as part of their macOS desktop app simonwillison.net/2026/Jan/12/...</p>"
+    },
+    {
+      "id": "8ba92982debf",
+      "title": "Reminded me of my older NeurIPS 2021 paper, where we removed the positional encoding entirely, and b...",
+      "content": "Reminded me of my older NeurIPS 2021 paper, where we removed the positional encoding entirely, and by doing so, an agent can process an arbitrarily long list of noisy, sensory inputs, in an arbitrary order.\n\nI even made a fun browser demo to play with the agent back then: attentionneuron.github.io",
+      "url": "https://bsky.app/profile/hardmaru.bsky.social/post/3mc7dwc33hs2l",
+      "author": "@hardmaru.bsky.social",
+      "published": "2026-01-12T05:51:47.780000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "David Ha (@hardmaru) references his NeurIPS 2021 paper where removing positional encoding entirely allowed agents to process arbitrarily long lists of noisy sensory inputs in any order, with a browser demo available.",
+      "importance_score": 68,
+      "reasoning": "Credible AI researcher (David Ha/hardmaru) providing relevant historical context to DroPE research. Moderate engagement, provides useful prior art reference.",
+      "themes": [
+        "positional_embeddings",
+        "context_length_extension",
+        "prior_research"
+      ],
+      "continuation": null,
+      "summary_html": "<p>David Ha (@hardmaru) references his NeurIPS 2021 paper where removing positional encoding entirely allowed agents to process arbitrarily long lists of noisy sensory inputs in any order, with a browser demo available.</p>",
+      "content_html": "<p>Reminded me of my older NeurIPS 2021 paper, where we removed the positional encoding entirely, and by doing so, an agent can process an arbitrarily long list of noisy, sensory inputs, in an arbitrary order.</p>\n<p>I even made a fun browser demo to play with the agent back then: attentionneuron.github.io</p>"
+    },
+    {
+      "id": "1b33f998a72f",
+      "title": "There's a whole sub-set of questions around this that I haven't even started to explore yet about co...",
+      "content": "There's a whole sub-set of questions around this that I haven't even started to explore yet about copyright laundering - you can do tricks like feeding a GPL library into Claude and asking it to write a detailed spec, then feeding that spec into another Claude and asking for a fresh implementation",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mc6qlwpct22d",
+      "author": "@simonwillison.net",
+      "published": "2026-01-12T00:05:59.221000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison raises the unexplored issue of 'copyright laundering' via AI - feeding GPL code to Claude to generate a spec, then using another Claude session to create a 'fresh' implementation.",
+      "importance_score": 65,
+      "reasoning": "Novel insight on important legal/ethical topic at intersection of AI and intellectual property. Low engagement but raises significant unexplored questions about AI and licensing.",
+      "themes": [
+        "copyright",
+        "licensing",
+        "GPL",
+        "AI_ethics",
+        "intellectual_property"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison raises the unexplored issue of 'copyright laundering' via AI - feeding GPL code to Claude to generate a spec, then using another Claude session to create a 'fresh' implementation.</p>",
+      "content_html": "<p>There's a whole sub-set of questions around this that I haven't even started to explore yet about copyright laundering - you can do tricks like feeding a GPL library into Claude and asking it to write a detailed spec, then feeding that spec into another Claude and asking for a fresh implementation</p>"
+    },
+    {
+      "id": "22bc5e121989",
+      "title": "I really like the term \"extractive contributions\" for that - \"those where the marginal cost of revie...",
+      "content": "I really like the term \"extractive contributions\" for that - \"those where the marginal cost of reviewing and merging that contribution is greater than the marginal benefit to the project’s producers\" simonwillison.net/2025/Oct/2/n...",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mc6qnm74622d",
+      "author": "@simonwillison.net",
+      "published": "2026-01-12T00:06:55.313000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison highlights the term 'extractive contributions' - where cost of reviewing/merging a contribution exceeds its benefit to the project.",
+      "importance_score": 52,
+      "reasoning": "Relevant concept for AI-assisted open source contributions. Low engagement but introduces useful terminology for ongoing debates about AI code contributions.",
+      "themes": [
+        "open_source",
+        "AI_contributions",
+        "code_review",
+        "community_management"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison highlights the term 'extractive contributions' - where cost of reviewing/merging a contribution exceeds its benefit to the project.</p>",
+      "content_html": "<p>I really like the term \"extractive contributions\" for that - \"those where the marginal cost of reviewing and merging that contribution is greater than the marginal benefit to the project’s producers\" simonwillison.net/2025/Oct/2/n...</p>"
+    },
+    {
+      "id": "42bf3b4cabad",
+      "title": "Honestly this works for everything\n\n“I want to trap hungry 19c ghosts in jars to help us with histor...",
+      "content": "Honestly this works for everything\n\n“I want to trap hungry 19c ghosts in jars to help us with historical research” ✅\n\n“Please read our holiday card; we got a hungry ghost to write it this year”  ❌",
+      "url": "https://bsky.app/profile/tedunderwood.com/post/3mca4j5fdik2w",
+      "author": "@tedunderwood.com",
+      "published": "2026-01-12T13:11:50.210000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Ted Underwood makes a humorous observation about acceptable AI use cases: using AI as 'hungry ghosts' for research is fine, but using them for personal tasks like holiday cards is not socially acceptable.",
+      "importance_score": 45,
+      "reasoning": "High engagement (214 likes) but primarily social commentary/humor rather than technical content. Ted Underwood is known in digital humanities but this is tangential to core AI/ML.",
+      "themes": [
+        "AI_social_norms",
+        "appropriate_AI_use",
+        "cultural_commentary"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Ted Underwood makes a humorous observation about acceptable AI use cases: using AI as 'hungry ghosts' for research is fine, but using them for personal tasks like holiday cards is not socially acceptable.</p>",
+      "content_html": "<p>Honestly this works for everything</p>\n<p>“I want to trap hungry 19c ghosts in jars to help us with historical research” ✅</p>\n<p>“Please read our holiday card; we got a hungry ghost to write it this year”  ❌</p>"
+    },
+    {
+      "id": "899a5c6797fe",
+      "title": "I'd missed that article but it didn't particularly surprise me - in all of these projects the goal f...",
+      "content": "I'd missed that article but it didn't particularly surprise me - in all of these projects the goal for the agent was more to hack around until the test pass as opposed to a line-by-line port of the library that was being imitated \n\nOn that basis it's not surprising to see weird differences Iike that",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mc7d3h3hxc2z",
+      "author": "@simonwillison.net",
+      "published": "2026-01-12T05:36:47.065000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison explains that AI coding agents typically 'hack around until tests pass' rather than doing line-by-line ports, making weird code differences unsurprising.",
+      "importance_score": 42,
+      "reasoning": "No visible engagement but provides useful insight into AI agent coding behavior and appropriate expectations for AI-generated code.",
+      "themes": [
+        "AI_agents",
+        "vibe_coding",
+        "AI_code_quality",
+        "testing"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison explains that AI coding agents typically 'hack around until tests pass' rather than doing line-by-line ports, making weird code differences unsurprising.</p>",
+      "content_html": "<p>I'd missed that article but it didn't particularly surprise me - in all of these projects the goal for the agent was more to hack around until the test pass as opposed to a line-by-line port of the library that was being imitated</p>\n<p>On that basis it's not surprising to see weird differences Iike that</p>"
+    },
+    {
+      "id": "ce8a72b0f507",
+      "title": "I was never planning on using a mainly unreviewed vibe coded HTML parser for anything that mattered,...",
+      "content": "I was never planning on using a mainly unreviewed vibe coded HTML parser for anything that mattered, but the differences described there don't seem to be particular surprising or critically important to me",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mc7d6isghc2z",
+      "author": "@simonwillison.net",
+      "published": "2026-01-12T05:38:29.529000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison comments that differences in a 'vibe coded' unreviewed HTML parser aren't surprising or critical for his use case.",
+      "importance_score": 35,
+      "reasoning": "Low engagement, but touches on relevant topic of managing expectations for AI-generated code quality. Part of ongoing vibe coding discussion.",
+      "themes": [
+        "vibe_coding",
+        "AI_code_quality",
+        "code_review"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison comments that differences in a 'vibe coded' unreviewed HTML parser aren't surprising or critical for his use case.</p>",
+      "content_html": "<p>I was never planning on using a mainly unreviewed vibe coded HTML parser for anything that mattered, but the differences described there don't seem to be particular surprising or critically important to me</p>"
+    },
+    {
+      "id": "07f5495098a2",
+      "title": "I've not seen that yet, but I imagine e you could do something very interesting with GitHub Actions ...",
+      "content": "I've not seen that yet, but I imagine e you could do something very interesting with GitHub Actions and the GitHub free LLMs API that's accessible from them here",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mcaeudqcbk2t",
+      "author": "@simonwillison.net",
+      "published": "2026-01-12T15:41:15.895000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison briefly mentions potential for interesting work combining GitHub Actions with GitHub's free LLMs API.",
+      "importance_score": 30,
+      "reasoning": "Low engagement, brief conversational reply without substantial technical depth or novel insight.",
+      "themes": [
+        "GitHub_Actions",
+        "LLM_APIs",
+        "developer_tools"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison briefly mentions potential for interesting work combining GitHub Actions with GitHub's free LLMs API.</p>",
+      "content_html": "<p>I've not seen that yet, but I imagine e you could do something very interesting with GitHub Actions and the GitHub free LLMs API that's accessible from them here</p>"
+    },
+    {
+      "id": "05d4c0670915",
+      "title": "\"actually make it more of a centaur - ork head, cow body\" gemini.google.com/share/371e10...",
+      "content": "\"actually make it more of a centaur - ork head, cow body\" gemini.google.com/share/371e10...",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mcb564afgc2u",
+      "author": "@simonwillison.net",
+      "published": "2026-01-12T22:56:13.377000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison shares a playful Gemini image generation prompt requesting a 'centaur with ork head and cow body'.",
+      "importance_score": 15,
+      "reasoning": "Minimal engagement (1 like), casual/humorous content with no technical substance or insight.",
+      "themes": [
+        "image_generation",
+        "casual_content"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison shares a playful Gemini image generation prompt requesting a 'centaur with ork head and cow body'.</p>",
+      "content_html": "<p>\"actually make it more of a centaur - ork head, cow body\" gemini.google.com/share/371e10...</p>"
+    }
+  ]
+}

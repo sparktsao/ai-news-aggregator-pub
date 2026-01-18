@@ -1,0 +1,1066 @@
+{
+  "date": "2026-01-18",
+  "coverage_date": "2026-01-17",
+  "coverage_start": "2026-01-17T00:00:00",
+  "coverage_end": "2026-01-17T23:59:59.999999",
+  "executive_summary": "#### Top Story\n**NVIDIA** [unveiled its **Vera Rubin architecture**](/?date=2026-01-18&category=news#item-625868bf78d5) roadmap promising **10x performance gains**, while speculation mounts around **H200** distribution to China and a potential **$20B acquisition of Groq**.\n\n#### Key Developments\n- **OpenAI**: [Began testing advertisements](/?date=2026-01-18&category=news#item-9cc6ae061bda) in **ChatGPT** and launched an **$8 Go subscription tier** for global expansion, sparking major community backlash over ads reportedly consuming [nearly half the screen](/?date=2026-01-18&category=reddit#item-ba8585ca6e30)\n- **NVIDIA**: Announced ambitious hardware roadmap alongside rumors of significant M&A activity and China market moves\n- **iFlytek**: [Launched **SuperAgent**](/?date=2026-01-18&category=news#item-ecdb3a3cc591), a marketing AI agent framework enabling collective intelligence for B2A2C enterprise workflows in China\n- **KoboldCpp v1.106**: [Added native **MCP server support**](/?date=2026-01-18&category=reddit#item-b7b086aafa29) as a drop-in **Claude Desktop** replacement, accelerating open-source protocol adoption\n\n#### Research Highlights\n- **Adaptive-K routing** [achieved **30-52% compute savings**](/?date=2026-01-18&category=reddit#item-4552601fff42) on MoE models (**Mixtral**, **Qwen**, **OLMoE**) with code, paper, and **TensorRT-LLM** PR now available\n- **Qwen 4** [development delayed](/?date=2026-01-18&category=reddit#item-56ac24f0407a) as lead developer prioritizes quality over release speed\n\n#### Job Market Highlights\n- **Head of Data & AI** [leadership roles commanding premium](/?date=2026-01-18&category=jobs#item-eb22b018aa6a) at biotech companies\n- **ElevenLabs** (**$6.6B valuation**, **$200M ARR**) [actively expanding teams](/?date=2026-01-18&category=jobs#item-5a8c73958169)\n- Prompt engineering now [requires **agentic workflow** expertise](/?date=2026-01-18&category=jobs#item-709cfa6c7887) using **OpenAI Agent Builder SDK**\n- **AI x Biology** [emerging as high-demand intersection](/?date=2026-01-18&category=jobs#item-2274b14a18a2) at venture-backed labs\n\n#### Looking Ahead\nWatch how **OpenAI's** advertising rollout affects user retention and whether the **$8 tier** successfully drives adoption in price-sensitive global markets.",
+  "executive_summary_html": "<h4>Top Story</h4>\n<p><strong>NVIDIA</strong> <a href=\"/?date=2026-01-18&category=news#item-625868bf78d5\" class=\"internal-link\">unveiled its <strong>Vera Rubin architecture</strong></a> roadmap promising <strong>10x performance gains</strong>, while speculation mounts around <strong>H200</strong> distribution to China and a potential <strong>$20B acquisition of Groq</strong>.</p>\n<h4>Key Developments</h4>\n<ul>\n<li><strong>OpenAI</strong>: <a href=\"/?date=2026-01-18&category=news#item-9cc6ae061bda\" class=\"internal-link\">Began testing advertisements</a> in <strong>ChatGPT</strong> and launched an <strong>$8 Go subscription tier</strong> for global expansion, sparking major community backlash over ads reportedly consuming <a href=\"/?date=2026-01-18&category=reddit#item-ba8585ca6e30\" class=\"internal-link\">nearly half the screen</a></li>\n<li><strong>NVIDIA</strong>: Announced ambitious hardware roadmap alongside rumors of significant M&A activity and China market moves</li>\n<li><strong>iFlytek</strong>: <a href=\"/?date=2026-01-18&category=news#item-ecdb3a3cc591\" class=\"internal-link\">Launched <strong>SuperAgent</strong></a>, a marketing AI agent framework enabling collective intelligence for B2A2C enterprise workflows in China</li>\n<li><strong>KoboldCpp v1.106</strong>: <a href=\"/?date=2026-01-18&category=reddit#item-b7b086aafa29\" class=\"internal-link\">Added native <strong>MCP server support</strong></a> as a drop-in <strong>Claude Desktop</strong> replacement, accelerating open-source protocol adoption</li>\n</ul>\n<h4>Research Highlights</h4>\n<ul>\n<li><strong>Adaptive-K routing</strong> <a href=\"/?date=2026-01-18&category=reddit#item-4552601fff42\" class=\"internal-link\">achieved <strong>30-52% compute savings</strong></a> on MoE models (<strong>Mixtral</strong>, <strong>Qwen</strong>, <strong>OLMoE</strong>) with code, paper, and <strong>TensorRT-LLM</strong> PR now available</li>\n<li><strong>Qwen 4</strong> <a href=\"/?date=2026-01-18&category=reddit#item-56ac24f0407a\" class=\"internal-link\">development delayed</a> as lead developer prioritizes quality over release speed</li>\n</ul>\n<h4>Job Market Highlights</h4>\n<ul>\n<li><strong>Head of Data & AI</strong> <a href=\"/?date=2026-01-18&category=jobs#item-eb22b018aa6a\" class=\"internal-link\">leadership roles commanding premium</a> at biotech companies</li>\n<li><strong>ElevenLabs</strong> (<strong>$6.6B valuation</strong>, <strong>$200M ARR</strong>) <a href=\"/?date=2026-01-18&category=jobs#item-5a8c73958169\" class=\"internal-link\">actively expanding teams</a></li>\n<li>Prompt engineering now <a href=\"/?date=2026-01-18&category=jobs#item-709cfa6c7887\" class=\"internal-link\">requires <strong>agentic workflow</strong> expertise</a> using <strong>OpenAI Agent Builder SDK</strong></li>\n<li><strong>AI x Biology</strong> <a href=\"/?date=2026-01-18&category=jobs#item-2274b14a18a2\" class=\"internal-link\">emerging as high-demand intersection</a> at venture-backed labs</li>\n</ul>\n<h4>Looking Ahead</h4>\n<p>Watch how <strong>OpenAI's</strong> advertising rollout affects user retention and whether the <strong>$8 tier</strong> successfully drives adoption in price-sensitive global markets.</p>",
+  "personal_summary": "- **Agent vs LLM（Agent重要還是LLM重要）**: 今日趨勢顯示**Agent是應用層王者，但LLM是基礎**。iFlytek發布**SuperAgent**框架、**KoboldCpp v1.106**新增MCP server支援、求職市場明確要求**agentic workflows**技能——訊號清楚：**LLM已成commodity，Agent orchestration才是差異化競爭力**\n\n- **Train LLM vs RAG（自訓模型還是整理RAG）**: 強烈建議**專注RAG與MCP整合**。**Adaptive-K routing**研究顯示現有MoE模型可省30-52%算力；**Qwen 4**延遲發布追求品質；LocalLLaMA社群在用128GB VRAM跑開源模型——**個人/中小企業不該自訓LLM，應善用開源模型+RAG+Agent框架**\n\n- **中國AI vs 美國AI**: 各有優勢。**美國**：NVIDIA Vera Rubin架構承諾10倍性能、OpenAI商業化加速。**中國**：iFlytek SuperAgent在企業應用落地、AGI-NEXT會議顯示Qwen/Kimi/騰訊策略成熟、**H200可能重返中國市場**。結論：**美國領先基礎模型，中國在應用層與本地化Agent框架快速追趕**\n\n- **個人學習與機會**: 📚學習：**OpenAI Agent Builder SDK**、**MCP協議**、**AI x Biology交叉領域**。💼工作：**ElevenLabs**（$6.6B估值）擴編、Biotech公司招**Head of Data & AI**、LLM工程師需求強勁。🚀創業：**企業級Agent框架**（參考SuperAgent）、**AI安全治理工具**、**YC W25 batch正在建AI訓練基礎設施**\n\n- **CEO Briefing（AI Security #1三句話）**:\n  1. **MCP協議正成為Agent互通標準**——誰能提供最安全的MCP gateway與權限控管，誰就掌握企業AI入口\n  2. **OpenAI開始投放廣告**——企業客戶對數據隱私擔憂升級，這是推銷private/secure AI方案的最佳時機\n  3. **行動建議**：立即開發**Enterprise MCP Security Layer**，定位為「企業AI Agent的防火牆」，搶佔Gartner新品類第一名",
+  "personal_summary_html": "<ul>\n<li><strong>Agent vs LLM（Agent重要還是LLM重要）</strong>: 今日趨勢顯示<strong>Agent是應用層王者，但LLM是基礎</strong>。iFlytek發布<strong>SuperAgent</strong>框架、<strong>KoboldCpp v1.106</strong>新增MCP server支援、求職市場明確要求<strong>agentic workflows</strong>技能——訊號清楚：<strong>LLM已成commodity，Agent orchestration才是差異化競爭力</strong></li>\n</ul>\n<ul>\n<li><strong>Train LLM vs RAG（自訓模型還是整理RAG）</strong>: 強烈建議<strong>專注RAG與MCP整合</strong>。<strong>Adaptive-K routing</strong>研究顯示現有MoE模型可省30-52%算力；<strong>Qwen 4</strong>延遲發布追求品質；LocalLLaMA社群在用128GB VRAM跑開源模型——<strong>個人/中小企業不該自訓LLM，應善用開源模型+RAG+Agent框架</strong></li>\n</ul>\n<ul>\n<li><strong>中國AI vs 美國AI</strong>: 各有優勢。<strong>美國</strong>：NVIDIA Vera Rubin架構承諾10倍性能、OpenAI商業化加速。<strong>中國</strong>：iFlytek SuperAgent在企業應用落地、AGI-NEXT會議顯示Qwen/Kimi/騰訊策略成熟、<strong>H200可能重返中國市場</strong>。結論：<strong>美國領先基礎模型，中國在應用層與本地化Agent框架快速追趕</strong></li>\n</ul>\n<ul>\n<li><strong>個人學習與機會</strong>: 📚學習：<strong>OpenAI Agent Builder SDK</strong>、<strong>MCP協議</strong>、<strong>AI x Biology交叉領域</strong>。💼工作：<strong>ElevenLabs</strong>（$6.6B估值）擴編、Biotech公司招<strong>Head of Data & AI</strong>、LLM工程師需求強勁。🚀創業：<strong>企業級Agent框架</strong>（參考SuperAgent）、<strong>AI安全治理工具</strong>、<strong>YC W25 batch正在建AI訓練基礎設施</strong></li>\n</ul>\n<ul>\n<li><strong>CEO Briefing（AI Security #1三句話）</strong>:</li>\n</ul>\n<p>1. <strong>MCP協議正成為Agent互通標準</strong>——誰能提供最安全的MCP gateway與權限控管，誰就掌握企業AI入口</p>\n<p>2. <strong>OpenAI開始投放廣告</strong>——企業客戶對數據隱私擔憂升級，這是推銷private/secure AI方案的最佳時機</p>\n<p>3. <strong>行動建議</strong>：立即開發<strong>Enterprise MCP Security Layer</strong>，定位為「企業AI Agent的防火牆」，搶佔Gartner新品類第一名</p>",
+  "top_topics": [
+    {
+      "name": "OpenAI Monetization Strategy",
+      "description": "[news]OpenAI has begun [testing advertisements](/?date=2026-01-18&category=news#item-9cc6ae061bda) in ChatGPT and launched a new $8 Go subscription tier aimed at global expansion, signaling a significant business model evolution[/news]. [reddit]The Reddit community showed major backlash with the highest engagement post (178 comments) discussing how upcoming ChatGPT ads allegedly [take up almost half the screen](/?date=2026-01-18&category=reddit#item-ba8585ca6e30), while claims about Codex [scaling compute at unprecedented pace](/?date=2026-01-18&category=reddit#item-bcbfe7412502) drew skepticism[/reddit].",
+      "description_html": "<span style=\"color: #667eea; font-weight: 500;\">OpenAI has begun <a href=\"/?date=2026-01-18&category=news#item-9cc6ae061bda\" class=\"internal-link\">testing advertisements</a> in ChatGPT and launched a new $8 Go subscription tier aimed at global expansion, signaling a significant business model evolution</span>. <span style=\"color: #ef4444; font-weight: 500;\">The Reddit community showed major backlash with the highest engagement post (178 comments) discussing how upcoming ChatGPT ads allegedly <a href=\"/?date=2026-01-18&category=reddit#item-ba8585ca6e30\" class=\"internal-link\">take up almost half the screen</a>, while claims about Codex <a href=\"/?date=2026-01-18&category=reddit#item-bcbfe7412502\" class=\"internal-link\">scaling compute at unprecedented pace</a> drew skepticism</span>.",
+      "category_breakdown": {
+        "news": 1,
+        "reddit": 2
+      },
+      "representative_items": [],
+      "importance": 85
+    },
+    {
+      "name": "AI Hardware & Infrastructure",
+      "description": "[news]NVIDIA's ambitious roadmap [features the Vera Rubin architecture](/?date=2026-01-18&category=news#item-625868bf78d5) promising 10x performance gains, alongside speculation about H200 China distribution and a potential $20B Groq acquisition[/news]. [reddit]The LocalLLaMA community showcased a detailed quad AMD R9700 [128GB VRAM server build](/?date=2026-01-18&category=reddit#item-880a79156a7d) with benchmarks, plus educational content explaining how [speculative decoding](/?date=2026-01-18&category=reddit#item-d9fc7b98fd1c) transforms memory-bound inference into compute-bound verification[/reddit]. [jobs]AI Infrastructure and MLOps positions [remain in strong demand](/?date=2026-01-18&category=jobs#item-eb22b018aa6a), with roles spanning frontier companies to mission-driven fintechs[/jobs].",
+      "description_html": "<span style=\"color: #667eea; font-weight: 500;\">NVIDIA's ambitious roadmap <a href=\"/?date=2026-01-18&category=news#item-625868bf78d5\" class=\"internal-link\">features the Vera Rubin architecture</a> promising 10x performance gains, alongside speculation about H200 China distribution and a potential $20B Groq acquisition</span>. <span style=\"color: #ef4444; font-weight: 500;\">The LocalLLaMA community showcased a detailed quad AMD R9700 <a href=\"/?date=2026-01-18&category=reddit#item-880a79156a7d\" class=\"internal-link\">128GB VRAM server build</a> with benchmarks, plus educational content explaining how <a href=\"/?date=2026-01-18&category=reddit#item-d9fc7b98fd1c\" class=\"internal-link\">speculative decoding</a> transforms memory-bound inference into compute-bound verification</span>. <span style=\"color: #8b5cf6; font-weight: 500;\">AI Infrastructure and MLOps positions <a href=\"/?date=2026-01-18&category=jobs#item-eb22b018aa6a\" class=\"internal-link\">remain in strong demand</a>, with roles spanning frontier companies to mission-driven fintechs</span>.",
+      "category_breakdown": {
+        "news": 1,
+        "reddit": 3,
+        "jobs": 1
+      },
+      "representative_items": [],
+      "importance": 82
+    },
+    {
+      "name": "Enterprise AI Agents & MCP",
+      "description": "[news]iFlytek [launched SuperAgent](/?date=2026-01-18&category=news#item-ecdb3a3cc591), a marketing AI agent framework enabling collective intelligence for complex B2A2C enterprise workflows in China[/news]. [reddit]KoboldCpp v1.106 [added native MCP server support](/?date=2026-01-18&category=reddit#item-b7b086aafa29) as a drop-in Claude Desktop replacement, signaling accelerating protocol adoption in the open-source ecosystem[/reddit]. [jobs]Prompt engineering roles explicitly [require building agentic workflows](/?date=2026-01-18&category=jobs#item-709cfa6c7887) using OpenAI Agent Builder SDK, indicating the discipline has matured into a specialized field[/jobs].",
+      "description_html": "<span style=\"color: #667eea; font-weight: 500;\">iFlytek <a href=\"/?date=2026-01-18&category=news#item-ecdb3a3cc591\" class=\"internal-link\">launched SuperAgent</a>, a marketing AI agent framework enabling collective intelligence for complex B2A2C enterprise workflows in China</span>. <span style=\"color: #ef4444; font-weight: 500;\">KoboldCpp v1.106 <a href=\"/?date=2026-01-18&category=reddit#item-b7b086aafa29\" class=\"internal-link\">added native MCP server support</a> as a drop-in Claude Desktop replacement, signaling accelerating protocol adoption in the open-source ecosystem</span>. <span style=\"color: #8b5cf6; font-weight: 500;\">Prompt engineering roles explicitly <a href=\"/?date=2026-01-18&category=jobs#item-709cfa6c7887\" class=\"internal-link\">require building agentic workflows</a> using OpenAI Agent Builder SDK, indicating the discipline has matured into a specialized field</span>.",
+      "category_breakdown": {
+        "news": 1,
+        "reddit": 1,
+        "jobs": 1
+      },
+      "representative_items": [],
+      "importance": 72
+    }
+  ],
+  "total_items_collected": 470,
+  "total_items_analyzed": 458,
+  "collection_status": {
+    "overall": "success",
+    "sources": [
+      {
+        "name": "news",
+        "display_name": "News",
+        "status": "success",
+        "count": 9,
+        "error": null
+      },
+      {
+        "name": "research",
+        "display_name": "Research",
+        "status": "success",
+        "count": 0,
+        "error": null
+      },
+      {
+        "name": "social",
+        "display_name": "Social",
+        "status": "success",
+        "count": 6,
+        "error": null
+      },
+      {
+        "name": "reddit",
+        "display_name": "Reddit",
+        "status": "success",
+        "count": 315,
+        "error": null
+      },
+      {
+        "name": "jobs",
+        "display_name": "Jobs",
+        "status": "success",
+        "count": 140,
+        "error": null
+      }
+    ],
+    "social_platforms": [
+      {
+        "name": "twitter",
+        "display_name": "Twitter",
+        "status": "success",
+        "count": 0,
+        "error": "All 7 API requests failed"
+      },
+      {
+        "name": "bluesky",
+        "display_name": "Bluesky",
+        "status": "success",
+        "count": 6,
+        "error": null
+      },
+      {
+        "name": "mastodon",
+        "display_name": "Mastodon",
+        "status": "skipped",
+        "count": 0,
+        "error": "No accounts configured"
+      }
+    ],
+    "warnings": []
+  },
+  "hero_image_url": "/data/2026-01-18/hero.webp?v=1768749299",
+  "hero_image_prompt": "You are generating a daily hero banner image for an AI news aggregator website.\n\n## Your Goal\nCreate a clean, informative infographic-style illustration that visually represents today's top AI news stories. The image should be immediately understandable and communicate key themes at a glance.\n\n## Today's Stories\n\n**Topic 1: OpenAI Monetization Strategy**\n[news]OpenAI has begun testing advertisements in ChatGPT and launched a new $8 Go subscription tier aimed at global expansion, signaling a significant business model evolution[/news]. [reddit]The Reddit community showed major backlash with the highest engagement post (178 comments) discussing how upcoming ChatGPT ads allegedly take up almost half the screen, while claims about Codex scaling compute at unprecedented pace drew skepticism[/reddit].\n**Topic 2: AI Hardware & Infrastructure**\n[news]NVIDIA's ambitious roadmap features the Vera Rubin architecture promising 10x performance gains, alongside speculation about H200 China distribution and a potential $20B Groq acquisition[/news]. [reddit]The LocalLLaMA community showcased a detailed quad AMD R9700 128GB VRAM server build with benchmarks, plus educational content explaining how speculative decoding transforms memory-bound inference into compute-bound verification[/reddit]. [jobs]AI Infrastructure and MLOps positions remain in strong demand, with roles spanning frontier companies to mission-driven fintechs[/jobs].\n**Topic 3: Enterprise AI Agents & MCP**\n[news]iFlytek launched SuperAgent, a marketing AI agent framework enabling collective intelligence for complex B2A2C enterprise workflows in China[/news]. [reddit]KoboldCpp v1.106 added native MCP server support as a drop-in Claude Desktop replacement, signaling accelerating protocol adoption in the open-source ecosystem[/reddit]. [jobs]Prompt engineering roles explicitly require building agentic workflows using OpenAI Agent Builder SDK, indicating the discipline has matured into a specialized field[/jobs].\n\n## Visual Direction\nCreate an infographic composition that represents these stories. You must include Topic 1 (the top story) prominently, then incorporate 2-3 other topics. Consider:\n- Use clear visual metaphors and icons to represent each theme\n- Arrange elements in a logical, easy-to-scan layout\n- Include minimal text labels if helpful for clarity\n- Suggested visual elements: server racks, cooling systems, blue LED glow, data center, autonomous systems, workflow diagrams, connected tools\n\n## Style Requirements (CRITICAL)\n- **Japanese manga/comic art style** - clean linework, dynamic composition, speed lines for emphasis\n- **Infographic clarity** - easy to understand, clear visual hierarchy, organized layout\n- Bold, vibrant colors with high contrast\n- Trend Red (#E63946) as accent color for key elements\n- Clean, professional look - not cartoonish or childish\n- Tech-forward, modern aesthetic\n- Company logos (OpenAI, Anthropic, Google, NVIDIA, etc.) are encouraged when relevant to stories\n- NO mascots, NO characters, NO cute animals - focus on abstract concepts and technology visualization",
+  "generated_at": "2026-01-18T07:14:59.708298",
+  "categories": {
+    "news": {
+      "count": 3,
+      "category_summary": "**NVIDIA** dominates hardware discussions with the **Vera Rubin architecture** roadmap [promising 10x performance gains](/?date=2026-01-18&category=news#item-625868bf78d5), alongside speculation about **H200** China distribution and potential **$20B Groq acquisition**.\n\n**OpenAI** signals business model evolution with ChatGPT [advertising tests](/?date=2026-01-18&category=news#item-9cc6ae061bda) and a new **$8 Go subscription tier** aimed at global expansion. Meanwhile, **iFlytek** [launched **SuperAgent**](/?date=2026-01-18&category=news#item-ecdb3a3cc591), a marketing-focused AI agent framework targeting enterprise B2A2C workflows in China.",
+      "category_summary_html": "<p><strong>NVIDIA</strong> dominates hardware discussions with the <strong>Vera Rubin architecture</strong> roadmap <a href=\"/?date=2026-01-18&category=news#item-625868bf78d5\" class=\"internal-link\">promising 10x performance gains</a>, alongside speculation about <strong>H200</strong> China distribution and potential <strong>$20B Groq acquisition</strong>.</p>\n<p><strong>OpenAI</strong> signals business model evolution with ChatGPT <a href=\"/?date=2026-01-18&category=news#item-9cc6ae061bda\" class=\"internal-link\">advertising tests</a> and a new <strong>$8 Go subscription tier</strong> aimed at global expansion. Meanwhile, <strong>iFlytek</strong> <a href=\"/?date=2026-01-18&category=news#item-ecdb3a3cc591\" class=\"internal-link\">launched <strong>SuperAgent</strong></a>, a marketing-focused AI agent framework targeting enterprise B2A2C workflows in China.</p>",
+      "themes": [
+        {
+          "name": "AI Infrastructure & Hardware",
+          "description": "NVIDIA's next-generation architecture and strategic moves in AI compute",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 70.0
+        },
+        {
+          "name": "AI Business Models",
+          "description": "Evolving monetization strategies for AI services including advertising and tiered subscriptions",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 62.0
+        },
+        {
+          "name": "Enterprise AI Agents",
+          "description": "Application-specific AI agent frameworks for business workflows",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 48.0
+        }
+      ],
+      "top_items": [
+        {
+          "id": "625868bf78d5",
+          "title": "【人工智能】英伟达5000亿豪赌 | Vera Rubin架构 | 10倍性能 | H200重返中国 | 2026人型机器人 | 自动驾驶L4 | 收购Groq | 摩尔定律 | AI工厂",
+          "content": "如果算力成本暴跌90%，AI性能却提升10倍，世界会发生什么？在CES 2026的这场深夜对话中，黄仁勋带着他的类固醇版摩尔定律——Vera Rubin架构震撼登场。本期视频带你直击老黄的万亿美金蓝图，英伟达为何敢豪赌5000亿美金营收？2026年真的是人类水平机器人的元年吗？从H200重返中国，到200亿美金收购Groq，老黄正在下几盘大棋？这不仅是一场关于芯片的升级，更是第四次工业革命的进军号角。",
+          "url": "https://www.youtube.com/watch?v=44VSgxVg-nU",
+          "author": "最佳拍档",
+          "published": "2026-01-17T23:00:08",
+          "source": "最佳拍档",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "YouTube analysis discusses NVIDIA's ambitious roadmap including the Vera Rubin architecture (successor to Blackwell) claiming 10x performance gains and 90% cost reduction. Video also speculates on $500B revenue targets, H200 chips returning to China, and a potential $20B Groq acquisition.",
+          "importance_score": 70.0,
+          "reasoning": "Contains significant NVIDIA hardware roadmap discussion (Vera Rubin architecture is real), but video format mixes confirmed CES announcements with speculation. Groq acquisition claim unverified. Hardware advancement claims are notable if accurate.",
+          "themes": [
+            "GPU/Hardware",
+            "NVIDIA",
+            "AI Infrastructure",
+            "Semiconductor Industry",
+            "China Tech"
+          ],
+          "continuation": null,
+          "summary_html": "<p>YouTube analysis discusses NVIDIA's ambitious roadmap including the Vera Rubin architecture (successor to Blackwell) claiming 10x performance gains and 90% cost reduction. Video also speculates on $500B revenue targets, H200 chips returning to China, and a potential $20B Groq acquisition.</p>",
+          "content_html": "<p>如果算力成本暴跌90%，AI性能却提升10倍，世界会发生什么？在CES 2026的这场深夜对话中，黄仁勋带着他的类固醇版摩尔定律——Vera Rubin架构震撼登场。本期视频带你直击老黄的万亿美金蓝图，英伟达为何敢豪赌5000亿美金营收？2026年真的是人类水平机器人的元年吗？从H200重返中国，到200亿美金收购Groq，老黄正在下几盘大棋？这不仅是一场关于芯片的升级，更是第四次工业革命的进军号角。</p>"
+        },
+        {
+          "id": "9cc6ae061bda",
+          "title": "【商业】ChatGPT启动广告测试 | 8美元Go套餐 | 全球扩张计划 | AGI普惠使命 | 对话式营销 | 隐私保护原则 | OpenAI营收模式 | 订阅制转型 | 互动广告时代 | 搜索革新",
+          "content": "视频制作时间有些仓促，本期的内容大家不要太关注，我主要是想尝试一下新的内容形式😂\n\nhttps://openai.com/index/our-approach-to-advertising-and-expanding-access/",
+          "url": "https://www.youtube.com/watch?v=t16EuZG77bc",
+          "author": "最佳拍档",
+          "published": "2026-01-17T15:40:51",
+          "source": "最佳拍档",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "Building on yesterday's [Reddit](/?date=2026-01-17&category=reddit#item-e7bc2212b7bc) buzz, OpenAI has begun testing advertisements in ChatGPT and launched an $8 'Go' subscription tier as part of global expansion efforts. This represents a significant shift in OpenAI's revenue strategy beyond pure subscription models.",
+          "importance_score": 62.0,
+          "reasoning": "Notable business model evolution for the leading AI company, signaling how frontier AI services may be monetized at scale. Not a technical breakthrough but important industry signal for AI business sustainability.",
+          "themes": [
+            "OpenAI",
+            "Business Models",
+            "AI Monetization",
+            "ChatGPT",
+            "Advertising"
+          ],
+          "continuation": {
+            "original_item_id": "e7bc2212b7bc",
+            "original_date": "2026-01-17",
+            "original_category": "reddit",
+            "original_title": "ChatGPT is getting ads. Sam Altman once called them a 'last resort.'",
+            "continuation_type": "new_development",
+            "should_demote": false,
+            "reference_text": "Building on yesterday's **Reddit** buzz"
+          },
+          "summary_html": "<p>Building on yesterday's <a href=\"/?date=2026-01-17&category=reddit#item-e7bc2212b7bc\" class=\"internal-link\">Reddit</a> buzz, OpenAI has begun testing advertisements in ChatGPT and launched an $8 'Go' subscription tier as part of global expansion efforts. This represents a significant shift in OpenAI's revenue strategy beyond pure subscription models.</p>",
+          "content_html": "<p>视频制作时间有些仓促，本期的内容大家不要太关注，我主要是想尝试一下新的内容形式😂</p>\n<p>https://openai.com/index/our-approach-to-advertising-and-expanding-access/</p>"
+        },
+        {
+          "id": "ecdb3a3cc591",
+          "title": "科大讯飞推出SuperAgent应用框架，驱动营销关系演进至B2A2C丨最前线",
+          "content": "作者丨欧雪\n  编辑丨袁斯来\n  随着AI与营销加速融合，单一功能的Agent已难以满足复杂营销场景需求。\n  在1月15日于深圳举办的2026科大讯飞AIMC全球智能营销生态峰会上，科大讯飞AI营销（AIMarX）正式推出营销SuperAgent应用框架，并发布基于该框架构建的营销智能体平台，提出以“群体智能”驱动营销从“经验驱动”迈向“智能驱动”的行业新范式。\n  “数据割裂正成为AI规模化落地的核心制约。”在会上，AppsFlyer亚太区总裁兼董事总经理Ronen Mense这样指出当前营销行业面临的深层困境。\n  随着营销触点碎片化加剧，即使是头部品牌也发现，他们在不同平台间积累的数据无法打通，导致AI应用始终停留在单点优化阶段。“营销团队比其他职能更容易暴露数据基础的缺陷。”Ronen Mense指出，“数据既受到隐私法规制约，又需要支撑实时决策，这种双重压力使得构建可信、统一的数据基础变得尤为困难。”\n  这种困境在全球化营销中表现得尤为突出。“全球营销的复杂性正呈指数级上升——市场层级多元、文化差异显著、触点高度分散，这些痛点靠人力堆叠已无法应对。”科大讯飞AI营销业务群副总裁、营销方案业务部总经理王云霞表示。\n  “AI正从一个‘功能’进化为‘底层架构’。”科大讯飞高级副总裁、消费者BG总裁于继栋强调。这一转变要求技术必须更加务实，只有真正解决实际业务痛点，才能推动行业转型。\n  在峰会讨论中，36氪发现，一个共识正在形成：单一技术突破已不足以解决系统性问题。行业需要的是生态级的重构。\n  这种重构首先体现在协作方式的改变上。传统营销往往存在部门壁垒——数据分析、内容创意、媒介投放各自为政。而智能营销时代，需要的是跨职能的协同工作流。“优化师能快速定位策略问题，创意团队能知道哪个素材跑得好，这种统一视角正在改变传统的协作模式。”王云霞指出。\n  更深层的变革在于价值衡量体系的重建。当62%的用户在获取AI答案后不再点击传统链接，传统的点击率、转化率等指标已无法全面反映营销效果。行业需要建立新的度量标准，能够衡量品牌与消费者之间建立的长期信任和价值连接。\n  此外，科大讯飞副总裁、AI营销业务群总裁李平在峰会中提出了一个前瞻判断：SuperAgent将驱动营销关系从B2C（Brand to Consumer）演进至B2A2C（Brand to Agent to Consumer）。在此模式下，AI不再仅是品牌的提效工具，更成为连接品牌与消费者的智能桥梁。",
+          "url": "https://36kr.com/p/3642948995862405?f=rss",
+          "author": "Unknown",
+          "published": "2026-01-17T03:19:37",
+          "source": "36氪",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "iFlytek launched SuperAgent, a marketing AI agent framework enabling 'collective intelligence' for complex B2A2C marketing scenarios. The platform addresses data fragmentation challenges across global marketing campaigns.",
+          "importance_score": 48.0,
+          "reasoning": "Incremental enterprise AI application focused on marketing vertical from major Chinese AI company. Useful industry development but represents applied AI rather than frontier capability advancement.",
+          "themes": [
+            "AI Agents",
+            "Marketing AI",
+            "Enterprise AI",
+            "iFlytek",
+            "China AI"
+          ],
+          "continuation": null,
+          "summary_html": "<p>iFlytek launched SuperAgent, a marketing AI agent framework enabling 'collective intelligence' for complex B2A2C marketing scenarios. The platform addresses data fragmentation challenges across global marketing campaigns.</p>",
+          "content_html": "<p>作者丨欧雪</p>\n<p>编辑丨袁斯来</p>\n<p>随着AI与营销加速融合，单一功能的Agent已难以满足复杂营销场景需求。</p>\n<p>在1月15日于深圳举办的2026科大讯飞AIMC全球智能营销生态峰会上，科大讯飞AI营销（AIMarX）正式推出营销SuperAgent应用框架，并发布基于该框架构建的营销智能体平台，提出以“群体智能”驱动营销从“经验驱动”迈向“智能驱动”的行业新范式。</p>\n<p>“数据割裂正成为AI规模化落地的核心制约。”在会上，AppsFlyer亚太区总裁兼董事总经理Ronen Mense这样指出当前营销行业面临的深层困境。</p>\n<p>随着营销触点碎片化加剧，即使是头部品牌也发现，他们在不同平台间积累的数据无法打通，导致AI应用始终停留在单点优化阶段。“营销团队比其他职能更容易暴露数据基础的缺陷。”Ronen Mense指出，“数据既受到隐私法规制约，又需要支撑实时决策，这种双重压力使得构建可信、统一的数据基础变得尤为困难。”</p>\n<p>这种困境在全球化营销中表现得尤为突出。“全球营销的复杂性正呈指数级上升——市场层级多元、文化差异显著、触点高度分散，这些痛点靠人力堆叠已无法应对。”科大讯飞AI营销业务群副总裁、营销方案业务部总经理王云霞表示。</p>\n<p>“AI正从一个‘功能’进化为‘底层架构’。”科大讯飞高级副总裁、消费者BG总裁于继栋强调。这一转变要求技术必须更加务实，只有真正解决实际业务痛点，才能推动行业转型。</p>\n<p>在峰会讨论中，36氪发现，一个共识正在形成：单一技术突破已不足以解决系统性问题。行业需要的是生态级的重构。</p>\n<p>这种重构首先体现在协作方式的改变上。传统营销往往存在部门壁垒——数据分析、内容创意、媒介投放各自为政。而智能营销时代，需要的是跨职能的协同工作流。“优化师能快速定位策略问题，创意团队能知道哪个素材跑得好，这种统一视角正在改变传统的协作模式。”王云霞指出。</p>\n<p>更深层的变革在于价值衡量体系的重建。当62%的用户在获取AI答案后不再点击传统链接，传统的点击率、转化率等指标已无法全面反映营销效果。行业需要建立新的度量标准，能够衡量品牌与消费者之间建立的长期信任和价值连接。</p>\n<p>此外，科大讯飞副总裁、AI营销业务群总裁李平在峰会中提出了一个前瞻判断：SuperAgent将驱动营销关系从B2C（Brand to Consumer）演进至B2A2C（Brand to Agent to Consumer）。在此模式下，AI不再仅是品牌的提效工具，更成为连接品牌与消费者的智能桥梁。</p>"
+        }
+      ]
+    },
+    "research": {
+      "count": 0,
+      "category_summary": "No items to analyze.",
+      "category_summary_html": "<p>No items to analyze.</p>",
+      "themes": [],
+      "top_items": []
+    },
+    "social": {
+      "count": 6,
+      "category_summary": "A light day for AI content, with only one substantive AI-related post in the feed.\n\n- **Ethan Mollick** continues his 'AI game demo a day' experiment, [showcasing a satirical game](/?date=2026-01-18&category=social#item-01cd1b7d34c9) where players prevent apocalypse by managing Jira tickets—highlighting AI's creative prototyping capabilities\n\n**Simon Willison** [shared an off-topic thread](/?date=2026-01-18&category=social#item-d559c3018a33) celebrating **LaRussell's** community music collaborations with Bay Area high schools, unrelated to AI/ML developments.",
+      "category_summary_html": "<p>A light day for AI content, with only one substantive AI-related post in the feed.</p>\n<ul>\n<li><strong>Ethan Mollick</strong> continues his 'AI game demo a day' experiment, <a href=\"/?date=2026-01-18&category=social#item-01cd1b7d34c9\" class=\"internal-link\">showcasing a satirical game</a> where players prevent apocalypse by managing Jira tickets—highlighting AI's creative prototyping capabilities</li>\n</ul>\n<p><strong>Simon Willison</strong> <a href=\"/?date=2026-01-18&category=social#item-d559c3018a33\" class=\"internal-link\">shared an off-topic thread</a> celebrating <strong>LaRussell's</strong> community music collaborations with Bay Area high schools, unrelated to AI/ML developments.</p>",
+      "themes": [
+        {
+          "name": "AI-assisted creativity",
+          "description": "Using AI tools for creative content generation including game development and storytelling",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 72
+        },
+        {
+          "name": "off-topic",
+          "description": "Posts not related to AI/ML - in this case, local music/school collaboration content",
+          "item_count": 5,
+          "example_items": [],
+          "importance": 5
+        }
+      ],
+      "top_items": [
+        {
+          "id": "01cd1b7d34c9",
+          "title": "Continuing to have AI build a weird game demo a day. Here is: \"Make a game where you have to prevent...",
+          "content": "Continuing to have AI build a weird game demo a day. Here is: \"Make a game where you have to prevent the apocalypse, but the interface is just Jira tickets\"\n\nPretty fun/funny branching storyline, all text is AI created with minor feedback from me. Play: gentle-bienenstitch-01e24b.netlify.app",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mcndm53afk2a",
+          "author": "@emollick.bsky.social",
+          "published": "2026-01-17T19:23:23.333000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Continuing our coverage from [yesterday](/?date=2026-01-17&category=social#item-85d3dfe3a93b), Ethan Mollick shares his ongoing 'AI game demo a day' experiment - a satirical game where players prevent the apocalypse by managing Jira tickets. All game text is AI-generated with minimal human feedback, hosted as a playable demo.",
+          "importance_score": 72,
+          "reasoning": "Ethan Mollick is a highly credible AI researcher/Wharton professor known for practical AI experimentation. Solid engagement (105 likes). Demonstrates creative AI-assisted development workflows and rapid prototyping capabilities. Not technically deep but shows practical generative AI applications.",
+          "themes": [
+            "AI-assisted creativity",
+            "generative AI applications",
+            "rapid prototyping",
+            "AI experimentation"
+          ],
+          "continuation": {
+            "original_item_id": "85d3dfe3a93b",
+            "original_date": "2026-01-17",
+            "original_category": "social",
+            "original_title": "\"Claude Code, make me a version of the 1984 abandonware Apple IIe game Rescue Raiders, look it up\"",
+            "continuation_type": "follow_up",
+            "should_demote": false,
+            "reference_text": "Continuing our coverage from yesterday"
+          },
+          "summary_html": "<p>Continuing our coverage from <a href=\"/?date=2026-01-17&category=social#item-85d3dfe3a93b\" class=\"internal-link\">yesterday</a>, Ethan Mollick shares his ongoing 'AI game demo a day' experiment - a satirical game where players prevent the apocalypse by managing Jira tickets. All game text is AI-generated with minimal human feedback, hosted as a playable demo.</p>",
+          "content_html": "<p>Continuing to have AI build a weird game demo a day. Here is: \"Make a game where you have to prevent the apocalypse, but the interface is just Jira tickets\"</p>\n<p>Pretty fun/funny branching storyline, all text is AI created with minor feedback from me. Play: gentle-bienenstitch-01e24b.netlify.app</p>"
+        },
+        {
+          "id": "d559c3018a33",
+          "title": "Bay Area musician LaRussell has been doing a series of collaborations with local schools turning aro...",
+          "content": "Bay Area musician LaRussell has been doing a series of collaborations with local schools turning around full music videos and they're pretty amazing, here's the latest with San Leandro High School www.tiktok.com/@larussellgc...",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcnoimjel22r",
+          "author": "@simonwillison.net",
+          "published": "2026-01-17T22:38:16.465000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Simon Willison introduces a thread about Bay Area musician LaRussell's school music video collaboration series, starting with San Leandro High School.",
+          "importance_score": 8,
+          "reasoning": "Off-topic for AI/ML analysis. While from a credible tech figure, this is community/arts content about local musician collaborations with schools. No AI relevance despite moderate engagement (22 likes).",
+          "themes": [
+            "off-topic"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Simon Willison introduces a thread about Bay Area musician LaRussell's school music video collaboration series, starting with San Leandro High School.</p>",
+          "content_html": "<p>Bay Area musician LaRussell has been doing a series of collaborations with local schools turning around full music videos and they're pretty amazing, here's the latest with San Leandro High School www.tiktok.com/@larussellgc...</p>"
+        },
+        {
+          "id": "0822148dca48",
+          "title": "James Logan High School (Union City) www.tiktok.com/@larussellgc...",
+          "content": "James Logan High School (Union City) www.tiktok.com/@larussellgc...",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcnpc2orkk2r",
+          "author": "@simonwillison.net",
+          "published": "2026-01-17T22:52:30.186000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Simon Willison shares a TikTok link about James Logan High School music collaboration.",
+          "importance_score": 5,
+          "reasoning": "Off-topic for AI/ML. Despite credible author (Simon Willison), this is about a musician's school collaboration project, not technology or AI. Low engagement, no AI relevance.",
+          "themes": [
+            "off-topic"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Simon Willison shares a TikTok link about James Logan High School music collaboration.</p>",
+          "content_html": "<p>James Logan High School (Union City) www.tiktok.com/@larussellgc...</p>"
+        },
+        {
+          "id": "da27fe7c235d",
+          "title": "Tennyson High School (in Hayward) www.tiktok.com/@larussellgc...",
+          "content": "Tennyson High School (in Hayward) www.tiktok.com/@larussellgc...",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcnp6obe322r",
+          "author": "@simonwillison.net",
+          "published": "2026-01-17T22:50:36.501000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Simon Willison shares a TikTok link about Tennyson High School music collaboration.",
+          "importance_score": 5,
+          "reasoning": "Off-topic for AI/ML. Part of thread about local school music videos. No AI/tech content.",
+          "themes": [
+            "off-topic"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Simon Willison shares a TikTok link about Tennyson High School music collaboration.</p>",
+          "content_html": "<p>Tennyson High School (in Hayward) www.tiktok.com/@larussellgc...</p>"
+        },
+        {
+          "id": "97c6e4d8f454",
+          "title": "El Cerrito High School www.tiktok.com/@larussellgc...",
+          "content": "El Cerrito High School www.tiktok.com/@larussellgc...",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcnp266tws2r",
+          "author": "@simonwillison.net",
+          "published": "2026-01-17T22:48:05.424000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Simon Willison shares a TikTok link about El Cerrito High School music collaboration.",
+          "importance_score": 5,
+          "reasoning": "Off-topic for AI/ML. Part of thread about local school music videos. No AI/tech content.",
+          "themes": [
+            "off-topic"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Simon Willison shares a TikTok link about El Cerrito High School music collaboration.</p>",
+          "content_html": "<p>El Cerrito High School www.tiktok.com/@larussellgc...</p>"
+        },
+        {
+          "id": "a04d977d2121",
+          "title": "Pittsburgh High School www.tiktok.com/@larussellgc...",
+          "content": "Pittsburgh High School www.tiktok.com/@larussellgc...",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcnoyqpsg22r",
+          "author": "@simonwillison.net",
+          "published": "2026-01-17T22:47:17.745000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Simon Willison shares a TikTok link about Pittsburgh High School music collaboration.",
+          "importance_score": 5,
+          "reasoning": "Off-topic for AI/ML. Part of thread about local school music videos. No AI/tech content.",
+          "themes": [
+            "off-topic"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Simon Willison shares a TikTok link about Pittsburgh High School music collaboration.</p>",
+          "content_html": "<p>Pittsburgh High School www.tiktok.com/@larussellgc...</p>"
+        }
+      ]
+    },
+    "reddit": {
+      "count": 30,
+      "category_summary": "**r/LocalLLaMA** dominated with a standout [**quad AMD R9700 128GB VRAM server build**](/?date=2026-01-18&category=reddit#item-880a79156a7d) featuring detailed benchmarks and hardware lessons. **MCP protocol adoption** accelerated as **KoboldCpp v1.106** [added native server support](/?date=2026-01-18&category=reddit#item-b7b086aafa29) as a Claude Desktop drop-in replacement.\n\n- **Adaptive-K routing** research [achieved **30-52% compute savings**](/?date=2026-01-18&category=reddit#item-4552601fff42) on MoE models (Mixtral, Qwen, OLMoE) with code, paper, and TensorRT-LLM PR released\n- **Qwen 4** [development delayed](/?date=2026-01-18&category=reddit#item-56ac24f0407a) as lead dev prioritizes quality over speed—community debating open-source pacing\n- **China's AGI-NEXT Conference** transcript [offered rare primary-source insight](/?date=2026-01-18&category=reddit#item-d49d03faa7c0) into Qwen, Kimi, and Tencent's AGI strategies\n\n**OpenAI** faced backlash over [upcoming **ChatGPT ads**](/?date=2026-01-18&category=reddit#item-ba8585ca6e30) (178 comments, highest engagement) while [**Codex scaling claims**](/?date=2026-01-18&category=reddit#item-bcbfe7412502) drew skepticism. Educational content thrived with deep technical breakdowns of [**Mamba's delta-gating mechanism**](/?date=2026-01-18&category=reddit#item-159b0a64323f) and [**speculative decoding**](/?date=2026-01-18&category=reddit#item-d9fc7b98fd1c) internals—filling gaps for ML practitioners.",
+      "category_summary_html": "<p><strong>r/LocalLLaMA</strong> dominated with a standout <a href=\"/?date=2026-01-18&category=reddit#item-880a79156a7d\" class=\"internal-link\"><strong>quad AMD R9700 128GB VRAM server build</strong></a> featuring detailed benchmarks and hardware lessons. <strong>MCP protocol adoption</strong> accelerated as <strong>KoboldCpp v1.106</strong> <a href=\"/?date=2026-01-18&category=reddit#item-b7b086aafa29\" class=\"internal-link\">added native server support</a> as a Claude Desktop drop-in replacement.</p>\n<ul>\n<li><strong>Adaptive-K routing</strong> research <a href=\"/?date=2026-01-18&category=reddit#item-4552601fff42\" class=\"internal-link\">achieved <strong>30-52% compute savings</strong></a> on MoE models (Mixtral, Qwen, OLMoE) with code, paper, and TensorRT-LLM PR released</li>\n<li><strong>Qwen 4</strong> <a href=\"/?date=2026-01-18&category=reddit#item-56ac24f0407a\" class=\"internal-link\">development delayed</a> as lead dev prioritizes quality over speed—community debating open-source pacing</li>\n<li><strong>China's AGI-NEXT Conference</strong> transcript <a href=\"/?date=2026-01-18&category=reddit#item-d49d03faa7c0\" class=\"internal-link\">offered rare primary-source insight</a> into Qwen, Kimi, and Tencent's AGI strategies</li>\n</ul>\n<p><strong>OpenAI</strong> faced backlash over <a href=\"/?date=2026-01-18&category=reddit#item-ba8585ca6e30\" class=\"internal-link\">upcoming <strong>ChatGPT ads</strong></a> (178 comments, highest engagement) while <a href=\"/?date=2026-01-18&category=reddit#item-bcbfe7412502\" class=\"internal-link\"><strong>Codex scaling claims</strong></a> drew skepticism. Educational content thrived with deep technical breakdowns of <a href=\"/?date=2026-01-18&category=reddit#item-159b0a64323f\" class=\"internal-link\"><strong>Mamba's delta-gating mechanism</strong></a> and <a href=\"/?date=2026-01-18&category=reddit#item-d9fc7b98fd1c\" class=\"internal-link\"><strong>speculative decoding</strong></a> internals—filling gaps for ML practitioners.</p>",
+      "themes": [
+        {
+          "name": "Hardware & Infrastructure",
+          "description": "GPU builds, VRAM optimization, server setups, and hardware modifications for local inference",
+          "item_count": 12,
+          "example_items": [],
+          "importance": 85
+        },
+        {
+          "name": "ChatGPT Monetization & Ads",
+          "description": "Multiple posts discussing OpenAI's introduction of ads to ChatGPT, pricing concerns, and monetization strategy implications for user experience",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 85
+        },
+        {
+          "name": "Open Source Models & Releases",
+          "description": "Model releases, fine-tunes, Qwen updates, and specialized domain models",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 78
+        },
+        {
+          "name": "OpenAI Business & Financial Health",
+          "description": "Discussions about OpenAI's cash runway, potential financial troubles by 2027, revenue pressures, and corporate structure changes",
+          "item_count": 5,
+          "example_items": [],
+          "importance": 78
+        },
+        {
+          "name": "MCP Protocol Adoption",
+          "description": "Model Context Protocol servers, integrations (KoboldCpp, Ollama), and tooling ecosystem expansion",
+          "item_count": 7,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "OpenAI Monetization & Ads",
+          "description": "Significant user concern and discussion about OpenAI introducing ads to ChatGPT, user responses ranging from boycotts to switching platforms",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "Inference Optimization",
+          "description": "Speculative decoding, MoE routing efficiency, quantization, and memory-bound optimization techniques",
+          "item_count": 9,
+          "example_items": [],
+          "importance": 72
+        },
+        {
+          "name": "Educational Content",
+          "description": "Technical deep-dives, implementation tutorials, architecture explanations (Mamba, transformers)",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 70
+        },
+        {
+          "name": "Agent Development",
+          "description": "Autonomous agents, orchestration frameworks, computer control, and agentic coding tools",
+          "item_count": 14,
+          "example_items": [],
+          "importance": 68
+        },
+        {
+          "name": "Industry News & Business",
+          "description": "OpenAI ads, China AGI conference, Qwen development pace, cost analyses",
+          "item_count": 6,
+          "example_items": [],
+          "importance": 65
+        }
+      ],
+      "top_items": [
+        {
+          "id": "880a79156a7d",
+          "title": "128GB VRAM quad R9700 server",
+          "content": "This is a sequel to my [previous thread](https://www.reddit.com/r/LocalLLaMA/comments/1fqwrvg/64gb_vram_dual_mi100_server/) from 2024.\n\nI originally planned to pick up another pair of MI100s and an Infinity Fabric Bridge, and I picked up a lot of hardware upgrades over the course of 2025 in preparation for this. Notably, faster, double capacity memory (last February, well before the current price jump), another motherboard, higher capacity PSU, etc. But then I saw benchmarks for the R9700, particularly in the [llama.cpp ROCm thread](https://github.com/ggml-org/llama.cpp/discussions/15021), and saw the much better prompt processing performance for a small token generation loss. The MI100 also went up in price to about $1000, so factoring in the cost of a bridge, it'd come to about the same...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qfscp5/128gb_vram_quad_r9700_server/",
+          "author": "u/Ulterior-Motive_",
+          "published": "2026-01-17T15:30:26",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Discussion"
+          ],
+          "summary": "Detailed build showcase of a 128GB VRAM server using quad AMD R9700 GPUs, including hardware choices, benchmarks, and lessons from previous MI100 build",
+          "importance_score": 85,
+          "reasoning": "Highest engagement in batch (379 upvotes, 87 comments). Detailed technical content, practical hardware guide, valuable for local LLM community",
+          "themes": [
+            "hardware",
+            "AMD-GPUs",
+            "server-builds"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Detailed build showcase of a 128GB VRAM server using quad AMD R9700 GPUs, including hardware choices, benchmarks, and lessons from previous MI100 build</p>",
+          "content_html": "<p>This is a sequel to my <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1fqwrvg/64gb_vram_dual_mi100_server/\" target=\"_blank\" rel=\"noopener noreferrer\">previous thread</a> from 2024.</p>\n<p>I originally planned to pick up another pair of MI100s and an Infinity Fabric Bridge, and I picked up a lot of hardware upgrades over the course of 2025 in preparation for this. Notably, faster, double capacity memory (last February, well before the current price jump), another motherboard, higher capacity PSU, etc. But then I saw benchmarks for the R9700, particularly in the <a href=\"https://github.com/ggml-org/llama.cpp/discussions/15021\" target=\"_blank\" rel=\"noopener noreferrer\">llama.cpp ROCm thread</a>, and saw the much better prompt processing performance for a small token generation loss. The MI100 also went up in price to about $1000, so factoring in the cost of a bridge, it'd come to about the same...</p>"
+        },
+        {
+          "id": "4552601fff42",
+          "title": "I built Adaptive-K routing: 30-52% compute savings on MoE models (Mixtral, Qwen, OLMoE)",
+          "content": "Links\n\nGitHub: [https://github.com/Gabrobals/sbm-efficient](https://github.com/Gabrobals/sbm-efficient)\n\nWhitepaper: [https://adaptive-k.vercel.app/whitepaper.html](https://adaptive-k.vercel.app/whitepaper.html)\n\nTensorRT-LLM PR: [https://github.com/NVIDIA/TensorRT-LLM/pull/10672](https://github.com/NVIDIA/TensorRT-LLM/pull/10672)\n\nLive demo: [https://huggingface.co/spaces/Gabrobals/adaptive-k-demo](https://huggingface.co/spaces/Gabrobals/adaptive-k-demo)\n\n\n\nHappy to answer questions or discuss implementation details!",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qff481/i_built_adaptivek_routing_3052_compute_savings_on/",
+          "author": "u/Fuzzy_Ad_1390",
+          "published": "2026-01-17T06:50:29",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Resources"
+          ],
+          "summary": "Release of Adaptive-K routing achieving 30-52% compute savings on MoE models (Mixtral, Qwen, OLMoE) with GitHub, whitepaper, and TensorRT-LLM PR",
+          "importance_score": 75,
+          "reasoning": "Significant efficiency improvement with comprehensive materials (code, paper, PR). Well-documented research contribution",
+          "themes": [
+            "MoE",
+            "optimization",
+            "research",
+            "efficiency"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Release of Adaptive-K routing achieving 30-52% compute savings on MoE models (Mixtral, Qwen, OLMoE) with GitHub, whitepaper, and TensorRT-LLM PR</p>",
+          "content_html": "<p>Links</p>\n<p>GitHub: <a href=\"https://github.com/Gabrobals/sbm-efficient\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/Gabrobals/sbm-efficient</a></p>\n<p>Whitepaper: <a href=\"https://adaptive-k.vercel.app/whitepaper.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://adaptive-k.vercel.app/whitepaper.html</a></p>\n<p>TensorRT-LLM PR: <a href=\"https://github.com/NVIDIA/TensorRT-LLM/pull/10672\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/NVIDIA/TensorRT-LLM/pull/10672</a></p>\n<p>Live demo: <a href=\"https://huggingface.co/spaces/Gabrobals/adaptive-k-demo\" target=\"_blank\" rel=\"noopener noreferrer\">https://huggingface.co/spaces/Gabrobals/adaptive-k-demo</a></p>\n<p>Happy to answer questions or discuss implementation details!</p>"
+        },
+        {
+          "id": "d49d03faa7c0",
+          "title": "China's AGI-NEXT Conference (Qwen, Kimi, Zhipu, Tencent)",
+          "content": "Someone else posted about this, but never posted a transcript, so I found one online.\n\nLot of interesting stuff about China vs US, paths to AGI, compute, marketing etc.\n\nUnfortunately Moonshot seems to have a very short section. ",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qfmc05/chinas_aginext_conference_qwen_kimi_zhipu_tencent/",
+          "author": "u/nuclearbananana",
+          "published": "2026-01-17T11:25:24",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Discussion"
+          ],
+          "summary": "Transcript shared from China's AGI-NEXT Conference featuring Qwen, Kimi, Zhipu, and Tencent discussing paths to AGI, compute, and US-China dynamics",
+          "importance_score": 75,
+          "reasoning": "Valuable primary source on Chinese AI development strategy. Good engagement (97 upvotes, 20 comments). Industry intelligence",
+          "themes": [
+            "china-AI",
+            "industry-news",
+            "AGI",
+            "conferences"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Transcript shared from China's AGI-NEXT Conference featuring Qwen, Kimi, Zhipu, and Tencent discussing paths to AGI, compute, and US-China dynamics</p>",
+          "content_html": "<p>Someone else posted about this, but never posted a transcript, so I found one online.</p>\n<p>Lot of interesting stuff about China vs US, paths to AGI, compute, marketing etc.</p>\n<p>Unfortunately Moonshot seems to have a very short section.</p>"
+        },
+        {
+          "id": "56ac24f0407a",
+          "title": "Qwen 4 might be a long way off !? Lead Dev says they are \"slowing down\" to focus on quality.",
+          "content": "",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qfv1ms/qwen_4_might_be_a_long_way_off_lead_dev_says_they/",
+          "author": "u/Difficult-Cap-7527",
+          "published": "2026-01-17T17:28:57",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Discussion"
+          ],
+          "summary": "News that Qwen 4 development is being delayed as the lead developer announces focus on quality over speed",
+          "importance_score": 82,
+          "reasoning": "Highly significant industry news for open-source LLM community. Very high engagement (301 upvotes, 50 comments). Impacts model release expectations",
+          "themes": [
+            "open-source-models",
+            "qwen",
+            "industry-news"
+          ],
+          "continuation": null,
+          "summary_html": "<p>News that Qwen 4 development is being delayed as the lead developer announces focus on quality over speed</p>",
+          "content_html": ""
+        },
+        {
+          "id": "b7b086aafa29",
+          "title": "KoboldCpp v1.106 finally adds MCP server support, drop-in replacement for Claude Desktop",
+          "content": "So, it's been a hot minute, but I thought I'd share this here since it's quite a big new feature. \n\nYes, KoboldCpp is still alive and kicking. And besides the major UI overhaul, we've finally added native MCP support in KoboldCpp v1.106! It's designed to be a painless Claude Desktop drop-in replacement with maximum compatibility, the `mcp.json` uses the same  format so you can swap it in easily. \n\nThe KoboldCpp MCP bridge will connect to all provided MCP servers (HTTP and STDIO transports both supported) and automatically forward requests for tools the AI selects to the correct MCP server. This MCP bridge can also be used by third party clients.\n\nOn the frontend side, you can fetch the list of all tools from all servers, select the tools you want to let AI use, and optionally enable tool...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qfb0gk/koboldcpp_v1106_finally_adds_mcp_server_support/",
+          "author": "u/HadesThrowaway",
+          "published": "2026-01-17T03:35:11",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Resources"
+          ],
+          "summary": "KoboldCpp v1.106 adds native MCP server support as drop-in Claude Desktop replacement with same config format",
+          "importance_score": 78,
+          "reasoning": "Major feature release for popular local inference tool. High engagement (96 upvotes, 21 comments). Practical integration",
+          "themes": [
+            "koboldcpp",
+            "MCP",
+            "tool-release"
+          ],
+          "continuation": null,
+          "summary_html": "<p>KoboldCpp v1.106 adds native MCP server support as drop-in Claude Desktop replacement with same config format</p>",
+          "content_html": "<p>So, it's been a hot minute, but I thought I'd share this here since it's quite a big new feature.</p>\n<p>Yes, KoboldCpp is still alive and kicking. And besides the major UI overhaul, we've finally added native MCP support in KoboldCpp v1.106! It's designed to be a painless Claude Desktop drop-in replacement with maximum compatibility, the `mcp.json` uses the same  format so you can swap it in easily.</p>\n<p>The KoboldCpp MCP bridge will connect to all provided MCP servers (HTTP and STDIO transports both supported) and automatically forward requests for tools the AI selects to the correct MCP server. This MCP bridge can also be used by third party clients.</p>\n<p>On the frontend side, you can fetch the list of all tools from all servers, select the tools you want to let AI use, and optionally enable tool...</p>"
+        },
+        {
+          "id": "159b0a64323f",
+          "title": "I spent the last week deconstructing the math behind Mamba’s \"Selection Mechanism\" (Delta-Gating). Here is the intuition + derivation.",
+          "content": "Like many of you, I’ve been fascinated by how Mamba challenges the Transformer architecture. However, while the high-level concept (Selective State Spaces) makes sense, I found the actual mathematical bridge—specifically how the continuous-time system is discretized using the \"Delta\" parameter to become input-dependent—pretty dense in the original paper.\n\nI decided to break it down step-by-step to really understand the \"proof\" behind the intuition.\n\n**The Core Insight:** The magic lies in how `Delta` acts as a gatekeeper. In standard SSMs, the transition is constant (Linear Time Invariant). In Mamba, `Delta` becomes a function of the input `x_t`.\n\n* **Intuitively:** It dictates how much of the *current* input affects the *new* state versus how much of the *old* state is preserved.\n*...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qf8tpd/i_spent_the_last_week_deconstructing_the_math/",
+          "author": "u/No_Ask_1623",
+          "published": "2026-01-17T01:23:17",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Resources"
+          ],
+          "summary": "Deep technical breakdown of Mamba's selection mechanism (Delta-gating), explaining the discretization math connecting continuous-time systems to input-dependent processing",
+          "importance_score": 70,
+          "reasoning": "High educational value explaining complex architecture. Well-written technical content on emerging alternative to transformers",
+          "themes": [
+            "mamba",
+            "architecture",
+            "education",
+            "technical-deep-dive"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Deep technical breakdown of Mamba's selection mechanism (Delta-gating), explaining the discretization math connecting continuous-time systems to input-dependent processing</p>",
+          "content_html": "<p>Like many of you, I’ve been fascinated by how Mamba challenges the Transformer architecture. However, while the high-level concept (Selective State Spaces) makes sense, I found the actual mathematical bridge—specifically how the continuous-time system is discretized using the \"Delta\" parameter to become input-dependent—pretty dense in the original paper.</p>\n<p>I decided to break it down step-by-step to really understand the \"proof\" behind the intuition.</p>\n<p><strong>The Core Insight:</strong> The magic lies in how `Delta` acts as a gatekeeper. In standard SSMs, the transition is constant (Linear Time Invariant). In Mamba, `Delta` becomes a function of the input `x_t`.</p>\n<p>* <strong>Intuitively:</strong> It dictates how much of the *current* input affects the *new* state versus how much of the *old* state is preserved.</p>\n<p>*...</p>"
+        },
+        {
+          "id": "1e1c84697c80",
+          "title": "[P] Progressive coding exercises for transformer internals",
+          "content": "For a while I've been looking for a good format to practice implementing ML algorithms. LeetCode feels too disconnected from real work, but in actual projects you just use existing libraries. What worked for me was breaking real algorithms into progressive steps and implementing them piece by piece.\n\nI've been using this approach for myself, and recently decided to clean up some of it with tests and hints in case others find it useful. Currently covers: attention, BPE tokenization, beam search variants, and RoPE.\n\nCurious if others have found similar formats helpful, or what primitives would be worth adding.",
+          "url": "https://reddit.com/r/MachineLearning/comments/1qf80mh/p_progressive_coding_exercises_for_transformer/",
+          "author": "u/randmusr66",
+          "published": "2026-01-17T00:33:24",
+          "source": "r/MachineLearning",
+          "source_type": "reddit",
+          "tags": [
+            "Project"
+          ],
+          "summary": "Author shares progressive coding exercises for learning transformer internals (attention, BPE tokenization, beam search) with tests and hints",
+          "importance_score": 72,
+          "reasoning": "High educational value for ML practitioners. Fills gap between LeetCode and production code. Practical learning resource",
+          "themes": [
+            "education",
+            "transformers",
+            "implementation"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Author shares progressive coding exercises for learning transformer internals (attention, BPE tokenization, beam search) with tests and hints</p>",
+          "content_html": "<p>For a while I've been looking for a good format to practice implementing ML algorithms. LeetCode feels too disconnected from real work, but in actual projects you just use existing libraries. What worked for me was breaking real algorithms into progressive steps and implementing them piece by piece.</p>\n<p>I've been using this approach for myself, and recently decided to clean up some of it with tests and hints in case others find it useful. Currently covers: attention, BPE tokenization, beam search variants, and RoPE.</p>\n<p>Curious if others have found similar formats helpful, or what primitives would be worth adding.</p>"
+        },
+        {
+          "id": "d9fc7b98fd1c",
+          "title": "Speculative Decoding: Turning Memory-Bound Inference into Compute-Bound Verification (Step-by-Step)",
+          "content": "Most of us assume LLM inference is slow because \"matrix multiplication is hard.\" That’s actually false.\n\nFor a batch size of 1 (which is standard for local inference/chat), your GPU is almost entirely **Memory Bandwidth Bound**. The bottleneck isn't doing the math; it's moving the 70GB+ of weights from VRAM to the compute units. The Arithmetic Logic Units (ALUs) are spending most of their time idle, waiting for data.\n\n**Speculative Decoding** exploits this idle time to give us a \"free lunch\"—2x-3x speedups with **mathematically identical** outputs.\n\nHere is the core mechanism derived step-by-step:\n\n1. The Setup: Drafter vs. Target\n\nWe use a tiny \"Drafter\" model (e.g., a 100M param model) alongside our massive \"Target\" model (e.g., Llama-70B).\n\n* The Drafter is cheap to run. It quickly...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qg2592/speculative_decoding_turning_memorybound/",
+          "author": "u/No_Ask_1623",
+          "published": "2026-01-17T23:24:22",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Tutorial | Guide"
+          ],
+          "summary": "Educational explanation of speculative decoding, explaining why LLM inference is memory-bound not compute-bound and how speculative decoding exploits idle GPU time",
+          "importance_score": 72,
+          "reasoning": "High educational value with step-by-step technical explanation. Corrects common misconception about inference bottlenecks",
+          "themes": [
+            "education",
+            "inference-optimization",
+            "speculative-decoding"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Educational explanation of speculative decoding, explaining why LLM inference is memory-bound not compute-bound and how speculative decoding exploits idle GPU time</p>",
+          "content_html": "<p>Most of us assume LLM inference is slow because \"matrix multiplication is hard.\" That’s actually false.</p>\n<p>For a batch size of 1 (which is standard for local inference/chat), your GPU is almost entirely <strong>Memory Bandwidth Bound</strong>. The bottleneck isn't doing the math; it's moving the 70GB+ of weights from VRAM to the compute units. The Arithmetic Logic Units (ALUs) are spending most of their time idle, waiting for data.</p>\n<p><strong>Speculative Decoding</strong> exploits this idle time to give us a \"free lunch\"—2x-3x speedups with <strong>mathematically identical</strong> outputs.</p>\n<p>Here is the core mechanism derived step-by-step:</p>\n<p>1. The Setup: Drafter vs. Target</p>\n<p>We use a tiny \"Drafter\" model (e.g., a 100M param model) alongside our massive \"Target\" model (e.g., Llama-70B).</p>\n<p>* The Drafter is cheap to run. It quickly...</p>"
+        },
+        {
+          "id": "bcbfe7412502",
+          "title": "OpenAI engineer says Codex is scaling compute at an unprecedented pace in 2026",
+          "content": "",
+          "url": "https://reddit.com/r/OpenAI/comments/1qfhttf/openai_engineer_says_codex_is_scaling_compute_at/",
+          "author": "u/BuildwithVignesh",
+          "published": "2026-01-17T08:36:03",
+          "source": "r/OpenAI",
+          "source_type": "reddit",
+          "tags": [
+            "News"
+          ],
+          "summary": "OpenAI engineer reportedly states Codex is scaling compute at unprecedented pace in 2026, indicating major infrastructure investments for AI coding tools",
+          "importance_score": 82,
+          "reasoning": "High engagement (142 upvotes, 50 comments) with important technical news about OpenAI's scaling efforts and compute infrastructure plans.",
+          "themes": [
+            "compute_scaling",
+            "codex",
+            "technical_infrastructure"
+          ],
+          "continuation": null,
+          "summary_html": "<p>OpenAI engineer reportedly states Codex is scaling compute at unprecedented pace in 2026, indicating major infrastructure investments for AI coding tools</p>",
+          "content_html": ""
+        },
+        {
+          "id": "ba8585ca6e30",
+          "title": "The upcoming ads to ChatGPT take up almost half of the screen",
+          "content": "",
+          "url": "https://reddit.com/r/OpenAI/comments/1qfbqg3/the_upcoming_ads_to_chatgpt_take_up_almost_half/",
+          "author": "u/AloneCoffee4538",
+          "published": "2026-01-17T04:14:53",
+          "source": "r/OpenAI",
+          "source_type": "reddit",
+          "tags": [
+            "News"
+          ],
+          "summary": "Continuing our coverage from [yesterday](/?date=2026-01-17&category=reddit#item-f7cbe9a89e86), Discussion about upcoming ChatGPT ads that allegedly take up almost half the screen, generating significant community backlash about OpenAI's monetization strategy",
+          "importance_score": 85,
+          "reasoning": "Highest engagement post (251 upvotes, 178 comments) covering a major product change affecting user experience. High relevance for understanding OpenAI's business direction.",
+          "themes": [
+            "monetization",
+            "product_changes",
+            "user_experience"
+          ],
+          "continuation": {
+            "original_item_id": "f7cbe9a89e86",
+            "original_date": "2026-01-17",
+            "original_category": "reddit",
+            "original_title": "Ads are coming to ChatGPT",
+            "continuation_type": "follow_up",
+            "should_demote": false,
+            "reference_text": "Continuing our coverage from yesterday"
+          },
+          "summary_html": "<p>Continuing our coverage from <a href=\"/?date=2026-01-17&category=reddit#item-f7cbe9a89e86\" class=\"internal-link\">yesterday</a>, Discussion about upcoming ChatGPT ads that allegedly take up almost half the screen, generating significant community backlash about OpenAI's monetization strategy</p>",
+          "content_html": ""
+        }
+      ]
+    },
+    "jobs": {
+      "count": 30,
+      "category_summary": "**Senior AI leadership** remains highly valued with **Head of Data & AI** roles at biotech companies [driving strategy and governance](/?date=2026-01-18&category=jobs#item-eb22b018aa6a). **ElevenLabs** ($6.6B valuation, $200M ARR) represents frontier AI companies [actively expanding teams](/?date=2026-01-18&category=jobs#item-5a8c73958169).\n\n- **Core ML engineering** dominates hiring with [Senior ML Engineer roles](/?date=2026-01-18&category=jobs#item-666b9c305c34) at mission-driven fintechs like **Oportun**\n- **LLM-focused positions** are [proliferating across marketplaces](/?date=2026-01-18&category=jobs#item-f251d7ee3532) like **Proxify** and **Lemon.io**, signaling strong demand\n- **AI x Biology** [emerges as a hot intersection](/?date=2026-01-18&category=jobs#item-2274b14a18a2) with venture-backed labs seeking sequence modeling expertise\n\n**Market signals**: Agentic workflows and prompt engineering are [maturing into specialized disciplines](/?date=2026-01-18&category=jobs#item-709cfa6c7887). **YC-backed AI startups** (W25 batch) actively building AI training infrastructure. Remote-first opportunities continue dominating the landscape for senior practitioners.",
+      "category_summary_html": "<p><strong>Senior AI leadership</strong> remains highly valued with <strong>Head of Data & AI</strong> roles at biotech companies <a href=\"/?date=2026-01-18&category=jobs#item-eb22b018aa6a\" class=\"internal-link\">driving strategy and governance</a>. <strong>ElevenLabs</strong> ($6.6B valuation, $200M ARR) represents frontier AI companies <a href=\"/?date=2026-01-18&category=jobs#item-5a8c73958169\" class=\"internal-link\">actively expanding teams</a>.</p>\n<ul>\n<li><strong>Core ML engineering</strong> dominates hiring with <a href=\"/?date=2026-01-18&category=jobs#item-666b9c305c34\" class=\"internal-link\">Senior ML Engineer roles</a> at mission-driven fintechs like <strong>Oportun</strong></li>\n<li><strong>LLM-focused positions</strong> are <a href=\"/?date=2026-01-18&category=jobs#item-f251d7ee3532\" class=\"internal-link\">proliferating across marketplaces</a> like <strong>Proxify</strong> and <strong>Lemon.io</strong>, signaling strong demand</li>\n<li><strong>AI x Biology</strong> <a href=\"/?date=2026-01-18&category=jobs#item-2274b14a18a2\" class=\"internal-link\">emerges as a hot intersection</a> with venture-backed labs seeking sequence modeling expertise</li>\n</ul>\n<p><strong>Market signals</strong>: Agentic workflows and prompt engineering are <a href=\"/?date=2026-01-18&category=jobs#item-709cfa6c7887\" class=\"internal-link\">maturing into specialized disciplines</a>. <strong>YC-backed AI startups</strong> (W25 batch) actively building AI training infrastructure. Remote-first opportunities continue dominating the landscape for senior practitioners.</p>",
+      "themes": [
+        {
+          "name": "AI Leadership & Strategy",
+          "description": "Senior executive roles driving AI strategy, data governance, and organizational AI adoption",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 82
+        },
+        {
+          "name": "Frontier AI Companies",
+          "description": "Positions at leading AI companies like ElevenLabs that are defining the frontier of AI capabilities",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 78
+        },
+        {
+          "name": "ML Engineering",
+          "description": "Hands-on machine learning engineering roles building production ML systems",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 76
+        },
+        {
+          "name": "LLM/AI Engineering",
+          "description": "Direct AI/ML engineering roles involving LLMs, deep learning frameworks, and AI application development",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "AI in Specialized Domains",
+          "description": "Applied AI roles in specific industries like finance, biology/drug discovery, and automotive",
+          "item_count": 5,
+          "example_items": [],
+          "importance": 65
+        },
+        {
+          "name": "Prompt Engineering & LLM Applications",
+          "description": "Roles focused on LLM integration, prompt design, and agentic workflow development",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 65
+        },
+        {
+          "name": "Contract/Marketplace AI Roles",
+          "description": "AI engineering positions available through talent marketplaces like Proxify and Lemon.io",
+          "item_count": 3,
+          "example_items": [],
+          "importance": 60
+        },
+        {
+          "name": "AI Project Management",
+          "description": "Project leadership roles specifically for AI/ML initiatives with governance focus",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 58
+        },
+        {
+          "name": "AI Infrastructure & MLOps",
+          "description": "Roles supporting AI/ML workloads through infrastructure, data engineering, and platform development",
+          "item_count": 5,
+          "example_items": [],
+          "importance": 55
+        },
+        {
+          "name": "AI-Adjacent Product Roles",
+          "description": "Product management and leadership roles at AI-powered companies",
+          "item_count": 3,
+          "example_items": [],
+          "importance": 52
+        }
+      ],
+      "top_items": [
+        {
+          "id": "eb22b018aa6a",
+          "title": "Head of Data & AI",
+          "content": "The Head of Data &amp; AI is a senior leadership position reporting directly to the Chief Digital and Information Officer (CDIO). This role is crucial for spearheading our data and AI initiatives, driving innovation, and ensuring these technologies deliver measurable value to the business.The successful candidate, from a data perspective will drive remediation of our critical data covering both commercial and scientific assets, lead the implementation of a data governance framework, and evolve the current data culture across LGC. They will  also need to ensure the continued development of our underlying data infrastructure that is supporting a voracious demand for analytics, integrations and automations.In the area of AI,  the role will oversee delivery of AI projects, ensuring a focus on initiatives that support LGCs strategic objectives. Other key responsibilities include supporting the development of foundational AI capabilities in terms of skills, governance processes and third party relationships.The role will work closely with other functions in IT and with partners in Legal, HR and Compliance to ensure that while LGC realises the benefits of AI adoption, we do so in a...",
+          "url": "https://himalayas.app/companies/lgc-group/jobs/head-of-data-ai-9134046446",
+          "author": "Unknown",
+          "published": "2026-01-17T23:45:06",
+          "source": "Remote jobs from Himalayas",
+          "source_type": "rss",
+          "tags": [
+            "Information-Technology",
+            "Biotechnology",
+            "Head-Of-Data-Strategy",
+            "Director-Of-Data-And-Analytics",
+            "Head-Of-AI-Engineering",
+            "Head-Of-AI-Strategy",
+            "Director-Of-Data-Science",
+            "Head-Of-AI-Product",
+            "Head-Of-Analytics-Engineering"
+          ],
+          "summary": "Head of Data & AI at LGC Group reporting to CDIO. Senior leadership role driving data governance, AI project delivery, and building data culture across the organization. Focus on commercial and scientific data assets.",
+          "importance_score": 82,
+          "reasoning": "Senior AI leadership role at established biotech company with direct responsibility for AI strategy and implementation; significant for those seeking executive AI positions",
+          "themes": [
+            "AI Leadership",
+            "Data Strategy",
+            "Biotech",
+            "Executive Role"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Head of Data & AI at LGC Group reporting to CDIO. Senior leadership role driving data governance, AI project delivery, and building data culture across the organization. Focus on commercial and scientific data assets.</p>",
+          "content_html": "<p>The Head of Data &amp; AI is a senior leadership position reporting directly to the Chief Digital and Information Officer (CDIO). This role is crucial for spearheading our data and AI initiatives, driving innovation, and ensuring these technologies deliver measurable value to the business.The successful candidate, from a data perspective will drive remediation of our critical data covering both commercial and scientific assets, lead the implementation of a data governance framework, and evolve the current data culture across LGC. They will  also need to ensure the continued development of our underlying data infrastructure that is supporting a voracious demand for analytics, integrations and automations.In the area of AI,  the role will oversee delivery of AI projects, ensuring a focus on initiatives that support LGCs strategic objectives. Other key responsibilities include supporting the development of foundational AI capabilities in terms of skills, governance processes and third party relationships.The role will work closely with other functions in IT and with partners in Legal, HR and Compliance to ensure that while LGC realises the benefits of AI adoption, we do so in a...</p>"
+        },
+        {
+          "id": "5a8c73958169",
+          "title": "ElevenLabs: Design Engineer",
+          "content": "\n\n\n  Headquarters: United Kingdom\n    URL: http://elevenlabs.io\n\n\nAbout ElevenLabsElevenLabs is a research and product company defining the frontier of audio AI. Millions of people use our technology to read articles, voice over videos, and restore voices lost to disability. Leading developers and enterprises worldwide use ElevenLabs to build intelligent agents for support, sales, and education.We launched in January 2023 with the first AI model to cross the threshold of human-like speech. In January 2025, we raised a $180 million Series C round, valuing the company at $3.3 billion. By September 2025, that valuation doubled to $6.6 billion as we surpassed $200 million ARR in under three years.Our mission is to build the most important audio AI platform in the world, solve AI audio intelligence, and make information accessible in any voice, language, or sound.Our core offerings are our Creative Platform and the Agents Platform, powered by proprietary Text to Speech, Speech to Text, and conversational AI models.We are just getting started. If you want to work hard and create lasting impact, we would like to hear from you.How we workHigh-velocity: Rapid experimentation, lean...",
+          "url": "https://weworkremotely.com/remote-jobs/elevenlabs-design-engineer",
+          "author": "Unknown",
+          "published": "2026-01-15T23:39:14",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Design"
+          ],
+          "summary": "Design Engineer at ElevenLabs, the leading AI audio company valued at $6.6B with $200M ARR. Role focuses on building audio AI platform with human-like speech synthesis.",
+          "importance_score": 78,
+          "reasoning": "Role at top-tier AI audio company (frontier lab status); ElevenLabs is a major player in generative AI audio. Design engineering likely involves AI product development.",
+          "themes": [
+            "Frontier AI Company",
+            "Audio AI",
+            "Generative AI",
+            "High-Growth Startup"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Design Engineer at ElevenLabs, the leading AI audio company valued at $6.6B with $200M ARR. Role focuses on building audio AI platform with human-like speech synthesis.</p>",
+          "content_html": "<p>Headquarters: United Kingdom</p>\n<p>URL: http://elevenlabs.io</p>\n<p>About ElevenLabsElevenLabs is a research and product company defining the frontier of audio AI. Millions of people use our technology to read articles, voice over videos, and restore voices lost to disability. Leading developers and enterprises worldwide use ElevenLabs to build intelligent agents for support, sales, and education.We launched in January 2023 with the first AI model to cross the threshold of human-like speech. In January 2025, we raised a $180 million Series C round, valuing the company at $3.3 billion. By September 2025, that valuation doubled to $6.6 billion as we surpassed $200 million ARR in under three years.Our mission is to build the most important audio AI platform in the world, solve AI audio intelligence, and make information accessible in any voice, language, or sound.Our core offerings are our Creative Platform and the Agents Platform, powered by proprietary Text to Speech, Speech to Text, and conversational AI models.We are just getting started. If you want to work hard and create lasting impact, we would like to hear from you.How we workHigh-velocity: Rapid experimentation, lean...</p>"
+        },
+        {
+          "id": "666b9c305c34",
+          "title": "Senior Software ML Engineer  (R12389)",
+          "content": "ABOUT OPORTUNOportun (Nasdaq: OPRT) is a mission-driven fintech that puts its members' financial goals within reach. With intelligent borrowing, savings, and budgeting capabilities, Oportun empowers members with the confidence to build a better financial future. Since inception, Oportun has provided more than $19.7 billion in responsible and affordable credit, saved its members more than $2.4 billion in interest and fees, and helped its members save an average of more than $1,800 annually. Oportun has been certified as a Community Development Financial Institution (CDFI) since 2009.WORKING AT OPORTUNWorking at Oportun means enjoying a differentiated experience of being part of a team that fosters a diverse, equitable and inclusive culture where we all feel a sense of belonging and are encouraged to share our perspectives. This inclusive culture is directly connected to our organization's performance and ability to fulfill our mission of delivering affordable credit to those left out of the financial mainstream. We celebrate and nurture our inclusive culture through our employee resource groups.Position Overview:We are seeking a highly skilled and experienced Senior Machine...",
+          "url": "https://himalayas.app/companies/oportun/jobs/senior-software-ml-engineer-r12389",
+          "author": "Unknown",
+          "published": "2026-01-17T23:41:43",
+          "source": "Remote jobs from Himalayas",
+          "source_type": "rss",
+          "tags": [
+            "Engineering",
+            "Senior-ML-Engineer",
+            "Senior-Machine-Learning-Engineer",
+            "Senior-ML-Platform-Engineer",
+            "Senior-AI-ML-Operations-Engineer",
+            "Sr.-Staff-Machine-Learning-Engineer"
+          ],
+          "summary": "Senior Software ML Engineer at Oportun, a CDFI-certified fintech serving underbanked populations. Building ML systems for responsible lending products that have provided $19.7B in credit.",
+          "importance_score": 76,
+          "reasoning": "Direct ML engineering role at established fintech with clear mission-driven focus; good opportunity for ML engineers interested in financial inclusion",
+          "themes": [
+            "ML Engineering",
+            "Fintech",
+            "Financial Inclusion",
+            "Responsible AI"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Senior Software ML Engineer at Oportun, a CDFI-certified fintech serving underbanked populations. Building ML systems for responsible lending products that have provided $19.7B in credit.</p>",
+          "content_html": "<p>ABOUT OPORTUNOportun (Nasdaq: OPRT) is a mission-driven fintech that puts its members' financial goals within reach. With intelligent borrowing, savings, and budgeting capabilities, Oportun empowers members with the confidence to build a better financial future. Since inception, Oportun has provided more than $19.7 billion in responsible and affordable credit, saved its members more than $2.4 billion in interest and fees, and helped its members save an average of more than $1,800 annually. Oportun has been certified as a Community Development Financial Institution (CDFI) since 2009.WORKING AT OPORTUNWorking at Oportun means enjoying a differentiated experience of being part of a team that fosters a diverse, equitable and inclusive culture where we all feel a sense of belonging and are encouraged to share our perspectives. This inclusive culture is directly connected to our organization's performance and ability to fulfill our mission of delivering affordable credit to those left out of the financial mainstream. We celebrate and nurture our inclusive culture through our employee resource groups.Position Overview:We are seeking a highly skilled and experienced Senior Machine...</p>"
+        },
+        {
+          "id": "f251d7ee3532",
+          "title": "Proxify AB: Senior Python AI Engineer",
+          "content": "\n  Headquarters: Sweden\n    URL: http://career.proxify.io\n\n\n\nThe Role:\n&nbsp;\nWe are looking for a&nbsp;Senior Python AI Engineer&nbsp;to join our fast-growing Network, who will design and develop backend systems and APIs for AI-powered applications. You will play a key role in designing and building scalable backend systems and APIs, collaborating closely with cross-functional teams to shape the future of data-driven products across various platforms.\n&nbsp;\n&nbsp;\nWhat we are looking for:\n&nbsp;\n\nStrong proficiency in Python (5+ years), including modern frameworks (FastAPI, Flask, or Django).\nDeep learning frameworks (PyTorch, TensorFlow) for custom modeling beyond LLM APIs.\nExperience with large language models (LLMs) such as GPT, Gemini, LLaMA, or similar.\nExperience with prototyping tools: Streamlit, Gradio\nSolid experience designing RESTful APIs and microservice architectures.\nStrong backend development expertise, including databases (SQL/NoSQL).\nExperience with version control (Git) and CI/CD workflows.\nHands-on experience with containerization (Docker, ideally Kubernetes).\nFamiliarity with cloud platforms (AWS, Azure, or GCP) is a plus.\nUnderstanding of security best...",
+          "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-python-ai-engineer-2",
+          "author": "Unknown",
+          "published": "2026-01-15T12:18:40",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "All Other Remote"
+          ],
+          "summary": "Senior Python AI Engineer through Proxify network designing backend systems for AI-powered applications. Requires deep learning frameworks (PyTorch, TensorFlow), LLM experience (GPT, Gemini, LLaMA), and prototyping skills.",
+          "importance_score": 75,
+          "reasoning": "Direct AI/ML engineering role with explicit requirements for deep learning, LLMs, and AI application development.",
+          "themes": [
+            "AI Engineering",
+            "LLM Development",
+            "Deep Learning",
+            "Remote Work"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Senior Python AI Engineer through Proxify network designing backend systems for AI-powered applications. Requires deep learning frameworks (PyTorch, TensorFlow), LLM experience (GPT, Gemini, LLaMA), and prototyping skills.</p>",
+          "content_html": "<p>Headquarters: Sweden</p>\n<p>URL: http://career.proxify.io</p>\n<p>The Role:</p>\n<p>&nbsp;</p>\n<p>We are looking for a&nbsp;Senior Python AI Engineer&nbsp;to join our fast-growing Network, who will design and develop backend systems and APIs for AI-powered applications. You will play a key role in designing and building scalable backend systems and APIs, collaborating closely with cross-functional teams to shape the future of data-driven products across various platforms.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>What we are looking for:</p>\n<p>&nbsp;</p>\n<p>Strong proficiency in Python (5+ years), including modern frameworks (FastAPI, Flask, or Django).</p>\n<p>Deep learning frameworks (PyTorch, TensorFlow) for custom modeling beyond LLM APIs.</p>\n<p>Experience with large language models (LLMs) such as GPT, Gemini, LLaMA, or similar.</p>\n<p>Experience with prototyping tools: Streamlit, Gradio</p>\n<p>Solid experience designing RESTful APIs and microservice architectures.</p>\n<p>Strong backend development expertise, including databases (SQL/NoSQL).</p>\n<p>Experience with version control (Git) and CI/CD workflows.</p>\n<p>Hands-on experience with containerization (Docker, ideally Kubernetes).</p>\n<p>Familiarity with cloud platforms (AWS, Azure, or GCP) is a plus.</p>\n<p>Understanding of security best...</p>"
+        },
+        {
+          "id": "2274b14a18a2",
+          "title": "Great Good: Contract Software Engineer (AI x Biology)",
+          "content": "\n\n\n  Headquarters: Remote\n    URL: https://greatgood.gg/\n\n\nLocation: Remote (Europe or Asia preferred)\nCompany: Great Good Venture Lab\nEngagement Type: Hourly or project-based contractor\n&nbsp;\nAbout the Role\nGreat Good is hiring a senior software engineer (contractor) to support early-stage ventures at the intersection of artificial intelligence and biotechnology. You’ll work directly with technical founders and early teams to prototype infrastructure and ML tools that accelerate therapeutic discovery and development.\nThis is a high-autonomy role suited to engineers who enjoy working across systems, models, and real-world scientific applications.\n&nbsp;\nResponsibilities\n\n\nDesign and implement data pipelines and ML workflows (e.g., for sequence modeling, structure prediction, optimization loops)\n\n\nBuild tools to support scientific computing, visualization, or experimental integration\n\n\nCollaborate with cross-functional teams to translate R&amp;D needs into clean, scalable code\n\n\nContribute to backend systems, cloud deployments, and toolchain setup as needed\n\n\nDeliver technical documentation and maintainable code for future handoff or extension\n\n\n&nbsp;\nRequirements\n\n\n5+ years...",
+          "url": "https://weworkremotely.com/remote-jobs/great-good-contract-software-engineer-ai-x-biology",
+          "author": "Unknown",
+          "published": "2026-01-15T11:33:52",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Back-End Programming"
+          ],
+          "summary": "Contract Software Engineer at Great Good Venture Lab working at AI x Biology intersection. Prototyping ML tools for therapeutic discovery including sequence modeling and structure prediction.",
+          "importance_score": 73,
+          "reasoning": "Direct AI/ML role in biotech/drug discovery space; involves sequence modeling and ML workflows for scientific applications.",
+          "themes": [
+            "AI for Biology",
+            "Drug Discovery",
+            "ML Engineering",
+            "Biotech AI"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Contract Software Engineer at Great Good Venture Lab working at AI x Biology intersection. Prototyping ML tools for therapeutic discovery including sequence modeling and structure prediction.</p>",
+          "content_html": "<p>Headquarters: Remote</p>\n<p>URL: https://greatgood.gg/</p>\n<p>Location: Remote (Europe or Asia preferred)</p>\n<p>Company: Great Good Venture Lab</p>\n<p>Engagement Type: Hourly or project-based contractor</p>\n<p>&nbsp;</p>\n<p>About the Role</p>\n<p>Great Good is hiring a senior software engineer (contractor) to support early-stage ventures at the intersection of artificial intelligence and biotechnology. You’ll work directly with technical founders and early teams to prototype infrastructure and ML tools that accelerate therapeutic discovery and development.</p>\n<p>This is a high-autonomy role suited to engineers who enjoy working across systems, models, and real-world scientific applications.</p>\n<p>&nbsp;</p>\n<p>Responsibilities</p>\n<p>Design and implement data pipelines and ML workflows (e.g., for sequence modeling, structure prediction, optimization loops)</p>\n<p>Build tools to support scientific computing, visualization, or experimental integration</p>\n<p>Collaborate with cross-functional teams to translate R&amp;D needs into clean, scalable code</p>\n<p>Contribute to backend systems, cloud deployments, and toolchain setup as needed</p>\n<p>Deliver technical documentation and maintainable code for future handoff or extension</p>\n<p>&nbsp;</p>\n<p>Requirements</p>\n<p>5+ years...</p>"
+        },
+        {
+          "id": "fc44c5a5d8f1",
+          "title": "Lemon.io: Senior Python & LLM /AI Engineer",
+          "content": "\n\n\n  Headquarters: New York, NY\n    URL: https://lemon.io\n\n\nAre you a talented Senior Engineer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe.\nWhat we offer:\n\nThe rate depends on your skills and experience. We've already paid out over $11M to our engineers.\nNo more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best.\nWe'll manually find the best project for you according to your skills and preferences.\nChoose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours.\nWe respect your seniority so you can expect no micromanagement or screen trackers.\nCommunicate directly with the clients. Most of them have technical backgrounds. Sounds good, yeah?\nWe will support you from the time you submit the application throughout all cooperation stages.\nMost of our projects involve working in a fast-paced startup environment. We hope you like it as much as we do.\nThrough our community, we will connect you with the best...",
+          "url": "https://weworkremotely.com/remote-jobs/lemon-io-senior-python-llm-ai-engineer",
+          "author": "Unknown",
+          "published": "2026-01-16T09:01:01",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Back-End Programming"
+          ],
+          "summary": "Senior Python & LLM/AI Engineer role through Lemon.io marketplace connecting engineers with US/EU startups. Explicitly focused on LLM and AI engineering with competitive rates ($11M+ paid out).",
+          "importance_score": 72,
+          "reasoning": "Direct AI/ML engineering role with LLM focus; marketplace model provides access to multiple AI startup opportunities.",
+          "themes": [
+            "LLM Engineering",
+            "AI Engineering",
+            "Remote Work",
+            "Contract/Marketplace"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Senior Python & LLM/AI Engineer role through Lemon.io marketplace connecting engineers with US/EU startups. Explicitly focused on LLM and AI engineering with competitive rates ($11M+ paid out).</p>",
+          "content_html": "<p>Headquarters: New York, NY</p>\n<p>URL: https://lemon.io</p>\n<p>Are you a talented Senior Engineer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe.</p>\n<p>What we offer:</p>\n<p>The rate depends on your skills and experience. We've already paid out over $11M to our engineers.</p>\n<p>No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best.</p>\n<p>We'll manually find the best project for you according to your skills and preferences.</p>\n<p>Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours.</p>\n<p>We respect your seniority so you can expect no micromanagement or screen trackers.</p>\n<p>Communicate directly with the clients. Most of them have technical backgrounds. Sounds good, yeah?</p>\n<p>We will support you from the time you submit the application throughout all cooperation stages.</p>\n<p>Most of our projects involve working in a fast-paced startup environment. We hope you like it as much as we do.</p>\n<p>Through our community, we will connect you with the best...</p>"
+        },
+        {
+          "id": "4729e03c8cca",
+          "title": "Prosper: Director, Credit Risk Analytics",
+          "content": "\n\n\n  Headquarters: United States\n    URL: http://prosper.com\n\n\nYour role in our missionAs the first peer to peer lending marketplace in the United States, Prosper has a history of innovation.&nbsp; As a growing company that generates cash (rare in the valley), Prosper also has a history of generating results.&nbsp;The Director, Credit Risk Analytics is responsible for underwriting credit strategies and oversight of credit quality and performance of the Personal Loan portfolios. They will review, analyze, and enhance the risk strategies through the use of Machine Learning models and credit data to manage the acquisition growth while delivering expected returns to the investors.&nbsp; They will be responsible for the life cycle of credit management including compliance with requirements of regulators and internal control and will recommend opportunities and propose resolutions for improved efficiency, effectiveness, and/or risk reduction for the portfolio. The Director, Credit Risk will work with cross-functional teams in Product, Engineering, Legal/Compliance and Marketing to deliver the credit strategies as per design.&nbsp;The ideal candidate is expected to bring broad and...",
+          "url": "https://weworkremotely.com/remote-jobs/prosper-director-credit-risk-analytics",
+          "author": "Unknown",
+          "published": "2026-01-14T17:39:58",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Management and Finance"
+          ],
+          "summary": "Director, Credit Risk Analytics at Prosper (first US P2P lending marketplace). Responsible for underwriting credit strategies using Machine Learning models and credit data.",
+          "importance_score": 62,
+          "reasoning": "Leadership role with explicit ML model ownership for credit risk; applies ML to financial services.",
+          "themes": [
+            "ML in Finance",
+            "Credit Risk",
+            "Applied ML",
+            "Leadership"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Director, Credit Risk Analytics at Prosper (first US P2P lending marketplace). Responsible for underwriting credit strategies using Machine Learning models and credit data.</p>",
+          "content_html": "<p>Headquarters: United States</p>\n<p>URL: http://prosper.com</p>\n<p>Your role in our missionAs the first peer to peer lending marketplace in the United States, Prosper has a history of innovation.&nbsp; As a growing company that generates cash (rare in the valley), Prosper also has a history of generating results.&nbsp;The Director, Credit Risk Analytics is responsible for underwriting credit strategies and oversight of credit quality and performance of the Personal Loan portfolios. They will review, analyze, and enhance the risk strategies through the use of Machine Learning models and credit data to manage the acquisition growth while delivering expected returns to the investors.&nbsp; They will be responsible for the life cycle of credit management including compliance with requirements of regulators and internal control and will recommend opportunities and propose resolutions for improved efficiency, effectiveness, and/or risk reduction for the portfolio. The Director, Credit Risk will work with cross-functional teams in Product, Engineering, Legal/Compliance and Marketing to deliver the credit strategies as per design.&nbsp;The ideal candidate is expected to bring broad and...</p>"
+        },
+        {
+          "id": "709cfa6c7887",
+          "title": "Freelance Prompt Engineer",
+          "content": "We’re looking for a freelance Prompt / Automation Engineer to support a focused two-week freelance engagement, testing and enhancing high-impact automations across BoldStream™. This contract may extend into a longer-term freelance or permanent role.Boldstream is a multi-LLM SaaS platform for marketing and comms professionalsWhat you’ll doDesign and build agentic workflows using tools such as OpenAI Agent Builder, LangGraph/LangChain and no/low-code platforms (n8n, Zapier, Make.com).Automate data flows, reporting, internal tools and AI-assisted workflows using APIs and custom JavaScript/TypeScript where needed.Create reliable prompts, guardrails and testing approaches to ensure consistent agent behaviour.Document workflows clearly so non-technical teams can use them safely.What we’re looking forProven experience building production automations and integrations.Strong no/low-code automation skills plus solid JavaScript.Practical experience working with LLMs, prompts and AI-powered workflows.Clear, structured problem-solver who works well with non-technical stakeholders.Contract: ~2 weeks initiallyFuture opportunity: Potential for ongoing freelance or permanent roleOriginally posted...",
+          "url": "https://himalayas.app/companies/boldspace/jobs/freelance-prompt-engineer",
+          "author": "Unknown",
+          "published": "2026-01-17T23:43:13",
+          "source": "Remote jobs from Himalayas",
+          "source_type": "rss",
+          "tags": [
+            "Boldstream",
+            "Marketing-and-Advertising",
+            "Freelance-Prompt-Engineer",
+            "Prompt-Engineer",
+            "Freelance-GenAI-Prompt-Developer",
+            "Freelance-AI-Engineer",
+            "Freelance-Engineering-AI-Specialist"
+          ],
+          "summary": "Freelance Prompt Engineer at Boldspace for 2-week engagement on BoldStream multi-LLM SaaS platform. Building agentic workflows using OpenAI Agent Builder, LangGraph/LangChain, and automation tools. May extend to longer-term role.",
+          "importance_score": 65,
+          "reasoning": "Direct AI/ML role working with LLMs, agentic workflows, and prompt engineering at a production AI platform; relevant for those entering applied AI",
+          "themes": [
+            "Prompt Engineering",
+            "LLM Applications",
+            "Agentic AI",
+            "Freelance",
+            "AI Platform"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Freelance Prompt Engineer at Boldspace for 2-week engagement on BoldStream multi-LLM SaaS platform. Building agentic workflows using OpenAI Agent Builder, LangGraph/LangChain, and automation tools. May extend to longer-term role.</p>",
+          "content_html": "<p>We’re looking for a freelance Prompt / Automation Engineer to support a focused two-week freelance engagement, testing and enhancing high-impact automations across BoldStream™. This contract may extend into a longer-term freelance or permanent role.Boldstream is a multi-LLM SaaS platform for marketing and comms professionalsWhat you’ll doDesign and build agentic workflows using tools such as OpenAI Agent Builder, LangGraph/LangChain and no/low-code platforms (n8n, Zapier, Make.com).Automate data flows, reporting, internal tools and AI-assisted workflows using APIs and custom JavaScript/TypeScript where needed.Create reliable prompts, guardrails and testing approaches to ensure consistent agent behaviour.Document workflows clearly so non-technical teams can use them safely.What we’re looking forProven experience building production automations and integrations.Strong no/low-code automation skills plus solid JavaScript.Practical experience working with LLMs, prompts and AI-powered workflows.Clear, structured problem-solver who works well with non-technical stakeholders.Contract: ~2 weeks initiallyFuture opportunity: Potential for ongoing freelance or permanent roleOriginally posted...</p>"
+        },
+        {
+          "id": "d3903ca1d227",
+          "title": "Toptal: Financial Model and Prompt Creator with Spreadsheet Expertise",
+          "content": "\n\n\n  Headquarters: Remote\n    URL: https://www.toptal.com/\n\n\nAbout the Client\nOur client is an AI Startup leader in financial analysis and modeling, offering efficient and scalable solutions to enhance business operations. As part of their endeavors to improve their spreadsheet acquisition capabilities, they are launching “Pilot v2,” a program aimed at refining workflow and deliverable quality for spreadsheet-based projects in financial modeling.\n&nbsp;\nAbout the Role\nWe are seeking skilled professionals experienced in spreadsheet financial modeling to join the Pilot v2 project. Your primary task will involve creating detailed financial models in spreadsheet format and accompanying them with descriptive prompts for language model interfaces. The focus is to produce high-quality, reliable deliverables contributing to enhanced productivity and efficiency in financial planning.\n&nbsp;\nTasks &amp; Deliverables\n\nDevelop financial models of varying complexity (basic, intermediate, and advanced) and draft prompts to generate these models using language models.\nWeekly Target: Completion of a minimum of 5-10 tasks.\nModel Types: Three-statement modeling, revenue forecasts, cost center...",
+          "url": "https://weworkremotely.com/remote-jobs/toptal-financial-model-and-prompt-creator-with-spreadsheet-expertise",
+          "author": "Unknown",
+          "published": "2026-01-14T17:39:25",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "All Other Remote"
+          ],
+          "summary": "Financial Model and Prompt Creator at AI startup client via Toptal. Creating financial models with descriptive prompts for LLM interfaces to improve spreadsheet acquisition capabilities.",
+          "importance_score": 65,
+          "reasoning": "Prompt engineering role for AI financial modeling; directly involves LLM interface design and AI system training.",
+          "themes": [
+            "Prompt Engineering",
+            "AI in Finance",
+            "LLM Applications"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Financial Model and Prompt Creator at AI startup client via Toptal. Creating financial models with descriptive prompts for LLM interfaces to improve spreadsheet acquisition capabilities.</p>",
+          "content_html": "<p>Headquarters: Remote</p>\n<p>URL: https://www.toptal.com/</p>\n<p>About the Client</p>\n<p>Our client is an AI Startup leader in financial analysis and modeling, offering efficient and scalable solutions to enhance business operations. As part of their endeavors to improve their spreadsheet acquisition capabilities, they are launching “Pilot v2,” a program aimed at refining workflow and deliverable quality for spreadsheet-based projects in financial modeling.</p>\n<p>&nbsp;</p>\n<p>About the Role</p>\n<p>We are seeking skilled professionals experienced in spreadsheet financial modeling to join the Pilot v2 project. Your primary task will involve creating detailed financial models in spreadsheet format and accompanying them with descriptive prompts for language model interfaces. The focus is to produce high-quality, reliable deliverables contributing to enhanced productivity and efficiency in financial planning.</p>\n<p>&nbsp;</p>\n<p>Tasks &amp; Deliverables</p>\n<p>Develop financial models of varying complexity (basic, intermediate, and advanced) and draft prompts to generate these models using language models.</p>\n<p>Weekly Target: Completion of a minimum of 5-10 tasks.</p>\n<p>Model Types: Three-statement modeling, revenue forecasts, cost center...</p>"
+        },
+        {
+          "id": "3d3c2cfcc228",
+          "title": "Jumpspeak: Product Lead (Contract)",
+          "content": "\n\n\n  Headquarters: Miami\n    URL: https://www.jumpspeak.com\n\n\n\n\nThe Problem We're Solving\nMost people who try to learn a language quit. Not because they're lazy, but because traditional apps optimize for streaks and gamification instead of actual conversation skills.\nWe're building something different: a language learning experience that gets people speaking from day one and keeps them coming back because they're actually having conversations, not just completing lessons.\nThe Opportunity\nYou'll own the core product experience for Jumpspeak—the app that hundreds of thousands of learners use to gain real conversational confidence in new languages. This isn't about managing a team or attending strategy offsites. This is about shipping features that directly impact whether someone can order coffee in Paris or negotiate a deal in São Paulo.\nYou'll work directly with our CEO and small product team to shape what language learning should feel like. Not through 50-slide decks, but through rapid experimentation, user interviews, and data.\nWhat You'll Actually Do\nOwn the Product (not just a feature)\n\nYou are the DRI for our mobile app experience end-to-end—onboarding, lesson design,...",
+          "url": "https://weworkremotely.com/remote-jobs/jumpspeak-product-lead-contract",
+          "author": "Unknown",
+          "published": "2026-01-13T16:31:37",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Product"
+          ],
+          "summary": "Product Lead (Contract) at Jumpspeak, AI-powered language learning app with hundreds of thousands of users. Owns core product experience for conversational AI features.",
+          "importance_score": 58,
+          "reasoning": "Product leadership at AI-powered consumer app; direct involvement with conversational AI product.",
+          "themes": [
+            "AI Product Management",
+            "EdTech",
+            "Conversational AI"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Product Lead (Contract) at Jumpspeak, AI-powered language learning app with hundreds of thousands of users. Owns core product experience for conversational AI features.</p>",
+          "content_html": "<p>Headquarters: Miami</p>\n<p>URL: https://www.jumpspeak.com</p>\n<p>The Problem We're Solving</p>\n<p>Most people who try to learn a language quit. Not because they're lazy, but because traditional apps optimize for streaks and gamification instead of actual conversation skills.</p>\n<p>We're building something different: a language learning experience that gets people speaking from day one and keeps them coming back because they're actually having conversations, not just completing lessons.</p>\n<p>The Opportunity</p>\n<p>You'll own the core product experience for Jumpspeak—the app that hundreds of thousands of learners use to gain real conversational confidence in new languages. This isn't about managing a team or attending strategy offsites. This is about shipping features that directly impact whether someone can order coffee in Paris or negotiate a deal in São Paulo.</p>\n<p>You'll work directly with our CEO and small product team to shape what language learning should feel like. Not through 50-slide decks, but through rapid experimentation, user interviews, and data.</p>\n<p>What You'll Actually Do</p>\n<p>Own the Product (not just a feature)</p>\n<p>You are the DRI for our mobile app experience end-to-end—onboarding, lesson design,...</p>"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "category": "news",
+  "date": "2026-01-14",
+  "category_summary": "**Light news day** with no major frontier AI announcements. The most substantive content comes from commentary sources:\n\n- **Peter Diamandis' Moonshots** podcast discusses AGI arrival uncertainty, citing **$3T** projected annual GDP impact and AI reaching **2.6B users**\n- Chinese-language analysis videos [cover **Elon Musk's 2026 AGI prediction**](/?date=2026-01-14&category=news#item-4f5c180084e1) and [advanced prompt engineering techniques](/?date=2026-01-14&category=news#item-8526f3f9f880)\n\n**Product Hunt** saw several small tool launches: an [API wrapper](/?date=2026-01-14&category=news#item-fbb62ea30093) for **Google's AI Mode**, **Papercuts** ([AI agents for production testing](/?date=2026-01-14&category=news#item-74e3dcf3ef66)), **o11** ([Copilot alternative](/?date=2026-01-14&category=news#item-e971d4856e33)), and **Knowns CLI** ([AI task management](/?date=2026-01-14&category=news#item-3fbb8bce682e)). None represent significant frontier advancements.",
+  "category_summary_html": "<p><strong>Light news day</strong> with no major frontier AI announcements. The most substantive content comes from commentary sources:</p>\n<ul>\n<li><strong>Peter Diamandis' Moonshots</strong> podcast discusses AGI arrival uncertainty, citing <strong>$3T</strong> projected annual GDP impact and AI reaching <strong>2.6B users</strong></li>\n<li>Chinese-language analysis videos <a href=\"/?date=2026-01-14&category=news#item-4f5c180084e1\" class=\"internal-link\">cover <strong>Elon Musk's 2026 AGI prediction</strong></a> and <a href=\"/?date=2026-01-14&category=news#item-8526f3f9f880\" class=\"internal-link\">advanced prompt engineering techniques</a></li>\n</ul>\n<p><strong>Product Hunt</strong> saw several small tool launches: an <a href=\"/?date=2026-01-14&category=news#item-fbb62ea30093\" class=\"internal-link\">API wrapper</a> for <strong>Google's AI Mode</strong>, <strong>Papercuts</strong> (<a href=\"/?date=2026-01-14&category=news#item-74e3dcf3ef66\" class=\"internal-link\">AI agents for production testing</a>), <strong>o11</strong> (<a href=\"/?date=2026-01-14&category=news#item-e971d4856e33\" class=\"internal-link\">Copilot alternative</a>), and <strong>Knowns CLI</strong> (<a href=\"/?date=2026-01-14&category=news#item-3fbb8bce682e\" class=\"internal-link\">AI task management</a>). None represent significant frontier advancements.</p>",
+  "themes": [
+    {
+      "name": "AGI Timeline Speculation",
+      "description": "Discussion and analysis of when AGI might arrive and its societal implications, featuring predictions from figures like Elon Musk",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 45.0
+    },
+    {
+      "name": "Developer Tools & APIs",
+      "description": "Small-scale product launches offering AI-powered developer utilities including API wrappers, testing agents, and CLI tools",
+      "item_count": 4,
+      "example_items": [],
+      "importance": 33.0
+    },
+    {
+      "name": "AI Productivity & Education",
+      "description": "Educational content on maximizing AI tool effectiveness through prompt engineering and workflow optimization",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 32.0
+    }
+  ],
+  "total_items": 7,
+  "items": [
+    {
+      "id": "96bfd5e75b86",
+      "title": "AGI Arrival, Safety Concerns, Robotaxi Fleets & Hyperscaler Timelines | MOONSHOTS",
+      "content": "Can you define what AGI is? How do we know it’s here, or did we already miss it? The smartest people alive can't agree if we've crossed that line: \n\n- AI can now persuade the population scale\n\n- 10% GDP growth = +$3T/year,  driven almost entirely by AI, traditional GDP is dead\n\n- AI headed to 2.6B users, becoming the default interface to reality\n\n- Compute deployments are scaling 10× before results even ship\n\nEpisode 221 of Moonshots Podcast is out.",
+      "url": "https://www.youtube.com/shorts/z3fXtCbsBng",
+      "author": "Peter H. Diamandis",
+      "published": "2026-01-13T21:31:59",
+      "source": "Peter H. Diamandis",
+      "source_type": "rss",
+      "tags": [],
+      "summary": "Continuing our coverage from [yesterday](/?date=2026-01-13&category=news#item-ab073bb47d18), Peter Diamandis' Moonshots podcast discusses AGI arrival timing and whether we've already crossed that threshold, with experts unable to agree. Episode highlights AI's population-scale persuasion capability, projects $3T annual GDP impact, and notes AI heading toward 2.6B users with compute scaling 10× ahead of results.",
+      "importance_score": 48.0,
+      "reasoning": "Podcast discussion with interesting statistics on AI economics and adoption, but contains no breaking news or announcements—primarily commentary and speculation from industry voices.",
+      "themes": [
+        "AGI timelines",
+        "AI economics",
+        "AI adoption scale",
+        "compute scaling"
+      ],
+      "continuation": {
+        "original_item_id": "ab073bb47d18",
+        "original_date": "2026-01-13",
+        "original_category": "news",
+        "original_title": "The 2026 Timeline: AGI Arrival, Safety Concerns, Robotaxi Fleets & Hyperscaler Timelines | 221",
+        "continuation_type": "rehash",
+        "should_demote": true,
+        "reference_text": "Continuing our coverage from yesterday"
+      },
+      "summary_html": "<p>Continuing our coverage from <a href=\"/?date=2026-01-13&category=news#item-ab073bb47d18\" class=\"internal-link\">yesterday</a>, Peter Diamandis' Moonshots podcast discusses AGI arrival timing and whether we've already crossed that threshold, with experts unable to agree. Episode highlights AI's population-scale persuasion capability, projects $3T annual GDP impact, and notes AI heading toward 2.6B users with compute scaling 10× ahead of results.</p>",
+      "content_html": "<p>Can you define what AGI is? How do we know it’s here, or did we already miss it? The smartest people alive can't agree if we've crossed that line:</p>\n<ul>\n<li>AI can now persuade the population scale</li>\n</ul>\n<ul>\n<li>10% GDP growth = +$3T/year,  driven almost entirely by AI, traditional GDP is dead</li>\n</ul>\n<ul>\n<li>AI headed to 2.6B users, becoming the default interface to reality</li>\n</ul>\n<ul>\n<li>Compute deployments are scaling 10× before results even ship</li>\n</ul>\n<p>Episode 221 of Moonshots Podcast is out.</p>"
+    },
+    {
+      "id": "4f5c180084e1",
+      "title": "【人工智能】马斯克预言奇点时刻 | AGI时间表 | 能源货币化 | 算力即生产力 | 瓦特时代 | 职业替代潮 | 人形机器人 | 太空数据中心 | 中国供应链优势 | 资产配置重构 | 穿越周期",
+      "content": "如果2026年就是人类历史的技术终点，你准备好了吗？马斯克抛出重磅预言，AGI即将降临，算力潜力将释放万倍，而人类社会正处于一场超音速海啸般的阵痛期。本期视频拆解马斯克的最新底层逻辑，为什么说未来的货币不再是美元而是瓦特？白领阶层如何在高危红区中寻找人性的护城河？从机器人医生到太空数据中心，从中国算力优势到个人财务的抗脆弱方案。这不仅是一场技术预测，更是一份关乎每个人生存与财富重构的避难手册。\n\nhttps://youtu.be/RSNuB9pj9P8?si=-1g96sJqbzrLXU9_",
+      "url": "https://www.youtube.com/watch?v=OTj1S083G6c",
+      "author": "最佳拍档",
+      "published": "2026-01-13T09:00:40",
+      "source": "最佳拍档",
+      "source_type": "rss",
+      "tags": [],
+      "summary": "Continuing our coverage from [yesterday](/?date=2026-01-13&category=news#item-5c0ee3c47d95), Chinese-language video analyzes Elon Musk's prediction that AGI may arrive by 2026, exploring implications for energy becoming the new currency, white-collar job displacement, and humanoid robots. Frames discussion as a 'survival handbook' for navigating AI transition.",
+      "importance_score": 42.0,
+      "reasoning": "Commentary on existing Musk predictions rather than new announcements. While discussing significant topics (AGI timing, economic restructuring), it's analysis content without original news value.",
+      "themes": [
+        "AGI predictions",
+        "future of work",
+        "AI economics",
+        "humanoid robotics"
+      ],
+      "continuation": {
+        "original_item_id": "5c0ee3c47d95",
+        "original_date": "2026-01-13",
+        "original_category": "news",
+        "original_title": "Elon Musk on AGI Timeline, US vs China, Job Markets, Clean Energy & Humanoid Robots | 220",
+        "continuation_type": "follow_up",
+        "should_demote": false,
+        "reference_text": "Continuing our coverage from yesterday"
+      },
+      "summary_html": "<p>Continuing our coverage from <a href=\"/?date=2026-01-13&category=news#item-5c0ee3c47d95\" class=\"internal-link\">yesterday</a>, Chinese-language video analyzes Elon Musk's prediction that AGI may arrive by 2026, exploring implications for energy becoming the new currency, white-collar job displacement, and humanoid robots. Frames discussion as a 'survival handbook' for navigating AI transition.</p>",
+      "content_html": "<p>如果2026年就是人类历史的技术终点，你准备好了吗？马斯克抛出重磅预言，AGI即将降临，算力潜力将释放万倍，而人类社会正处于一场超音速海啸般的阵痛期。本期视频拆解马斯克的最新底层逻辑，为什么说未来的货币不再是美元而是瓦特？白领阶层如何在高危红区中寻找人性的护城河？从机器人医生到太空数据中心，从中国算力优势到个人财务的抗脆弱方案。这不仅是一场技术预测，更是一份关乎每个人生存与财富重构的避难手册。</p>\n<p>https://youtu.be/RSNuB9pj9P8?si=-1g96sJqbzrLXU9_</p>"
+    },
+    {
+      "id": "fbb62ea30093",
+      "title": "AI Mode API",
+      "content": "\n            Query Google’s AI Mode as a simple, programmable API\n          \n          \n            Discussion\n            |\n            Link\n          ",
+      "url": "https://www.producthunt.com/products/ai-mode-api",
+      "author": "Patt Liu",
+      "published": "2026-01-13T13:11:36",
+      "source": "Product Hunt — The best new products, every day",
+      "source_type": "rss",
+      "tags": [],
+      "summary": "Product Hunt launch offering a programmable API to query Google's AI Mode, making the feature accessible for developers to integrate into their applications.",
+      "importance_score": 38.0,
+      "reasoning": "Minor developer tool that provides programmatic access to Google's AI Mode. Useful for developers but represents a small third-party wrapper rather than a significant platform advancement.",
+      "themes": [
+        "API tools",
+        "Google AI",
+        "developer tools"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Product Hunt launch offering a programmable API to query Google's AI Mode, making the feature accessible for developers to integrate into their applications.</p>",
+      "content_html": "<p>Query Google’s AI Mode as a simple, programmable API</p>\n<p>Discussion</p>\n<p>|</p>\n<p>Link</p>"
+    },
+    {
+      "id": "74e3dcf3ef66",
+      "title": "Papercuts",
+      "content": "\n            Deploy AI agents to use your production app like a real user\n          \n          \n            Discussion\n            |\n            Link\n          ",
+      "url": "https://www.producthunt.com/products/papercuts",
+      "author": "Sayuj Suresh",
+      "published": "2026-01-13T13:42:36",
+      "source": "Product Hunt — The best new products, every day",
+      "source_type": "rss",
+      "tags": [],
+      "summary": "Papercuts launches on Product Hunt, offering AI agents that interact with production applications as real users would, enabling automated end-to-end testing scenarios.",
+      "importance_score": 36.0,
+      "reasoning": "Interesting application of AI agents for QA/testing use cases, but small-scale product launch without demonstrated traction or novel capabilities.",
+      "themes": [
+        "AI agents",
+        "testing automation",
+        "developer tools"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Papercuts launches on Product Hunt, offering AI agents that interact with production applications as real users would, enabling automated end-to-end testing scenarios.</p>",
+      "content_html": "<p>Deploy AI agents to use your production app like a real user</p>\n<p>Discussion</p>\n<p>|</p>\n<p>Link</p>"
+    },
+    {
+      "id": "8526f3f9f880",
+      "title": "【人工智能】告别玩具级AI用法 | 提示词工程终极指南 | Dan Koe | ChatGPT高阶技巧 | 元提示词 | 工作流重构 | 数字员工 | 生产力革命 | 系统化输出",
+      "content": "为什么在大多数人手里，强大的AI最终沦为了一个花哨的搜索引擎？而少数高手，却能把它变成一支无所不能的数字团队？本期视频，我们将揭开Dan Koe的终极秘密：停止像玩老虎机一样向AI投喂指令，开始像管理顶级员工一样与它协作。你将学到四种构建专家级指令的具体方法，如何从零开始，让AI掌握你的独特风格和专业知识。展示三个足以颠覆你工作方式的高阶玩法，把任何一个教学视频，变成你的私人教练，让AI扮演纳瓦尔、霍尔莫齐，成为你的智囊团，甚至用它来训练你的第一性原理思维。这不仅是关于提示词的技巧，这是一套重塑你与AI关系的完整操作系统。\n\nhttps://www.youtube.com/watch?v=xgpLjLHB5sA",
+      "url": "https://www.youtube.com/watch?v=f2_F6gfu2dk",
+      "author": "最佳拍档",
+      "published": "2026-01-13T23:00:53",
+      "source": "最佳拍档",
+      "source_type": "rss",
+      "tags": [],
+      "summary": "Chinese-language educational video covering Dan Koe's advanced prompt engineering techniques, teaching users to transform AI from a 'fancy search engine' into a productive digital team through systematic workflows and meta-prompts.",
+      "importance_score": 35.0,
+      "reasoning": "Educational/tutorial content about existing AI usage techniques. No news value for frontier AI—summarizes known prompt engineering concepts rather than reporting new developments.",
+      "themes": [
+        "prompt engineering",
+        "AI productivity",
+        "workflows"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Chinese-language educational video covering Dan Koe's advanced prompt engineering techniques, teaching users to transform AI from a 'fancy search engine' into a productive digital team through systematic workflows and meta-prompts.</p>",
+      "content_html": "<p>为什么在大多数人手里，强大的AI最终沦为了一个花哨的搜索引擎？而少数高手，却能把它变成一支无所不能的数字团队？本期视频，我们将揭开Dan Koe的终极秘密：停止像玩老虎机一样向AI投喂指令，开始像管理顶级员工一样与它协作。你将学到四种构建专家级指令的具体方法，如何从零开始，让AI掌握你的独特风格和专业知识。展示三个足以颠覆你工作方式的高阶玩法，把任何一个教学视频，变成你的私人教练，让AI扮演纳瓦尔、霍尔莫齐，成为你的智囊团，甚至用它来训练你的第一性原理思维。这不仅是关于提示词的技巧，这是一套重塑你与AI关系的完整操作系统。</p>\n<p>https://www.youtube.com/watch?v=xgpLjLHB5sA</p>"
+    },
+    {
+      "id": "e971d4856e33",
+      "title": "o11",
+      "content": "\n            Microsoft Copilot, But It Actually Works\n          \n          \n            Discussion\n            |\n            Link\n          ",
+      "url": "https://www.producthunt.com/products/o11",
+      "author": "Aryah Oztanir",
+      "published": "2026-01-13T20:38:49",
+      "source": "Product Hunt — The best new products, every day",
+      "source_type": "rss",
+      "tags": [],
+      "summary": "o11 launches on Product Hunt positioned as 'Microsoft Copilot, But It Actually Works'—an alternative AI assistant aimed at addressing perceived shortcomings in Microsoft's offering.",
+      "importance_score": 28.0,
+      "reasoning": "Very minimal product information available. Small Product Hunt launch with no demonstrated differentiation or traction data beyond marketing tagline.",
+      "themes": [
+        "AI assistants",
+        "productivity tools",
+        "Copilot alternative"
+      ],
+      "continuation": null,
+      "summary_html": "<p>o11 launches on Product Hunt positioned as 'Microsoft Copilot, But It Actually Works'—an alternative AI assistant aimed at addressing perceived shortcomings in Microsoft's offering.</p>",
+      "content_html": "<p>Microsoft Copilot, But It Actually Works</p>\n<p>Discussion</p>\n<p>|</p>\n<p>Link</p>"
+    },
+    {
+      "id": "3fbb8bce682e",
+      "title": "Knowns CLI",
+      "content": "\n            AI-first CLI for task management and documentation.\n          \n          \n            Discussion\n            |\n            Link\n          ",
+      "url": "https://www.producthunt.com/products/knowns-cli",
+      "author": "Howz Nguyen",
+      "published": "2026-01-13T10:06:01",
+      "source": "Product Hunt — The best new products, every day",
+      "source_type": "rss",
+      "tags": [],
+      "summary": "Knowns CLI launches as an AI-first command line interface tool designed for task management and documentation workflows.",
+      "importance_score": 28.0,
+      "reasoning": "Small-scale CLI tool launch with minimal information. Represents incremental tooling rather than significant frontier AI development.",
+      "themes": [
+        "CLI tools",
+        "task management",
+        "developer tools"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Knowns CLI launches as an AI-first command line interface tool designed for task management and documentation workflows.</p>",
+      "content_html": "<p>AI-first CLI for task management and documentation.</p>\n<p>Discussion</p>\n<p>|</p>\n<p>Link</p>"
+    }
+  ]
+}

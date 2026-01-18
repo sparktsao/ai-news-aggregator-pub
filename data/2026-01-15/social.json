@@ -1,0 +1,101 @@
+{
+  "category": "social",
+  "date": "2026-01-15",
+  "category_summary": "AI development timelines dominated today's discussions, with evidence that progress is outpacing even expert predictions.\n\n- **Simon Willison** [observed his 2029 prediction](/?date=2026-01-15&category=social#item-3844467fe6e5) for AI-built web browsers is already proving wrong in 2026, signaling faster-than-expected capability acceleration\n- **Ethan Mollick** showcased creative use of **Claude Code**, [building a visualization plugin](/?date=2026-01-15&category=social#item-cec48457097c) that renders AI agent work as an animated office with subagents being 'hired' in real-time\n- **Sakana AI** (founded by Transformer paper co-author) [continues expanding](/?date=2026-01-15&category=social#item-eb0a20624d18) their Tokyo operations with new hiring",
+  "category_summary_html": "<p>AI development timelines dominated today's discussions, with evidence that progress is outpacing even expert predictions.</p>\n<ul>\n<li><strong>Simon Willison</strong> <a href=\"/?date=2026-01-15&category=social#item-3844467fe6e5\" class=\"internal-link\">observed his 2029 prediction</a> for AI-built web browsers is already proving wrong in 2026, signaling faster-than-expected capability acceleration</li>\n<li><strong>Ethan Mollick</strong> showcased creative use of <strong>Claude Code</strong>, <a href=\"/?date=2026-01-15&category=social#item-cec48457097c\" class=\"internal-link\">building a visualization plugin</a> that renders AI agent work as an animated office with subagents being 'hired' in real-time</li>\n<li><strong>Sakana AI</strong> (founded by Transformer paper co-author) <a href=\"/?date=2026-01-15&category=social#item-eb0a20624d18\" class=\"internal-link\">continues expanding</a> their Tokyo operations with new hiring</li>\n</ul>",
+  "themes": [
+    {
+      "name": "AI Capability Acceleration",
+      "description": "Evidence that AI progress is outpacing expert predictions, with complex tasks achievable sooner than expected",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 78
+    },
+    {
+      "name": "AI Coding Tools & Agents",
+      "description": "Discussion of AI-powered development tools (Claude Code, Cursor) being used for increasingly sophisticated software projects",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 75
+    },
+    {
+      "name": "AI Industry Growth",
+      "description": "Hiring and expansion at AI research labs",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 20
+    }
+  ],
+  "total_items": 3,
+  "items": [
+    {
+      "id": "3844467fe6e5",
+      "title": "... my prediction that someone would write a new web browser using AI tools by 2029 appears to have ...",
+      "content": "... my prediction that someone would write a new web browser using AI tools by 2029 appears to have been be three years off cursor.com/blog/scaling... and github.com/wilsonzlin/f...",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mcg6jfyhds24",
+      "author": "@simonwillison.net",
+      "published": "2026-01-14T23:03:45.135000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison notes his prediction that AI would be used to build a new web browser by 2029 appears to have been wrong—it's happening now in 2026, citing Cursor and a GitHub project as evidence.",
+      "importance_score": 78,
+      "reasoning": "Simon Willison is an extremely respected voice in AI/dev tools space. This highlights a significant capability milestone—AI tools building complex software like browsers years ahead of expert predictions. Original insight on AI progress acceleration. References concrete projects.",
+      "themes": [
+        "AI coding tools",
+        "AI capability acceleration",
+        "Cursor",
+        "predictions",
+        "software development"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison notes his prediction that AI would be used to build a new web browser by 2029 appears to have been wrong—it's happening now in 2026, citing Cursor and a GitHub project as evidence.</p>",
+      "content_html": "<p>... my prediction that someone would write a new web browser using AI tools by 2029 appears to have been be three years off cursor.com/blog/scaling... and github.com/wilsonzlin/f...</p>"
+    },
+    {
+      "id": "cec48457097c",
+      "title": "Had Claude Code build a little plugin that visualizes the work Claude Code is doing as agents workin...",
+      "content": "Had Claude Code build a little plugin that visualizes the work Claude Code is doing as agents working in an office, with agents doing work and passing information to each other. New subagents are hired, they acquire skills, and they turn in completed work. Fun start.",
+      "url": "https://bsky.app/profile/emollick.bsky.social/post/3mce76czxlc2a",
+      "author": "@emollick.bsky.social",
+      "published": "2026-01-14T04:10:07.209000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Ethan Mollick built a visualization plugin using Claude Code that displays AI agent work as an animated office environment—showing subagents being 'hired', acquiring skills, and passing work between each other.",
+      "importance_score": 72,
+      "reasoning": "Ethan Mollick is a highly credible Wharton professor and AI thought leader. Post demonstrates creative meta-application of AI coding agents while providing intuitive visualization of multi-agent workflows. Strong engagement (162 likes). Offers practical insight into agentic AI behavior.",
+      "themes": [
+        "AI agents",
+        "Claude Code",
+        "AI visualization",
+        "developer tools",
+        "agentic workflows"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Ethan Mollick built a visualization plugin using Claude Code that displays AI agent work as an animated office environment—showing subagents being 'hired', acquiring skills, and passing work between each other.</p>",
+      "content_html": "<p>Had Claude Code build a little plugin that visualizes the work Claude Code is doing as agents working in an office, with agents doing work and passing information to each other. New subagents are hired, they acquire skills, and they turn in completed work. Fun start.</p>"
+    },
+    {
+      "id": "eb0a20624d18",
+      "title": "2026 is just getting started 🚀✨\n\nWe are hiring. Join our team in Tokyo!\n\nsakana.ai/careers",
+      "content": "2026 is just getting started 🚀✨\n\nWe are hiring. Join our team in Tokyo!\n\nsakana.ai/careers",
+      "url": "https://bsky.app/profile/sakanaai.bsky.social/post/3mcf63auerk2y",
+      "author": "@sakanaai.bsky.social",
+      "published": "2026-01-14T13:23:10.246000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Sakana AI (founded by ex-Google researchers including Transformer paper co-author) announces they are hiring for their Tokyo office.",
+      "importance_score": 25,
+      "reasoning": "While Sakana AI is a credible AI research lab, this is primarily a promotional hiring post with no technical content or insights. Low engagement and no substantive information about their work.",
+      "themes": [
+        "AI hiring",
+        "AI industry growth"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Sakana AI (founded by ex-Google researchers including Transformer paper co-author) announces they are hiring for their Tokyo office.</p>",
+      "content_html": "<p>2026 is just getting started 🚀✨</p>\n<p>We are hiring. Join our team in Tokyo!</p>\n<p>sakana.ai/careers</p>"
+    }
+  ]
+}

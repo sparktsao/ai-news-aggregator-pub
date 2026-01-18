@@ -1,0 +1,156 @@
+{
+  "category": "social",
+  "date": "2026-01-18",
+  "category_summary": "A light day for AI content, with only one substantive AI-related post in the feed.\n\n- **Ethan Mollick** continues his 'AI game demo a day' experiment, [showcasing a satirical game](/?date=2026-01-18&category=social#item-01cd1b7d34c9) where players prevent apocalypse by managing Jira tickets—highlighting AI's creative prototyping capabilities\n\n**Simon Willison** [shared an off-topic thread](/?date=2026-01-18&category=social#item-d559c3018a33) celebrating **LaRussell's** community music collaborations with Bay Area high schools, unrelated to AI/ML developments.",
+  "category_summary_html": "<p>A light day for AI content, with only one substantive AI-related post in the feed.</p>\n<ul>\n<li><strong>Ethan Mollick</strong> continues his 'AI game demo a day' experiment, <a href=\"/?date=2026-01-18&category=social#item-01cd1b7d34c9\" class=\"internal-link\">showcasing a satirical game</a> where players prevent apocalypse by managing Jira tickets—highlighting AI's creative prototyping capabilities</li>\n</ul>\n<p><strong>Simon Willison</strong> <a href=\"/?date=2026-01-18&category=social#item-d559c3018a33\" class=\"internal-link\">shared an off-topic thread</a> celebrating <strong>LaRussell's</strong> community music collaborations with Bay Area high schools, unrelated to AI/ML developments.</p>",
+  "themes": [
+    {
+      "name": "AI-assisted creativity",
+      "description": "Using AI tools for creative content generation including game development and storytelling",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 72
+    },
+    {
+      "name": "off-topic",
+      "description": "Posts not related to AI/ML - in this case, local music/school collaboration content",
+      "item_count": 5,
+      "example_items": [],
+      "importance": 5
+    }
+  ],
+  "total_items": 6,
+  "items": [
+    {
+      "id": "01cd1b7d34c9",
+      "title": "Continuing to have AI build a weird game demo a day. Here is: \"Make a game where you have to prevent...",
+      "content": "Continuing to have AI build a weird game demo a day. Here is: \"Make a game where you have to prevent the apocalypse, but the interface is just Jira tickets\"\n\nPretty fun/funny branching storyline, all text is AI created with minor feedback from me. Play: gentle-bienenstitch-01e24b.netlify.app",
+      "url": "https://bsky.app/profile/emollick.bsky.social/post/3mcndm53afk2a",
+      "author": "@emollick.bsky.social",
+      "published": "2026-01-17T19:23:23.333000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Continuing our coverage from [yesterday](/?date=2026-01-17&category=social#item-85d3dfe3a93b), Ethan Mollick shares his ongoing 'AI game demo a day' experiment - a satirical game where players prevent the apocalypse by managing Jira tickets. All game text is AI-generated with minimal human feedback, hosted as a playable demo.",
+      "importance_score": 72,
+      "reasoning": "Ethan Mollick is a highly credible AI researcher/Wharton professor known for practical AI experimentation. Solid engagement (105 likes). Demonstrates creative AI-assisted development workflows and rapid prototyping capabilities. Not technically deep but shows practical generative AI applications.",
+      "themes": [
+        "AI-assisted creativity",
+        "generative AI applications",
+        "rapid prototyping",
+        "AI experimentation"
+      ],
+      "continuation": {
+        "original_item_id": "85d3dfe3a93b",
+        "original_date": "2026-01-17",
+        "original_category": "social",
+        "original_title": "\"Claude Code, make me a version of the 1984 abandonware Apple IIe game Rescue Raiders, look it up\"",
+        "continuation_type": "follow_up",
+        "should_demote": false,
+        "reference_text": "Continuing our coverage from yesterday"
+      },
+      "summary_html": "<p>Continuing our coverage from <a href=\"/?date=2026-01-17&category=social#item-85d3dfe3a93b\" class=\"internal-link\">yesterday</a>, Ethan Mollick shares his ongoing 'AI game demo a day' experiment - a satirical game where players prevent the apocalypse by managing Jira tickets. All game text is AI-generated with minimal human feedback, hosted as a playable demo.</p>",
+      "content_html": "<p>Continuing to have AI build a weird game demo a day. Here is: \"Make a game where you have to prevent the apocalypse, but the interface is just Jira tickets\"</p>\n<p>Pretty fun/funny branching storyline, all text is AI created with minor feedback from me. Play: gentle-bienenstitch-01e24b.netlify.app</p>"
+    },
+    {
+      "id": "d559c3018a33",
+      "title": "Bay Area musician LaRussell has been doing a series of collaborations with local schools turning aro...",
+      "content": "Bay Area musician LaRussell has been doing a series of collaborations with local schools turning around full music videos and they're pretty amazing, here's the latest with San Leandro High School www.tiktok.com/@larussellgc...",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mcnoimjel22r",
+      "author": "@simonwillison.net",
+      "published": "2026-01-17T22:38:16.465000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison introduces a thread about Bay Area musician LaRussell's school music video collaboration series, starting with San Leandro High School.",
+      "importance_score": 8,
+      "reasoning": "Off-topic for AI/ML analysis. While from a credible tech figure, this is community/arts content about local musician collaborations with schools. No AI relevance despite moderate engagement (22 likes).",
+      "themes": [
+        "off-topic"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison introduces a thread about Bay Area musician LaRussell's school music video collaboration series, starting with San Leandro High School.</p>",
+      "content_html": "<p>Bay Area musician LaRussell has been doing a series of collaborations with local schools turning around full music videos and they're pretty amazing, here's the latest with San Leandro High School www.tiktok.com/@larussellgc...</p>"
+    },
+    {
+      "id": "0822148dca48",
+      "title": "James Logan High School (Union City) www.tiktok.com/@larussellgc...",
+      "content": "James Logan High School (Union City) www.tiktok.com/@larussellgc...",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mcnpc2orkk2r",
+      "author": "@simonwillison.net",
+      "published": "2026-01-17T22:52:30.186000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison shares a TikTok link about James Logan High School music collaboration.",
+      "importance_score": 5,
+      "reasoning": "Off-topic for AI/ML. Despite credible author (Simon Willison), this is about a musician's school collaboration project, not technology or AI. Low engagement, no AI relevance.",
+      "themes": [
+        "off-topic"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison shares a TikTok link about James Logan High School music collaboration.</p>",
+      "content_html": "<p>James Logan High School (Union City) www.tiktok.com/@larussellgc...</p>"
+    },
+    {
+      "id": "da27fe7c235d",
+      "title": "Tennyson High School (in Hayward) www.tiktok.com/@larussellgc...",
+      "content": "Tennyson High School (in Hayward) www.tiktok.com/@larussellgc...",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mcnp6obe322r",
+      "author": "@simonwillison.net",
+      "published": "2026-01-17T22:50:36.501000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison shares a TikTok link about Tennyson High School music collaboration.",
+      "importance_score": 5,
+      "reasoning": "Off-topic for AI/ML. Part of thread about local school music videos. No AI/tech content.",
+      "themes": [
+        "off-topic"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison shares a TikTok link about Tennyson High School music collaboration.</p>",
+      "content_html": "<p>Tennyson High School (in Hayward) www.tiktok.com/@larussellgc...</p>"
+    },
+    {
+      "id": "97c6e4d8f454",
+      "title": "El Cerrito High School www.tiktok.com/@larussellgc...",
+      "content": "El Cerrito High School www.tiktok.com/@larussellgc...",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mcnp266tws2r",
+      "author": "@simonwillison.net",
+      "published": "2026-01-17T22:48:05.424000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison shares a TikTok link about El Cerrito High School music collaboration.",
+      "importance_score": 5,
+      "reasoning": "Off-topic for AI/ML. Part of thread about local school music videos. No AI/tech content.",
+      "themes": [
+        "off-topic"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison shares a TikTok link about El Cerrito High School music collaboration.</p>",
+      "content_html": "<p>El Cerrito High School www.tiktok.com/@larussellgc...</p>"
+    },
+    {
+      "id": "a04d977d2121",
+      "title": "Pittsburgh High School www.tiktok.com/@larussellgc...",
+      "content": "Pittsburgh High School www.tiktok.com/@larussellgc...",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mcnoyqpsg22r",
+      "author": "@simonwillison.net",
+      "published": "2026-01-17T22:47:17.745000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison shares a TikTok link about Pittsburgh High School music collaboration.",
+      "importance_score": 5,
+      "reasoning": "Off-topic for AI/ML. Part of thread about local school music videos. No AI/tech content.",
+      "themes": [
+        "off-topic"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison shares a TikTok link about Pittsburgh High School music collaboration.</p>",
+      "content_html": "<p>Pittsburgh High School www.tiktok.com/@larussellgc...</p>"
+    }
+  ]
+}

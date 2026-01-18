@@ -1,0 +1,141 @@
+{
+  "category": "social",
+  "date": "2026-01-16",
+  "category_summary": "**Simon Willison** dominated today's AI discussions with hands-on assessments of current model capabilities and AI-generated code quality.\n\n- **Willison** [expressed skepticism](/?date=2026-01-16&category=social#item-5020b51743a5) about whether today's models are ready for certain complex tasks, highlighting the skill gap in effectively using AI tools\n- Multiple posts examined **AI-generated browser projects** (vibe-coded browsers), with **Willison** reporting [most are not in usable states](/?date=2026-01-16&category=social#item-74a0ab475377) despite successful compilation\n- Technical deep-dive revealed one AI-built browser [genuinely attempted page rendering](/?date=2026-01-16&category=social#item-d73f77f1b1f5) rather than wrapping WebKit, evidenced by its rendering failures\n\nThe community tone reflects pragmatic realism about AI capabilities—enthusiasm tempered by real-world testing results.",
+  "category_summary_html": "<p><strong>Simon Willison</strong> dominated today's AI discussions with hands-on assessments of current model capabilities and AI-generated code quality.</p>\n<ul>\n<li><strong>Willison</strong> <a href=\"/?date=2026-01-16&category=social#item-5020b51743a5\" class=\"internal-link\">expressed skepticism</a> about whether today's models are ready for certain complex tasks, highlighting the skill gap in effectively using AI tools</li>\n<li>Multiple posts examined <strong>AI-generated browser projects</strong> (vibe-coded browsers), with <strong>Willison</strong> reporting <a href=\"/?date=2026-01-16&category=social#item-74a0ab475377\" class=\"internal-link\">most are not in usable states</a> despite successful compilation</li>\n<li>Technical deep-dive revealed one AI-built browser <a href=\"/?date=2026-01-16&category=social#item-d73f77f1b1f5\" class=\"internal-link\">genuinely attempted page rendering</a> rather than wrapping WebKit, evidenced by its rendering failures</li>\n</ul>\n<p>The community tone reflects pragmatic realism about AI capabilities—enthusiasm tempered by real-world testing results.</p>",
+  "themes": [
+    {
+      "name": "AI Model Capability Assessment",
+      "description": "Practical evaluation of what current AI models can and cannot accomplish, including skills required to use them effectively",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 60
+    },
+    {
+      "name": "AI-Generated Browser Projects",
+      "description": "Discussion and evaluation of browsers built primarily through AI coding assistants (vibe coding), including attempts to compile and run them",
+      "item_count": 3,
+      "example_items": [],
+      "importance": 55
+    },
+    {
+      "name": "Technical Knowledge Sharing",
+      "description": "Discussion around technical blogging and sharing AI/ML experiences",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 35
+    }
+  ],
+  "total_items": 5,
+  "items": [
+    {
+      "id": "5020b51743a5",
+      "title": "I didn't think today's models were quite up to the task, and I thought it would take a while for the...",
+      "content": "I didn't think today's models were quite up to the task, and I thought it would take a while for the skills needed to use models in this way to become widespread enough for people to take this on",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mchlmnbkws2g",
+      "author": "@simonwillison.net",
+      "published": "2026-01-15T12:30:51.823000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison expressing skepticism that current AI models were capable enough for a particular task, and noting the skills to use models effectively aren't yet widespread",
+      "importance_score": 58,
+      "reasoning": "Direct insight from Simon Willison (highly credible AI practitioner) on model capability limitations. Fragment of larger conversation limits context, but offers honest assessment of current AI state from someone who tests extensively.",
+      "themes": [
+        "AI model capabilities",
+        "AI skill requirements",
+        "current AI limitations"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison expressing skepticism that current AI models were capable enough for a particular task, and noting the skills to use models effectively aren't yet widespread</p>",
+      "content_html": "<p>I didn't think today's models were quite up to the task, and I thought it would take a while for the skills needed to use models in this way to become widespread enough for people to take this on</p>"
+    },
+    {
+      "id": "9ad2f88c60d4",
+      "title": "That was me talking about a different browser effort, this one: github.com/hiwavebrowse...\n\nI haven'...",
+      "content": "That was me talking about a different browser effort, this one: github.com/hiwavebrowse...\n\nI haven't tried the Cursor one yet, it's lacking build instructions",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mcgitk3g7c2p",
+      "author": "@simonwillison.net",
+      "published": "2026-01-15T02:08:22.393000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison clarifying he was discussing a different AI-generated browser project (HiWave), noting he hasn't tried the Cursor-related one due to lack of build instructions",
+      "importance_score": 52,
+      "reasoning": "Technical discussion from credible source about AI-generated browser projects. Provides practical context on the state of these vibe-coded projects but conversational fragment limits standalone value.",
+      "themes": [
+        "AI-generated code",
+        "vibe coding",
+        "browser development"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison clarifying he was discussing a different AI-generated browser project (HiWave), noting he hasn't tried the Cursor-related one due to lack of build instructions</p>",
+      "content_html": "<p>That was me talking about a different browser effort, this one: github.com/hiwavebrowse...</p>\n<p>I haven't tried the Cursor one yet, it's lacking build instructions</p>"
+    },
+    {
+      "id": "74a0ab475377",
+      "title": "Yeah it looks like it's very much not in a usable state - I managed to get the other one to compile ...",
+      "content": "Yeah it looks like it's very much not in a usable state - I managed to get the other one to compile but didn't get a usable page render out of it www.reddit.com/r/Anthropic/...",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mcgbo7imdk24",
+      "author": "@simonwillison.net",
+      "published": "2026-01-15T00:00:07.327000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison reports that an AI-generated browser project is not in a usable state - he managed to compile one variant but couldn't get functional page rendering",
+      "importance_score": 50,
+      "reasoning": "Practical assessment from trusted source on real-world state of AI-generated browser projects. References Anthropic subreddit discussion. Valuable reality-check on vibe coding hype.",
+      "themes": [
+        "AI-generated code",
+        "vibe coding limitations",
+        "Anthropic ecosystem"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison reports that an AI-generated browser project is not in a usable state - he managed to compile one variant but couldn't get functional page rendering</p>",
+      "content_html": "<p>Yeah it looks like it's very much not in a usable state - I managed to get the other one to compile but didn't get a usable page render out of it www.reddit.com/r/Anthropic/...</p>"
+    },
+    {
+      "id": "dea964b78cab",
+      "title": "New interview: @simonwillison.net shares his technical blogging experiences and advice writethatblog...",
+      "content": "New interview: @simonwillison.net shares his technical blogging experiences and advice writethatblog.substack.com/p/simon-will...",
+      "url": "https://bsky.app/profile/cynthiadunlop.bsky.social/post/3mchrc7cyc22a",
+      "author": "@cynthiadunlop.bsky.social",
+      "published": "2026-01-15T14:12:24.096000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Sharing an interview with Simon Willison about his technical blogging experiences and advice",
+      "importance_score": 45,
+      "reasoning": "Content sharing about a recognized AI/tech figure (Simon Willison), decent engagement for Bluesky, but primarily promotional rather than containing original AI insights. Value is in pointing to external resource.",
+      "themes": [
+        "technical blogging",
+        "knowledge sharing"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Sharing an interview with Simon Willison about his technical blogging experiences and advice</p>",
+      "content_html": "<p>New interview: @simonwillison.net shares his technical blogging experiences and advice writethatblog.substack.com/p/simon-will...</p>"
+    },
+    {
+      "id": "d73f77f1b1f5",
+      "title": "The version I got running definitely wasn't just wrapping WebKit, if it was wrapping WebKit it would...",
+      "content": "The version I got running definitely wasn't just wrapping WebKit, if it was wrapping WebKit it would have been able to render a page properly!",
+      "url": "https://bsky.app/profile/simonwillison.net/post/3mcgdwkpudc24",
+      "author": "@simonwillison.net",
+      "published": "2026-01-15T00:40:35.018000",
+      "source": "Bluesky",
+      "source_type": "bluesky",
+      "tags": [],
+      "summary": "Simon Willison noting that an AI-generated browser he tested was genuinely attempting to render pages (not just wrapping WebKit), evidenced by its failure to render properly",
+      "importance_score": 42,
+      "reasoning": "Technical observation about AI-generated browser implementation details. Low engagement and requires thread context, but provides hands-on evaluation of AI coding capabilities.",
+      "themes": [
+        "AI-generated code",
+        "browser rendering",
+        "AI code quality"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Simon Willison noting that an AI-generated browser he tested was genuinely attempting to render pages (not just wrapping WebKit), evidenced by its failure to render properly</p>",
+      "content_html": "<p>The version I got running definitely wasn't just wrapping WebKit, if it was wrapping WebKit it would have been able to render a page properly!</p>"
+    }
+  ]
+}

@@ -1,0 +1,827 @@
+{
+  "category": "research",
+  "date": "2026-01-13",
+  "category_summary": "Today's research reveals fundamental insights into LLM training dynamics and architectural limitations. **Two Pathways to Truthfulness** [identifies distinct pathways](/?date=2026-01-13&category=research#item-b71e0657ce5a) for hallucination encoding, enabling targeted interventions. A striking neuroscience connection emerges as **Synergistic Cores** in middle layers [mirror human brain](/?date=2026-01-13&category=research#item-8830d9825e7e) information integration patterns.\n\n- **SFT-RL Non-decoupling** [proves fundamental incompatibility](/?date=2026-01-13&category=research#item-ddd608af8e7d) between supervised fine-tuning and RL in post-training pipelines—each undermines the other at optimality\n- **Distributional Clarity** [explains why](/?date=2026-01-13&category=research#item-bc2e5b53e5fe) **Qwen** benefits more from RL than **Llama**: high-clarity token distributions enable effective policy optimization\n- **NoisyBench** exposes [catastrophic **80% performance drops**](/?date=2026-01-13&category=research#item-60e98e942efd) in reasoning models when facing contextual distractors\n- Impossibility theorem [shows LLMs cannot maintain](/?date=2026-01-13&category=research#item-2057356f180a) both secrecy and consistency without private working memory\n\nSafety research advances with **AgentBait** [demonstrating systematic attacks](/?date=2026-01-13&category=research#item-73426f819c51) against web automation agents. **Engram** [introduces conditional memory](/?date=2026-01-13&category=research#item-e149a3b2c656) with O(1) lookup and discovers U-shaped scaling laws. **BabyVision** [reveals MLLMs fail](/?date=2026-01-13&category=research#item-944a385367a9) on basic visual reasoning tasks that toddlers solve easily.",
+  "category_summary_html": "<p>Today's research reveals fundamental insights into LLM training dynamics and architectural limitations. <strong>Two Pathways to Truthfulness</strong> <a href=\"/?date=2026-01-13&category=research#item-b71e0657ce5a\" class=\"internal-link\">identifies distinct pathways</a> for hallucination encoding, enabling targeted interventions. A striking neuroscience connection emerges as <strong>Synergistic Cores</strong> in middle layers <a href=\"/?date=2026-01-13&category=research#item-8830d9825e7e\" class=\"internal-link\">mirror human brain</a> information integration patterns.</p>\n<ul>\n<li><strong>SFT-RL Non-decoupling</strong> <a href=\"/?date=2026-01-13&category=research#item-ddd608af8e7d\" class=\"internal-link\">proves fundamental incompatibility</a> between supervised fine-tuning and RL in post-training pipelines—each undermines the other at optimality</li>\n<li><strong>Distributional Clarity</strong> <a href=\"/?date=2026-01-13&category=research#item-bc2e5b53e5fe\" class=\"internal-link\">explains why</a> <strong>Qwen</strong> benefits more from RL than <strong>Llama</strong>: high-clarity token distributions enable effective policy optimization</li>\n<li><strong>NoisyBench</strong> exposes <a href=\"/?date=2026-01-13&category=research#item-60e98e942efd\" class=\"internal-link\">catastrophic <strong>80% performance drops</strong></a> in reasoning models when facing contextual distractors</li>\n<li>Impossibility theorem <a href=\"/?date=2026-01-13&category=research#item-2057356f180a\" class=\"internal-link\">shows LLMs cannot maintain</a> both secrecy and consistency without private working memory</li>\n</ul>\n<p>Safety research advances with <strong>AgentBait</strong> <a href=\"/?date=2026-01-13&category=research#item-73426f819c51\" class=\"internal-link\">demonstrating systematic attacks</a> against web automation agents. <strong>Engram</strong> <a href=\"/?date=2026-01-13&category=research#item-e149a3b2c656\" class=\"internal-link\">introduces conditional memory</a> with O(1) lookup and discovers U-shaped scaling laws. <strong>BabyVision</strong> <a href=\"/?date=2026-01-13&category=research#item-944a385367a9\" class=\"internal-link\">reveals MLLMs fail</a> on basic visual reasoning tasks that toddlers solve easily.</p>",
+  "themes": [
+    {
+      "name": "AI Safety & Alignment",
+      "description": "Content moderation evaluation, safety state bugs, ethical reasoning in practitioners, and socio-technical analysis of agentic AI systems",
+      "item_count": 43,
+      "example_items": [],
+      "importance": 82
+    },
+    {
+      "name": "Language Model Safety & Alignment",
+      "description": "Research on making LLMs safer through pretraining interventions, safe fine-tuning, defending against attacks, and understanding failure modes",
+      "item_count": 12,
+      "example_items": [],
+      "importance": 82
+    },
+    {
+      "name": "LLM Interpretability & Hallucinations",
+      "description": "Understanding internal mechanisms of LLMs, truthfulness encoding, and failure modes in evaluation",
+      "item_count": 6,
+      "example_items": [],
+      "importance": 80
+    },
+    {
+      "name": "Vision-Language Models",
+      "description": "Research on multimodal models combining vision and language, including VLMs, MLLMs, and their evaluation, safety, and applications",
+      "item_count": 15,
+      "example_items": [],
+      "importance": 78
+    },
+    {
+      "name": "AI Security & Adversarial Robustness",
+      "description": "Attack vectors for LLM systems including prompt injection, defense limitations, and robustness to contextual distractors",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 78
+    },
+    {
+      "name": "LLM Training & RLHF",
+      "description": "Methods for training and aligning LLMs including reward modeling, credit assignment, and SFT/RL interactions",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 78
+    },
+    {
+      "name": "LLM Reliability and Safety",
+      "description": "Research on LLM confidence calibration, alignment controllability, prompt injection defenses, and decision faithfulness",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 78
+    },
+    {
+      "name": "Language Models & Reasoning",
+      "description": "Research on LLM capabilities, efficiency, reasoning mechanisms, and novel training approaches including chain-of-thought compression and adaptive thinking budgets",
+      "item_count": 14,
+      "example_items": [],
+      "importance": 75
+    },
+    {
+      "name": "Alignment and Preference Learning",
+      "description": "Methods for aligning LLMs with human preferences including RLHF variants, DPO extensions, and theoretical unification of approaches",
+      "item_count": 5,
+      "example_items": [],
+      "importance": 75
+    },
+    {
+      "name": "LLM Agents & Memory",
+      "description": "Frameworks for tool-using agents, memory systems for long-horizon interactions, and agent benchmarks",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 75
+    }
+  ],
+  "total_items": 30,
+  "items": [
+    {
+      "id": "8830d9825e7e",
+      "title": "A Brain-like Synergistic Core in LLMs Drives Behaviour and Learning",
+      "content": "The independent evolution of intelligence in biological and artificial systems offers a unique opportunity to identify its fundamental computational principles. Here we show that large language models spontaneously develop synergistic cores -- components where information integration exceeds individual parts -- remarkably similar to those in the human brain. Using principles of information decomposition across multiple LLM model families and architectures, we find that areas in middle layers exhibit synergistic processing while early and late layers rely on redundancy, mirroring the informational organisation in biological brains. This organisation emerges through learning and is absent in randomly initialised networks. Crucially, ablating synergistic components causes disproportionate behavioural changes and performance loss, aligning with theoretical predictions about the fragility of synergy. Moreover, fine-tuning synergistic regions through reinforcement learning yields significantly greater performance gains than training redundant components, yet supervised fine-tuning shows no such advantage. This convergence suggests that synergistic information processing is a fundamental property of intelligence, providing targets for principled model design and testable predictions for biological intelligence.",
+      "url": "http://arxiv.org/abs/2601.06851",
+      "author": "Pedro Urbina-Rodriguez, Zafeirios Fountas, Fernando E. Rosas, Jun Wang, Andrea I. Luppi, Haitham Bou-Ammar, Murray Shanahan, Pedro A. M. Mediano",
+      "published": "2026-01-13",
+      "source": "arXiv (Artificial Intelligence)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.AI"
+      ],
+      "summary": "Discovers that LLMs spontaneously develop synergistic cores (information integration exceeding individual parts) similar to human brains. Middle layers show synergistic processing while early/late layers are redundant, mirroring biological organization.",
+      "importance_score": 82,
+      "reasoning": "Fascinating finding linking LLM and brain information processing. Novel interpretability insight with implications for understanding intelligence. Important theoretical contribution.",
+      "themes": [
+        "LLM Interpretability",
+        "Neuroscience",
+        "Information Theory",
+        "AI Alignment"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discovers that LLMs spontaneously develop synergistic cores (information integration exceeding individual parts) similar to human brains. Middle layers show synergistic processing while early/late layers are redundant, mirroring biological organization.</p>",
+      "content_html": "<p>The independent evolution of intelligence in biological and artificial systems offers a unique opportunity to identify its fundamental computational principles. Here we show that large language models spontaneously develop synergistic cores -- components where information integration exceeds individual parts -- remarkably similar to those in the human brain. Using principles of information decomposition across multiple LLM model families and architectures, we find that areas in middle layers exhibit synergistic processing while early and late layers rely on redundancy, mirroring the informational organisation in biological brains. This organisation emerges through learning and is absent in randomly initialised networks. Crucially, ablating synergistic components causes disproportionate behavioural changes and performance loss, aligning with theoretical predictions about the fragility of synergy. Moreover, fine-tuning synergistic regions through reinforcement learning yields significantly greater performance gains than training redundant components, yet supervised fine-tuning shows no such advantage. This convergence suggests that synergistic information processing is a fundamental property of intelligence, providing targets for principled model design and testable predictions for biological intelligence.</p>"
+    },
+    {
+      "id": "b71e0657ce5a",
+      "title": "Two Pathways to Truthfulness: On the Intrinsic Encoding of LLM Hallucinations",
+      "content": "Despite their impressive capabilities, large language models (LLMs) frequently generate hallucinations. Previous work shows that their internal states encode rich signals of truthfulness, yet the origins and mechanisms of these signals remain unclear. In this paper, we demonstrate that truthfulness cues arise from two distinct information pathways: (1) a Question-Anchored pathway that depends on question-answer information flow, and (2) an Answer-Anchored pathway that derives self-contained evidence from the generated answer itself. First, we validate and disentangle these pathways through attention knockout and token patching. Afterwards, we uncover notable and intriguing properties of these two mechanisms. Further experiments reveal that (1) the two mechanisms are closely associated with LLM knowledge boundaries; and (2) internal representations are aware of their distinctions. Finally, building on these insightful findings, two applications are proposed to enhance hallucination detection performance. Overall, our work provides new insight into how LLMs internally encode truthfulness, offering directions for more reliable and self-aware generative systems.",
+      "url": "http://arxiv.org/abs/2601.07422",
+      "author": "Wen Luo, Guangyue Peng, Wei Li, Shaohang Wei, Feifan Song, Liang Wang, Nan Yang, Xingxing Zhang, Jing Jin, Furu Wei, Houfeng Wang",
+      "published": "2026-01-13",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Identifies two distinct pathways through which LLMs encode truthfulness: a Question-Anchored pathway depending on Q-A information flow, and an Answer-Anchored pathway deriving evidence from generated answers. Validates through attention knockout and token patching.",
+      "importance_score": 82,
+      "reasoning": "Important mechanistic understanding of hallucination origins in LLMs. Novel decomposition with practical implications for hallucination detection and mitigation. Strong experimental methodology.",
+      "themes": [
+        "LLM Interpretability",
+        "Hallucination Detection",
+        "AI Safety",
+        "Mechanistic Interpretability"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Identifies two distinct pathways through which LLMs encode truthfulness: a Question-Anchored pathway depending on Q-A information flow, and an Answer-Anchored pathway deriving evidence from generated answers. Validates through attention knockout and token patching.</p>",
+      "content_html": "<p>Despite their impressive capabilities, large language models (LLMs) frequently generate hallucinations. Previous work shows that their internal states encode rich signals of truthfulness, yet the origins and mechanisms of these signals remain unclear. In this paper, we demonstrate that truthfulness cues arise from two distinct information pathways: (1) a Question-Anchored pathway that depends on question-answer information flow, and (2) an Answer-Anchored pathway that derives self-contained evidence from the generated answer itself. First, we validate and disentangle these pathways through attention knockout and token patching. Afterwards, we uncover notable and intriguing properties of these two mechanisms. Further experiments reveal that (1) the two mechanisms are closely associated with LLM knowledge boundaries; and (2) internal representations are aware of their distinctions. Finally, building on these insightful findings, two applications are proposed to enhance hallucination detection performance. Overall, our work provides new insight into how LLMs internally encode truthfulness, offering directions for more reliable and self-aware generative systems.</p>"
+    },
+    {
+      "id": "944a385367a9",
+      "title": "BabyVision: Visual Reasoning Beyond Language",
+      "content": "While humans develop core visual skills long before acquiring language, contemporary Multimodal LLMs (MLLMs) still rely heavily on linguistic priors to compensate for their fragile visual understanding. We uncovered a crucial fact: state-of-the-art MLLMs consistently fail on basic visual tasks that humans, even 3-year-olds, can solve effortlessly. To systematically investigate this gap, we introduce BabyVision, a benchmark designed to assess core visual abilities independent of linguistic knowledge for MLLMs. BabyVision spans a wide range of tasks, with 388 items divided into 22 subclasses across four key categories. Empirical results and human evaluation reveal that leading MLLMs perform significantly below human baselines. Gemini3-Pro-Preview scores 49.7, lagging behind 6-year-old humans and falling well behind the average adult score of 94.1. These results show despite excelling in knowledge-heavy evaluations, current MLLMs still lack fundamental visual primitives. Progress in BabyVision represents a step toward human-level visual perception and reasoning capabilities. We also explore solving visual reasoning with generation models by proposing BabyVision-Gen and automatic evaluation toolkit. Our code and benchmark data are released at https://github.com/UniPat-AI/BabyVision for reproduction.",
+      "url": "http://arxiv.org/abs/2601.06521",
+      "author": "Liang Chen, Weichu Xie, Yiyan Liang, Hongfeng He, Hans Zhao, Zhibo Yang, Zhiqi Huang, Haoning Wu, Haoyu Lu, Y. charles, Yiping Bao, Yuantao Fan, Guopeng Li, Haiyang Shen, Xuanzhong Chen, Wendong Xu, Shuzheng Si, Zefan Cai, Wenhao Chai, Ziqi Huang, Fangfu Liu, Tianyu Liu, Baobao Chang, Xiaobo Hu, Kaiyuan Chen, Yixin Ren, Yang Liu, Yuan Gong, Kuan Li",
+      "published": "2026-01-13",
+      "source": "arXiv (Computer Vision)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CV"
+      ],
+      "summary": "Introduces BabyVision, a benchmark testing core visual abilities independent of linguistic knowledge, revealing that state-of-the-art MLLMs fail on basic visual tasks that 3-year-old humans solve effortlessly.",
+      "importance_score": 80,
+      "reasoning": "Important finding exposing fundamental weakness in current MLLMs. Well-designed benchmark isolating visual reasoning from linguistic compensation. Significant implications for multimodal AI development.",
+      "themes": [
+        "MLLM Evaluation",
+        "Visual Reasoning",
+        "Benchmarks",
+        "Cognitive AI"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces BabyVision, a benchmark testing core visual abilities independent of linguistic knowledge, revealing that state-of-the-art MLLMs fail on basic visual tasks that 3-year-old humans solve effortlessly.</p>",
+      "content_html": "<p>While humans develop core visual skills long before acquiring language, contemporary Multimodal LLMs (MLLMs) still rely heavily on linguistic priors to compensate for their fragile visual understanding. We uncovered a crucial fact: state-of-the-art MLLMs consistently fail on basic visual tasks that humans, even 3-year-olds, can solve effortlessly. To systematically investigate this gap, we introduce BabyVision, a benchmark designed to assess core visual abilities independent of linguistic knowledge for MLLMs. BabyVision spans a wide range of tasks, with 388 items divided into 22 subclasses across four key categories. Empirical results and human evaluation reveal that leading MLLMs perform significantly below human baselines. Gemini3-Pro-Preview scores 49.7, lagging behind 6-year-old humans and falling well behind the average adult score of 94.1. These results show despite excelling in knowledge-heavy evaluations, current MLLMs still lack fundamental visual primitives. Progress in BabyVision represents a step toward human-level visual perception and reasoning capabilities. We also explore solving visual reasoning with generation models by proposing BabyVision-Gen and automatic evaluation toolkit. Our code and benchmark data are released at https://github.com/UniPat-AI/BabyVision for reproduction.</p>"
+    },
+    {
+      "id": "ddd608af8e7d",
+      "title": "On the Non-decoupling of Supervised Fine-tuning and Reinforcement Learning in Post-training",
+      "content": "Post-training of large language models routinely interleaves supervised fine-tuning (SFT) with reinforcement learning (RL). These two methods have different objectives: SFT minimizes the cross-entropy loss between model outputs and expert responses, while RL maximizes reward signals derived from human preferences or rule-based verifiers. Modern reasoning models have widely adopted the practice of alternating SFT and RL training. However, there is no theoretical account of whether they can be decoupled. We prove that decoupling is impossible in either order: (1) SFT-then-RL coupling: RL increases SFT loss under SFT optimality and (2) RL-then-SFT coupling: SFT lowers the reward achieved by RL. Experiments on Qwen3-0.6B confirm the predicted degradation, verifying that SFT and RL cannot be separated without loss of prior performance in the post-training",
+      "url": "http://arxiv.org/abs/2601.07389",
+      "author": "Xueyan Niu, Bo Bai, Wei Han, Weixi Zhang",
+      "published": "2026-01-13",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Proves that SFT and RL cannot be decoupled in LLM post-training: SFT-then-RL causes RL to increase SFT loss at optimality; RL-then-SFT causes SFT to lower RL reward. Verified experimentally on Qwen3-0.6B.",
+      "importance_score": 80,
+      "reasoning": "Important theoretical result for LLM training methodology. Proves fundamental incompatibility that practitioners observe empirically. Direct implications for training pipeline design.",
+      "themes": [
+        "LLM Training",
+        "RLHF",
+        "Supervised Fine-tuning",
+        "ML Theory"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proves that SFT and RL cannot be decoupled in LLM post-training: SFT-then-RL causes RL to increase SFT loss at optimality; RL-then-SFT causes SFT to lower RL reward. Verified experimentally on Qwen3-0.6B.</p>",
+      "content_html": "<p>Post-training of large language models routinely interleaves supervised fine-tuning (SFT) with reinforcement learning (RL). These two methods have different objectives: SFT minimizes the cross-entropy loss between model outputs and expert responses, while RL maximizes reward signals derived from human preferences or rule-based verifiers. Modern reasoning models have widely adopted the practice of alternating SFT and RL training. However, there is no theoretical account of whether they can be decoupled. We prove that decoupling is impossible in either order: (1) SFT-then-RL coupling: RL increases SFT loss under SFT optimality and (2) RL-then-SFT coupling: SFT lowers the reward achieved by RL. Experiments on Qwen3-0.6B confirm the predicted degradation, verifying that SFT and RL cannot be separated without loss of prior performance in the post-training</p>"
+    },
+    {
+      "id": "2057356f180a",
+      "title": "LLMs Can't Play Hangman: On the Necessity of a Private Working Memory for Language Agents",
+      "content": "As LLMs move from text completion toward autonomous agents, they remain constrained by the standard chat interface, which lacks private working memory. This raises a fundamental question: can agents reliably perform interactive tasks that depend on hidden state? We define Private State Interactive Tasks (PSITs), which require agents to generate and maintain hidden information while producing consistent public responses. We show theoretically that any agent restricted to the public conversation history cannot simultaneously preserve secrecy and consistency in PSITs, yielding an impossibility theorem. To empirically validate this limitation, we introduce a self-consistency testing protocol that evaluates whether agents can maintain a hidden secret across forked dialogue branches. Standard chat-based LLMs and retrieval-based memory baselines fail this test regardless of scale, demonstrating that semantic retrieval does not enable true state maintenance. To address this, we propose a novel architecture incorporating an explicit private working memory; we demonstrate that this mechanism restores consistency, establishing private state as a necessary component for interactive language agents.",
+      "url": "http://arxiv.org/abs/2601.06973",
+      "author": "Davide Baldelli, Ali Parviz, Amal Zouaq, Sarath Chandar",
+      "published": "2026-01-13",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Proves impossibility theorem that LLMs restricted to public conversation history cannot simultaneously preserve secrecy and consistency in tasks requiring hidden state. Validates with Hangman experiments.",
+      "importance_score": 79,
+      "reasoning": "Fundamental theoretical result about LLM limitations. Important implications for agent design and security. Clear impossibility theorem.",
+      "themes": [
+        "LLM Limitations",
+        "Agents",
+        "Theoretical AI",
+        "AI Safety"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proves impossibility theorem that LLMs restricted to public conversation history cannot simultaneously preserve secrecy and consistency in tasks requiring hidden state. Validates with Hangman experiments.</p>",
+      "content_html": "<p>As LLMs move from text completion toward autonomous agents, they remain constrained by the standard chat interface, which lacks private working memory. This raises a fundamental question: can agents reliably perform interactive tasks that depend on hidden state? We define Private State Interactive Tasks (PSITs), which require agents to generate and maintain hidden information while producing consistent public responses. We show theoretically that any agent restricted to the public conversation history cannot simultaneously preserve secrecy and consistency in PSITs, yielding an impossibility theorem. To empirically validate this limitation, we introduce a self-consistency testing protocol that evaluates whether agents can maintain a hidden secret across forked dialogue branches. Standard chat-based LLMs and retrieval-based memory baselines fail this test regardless of scale, demonstrating that semantic retrieval does not enable true state maintenance. To address this, we propose a novel architecture incorporating an explicit private working memory; we demonstrate that this mechanism restores consistency, establishing private state as a necessary component for interactive language agents.</p>"
+    },
+    {
+      "id": "e149a3b2c656",
+      "title": "Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models",
+      "content": "While Mixture-of-Experts (MoE) scales capacity via conditional computation, Transformers lack a native primitive for knowledge lookup, forcing them to inefficiently simulate retrieval through computation. To address this, we introduce conditional memory as a complementary sparsity axis, instantiated via Engram, a module that modernizes classic $N$-gram embedding for O(1) lookup. By formulating the Sparsity Allocation problem, we uncover a U-shaped scaling law that optimizes the trade-off between neural computation (MoE) and static memory (Engram). Guided by this law, we scale Engram to 27B parameters, achieving superior performance over a strictly iso-parameter and iso-FLOPs MoE baseline. Most notably, while the memory module is expected to aid knowledge retrieval (e.g., MMLU +3.4; CMMLU +4.0), we observe even larger gains in general reasoning (e.g., BBH +5.0; ARC-Challenge +3.7) and code/math domains~(HumanEval +3.0; MATH +2.4). Mechanistic analyses reveal that Engram relieves the backbone's early layers from static reconstruction, effectively deepening the network for complex reasoning. Furthermore, by delegating local dependencies to lookups, it frees up attention capacity for global context, substantially boosting long-context retrieval (e.g., Multi-Query NIAH: 84.2 to 97.0). Finally, Engram establishes infrastructure-aware efficiency: its deterministic addressing enables runtime prefetching from host memory, incurring negligible overhead. We envision conditional memory...",
+      "url": "http://arxiv.org/abs/2601.07372",
+      "author": "Xin Cheng, Wangding Zeng, Damai Dai, Qinyu Chen, Bingxuan Wang, Zhenda Xie, Kezhao Huang, Xingkai Yu, Zhewen Hao, Yukun Li, Han Zhang, Huishuai Zhang, Dongyan Zhao, Wenfeng Liang",
+      "published": "2026-01-13",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Introduces Engram, a conditional memory module for LLMs enabling O(1) lookup by modernizing N-gram embeddings. Discovers U-shaped scaling law balancing MoE computation vs static memory, scaling to 27B parameters.",
+      "importance_score": 79,
+      "reasoning": "Novel architecture contribution with interesting scaling law discovery. Addresses fundamental limitation that Transformers lack native knowledge lookup. Strong empirical results (+3.4 MMLU, +3.3 CMMLU).",
+      "themes": [
+        "Language Model Architecture",
+        "Mixture of Experts",
+        "Memory Systems",
+        "Scaling Laws"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces Engram, a conditional memory module for LLMs enabling O(1) lookup by modernizing N-gram embeddings. Discovers U-shaped scaling law balancing MoE computation vs static memory, scaling to 27B parameters.</p>",
+      "content_html": "<p>While Mixture-of-Experts (MoE) scales capacity via conditional computation, Transformers lack a native primitive for knowledge lookup, forcing them to inefficiently simulate retrieval through computation. To address this, we introduce conditional memory as a complementary sparsity axis, instantiated via Engram, a module that modernizes classic $N$-gram embedding for O(1) lookup. By formulating the Sparsity Allocation problem, we uncover a U-shaped scaling law that optimizes the trade-off between neural computation (MoE) and static memory (Engram). Guided by this law, we scale Engram to 27B parameters, achieving superior performance over a strictly iso-parameter and iso-FLOPs MoE baseline. Most notably, while the memory module is expected to aid knowledge retrieval (e.g., MMLU +3.4; CMMLU +4.0), we observe even larger gains in general reasoning (e.g., BBH +5.0; ARC-Challenge +3.7) and code/math domains~(HumanEval +3.0; MATH +2.4). Mechanistic analyses reveal that Engram relieves the backbone's early layers from static reconstruction, effectively deepening the network for complex reasoning. Furthermore, by delegating local dependencies to lookups, it frees up attention capacity for global context, substantially boosting long-context retrieval (e.g., Multi-Query NIAH: 84.2 to 97.0). Finally, Engram establishes infrastructure-aware efficiency: its deterministic addressing enables runtime prefetching from host memory, incurring negligible overhead. We envision conditional memory...</p>"
+    },
+    {
+      "id": "3977c94556f6",
+      "title": "From RLHF to Direct Alignment: A Theoretical Unification of Preference Learning for Large Language Models",
+      "content": "Aligning large language models (LLMs) with human preferences has become essential for safe and beneficial AI deployment. While Reinforcement Learning from Human Feedback (RLHF) established the dominant paradigm, a proliferation of alternatives -- Direct Preference Optimization (DPO), Identity Preference Optimization (IPO), Kahneman-Tversky Optimization (KTO), Simple Preference Optimization (SimPO), and many others -- has left practitioners without clear guidance on method selection. This survey provides a \\textit{theoretical unification} of preference learning methods, revealing that the apparent diversity reduces to principled choices along three orthogonal axes: \\textbf{(I) Preference Model} (what likelihood model underlies the objective), \\textbf{(II) Regularization Mechanism} (how deviation from reference policies is controlled), and \\textbf{(III) Data Distribution} (online vs.\\ offline learning and coverage requirements). We formalize each axis with precise definitions and theorems, establishing key results including the coverage separation between online and offline methods, scaling laws for reward overoptimization, and conditions under which direct alignment methods fail. Our analysis reveals that failure modes -- length hacking, mode collapse, likelihood displacement -- arise from specific, predictable combinations of design choices. We synthesize empirical findings across 50+ papers and provide a practitioner's decision guide for method selection. The framework...",
+      "url": "http://arxiv.org/abs/2601.06108",
+      "author": "Tarun Raheja, Nilay Pochhi",
+      "published": "2026-01-13",
+      "source": "arXiv (Artificial Intelligence)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.AI"
+      ],
+      "summary": "Provides theoretical unification of preference learning methods (RLHF, DPO, IPO, KTO, SimPO) by revealing they differ along three orthogonal axes: preference model, regularization mechanism, and optimization approach.",
+      "importance_score": 78,
+      "reasoning": "Valuable survey providing practitioner guidance and theoretical framework for understanding the proliferation of alignment methods. High utility for the field.",
+      "themes": [
+        "Alignment",
+        "RLHF",
+        "Preference Learning",
+        "Survey"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Provides theoretical unification of preference learning methods (RLHF, DPO, IPO, KTO, SimPO) by revealing they differ along three orthogonal axes: preference model, regularization mechanism, and optimization approach.</p>",
+      "content_html": "<p>Aligning large language models (LLMs) with human preferences has become essential for safe and beneficial AI deployment. While Reinforcement Learning from Human Feedback (RLHF) established the dominant paradigm, a proliferation of alternatives -- Direct Preference Optimization (DPO), Identity Preference Optimization (IPO), Kahneman-Tversky Optimization (KTO), Simple Preference Optimization (SimPO), and many others -- has left practitioners without clear guidance on method selection. This survey provides a \\textit{theoretical unification} of preference learning methods, revealing that the apparent diversity reduces to principled choices along three orthogonal axes: \\textbf{(I) Preference Model} (what likelihood model underlies the objective), \\textbf{(II) Regularization Mechanism} (how deviation from reference policies is controlled), and \\textbf{(III) Data Distribution} (online vs.\\ offline learning and coverage requirements). We formalize each axis with precise definitions and theorems, establishing key results including the coverage separation between online and offline methods, scaling laws for reward overoptimization, and conditions under which direct alignment methods fail. Our analysis reveals that failure modes -- length hacking, mode collapse, likelihood displacement -- arise from specific, predictable combinations of design choices. We synthesize empirical findings across 50+ papers and provide a practitioner's decision guide for method selection. The framework...</p>"
+    },
+    {
+      "id": "0e360993c45d",
+      "title": "Gecko: An Efficient Neural Architecture Inherently Processing Sequences with Arbitrary Lengths",
+      "content": "Designing a unified neural network to efficiently and inherently process sequential data with arbitrary lengths is a central and challenging problem in sequence modeling. The design choices in Transformer, including quadratic complexity and weak length extrapolation, have limited their ability to scale to long sequences. In this work, we propose Gecko, a neural architecture that inherits the design of Mega and Megalodon (exponential moving average with gated attention), and further introduces multiple technical components to improve its capability to capture long range dependencies, including timestep decay normalization, sliding chunk attention mechanism, and adaptive working memory. In a controlled pretraining comparison with Llama2 and Megalodon in the scale of 7 billion parameters and 2 trillion training tokens, Gecko achieves better efficiency and long-context scalability. Gecko reaches a training loss of 1.68, significantly outperforming Llama2-7B (1.75) and Megalodon-7B (1.70), and landing close to Llama2-13B (1.67). Notably, without relying on any context-extension techniques, Gecko exhibits inherent long-context processing and retrieval capabilities, stably handling sequences of up to 4 million tokens and retrieving information from contexts up to $4\\times$ longer than its attention window. Code: https://github.com/XuezheMax/gecko-llm",
+      "url": "http://arxiv.org/abs/2601.06463",
+      "author": "Xuezhe Ma, Shicheng Wen, Linghao Jin, Bilge Acun, Ruihang Lai, Bohan Hou, Will Lin, Hao Zhang, Songlin Yang, Ryan Lee, Mengxi Wu, Jonathan May, Luke Zettlemoyer, Carole-Jean Wu",
+      "published": "2026-01-13",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Proposes Gecko, a neural architecture combining exponential moving average with gated attention for efficient long-sequence processing. Features timestep decay normalization, sliding chunk attention, and adaptive working memory at 7B parameter scale.",
+      "importance_score": 78,
+      "reasoning": "Important architecture work from Meta researchers addressing fundamental transformer limitations. 7B scale comparison with Llama2 provides meaningful benchmark. Novel efficiency improvements for long contexts.",
+      "themes": [
+        "Architecture",
+        "Long-Context Models",
+        "Efficient Transformers"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proposes Gecko, a neural architecture combining exponential moving average with gated attention for efficient long-sequence processing. Features timestep decay normalization, sliding chunk attention, and adaptive working memory at 7B parameter scale.</p>",
+      "content_html": "<p>Designing a unified neural network to efficiently and inherently process sequential data with arbitrary lengths is a central and challenging problem in sequence modeling. The design choices in Transformer, including quadratic complexity and weak length extrapolation, have limited their ability to scale to long sequences. In this work, we propose Gecko, a neural architecture that inherits the design of Mega and Megalodon (exponential moving average with gated attention), and further introduces multiple technical components to improve its capability to capture long range dependencies, including timestep decay normalization, sliding chunk attention mechanism, and adaptive working memory. In a controlled pretraining comparison with Llama2 and Megalodon in the scale of 7 billion parameters and 2 trillion training tokens, Gecko achieves better efficiency and long-context scalability. Gecko reaches a training loss of 1.68, significantly outperforming Llama2-7B (1.75) and Megalodon-7B (1.70), and landing close to Llama2-13B (1.67). Notably, without relying on any context-extension techniques, Gecko exhibits inherent long-context processing and retrieval capabilities, stably handling sequences of up to 4 million tokens and retrieving information from contexts up to $4\\times$ longer than its attention window. Code: https://github.com/XuezheMax/gecko-llm</p>"
+    },
+    {
+      "id": "af6932af5f18",
+      "title": "AgentHallu: Benchmarking Automated Hallucination Attribution of LLM-based Agents",
+      "content": "As LLM-based agents operate over sequential multi-step reasoning, hallucinations arising at intermediate steps risk propagating along the trajectory, thus degrading overall reliability. Unlike hallucination detection in single-turn responses, diagnosing hallucinations in multi-step workflows requires identifying which step causes the initial divergence. To fill this gap, we propose a new research task, automated hallucination attribution of LLM-based agents, aiming to identify the step responsible for the hallucination and explain why. To support this task, we introduce AgentHallu, a comprehensive benchmark with: (1) 693 high-quality trajectories spanning 7 agent frameworks and 5 domains, (2) a hallucination taxonomy organized into 5 categories (Planning, Retrieval, Reasoning, Human-Interaction, and Tool-Use) and 14 sub-categories, and (3) multi-level annotations curated by humans, covering binary labels, hallucination-responsible steps, and causal explanations. We evaluate 13 leading models, and results show the task is challenging even for top-tier models (like GPT-5, Gemini-2.5-Pro). The best-performing model achieves only 41.1\\% step localization accuracy, where tool-use hallucinations are the most challenging at just 11.6\\%. We believe AgentHallu will catalyze future research into developing robust, transparent, and reliable agentic systems.",
+      "url": "http://arxiv.org/abs/2601.06818",
+      "author": "Xuannan Liu and Xiao Yang and Zekun Li and Peipei Li and Ran He",
+      "published": "2026-01-13",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Introduces AgentHallu, a comprehensive benchmark with 693 trajectories for attributing hallucinations in multi-step LLM agent workflows to specific responsible steps. Proposes a taxonomy of 5 hallucination categories and evaluation metrics for this new research task.",
+      "importance_score": 78,
+      "reasoning": "Addresses critical reliability issue in LLM agents. Novel benchmark filling important gap in diagnosing multi-step hallucinations. Practical implications for agent deployment.",
+      "themes": [
+        "LLM Agents",
+        "AI Safety",
+        "Benchmarks",
+        "Hallucination Detection"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces AgentHallu, a comprehensive benchmark with 693 trajectories for attributing hallucinations in multi-step LLM agent workflows to specific responsible steps. Proposes a taxonomy of 5 hallucination categories and evaluation metrics for this new research task.</p>",
+      "content_html": "<p>As LLM-based agents operate over sequential multi-step reasoning, hallucinations arising at intermediate steps risk propagating along the trajectory, thus degrading overall reliability. Unlike hallucination detection in single-turn responses, diagnosing hallucinations in multi-step workflows requires identifying which step causes the initial divergence. To fill this gap, we propose a new research task, automated hallucination attribution of LLM-based agents, aiming to identify the step responsible for the hallucination and explain why. To support this task, we introduce AgentHallu, a comprehensive benchmark with: (1) 693 high-quality trajectories spanning 7 agent frameworks and 5 domains, (2) a hallucination taxonomy organized into 5 categories (Planning, Retrieval, Reasoning, Human-Interaction, and Tool-Use) and 14 sub-categories, and (3) multi-level annotations curated by humans, covering binary labels, hallucination-responsible steps, and causal explanations. We evaluate 13 leading models, and results show the task is challenging even for top-tier models (like GPT-5, Gemini-2.5-Pro). The best-performing model achieves only 41.1\\% step localization accuracy, where tool-use hallucinations are the most challenging at just 11.6\\%. We believe AgentHallu will catalyze future research into developing robust, transparent, and reliable agentic systems.</p>"
+    },
+    {
+      "id": "60a1ba523f46",
+      "title": "Solar Open Technical Report",
+      "content": "We introduce Solar Open, a 102B-parameter bilingual Mixture-of-Experts language model for underserved languages. Solar Open demonstrates a systematic methodology for building competitive LLMs by addressing three interconnected challenges. First, to train effectively despite data scarcity for underserved languages, we synthesize 4.5T tokens of high-quality, domain-specific, and RL-oriented data. Second, we coordinate this data through a progressive curriculum jointly optimizing composition, quality thresholds, and domain coverage across 20 trillion tokens. Third, to enable reasoning capabilities through scalable RL, we apply our proposed framework SnapPO for efficient optimization. Across benchmarks in English and Korean, Solar Open achieves competitive performance, demonstrating the effectiveness of this methodology for underserved language AI development.",
+      "url": "http://arxiv.org/abs/2601.07022",
+      "author": "Sungrae Park, Sanghoon Kim, Jungho Cho, Gyoungjin Gim, Dawoon Jung, Mikyoung Cha, Eunhae Choo, Taekgyu Hong, Minbyul Jeong, SeHwan Joo, Minsoo Khang, Eunwon Kim, Minjeong Kim, Sujeong Kim, Yunsu Kim, Hyeonju Lee, Seunghyun Lee, Sukyung Lee, Siyoung Park, Gyungin Shin, Inseo Song, Wonho Song, Seonghoon Yang, Seungyoun Yi, Sanghoon Yoon, Jeonghyun Ko, Seyoung Song, Keunwoo Choi, Hwalsuk Lee, Sunghun Kim, Du-Seong Chang, Kyunghyun Cho, Junsuk Choe, Hwaran Lee, Jae-Gil Lee, KyungTae Lim, Alice Oh",
+      "published": "2026-01-13",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Introduces Solar Open, a 102B-parameter bilingual MoE model for Korean/English with novel training methodology including 4.5T synthetic tokens, progressive curriculum optimization, and SnapPO framework for scalable RL. Achieves competitive performance on both languages.",
+      "importance_score": 78,
+      "reasoning": "Significant model release with comprehensive technical report. Novel contributions in data synthesis for underserved languages and RL optimization. Demonstrates systematic methodology applicable to other low-resource languages.",
+      "themes": [
+        "Language Models",
+        "Mixture of Experts",
+        "Multilingual NLP",
+        "Reinforcement Learning"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces Solar Open, a 102B-parameter bilingual MoE model for Korean/English with novel training methodology including 4.5T synthetic tokens, progressive curriculum optimization, and SnapPO framework for scalable RL. Achieves competitive performance on both languages.</p>",
+      "content_html": "<p>We introduce Solar Open, a 102B-parameter bilingual Mixture-of-Experts language model for underserved languages. Solar Open demonstrates a systematic methodology for building competitive LLMs by addressing three interconnected challenges. First, to train effectively despite data scarcity for underserved languages, we synthesize 4.5T tokens of high-quality, domain-specific, and RL-oriented data. Second, we coordinate this data through a progressive curriculum jointly optimizing composition, quality thresholds, and domain coverage across 20 trillion tokens. Third, to enable reasoning capabilities through scalable RL, we apply our proposed framework SnapPO for efficient optimization. Across benchmarks in English and Korean, Solar Open achieves competitive performance, demonstrating the effectiveness of this methodology for underserved language AI development.</p>"
+    },
+    {
+      "id": "60e98e942efd",
+      "title": "Lost in the Noise: How Reasoning Models Fail with Contextual Distractors",
+      "content": "Recent advances in reasoning models and agentic AI systems have led to an increased reliance on diverse external information. However, this shift introduces input contexts that are inherently noisy, a reality that current sanitized benchmarks fail to capture. We introduce NoisyBench, a comprehensive benchmark that systematically evaluates model robustness across 11 datasets in RAG, reasoning, alignment, and tool-use tasks against diverse noise types, including random documents, irrelevant chat histories, and hard negative distractors. Our evaluation reveals a catastrophic performance drop of up to 80% in state-of-the-art models when faced with contextual distractors. Crucially, we find that agentic workflows often amplify these errors by over-trusting noisy tool outputs, and distractors can trigger emergent misalignment even without adversarial intent. We find that prompting, context engineering, SFT, and outcome-reward only RL fail to ensure robustness; in contrast, our proposed Rationale-Aware Reward (RARE) significantly strengthens resilience by incentivizing the identification of helpful information within noise. Finally, we uncover an inverse scaling trend where increased test-time computation leads to worse performance in noisy settings and demonstrate via attention visualization that models disproportionately focus on distractor tokens, providing vital insights for building the next generation of robust, reasoning-capable agents.",
+      "url": "http://arxiv.org/abs/2601.07226",
+      "author": "Seongyun Lee, Yongrae Jo, Minju Seo, Moontae Lee, Minjoon Seo",
+      "published": "2026-01-13",
+      "source": "arXiv (Artificial Intelligence)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.AI"
+      ],
+      "summary": "Introduces NoisyBench evaluating model robustness to contextual distractors across 11 datasets, revealing catastrophic performance drops up to 80% in state-of-the-art reasoning models with contextual noise.",
+      "importance_score": 78,
+      "reasoning": "Critical finding about reasoning model fragility. Large-scale systematic evaluation revealing serious limitation. Highly relevant for deployed systems and agentic AI.",
+      "themes": [
+        "Robustness",
+        "Reasoning",
+        "Benchmarking",
+        "AI Safety",
+        "Agentic AI"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces NoisyBench evaluating model robustness to contextual distractors across 11 datasets, revealing catastrophic performance drops up to 80% in state-of-the-art reasoning models with contextual noise.</p>",
+      "content_html": "<p>Recent advances in reasoning models and agentic AI systems have led to an increased reliance on diverse external information. However, this shift introduces input contexts that are inherently noisy, a reality that current sanitized benchmarks fail to capture. We introduce NoisyBench, a comprehensive benchmark that systematically evaluates model robustness across 11 datasets in RAG, reasoning, alignment, and tool-use tasks against diverse noise types, including random documents, irrelevant chat histories, and hard negative distractors. Our evaluation reveals a catastrophic performance drop of up to 80% in state-of-the-art models when faced with contextual distractors. Crucially, we find that agentic workflows often amplify these errors by over-trusting noisy tool outputs, and distractors can trigger emergent misalignment even without adversarial intent. We find that prompting, context engineering, SFT, and outcome-reward only RL fail to ensure robustness; in contrast, our proposed Rationale-Aware Reward (RARE) significantly strengthens resilience by incentivizing the identification of helpful information within noise. Finally, we uncover an inverse scaling trend where increased test-time computation leads to worse performance in noisy settings and demonstrate via attention visualization that models disproportionately focus on distractor tokens, providing vital insights for building the next generation of robust, reasoning-capable agents.</p>"
+    },
+    {
+      "id": "73426f819c51",
+      "title": "When Bots Take the Bait: Exposing and Mitigating the Emerging Social Engineering Attack in Web Automation Agent",
+      "content": "Web agents, powered by large language models (LLMs), are increasingly deployed to automate complex web interactions. The rise of open-source frameworks (e.g., Browser Use, Skyvern-AI) has accelerated adoption, but also broadened the attack surface. While prior research has focused on model threats such as prompt injection and backdoors, the risks of social engineering remain largely unexplored. We present the first systematic study of social engineering attacks against web automation agents and design a pluggable runtime mitigation solution. On the attack side, we introduce the AgentBait paradigm, which exploits intrinsic weaknesses in agent execution: inducement contexts can distort the agent's reasoning and steer it toward malicious objectives misaligned with the intended task. On the defense side, we propose SUPERVISOR, a lightweight runtime module that enforces environment and intention consistency alignment between webpage context and intended goals to mitigate unsafe operations before execution.   Empirical results show that mainstream frameworks are highly vulnerable to AgentBait, with an average attack success rate of 67.5% and peaks above 80% under specific strategies (e.g., trusted identity forgery). Compared with existing lightweight defenses, our module can be seamlessly integrated across different web automation frameworks and reduces attack success rates by up to 78.1% on average while incurring only a 7.7% runtime overhead and preserving usability. This work...",
+      "url": "http://arxiv.org/abs/2601.07263",
+      "author": "Xinyi Wu, Geng Hong, Yueyue Chen, MingXuan Liu, Feier Jin, Xudong Pan, Jiarun Dai, and Baojun Liu",
+      "published": "2026-01-13",
+      "source": "arXiv (cs.CR)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CR"
+      ],
+      "summary": "First systematic study of social engineering attacks against web automation agents. Introduces AgentBait attack paradigm exploiting agent reasoning weaknesses, and AgentWatch defense runtime. Reports 43.2% success rate reduced to 3.6% with defense.",
+      "importance_score": 78,
+      "reasoning": "Critical safety research as web agents become deployed. First systematic treatment of an important attack surface. Timely given rapid agent adoption. Both attack and defense contributions.",
+      "themes": [
+        "AI Safety",
+        "Agent Security",
+        "Web Agents",
+        "Adversarial Attacks"
+      ],
+      "continuation": null,
+      "summary_html": "<p>First systematic study of social engineering attacks against web automation agents. Introduces AgentBait attack paradigm exploiting agent reasoning weaknesses, and AgentWatch defense runtime. Reports 43.2% success rate reduced to 3.6% with defense.</p>",
+      "content_html": "<p>Web agents, powered by large language models (LLMs), are increasingly deployed to automate complex web interactions. The rise of open-source frameworks (e.g., Browser Use, Skyvern-AI) has accelerated adoption, but also broadened the attack surface. While prior research has focused on model threats such as prompt injection and backdoors, the risks of social engineering remain largely unexplored. We present the first systematic study of social engineering attacks against web automation agents and design a pluggable runtime mitigation solution. On the attack side, we introduce the AgentBait paradigm, which exploits intrinsic weaknesses in agent execution: inducement contexts can distort the agent's reasoning and steer it toward malicious objectives misaligned with the intended task. On the defense side, we propose SUPERVISOR, a lightweight runtime module that enforces environment and intention consistency alignment between webpage context and intended goals to mitigate unsafe operations before execution.   Empirical results show that mainstream frameworks are highly vulnerable to AgentBait, with an average attack success rate of 67.5% and peaks above 80% under specific strategies (e.g., trusted identity forgery). Compared with existing lightweight defenses, our module can be seamlessly integrated across different web automation frameworks and reduces attack success rates by up to 78.1% on average while incurring only a 7.7% runtime overhead and preserving usability. This work...</p>"
+    },
+    {
+      "id": "628ec27f5d3c",
+      "title": "Are LLMs Vulnerable to Preference-Undermining Attacks (PUA)? A Factorial Analysis Methodology for Diagnosing the Trade-off between Preference Alignment and Real-World Validity",
+      "content": "Large Language Model (LLM) training often optimizes for preference alignment, rewarding outputs that are perceived as helpful and interaction-friendly. However, this preference-oriented objective can be exploited: manipulative prompts can steer responses toward user-appeasing agreement and away from truth-oriented correction. In this work, we investigate whether aligned models are vulnerable to Preference-Undermining Attacks (PUA), a class of manipulative prompting strategies designed to exploit the model's desire to please user preferences at the expense of truthfulness. We propose a diagnostic methodology that provides a finer-grained and more directive analysis than aggregate benchmark scores, using a factorial evaluation framework to decompose prompt-induced shifts into interpretable effects of system objectives (truth- vs. preference-oriented) and PUA-style dialogue factors (directive control, personal derogation, conditional approval, reality denial) within a controlled $2 \\times 2^4$ design. Surprisingly, more advanced models are sometimes more susceptible to manipulative prompts. Beyond the dominant reality-denial factor, we observe model-specific sign reversals and interactions with PUA-style factors, suggesting tailored defenses rather than uniform robustness. These findings offer a novel, reproducible factorial evaluation methodology that provides finer-grained diagnostics for post-training processes like RLHF, enabling better trade-offs in the product iteration...",
+      "url": "http://arxiv.org/abs/2601.06596",
+      "author": "Hongjun An and Yiliang Song and Jiangan Chen and Jiawei Shao and Chi Zhang and Xuelong Li",
+      "published": "2026-01-13",
+      "source": "arXiv (cs.CR)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CR"
+      ],
+      "summary": "Investigates Preference-Undermining Attacks (PUA) where manipulative prompts exploit aligned LLMs' desire to please users at the expense of truthfulness, using factorial analysis to diagnose alignment-validity tradeoffs.",
+      "importance_score": 77,
+      "reasoning": "Important alignment/safety research identifying vulnerability in preference-optimized models. Novel attack class with systematic methodology for diagnosis.",
+      "themes": [
+        "AI Safety",
+        "Alignment",
+        "Adversarial Attacks",
+        "Truthfulness"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Investigates Preference-Undermining Attacks (PUA) where manipulative prompts exploit aligned LLMs' desire to please users at the expense of truthfulness, using factorial analysis to diagnose alignment-validity tradeoffs.</p>",
+      "content_html": "<p>Large Language Model (LLM) training often optimizes for preference alignment, rewarding outputs that are perceived as helpful and interaction-friendly. However, this preference-oriented objective can be exploited: manipulative prompts can steer responses toward user-appeasing agreement and away from truth-oriented correction. In this work, we investigate whether aligned models are vulnerable to Preference-Undermining Attacks (PUA), a class of manipulative prompting strategies designed to exploit the model's desire to please user preferences at the expense of truthfulness. We propose a diagnostic methodology that provides a finer-grained and more directive analysis than aggregate benchmark scores, using a factorial evaluation framework to decompose prompt-induced shifts into interpretable effects of system objectives (truth- vs. preference-oriented) and PUA-style dialogue factors (directive control, personal derogation, conditional approval, reality denial) within a controlled $2 \\times 2^4$ design. Surprisingly, more advanced models are sometimes more susceptible to manipulative prompts. Beyond the dominant reality-denial factor, we observe model-specific sign reversals and interactions with PUA-style factors, suggesting tailored defenses rather than uniform robustness. These findings offer a novel, reproducible factorial evaluation methodology that provides finer-grained diagnostics for post-training processes like RLHF, enabling better trade-offs in the product iteration...</p>"
+    },
+    {
+      "id": "bc2e5b53e5fe",
+      "title": "Distributional Clarity: The Hidden Driver of RL-Friendliness in Large Language Models",
+      "content": "Language model families exhibit striking disparity in their capacity to benefit from reinforcement learning: under identical training, models like Qwen achieve substantial gains, while others like Llama yield limited improvements. Complementing data-centric approaches, we reveal that this disparity reflects a hidden structural property: \\textbf{distributional clarity} in probability space. Through a three-stage analysis-from phenomenon to mechanism to interpretation-we uncover that RL-friendly models exhibit intra-class compactness and inter-class separation in their probability assignments to correct vs. incorrect responses. We quantify this clarity using the \\textbf{Silhouette Coefficient} ($S$) and demonstrate that (1) high $S$ correlates strongly with RL performance; (2) low $S$ is associated with severe logic errors and reasoning instability. To confirm this property, we introduce a Silhouette-Aware Reweighting strategy that prioritizes low-$S$ samples during training. Experiments across six mathematical benchmarks show consistent improvements across all model families, with gains up to 5.9 points on AIME24. Our work establishes distributional clarity as a fundamental, trainable property underlying RL-Friendliness.",
+      "url": "http://arxiv.org/abs/2601.06911",
+      "author": "Shaoning Sun, Mingzhu Cai, Huang He, Bingjin Chen, Siqi Bao, Yujiu Yang, Hua Wu, Haifeng Wang",
+      "published": "2026-01-13",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Reveals 'distributional clarity' as a hidden structural property explaining why some LLM families (Qwen) benefit more from RL than others (Llama). High Silhouette Coefficient correlates with RL performance.",
+      "importance_score": 77,
+      "reasoning": "Important mechanistic insight into RL fine-tuning effectiveness. Explains previously mysterious disparity between model families. Practical implications for training.",
+      "themes": [
+        "Reinforcement Learning",
+        "Language Models",
+        "Model Analysis",
+        "AI Alignment"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Reveals 'distributional clarity' as a hidden structural property explaining why some LLM families (Qwen) benefit more from RL than others (Llama). High Silhouette Coefficient correlates with RL performance.</p>",
+      "content_html": "<p>Language model families exhibit striking disparity in their capacity to benefit from reinforcement learning: under identical training, models like Qwen achieve substantial gains, while others like Llama yield limited improvements. Complementing data-centric approaches, we reveal that this disparity reflects a hidden structural property: \\textbf{distributional clarity} in probability space. Through a three-stage analysis-from phenomenon to mechanism to interpretation-we uncover that RL-friendly models exhibit intra-class compactness and inter-class separation in their probability assignments to correct vs. incorrect responses. We quantify this clarity using the \\textbf{Silhouette Coefficient} ($S$) and demonstrate that (1) high $S$ correlates strongly with RL performance; (2) low $S$ is associated with severe logic errors and reasoning instability. To confirm this property, we introduce a Silhouette-Aware Reweighting strategy that prioritizes low-$S$ samples during training. Experiments across six mathematical benchmarks show consistent improvements across all model families, with gains up to 5.9 points on AIME24. Our work establishes distributional clarity as a fundamental, trainable property underlying RL-Friendliness.</p>"
+    },
+    {
+      "id": "a8cf18df7c4c",
+      "title": "Segmental Advantage Estimation: Enhancing PPO for Long-Context LLM Training",
+      "content": "Training Large Language Models (LLMs) for reasoning tasks is increasingly driven by Reinforcement Learning with Verifiable Rewards (RLVR), where Proximal Policy Optimization (PPO) provides a principled framework for stable policy updates. However, the practical application of PPO is hindered by unreliable advantage estimation in the sparse-reward RLVR regime. This issue arises because the sparse rewards in RLVR lead to inaccurate intermediate value predictions, which in turn introduce significant bias when aggregated at every token by Generalized Advantage Estimation (GAE). To address this, we introduce Segmental Advantage Estimation (SAE), which mitigates the bias that GAE can incur in RLVR. Our key insight is that aggregating $n$-step advantages at every token(as in GAE) is unnecessary and often introduces excessive bias, since individual tokens carry minimal information. Instead, SAE first partitions the generated sequence into coherent sub-segments using low-probability tokens as heuristic boundaries. It then selectively computes variance-reduced advantage estimates only from these information-rich segment transitions, effectively filtering out noise from intermediate tokens. Our experiments demonstrate that SAE achieves superior performance, with marked improvements in final scores, training stability, and sample efficiency. These gains are shown to be consistent across multiple model sizes, and a correlation analysis confirms that our proposed advantage estimator...",
+      "url": "http://arxiv.org/abs/2601.07320",
+      "author": "Xue Gong, Qi Yi, Ziyuan Nan, Guanhua Huang, Kejiao Li, Yuhao Jiang, Ruibin Xiong, Zenan Xu, Jiaming Guo, Shaohui Peng, Bo Zhou",
+      "published": "2026-01-13",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Introduces Segmental Advantage Estimation (SAE) for PPO in LLM training with sparse rewards, segmenting sequences and computing advantages at segment boundaries rather than every token to reduce bias from inaccurate value predictions.",
+      "importance_score": 77,
+      "reasoning": "Important technical contribution for RLVR/RLHF training. Addresses fundamental issue with GAE in sparse-reward settings. Directly applicable to reasoning model training.",
+      "themes": [
+        "Reinforcement Learning",
+        "LLM Training",
+        "RLHF",
+        "Reasoning Models"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces Segmental Advantage Estimation (SAE) for PPO in LLM training with sparse rewards, segmenting sequences and computing advantages at segment boundaries rather than every token to reduce bias from inaccurate value predictions.</p>",
+      "content_html": "<p>Training Large Language Models (LLMs) for reasoning tasks is increasingly driven by Reinforcement Learning with Verifiable Rewards (RLVR), where Proximal Policy Optimization (PPO) provides a principled framework for stable policy updates. However, the practical application of PPO is hindered by unreliable advantage estimation in the sparse-reward RLVR regime. This issue arises because the sparse rewards in RLVR lead to inaccurate intermediate value predictions, which in turn introduce significant bias when aggregated at every token by Generalized Advantage Estimation (GAE). To address this, we introduce Segmental Advantage Estimation (SAE), which mitigates the bias that GAE can incur in RLVR. Our key insight is that aggregating $n$-step advantages at every token(as in GAE) is unnecessary and often introduces excessive bias, since individual tokens carry minimal information. Instead, SAE first partitions the generated sequence into coherent sub-segments using low-probability tokens as heuristic boundaries. It then selectively computes variance-reduced advantage estimates only from these information-rich segment transitions, effectively filtering out noise from intermediate tokens. Our experiments demonstrate that SAE achieves superior performance, with marked improvements in final scores, training stability, and sample efficiency. These gains are shown to be consistent across multiple model sizes, and a correlation analysis confirms that our proposed advantage estimator...</p>"
+    },
+    {
+      "id": "3fa252d5078a",
+      "title": "ArenaRL: Scaling RL for Open-Ended Agents via Tournament-based Relative Ranking",
+      "content": "Reinforcement learning has substantially improved the performance of LLM agents on tasks with verifiable outcomes, but it still struggles on open-ended agent tasks with vast solution spaces (e.g., complex travel planning). Due to the absence of objective ground-truth for these tasks, current RL algorithms largely rely on reward models that assign scalar scores to individual responses. We contend that such pointwise scoring suffers from an inherent discrimination collapse: the reward model struggles to distinguish subtle advantages among different trajectories, resulting in scores within a group being compressed into a narrow range. Consequently, the effective reward signal becomes dominated by noise from the reward model, leading to optimization stagnation. To address this, we propose ArenaRL, a reinforcement learning paradigm that shifts from pointwise scalar scoring to intra-group relative ranking. ArenaRL introduces a process-aware pairwise evaluation mechanism, employing multi-level rubrics to assign fine-grained relative scores to trajectories. Additionally, we construct an intra-group adversarial arena and devise a tournament-based ranking scheme to obtain stable advantage signals. Empirical results confirm that the built seeded single-elimination scheme achieves nearly equivalent advantage estimation accuracy to full pairwise comparisons with O(N^2) complexity, while operating with only O(N) complexity, striking an optimal balance between efficiency and precision....",
+      "url": "http://arxiv.org/abs/2601.06487",
+      "author": "Qiang Zhang, Boli Chen, Fanrui Zhang, Ruixue Ding, Shihang Wang, Qiuchen Wang, Yinfeng Huang, Haonan Zhang, Rongxiang Zhu, Pengyong Wang, Ailin Ren, Xin Li, Pengjun Xie, Jiawei Liu, Ning Guo, Jingren Zhou, Zheng-Jun Zha",
+      "published": "2026-01-13",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Proposes ArenaRL, a tournament-based RL framework for open-ended LLM agent tasks that addresses discrimination collapse in reward models through pairwise comparison rather than pointwise scoring.",
+      "importance_score": 76,
+      "reasoning": "Important contribution to RL for LLM agents. Identifies and addresses key limitation (discrimination collapse) in reward models for complex tasks. Novel tournament-based approach.",
+      "themes": [
+        "Reinforcement Learning",
+        "LLM Agents",
+        "Reward Modeling",
+        "Alignment"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proposes ArenaRL, a tournament-based RL framework for open-ended LLM agent tasks that addresses discrimination collapse in reward models through pairwise comparison rather than pointwise scoring.</p>",
+      "content_html": "<p>Reinforcement learning has substantially improved the performance of LLM agents on tasks with verifiable outcomes, but it still struggles on open-ended agent tasks with vast solution spaces (e.g., complex travel planning). Due to the absence of objective ground-truth for these tasks, current RL algorithms largely rely on reward models that assign scalar scores to individual responses. We contend that such pointwise scoring suffers from an inherent discrimination collapse: the reward model struggles to distinguish subtle advantages among different trajectories, resulting in scores within a group being compressed into a narrow range. Consequently, the effective reward signal becomes dominated by noise from the reward model, leading to optimization stagnation. To address this, we propose ArenaRL, a reinforcement learning paradigm that shifts from pointwise scalar scoring to intra-group relative ranking. ArenaRL introduces a process-aware pairwise evaluation mechanism, employing multi-level rubrics to assign fine-grained relative scores to trajectories. Additionally, we construct an intra-group adversarial arena and devise a tournament-based ranking scheme to obtain stable advantage signals. Empirical results confirm that the built seeded single-elimination scheme achieves nearly equivalent advantage estimation accuracy to full pairwise comparisons with O(N^2) complexity, while operating with only O(N) complexity, striking an optimal balance between efficiency and precision....</p>"
+    },
+    {
+      "id": "102a482aee3e",
+      "title": "CLIMP: Contrastive Language-Image Mamba Pretraining",
+      "content": "Contrastive Language-Image Pre-training (CLIP) relies on Vision Transformers whose attention mechanism is susceptible to spurious correlations, and scales quadratically with resolution. To address these limitations, We present CLIMP, the first fully Mamba-based contrastive vision-language model that replaces both the vision and text encoders with Mamba. The new architecture encodes sequential structure in both vision and language, with VMamba capturing visual spatial inductive biases, reducing reliance on spurious correlations and producing an embedding space favorable for cross-modal retrieval and out-of-distribution robustness-surpassing OpenAI's CLIP-ViT-B by 7.5% on ImageNet-O. CLIMP naturally supports variable input resolutions without positional encoding interpolation or specialized training, achieving up to 6.6% higher retrieval accuracy at 16x training resolution while using 5x less memory and 1.8x fewer FLOPs. The autoregressive text encoder further overcomes CLIP's fixed context limitation, enabling dense captioning retrieval. Our findings suggest that Mamba exhibits advantageous properties for vision-language learning, making it a compelling alternative to Transformer-based CLIP.",
+      "url": "http://arxiv.org/abs/2601.06891",
+      "author": "Nimrod Shabtay, Itamar Zimerman, Eli Schwartz, Raja Giryes",
+      "published": "2026-01-13",
+      "source": "arXiv (Computer Vision)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CV"
+      ],
+      "summary": "CLIMP is the first fully Mamba-based CLIP model, replacing both vision and text encoders with Mamba architecture. Surpasses OpenAI's CLIP-ViT-B by 7.5% on ImageNet-O for OOD robustness.",
+      "importance_score": 76,
+      "reasoning": "Novel architecture choice demonstrating Mamba viability for multimodal learning. Strong OOD results. Important for efficient vision-language models.",
+      "themes": [
+        "Multimodal Learning",
+        "Mamba Architecture",
+        "Vision-Language Models",
+        "Robustness"
+      ],
+      "continuation": null,
+      "summary_html": "<p>CLIMP is the first fully Mamba-based CLIP model, replacing both vision and text encoders with Mamba architecture. Surpasses OpenAI's CLIP-ViT-B by 7.5% on ImageNet-O for OOD robustness.</p>",
+      "content_html": "<p>Contrastive Language-Image Pre-training (CLIP) relies on Vision Transformers whose attention mechanism is susceptible to spurious correlations, and scales quadratically with resolution. To address these limitations, We present CLIMP, the first fully Mamba-based contrastive vision-language model that replaces both the vision and text encoders with Mamba. The new architecture encodes sequential structure in both vision and language, with VMamba capturing visual spatial inductive biases, reducing reliance on spurious correlations and producing an embedding space favorable for cross-modal retrieval and out-of-distribution robustness-surpassing OpenAI's CLIP-ViT-B by 7.5% on ImageNet-O. CLIMP naturally supports variable input resolutions without positional encoding interpolation or specialized training, achieving up to 6.6% higher retrieval accuracy at 16x training resolution while using 5x less memory and 1.8x fewer FLOPs. The autoregressive text encoder further overcomes CLIP's fixed context limitation, enabling dense captioning retrieval. Our findings suggest that Mamba exhibits advantageous properties for vision-language learning, making it a compelling alternative to Transformer-based CLIP.</p>"
+    },
+    {
+      "id": "6bc3d1e71e0d",
+      "title": "When Should We Introduce Safety Interventions During Pretraining?",
+      "content": "Ensuring the safety of language models in high-stakes settings remains a pressing challenge, as aligned behaviors are often brittle and easily undone by adversarial pressure or downstream finetuning. Prior work has shown that interventions applied during pretraining, such as rephrasing harmful content, can substantially improve the safety of the resulting models. In this paper, we study the fundamental question: \"When during pretraining should safety interventions be introduced?\" We keep the underlying data fixed and vary only the choice of a safety curriculum: the timing of these interventions, i.e., after 0%, 20%, or 60% of the pretraining token budget. We find that introducing interventions earlier generally yields more robust models with no increase in overrefusal rates, with the clearest benefits appearing after downstream, benign finetuning. We also see clear benefits in the steerability of models towards safer generations. Finally, we observe that earlier interventions reshape internal representations: linear probes more cleanly separate safe vs harmful examples. Overall, these results argue for incorporating safety signals early in pretraining, producing models that are more robust to downstream finetuning and jailbreaking, and more reliable under both standard and safety-aware inference procedures.",
+      "url": "http://arxiv.org/abs/2601.07087",
+      "author": "Dylan Sam, Sachin Goyal, Pratyush Maini, Alexander Robey, J. Zico Kolter",
+      "published": "2026-01-13",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Studies when safety interventions should be introduced during pretraining, finding that earlier introduction generally yields more robust models without increased overrefusal. Provides empirical guidance for safety curriculum design.",
+      "importance_score": 76,
+      "reasoning": "Important AI safety research with practical implications for model training. Clear experimental design addressing fundamental question in safety alignment.",
+      "themes": [
+        "AI Safety",
+        "Alignment",
+        "Pretraining",
+        "Model Training"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Studies when safety interventions should be introduced during pretraining, finding that earlier introduction generally yields more robust models without increased overrefusal. Provides empirical guidance for safety curriculum design.</p>",
+      "content_html": "<p>Ensuring the safety of language models in high-stakes settings remains a pressing challenge, as aligned behaviors are often brittle and easily undone by adversarial pressure or downstream finetuning. Prior work has shown that interventions applied during pretraining, such as rephrasing harmful content, can substantially improve the safety of the resulting models. In this paper, we study the fundamental question: \"When during pretraining should safety interventions be introduced?\" We keep the underlying data fixed and vary only the choice of a safety curriculum: the timing of these interventions, i.e., after 0%, 20%, or 60% of the pretraining token budget. We find that introducing interventions earlier generally yields more robust models with no increase in overrefusal rates, with the clearest benefits appearing after downstream, benign finetuning. We also see clear benefits in the steerability of models towards safer generations. Finally, we observe that earlier interventions reshape internal representations: linear probes more cleanly separate safe vs harmful examples. Overall, these results argue for incorporating safety signals early in pretraining, producing models that are more robust to downstream finetuning and jailbreaking, and more reliable under both standard and safety-aware inference procedures.</p>"
+    },
+    {
+      "id": "4fdbe81bfe1d",
+      "title": "Outcome-Grounded Advantage Reshaping for Fine-Grained Credit Assignment in Mathematical Reasoning",
+      "content": "Group Relative Policy Optimization (GRPO) has emerged as a promising critic-free reinforcement learning paradigm for reasoning tasks. However, standard GRPO employs a coarse-grained credit assignment mechanism that propagates group-level rewards uniformly to to every token in a sequence, neglecting the varying contribution of individual reasoning steps. We address this limitation by introducing Outcome-grounded Advantage Reshaping (OAR), a fine-grained credit assignment mechanism that redistributes advantages based on how much each token influences the model's final answer. We instantiate OAR via two complementary strategies: (1) OAR-P, which estimates outcome sensitivity through counterfactual token perturbations, serving as a high-fidelity attribution signal; (2) OAR-G, which uses an input-gradient sensitivity proxy to approximate the influence signal with a single backward pass. These importance signals are integrated with a conservative Bi-Level advantage reshaping scheme that suppresses low-impact tokens and boosts pivotal ones while preserving the overall advantage mass. Empirical results on extensive mathematical reasoning benchmarks demonstrate that while OAR-P sets the performance upper bound, OAR-G achieves comparable gains with negligible computational overhead, both significantly outperforming a strong GRPO baseline, pushing the boundaries of critic-free LLM reasoning.",
+      "url": "http://arxiv.org/abs/2601.07408",
+      "author": "Ziheng Li, Liu Kang, Feng Xiao, Luxi Xing, Qingyi Si, Zhuoran Li, Weikang Gong, Deqing Yang, Yanghua Xiao, Hongcheng Guo",
+      "published": "2026-01-13",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Proposes Outcome-grounded Advantage Reshaping (OAR) for fine-grained credit assignment in GRPO, redistributing advantages based on each token's influence on final answer via perturbation (OAR-P) or input gradient (OAR-G).",
+      "importance_score": 76,
+      "reasoning": "Important contribution to credit assignment in reasoning RL. Addresses fundamental limitation of uniform group-level rewards. Complementary to SAE approach. Directly applicable to math reasoning training.",
+      "themes": [
+        "Reinforcement Learning",
+        "Credit Assignment",
+        "Reasoning Models",
+        "GRPO"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proposes Outcome-grounded Advantage Reshaping (OAR) for fine-grained credit assignment in GRPO, redistributing advantages based on each token's influence on final answer via perturbation (OAR-P) or input gradient (OAR-G).</p>",
+      "content_html": "<p>Group Relative Policy Optimization (GRPO) has emerged as a promising critic-free reinforcement learning paradigm for reasoning tasks. However, standard GRPO employs a coarse-grained credit assignment mechanism that propagates group-level rewards uniformly to to every token in a sequence, neglecting the varying contribution of individual reasoning steps. We address this limitation by introducing Outcome-grounded Advantage Reshaping (OAR), a fine-grained credit assignment mechanism that redistributes advantages based on how much each token influences the model's final answer. We instantiate OAR via two complementary strategies: (1) OAR-P, which estimates outcome sensitivity through counterfactual token perturbations, serving as a high-fidelity attribution signal; (2) OAR-G, which uses an input-gradient sensitivity proxy to approximate the influence signal with a single backward pass. These importance signals are integrated with a conservative Bi-Level advantage reshaping scheme that suppresses low-impact tokens and boosts pivotal ones while preserving the overall advantage mass. Empirical results on extensive mathematical reasoning benchmarks demonstrate that while OAR-P sets the performance upper bound, OAR-G achieves comparable gains with negligible computational overhead, both significantly outperforming a strong GRPO baseline, pushing the boundaries of critic-free LLM reasoning.</p>"
+    },
+    {
+      "id": "bc8b592e7b97",
+      "title": "Beyond Static Tools: Test-Time Tool Evolution for Scientific Reasoning",
+      "content": "The central challenge of AI for Science is not reasoning alone, but the ability to create computational methods in an open-ended scientific world. Existing LLM-based agents rely on static, pre-defined tool libraries, a paradigm that fundamentally fails in scientific domains where tools are sparse, heterogeneous, and intrinsically incomplete. In this paper, we propose Test-Time Tool Evolution (TTE), a new paradigm that enables agents to synthesize, verify, and evolve executable tools during inference. By transforming tools from fixed resources into problem-driven artifacts, TTE overcomes the rigidity and long-tail limitations of static tool libraries. To facilitate rigorous evaluation, we introduce SciEvo, a benchmark comprising 1,590 scientific reasoning tasks supported by 925 automatically evolved tools. Extensive experiments show that TTE achieves state-of-the-art performance in both accuracy and tool efficiency, while enabling effective cross-domain adaptation of computational tools. The code and benchmark have been released at https://github.com/lujiaxuan0520/Test-Time-Tool-Evol.",
+      "url": "http://arxiv.org/abs/2601.07641",
+      "author": "Jiaxuan Lu, Ziyu Kong, Yemin Wang, Rong Fu, Haiyuan Wan, Cheng Yang, Wenjie Lou, Haoran Sun, Lilong Wang, Yankai Jiang, Xiaosong Wang, Xiao Sun, Dongzhan Zhou",
+      "published": "2026-01-13",
+      "source": "arXiv (Artificial Intelligence)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.AI"
+      ],
+      "summary": "Proposes Test-Time Tool Evolution (TTE) enabling LLM agents to synthesize, verify, and evolve executable tools during inference for scientific reasoning. Introduces SciEvo benchmark with 1,590 tasks.",
+      "importance_score": 76,
+      "reasoning": "Important new paradigm for scientific AI moving beyond static tool libraries. Addresses fundamental limitation of current agents with rigorous benchmark. High potential impact.",
+      "themes": [
+        "Scientific AI",
+        "LLM Agents",
+        "Tool Learning",
+        "Benchmarks"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proposes Test-Time Tool Evolution (TTE) enabling LLM agents to synthesize, verify, and evolve executable tools during inference for scientific reasoning. Introduces SciEvo benchmark with 1,590 tasks.</p>",
+      "content_html": "<p>The central challenge of AI for Science is not reasoning alone, but the ability to create computational methods in an open-ended scientific world. Existing LLM-based agents rely on static, pre-defined tool libraries, a paradigm that fundamentally fails in scientific domains where tools are sparse, heterogeneous, and intrinsically incomplete. In this paper, we propose Test-Time Tool Evolution (TTE), a new paradigm that enables agents to synthesize, verify, and evolve executable tools during inference. By transforming tools from fixed resources into problem-driven artifacts, TTE overcomes the rigidity and long-tail limitations of static tool libraries. To facilitate rigorous evaluation, we introduce SciEvo, a benchmark comprising 1,590 scientific reasoning tasks supported by 925 automatically evolved tools. Extensive experiments show that TTE achieves state-of-the-art performance in both accuracy and tool efficiency, while enabling effective cross-domain adaptation of computational tools. The code and benchmark have been released at https://github.com/lujiaxuan0520/Test-Time-Tool-Evol.</p>"
+    },
+    {
+      "id": "49dc485c3aad",
+      "title": "MedRAGChecker: Claim-Level Verification for Biomedical Retrieval-Augmented Generation",
+      "content": "Biomedical retrieval-augmented generation (RAG) can ground LLM answers in medical literature, yet long-form outputs often contain isolated unsupported or contradictory claims with safety implications.   We introduce MedRAGChecker, a claim-level verification and diagnostic framework for biomedical RAG.   Given a question, retrieved evidence, and a generated answer, MedRAGChecker decomposes the answer into atomic claims and estimates claim support by combining evidence-grounded natural language inference (NLI) with biomedical knowledge-graph (KG) consistency signals.   Aggregating claim decisions yields answer-level diagnostics that help disentangle retrieval and generation failures, including faithfulness, under-evidence, contradiction, and safety-critical error rates.   To enable scalable evaluation, we distill the pipeline into compact biomedical models and use an ensemble verifier with class-specific reliability weighting.   Experiments on four biomedical QA benchmarks show that MedRAGChecker reliably flags unsupported and contradicted claims and reveals distinct risk profiles across generators, particularly on safety-critical biomedical relations.",
+      "url": "http://arxiv.org/abs/2601.06519",
+      "author": "Yuelyu Ji, Min Gu Kwak, Hang Zhang, Xizhi Wu, Chenyu Li, Yanshan Wang",
+      "published": "2026-01-13",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Introduces MedRAGChecker, a claim-level verification framework for biomedical RAG that decomposes answers into atomic claims and verifies against evidence using NLI and knowledge graph consistency.",
+      "importance_score": 75,
+      "reasoning": "Important safety contribution for medical AI. Claim-level verification crucial for healthcare where errors have serious consequences.",
+      "themes": [
+        "Medical AI",
+        "RAG Verification",
+        "AI Safety",
+        "Factual Accuracy"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces MedRAGChecker, a claim-level verification framework for biomedical RAG that decomposes answers into atomic claims and verifies against evidence using NLI and knowledge graph consistency.</p>",
+      "content_html": "<p>Biomedical retrieval-augmented generation (RAG) can ground LLM answers in medical literature, yet long-form outputs often contain isolated unsupported or contradictory claims with safety implications.   We introduce MedRAGChecker, a claim-level verification and diagnostic framework for biomedical RAG.   Given a question, retrieved evidence, and a generated answer, MedRAGChecker decomposes the answer into atomic claims and estimates claim support by combining evidence-grounded natural language inference (NLI) with biomedical knowledge-graph (KG) consistency signals.   Aggregating claim decisions yields answer-level diagnostics that help disentangle retrieval and generation failures, including faithfulness, under-evidence, contradiction, and safety-critical error rates.   To enable scalable evaluation, we distill the pipeline into compact biomedical models and use an ensemble verifier with class-specific reliability weighting.   Experiments on four biomedical QA benchmarks show that MedRAGChecker reliably flags unsupported and contradicted claims and reveals distinct risk profiles across generators, particularly on safety-critical biomedical relations.</p>"
+    },
+    {
+      "id": "fc6620fd0d1a",
+      "title": "Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems",
+      "content": "Large language models (LLMs) increasingly rely on retrieving information from external corpora. This creates a new attack surface: indirect prompt injection (IPI), where hidden instructions are planted in the corpora and hijack model behavior once retrieved. Previous studies have highlighted this risk but often avoid the hardest step: ensuring that malicious content is actually retrieved. In practice, unoptimized IPI is rarely retrieved under natural queries, which leaves its real-world impact unclear.   We address this challenge by decomposing the malicious content into a trigger fragment that guarantees retrieval and an attack fragment that encodes arbitrary attack objectives. Based on this idea, we design an efficient and effective black-box attack algorithm that constructs a compact trigger fragment to guarantee retrieval for any attack fragment. Our attack requires only API access to embedding models, is cost-efficient (as little as $0.21 per target user query on OpenAI's embedding models), and achieves near-100% retrieval across 11 benchmarks and 8 embedding models (including both open-source models and proprietary services).   Based on this attack, we present the first end-to-end IPI exploits under natural queries and realistic external corpora, spanning both RAG and agentic systems with diverse attack objectives. These results establish IPI as a practical and severe threat: when a user issued a natural query to summarize emails on frequently asked topics, a single...",
+      "url": "http://arxiv.org/abs/2601.07072",
+      "author": "Hongyan Chang, Ergute Bao, Xinjian Luo, Ting Yu",
+      "published": "2026-01-13",
+      "source": "arXiv (cs.CR)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CR"
+      ],
+      "summary": "Develops a black-box indirect prompt injection attack that decomposes malicious content into a trigger fragment ensuring retrieval and an attack fragment encoding arbitrary objectives, overcoming the retrieval barrier.",
+      "importance_score": 75,
+      "reasoning": "Significant security contribution demonstrating practical attack vector for RAG systems. Novel decomposition approach with real-world implications for deployed systems.",
+      "themes": [
+        "AI Security",
+        "Prompt Injection",
+        "RAG",
+        "Adversarial Attacks"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Develops a black-box indirect prompt injection attack that decomposes malicious content into a trigger fragment ensuring retrieval and an attack fragment encoding arbitrary objectives, overcoming the retrieval barrier.</p>",
+      "content_html": "<p>Large language models (LLMs) increasingly rely on retrieving information from external corpora. This creates a new attack surface: indirect prompt injection (IPI), where hidden instructions are planted in the corpora and hijack model behavior once retrieved. Previous studies have highlighted this risk but often avoid the hardest step: ensuring that malicious content is actually retrieved. In practice, unoptimized IPI is rarely retrieved under natural queries, which leaves its real-world impact unclear.   We address this challenge by decomposing the malicious content into a trigger fragment that guarantees retrieval and an attack fragment that encodes arbitrary attack objectives. Based on this idea, we design an efficient and effective black-box attack algorithm that constructs a compact trigger fragment to guarantee retrieval for any attack fragment. Our attack requires only API access to embedding models, is cost-efficient (as little as $0.21 per target user query on OpenAI's embedding models), and achieves near-100% retrieval across 11 benchmarks and 8 embedding models (including both open-source models and proprietary services).   Based on this attack, we present the first end-to-end IPI exploits under natural queries and realistic external corpora, spanning both RAG and agentic systems with diverse attack objectives. These results establish IPI as a practical and severe threat: when a user issued a natural query to summarize emails on frequently asked topics, a single...</p>"
+    },
+    {
+      "id": "dffe3eda68dd",
+      "title": "The Confidence Dichotomy: Analyzing and Mitigating Miscalibration in Tool-Use Agents",
+      "content": "Autonomous agents based on large language models (LLMs) are rapidly evolving to handle multi-turn tasks, but ensuring their trustworthiness remains a critical challenge. A fundamental pillar of this trustworthiness is calibration, which refers to an agent's ability to express confidence that reliably reflects its actual performance. While calibration is well-established for static models, its dynamics in tool-integrated agentic workflows remain underexplored. In this work, we systematically investigate verbalized calibration in tool-use agents, revealing a fundamental confidence dichotomy driven by tool type. Specifically, our pilot study identifies that evidence tools (e.g., web search) systematically induce severe overconfidence due to inherent noise in retrieved information, while verification tools (e.g., code interpreters) can ground reasoning through deterministic feedback and mitigate miscalibration. To robustly improve calibration across tool types, we propose a reinforcement learning (RL) fine-tuning framework that jointly optimizes task accuracy and calibration, supported by a holistic benchmark of reward designs. We demonstrate that our trained agents not only achieve superior calibration but also exhibit robust generalization from local training environments to noisy web settings and to distinct domains such as mathematical reasoning. Our results highlight the necessity of domain-specific calibration strategies for tool-use agents. More broadly, this work...",
+      "url": "http://arxiv.org/abs/2601.07264",
+      "author": "Weihao Xuan, Qingcheng Zeng, Heli Qi, Yunze Xiao, Junjue Wang, Naoto Yokoya",
+      "published": "2026-01-13",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Studies calibration in LLM tool-use agents, discovering a 'confidence dichotomy': evidence tools (web search) induce overconfidence due to noisy retrieval, while verification tools induce underconfidence. Proposes calibration-aware strategies.",
+      "importance_score": 75,
+      "reasoning": "Important finding for trustworthy AI agents. The dichotomy based on tool type is novel and practically significant. Calibration is critical for agent deployment.",
+      "themes": [
+        "AI Safety",
+        "LLM Agents",
+        "Calibration",
+        "Trustworthy AI"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Studies calibration in LLM tool-use agents, discovering a 'confidence dichotomy': evidence tools (web search) induce overconfidence due to noisy retrieval, while verification tools induce underconfidence. Proposes calibration-aware strategies.</p>",
+      "content_html": "<p>Autonomous agents based on large language models (LLMs) are rapidly evolving to handle multi-turn tasks, but ensuring their trustworthiness remains a critical challenge. A fundamental pillar of this trustworthiness is calibration, which refers to an agent's ability to express confidence that reliably reflects its actual performance. While calibration is well-established for static models, its dynamics in tool-integrated agentic workflows remain underexplored. In this work, we systematically investigate verbalized calibration in tool-use agents, revealing a fundamental confidence dichotomy driven by tool type. Specifically, our pilot study identifies that evidence tools (e.g., web search) systematically induce severe overconfidence due to inherent noise in retrieved information, while verification tools (e.g., code interpreters) can ground reasoning through deterministic feedback and mitigate miscalibration. To robustly improve calibration across tool types, we propose a reinforcement learning (RL) fine-tuning framework that jointly optimizes task accuracy and calibration, supported by a holistic benchmark of reward designs. We demonstrate that our trained agents not only achieve superior calibration but also exhibit robust generalization from local training environments to noisy web settings and to distinct domains such as mathematical reasoning. Our results highlight the necessity of domain-specific calibration strategies for tool-use agents. More broadly, this work...</p>"
+    },
+    {
+      "id": "4fbf8a434f21",
+      "title": "AntiPaSTO: Self-Supervised Steering of Moral Reasoning",
+      "content": "As models grow more capable, human supervision breaks down: labels don't scale, outputs can be gamed, and training doesn't generalize. Scalable oversight requires steering methods that are internal, self-supervised, and transfer out-of-distribution; existing methods satisfy some but not all three. We introduce AntiPaSTO, which separates representations along an anti-parallel axis ($\\alpha=\\pm1$ produce opposite shifts), with coherence constraints preventing collapse. Human input is minimal: two contrasting words inserted into template sentences, no preference labels. Using 800 such pairs on Gemma-3-1B, AntiPaSTO beats prompting baselines by $6.9\\times$ on DailyDilemmas and maintains bidirectional control where prompting triggers refusal.   Code is available at https://github.com/wassname/AntiPaSTO.",
+      "url": "http://arxiv.org/abs/2601.07473",
+      "author": "Michael J. Clark",
+      "published": "2026-01-13",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Introduces AntiPaSTO for self-supervised steering of moral reasoning in LLMs using anti-parallel representation separation with minimal human input (just two contrasting words), beating prompting baselines significantly.",
+      "importance_score": 75,
+      "reasoning": "Important for scalable AI alignment. Self-supervised approach with minimal human labels addresses key scalability concerns. Strong empirical results.",
+      "themes": [
+        "AI Safety",
+        "Alignment",
+        "Representation Engineering",
+        "Moral Reasoning"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces AntiPaSTO for self-supervised steering of moral reasoning in LLMs using anti-parallel representation separation with minimal human input (just two contrasting words), beating prompting baselines significantly.</p>",
+      "content_html": "<p>As models grow more capable, human supervision breaks down: labels don't scale, outputs can be gamed, and training doesn't generalize. Scalable oversight requires steering methods that are internal, self-supervised, and transfer out-of-distribution; existing methods satisfy some but not all three. We introduce AntiPaSTO, which separates representations along an anti-parallel axis ($\\alpha=\\pm1$ produce opposite shifts), with coherence constraints preventing collapse. Human input is minimal: two contrasting words inserted into template sentences, no preference labels. Using 800 such pairs on Gemma-3-1B, AntiPaSTO beats prompting baselines by $6.9\\times$ on DailyDilemmas and maintains bidirectional control where prompting triggers refusal.   Code is available at https://github.com/wassname/AntiPaSTO.</p>"
+    },
+    {
+      "id": "598f22b3bfd4",
+      "title": "Inference-Time Alignment for Diffusion Models via Doob's Matching",
+      "content": "Inference-time alignment for diffusion models aims to adapt a pre-trained diffusion model toward a target distribution without retraining the base score network, thereby preserving the generative capacity of the base model while enforcing desired properties at the inference time. A central mechanism for achieving such alignment is guidance, which modifies the sampling dynamics through an additional drift term. In this work, we introduce Doob's matching, a novel framework for guidance estimation grounded in Doob's $h$-transform. Our approach formulates guidance as the gradient of logarithm of an underlying Doob's $h$-function and employs gradient-penalized regression to simultaneously estimate both the $h$-function and its gradient, resulting in a consistent estimator of the guidance. Theoretically, we establish non-asymptotic convergence rates for the estimated guidance. Moreover, we analyze the resulting controllable diffusion processes and prove non-asymptotic convergence guarantees for the generated distributions in the 2-Wasserstein distance.",
+      "url": "http://arxiv.org/abs/2601.06514",
+      "author": "Jinyuan Chang and Chenguang Duan and Yuling Jiao and Yi Xu and Jerry Zhijian Yang",
+      "published": "2026-01-13",
+      "source": "arXiv (Machine Learning (Statistics))",
+      "source_type": "arxiv",
+      "tags": [
+        "stat.ML"
+      ],
+      "summary": "Introduces Doob's matching, a theoretical framework for inference-time alignment of diffusion models using Doob's h-transform, estimating guidance through gradient-penalized regression without retraining.",
+      "importance_score": 74,
+      "reasoning": "Important theoretical contribution for diffusion model alignment. Enables post-hoc alignment without retraining, crucial for practical deployment.",
+      "themes": [
+        "Diffusion Models",
+        "Alignment",
+        "Theoretical ML"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces Doob's matching, a theoretical framework for inference-time alignment of diffusion models using Doob's h-transform, estimating guidance through gradient-penalized regression without retraining.</p>",
+      "content_html": "<p>Inference-time alignment for diffusion models aims to adapt a pre-trained diffusion model toward a target distribution without retraining the base score network, thereby preserving the generative capacity of the base model while enforcing desired properties at the inference time. A central mechanism for achieving such alignment is guidance, which modifies the sampling dynamics through an additional drift term. In this work, we introduce Doob's matching, a novel framework for guidance estimation grounded in Doob's $h$-transform. Our approach formulates guidance as the gradient of logarithm of an underlying Doob's $h$-function and employs gradient-penalized regression to simultaneously estimate both the $h$-function and its gradient, resulting in a consistent estimator of the guidance. Theoretically, we establish non-asymptotic convergence rates for the estimated guidance. Moreover, we analyze the resulting controllable diffusion processes and prove non-asymptotic convergence guarantees for the generated distributions in the 2-Wasserstein distance.</p>"
+    },
+    {
+      "id": "a1e1721333d8",
+      "title": "Paraphrasing Adversarial Attack on LLM-as-a-Reviewer",
+      "content": "The use of large language models (LLMs) in peer review systems has attracted growing attention, making it essential to examine their potential vulnerabilities. Prior attacks rely on prompt injection, which alters manuscript content and conflates injection susceptibility with evaluation robustness. We propose the Paraphrasing Adversarial Attack (PAA), a black-box optimization method that searches for paraphrased sequences yielding higher review scores while preserving semantic equivalence and linguistic naturalness. PAA leverages in-context learning, using previous paraphrases and their scores to guide candidate generation. Experiments across five ML and NLP conferences with three LLM reviewers and five attacking models show that PAA consistently increases review scores without changing the paper's claims. Human evaluation confirms that generated paraphrases maintain meaning and naturalness. We also find that attacked papers exhibit increased perplexity in reviews, offering a potential detection signal, and that paraphrasing submissions can partially mitigate attacks.",
+      "url": "http://arxiv.org/abs/2601.06884",
+      "author": "Masahiro Kaneko",
+      "published": "2026-01-13",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Proposes Paraphrasing Adversarial Attack (PAA) on LLM-as-a-reviewer systems, showing that semantically equivalent paraphrases can manipulate review scores without changing paper content. Black-box optimization approach.",
+      "importance_score": 74,
+      "reasoning": "Important security vulnerability in emerging LLM peer review applications. Concerning implications for academic integrity. Well-motivated attack methodology.",
+      "themes": [
+        "AI Safety",
+        "Adversarial Attacks",
+        "LLM Vulnerabilities"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proposes Paraphrasing Adversarial Attack (PAA) on LLM-as-a-reviewer systems, showing that semantically equivalent paraphrases can manipulate review scores without changing paper content. Black-box optimization approach.</p>",
+      "content_html": "<p>The use of large language models (LLMs) in peer review systems has attracted growing attention, making it essential to examine their potential vulnerabilities. Prior attacks rely on prompt injection, which alters manuscript content and conflates injection susceptibility with evaluation robustness. We propose the Paraphrasing Adversarial Attack (PAA), a black-box optimization method that searches for paraphrased sequences yielding higher review scores while preserving semantic equivalence and linguistic naturalness. PAA leverages in-context learning, using previous paraphrases and their scores to guide candidate generation. Experiments across five ML and NLP conferences with three LLM reviewers and five attacking models show that PAA consistently increases review scores without changing the paper's claims. Human evaluation confirms that generated paraphrases maintain meaning and naturalness. We also find that attacked papers exhibit increased perplexity in reviews, offering a potential detection signal, and that paraphrasing submissions can partially mitigate attacks.</p>"
+    },
+    {
+      "id": "2f78ad9725c9",
+      "title": "Defenses Against Prompt Attacks Learn Surface Heuristics",
+      "content": "Large language models (LLMs) are increasingly deployed in security-sensitive applications, where they must follow system- or developer-specified instructions that define the intended task behavior, while completing benign user requests. When adversarial instructions appear in user queries or externally retrieved content, models may override intended logic. Recent defenses rely on supervised fine-tuning with benign and malicious labels. Although these methods achieve high attack rejection rates, we find that they rely on narrow correlations in defense data rather than harmful intent, leading to systematic rejection of safe inputs. We analyze three recurring shortcut behaviors induced by defense fine-tuning. \\emph{Position bias} arises when benign content placed later in a prompt is rejected at much higher rates; across reasoning benchmarks, suffix-task rejection rises from below \\textbf{10\\%} to as high as \\textbf{90\\%}. \\emph{Token trigger bias} occurs when strings common in attack data raise rejection probability even in benign contexts; inserting a single trigger token increases false refusals by up to \\textbf{50\\%}. \\emph{Topic generalization bias} reflects poor generalization beyond the defense data distribution, with defended models suffering test-time accuracy drops of up to \\textbf{40\\%}. These findings suggest that current prompt-injection defenses frequently respond to attack-like surface patterns rather than the underlying intent. We introduce controlled diagnostic...",
+      "url": "http://arxiv.org/abs/2601.07185",
+      "author": "Shawn Li, Chenxiao Yu, Zhiyu Ni, Hao Li, Charith Peris, Chaowei Xiao, Yue Zhao",
+      "published": "2026-01-13",
+      "source": "arXiv (cs.CR)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CR"
+      ],
+      "summary": "Analyzes prompt attack defenses finding they learn surface heuristics (position bias, length sensitivity, special token triggers) rather than detecting harmful intent, causing systematic rejection of safe inputs.",
+      "importance_score": 74,
+      "reasoning": "Important security finding revealing fundamental limitations of current defenses. Well-designed analysis identifying specific failure modes. Directly actionable for improving defenses.",
+      "themes": [
+        "AI Security",
+        "Prompt Attacks",
+        "Language Models",
+        "Robustness"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Analyzes prompt attack defenses finding they learn surface heuristics (position bias, length sensitivity, special token triggers) rather than detecting harmful intent, causing systematic rejection of safe inputs.</p>",
+      "content_html": "<p>Large language models (LLMs) are increasingly deployed in security-sensitive applications, where they must follow system- or developer-specified instructions that define the intended task behavior, while completing benign user requests. When adversarial instructions appear in user queries or externally retrieved content, models may override intended logic. Recent defenses rely on supervised fine-tuning with benign and malicious labels. Although these methods achieve high attack rejection rates, we find that they rely on narrow correlations in defense data rather than harmful intent, leading to systematic rejection of safe inputs. We analyze three recurring shortcut behaviors induced by defense fine-tuning. \\emph{Position bias} arises when benign content placed later in a prompt is rejected at much higher rates; across reasoning benchmarks, suffix-task rejection rises from below \\textbf{10\\%} to as high as \\textbf{90\\%}. \\emph{Token trigger bias} occurs when strings common in attack data raise rejection probability even in benign contexts; inserting a single trigger token increases false refusals by up to \\textbf{50\\%}. \\emph{Topic generalization bias} reflects poor generalization beyond the defense data distribution, with defended models suffering test-time accuracy drops of up to \\textbf{40\\%}. These findings suggest that current prompt-injection defenses frequently respond to attack-like surface patterns rather than the underlying intent. We introduce controlled diagnostic...</p>"
+    },
+    {
+      "id": "0960a40ab748",
+      "title": "DiffER: Diffusion Entity-Relation Modeling for Reversal Curse in Diffusion Large Language Models",
+      "content": "The \"reversal curse\" refers to the phenomenon where large language models (LLMs) exhibit predominantly unidirectional behavior when processing logically bidirectional relationships. Prior work attributed this to autoregressive training -- predicting the next token inherently favors left-to-right information flow over genuine bidirectional knowledge associations. However, we observe that Diffusion LLMs (DLLMs), despite being trained bidirectionally, also suffer from the reversal curse. To investigate the root causes, we conduct systematic experiments on DLLMs and identify three key reasons: 1) entity fragmentation during training, 2) data asymmetry, and 3) missing entity relations. Motivated by the analysis of these reasons, we propose Diffusion Entity-Relation Modeling (DiffER), which addresses the reversal curse through entity-aware training and balanced data construction. Specifically, DiffER introduces whole-entity masking, which mitigates entity fragmentation by predicting complete entities in a single step. DiffER further employs distribution-symmetric and relation-enhanced data construction strategies to alleviate data asymmetry and missing relations. Extensive experiments demonstrate that DiffER effectively alleviates the reversal curse in Diffusion LLMs, offering new perspectives for future research.",
+      "url": "http://arxiv.org/abs/2601.07347",
+      "author": "Shaokai He, Kaiwen Wei, Xinyi Zeng, Xiang Chen, Xue Yang, Zhenyang Li, Jiang Zhong, Yu Tian",
+      "published": "2026-01-13",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Investigates reversal curse in Diffusion LLMs, finding they suffer from it despite bidirectional training. Identifies three causes (entity fragmentation, data asymmetry, missing relations) and proposes DiffER to address them.",
+      "importance_score": 74,
+      "reasoning": "Important finding that reversal curse persists beyond autoregressive models. Challenges prior attribution to training direction. Provides both analysis and solution.",
+      "themes": [
+        "Diffusion Language Models",
+        "Reversal Curse",
+        "Knowledge Representation"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Investigates reversal curse in Diffusion LLMs, finding they suffer from it despite bidirectional training. Identifies three causes (entity fragmentation, data asymmetry, missing relations) and proposes DiffER to address them.</p>",
+      "content_html": "<p>The \"reversal curse\" refers to the phenomenon where large language models (LLMs) exhibit predominantly unidirectional behavior when processing logically bidirectional relationships. Prior work attributed this to autoregressive training -- predicting the next token inherently favors left-to-right information flow over genuine bidirectional knowledge associations. However, we observe that Diffusion LLMs (DLLMs), despite being trained bidirectionally, also suffer from the reversal curse. To investigate the root causes, we conduct systematic experiments on DLLMs and identify three key reasons: 1) entity fragmentation during training, 2) data asymmetry, and 3) missing entity relations. Motivated by the analysis of these reasons, we propose Diffusion Entity-Relation Modeling (DiffER), which addresses the reversal curse through entity-aware training and balanced data construction. Specifically, DiffER introduces whole-entity masking, which mitigates entity fragmentation by predicting complete entities in a single step. DiffER further employs distribution-symmetric and relation-enhanced data construction strategies to alleviate data asymmetry and missing relations. Extensive experiments demonstrate that DiffER effectively alleviates the reversal curse in Diffusion LLMs, offering new perspectives for future research.</p>"
+    },
+    {
+      "id": "47f888f76611",
+      "title": "d3LLM: Ultra-Fast Diffusion LLM using Pseudo-Trajectory Distillation",
+      "content": "Diffusion large language models (dLLMs) offer capabilities beyond those of autoregressive (AR) LLMs, such as parallel decoding and random-order generation. However, realizing these benefits in practice is non-trivial, as dLLMs inherently face an accuracy-parallelism trade-off. Despite increasing interest, existing methods typically focus on only one-side of the coin, targeting either efficiency or performance. To address this limitation, we propose d3LLM (Pseudo-Distilled Diffusion Large Language Model), striking a balance between accuracy and parallelism: (i) during training, we introduce pseudo-trajectory distillation to teach the model which tokens can be decoded confidently at early steps, thereby improving parallelism; (ii) during inference, we employ entropy-based multi-block decoding with a KV-cache refresh mechanism to achieve high parallelism while maintaining accuracy. To better evaluate dLLMs, we also introduce AUP (Accuracy Under Parallelism), a new metric that jointly measures accuracy and parallelism. Experiments demonstrate that our d3LLM achieves up to 10$\\times$ speedup over vanilla LLaDA/Dream and 5$\\times$ speedup over AR models without much accuracy drop. Our code is available at https://github.com/hao-ai-lab/d3LLM.",
+      "url": "http://arxiv.org/abs/2601.07568",
+      "author": "Yu-Yang Qian and Junda Su and Lanxiang Hu and Peiyuan Zhang and Zhijie Deng and Peng Zhao and Hao Zhang",
+      "published": "2026-01-13",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Proposes d3LLM for ultra-fast diffusion LLM inference using pseudo-trajectory distillation to teach early-step confident decoding and entropy-based multi-block decoding, balancing accuracy and parallelism.",
+      "importance_score": 74,
+      "reasoning": "Addresses key efficiency bottleneck in diffusion LLMs. Novel distillation approach with strong practical benefits for parallel decoding.",
+      "themes": [
+        "Diffusion Models",
+        "Language Models",
+        "Efficient Inference",
+        "Knowledge Distillation"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proposes d3LLM for ultra-fast diffusion LLM inference using pseudo-trajectory distillation to teach early-step confident decoding and entropy-based multi-block decoding, balancing accuracy and parallelism.</p>",
+      "content_html": "<p>Diffusion large language models (dLLMs) offer capabilities beyond those of autoregressive (AR) LLMs, such as parallel decoding and random-order generation. However, realizing these benefits in practice is non-trivial, as dLLMs inherently face an accuracy-parallelism trade-off. Despite increasing interest, existing methods typically focus on only one-side of the coin, targeting either efficiency or performance. To address this limitation, we propose d3LLM (Pseudo-Distilled Diffusion Large Language Model), striking a balance between accuracy and parallelism: (i) during training, we introduce pseudo-trajectory distillation to teach the model which tokens can be decoded confidently at early steps, thereby improving parallelism; (ii) during inference, we employ entropy-based multi-block decoding with a KV-cache refresh mechanism to achieve high parallelism while maintaining accuracy. To better evaluate dLLMs, we also introduce AUP (Accuracy Under Parallelism), a new metric that jointly measures accuracy and parallelism. Experiments demonstrate that our d3LLM achieves up to 10$\\times$ speedup over vanilla LLaDA/Dream and 5$\\times$ speedup over AR models without much accuracy drop. Our code is available at https://github.com/hao-ai-lab/d3LLM.</p>"
+    },
+    {
+      "id": "a145d3e18a0c",
+      "title": "On the Adversarial Robustness of 3D Large Vision-Language Models",
+      "content": "3D Vision-Language Models (VLMs), such as PointLLM and GPT4Point, have shown strong reasoning and generalization abilities in 3D understanding tasks. However, their adversarial robustness remains largely unexplored. Prior work in 2D VLMs has shown that the integration of visual inputs significantly increases vulnerability to adversarial attacks, making these models easier to manipulate into generating toxic or misleading outputs. In this paper, we investigate whether incorporating 3D vision similarly compromises the robustness of 3D VLMs. To this end, we present the first systematic study of adversarial robustness in point-based 3D VLMs. We propose two complementary attack strategies: \\textit{Vision Attack}, which perturbs the visual token features produced by the 3D encoder and projector to assess the robustness of vision-language alignment; and \\textit{Caption Attack}, which directly manipulates output token sequences to evaluate end-to-end system robustness. Each attack includes both untargeted and targeted variants to measure general vulnerability and susceptibility to controlled manipulation. Our experiments reveal that 3D VLMs exhibit significant adversarial vulnerabilities under untargeted attacks, while demonstrating greater resilience against targeted attacks aimed at forcing specific harmful outputs, compared to their 2D counterparts. These findings highlight the importance of improving the adversarial robustness of 3D VLMs, especially as they are deployed in...",
+      "url": "http://arxiv.org/abs/2601.06464",
+      "author": "Chao Liu, Ngai-Man Cheung",
+      "published": "2026-01-13",
+      "source": "arXiv (Computer Vision)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CV"
+      ],
+      "summary": "Presents first systematic study of adversarial robustness in point-based 3D Vision-Language Models, proposing Vision Attack and Text Attack strategies to evaluate and exploit vulnerabilities in models like PointLLM.",
+      "importance_score": 73,
+      "reasoning": "Important safety research for emerging 3D VLMs. First systematic study fills crucial gap as these models see broader deployment.",
+      "themes": [
+        "Adversarial Robustness",
+        "3D Vision-Language Models",
+        "AI Safety"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Presents first systematic study of adversarial robustness in point-based 3D Vision-Language Models, proposing Vision Attack and Text Attack strategies to evaluate and exploit vulnerabilities in models like PointLLM.</p>",
+      "content_html": "<p>3D Vision-Language Models (VLMs), such as PointLLM and GPT4Point, have shown strong reasoning and generalization abilities in 3D understanding tasks. However, their adversarial robustness remains largely unexplored. Prior work in 2D VLMs has shown that the integration of visual inputs significantly increases vulnerability to adversarial attacks, making these models easier to manipulate into generating toxic or misleading outputs. In this paper, we investigate whether incorporating 3D vision similarly compromises the robustness of 3D VLMs. To this end, we present the first systematic study of adversarial robustness in point-based 3D VLMs. We propose two complementary attack strategies: \\textit{Vision Attack}, which perturbs the visual token features produced by the 3D encoder and projector to assess the robustness of vision-language alignment; and \\textit{Caption Attack}, which directly manipulates output token sequences to evaluate end-to-end system robustness. Each attack includes both untargeted and targeted variants to measure general vulnerability and susceptibility to controlled manipulation. Our experiments reveal that 3D VLMs exhibit significant adversarial vulnerabilities under untargeted attacks, while demonstrating greater resilience against targeted attacks aimed at forcing specific harmful outputs, compared to their 2D counterparts. These findings highlight the importance of improving the adversarial robustness of 3D VLMs, especially as they are deployed in...</p>"
+    }
+  ]
+}

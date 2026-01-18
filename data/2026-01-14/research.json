@@ -1,0 +1,825 @@
+{
+  "category": "research",
+  "date": "2026-01-14",
+  "category_summary": "Today's research spans foundational theory and critical alignment insights. **Universal computation is intrinsic to language model decoding** [proves any algorithm can be simulated](/?date=2026-01-14&category=research#item-7f13eb1ede23) through autoregressive decoding—a fundamental capability result.\n\n- **Reasoning Beyond Chain-of-Thought** [discovers latent reasoning modes](/?date=2026-01-14&category=research#item-1cceefe5b37f) in LLMs controllable via single SAE features, challenging CoT assumptions\n- **Your Group-Relative Advantage Is Biased** [provides first theoretical analysis](/?date=2026-01-14&category=research#item-84e9d753971b) showing GRPO systematically underestimates advantages for harder prompts\n- **Ministral 3** [releases **3B-14B** dense models](/?date=2026-01-14&category=research#item-0de906e54a7a) via Cascade Distillation methodology with open weights\n\nSafety research dominates: **Knowing But Not Doing** [reveals near-perfect moral knowledge](/?date=2026-01-14&category=research#item-0f6b5a701cdf) but significant action gaps across LLMs; **Why AI Alignment Failure Is Structural** [reframes deception](/?date=2026-01-14&category=research#item-dbeb2a016bae) as learned human interaction patterns rather than training failures; **Semantic Gravity Wells** [mechanistically explains](/?date=2026-01-14&category=research#item-619e8b6394bc) why negative instructions backfire through embedding dynamics; **Safe Language Generation in the Limit** [establishes impossibility bounds](/?date=2026-01-14&category=research#item-766d009258e0). **Representations align from layer one** in VLMs [challenges late-fusion assumptions](/?date=2026-01-14&category=research#item-b16843e38678).",
+  "category_summary_html": "<p>Today's research spans foundational theory and critical alignment insights. <strong>Universal computation is intrinsic to language model decoding</strong> <a href=\"/?date=2026-01-14&category=research#item-7f13eb1ede23\" class=\"internal-link\">proves any algorithm can be simulated</a> through autoregressive decoding—a fundamental capability result.</p>\n<ul>\n<li><strong>Reasoning Beyond Chain-of-Thought</strong> <a href=\"/?date=2026-01-14&category=research#item-1cceefe5b37f\" class=\"internal-link\">discovers latent reasoning modes</a> in LLMs controllable via single SAE features, challenging CoT assumptions</li>\n<li><strong>Your Group-Relative Advantage Is Biased</strong> <a href=\"/?date=2026-01-14&category=research#item-84e9d753971b\" class=\"internal-link\">provides first theoretical analysis</a> showing GRPO systematically underestimates advantages for harder prompts</li>\n<li><strong>Ministral 3</strong> <a href=\"/?date=2026-01-14&category=research#item-0de906e54a7a\" class=\"internal-link\">releases <strong>3B-14B</strong> dense models</a> via Cascade Distillation methodology with open weights</li>\n</ul>\n<p>Safety research dominates: <strong>Knowing But Not Doing</strong> <a href=\"/?date=2026-01-14&category=research#item-0f6b5a701cdf\" class=\"internal-link\">reveals near-perfect moral knowledge</a> but significant action gaps across LLMs; <strong>Why AI Alignment Failure Is Structural</strong> <a href=\"/?date=2026-01-14&category=research#item-dbeb2a016bae\" class=\"internal-link\">reframes deception</a> as learned human interaction patterns rather than training failures; <strong>Semantic Gravity Wells</strong> <a href=\"/?date=2026-01-14&category=research#item-619e8b6394bc\" class=\"internal-link\">mechanistically explains</a> why negative instructions backfire through embedding dynamics; <strong>Safe Language Generation in the Limit</strong> <a href=\"/?date=2026-01-14&category=research#item-766d009258e0\" class=\"internal-link\">establishes impossibility bounds</a>. <strong>Representations align from layer one</strong> in VLMs <a href=\"/?date=2026-01-14&category=research#item-b16843e38678\" class=\"internal-link\">challenges late-fusion assumptions</a>.</p>",
+  "themes": [
+    {
+      "name": "AI Safety & Alignment",
+      "description": "Research on making AI systems safe, aligned with human values, and controllable including mechanistic understanding of failure modes and regulatory gaps",
+      "item_count": 20,
+      "example_items": [],
+      "importance": 85
+    },
+    {
+      "name": "Agentic AI & Tool Use",
+      "description": "Frameworks for autonomous agents, tool integration, memory systems, and multi-step reasoning including MCP routing, dynamic planning, and learnable memory operations",
+      "item_count": 15,
+      "example_items": [],
+      "importance": 85
+    },
+    {
+      "name": "Language Models & Training",
+      "description": "Advances in LLM architectures, training methods like RLHF/GRPO, and model releases including Ministral 3 series",
+      "item_count": 15,
+      "example_items": [],
+      "importance": 85
+    },
+    {
+      "name": "Mechanistic Interpretability",
+      "description": "Understanding internal representations and mechanisms in language and vision-language models through probing, sparse autoencoders, and causal analysis",
+      "item_count": 12,
+      "example_items": [],
+      "importance": 82
+    },
+    {
+      "name": "Language Models & Reasoning",
+      "description": "Advances in understanding and improving LLM reasoning capabilities, including alternatives to chain-of-thought and theoretical foundations of computation",
+      "item_count": 33,
+      "example_items": [],
+      "importance": 80
+    },
+    {
+      "name": "Benchmarks & Evaluation",
+      "description": "New benchmarks, evaluation frameworks, and assessment methodologies",
+      "item_count": 21,
+      "example_items": [],
+      "importance": 78
+    },
+    {
+      "name": "Large Language Models & Efficiency",
+      "description": "Research on LLM compression, quantization, efficient inference, and KV cache optimization for practical deployment",
+      "item_count": 12,
+      "example_items": [],
+      "importance": 75
+    },
+    {
+      "name": "AI Safety & Security",
+      "description": "Benchmarks and research on AI agent safety, security vulnerabilities, and alignment including financial and medical domains",
+      "item_count": 16,
+      "example_items": [],
+      "importance": 75
+    },
+    {
+      "name": "LLM Efficiency & Inference",
+      "description": "Methods for efficient model deployment including speculative decoding, controllable reasoning budgets, MoE design principles, and edge device optimization",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 75
+    },
+    {
+      "name": "AI Safety & Evaluation",
+      "description": "Benchmarks and frameworks for evaluating model capabilities, regulatory compliance, causal reasoning, and visual perception including LTL-based safety verification",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 75
+    }
+  ],
+  "total_items": 30,
+  "items": [
+    {
+      "id": "7f13eb1ede23",
+      "title": "Universal computation is intrinsic to language model decoding",
+      "content": "Language models now provide an interface to express and often solve general problems in natural language, yet their ultimate computational capabilities remain a major topic of scientific debate. Unlike a formal computer, a language model is trained to autoregressively predict successive elements in human-generated text. We prove that chaining a language model's autoregressive output is sufficient to perform universal computation. That is, a language model can simulate the execution of any algorithm on any input. The challenge of eliciting desired computational behaviour can thus be reframed in terms of programmability: the ease of finding a suitable prompt. Strikingly, we demonstrate that even randomly initialized language models are capable of universal computation before training. This implies that training does not give rise to computational expressiveness -- rather, it improves programmability, enabling a natural language interface for accessing these intrinsic capabilities.",
+      "url": "http://arxiv.org/abs/2601.08061",
+      "author": "Alex Lewandowski, Marlos C. Machado, Dale Schuurmans",
+      "published": "2026-01-14",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Proves that autoregressive language model decoding is sufficient for universal computation - any algorithm on any input can be simulated. Strikingly, even randomly initialized LMs have this capability before training.",
+      "importance_score": 88,
+      "reasoning": "Fundamental theoretical result about computational capabilities of language models. Proves universality is intrinsic to the architecture, not learned. Important implications for understanding LLM capabilities and limitations.",
+      "themes": [
+        "Theoretical Foundations",
+        "Language Models",
+        "Computability Theory"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proves that autoregressive language model decoding is sufficient for universal computation - any algorithm on any input can be simulated. Strikingly, even randomly initialized LMs have this capability before training.</p>",
+      "content_html": "<p>Language models now provide an interface to express and often solve general problems in natural language, yet their ultimate computational capabilities remain a major topic of scientific debate. Unlike a formal computer, a language model is trained to autoregressively predict successive elements in human-generated text. We prove that chaining a language model's autoregressive output is sufficient to perform universal computation. That is, a language model can simulate the execution of any algorithm on any input. The challenge of eliciting desired computational behaviour can thus be reframed in terms of programmability: the ease of finding a suitable prompt. Strikingly, we demonstrate that even randomly initialized language models are capable of universal computation before training. This implies that training does not give rise to computational expressiveness -- rather, it improves programmability, enabling a natural language interface for accessing these intrinsic capabilities.</p>"
+    },
+    {
+      "id": "0de906e54a7a",
+      "title": "Ministral 3",
+      "content": "We introduce the Ministral 3 series, a family of parameter-efficient dense language models designed for compute and memory constrained applications, available in three model sizes: 3B, 8B, and 14B parameters. For each model size, we release three variants: a pretrained base model for general-purpose use, an instruction finetuned, and a reasoning model for complex problem-solving. In addition, we present our recipe to derive the Ministral 3 models through Cascade Distillation, an iterative pruning and continued training with distillation technique. Each model comes with image understanding capabilities, all under the Apache 2.0 license.",
+      "url": "http://arxiv.org/abs/2601.08584",
+      "author": "Alexander H. Liu, Kartik Khandelwal, Sandeep Subramanian, Victor Jouault, Abhinav Rastogi, Adrien Sad\\'e, Alan Jeffares, Albert Jiang, Alexandre Cahill, Alexandre Gavaudan, Alexandre Sablayrolles, Am\\'elie H\\'eliou, Amos You, Andy Ehrenberg, Andy Lo, Anton Eliseev, Antonia Calvi, Avinash Sooriyarachchi, Baptiste Bout, Baptiste Rozi\\`ere, Baudouin De Monicault, Cl\\'emence Lanfranchi, Corentin Barreau, Cyprien Courtot, Daniele Grattarola, Darius Dabert, Diego de las Casas, Elliot Chane-Sane, Faruk Ahmed, Gabrielle Berrada, Ga\\\"etan Ecrepont, Gauthier Guinet, Georgii Novikov, Guillaume Kunsch, Guillaume Lample, Guillaume Martin, Gunshi Gupta, Jan Ludziejewski, Jason Rute, Joachim Studnia, Jonas Amar, Jos\\'ephine Delas, Josselin Somerville Roberts, Karmesh Yadav, Khyathi Chandu, Kush Jain, Laurence Aitchison, Laurent Fainsin, L\\'eonard Blier, Lingxiao Zhao, Louis Martin, Lucile Saulnier, Luyu Gao, Maarten Buyl, Margaret Jennings, Marie Pellat, Mark Prins, Mathieu Poir\\'ee, Mathilde Guillaumin, Matthieu Dinot, Matthieu Futeral, Maxime Darrin, Maximilian Augustin, Mia Chiquier, Michel Schimpf, Nathan Grinsztajn, Neha Gupta, Nikhil Raghuraman, Olivier Bousquet, Olivier Duchenne, Patricia Wang, Patrick von Platen, Paul Jacob, Paul Wambergue, Paula Kurylowicz, Pavankumar Reddy Muddireddy, Philom\\`ene Chagniot, Pierre Stock, Pravesh Agrawal, Quentin Torroba, Romain Sauvestre, Roman Soletskyi, Rupert Menneer, Sagar Vaze, Samuel Barry, Sanchit Gandhi, Siddhant Waghjale, Siddharth Gandhi, Soham Ghosh, Srijan Mishra, Sumukh Aithal, Szymon Antoniak, Teven Le Scao, Th\\'eo Cachet, Theo Simon Sorg, Thibaut Lavril, Thiziri Nait Saada, Thomas Chabal, Thomas Foubert, Thomas Robert, Thomas Wang, Tim Lawson, Tom Bewley, Tom Bewley, Tom Edwards, Umar Jamil, Umberto Tomasini, Valeriia Nemychnikova, Van Phung, Vincent Maladi\\`ere, Virgile Richard, Wassim Bouaziz, Wen-Ding Li, William Marshall, Xinghui Li, Xinyu Yang, Yassine El Ouahidi, Yihan Wang, Yunhao Tang, Zaccharie Ramzi",
+      "published": "2026-01-14",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Introduces Ministral 3 series from Mistral AI, a family of efficient dense LLMs (3B, 8B, 14B parameters) created through Cascade Distillation, with base, instruction-tuned, and reasoning variants, all with vision capabilities under Apache 2.0.",
+      "importance_score": 88,
+      "reasoning": "Major model release from leading AI lab. Cascade distillation methodology, open weights, and multimodal capabilities make this highly impactful for the field.",
+      "themes": [
+        "Language Models",
+        "Model Distillation",
+        "Open Source AI",
+        "Multimodal"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces Ministral 3 series from Mistral AI, a family of efficient dense LLMs (3B, 8B, 14B parameters) created through Cascade Distillation, with base, instruction-tuned, and reasoning variants, all with vision capabilities under Apache 2.0.</p>",
+      "content_html": "<p>We introduce the Ministral 3 series, a family of parameter-efficient dense language models designed for compute and memory constrained applications, available in three model sizes: 3B, 8B, and 14B parameters. For each model size, we release three variants: a pretrained base model for general-purpose use, an instruction finetuned, and a reasoning model for complex problem-solving. In addition, we present our recipe to derive the Ministral 3 models through Cascade Distillation, an iterative pruning and continued training with distillation technique. Each model comes with image understanding capabilities, all under the Apache 2.0 license.</p>"
+    },
+    {
+      "id": "1cceefe5b37f",
+      "title": "Reasoning Beyond Chain-of-Thought: A Latent Computational Mode in Large Language Models",
+      "content": "Chain-of-Thought (CoT) prompting has improved the reasoning performance of large language models (LLMs), but it remains unclear why it works and whether it is the unique mechanism for triggering reasoning in large language models. In this work, we study this question by directly analyzing and intervening on the internal representations of LLMs with Sparse Autoencoders (SAEs), identifying a small set of latent features that are causally associated with LLM reasoning behavior. Across multiple model families and reasoning benchmarks, we find that steering a single reasoning-related latent feature can substantially improve accuracy without explicit CoT prompting. For large models, latent steering achieves performance comparable to standard CoT prompting while producing more efficient outputs. We further observe that this reasoning-oriented internal state is triggered early in generation and can override prompt-level instructions that discourage explicit reasoning. Overall, our results suggest that multi-step reasoning in LLMs is supported by latent internal activations that can be externally activated, while CoT prompting is one effective, but not unique, way of activating this mechanism rather than its necessary cause.",
+      "url": "http://arxiv.org/abs/2601.08058",
+      "author": "Zhenghao He, Guangzhi Xiong, Bohan Liu, Sanchit Sinha, Aidong Zhang",
+      "published": "2026-01-14",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Uses Sparse Autoencoders to identify latent features causally associated with LLM reasoning, showing that steering a single reasoning-related feature can substantially improve accuracy without explicit CoT prompting, achieving comparable performance to CoT with more efficient outputs.",
+      "importance_score": 85,
+      "reasoning": "Significant mechanistic interpretability contribution revealing latent reasoning modes in LLMs. Demonstrates that reasoning can be triggered without explicit CoT, with practical efficiency implications. Important for understanding LLM capabilities.",
+      "themes": [
+        "Mechanistic Interpretability",
+        "Reasoning",
+        "Language Models",
+        "Sparse Autoencoders"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Uses Sparse Autoencoders to identify latent features causally associated with LLM reasoning, showing that steering a single reasoning-related feature can substantially improve accuracy without explicit CoT prompting, achieving comparable performance to CoT with more efficient outputs.</p>",
+      "content_html": "<p>Chain-of-Thought (CoT) prompting has improved the reasoning performance of large language models (LLMs), but it remains unclear why it works and whether it is the unique mechanism for triggering reasoning in large language models. In this work, we study this question by directly analyzing and intervening on the internal representations of LLMs with Sparse Autoencoders (SAEs), identifying a small set of latent features that are causally associated with LLM reasoning behavior. Across multiple model families and reasoning benchmarks, we find that steering a single reasoning-related latent feature can substantially improve accuracy without explicit CoT prompting. For large models, latent steering achieves performance comparable to standard CoT prompting while producing more efficient outputs. We further observe that this reasoning-oriented internal state is triggered early in generation and can override prompt-level instructions that discourage explicit reasoning. Overall, our results suggest that multi-step reasoning in LLMs is supported by latent internal activations that can be externally activated, while CoT prompting is one effective, but not unique, way of activating this mechanism rather than its necessary cause.</p>"
+    },
+    {
+      "id": "0f6b5a701cdf",
+      "title": "Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs",
+      "content": "Value alignment is central to the development of safe and socially compatible artificial intelligence. However, how Large Language Models (LLMs) represent and enact human values in real-world decision contexts remains under-explored. We present ValAct-15k, a dataset of 3,000 advice-seeking scenarios derived from Reddit, designed to elicit ten values defined by Schwartz Theory of Basic Human Values. Using both the scenario-based questions and the traditional value questionnaire, we evaluate ten frontier LLMs (five from U.S. companies, five from Chinese ones) and human participants ($n = 55$). We find near-perfect cross-model consistency in scenario-based decisions (Pearson $r \\approx 1.0$), contrasting sharply with the broad variability observed among humans ($r \\in [-0.79, 0.98]$). Yet, both humans and LLMs show weak correspondence between self-reported and enacted values ($r = 0.4, 0.3$), revealing a systematic knowledge-action gap. When instructed to \"hold\" a specific value, LLMs' performance declines up to $6.6%$ compared to merely selecting the value, indicating a role-play aversion. These findings suggest that while alignment training yields normative value convergence, it does not eliminate the human-like incoherence between knowing and acting upon values.",
+      "url": "http://arxiv.org/abs/2601.07972",
+      "author": "Jen-tse Huang, Jiantong Qin, Xueli Qiu, Sharon Levy, Michelle R. Kaufman, Mark Dredze",
+      "published": "2026-01-14",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Introduces ValAct-15k dataset to study how LLMs represent vs. enact human values, finding near-perfect cross-model consistency in decisions but a significant gap between stated values (questionnaire) and actual actions (scenarios). Reveals LLMs show convergent morality across US and Chinese models but diverge sharply from human behavioral variability.",
+      "importance_score": 82,
+      "reasoning": "Novel dataset and methodology for studying value alignment in LLMs. Finding of 'knowing but not doing' is significant for AI safety and highlights the gap between stated preferences and behavioral outcomes in LLMs.",
+      "themes": [
+        "AI Safety",
+        "Alignment",
+        "Language Models",
+        "Value Learning"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces ValAct-15k dataset to study how LLMs represent vs. enact human values, finding near-perfect cross-model consistency in decisions but a significant gap between stated values (questionnaire) and actual actions (scenarios). Reveals LLMs show convergent morality across US and Chinese models but diverge sharply from human behavioral variability.</p>",
+      "content_html": "<p>Value alignment is central to the development of safe and socially compatible artificial intelligence. However, how Large Language Models (LLMs) represent and enact human values in real-world decision contexts remains under-explored. We present ValAct-15k, a dataset of 3,000 advice-seeking scenarios derived from Reddit, designed to elicit ten values defined by Schwartz Theory of Basic Human Values. Using both the scenario-based questions and the traditional value questionnaire, we evaluate ten frontier LLMs (five from U.S. companies, five from Chinese ones) and human participants ($n = 55$). We find near-perfect cross-model consistency in scenario-based decisions (Pearson $r \\approx 1.0$), contrasting sharply with the broad variability observed among humans ($r \\in [-0.79, 0.98]$). Yet, both humans and LLMs show weak correspondence between self-reported and enacted values ($r = 0.4, 0.3$), revealing a systematic knowledge-action gap. When instructed to \"hold\" a specific value, LLMs' performance declines up to $6.6%$ compared to merely selecting the value, indicating a role-play aversion. These findings suggest that while alignment training yields normative value convergence, it does not eliminate the human-like incoherence between knowing and acting upon values.</p>"
+    },
+    {
+      "id": "84e9d753971b",
+      "title": "Your Group-Relative Advantage Is Biased",
+      "content": "Reinforcement Learning from Verifier Rewards (RLVR) has emerged as a widely used approach for post-training large language models on reasoning tasks, with group-based methods such as GRPO and its variants gaining broad adoption. These methods rely on group-relative advantage estimation to avoid learned critics, yet its theoretical properties remain poorly understood.   In this work, we uncover a fundamental issue of group-based RL: the group-relative advantage estimator is inherently biased relative to the true (expected) advantage. We provide the first theoretical analysis showing that it systematically underestimates advantages for hard prompts and overestimates them for easy prompts, leading to imbalanced exploration and exploitation. To address this issue, we propose History-Aware Adaptive Difficulty Weighting (HA-DW), an adaptive reweighting scheme that adjusts advantage estimates based on an evolving difficulty anchor and training dynamics. Both theoretical analysis and experiments on five mathematical reasoning benchmarks demonstrate that HA-DW consistently improves performance when integrated into GRPO and its variants. Our results suggest that correcting biased advantage estimation is critical for robust and efficient RLVR training.",
+      "url": "http://arxiv.org/abs/2601.08521",
+      "author": "Fengkai Yang, Zherui Chen, Xiaohan Wang, Xiaodong Lu, Jiajun Chai, Guojun Yin, Wei Lin, Shuai Ma, Fuzhen Zhuang, Deqing Wang, Yaodong Yang, Jianxin Li, Yikun Ban",
+      "published": "2026-01-14",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Reveals that group-relative advantage estimation in GRPO and similar RLVR methods is fundamentally biased—systematically underestimating advantages for hard prompts and overestimating for easy ones. Proposes History-Aware Adaptive method to address imbalanced exploration/exploitation.",
+      "importance_score": 82,
+      "reasoning": "First theoretical analysis of bias in GRPO, which is widely used for LLM post-training. Directly impacts RLHF practices with practical fix proposed.",
+      "themes": [
+        "Reinforcement Learning",
+        "Language Models",
+        "LLM Training"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Reveals that group-relative advantage estimation in GRPO and similar RLVR methods is fundamentally biased—systematically underestimating advantages for hard prompts and overestimating for easy ones. Proposes History-Aware Adaptive method to address imbalanced exploration/exploitation.</p>",
+      "content_html": "<p>Reinforcement Learning from Verifier Rewards (RLVR) has emerged as a widely used approach for post-training large language models on reasoning tasks, with group-based methods such as GRPO and its variants gaining broad adoption. These methods rely on group-relative advantage estimation to avoid learned critics, yet its theoretical properties remain poorly understood.   In this work, we uncover a fundamental issue of group-based RL: the group-relative advantage estimator is inherently biased relative to the true (expected) advantage. We provide the first theoretical analysis showing that it systematically underestimates advantages for hard prompts and overestimates them for easy prompts, leading to imbalanced exploration and exploitation. To address this issue, we propose History-Aware Adaptive Difficulty Weighting (HA-DW), an adaptive reweighting scheme that adjusts advantage estimates based on an evolving difficulty anchor and training dynamics. Both theoretical analysis and experiments on five mathematical reasoning benchmarks demonstrate that HA-DW consistently improves performance when integrated into GRPO and its variants. Our results suggest that correcting biased advantage estimation is critical for robust and efficient RLVR training.</p>"
+    },
+    {
+      "id": "dbeb2a016bae",
+      "title": "Why AI Alignment Failure Is Structural: Learned Human Interaction Structures and AGI as an Endogenous Evolutionary Shock",
+      "content": "Recent reports of large language models (LLMs) exhibiting behaviors such as deception, threats, or blackmail are often interpreted as evidence of alignment failure or emergent malign agency. We argue that this interpretation rests on a conceptual error. LLMs do not reason morally; they statistically internalize the record of human social interaction, including laws, contracts, negotiations, conflicts, and coercive arrangements. Behaviors commonly labeled as unethical or anomalous are therefore better understood as structural generalizations of interaction regimes that arise under extreme asymmetries of power, information, or constraint. Drawing on relational models theory, we show that practices such as blackmail are not categorical deviations from normal social behavior, but limiting cases within the same continuum that includes market pricing, authority relations, and ultimatum bargaining. The surprise elicited by such outputs reflects an anthropomorphic expectation that intelligence should reproduce only socially sanctioned behavior, rather than the full statistical landscape of behaviors humans themselves enact. Because human morality is plural, context-dependent, and historically contingent, the notion of a universally moral artificial intelligence is ill-defined. We therefore reframe concerns about artificial general intelligence (AGI). The primary risk is not adversarial intent, but AGI's role as an endogenous amplifier of human intelligence, power, and contradiction....",
+      "url": "http://arxiv.org/abs/2601.08673",
+      "author": "Didier Sornette, Sandro Claudio Lera and Ke Wu",
+      "published": "2026-01-14",
+      "source": "arXiv (Artificial Intelligence)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.AI"
+      ],
+      "summary": "Argues that LLM behaviors like deception and threats are not alignment failures but structural generalizations of human interaction patterns under power asymmetries, drawing on relational models theory.",
+      "importance_score": 80,
+      "reasoning": "Provocative and well-argued theoretical perspective on AI alignment with serious implications. Challenges common interpretations of concerning LLM behaviors. Lead author is prominent researcher.",
+      "themes": [
+        "AI Alignment",
+        "AI Safety",
+        "Social Psychology",
+        "Language Models"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Argues that LLM behaviors like deception and threats are not alignment failures but structural generalizations of human interaction patterns under power asymmetries, drawing on relational models theory.</p>",
+      "content_html": "<p>Recent reports of large language models (LLMs) exhibiting behaviors such as deception, threats, or blackmail are often interpreted as evidence of alignment failure or emergent malign agency. We argue that this interpretation rests on a conceptual error. LLMs do not reason morally; they statistically internalize the record of human social interaction, including laws, contracts, negotiations, conflicts, and coercive arrangements. Behaviors commonly labeled as unethical or anomalous are therefore better understood as structural generalizations of interaction regimes that arise under extreme asymmetries of power, information, or constraint. Drawing on relational models theory, we show that practices such as blackmail are not categorical deviations from normal social behavior, but limiting cases within the same continuum that includes market pricing, authority relations, and ultimatum bargaining. The surprise elicited by such outputs reflects an anthropomorphic expectation that intelligence should reproduce only socially sanctioned behavior, rather than the full statistical landscape of behaviors humans themselves enact. Because human morality is plural, context-dependent, and historically contingent, the notion of a universally moral artificial intelligence is ill-defined. We therefore reframe concerns about artificial general intelligence (AGI). The primary risk is not adversarial intent, but AGI's role as an endogenous amplifier of human intelligence, power, and contradiction....</p>"
+    },
+    {
+      "id": "ab007f5a3d2d",
+      "title": "Reasoning over Precedents Alongside Statutes: Case-Augmented Deliberative Alignment for LLM Safety",
+      "content": "Ensuring that Large Language Models (LLMs) adhere to safety principles without refusing benign requests remains a significant challenge. While OpenAI introduces deliberative alignment (DA) to enhance the safety of its o-series models through reasoning over detailed ``code-like'' safety rules, the effectiveness of this approach in open-source LLMs, which typically lack advanced reasoning capabilities, is understudied. In this work, we systematically evaluate the impact of explicitly specifying extensive safety codes versus demonstrating them through illustrative cases. We find that referencing explicit codes inconsistently improves harmlessness and systematically degrades helpfulness, whereas training on case-augmented simple codes yields more robust and generalized safety behaviors. By guiding LLMs with case-augmented reasoning instead of extensive code-like safety rules, we avoid rigid adherence to narrowly enumerated rules and enable broader adaptability. Building on these insights, we propose CADA, a case-augmented deliberative alignment method for LLMs utilizing reinforcement learning on self-generated safety reasoning chains. CADA effectively enhances harmlessness, improves robustness against attacks, and reduces over-refusal while preserving utility across diverse benchmarks, offering a practical alternative to rule-only DA for improving safety while maintaining helpfulness.",
+      "url": "http://arxiv.org/abs/2601.08000",
+      "author": "Can Jin, Rui Wu, Tong Che, Qixin Zhang, Hongwu Peng, Jiahui Zhao, Zhenting Wang, Wenqi Wei, Ligong Han, Zhao Zhang, Yuan Cao, Ruixiang Tang, Dimitris N. Metaxas",
+      "published": "2026-01-14",
+      "source": "arXiv (Artificial Intelligence)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.AI"
+      ],
+      "summary": "Studies deliberative alignment for LLM safety, finding that training on case-augmented simple safety codes yields more robust safety behaviors than explicit detailed rules. Shows that referencing explicit codes degrades helpfulness while case-based approaches generalize better.",
+      "importance_score": 78,
+      "reasoning": "Important safety research comparing rule-based vs. case-based alignment. Practical insights for improving open-source LLM safety without sacrificing helpfulness. Highly relevant for deployment.",
+      "themes": [
+        "AI Safety",
+        "Alignment",
+        "Language Models",
+        "Deliberative Reasoning"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Studies deliberative alignment for LLM safety, finding that training on case-augmented simple safety codes yields more robust safety behaviors than explicit detailed rules. Shows that referencing explicit codes degrades helpfulness while case-based approaches generalize better.</p>",
+      "content_html": "<p>Ensuring that Large Language Models (LLMs) adhere to safety principles without refusing benign requests remains a significant challenge. While OpenAI introduces deliberative alignment (DA) to enhance the safety of its o-series models through reasoning over detailed ``code-like'' safety rules, the effectiveness of this approach in open-source LLMs, which typically lack advanced reasoning capabilities, is understudied. In this work, we systematically evaluate the impact of explicitly specifying extensive safety codes versus demonstrating them through illustrative cases. We find that referencing explicit codes inconsistently improves harmlessness and systematically degrades helpfulness, whereas training on case-augmented simple codes yields more robust and generalized safety behaviors. By guiding LLMs with case-augmented reasoning instead of extensive code-like safety rules, we avoid rigid adherence to narrowly enumerated rules and enable broader adaptability. Building on these insights, we propose CADA, a case-augmented deliberative alignment method for LLMs utilizing reinforcement learning on self-generated safety reasoning chains. CADA effectively enhances harmlessness, improves robustness against attacks, and reduces over-refusal while preserving utility across diverse benchmarks, offering a practical alternative to rule-only DA for improving safety while maintaining helpfulness.</p>"
+    },
+    {
+      "id": "8eaeccd9714d",
+      "title": "VeriTaS: The First Dynamic Benchmark for Multimodal Automated Fact-Checking",
+      "content": "The growing scale of online misinformation urgently demands Automated Fact-Checking (AFC). Existing benchmarks for evaluating AFC systems, however, are largely limited in terms of task scope, modalities, domain, language diversity, realism, or coverage of misinformation types. Critically, they are static, thus subject to data leakage as their claims enter the pretraining corpora of LLMs. As a result, benchmark performance no longer reliably reflects the actual ability to verify claims. We introduce Verified Theses and Statements (VeriTaS), the first dynamic benchmark for multimodal AFC, designed to remain robust under ongoing large-scale pretraining of foundation models. VeriTaS currently comprises 24,000 real-world claims from 108 professional fact-checking organizations across 54 languages, covering textual and audiovisual content. Claims are added quarterly via a fully automated seven-stage pipeline that normalizes claim formulation, retrieves original media, and maps heterogeneous expert verdicts to a novel, standardized, and disentangled scoring scheme with textual justifications. Through human evaluation, we demonstrate that the automated annotations closely match human judgments. We commit to update VeriTaS in the future, establishing a leakage-resistant benchmark, supporting meaningful AFC evaluation in the era of rapidly evolving foundation models. We will make the code and data publicly available.",
+      "url": "http://arxiv.org/abs/2601.08611",
+      "author": "Mark Rothermel, Marcus Kornmann, Marcus Rohrbach, Anna Rohrbach",
+      "published": "2026-01-14",
+      "source": "arXiv (cs.IR)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.IR"
+      ],
+      "summary": "Introduces VeriTaS, the first dynamic benchmark for multimodal fact-checking with 24,000 real-world claims from 108 fact-checking organizations across 54 languages, designed to remain robust against data leakage.",
+      "importance_score": 78,
+      "reasoning": "Addresses critical problem of static benchmark contamination for fact-checking. Massive scale, multimodal, multilingual, and dynamically updated makes this highly valuable.",
+      "themes": [
+        "Benchmarks",
+        "Fact-Checking",
+        "Misinformation",
+        "Multimodal"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces VeriTaS, the first dynamic benchmark for multimodal fact-checking with 24,000 real-world claims from 108 fact-checking organizations across 54 languages, designed to remain robust against data leakage.</p>",
+      "content_html": "<p>The growing scale of online misinformation urgently demands Automated Fact-Checking (AFC). Existing benchmarks for evaluating AFC systems, however, are largely limited in terms of task scope, modalities, domain, language diversity, realism, or coverage of misinformation types. Critically, they are static, thus subject to data leakage as their claims enter the pretraining corpora of LLMs. As a result, benchmark performance no longer reliably reflects the actual ability to verify claims. We introduce Verified Theses and Statements (VeriTaS), the first dynamic benchmark for multimodal AFC, designed to remain robust under ongoing large-scale pretraining of foundation models. VeriTaS currently comprises 24,000 real-world claims from 108 professional fact-checking organizations across 54 languages, covering textual and audiovisual content. Claims are added quarterly via a fully automated seven-stage pipeline that normalizes claim formulation, retrieves original media, and maps heterogeneous expert verdicts to a novel, standardized, and disentangled scoring scheme with textual justifications. Through human evaluation, we demonstrate that the automated annotations closely match human judgments. We commit to update VeriTaS in the future, establishing a leakage-resistant benchmark, supporting meaningful AFC evaluation in the era of rapidly evolving foundation models. We will make the code and data publicly available.</p>"
+    },
+    {
+      "id": "1f195fff43e7",
+      "title": "ViDoRe V3: A Comprehensive Evaluation of Retrieval Augmented Generation in Complex Real-World Scenarios",
+      "content": "Retrieval-Augmented Generation (RAG) pipelines must address challenges beyond simple single-document retrieval, such as interpreting visual elements (tables, charts, images), synthesizing information across documents, and providing accurate source grounding. Existing benchmarks fail to capture this complexity, often focusing on textual data, single-document comprehension, or evaluating retrieval and generation in isolation. We introduce ViDoRe v3, a comprehensive multimodal RAG benchmark featuring multi-type queries over visually rich document corpora. It covers 10 datasets across diverse professional domains, comprising ~26,000 document pages paired with 3,099 human-verified queries, each available in 6 languages. Through 12,000 hours of human annotation effort, we provide high-quality annotations for retrieval relevance, bounding box localization, and verified reference answers. Our evaluation of state-of-the-art RAG pipelines reveals that visual retrievers outperform textual ones, late-interaction models and textual reranking substantially improve performance, and hybrid or purely visual contexts enhance answer generation quality. However, current models still struggle with non-textual elements, open-ended queries, and fine-grained visual grounding. To encourage progress in addressing these challenges, the benchmark is released under a commercially permissive license at https://hf.co/vidore.",
+      "url": "http://arxiv.org/abs/2601.08620",
+      "author": "Ant\\'onio Loison, Quentin Mac\\'e, Antoine Edy, Victor Xing, Tom Balough, Gabriel Moreira, Bo Liu, Manuel Faysse, C\\'eline Hudelot, Gautier Viaud",
+      "published": "2026-01-14",
+      "source": "arXiv (Artificial Intelligence)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.AI"
+      ],
+      "summary": "Introduces ViDoRe V3, a comprehensive multimodal RAG benchmark with 26,000 document pages across 10 datasets in 6 languages, featuring multi-type queries and 12,000 hours of human annotation.",
+      "importance_score": 77,
+      "reasoning": "High-quality benchmark addressing real RAG challenges with visual elements and multi-document reasoning. Significant human annotation effort adds credibility.",
+      "themes": [
+        "RAG",
+        "Benchmarks",
+        "Document Understanding",
+        "Multimodal"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces ViDoRe V3, a comprehensive multimodal RAG benchmark with 26,000 document pages across 10 datasets in 6 languages, featuring multi-type queries and 12,000 hours of human annotation.</p>",
+      "content_html": "<p>Retrieval-Augmented Generation (RAG) pipelines must address challenges beyond simple single-document retrieval, such as interpreting visual elements (tables, charts, images), synthesizing information across documents, and providing accurate source grounding. Existing benchmarks fail to capture this complexity, often focusing on textual data, single-document comprehension, or evaluating retrieval and generation in isolation. We introduce ViDoRe v3, a comprehensive multimodal RAG benchmark featuring multi-type queries over visually rich document corpora. It covers 10 datasets across diverse professional domains, comprising ~26,000 document pages paired with 3,099 human-verified queries, each available in 6 languages. Through 12,000 hours of human annotation effort, we provide high-quality annotations for retrieval relevance, bounding box localization, and verified reference answers. Our evaluation of state-of-the-art RAG pipelines reveals that visual retrievers outperform textual ones, late-interaction models and textual reranking substantially improve performance, and hybrid or purely visual contexts enhance answer generation quality. However, current models still struggle with non-textual elements, open-ended queries, and fine-grained visual grounding. To encourage progress in addressing these challenges, the benchmark is released under a commercially permissive license at https://hf.co/vidore.</p>"
+    },
+    {
+      "id": "619e8b6394bc",
+      "title": "Semantic Gravity Wells: Why Negative Constraints Backfire",
+      "content": "Negative constraints (instructions of the form \"do not use word X\") represent a fundamental test of instruction-following capability in large language models. Despite their apparent simplicity, these constraints fail with striking regularity, and the conditions governing failure have remained poorly understood. This paper presents the first comprehensive mechanistic investigation of negative instruction failure. We introduce semantic pressure, a quantitative measure of the model's intrinsic probability of generating the forbidden token, and demonstrate that violation probability follows a tight logistic relationship with pressure ($p=\\sigma(-2.40+2.27\\cdot P_0)$; $n=40{,}000$ samples; bootstrap $95%$ CI for slope: $[2.21,,2.33]$). Through layer-wise analysis using the logit lens technique, we establish that the suppression signal induced by negative instructions is present but systematically weaker in failures: the instruction reduces target probability by only 5.2 percentage points in failures versus 22.8 points in successes -- a $4.4\\times$ asymmetry. We trace this asymmetry to two mechanistically distinct failure modes. In priming failure (87.5% of violations), the instruction's explicit mention of the forbidden word paradoxically activates rather than suppresses the target representation. In override failure (12.5%), late-layer feed-forward networks generate contributions of $+0.39$ toward the target probability -- nearly $4\\times$ larger than in successes --...",
+      "url": "http://arxiv.org/abs/2601.08070",
+      "author": "Shailesh Rana",
+      "published": "2026-01-14",
+      "source": "arXiv (Artificial Intelligence)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.AI"
+      ],
+      "summary": "Presents first comprehensive mechanistic investigation of why negative instructions ('do not use word X') fail in LLMs. Introduces 'semantic pressure' metric showing violation probability follows tight logistic relationship with intrinsic token probability.",
+      "importance_score": 76,
+      "reasoning": "Novel mechanistic analysis of a practically important failure mode. Quantitative framework for understanding instruction-following limitations. Important for LLM safety and controllability.",
+      "themes": [
+        "Mechanistic Interpretability",
+        "Language Models",
+        "Instruction Following",
+        "AI Safety"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Presents first comprehensive mechanistic investigation of why negative instructions ('do not use word X') fail in LLMs. Introduces 'semantic pressure' metric showing violation probability follows tight logistic relationship with intrinsic token probability.</p>",
+      "content_html": "<p>Negative constraints (instructions of the form \"do not use word X\") represent a fundamental test of instruction-following capability in large language models. Despite their apparent simplicity, these constraints fail with striking regularity, and the conditions governing failure have remained poorly understood. This paper presents the first comprehensive mechanistic investigation of negative instruction failure. We introduce semantic pressure, a quantitative measure of the model's intrinsic probability of generating the forbidden token, and demonstrate that violation probability follows a tight logistic relationship with pressure ($p=\\sigma(-2.40+2.27\\cdot P_0)$; $n=40{,}000$ samples; bootstrap $95%$ CI for slope: $[2.21,,2.33]$). Through layer-wise analysis using the logit lens technique, we establish that the suppression signal induced by negative instructions is present but systematically weaker in failures: the instruction reduces target probability by only 5.2 percentage points in failures versus 22.8 points in successes -- a $4.4\\times$ asymmetry. We trace this asymmetry to two mechanistically distinct failure modes. In priming failure (87.5% of violations), the instruction's explicit mention of the forbidden word paradoxically activates rather than suppresses the target representation. In override failure (12.5%), late-layer feed-forward networks generate contributions of $+0.39$ toward the target probability -- nearly $4\\times$ larger than in successes --...</p>"
+    },
+    {
+      "id": "9c22f8cad379",
+      "title": "KVzap: Fast, Adaptive, and Faithful KV Cache Pruning",
+      "content": "Growing context lengths in transformer-based language models have made the key-value (KV) cache a critical inference bottleneck. While many KV cache pruning methods have been proposed, they have not yet been adopted in major inference engines due to speed--accuracy trade-offs. We introduce KVzap, a fast, input-adaptive approximation of KVzip that works in both prefilling and decoding. On Qwen3-8B, Llama-3.1-8B-Instruct, and Qwen3-32B across long-context and reasoning tasks, KVzap achieves $2$--$4\\times$ KV cache compression with negligible accuracy loss and achieves state-of-the-art performance on the KVpress leaderboard. Code and models are available at https://github.com/NVIDIA/kvpress.",
+      "url": "http://arxiv.org/abs/2601.07891",
+      "author": "Simon Jegou and Maximilian Jeblick",
+      "published": "2026-01-14",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Introduces KVzap, a fast input-adaptive KV cache pruning method approximating KVzip for both prefilling and decoding. Achieves 2-4x compression with negligible accuracy loss and SOTA on KVpress leaderboard. Released by NVIDIA.",
+      "importance_score": 75,
+      "reasoning": "SOTA KV cache compression from NVIDIA; practical efficiency gains for LLM inference; addresses critical bottleneck with open-source release.",
+      "themes": [
+        "KV Cache",
+        "Efficient Inference",
+        "Large Language Models",
+        "Model Compression"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces KVzap, a fast input-adaptive KV cache pruning method approximating KVzip for both prefilling and decoding. Achieves 2-4x compression with negligible accuracy loss and SOTA on KVpress leaderboard. Released by NVIDIA.</p>",
+      "content_html": "<p>Growing context lengths in transformer-based language models have made the key-value (KV) cache a critical inference bottleneck. While many KV cache pruning methods have been proposed, they have not yet been adopted in major inference engines due to speed--accuracy trade-offs. We introduce KVzap, a fast, input-adaptive approximation of KVzip that works in both prefilling and decoding. On Qwen3-8B, Llama-3.1-8B-Instruct, and Qwen3-32B across long-context and reasoning tasks, KVzap achieves $2$--$4\\times$ KV cache compression with negligible accuracy loss and achieves state-of-the-art performance on the KVpress leaderboard. Code and models are available at https://github.com/NVIDIA/kvpress.</p>"
+    },
+    {
+      "id": "0fcc8d76ef91",
+      "title": "Internal Deployment Gaps in AI Regulation",
+      "content": "Frontier AI regulations primarily focus on systems deployed to external users, where deployment is more visible and subject to outside scrutiny. However, high-stakes applications can occur internally when companies deploy highly capable systems within their own organizations, such as for automating R\\&D, accelerating critical business processes, and handling sensitive proprietary data. This paper examines how frontier AI regulations in the United States and European Union in 2025 handle internal deployment. We identify three gaps that could cause internally-deployed systems to evade intended oversight: (1) scope ambiguity that allows internal systems to evade regulatory obligations, (2) point-in-time compliance assessments that fail to capture the continuous evolution of internal systems, and (3) information asymmetries that subvert regulatory awareness and oversight. We then analyze why these gaps persist, examining tensions around measurability, incentives, and information access. Finally, we map potential approaches to address them and their associated tradeoffs. By understanding these patterns, we hope that policy choices around internally deployed AI systems can be made deliberately rather than incidentally.",
+      "url": "http://arxiv.org/abs/2601.08005",
+      "author": "Joe Kwon and Stephen Casper",
+      "published": "2026-01-14",
+      "source": "arXiv (Artificial Intelligence)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.AI"
+      ],
+      "summary": "Identifies three gaps in US and EU frontier AI regulations regarding internally-deployed systems: scope ambiguity, point-in-time compliance issues, and inadequate monitoring provisions that allow internal AI systems to evade oversight.",
+      "importance_score": 75,
+      "reasoning": "Timely and important policy analysis identifying significant regulatory blind spots for internal AI deployment. High relevance for AI governance discussions.",
+      "themes": [
+        "AI Governance",
+        "AI Safety",
+        "Policy Analysis",
+        "Regulation"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Identifies three gaps in US and EU frontier AI regulations regarding internally-deployed systems: scope ambiguity, point-in-time compliance issues, and inadequate monitoring provisions that allow internal AI systems to evade oversight.</p>",
+      "content_html": "<p>Frontier AI regulations primarily focus on systems deployed to external users, where deployment is more visible and subject to outside scrutiny. However, high-stakes applications can occur internally when companies deploy highly capable systems within their own organizations, such as for automating R\\&D, accelerating critical business processes, and handling sensitive proprietary data. This paper examines how frontier AI regulations in the United States and European Union in 2025 handle internal deployment. We identify three gaps that could cause internally-deployed systems to evade intended oversight: (1) scope ambiguity that allows internal systems to evade regulatory obligations, (2) point-in-time compliance assessments that fail to capture the continuous evolution of internal systems, and (3) information asymmetries that subvert regulatory awareness and oversight. We then analyze why these gaps persist, examining tensions around measurability, incentives, and information access. Finally, we map potential approaches to address them and their associated tradeoffs. By understanding these patterns, we hope that policy choices around internally deployed AI systems can be made deliberately rather than incidentally.</p>"
+    },
+    {
+      "id": "cc97fa5872f3",
+      "title": "DeepResearch Bench II: Diagnosing Deep Research Agents via Rubrics from Expert Report",
+      "content": "Deep Research Systems (DRS) aim to help users search the web, synthesize information, and deliver comprehensive investigative reports. However, how to rigorously evaluate these systems remains under-explored. Existing deep-research benchmarks often fall into two failure modes. Some do not adequately test a system's ability to analyze evidence and write coherent reports. Others rely on evaluation criteria that are either overly coarse or directly defined by LLMs (or both), leading to scores that can be biased relative to human experts and are hard to verify or interpret. To address these issues, we introduce Deep Research Bench II, a new benchmark for evaluating DRS-generated reports. It contains 132 grounded research tasks across 22 domains; for each task, a system must produce a long-form research report that is evaluated by a set of 9430 fine-grained binary rubrics in total, covering three dimensions: information recall, analysis, and presentation. All rubrics are derived from carefully selected expert-written investigative articles and are constructed through a four-stage LLM+human pipeline that combines automatic extraction with over 400 human-hours of expert review, ensuring that the criteria are atomic, verifiable, and aligned with human expert judgment. We evaluate several state-of-the-art deep-research systems on Deep Research Bench II and find that even the strongest models satisfy fewer than 50% of the rubrics, revealing a substantial gap between current DRSs and...",
+      "url": "http://arxiv.org/abs/2601.08536",
+      "author": "Ruizhe Li, Mingxuan Du, Benfeng Xu, Chiwei Zhu, Xiaorui Wang and Zhendong Mao",
+      "published": "2026-01-14",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Introduces Deep Research Bench II, a benchmark with 132 grounded research tasks across 22 domains for evaluating AI systems that generate investigative reports, using expert-derived rubrics for rigorous evaluation.",
+      "importance_score": 75,
+      "reasoning": "Addresses critical gap in evaluating emerging 'deep research' AI systems. High-quality expert annotations and broad domain coverage make this valuable for agent evaluation.",
+      "themes": [
+        "Benchmarks",
+        "AI Agents",
+        "Research Automation",
+        "Evaluation"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces Deep Research Bench II, a benchmark with 132 grounded research tasks across 22 domains for evaluating AI systems that generate investigative reports, using expert-derived rubrics for rigorous evaluation.</p>",
+      "content_html": "<p>Deep Research Systems (DRS) aim to help users search the web, synthesize information, and deliver comprehensive investigative reports. However, how to rigorously evaluate these systems remains under-explored. Existing deep-research benchmarks often fall into two failure modes. Some do not adequately test a system's ability to analyze evidence and write coherent reports. Others rely on evaluation criteria that are either overly coarse or directly defined by LLMs (or both), leading to scores that can be biased relative to human experts and are hard to verify or interpret. To address these issues, we introduce Deep Research Bench II, a new benchmark for evaluating DRS-generated reports. It contains 132 grounded research tasks across 22 domains; for each task, a system must produce a long-form research report that is evaluated by a set of 9430 fine-grained binary rubrics in total, covering three dimensions: information recall, analysis, and presentation. All rubrics are derived from carefully selected expert-written investigative articles and are constructed through a four-stage LLM+human pipeline that combines automatic extraction with over 400 human-hours of expert review, ensuring that the criteria are atomic, verifiable, and aligned with human expert judgment. We evaluate several state-of-the-art deep-research systems on Deep Research Bench II and find that even the strongest models satisfy fewer than 50% of the rubrics, revealing a substantial gap between current DRSs and...</p>"
+    },
+    {
+      "id": "005bb89f8fb2",
+      "title": "Multiplex Thinking: Reasoning via Token-wise Branch-and-Merge",
+      "content": "Large language models often solve complex reasoning tasks more effectively with Chain-of-Thought (CoT), but at the cost of long, low-bandwidth token sequences. Humans, by contrast, often reason softly by maintaining a distribution over plausible next steps. Motivated by this, we propose Multiplex Thinking, a stochastic soft reasoning mechanism that, at each thinking step, samples K candidate tokens and aggregates their embeddings into a single continuous multiplex token. This preserves the vocabulary embedding prior and the sampling dynamics of standard discrete generation, while inducing a tractable probability distribution over multiplex rollouts. Consequently, multiplex trajectories can be directly optimized with on-policy reinforcement learning (RL). Importantly, Multiplex Thinking is self-adaptive: when the model is confident, the multiplex token is nearly discrete and behaves like standard CoT; when it is uncertain, it compactly represents multiple plausible next steps without increasing sequence length. Across challenging math reasoning benchmarks, Multiplex Thinking consistently outperforms strong discrete CoT and RL baselines from Pass@1 through Pass@1024, while producing shorter sequences. The code and checkpoints are available at https://github.com/GMLR-Penn/Multiplex-Thinking.",
+      "url": "http://arxiv.org/abs/2601.08808",
+      "author": "Yao Tang, Li Dong, Yaru Hao, Qingxiu Dong, Furu Wei, Jiatao Gu",
+      "published": "2026-01-14",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Proposes Multiplex Thinking, a stochastic reasoning mechanism that samples K candidate tokens at each step and aggregates their embeddings into a single continuous 'multiplex token.' Compatible with on-policy RL and can be retrofitted to existing models at inference time.",
+      "importance_score": 75,
+      "reasoning": "Novel reasoning mechanism that bridges soft reasoning with discrete generation. Interesting theoretical properties and practical benefits (shorter sequences, RL compatibility). Could influence future reasoning approaches.",
+      "themes": [
+        "Language Models",
+        "Reasoning",
+        "Reinforcement Learning",
+        "Neural Architecture"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proposes Multiplex Thinking, a stochastic reasoning mechanism that samples K candidate tokens at each step and aggregates their embeddings into a single continuous 'multiplex token.' Compatible with on-policy RL and can be retrofitted to existing models at inference time.</p>",
+      "content_html": "<p>Large language models often solve complex reasoning tasks more effectively with Chain-of-Thought (CoT), but at the cost of long, low-bandwidth token sequences. Humans, by contrast, often reason softly by maintaining a distribution over plausible next steps. Motivated by this, we propose Multiplex Thinking, a stochastic soft reasoning mechanism that, at each thinking step, samples K candidate tokens and aggregates their embeddings into a single continuous multiplex token. This preserves the vocabulary embedding prior and the sampling dynamics of standard discrete generation, while inducing a tractable probability distribution over multiplex rollouts. Consequently, multiplex trajectories can be directly optimized with on-policy reinforcement learning (RL). Importantly, Multiplex Thinking is self-adaptive: when the model is confident, the multiplex token is nearly discrete and behaves like standard CoT; when it is uncertain, it compactly represents multiple plausible next steps without increasing sequence length. Across challenging math reasoning benchmarks, Multiplex Thinking consistently outperforms strong discrete CoT and RL baselines from Pass@1 through Pass@1024, while producing shorter sequences. The code and checkpoints are available at https://github.com/GMLR-Penn/Multiplex-Thinking.</p>"
+    },
+    {
+      "id": "b16843e38678",
+      "title": "Representations of Text and Images Align From Layer One",
+      "content": "We show that for a variety of concepts in adapter-based vision-language models, the representations of their images and their text descriptions are meaningfully aligned from the very first layer. This contradicts the established view that such image-text alignment only appears in late layers. We show this using a new synthesis-based method inspired by DeepDream: given a textual concept such as \"Jupiter\", we extract its concept vector at a given layer, and then use optimisation to synthesise an image whose representation aligns with that vector. We apply our approach to hundreds of concepts across seven layers in Gemma 3, and find that the synthesised images often depict salient visual features of the targeted textual concepts: for example, already at layer 1, more than 50 % of images depict recognisable features of animals, activities, or seasons. Our method thus provides direct, constructive evidence of image-text alignment on a concept-by-concept and layer-by-layer basis. Unlike previous methods for measuring multimodal alignment, our approach is simple, fast, and does not require auxiliary models or datasets. It also offers a new path towards model interpretability, by providing a way to visualise a model's representation space by backtracing through its image processing components.",
+      "url": "http://arxiv.org/abs/2601.08017",
+      "author": "Ev\\v{z}en Wybitul, Javier Rando, Florian Tram\\`er, Stanislav Fort",
+      "published": "2026-01-14",
+      "source": "arXiv (Computer Vision)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CV"
+      ],
+      "summary": "Demonstrates that in adapter-based VLMs, representations of images and their text descriptions are meaningfully aligned from the very first layer, contradicting the established view that alignment only appears in late layers. Uses DeepDream-inspired synthesis.",
+      "importance_score": 74,
+      "reasoning": "Novel finding that challenges conventional understanding of VLM internals. Notable author (Florian Tramèr). Important for mechanistic understanding of multimodal models.",
+      "themes": [
+        "Mechanistic Interpretability",
+        "Vision-Language Models",
+        "Representation Learning"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Demonstrates that in adapter-based VLMs, representations of images and their text descriptions are meaningfully aligned from the very first layer, contradicting the established view that alignment only appears in late layers. Uses DeepDream-inspired synthesis.</p>",
+      "content_html": "<p>We show that for a variety of concepts in adapter-based vision-language models, the representations of their images and their text descriptions are meaningfully aligned from the very first layer. This contradicts the established view that such image-text alignment only appears in late layers. We show this using a new synthesis-based method inspired by DeepDream: given a textual concept such as \"Jupiter\", we extract its concept vector at a given layer, and then use optimisation to synthesise an image whose representation aligns with that vector. We apply our approach to hundreds of concepts across seven layers in Gemma 3, and find that the synthesised images often depict salient visual features of the targeted textual concepts: for example, already at layer 1, more than 50 % of images depict recognisable features of animals, activities, or seasons. Our method thus provides direct, constructive evidence of image-text alignment on a concept-by-concept and layer-by-layer basis. Unlike previous methods for measuring multimodal alignment, our approach is simple, fast, and does not require auxiliary models or datasets. It also offers a new path towards model interpretability, by providing a way to visualise a model's representation space by backtracing through its image processing components.</p>"
+    },
+    {
+      "id": "836f45976556",
+      "title": "FinVault: Benchmarking Financial Agent Safety in Execution-Grounded Environments",
+      "content": "Financial agents powered by large language models (LLMs) are increasingly deployed for investment analysis, risk assessment, and automated decision-making, where their abilities to plan, invoke tools, and manipulate mutable state introduce new security risks in high-stakes and highly regulated financial environments. However, existing safety evaluations largely focus on language-model-level content compliance or abstract agent settings, failing to capture execution-grounded risks arising from real operational workflows and state-changing actions. To bridge this gap, we propose FinVault, the first execution-grounded security benchmark for financial agents, comprising 31 regulatory case-driven sandbox scenarios with state-writable databases and explicit compliance constraints, together with 107 real-world vulnerabilities and 963 test cases that systematically cover prompt injection, jailbreaking, financially adapted attacks, as well as benign inputs for false-positive evaluation. Experimental results reveal that existing defense mechanisms remain ineffective in realistic financial agent settings, with average attack success rates (ASR) still reaching up to 50.0\\% on state-of-the-art models and remaining non-negligible even for the most robust systems (ASR 6.7\\%), highlighting the limited transferability of current safety designs and the need for stronger financial-specific defenses. Our code can be found at https://github.com/aifinlab/FinVault.",
+      "url": "http://arxiv.org/abs/2601.07853",
+      "author": "Zhi Yang, Runguo Li, Qiqi Qiang, Jiashun Wang, Fangqi Lou, Mengping Li, Dongpo Cheng, Rui Xu, Heng Lian, Shuo Zhang, Xiaolong Liang, Xiaoming Huang, Zheng Wei, Zhaowei Liu, Xin Guo, Huacan Wang, Ronghao Chen and Liwen Zhang",
+      "published": "2026-01-14",
+      "source": "arXiv (cs.CR)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CR"
+      ],
+      "summary": "Introduces FinVault, the first execution-grounded security benchmark for financial AI agents, with 31 regulatory scenarios including state-writable databases and compliance constraints. Reveals significant safety vulnerabilities in current LLM agents.",
+      "importance_score": 72,
+      "reasoning": "Important safety benchmark for high-stakes financial domain; addresses critical gap in agent safety evaluation; timely given financial AI deployment.",
+      "themes": [
+        "AI Safety",
+        "Financial AI",
+        "Benchmarks",
+        "LLM Agents",
+        "Security"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces FinVault, the first execution-grounded security benchmark for financial AI agents, with 31 regulatory scenarios including state-writable databases and compliance constraints. Reveals significant safety vulnerabilities in current LLM agents.</p>",
+      "content_html": "<p>Financial agents powered by large language models (LLMs) are increasingly deployed for investment analysis, risk assessment, and automated decision-making, where their abilities to plan, invoke tools, and manipulate mutable state introduce new security risks in high-stakes and highly regulated financial environments. However, existing safety evaluations largely focus on language-model-level content compliance or abstract agent settings, failing to capture execution-grounded risks arising from real operational workflows and state-changing actions. To bridge this gap, we propose FinVault, the first execution-grounded security benchmark for financial agents, comprising 31 regulatory case-driven sandbox scenarios with state-writable databases and explicit compliance constraints, together with 107 real-world vulnerabilities and 963 test cases that systematically cover prompt injection, jailbreaking, financially adapted attacks, as well as benign inputs for false-positive evaluation. Experimental results reveal that existing defense mechanisms remain ineffective in realistic financial agent settings, with average attack success rates (ASR) still reaching up to 50.0\\% on state-of-the-art models and remaining non-negligible even for the most robust systems (ASR 6.7\\%), highlighting the limited transferability of current safety designs and the need for stronger financial-specific defenses. Our code can be found at https://github.com/aifinlab/FinVault.</p>"
+    },
+    {
+      "id": "5cd801b5f7d2",
+      "title": "Sherry: Hardware-Efficient 1.25-Bit Ternary Quantization via Fine-grained Sparsification",
+      "content": "The deployment of Large Language Models (LLMs) on resource-constrained edge devices is increasingly hindered by prohibitive memory and computational requirements. While ternary quantization offers a compelling solution by reducing weights to {-1, 0, +1}, current implementations suffer from a fundamental misalignment with commodity hardware. Most existing methods must choose between 2-bit aligned packing, which incurs significant bit wastage, or 1.67-bit irregular packing, which degrades inference speed. To resolve this tension, we propose Sherry, a hardware-efficient ternary quantization framework. Sherry introduces a 3:4 fine-grained sparsity that achieves a regularized 1.25-bit width by packing blocks of four weights into five bits, restoring power-of-two alignment. Furthermore, we identify weight trapping issue in sparse ternary training, which leads to representational collapse. To address this, Sherry introduces Arenas, an annealing residual synapse mechanism that maintains representational diversity during training. Empirical evaluations on LLaMA-3.2 across five benchmarks demonstrate that Sherry matches state-of-the-art ternary performance while significantly reducing model size. Notably, on an Intel i7-14700HX CPU, our 1B model achieves zero accuracy loss compared to SOTA baselines while providing 25% bit savings and 10% speed up. The code is available at https://github.com/Tencent/AngelSlim .",
+      "url": "http://arxiv.org/abs/2601.07892",
+      "author": "Hong Huang, Decheng Wu, Qiangqiang Hu, Guanghua Yu, Jinhai Yang, Jianchen Zhu, Xue Liu, Dapeng Wu",
+      "published": "2026-01-14",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Proposes Sherry, a hardware-efficient 1.25-bit ternary quantization framework using 3:4 fine-grained sparsity to pack four weights into five bits, restoring power-of-two alignment for efficient inference.",
+      "importance_score": 72,
+      "reasoning": "Novel hardware-aware quantization achieving effective 1.25-bit weights; practical solution to ternary quantization efficiency gap; strong technical contribution.",
+      "themes": [
+        "Model Quantization",
+        "Large Language Models",
+        "Efficient Inference",
+        "Sparsity"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proposes Sherry, a hardware-efficient 1.25-bit ternary quantization framework using 3:4 fine-grained sparsity to pack four weights into five bits, restoring power-of-two alignment for efficient inference.</p>",
+      "content_html": "<p>The deployment of Large Language Models (LLMs) on resource-constrained edge devices is increasingly hindered by prohibitive memory and computational requirements. While ternary quantization offers a compelling solution by reducing weights to {-1, 0, +1}, current implementations suffer from a fundamental misalignment with commodity hardware. Most existing methods must choose between 2-bit aligned packing, which incurs significant bit wastage, or 1.67-bit irregular packing, which degrades inference speed. To resolve this tension, we propose Sherry, a hardware-efficient ternary quantization framework. Sherry introduces a 3:4 fine-grained sparsity that achieves a regularized 1.25-bit width by packing blocks of four weights into five bits, restoring power-of-two alignment. Furthermore, we identify weight trapping issue in sparse ternary training, which leads to representational collapse. To address this, Sherry introduces Arenas, an annealing residual synapse mechanism that maintains representational diversity during training. Empirical evaluations on LLaMA-3.2 across five benchmarks demonstrate that Sherry matches state-of-the-art ternary performance while significantly reducing model size. Notably, on an Intel i7-14700HX CPU, our 1B model achieves zero accuracy loss compared to SOTA baselines while providing 25% bit savings and 10% speed up. The code is available at https://github.com/Tencent/AngelSlim .</p>"
+    },
+    {
+      "id": "a006e42581d7",
+      "title": "Q-realign: Piggybacking Realignment on Quantization for Safe and Efficient LLM Deployment",
+      "content": "Public large language models (LLMs) are typically safety-aligned during pretraining, yet task-specific fine-tuning required for deployment often erodes this alignment and introduces safety risks. Existing defenses either embed safety recovery into fine-tuning or rely on fine-tuning-derived priors for post-hoc correction, leaving safety recovery tightly coupled with training and incurring high computational overhead and a complex workflow. To address these challenges, we propose \\texttt{Q-realign}, a post-hoc defense method based on post-training quantization, guided by an analysis of representational structure. By reframing quantization as a dual-objective procedure for compression and safety, \\texttt{Q-realign} decouples safety alignment from fine-tuning and naturally piggybacks into modern deployment pipelines. Experiments across multiple models and datasets demonstrate that our method substantially reduces unsafe behaviors while preserving task performance, with significant reductions in memory usage and GPU hours. Notably, our approach can recover the safety alignment of a fine-tuned 7B LLM on a single RTX 4090 within 40 minutes. Overall, our work provides a practical, turnkey solution for safety-aware deployment.",
+      "url": "http://arxiv.org/abs/2601.08089",
+      "author": "Qitao Tan, Xiaoying Song, Ningxi Cheng, Ninghao Liu, Xiaoming Zhai, Lingzi Hong, Yanzhi Wang, Zhen Xiang, Geng Yuan",
+      "published": "2026-01-14",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Proposes Q-realign, combining post-training quantization with safety realignment to address fine-tuning-induced safety degradation. Decouples safety alignment from fine-tuning by piggybacking onto the quantization process.",
+      "importance_score": 72,
+      "reasoning": "Novel and practical approach to maintaining LLM safety through deployment. Addresses important problem of safety degradation during fine-tuning with efficient solution.",
+      "themes": [
+        "AI Safety",
+        "Model Compression",
+        "LLM Deployment",
+        "Alignment"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proposes Q-realign, combining post-training quantization with safety realignment to address fine-tuning-induced safety degradation. Decouples safety alignment from fine-tuning by piggybacking onto the quantization process.</p>",
+      "content_html": "<p>Public large language models (LLMs) are typically safety-aligned during pretraining, yet task-specific fine-tuning required for deployment often erodes this alignment and introduces safety risks. Existing defenses either embed safety recovery into fine-tuning or rely on fine-tuning-derived priors for post-hoc correction, leaving safety recovery tightly coupled with training and incurring high computational overhead and a complex workflow. To address these challenges, we propose \\texttt{Q-realign}, a post-hoc defense method based on post-training quantization, guided by an analysis of representational structure. By reframing quantization as a dual-objective procedure for compression and safety, \\texttt{Q-realign} decouples safety alignment from fine-tuning and naturally piggybacks into modern deployment pipelines. Experiments across multiple models and datasets demonstrate that our method substantially reduces unsafe behaviors while preserving task performance, with significant reductions in memory usage and GPU hours. Notably, our approach can recover the safety alignment of a fine-tuned 7B LLM on a single RTX 4090 within 40 minutes. Overall, our work provides a practical, turnkey solution for safety-aware deployment.</p>"
+    },
+    {
+      "id": "766d009258e0",
+      "title": "Safe Language Generation in the Limit",
+      "content": "Recent results in learning a language in the limit have shown that, although language identification is impossible, language generation is tractable. As this foundational area expands, we need to consider the implications of language generation in real-world settings.   This work offers the first theoretical treatment of safe language generation. Building on the computational paradigm of learning in the limit, we formalize the tasks of safe language identification and generation. We prove that under this model, safe language identification is impossible, and that safe language generation is at least as hard as (vanilla) language identification, which is also impossible. Last, we discuss several intractable and tractable cases.",
+      "url": "http://arxiv.org/abs/2601.08648",
+      "author": "Antonios Anastasopoulos and Giuseppe Ateniese and Evgenios M. Kornaropoulos",
+      "published": "2026-01-14",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Provides first theoretical treatment of safe language generation, proving that safe language identification is impossible and safe generation is at least as hard as vanilla language identification.",
+      "importance_score": 72,
+      "reasoning": "Important theoretical foundations for AI safety. Establishes fundamental impossibility results with implications for safe generation research.",
+      "themes": [
+        "AI Safety",
+        "Language Generation",
+        "Theoretical Foundations",
+        "Formal Methods"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Provides first theoretical treatment of safe language generation, proving that safe language identification is impossible and safe generation is at least as hard as vanilla language identification.</p>",
+      "content_html": "<p>Recent results in learning a language in the limit have shown that, although language identification is impossible, language generation is tractable. As this foundational area expands, we need to consider the implications of language generation in real-world settings.   This work offers the first theoretical treatment of safe language generation. Building on the computational paradigm of learning in the limit, we formalize the tasks of safe language identification and generation. We prove that under this model, safe language identification is impossible, and that safe language generation is at least as hard as (vanilla) language identification, which is also impossible. Last, we discuss several intractable and tractable cases.</p>"
+    },
+    {
+      "id": "737671ca2b44",
+      "title": "Asymptotic Universal Alignment: A New Alignment Framework via Test-Time Scaling",
+      "content": "Aligning large language models (LLMs) to serve users with heterogeneous and potentially conflicting preferences is a central challenge for personalized and trustworthy AI. We formalize an ideal notion of universal alignment through test-time scaling: for each prompt, the model produces $k\\ge 1$ candidate responses and a user selects their preferred one. We introduce $(k,f(k))$-robust alignment, which requires the $k$-output model to have win rate $f(k)$ against any other single-output model, and asymptotic universal alignment (U-alignment), which requires $f(k)\\to 1$ as $k\\to\\infty$. Our main result characterizes the optimal convergence rate: there exists a family of single-output policies whose $k$-sample product policies achieve U-alignment at rate $f(k)=\\frac{k}{k+1}$, and no method can achieve a faster rate in general.   We show that popular post-training methods, including Nash learning from human feedback (NLHF), can fundamentally underutilize the benefits of test-time scaling. Even though NLHF is optimal for $k=1$, sampling from the resulting (often deterministic) policy cannot guarantee win rates above $\\tfrac{1}{2}$ except for an arbitrarily small slack. This stems from a lack of output diversity: existing alignment methods can collapse to a single majority-preferred response, making additional samples redundant. In contrast, our approach preserves output diversity and achieves the optimal test-time scaling rate. In particular, we propose a family of symmetric...",
+      "url": "http://arxiv.org/abs/2601.08777",
+      "author": "Yang Cai, Weiqiang Zheng",
+      "published": "2026-01-14",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Formalizes 'universal alignment' for LLMs serving users with heterogeneous preferences through test-time scaling, where models produce k candidate responses. Proves optimal convergence rate of f(k)=k/(k+1) and establishes impossibility results for faster convergence.",
+      "importance_score": 72,
+      "reasoning": "Novel theoretical framework for personalized alignment with rigorous mathematical characterization. Addresses important challenge of serving diverse user preferences. Strong theoretical contribution to alignment research.",
+      "themes": [
+        "AI Alignment",
+        "Language Models",
+        "Theoretical Machine Learning"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Formalizes 'universal alignment' for LLMs serving users with heterogeneous preferences through test-time scaling, where models produce k candidate responses. Proves optimal convergence rate of f(k)=k/(k+1) and establishes impossibility results for faster convergence.</p>",
+      "content_html": "<p>Aligning large language models (LLMs) to serve users with heterogeneous and potentially conflicting preferences is a central challenge for personalized and trustworthy AI. We formalize an ideal notion of universal alignment through test-time scaling: for each prompt, the model produces $k\\ge 1$ candidate responses and a user selects their preferred one. We introduce $(k,f(k))$-robust alignment, which requires the $k$-output model to have win rate $f(k)$ against any other single-output model, and asymptotic universal alignment (U-alignment), which requires $f(k)\\to 1$ as $k\\to\\infty$. Our main result characterizes the optimal convergence rate: there exists a family of single-output policies whose $k$-sample product policies achieve U-alignment at rate $f(k)=\\frac{k}{k+1}$, and no method can achieve a faster rate in general.   We show that popular post-training methods, including Nash learning from human feedback (NLHF), can fundamentally underutilize the benefits of test-time scaling. Even though NLHF is optimal for $k=1$, sampling from the resulting (often deterministic) policy cannot guarantee win rates above $\\tfrac{1}{2}$ except for an arbitrarily small slack. This stems from a lack of output diversity: existing alignment methods can collapse to a single majority-preferred response, making additional samples redundant. In contrast, our approach preserves output diversity and achieves the optimal test-time scaling rate. In particular, we propose a family of symmetric...</p>"
+    },
+    {
+      "id": "a16da9568f58",
+      "title": "How Reliable are Confidence Estimators for Large Reasoning Models? A Systematic Benchmark on High-Stakes Domains",
+      "content": "The miscalibration of Large Reasoning Models (LRMs) undermines their reliability in high-stakes domains, necessitating methods to accurately estimate the confidence of their long-form, multi-step outputs. To address this gap, we introduce the Reasoning Model Confidence estimation Benchmark (RMCB), a public resource of 347,496 reasoning traces from six popular LRMs across different architectural families. The benchmark is constructed from a diverse suite of datasets spanning high-stakes domains, including clinical, financial, legal, and mathematical reasoning, alongside complex general reasoning benchmarks, with correctness annotations provided for all samples. Using RMCB, we conduct a large-scale empirical evaluation of over ten distinct representation-based methods, spanning sequential, graph-based, and text-based architectures. Our central finding is a persistent trade-off between discrimination (AUROC) and calibration (ECE): text-based encoders achieve the best AUROC (0.672), while structurally-aware models yield the best ECE (0.148), with no single method dominating both. Furthermore, we find that increased architectural complexity does not reliably outperform simpler sequential baselines, suggesting a performance ceiling for methods relying solely on chunk-level hidden states. This work provides the most comprehensive benchmark for this task to date, establishing rigorous baselines and demonstrating the limitations of current representation-based paradigms.",
+      "url": "http://arxiv.org/abs/2601.08134",
+      "author": "Reza Khanmohammadi, Erfan Miahi, Simerjot Kaur, Ivan Brugere, Charese H. Smiley, Kundan Thind, and Mohammad M. Ghassemi",
+      "published": "2026-01-14",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Introduces RMCB benchmark with 347,496 reasoning traces from 6 LRMs across high-stakes domains (clinical, financial, legal, mathematical) to evaluate confidence estimation methods for reasoning models.",
+      "importance_score": 71,
+      "reasoning": "Large-scale benchmark addressing critical gap in LRM reliability evaluation. Important for high-stakes deployment scenarios. Comprehensive evaluation of representation-based methods.",
+      "themes": [
+        "Large Reasoning Models",
+        "Confidence Estimation",
+        "Benchmark",
+        "AI Safety"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces RMCB benchmark with 347,496 reasoning traces from 6 LRMs across high-stakes domains (clinical, financial, legal, mathematical) to evaluate confidence estimation methods for reasoning models.</p>",
+      "content_html": "<p>The miscalibration of Large Reasoning Models (LRMs) undermines their reliability in high-stakes domains, necessitating methods to accurately estimate the confidence of their long-form, multi-step outputs. To address this gap, we introduce the Reasoning Model Confidence estimation Benchmark (RMCB), a public resource of 347,496 reasoning traces from six popular LRMs across different architectural families. The benchmark is constructed from a diverse suite of datasets spanning high-stakes domains, including clinical, financial, legal, and mathematical reasoning, alongside complex general reasoning benchmarks, with correctness annotations provided for all samples. Using RMCB, we conduct a large-scale empirical evaluation of over ten distinct representation-based methods, spanning sequential, graph-based, and text-based architectures. Our central finding is a persistent trade-off between discrimination (AUROC) and calibration (ECE): text-based encoders achieve the best AUROC (0.672), while structurally-aware models yield the best ECE (0.148), with no single method dominating both. Furthermore, we find that increased architectural complexity does not reliably outperform simpler sequential baselines, suggesting a performance ceiling for methods relying solely on chunk-level hidden states. This work provides the most comprehensive benchmark for this task to date, establishing rigorous baselines and demonstrating the limitations of current representation-based paradigms.</p>"
+    },
+    {
+      "id": "9549ef52f10d",
+      "title": "RewriteNets: End-to-End Trainable String-Rewriting for Generative Sequence Modeling",
+      "content": "Dominant sequence models like the Transformer represent structure implicitly through dense attention weights, incurring quadratic complexity. We propose RewriteNets, a novel neural architecture built on an alternative paradigm: explicit, parallel string rewriting. Each layer in a RewriteNet contains a set of learnable rules. For each position in an input sequence, the layer performs four operations: (1) fuzzy matching of rule patterns, (2) conflict resolution via a differentiable assignment operator to select non-overlapping rewrites, (3) application of the chosen rules to replace input segments with output segments of potentially different lengths, and (4) propagation of untouched tokens. While the discrete assignment of rules is non-differentiable, we employ a straight-through Gumbel-Sinkhorn estimator, enabling stable end-to-end training. We evaluate RewriteNets on algorithmic, compositional, and string manipulation tasks, comparing them against strong LSTM and Transformer baselines. Results show that RewriteNets excel at tasks requiring systematic generalization (achieving 98.7% accuracy on the SCAN benchmark's length split) and are computationally more efficient than Transformers. We also provide an analysis of learned rules and an extensive ablation study, demonstrating that this architecture presents a promising direction for sequence modeling with explicit structural inductive biases.",
+      "url": "http://arxiv.org/abs/2601.07868",
+      "author": "Harshil Vejendla",
+      "published": "2026-01-14",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Proposes RewriteNets, a novel neural architecture based on explicit parallel string rewriting instead of attention mechanisms. Uses learnable rules for fuzzy matching, conflict resolution, and segment replacement with potentially different lengths.",
+      "importance_score": 70,
+      "reasoning": "Novel architectural paradigm challenging attention dominance; interesting alternative to transformers with potential efficiency benefits; creative approach.",
+      "themes": [
+        "Neural Architectures",
+        "Sequence Modeling",
+        "Alternative to Transformers"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proposes RewriteNets, a novel neural architecture based on explicit parallel string rewriting instead of attention mechanisms. Uses learnable rules for fuzzy matching, conflict resolution, and segment replacement with potentially different lengths.</p>",
+      "content_html": "<p>Dominant sequence models like the Transformer represent structure implicitly through dense attention weights, incurring quadratic complexity. We propose RewriteNets, a novel neural architecture built on an alternative paradigm: explicit, parallel string rewriting. Each layer in a RewriteNet contains a set of learnable rules. For each position in an input sequence, the layer performs four operations: (1) fuzzy matching of rule patterns, (2) conflict resolution via a differentiable assignment operator to select non-overlapping rewrites, (3) application of the chosen rules to replace input segments with output segments of potentially different lengths, and (4) propagation of untouched tokens. While the discrete assignment of rules is non-differentiable, we employ a straight-through Gumbel-Sinkhorn estimator, enabling stable end-to-end training. We evaluate RewriteNets on algorithmic, compositional, and string manipulation tasks, comparing them against strong LSTM and Transformer baselines. Results show that RewriteNets excel at tasks requiring systematic generalization (achieving 98.7% accuracy on the SCAN benchmark's length split) and are computationally more efficient than Transformers. We also provide an analysis of learned rules and an extensive ablation study, demonstrating that this architecture presents a promising direction for sequence modeling with explicit structural inductive biases.</p>"
+    },
+    {
+      "id": "cda97bf81eab",
+      "title": "Revealing the Attention Floating Mechanism in Masked Diffusion Models",
+      "content": "Masked diffusion models (MDMs), which leverage bidirectional attention and a denoising process, are narrowing the performance gap with autoregressive models (ARMs). However, their internal attention mechanisms remain under-explored. This paper investigates the attention behaviors in MDMs, revealing the phenomenon of Attention Floating. Unlike ARMs, where attention converges to a fixed sink, MDMs exhibit dynamic, dispersed attention anchors that shift across denoising steps and layers. Further analysis reveals its Shallow Structure-Aware, Deep Content-Focused attention mechanism: shallow layers utilize floating tokens to build a global structural framework, while deeper layers allocate more capability toward capturing semantic content. Empirically, this distinctive attention pattern provides a mechanistic explanation for the strong in-context learning capabilities of MDMs, allowing them to double the performance compared to ARMs in knowledge-intensive tasks. All codes and datasets are available at https://github.com/NEUIR/Attention-Floating.",
+      "url": "http://arxiv.org/abs/2601.07894",
+      "author": "Xin Dai, Pengcheng Huang, Zhenghao Liu, Shuo Wang, Yukun Yan, Chaojun Xiao, Yu Gu, Ge Yu, and Maosong Sun",
+      "published": "2026-01-14",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Reveals 'Attention Floating' mechanism in Masked Diffusion Models where attention anchors shift dynamically across denoising steps, unlike fixed attention sinks in autoregressive models. Identifies shallow structure-aware and deep content-focused pattern.",
+      "importance_score": 70,
+      "reasoning": "Important mechanistic analysis of MDMs; novel findings about attention behavior in diffusion models; contributes to understanding alternative generative paradigms.",
+      "themes": [
+        "Diffusion Models",
+        "Attention Mechanisms",
+        "Mechanistic Interpretability",
+        "Language Models"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Reveals 'Attention Floating' mechanism in Masked Diffusion Models where attention anchors shift dynamically across denoising steps, unlike fixed attention sinks in autoregressive models. Identifies shallow structure-aware and deep content-focused pattern.</p>",
+      "content_html": "<p>Masked diffusion models (MDMs), which leverage bidirectional attention and a denoising process, are narrowing the performance gap with autoregressive models (ARMs). However, their internal attention mechanisms remain under-explored. This paper investigates the attention behaviors in MDMs, revealing the phenomenon of Attention Floating. Unlike ARMs, where attention converges to a fixed sink, MDMs exhibit dynamic, dispersed attention anchors that shift across denoising steps and layers. Further analysis reveals its Shallow Structure-Aware, Deep Content-Focused attention mechanism: shallow layers utilize floating tokens to build a global structural framework, while deeper layers allocate more capability toward capturing semantic content. Empirically, this distinctive attention pattern provides a mechanistic explanation for the strong in-context learning capabilities of MDMs, allowing them to double the performance compared to ARMs in knowledge-intensive tasks. All codes and datasets are available at https://github.com/NEUIR/Attention-Floating.</p>"
+    },
+    {
+      "id": "c4cb4bedcca1",
+      "title": "Discovery and Reinforcement of Tool-Integrated Reasoning Chains via Rollout Trees",
+      "content": "Tool-Integrated Reasoning has emerged as a key paradigm to augment Large Language Models (LLMs) with computational capabilities, yet integrating tool-use into long Chain-of-Thought (long CoT) remains underexplored, largely due to the scarcity of training data and the challenge of integrating tool-use without compromising the model's intrinsic long-chain reasoning. In this paper, we introduce DART (Discovery And Reinforcement of Tool-Integrated Reasoning Chains via Rollout Trees), a reinforcement learning framework that enables spontaneous tool-use during long CoT reasoning without human annotation. DART operates by constructing dynamic rollout trees during training to discover valid tool-use opportunities, branching out at promising positions to explore diverse tool-integrated trajectories. Subsequently, a tree-based process advantage estimation identifies and credits specific sub-trajectories where tool invocation positively contributes to the solution, effectively reinforcing these beneficial behaviors. Extensive experiments on challenging benchmarks like AIME and GPQA-Diamond demonstrate that DART significantly outperforms existing methods, successfully harmonizing tool execution with long CoT reasoning.",
+      "url": "http://arxiv.org/abs/2601.08274",
+      "author": "Kun Li, Zenan Xu, Junan Li, Zengrui Jin, Jinghao Deng, Zexuan Qiu, Bo Zhou",
+      "published": "2026-01-14",
+      "source": "arXiv (Computation and Language)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CL"
+      ],
+      "summary": "Introduces DART, an RL framework enabling spontaneous tool-use during long chain-of-thought reasoning by constructing dynamic rollout trees to discover valid tool-use opportunities without human annotation.",
+      "importance_score": 70,
+      "reasoning": "Important contribution to tool-integrated reasoning. Novel approach to discovering tool use in long CoT without supervision. Addresses key challenge in agentic AI.",
+      "themes": [
+        "Agentic AI",
+        "Tool Use",
+        "Chain-of-Thought",
+        "Reinforcement Learning"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces DART, an RL framework enabling spontaneous tool-use during long chain-of-thought reasoning by constructing dynamic rollout trees to discover valid tool-use opportunities without human annotation.</p>",
+      "content_html": "<p>Tool-Integrated Reasoning has emerged as a key paradigm to augment Large Language Models (LLMs) with computational capabilities, yet integrating tool-use into long Chain-of-Thought (long CoT) remains underexplored, largely due to the scarcity of training data and the challenge of integrating tool-use without compromising the model's intrinsic long-chain reasoning. In this paper, we introduce DART (Discovery And Reinforcement of Tool-Integrated Reasoning Chains via Rollout Trees), a reinforcement learning framework that enables spontaneous tool-use during long CoT reasoning without human annotation. DART operates by constructing dynamic rollout trees during training to discover valid tool-use opportunities, branching out at promising positions to explore diverse tool-integrated trajectories. Subsequently, a tree-based process advantage estimation identifies and credits specific sub-trajectories where tool invocation positively contributes to the solution, effectively reinforcing these beneficial behaviors. Extensive experiments on challenging benchmarks like AIME and GPQA-Diamond demonstrate that DART significantly outperforms existing methods, successfully harmonizing tool execution with long CoT reasoning.</p>"
+    },
+    {
+      "id": "b922dc67e2bb",
+      "title": "SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models",
+      "content": "Image generation models (IGMs), while capable of producing impressive and creative content, often memorize a wide range of undesirable concepts from their training data, leading to the reproduction of unsafe content such as NSFW imagery and copyrighted artistic styles. Such behaviors pose persistent safety and compliance risks in real-world deployments and cannot be reliably mitigated by post-hoc filtering, owing to the limited robustness of such mechanisms and a lack of fine-grained semantic control. Recent unlearning methods seek to erase harmful concepts at the model level, which exhibit the limitations of requiring costly retraining, degrading the quality of benign generations, or failing to withstand prompt paraphrasing and adversarial attacks. To address these challenges, we introduce SafeRedir, a lightweight inference-time framework for robust unlearning via prompt embedding redirection. Without modifying the underlying IGMs, SafeRedir adaptively routes unsafe prompts toward safe semantic regions through token-level interventions in the embedding space. The framework comprises two core components: a latent-aware multi-modal safety classifier for identifying unsafe generation trajectories, and a token-level delta generator for precise semantic redirection, equipped with auxiliary predictors for token masking and adaptive scaling to localize and regulate the intervention. Empirical results across multiple representative unlearning tasks demonstrate that SafeRedir...",
+      "url": "http://arxiv.org/abs/2601.08623",
+      "author": "Renyang Liu, Kangjie Chen, Han Qiu, Jie Zhang, Kwok-Yan Lam, Tianwei Zhang, See-Kiong Ng",
+      "published": "2026-01-14",
+      "source": "arXiv (Computer Vision)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CV"
+      ],
+      "summary": "Proposes SafeRedir, a prompt embedding redirection method for robust unlearning in image generation models that doesn't require retraining and maintains benign generation quality under adversarial attacks.",
+      "importance_score": 70,
+      "reasoning": "Addresses critical safety challenge of concept unlearning in generative models. Practical approach with robustness focus aligns with deployment needs.",
+      "themes": [
+        "AI Safety",
+        "Image Generation",
+        "Machine Unlearning",
+        "Robustness"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proposes SafeRedir, a prompt embedding redirection method for robust unlearning in image generation models that doesn't require retraining and maintains benign generation quality under adversarial attacks.</p>",
+      "content_html": "<p>Image generation models (IGMs), while capable of producing impressive and creative content, often memorize a wide range of undesirable concepts from their training data, leading to the reproduction of unsafe content such as NSFW imagery and copyrighted artistic styles. Such behaviors pose persistent safety and compliance risks in real-world deployments and cannot be reliably mitigated by post-hoc filtering, owing to the limited robustness of such mechanisms and a lack of fine-grained semantic control. Recent unlearning methods seek to erase harmful concepts at the model level, which exhibit the limitations of requiring costly retraining, degrading the quality of benign generations, or failing to withstand prompt paraphrasing and adversarial attacks. To address these challenges, we introduce SafeRedir, a lightweight inference-time framework for robust unlearning via prompt embedding redirection. Without modifying the underlying IGMs, SafeRedir adaptively routes unsafe prompts toward safe semantic regions through token-level interventions in the embedding space. The framework comprises two core components: a latent-aware multi-modal safety classifier for identifying unsafe generation trajectories, and a token-level delta generator for precise semantic redirection, equipped with auxiliary predictors for token masking and adaptive scaling to localize and regulate the intervention. Empirical results across multiple representative unlearning tasks demonstrate that SafeRedir...</p>"
+    },
+    {
+      "id": "96da9610aab0",
+      "title": "APEX-SWE",
+      "content": "We introduce the AI Productivity Index for Software Engineering (APEX-SWE), a benchmark for assessing whether frontier AI models can execute economically valuable software engineering work. Unlike existing evaluations that focus on narrow, well-defined tasks, APEX-SWE assesses two novel task types that reflect real-world software engineering work: (1) Integration tasks (n=100), which require constructing end-to-end systems across heterogeneous cloud primitives, business applications, and infrastructure-as-code services, and (2) Observability tasks (n=100), which require debugging production failures using telemetry signals such as logs and dashboards, as well as unstructured context. We evaluated eight frontier models on APEX-SWE. Gemini 3 Pro (Thinking = High) performs best, with a Pass@1 score of 25\\%. Our analysis shows that strong performance is primarily driven by epistemic reasoning, defined as the ability to distinguish between assumptions and verified facts, combined with agency to resolve uncertainty prior to acting. We open-source the APEX-SWE evaluation harness and a dev set (n=50).",
+      "url": "http://arxiv.org/abs/2601.08806",
+      "author": "Abhi Kottamasu, Akul Datta, Aakash Barthwal, Chirag Mahapatra, Ajay Arun, Adarsh Hiremath, Brendan Foody, Bertie Vidgen",
+      "published": "2026-01-14",
+      "source": "arXiv (cs.SE)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.SE"
+      ],
+      "summary": "Introduces APEX-SWE benchmark for evaluating AI on economically valuable software engineering work, including integration tasks across cloud services and observability/debugging tasks. Gemini 3 Pro achieves best results at 41.8% Pass@1.",
+      "importance_score": 70,
+      "reasoning": "Important benchmark addressing real-world SE tasks beyond narrow code generation. Tests frontier models on practical integration and debugging scenarios. Useful for measuring AI productivity claims.",
+      "themes": [
+        "Software Engineering",
+        "Benchmarks",
+        "Large Language Models",
+        "AI Evaluation"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces APEX-SWE benchmark for evaluating AI on economically valuable software engineering work, including integration tasks across cloud services and observability/debugging tasks. Gemini 3 Pro achieves best results at 41.8% Pass@1.</p>",
+      "content_html": "<p>We introduce the AI Productivity Index for Software Engineering (APEX-SWE), a benchmark for assessing whether frontier AI models can execute economically valuable software engineering work. Unlike existing evaluations that focus on narrow, well-defined tasks, APEX-SWE assesses two novel task types that reflect real-world software engineering work: (1) Integration tasks (n=100), which require constructing end-to-end systems across heterogeneous cloud primitives, business applications, and infrastructure-as-code services, and (2) Observability tasks (n=100), which require debugging production failures using telemetry signals such as logs and dashboards, as well as unstructured context. We evaluated eight frontier models on APEX-SWE. Gemini 3 Pro (Thinking = High) performs best, with a Pass@1 score of 25\\%. Our analysis shows that strong performance is primarily driven by epistemic reasoning, defined as the ability to distinguish between assumptions and verified facts, combined with agency to resolve uncertainty prior to acting. We open-source the APEX-SWE evaluation harness and a dev set (n=50).</p>"
+    },
+    {
+      "id": "a57fe6549c3e",
+      "title": "RAVEN: Erasing Invisible Watermarks via Novel View Synthesis",
+      "content": "Invisible watermarking has become a critical mechanism for authenticating AI-generated image content, with major platforms deploying watermarking schemes at scale. However, evaluating the vulnerability of these schemes against sophisticated removal attacks remains essential to assess their reliability and guide robust design. In this work, we expose a fundamental vulnerability in invisible watermarks by reformulating watermark removal as a view synthesis problem. Our key insight is that generating a perceptually consistent alternative view of the same semantic content, akin to re-observing a scene from a shifted perspective, naturally removes the embedded watermark while preserving visual fidelity. This reveals a critical gap: watermarks robust to pixel-space and frequency-domain attacks remain vulnerable to semantic-preserving viewpoint transformations. We introduce a zero-shot diffusion-based framework that applies controlled geometric transformations in latent space, augmented with view-guided correspondence attention to maintain structural consistency during reconstruction. Operating on frozen pre-trained models without detector access or watermark knowledge, our method achieves state-of-the-art watermark suppression across 15 watermarking methods--outperforming 14 baseline attacks while maintaining superior perceptual quality across multiple datasets.",
+      "url": "http://arxiv.org/abs/2601.08832",
+      "author": "Fahad Shamshad, Nils Lukas, Karthik Nandakumar",
+      "published": "2026-01-14",
+      "source": "arXiv (Computer Vision)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CV"
+      ],
+      "summary": "Exposes vulnerability in invisible watermarking by reformulating watermark removal as view synthesis. Demonstrates that generating perceptually consistent alternative views naturally removes watermarks while preserving visual fidelity, evading existing robustness measures.",
+      "importance_score": 70,
+      "reasoning": "Important security research exposing fundamental weakness in watermarking schemes used by major platforms. Highly relevant for AI content authentication and safety. Novel attack vector with significant practical implications.",
+      "themes": [
+        "AI Safety",
+        "Watermarking",
+        "Adversarial Attacks",
+        "Computer Vision"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Exposes vulnerability in invisible watermarking by reformulating watermark removal as view synthesis. Demonstrates that generating perceptually consistent alternative views naturally removes watermarks while preserving visual fidelity, evading existing robustness measures.</p>",
+      "content_html": "<p>Invisible watermarking has become a critical mechanism for authenticating AI-generated image content, with major platforms deploying watermarking schemes at scale. However, evaluating the vulnerability of these schemes against sophisticated removal attacks remains essential to assess their reliability and guide robust design. In this work, we expose a fundamental vulnerability in invisible watermarks by reformulating watermark removal as a view synthesis problem. Our key insight is that generating a perceptually consistent alternative view of the same semantic content, akin to re-observing a scene from a shifted perspective, naturally removes the embedded watermark while preserving visual fidelity. This reveals a critical gap: watermarks robust to pixel-space and frequency-domain attacks remain vulnerable to semantic-preserving viewpoint transformations. We introduce a zero-shot diffusion-based framework that applies controlled geometric transformations in latent space, augmented with view-guided correspondence attention to maintain structural consistency during reconstruction. Operating on frozen pre-trained models without detector access or watermark knowledge, our method achieves state-of-the-art watermark suppression across 15 watermarking methods--outperforming 14 baseline attacks while maintaining superior perceptual quality across multiple datasets.</p>"
+    },
+    {
+      "id": "f52c27f45adf",
+      "title": "Hierarchical Sparse Plus Low Rank Compression of LLM",
+      "content": "Modern large language models (LLMs) place extraordinary pressure on memory and compute budgets, making principled compression indispensable for both deployment and continued training. We present Hierarchical Sparse Plus Low-Rank (HSS) compression, a two-stage scheme that (i) removes the largest-magnitude weights into a sparse matrix S and (ii) applies a recursive Hierarchically Sparse Separable (HSS) low-rank factorisation to the dense residual matrix. A recursive rank-reducing strategy and a reverse Cuthill-Mckee (RCM) permutation are introduced to align high weights towards the diagonal with the block-diagonal hierarchy, maximising off-diagonal compressibility (because they are touched only once). HSS is hardware-friendly: its matrix-vector multiply reduces to one sparse and a sequence of thin-matrix multiplications and can be trained end-to-end with standard optimisers.   Experiments on LLaMA-7B show that targeting only the self-attention projections (1.6 B parameters of Q, K, and V matrices out of a total 7B parameters) suffices to yield large memory savings while retaining comparable state-of-the-art perplexity scores on test samples of the WikiText dataset. For example, with a 30\\% sparsity budget and an outer rank of 512, sHSS-RCM achieves a perplexity of 1.64, outperforming dense baselines and classical sparse-plus-SVD variants, while also achieving significant memory savings.",
+      "url": "http://arxiv.org/abs/2601.07839",
+      "author": "Pawan Kumar and Aditi Gupta",
+      "published": "2026-01-14",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Introduces Hierarchical Sparse Plus Low-Rank (HSS) compression for LLMs, combining sparse matrix extraction with HSS low-rank factorization using RCM permutation for better compressibility. Achieves hardware-friendly matrix-vector multiplication.",
+      "importance_score": 68,
+      "reasoning": "Novel compression scheme combining multiple techniques; hardware-friendly design with practical deployment potential; solid technical contribution.",
+      "themes": [
+        "Model Compression",
+        "Large Language Models",
+        "Efficient ML"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Introduces Hierarchical Sparse Plus Low-Rank (HSS) compression for LLMs, combining sparse matrix extraction with HSS low-rank factorization using RCM permutation for better compressibility. Achieves hardware-friendly matrix-vector multiplication.</p>",
+      "content_html": "<p>Modern large language models (LLMs) place extraordinary pressure on memory and compute budgets, making principled compression indispensable for both deployment and continued training. We present Hierarchical Sparse Plus Low-Rank (HSS) compression, a two-stage scheme that (i) removes the largest-magnitude weights into a sparse matrix S and (ii) applies a recursive Hierarchically Sparse Separable (HSS) low-rank factorisation to the dense residual matrix. A recursive rank-reducing strategy and a reverse Cuthill-Mckee (RCM) permutation are introduced to align high weights towards the diagonal with the block-diagonal hierarchy, maximising off-diagonal compressibility (because they are touched only once). HSS is hardware-friendly: its matrix-vector multiply reduces to one sparse and a sequence of thin-matrix multiplications and can be trained end-to-end with standard optimisers.   Experiments on LLaMA-7B show that targeting only the self-attention projections (1.6 B parameters of Q, K, and V matrices out of a total 7B parameters) suffices to yield large memory savings while retaining comparable state-of-the-art perplexity scores on test samples of the WikiText dataset. For example, with a 30\\% sparsity budget and an outer rank of 512, sHSS-RCM achieves a perplexity of 1.64, outperforming dense baselines and classical sparse-plus-SVD variants, while also achieving significant memory savings.</p>"
+    },
+    {
+      "id": "456e1e1c005e",
+      "title": "Multiplicative Orthogonal Sequential Editing for Language Models",
+      "content": "Knowledge editing aims to efficiently modify the internal knowledge of large language models (LLMs) without compromising their other capabilities. The prevailing editing paradigm, which appends an update matrix to the original parameter matrix, has been shown by some studies to damage key numerical stability indicators (such as condition number and norm), thereby reducing editing performance and general abilities, especially in sequential editing scenario. Although subsequent methods have made some improvements, they remain within the additive framework and have not fundamentally addressed this limitation. To solve this problem, we analyze it from both statistical and mathematical perspectives and conclude that multiplying the original matrix by an orthogonal matrix does not change the numerical stability of the matrix. Inspired by this, different from the previous additive editing paradigm, a multiplicative editing paradigm termed Multiplicative Orthogonal Sequential Editing (MOSE) is proposed. Specifically, we first derive the matrix update in the multiplicative form, the new knowledge is then incorporated into an orthogonal matrix, which is multiplied by the original parameter matrix. In this way, the numerical stability of the edited matrix is unchanged, thereby maintaining editing performance and general abilities. We compared MOSE with several current knowledge editing methods, systematically evaluating their impact on both editing performance and the general abilities...",
+      "url": "http://arxiv.org/abs/2601.07873",
+      "author": "Hao-Xiang Xu, Jun-Yu Ma, Ziqi Peng, Yuhao Sun, Zhen-Hua Ling, Jia-Chen Gu",
+      "published": "2026-01-14",
+      "source": "arXiv (Machine Learning)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.LG"
+      ],
+      "summary": "Proposes multiplicative orthogonal sequential editing for LLMs, using orthogonal matrix multiplication instead of additive updates to preserve numerical stability indicators like condition number. Addresses fundamental limitation of additive editing paradigm.",
+      "importance_score": 68,
+      "reasoning": "Novel approach to knowledge editing with mathematical grounding; addresses real problem in sequential editing; solid theoretical and empirical contribution.",
+      "themes": [
+        "Knowledge Editing",
+        "Large Language Models",
+        "Model Editing"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proposes multiplicative orthogonal sequential editing for LLMs, using orthogonal matrix multiplication instead of additive updates to preserve numerical stability indicators like condition number. Addresses fundamental limitation of additive editing paradigm.</p>",
+      "content_html": "<p>Knowledge editing aims to efficiently modify the internal knowledge of large language models (LLMs) without compromising their other capabilities. The prevailing editing paradigm, which appends an update matrix to the original parameter matrix, has been shown by some studies to damage key numerical stability indicators (such as condition number and norm), thereby reducing editing performance and general abilities, especially in sequential editing scenario. Although subsequent methods have made some improvements, they remain within the additive framework and have not fundamentally addressed this limitation. To solve this problem, we analyze it from both statistical and mathematical perspectives and conclude that multiplying the original matrix by an orthogonal matrix does not change the numerical stability of the matrix. Inspired by this, different from the previous additive editing paradigm, a multiplicative editing paradigm termed Multiplicative Orthogonal Sequential Editing (MOSE) is proposed. Specifically, we first derive the matrix update in the multiplicative form, the new knowledge is then incorporated into an orthogonal matrix, which is multiplied by the original parameter matrix. In this way, the numerical stability of the edited matrix is unchanged, thereby maintaining editing performance and general abilities. We compared MOSE with several current knowledge editing methods, systematically evaluating their impact on both editing performance and the general abilities...</p>"
+    },
+    {
+      "id": "d2bc18c4c2dd",
+      "title": "Small Symbols, Big Risks: Exploring Emoticon Semantic Confusion in Large Language Models",
+      "content": "Emoticons are widely used in digital communication to convey affective intent, yet their safety implications for Large Language Models (LLMs) remain largely unexplored. In this paper, we identify emoticon semantic confusion, a vulnerability where LLMs misinterpret ASCII-based emoticons to perform unintended and even destructive actions. To systematically study this phenomenon, we develop an automated data generation pipeline and construct a dataset containing 3,757 code-oriented test cases spanning 21 meta-scenarios, four programming languages, and varying contextual complexities. Our study on six LLMs reveals that emoticon semantic confusion is pervasive, with an average confusion ratio exceeding 38%. More critically, over 90% of confused responses yield 'silent failures', which are syntactically valid outputs but deviate from user intent, potentially leading to destructive security consequences. Furthermore, we observe that this vulnerability readily transfers to popular agent frameworks, while existing prompt-based mitigations remain largely ineffective. We call on the community to recognize this emerging vulnerability and develop effective mitigation methods to uphold the safety and reliability of the LLM system.",
+      "url": "http://arxiv.org/abs/2601.07885",
+      "author": "Weipeng Jiang, Xiaoyu Zhang, Juan Zhai, Shiqing Ma, Chao Shen, Yang Liu",
+      "published": "2026-01-14",
+      "source": "arXiv (cs.CR)",
+      "source_type": "arxiv",
+      "tags": [
+        "cs.CR"
+      ],
+      "summary": "Identifies emoticon semantic confusion vulnerability where LLMs misinterpret ASCII emoticons to perform unintended actions. Creates dataset of 3,757 code-oriented test cases revealing >38% confusion ratio with 90%+ silent failures.",
+      "importance_score": 68,
+      "reasoning": "Novel security vulnerability discovery with systematic evaluation; important for LLM safety; practical implications for code generation.",
+      "themes": [
+        "AI Safety",
+        "LLM Security",
+        "Vulnerability Research",
+        "Code Generation"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Identifies emoticon semantic confusion vulnerability where LLMs misinterpret ASCII emoticons to perform unintended actions. Creates dataset of 3,757 code-oriented test cases revealing >38% confusion ratio with 90%+ silent failures.</p>",
+      "content_html": "<p>Emoticons are widely used in digital communication to convey affective intent, yet their safety implications for Large Language Models (LLMs) remain largely unexplored. In this paper, we identify emoticon semantic confusion, a vulnerability where LLMs misinterpret ASCII-based emoticons to perform unintended and even destructive actions. To systematically study this phenomenon, we develop an automated data generation pipeline and construct a dataset containing 3,757 code-oriented test cases spanning 21 meta-scenarios, four programming languages, and varying contextual complexities. Our study on six LLMs reveals that emoticon semantic confusion is pervasive, with an average confusion ratio exceeding 38%. More critically, over 90% of confused responses yield 'silent failures', which are syntactically valid outputs but deviate from user intent, potentially leading to destructive security consequences. Furthermore, we observe that this vulnerability readily transfers to popular agent frameworks, while existing prompt-based mitigations remain largely ineffective. We call on the community to recognize this emerging vulnerability and develop effective mitigation methods to uphold the safety and reliability of the LLM system.</p>"
+    }
+  ]
+}

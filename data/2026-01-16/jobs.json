@@ -1,0 +1,783 @@
+{
+  "category": "jobs",
+  "date": "2026-01-16",
+  "category_summary": "**Frontier AI hiring spotlight**: **ElevenLabs** ($6.6B valuation, $200M+ ARR) [leads as top opportunity](/?date=2026-01-16&category=jobs#item-5a8c73958169), signaling continued investment in audio AI talent.\n\n**Key market themes this cycle:**\n- **AI x Biology** emerging as hot intersection with [ML applications in therapeutic discovery](/?date=2026-01-16&category=jobs#item-2274b14a18a2) and sequence modeling\n- **LLM Engineering** [demand strong](/?date=2026-01-16&category=jobs#item-f251d7ee3532)—roles require hands-on experience with GPT, Gemini, and LLaMA architectures\n- **Prompt Engineering** evolving into [specialized domain roles](/?date=2026-01-16&category=jobs#item-d3903ca1d227), particularly in finance and business modeling\n- **Director-level ML positions** available at established fintechs like **Prosper** for [credit risk modeling](/?date=2026-01-16&category=jobs#item-4729e03c8cca)\n\n**Market signal**: YC W25-backed startups [building AI training data infrastructure](/?date=2026-01-16&category=jobs#item-3ee2e9a23120) indicates growing demand for quality data pipelines. Remote-first opportunities dominate senior roles, with AI infrastructure (GPU orchestration) increasingly valued as enabling layer.",
+  "category_summary_html": "<p><strong>Frontier AI hiring spotlight</strong>: <strong>ElevenLabs</strong> ($6.6B valuation, $200M+ ARR) <a href=\"/?date=2026-01-16&category=jobs#item-5a8c73958169\" class=\"internal-link\">leads as top opportunity</a>, signaling continued investment in audio AI talent.</p>\n<p><strong>Key market themes this cycle:</strong></p>\n<ul>\n<li><strong>AI x Biology</strong> emerging as hot intersection with <a href=\"/?date=2026-01-16&category=jobs#item-2274b14a18a2\" class=\"internal-link\">ML applications in therapeutic discovery</a> and sequence modeling</li>\n<li><strong>LLM Engineering</strong> <a href=\"/?date=2026-01-16&category=jobs#item-f251d7ee3532\" class=\"internal-link\">demand strong</a>—roles require hands-on experience with GPT, Gemini, and LLaMA architectures</li>\n<li><strong>Prompt Engineering</strong> evolving into <a href=\"/?date=2026-01-16&category=jobs#item-d3903ca1d227\" class=\"internal-link\">specialized domain roles</a>, particularly in finance and business modeling</li>\n<li><strong>Director-level ML positions</strong> available at established fintechs like <strong>Prosper</strong> for <a href=\"/?date=2026-01-16&category=jobs#item-4729e03c8cca\" class=\"internal-link\">credit risk modeling</a></li>\n</ul>\n<p><strong>Market signal</strong>: YC W25-backed startups <a href=\"/?date=2026-01-16&category=jobs#item-3ee2e9a23120\" class=\"internal-link\">building AI training data infrastructure</a> indicates growing demand for quality data pipelines. Remote-first opportunities dominate senior roles, with AI infrastructure (GPU orchestration) increasingly valued as enabling layer.</p>",
+  "themes": [
+    {
+      "name": "Frontier AI Companies",
+      "description": "Roles at leading AI companies like ElevenLabs that are pushing boundaries in audio AI with significant funding and growth",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 88
+    },
+    {
+      "name": "AI in Biotech/Healthcare",
+      "description": "Intersection of AI/ML with biological research, drug discovery, and therapeutic development",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 78
+    },
+    {
+      "name": "LLM Engineering & Prompt Work",
+      "description": "Growing demand for engineers working with large language models, prompt engineering, and LLM-powered applications",
+      "item_count": 3,
+      "example_items": [],
+      "importance": 72
+    },
+    {
+      "name": "ML in Finance",
+      "description": "Machine learning applications in credit risk, financial modeling, and fintech",
+      "item_count": 3,
+      "example_items": [],
+      "importance": 68
+    },
+    {
+      "name": "AI Infrastructure & MLOps",
+      "description": "Supporting infrastructure for AI/ML workloads including GPU orchestration and cloud platforms",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 60
+    },
+    {
+      "name": "AI Training Data & RLHF",
+      "description": "Emerging market for AI training data preparation and RLHF evaluation services",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 58
+    },
+    {
+      "name": "Data Engineering for ML",
+      "description": "Data pipeline and warehouse roles that support analytics and machine learning systems",
+      "item_count": 3,
+      "example_items": [],
+      "importance": 55
+    },
+    {
+      "name": "Remote-First Tech Work",
+      "description": "Strong prevalence of fully remote positions across all technical roles",
+      "item_count": 45,
+      "example_items": [],
+      "importance": 50
+    },
+    {
+      "name": "Standard Software Engineering",
+      "description": "Traditional fullstack, backend, and frontend roles without AI/ML requirements",
+      "item_count": 25,
+      "example_items": [],
+      "importance": 35
+    },
+    {
+      "name": "Remote Work",
+      "description": "All positions in this batch offer remote work arrangements",
+      "item_count": 3,
+      "example_items": [],
+      "importance": 25
+    }
+  ],
+  "total_items": 30,
+  "items": [
+    {
+      "id": "5a8c73958169",
+      "title": "ElevenLabs: Design Engineer",
+      "content": "\n\n\n  Headquarters: United Kingdom\n    URL: http://elevenlabs.io\n\n\nAbout ElevenLabsElevenLabs is a research and product company defining the frontier of audio AI. Millions of people use our technology to read articles, voice over videos, and restore voices lost to disability. Leading developers and enterprises worldwide use ElevenLabs to build intelligent agents for support, sales, and education.We launched in January 2023 with the first AI model to cross the threshold of human-like speech. In January 2025, we raised a $180 million Series C round, valuing the company at $3.3 billion. By September 2025, that valuation doubled to $6.6 billion as we surpassed $200 million ARR in under three years.Our mission is to build the most important audio AI platform in the world, solve AI audio intelligence, and make information accessible in any voice, language, or sound.Our core offerings are our Creative Platform and the Agents Platform, powered by proprietary Text to Speech, Speech to Text, and conversational AI models.We are just getting started. If you want to work hard and create lasting impact, we would like to hear from you.How we workHigh-velocity: Rapid experimentation, lean...",
+      "url": "https://weworkremotely.com/remote-jobs/elevenlabs-design-engineer",
+      "author": "Unknown",
+      "published": "2026-01-15T23:39:14",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Design"
+      ],
+      "summary": "ElevenLabs, a frontier AI audio company valued at $6.6B with $200M+ ARR, is hiring a Design Engineer. The company pioneered human-like speech AI and is expanding its audio AI platform. This is a rare opportunity at one of the fastest-growing AI startups.",
+      "importance_score": 88,
+      "reasoning": "Top-tier AI company (ElevenLabs is a recognized leader in audio AI), significant funding/valuation signals market confidence. Design Engineer role combines technical skills with AI product work at a frontier lab.",
+      "themes": [
+        "Frontier AI Companies",
+        "Audio AI",
+        "High-Growth Startups"
+      ],
+      "continuation": null,
+      "summary_html": "<p>ElevenLabs, a frontier AI audio company valued at $6.6B with $200M+ ARR, is hiring a Design Engineer. The company pioneered human-like speech AI and is expanding its audio AI platform. This is a rare opportunity at one of the fastest-growing AI startups.</p>",
+      "content_html": "<p>Headquarters: United Kingdom</p>\n<p>URL: http://elevenlabs.io</p>\n<p>About ElevenLabsElevenLabs is a research and product company defining the frontier of audio AI. Millions of people use our technology to read articles, voice over videos, and restore voices lost to disability. Leading developers and enterprises worldwide use ElevenLabs to build intelligent agents for support, sales, and education.We launched in January 2023 with the first AI model to cross the threshold of human-like speech. In January 2025, we raised a $180 million Series C round, valuing the company at $3.3 billion. By September 2025, that valuation doubled to $6.6 billion as we surpassed $200 million ARR in under three years.Our mission is to build the most important audio AI platform in the world, solve AI audio intelligence, and make information accessible in any voice, language, or sound.Our core offerings are our Creative Platform and the Agents Platform, powered by proprietary Text to Speech, Speech to Text, and conversational AI models.We are just getting started. If you want to work hard and create lasting impact, we would like to hear from you.How we workHigh-velocity: Rapid experimentation, lean...</p>"
+    },
+    {
+      "id": "2274b14a18a2",
+      "title": "Great Good: Contract Software Engineer (AI x Biology)",
+      "content": "\n\n\n  Headquarters: Remote\n    URL: https://greatgood.gg/\n\n\nLocation: Remote (Europe or Asia preferred)\nCompany: Great Good Venture Lab\nEngagement Type: Hourly or project-based contractor\n&nbsp;\nAbout the Role\nGreat Good is hiring a senior software engineer (contractor) to support early-stage ventures at the intersection of artificial intelligence and biotechnology. You’ll work directly with technical founders and early teams to prototype infrastructure and ML tools that accelerate therapeutic discovery and development.\nThis is a high-autonomy role suited to engineers who enjoy working across systems, models, and real-world scientific applications.\n&nbsp;\nResponsibilities\n\n\nDesign and implement data pipelines and ML workflows (e.g., for sequence modeling, structure prediction, optimization loops)\n\n\nBuild tools to support scientific computing, visualization, or experimental integration\n\n\nCollaborate with cross-functional teams to translate R&amp;D needs into clean, scalable code\n\n\nContribute to backend systems, cloud deployments, and toolchain setup as needed\n\n\nDeliver technical documentation and maintainable code for future handoff or extension\n\n\n&nbsp;\nRequirements\n\n\n5+ years...",
+      "url": "https://weworkremotely.com/remote-jobs/great-good-contract-software-engineer-ai-x-biology",
+      "author": "Unknown",
+      "published": "2026-01-15T11:33:52",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Back-End Programming"
+      ],
+      "summary": "Great Good Venture Lab hiring contract engineer for AI x Biology ventures, working on ML workflows for therapeutic discovery including sequence modeling, structure prediction, and optimization. Remote role supporting early-stage biotech AI companies.",
+      "importance_score": 78,
+      "reasoning": "Intersection of AI and biology is a hot growth area. Role involves cutting-edge ML applications (protein structure, sequence modeling). Contract nature and early-stage focus appropriate for experienced ML engineers.",
+      "themes": [
+        "AI in Biotech",
+        "ML for Drug Discovery",
+        "Computational Biology"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Great Good Venture Lab hiring contract engineer for AI x Biology ventures, working on ML workflows for therapeutic discovery including sequence modeling, structure prediction, and optimization. Remote role supporting early-stage biotech AI companies.</p>",
+      "content_html": "<p>Headquarters: Remote</p>\n<p>URL: https://greatgood.gg/</p>\n<p>Location: Remote (Europe or Asia preferred)</p>\n<p>Company: Great Good Venture Lab</p>\n<p>Engagement Type: Hourly or project-based contractor</p>\n<p>&nbsp;</p>\n<p>About the Role</p>\n<p>Great Good is hiring a senior software engineer (contractor) to support early-stage ventures at the intersection of artificial intelligence and biotechnology. You’ll work directly with technical founders and early teams to prototype infrastructure and ML tools that accelerate therapeutic discovery and development.</p>\n<p>This is a high-autonomy role suited to engineers who enjoy working across systems, models, and real-world scientific applications.</p>\n<p>&nbsp;</p>\n<p>Responsibilities</p>\n<p>Design and implement data pipelines and ML workflows (e.g., for sequence modeling, structure prediction, optimization loops)</p>\n<p>Build tools to support scientific computing, visualization, or experimental integration</p>\n<p>Collaborate with cross-functional teams to translate R&amp;D needs into clean, scalable code</p>\n<p>Contribute to backend systems, cloud deployments, and toolchain setup as needed</p>\n<p>Deliver technical documentation and maintainable code for future handoff or extension</p>\n<p>&nbsp;</p>\n<p>Requirements</p>\n<p>5+ years...</p>"
+    },
+    {
+      "id": "f251d7ee3532",
+      "title": "Proxify AB: Senior Python AI Engineer",
+      "content": "\n  Headquarters: Sweden\n    URL: http://career.proxify.io\n\n\n\nThe Role:\n&nbsp;\nWe are looking for a&nbsp;Senior Python AI Engineer&nbsp;to join our fast-growing Network, who will design and develop backend systems and APIs for AI-powered applications. You will play a key role in designing and building scalable backend systems and APIs, collaborating closely with cross-functional teams to shape the future of data-driven products across various platforms.\n&nbsp;\n&nbsp;\nWhat we are looking for:\n&nbsp;\n\nStrong proficiency in Python (5+ years), including modern frameworks (FastAPI, Flask, or Django).\nDeep learning frameworks (PyTorch, TensorFlow) for custom modeling beyond LLM APIs.\nExperience with large language models (LLMs) such as GPT, Gemini, LLaMA, or similar.\nExperience with prototyping tools: Streamlit, Gradio\nSolid experience designing RESTful APIs and microservice architectures.\nStrong backend development expertise, including databases (SQL/NoSQL).\nExperience with version control (Git) and CI/CD workflows.\nHands-on experience with containerization (Docker, ideally Kubernetes).\nFamiliarity with cloud platforms (AWS, Azure, or GCP) is a plus.\nUnderstanding of security best...",
+      "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-python-ai-engineer-2",
+      "author": "Unknown",
+      "published": "2026-01-15T12:18:40",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "All Other Remote"
+      ],
+      "summary": "Proxify seeks a Senior Python AI Engineer for LLM-powered applications requiring PyTorch/TensorFlow, experience with GPT/Gemini/LLaMA, and FastAPI/Flask/Django backend skills. Remote, long-term position focusing on AI-powered product development.",
+      "importance_score": 75,
+      "reasoning": "Direct AI/ML engineering role with explicit LLM and deep learning requirements. Solid mid-senior opportunity for ML practitioners, though Proxify is a staffing network rather than direct AI company.",
+      "themes": [
+        "LLM Engineering",
+        "Python ML",
+        "Remote AI Work"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proxify seeks a Senior Python AI Engineer for LLM-powered applications requiring PyTorch/TensorFlow, experience with GPT/Gemini/LLaMA, and FastAPI/Flask/Django backend skills. Remote, long-term position focusing on AI-powered product development.</p>",
+      "content_html": "<p>Headquarters: Sweden</p>\n<p>URL: http://career.proxify.io</p>\n<p>The Role:</p>\n<p>&nbsp;</p>\n<p>We are looking for a&nbsp;Senior Python AI Engineer&nbsp;to join our fast-growing Network, who will design and develop backend systems and APIs for AI-powered applications. You will play a key role in designing and building scalable backend systems and APIs, collaborating closely with cross-functional teams to shape the future of data-driven products across various platforms.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>What we are looking for:</p>\n<p>&nbsp;</p>\n<p>Strong proficiency in Python (5+ years), including modern frameworks (FastAPI, Flask, or Django).</p>\n<p>Deep learning frameworks (PyTorch, TensorFlow) for custom modeling beyond LLM APIs.</p>\n<p>Experience with large language models (LLMs) such as GPT, Gemini, LLaMA, or similar.</p>\n<p>Experience with prototyping tools: Streamlit, Gradio</p>\n<p>Solid experience designing RESTful APIs and microservice architectures.</p>\n<p>Strong backend development expertise, including databases (SQL/NoSQL).</p>\n<p>Experience with version control (Git) and CI/CD workflows.</p>\n<p>Hands-on experience with containerization (Docker, ideally Kubernetes).</p>\n<p>Familiarity with cloud platforms (AWS, Azure, or GCP) is a plus.</p>\n<p>Understanding of security best...</p>"
+    },
+    {
+      "id": "4729e03c8cca",
+      "title": "Prosper: Director, Credit Risk Analytics",
+      "content": "\n\n\n  Headquarters: United States\n    URL: http://prosper.com\n\n\nYour role in our missionAs the first peer to peer lending marketplace in the United States, Prosper has a history of innovation.&nbsp; As a growing company that generates cash (rare in the valley), Prosper also has a history of generating results.&nbsp;The Director, Credit Risk Analytics is responsible for underwriting credit strategies and oversight of credit quality and performance of the Personal Loan portfolios. They will review, analyze, and enhance the risk strategies through the use of Machine Learning models and credit data to manage the acquisition growth while delivering expected returns to the investors.&nbsp; They will be responsible for the life cycle of credit management including compliance with requirements of regulators and internal control and will recommend opportunities and propose resolutions for improved efficiency, effectiveness, and/or risk reduction for the portfolio. The Director, Credit Risk will work with cross-functional teams in Product, Engineering, Legal/Compliance and Marketing to deliver the credit strategies as per design.&nbsp;The ideal candidate is expected to bring broad and...",
+      "url": "https://weworkremotely.com/remote-jobs/prosper-director-credit-risk-analytics",
+      "author": "Unknown",
+      "published": "2026-01-14T17:39:58",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Management and Finance"
+      ],
+      "summary": "Prosper (first P2P lending marketplace) seeks Director of Credit Risk Analytics to build ML models for loan underwriting and portfolio management. Role owns credit strategies using machine learning and credit data.",
+      "importance_score": 72,
+      "reasoning": "Director-level ML role at established fintech. Practical ML application in credit risk is mature but impactful domain. Good opportunity for ML professionals interested in financial applications.",
+      "themes": [
+        "ML in Finance",
+        "Credit Risk Modeling",
+        "Fintech AI"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Prosper (first P2P lending marketplace) seeks Director of Credit Risk Analytics to build ML models for loan underwriting and portfolio management. Role owns credit strategies using machine learning and credit data.</p>",
+      "content_html": "<p>Headquarters: United States</p>\n<p>URL: http://prosper.com</p>\n<p>Your role in our missionAs the first peer to peer lending marketplace in the United States, Prosper has a history of innovation.&nbsp; As a growing company that generates cash (rare in the valley), Prosper also has a history of generating results.&nbsp;The Director, Credit Risk Analytics is responsible for underwriting credit strategies and oversight of credit quality and performance of the Personal Loan portfolios. They will review, analyze, and enhance the risk strategies through the use of Machine Learning models and credit data to manage the acquisition growth while delivering expected returns to the investors.&nbsp; They will be responsible for the life cycle of credit management including compliance with requirements of regulators and internal control and will recommend opportunities and propose resolutions for improved efficiency, effectiveness, and/or risk reduction for the portfolio. The Director, Credit Risk will work with cross-functional teams in Product, Engineering, Legal/Compliance and Marketing to deliver the credit strategies as per design.&nbsp;The ideal candidate is expected to bring broad and...</p>"
+    },
+    {
+      "id": "3ee2e9a23120",
+      "title": "Pavago: Financial Modelling Specialist",
+      "content": "\n\n\n  Headquarters: Brazil\n    URL: http://pavago.co\n\n\nDescriptionJob Title: Financial Modelling SpecialistPosition Type: Full-Time, RemoteWorking Hours: U.S. client business hours (aligned with prospect time zones and outreach cadences)About PavagoPavago is a global recruitment partner specialising in placing top-tier offshore talent with fast-growing U.S. companies. Our clients expect precision, ownership, and world-class standards from day one. We source elite, high-agency professionals who can work independently, think critically, and operate at a U.S. accounting and financial analysis standard.We are hiring a Financial Modelling Specialist for a client, who is backed by YC (W 25 ), building an advanced financial and business modelling infrastructure used to train AI systems.Key ResponsibilitiesBuild complete, end-to-end financial and business models for internal AI training workflows.Review and refine models built by other analysts for structure, clarity, and accuracy.Collaborate with the client’s internal team to improve modelling frameworks and documentation.Participate in regular working sessions to align on modelling standards.(Optional) Provide structured feedback to...",
+      "url": "https://weworkremotely.com/remote-jobs/pavago-financial-modelling-specialist",
+      "author": "Unknown",
+      "published": "2026-01-14T17:39:58",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Management and Finance"
+      ],
+      "summary": "Pavago recruiting Financial Modelling Specialist for YC W25-backed startup building 'financial and business modelling infrastructure used to train AI systems.' Creating training data for AI at early-stage company.",
+      "importance_score": 68,
+      "reasoning": "YC-backed company in AI training data space is relevant market signal. Role bridges domain expertise with AI training needs. Growing importance of quality training data for AI systems.",
+      "themes": [
+        "AI Training Data",
+        "YC Startups",
+        "Financial AI"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Pavago recruiting Financial Modelling Specialist for YC W25-backed startup building 'financial and business modelling infrastructure used to train AI systems.' Creating training data for AI at early-stage company.</p>",
+      "content_html": "<p>Headquarters: Brazil</p>\n<p>URL: http://pavago.co</p>\n<p>DescriptionJob Title: Financial Modelling SpecialistPosition Type: Full-Time, RemoteWorking Hours: U.S. client business hours (aligned with prospect time zones and outreach cadences)About PavagoPavago is a global recruitment partner specialising in placing top-tier offshore talent with fast-growing U.S. companies. Our clients expect precision, ownership, and world-class standards from day one. We source elite, high-agency professionals who can work independently, think critically, and operate at a U.S. accounting and financial analysis standard.We are hiring a Financial Modelling Specialist for a client, who is backed by YC (W 25 ), building an advanced financial and business modelling infrastructure used to train AI systems.Key ResponsibilitiesBuild complete, end-to-end financial and business models for internal AI training workflows.Review and refine models built by other analysts for structure, clarity, and accuracy.Collaborate with the client’s internal team to improve modelling frameworks and documentation.Participate in regular working sessions to align on modelling standards.(Optional) Provide structured feedback to...</p>"
+    },
+    {
+      "id": "d3903ca1d227",
+      "title": "Toptal: Financial Model and Prompt Creator with Spreadsheet Expertise",
+      "content": "\n\n\n  Headquarters: Remote\n    URL: https://www.toptal.com/\n\n\nAbout the Client\nOur client is an AI Startup leader in financial analysis and modeling, offering efficient and scalable solutions to enhance business operations. As part of their endeavors to improve their spreadsheet acquisition capabilities, they are launching “Pilot v2,” a program aimed at refining workflow and deliverable quality for spreadsheet-based projects in financial modeling.\n&nbsp;\nAbout the Role\nWe are seeking skilled professionals experienced in spreadsheet financial modeling to join the Pilot v2 project. Your primary task will involve creating detailed financial models in spreadsheet format and accompanying them with descriptive prompts for language model interfaces. The focus is to produce high-quality, reliable deliverables contributing to enhanced productivity and efficiency in financial planning.\n&nbsp;\nTasks &amp; Deliverables\n\nDevelop financial models of varying complexity (basic, intermediate, and advanced) and draft prompts to generate these models using language models.\nWeekly Target: Completion of a minimum of 5-10 tasks.\nModel Types: Three-statement modeling, revenue forecasts, cost center...",
+      "url": "https://weworkremotely.com/remote-jobs/toptal-financial-model-and-prompt-creator-with-spreadsheet-expertise",
+      "author": "Unknown",
+      "published": "2026-01-14T17:39:25",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "All Other Remote"
+      ],
+      "summary": "Toptal seeks professionals to create financial models in spreadsheets with accompanying prompts for LLM interfaces. Part of an AI startup's 'Pilot v2' program to improve spreadsheet acquisition capabilities through prompt engineering.",
+      "importance_score": 65,
+      "reasoning": "Novel role combining domain expertise with LLM prompt engineering. Represents growing demand for prompt engineering skills in specialized domains. Lower score due to contract/project nature and narrow focus.",
+      "themes": [
+        "Prompt Engineering",
+        "LLM Applications",
+        "Financial AI"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Toptal seeks professionals to create financial models in spreadsheets with accompanying prompts for LLM interfaces. Part of an AI startup's 'Pilot v2' program to improve spreadsheet acquisition capabilities through prompt engineering.</p>",
+      "content_html": "<p>Headquarters: Remote</p>\n<p>URL: https://www.toptal.com/</p>\n<p>About the Client</p>\n<p>Our client is an AI Startup leader in financial analysis and modeling, offering efficient and scalable solutions to enhance business operations. As part of their endeavors to improve their spreadsheet acquisition capabilities, they are launching “Pilot v2,” a program aimed at refining workflow and deliverable quality for spreadsheet-based projects in financial modeling.</p>\n<p>&nbsp;</p>\n<p>About the Role</p>\n<p>We are seeking skilled professionals experienced in spreadsheet financial modeling to join the Pilot v2 project. Your primary task will involve creating detailed financial models in spreadsheet format and accompanying them with descriptive prompts for language model interfaces. The focus is to produce high-quality, reliable deliverables contributing to enhanced productivity and efficiency in financial planning.</p>\n<p>&nbsp;</p>\n<p>Tasks &amp; Deliverables</p>\n<p>Develop financial models of varying complexity (basic, intermediate, and advanced) and draft prompts to generate these models using language models.</p>\n<p>Weekly Target: Completion of a minimum of 5-10 tasks.</p>\n<p>Model Types: Three-statement modeling, revenue forecasts, cost center...</p>"
+    },
+    {
+      "id": "d4669acc53b6",
+      "title": "Mirantis: QA automation/Devops engineer for MKE4K",
+      "content": "\n\n\n  Headquarters: Barcelona, Spain\n    URL: http://mirantis.com\n\n\nCompany DescriptionAbout MirantisMirantis is the Kubernetes-native AI infrastructure company, enabling organizations to build and operate scalable, secure, and sovereign infrastructure for modern AI, machine learning, and data-intensive applications. By combining open source innovation with deep expertise in Kubernetes orchestration, Mirantis empowers platform engineering teams to deliver composable, production-ready developer platforms across any environment—on-premises, in the cloud, at the edge, or in sovereign data centers. As enterprises navigate the growing complexity of AI-driven workloads, Mirantis delivers the automation, GPU orchestration, and policy-driven control needed to manage infrastructure with confidence and agility. Committed to open standards and freedom from lock-in, Mirantis ensures that customers retain full control of their infrastructure strategy.We serve global leaders including Adobe, PayPal, Liberty Mutual, Splunk, and Volkswagen.&nbsp; Learn more at&nbsp;www.mirantis.com.Job DescriptionMirantis Kubernetes Engine (MKE) 4k is an evolution of the industry-leading enterprise container...",
+      "url": "https://weworkremotely.com/remote-jobs/mirantis-qa-automation-devops-engineer-for-mke4k",
+      "author": "Unknown",
+      "published": "2026-01-15T23:39:15",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "DevOps and Sysadmin"
+      ],
+      "summary": "Mirantis, self-described 'Kubernetes-native AI infrastructure company,' hiring QA/DevOps engineer for their container orchestration platform. Focus on GPU orchestration and automation for AI/ML workloads at scale.",
+      "importance_score": 62,
+      "reasoning": "AI infrastructure is critical enabling layer for ML work. GPU orchestration expertise increasingly valuable. However, this is QA/DevOps rather than core ML engineering role.",
+      "themes": [
+        "AI Infrastructure",
+        "GPU Orchestration",
+        "MLOps"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Mirantis, self-described 'Kubernetes-native AI infrastructure company,' hiring QA/DevOps engineer for their container orchestration platform. Focus on GPU orchestration and automation for AI/ML workloads at scale.</p>",
+      "content_html": "<p>Headquarters: Barcelona, Spain</p>\n<p>URL: http://mirantis.com</p>\n<p>Company DescriptionAbout MirantisMirantis is the Kubernetes-native AI infrastructure company, enabling organizations to build and operate scalable, secure, and sovereign infrastructure for modern AI, machine learning, and data-intensive applications. By combining open source innovation with deep expertise in Kubernetes orchestration, Mirantis empowers platform engineering teams to deliver composable, production-ready developer platforms across any environment—on-premises, in the cloud, at the edge, or in sovereign data centers. As enterprises navigate the growing complexity of AI-driven workloads, Mirantis delivers the automation, GPU orchestration, and policy-driven control needed to manage infrastructure with confidence and agility. Committed to open standards and freedom from lock-in, Mirantis ensures that customers retain full control of their infrastructure strategy.We serve global leaders including Adobe, PayPal, Liberty Mutual, Splunk, and Volkswagen.&nbsp; Learn more at&nbsp;www.mirantis.com.Job DescriptionMirantis Kubernetes Engine (MKE) 4k is an evolution of the industry-leading enterprise container...</p>"
+    },
+    {
+      "id": "3c7cd54f6de1",
+      "title": "Stitch Fix: Principal Engineer, CRM & MarTech",
+      "content": "\n\n\n  Headquarters: Remote, USA\n    URL: http://stitchfix.com\n\n\n\nAbout Stitch Fix, Inc. \nStitch Fix (NASDAQ: SFIX) is the leading online personal styling service that helps people discover the styles they will love that fit perfectly so they always look - and feel - their best. Few things are more personal than getting dressed, but finding clothing that fits and looks great can be a challenge. Stitch Fix solves that problem. By pairing expert stylists with best-in-class AI and recommendation algorithms, the company leverages its assortment of exclusive and national brands to meet each client's individual tastes and needs, making it convenient for clients to express their personal style without having to spend hours in stores or sifting through endless choices online. Stitch Fix, which was founded in 2011, is headquartered in San Francisco.\nAbout the Role\nStitch Fix’s CRM &amp; MarTech engineering team is looking for an experienced engineer to lead our team in integrations, platforms, and capabilities that attract and convert visitors to clients and keep existing clients engaged and ordering Fixes. We support Marketing by connecting with clients to demonstrate Stitch Fix’s value,...",
+      "url": "https://weworkremotely.com/remote-jobs/stitch-fix-principal-engineer-crm-martech",
+      "author": "Unknown",
+      "published": "2026-01-15T23:39:15",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Customer Support"
+      ],
+      "summary": "Stitch Fix (NASDAQ: SFIX) hiring Principal Engineer for CRM/MarTech, leveraging their AI and recommendation algorithms. Public company known for pioneering AI-driven fashion recommendations.",
+      "importance_score": 58,
+      "reasoning": "Stitch Fix is established AI-forward company, but this specific role is CRM/MarTech focused rather than core ML. Principal level at public company with AI DNA still valuable.",
+      "themes": [
+        "Recommendation Systems",
+        "AI in Retail",
+        "MarTech"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Stitch Fix (NASDAQ: SFIX) hiring Principal Engineer for CRM/MarTech, leveraging their AI and recommendation algorithms. Public company known for pioneering AI-driven fashion recommendations.</p>",
+      "content_html": "<p>Headquarters: Remote, USA</p>\n<p>URL: http://stitchfix.com</p>\n<p>About Stitch Fix, Inc.</p>\n<p>Stitch Fix (NASDAQ: SFIX) is the leading online personal styling service that helps people discover the styles they will love that fit perfectly so they always look - and feel - their best. Few things are more personal than getting dressed, but finding clothing that fits and looks great can be a challenge. Stitch Fix solves that problem. By pairing expert stylists with best-in-class AI and recommendation algorithms, the company leverages its assortment of exclusive and national brands to meet each client's individual tastes and needs, making it convenient for clients to express their personal style without having to spend hours in stores or sifting through endless choices online. Stitch Fix, which was founded in 2011, is headquartered in San Francisco.</p>\n<p>About the Role</p>\n<p>Stitch Fix’s CRM &amp; MarTech engineering team is looking for an experienced engineer to lead our team in integrations, platforms, and capabilities that attract and convert visitors to clients and keep existing clients engaged and ordering Fixes. We support Marketing by connecting with clients to demonstrate Stitch Fix’s value,...</p>"
+    },
+    {
+      "id": "26520c60447c",
+      "title": "Proxify AB: Senior Data Engineer (AWS & Python)",
+      "content": "\n  Headquarters: Sweden\n    URL: http://career.proxify.io\n\n\n\nThe Role:\n&nbsp;\nWe are looking for a Senior Data Engineer specializing in modern, cloud-native data platforms, with a strong focus on Amazon Web Services (AWS) and Python. You will be responsible for designing, building, and optimizing highly scalable and reliable ETL/ELT pipelines and data warehouses that power analytics, machine learning, and business intelligence for our clients.\n&nbsp;\nWhat we’re looking for:\n\n5+ years of professional experience in data engineering\nExpert proficiency in Python for data manipulation, scripting, and pipeline development (e.g., Pandas, PySpark).\nDeep hands-on experience with the AWS cloud platform, specifically the core services used for data ingestion, storage, and processing (S3, Glue, Lambda, EMR).\nProven experience working with modern data warehouses (Snowflake, Amazon Redshift, or Google BigQuery/Azure Synapse).\nSolid expertise in SQL and complex query writing/optimization.\nStrong understanding of containerization and orchestration concepts (Docker, Kubernetes).\nFluent English communication skills.\nLocated in CET timezone (+/- 3 hours), we are unable to consider applications from...",
+      "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-engineer-aws-python-2",
+      "author": "Unknown",
+      "published": "2026-01-15T12:17:03",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "All Other Remote"
+      ],
+      "summary": "Proxify seeks Senior Data Engineer with AWS and Python expertise for ETL/ELT pipelines powering analytics and machine learning. Remote opportunity in data infrastructure.",
+      "importance_score": 55,
+      "reasoning": "Data engineering is foundational to ML systems. Role explicitly mentions ML support but is infrastructure-focused rather than ML engineering proper.",
+      "themes": [
+        "Data Engineering",
+        "ML Infrastructure",
+        "Cloud Data Pipelines"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proxify seeks Senior Data Engineer with AWS and Python expertise for ETL/ELT pipelines powering analytics and machine learning. Remote opportunity in data infrastructure.</p>",
+      "content_html": "<p>Headquarters: Sweden</p>\n<p>URL: http://career.proxify.io</p>\n<p>The Role:</p>\n<p>&nbsp;</p>\n<p>We are looking for a Senior Data Engineer specializing in modern, cloud-native data platforms, with a strong focus on Amazon Web Services (AWS) and Python. You will be responsible for designing, building, and optimizing highly scalable and reliable ETL/ELT pipelines and data warehouses that power analytics, machine learning, and business intelligence for our clients.</p>\n<p>&nbsp;</p>\n<p>What we’re looking for:</p>\n<p>5+ years of professional experience in data engineering</p>\n<p>Expert proficiency in Python for data manipulation, scripting, and pipeline development (e.g., Pandas, PySpark).</p>\n<p>Deep hands-on experience with the AWS cloud platform, specifically the core services used for data ingestion, storage, and processing (S3, Glue, Lambda, EMR).</p>\n<p>Proven experience working with modern data warehouses (Snowflake, Amazon Redshift, or Google BigQuery/Azure Synapse).</p>\n<p>Solid expertise in SQL and complex query writing/optimization.</p>\n<p>Strong understanding of containerization and orchestration concepts (Docker, Kubernetes).</p>\n<p>Fluent English communication skills.</p>\n<p>Located in CET timezone (+/- 3 hours), we are unable to consider applications from...</p>"
+    },
+    {
+      "id": "92a7b6c01feb",
+      "title": "Genesys: Product Management Director, CRM & Strategic Platform Integrations",
+      "content": "\n\n\n  Headquarters: Virtual Office (Indiana)\n    URL: http://genesys.com\n\n\nGenesys empowers organizations of all sizes to improve loyalty and business outcomes by creating the best experiences for their customers and employees. Through Genesys Cloud, the AI-powered Experience Orchestration platform, organizations can accelerate growth by delivering empathetic, personalized experiences at scale to drive customer loyalty, workforce engagement, efficiency and operational improvements.We employ more than 6,000 people across the globe who embrace empathy and cultivate collaboration to succeed. And, while we offer great benefits and perks like larger tech companies, our employees have the independence to make a larger impact on the company and take ownership of their work. Join the team and create the future of customer experience together.Job SummaryAt Genesys, we are transforming the customer experience landscape through empathy, innovation, and AI-driven technology. As Director of Product Management for CRM and Platform Integrations, you will define how Genesys becomes the orchestration layer connecting enterprise systems, AI reasoning engines, multi-component agent workflows, and...",
+      "url": "https://weworkremotely.com/remote-jobs/genesys-product-management-director-crm-strategic-platform-integrations",
+      "author": "Unknown",
+      "published": "2026-01-14T17:39:58",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Customer Support"
+      ],
+      "summary": "Genesys hiring Product Management Director for CRM integrations on their 'AI-powered Experience Orchestration platform.' Leadership role shaping AI product strategy at enterprise software company.",
+      "importance_score": 55,
+      "reasoning": "AI-adjacent product leadership role at established company. Relevant for PM professionals interested in AI products, but not technical ML work.",
+      "themes": [
+        "AI Product Management",
+        "Enterprise AI",
+        "Customer Experience"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Genesys hiring Product Management Director for CRM integrations on their 'AI-powered Experience Orchestration platform.' Leadership role shaping AI product strategy at enterprise software company.</p>",
+      "content_html": "<p>Headquarters: Virtual Office (Indiana)</p>\n<p>URL: http://genesys.com</p>\n<p>Genesys empowers organizations of all sizes to improve loyalty and business outcomes by creating the best experiences for their customers and employees. Through Genesys Cloud, the AI-powered Experience Orchestration platform, organizations can accelerate growth by delivering empathetic, personalized experiences at scale to drive customer loyalty, workforce engagement, efficiency and operational improvements.We employ more than 6,000 people across the globe who embrace empathy and cultivate collaboration to succeed. And, while we offer great benefits and perks like larger tech companies, our employees have the independence to make a larger impact on the company and take ownership of their work. Join the team and create the future of customer experience together.Job SummaryAt Genesys, we are transforming the customer experience landscape through empathy, innovation, and AI-driven technology. As Director of Product Management for CRM and Platform Integrations, you will define how Genesys becomes the orchestration layer connecting enterprise systems, AI reasoning engines, multi-component agent workflows, and...</p>"
+    },
+    {
+      "id": "cf0407557c2d",
+      "title": "Contra: Customer Support (Weekends)",
+      "content": "\n\n\n  Headquarters: San Francisco, CA\n    URL: http://bit.ly/3kLhMdk\n\n\nWho we are and what we do\nContra is building the world’s first professional network for independent creatives and the companies that hire them. We are commission-free, global, and focused on enabling the future of flexible work. Alongside our network and marketplace, we’re launching new product lines including Contra for Companies, Contra Ads Network, and Creative RLHF &amp; Evaluation Services for AI labs and creative-tool companies.\nWe've raised over $51M from leading investors like NEA, Unusual Ventures, and Cowboy Ventures - and we're just getting started.\nWhat&nbsp;you’ll&nbsp;be&nbsp;responsible&nbsp;for:\n\nProvide world-class support by taking ownership on user issues - working closely with the engineering, product and other teams to address and resolve user issues quickly.\nBecome a Contra product expert - focusing on user workflows, integrations, and platform functionality.\nWork with a sense of urgency and quickly identify root cause of issues and ensure SLAs/turnaround times are met.\nSuggest process improvements and introduce best practices for operations.\nProvide regular insights and feedback on project...",
+      "url": "https://weworkremotely.com/remote-jobs/contra-customer-support-weekends-2",
+      "author": "Unknown",
+      "published": "2026-01-15T17:10:58",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Design"
+      ],
+      "summary": "Contra, backed by $51M+ in funding, mentions launching 'Creative RLHF & Evaluation Services for AI labs.' Weekend customer support role, but signals company expansion into AI training data and evaluation services.",
+      "importance_score": 52,
+      "reasoning": "The RLHF/evaluation services mention is notable market signal about AI labs' needs. However, the actual role is customer support, not AI work. Useful for understanding AI ecosystem growth.",
+      "themes": [
+        "RLHF Services",
+        "AI Data Labeling",
+        "AI Ecosystem"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Contra, backed by $51M+ in funding, mentions launching 'Creative RLHF & Evaluation Services for AI labs.' Weekend customer support role, but signals company expansion into AI training data and evaluation services.</p>",
+      "content_html": "<p>Headquarters: San Francisco, CA</p>\n<p>URL: http://bit.ly/3kLhMdk</p>\n<p>Who we are and what we do</p>\n<p>Contra is building the world’s first professional network for independent creatives and the companies that hire them. We are commission-free, global, and focused on enabling the future of flexible work. Alongside our network and marketplace, we’re launching new product lines including Contra for Companies, Contra Ads Network, and Creative RLHF &amp; Evaluation Services for AI labs and creative-tool companies.</p>\n<p>We've raised over $51M from leading investors like NEA, Unusual Ventures, and Cowboy Ventures - and we're just getting started.</p>\n<p>What&nbsp;you’ll&nbsp;be&nbsp;responsible&nbsp;for:</p>\n<p>Provide world-class support by taking ownership on user issues - working closely with the engineering, product and other teams to address and resolve user issues quickly.</p>\n<p>Become a Contra product expert - focusing on user workflows, integrations, and platform functionality.</p>\n<p>Work with a sense of urgency and quickly identify root cause of issues and ensure SLAs/turnaround times are met.</p>\n<p>Suggest process improvements and introduce best practices for operations.</p>\n<p>Provide regular insights and feedback on project...</p>"
+    },
+    {
+      "id": "2b1d58b27d69",
+      "title": "Proxify AB: Senior Data Engineer (Azure)",
+      "content": "\n  Headquarters: Sweden\n    URL: http://career.proxify.io\n\n\n\nThe Role:\n&nbsp;\nWe are looking for a Senior Data Engineer with deep expertise in Microsoft Azure to join our fast-growing Network. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products.\n&nbsp;\nWhat we’re looking for:\n\n5+ years in Data Engineering roles.\nAdvanced SQL knowledge: complex queries, performance tuning, stored procedures.\nStrong understanding of Azure technologies: Azure SQL Database, Data Factory, etc.\nProven experience in ETL development, data integration, and pipeline orchestration.\nDeep understanding of data modeling principles and data warehouse architectures.\nKnowledge of data governance principles, data quality management, and data security best practices.\nLocated in CET timezone (+/- 3 hours), we are unable to consider applications from candidates in other time zones.\n\n&nbsp;\nNice-to-have:\n\nFamiliarity with Azure Synapse Analytics, Data Lake, and Azure DevOps.\nExpert in Power BI development, including Power Query, DAX, and Power BI Service.\nExperience with Python or other scripting languages for data processing.\nGit...",
+      "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-engineer-azure-2",
+      "author": "Unknown",
+      "published": "2026-01-15T12:15:36",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "All Other Remote"
+      ],
+      "summary": "Proxify hiring Senior Data Engineer with Azure expertise for data warehouses and pipelines. Supports analytics and business intelligence workloads in cloud environments.",
+      "importance_score": 50,
+      "reasoning": "Standard data engineering role with Azure focus. Tangentially relevant to ML as data infrastructure, but no explicit AI/ML component.",
+      "themes": [
+        "Data Engineering",
+        "Azure Cloud",
+        "Data Warehousing"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proxify hiring Senior Data Engineer with Azure expertise for data warehouses and pipelines. Supports analytics and business intelligence workloads in cloud environments.</p>",
+      "content_html": "<p>Headquarters: Sweden</p>\n<p>URL: http://career.proxify.io</p>\n<p>The Role:</p>\n<p>&nbsp;</p>\n<p>We are looking for a Senior Data Engineer with deep expertise in Microsoft Azure to join our fast-growing Network. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products.</p>\n<p>&nbsp;</p>\n<p>What we’re looking for:</p>\n<p>5+ years in Data Engineering roles.</p>\n<p>Advanced SQL knowledge: complex queries, performance tuning, stored procedures.</p>\n<p>Strong understanding of Azure technologies: Azure SQL Database, Data Factory, etc.</p>\n<p>Proven experience in ETL development, data integration, and pipeline orchestration.</p>\n<p>Deep understanding of data modeling principles and data warehouse architectures.</p>\n<p>Knowledge of data governance principles, data quality management, and data security best practices.</p>\n<p>Located in CET timezone (+/- 3 hours), we are unable to consider applications from candidates in other time zones.</p>\n<p>&nbsp;</p>\n<p>Nice-to-have:</p>\n<p>Familiarity with Azure Synapse Analytics, Data Lake, and Azure DevOps.</p>\n<p>Expert in Power BI development, including Power Query, DAX, and Power BI Service.</p>\n<p>Experience with Python or other scripting languages for data processing.</p>\n<p>Git...</p>"
+    },
+    {
+      "id": "3d3c2cfcc228",
+      "title": "Jumpspeak: Product Lead (Contract)",
+      "content": "\n\n\n  Headquarters: Miami\n    URL: https://www.jumpspeak.com\n\n\n\n\nThe Problem We're Solving\nMost people who try to learn a language quit. Not because they're lazy, but because traditional apps optimize for streaks and gamification instead of actual conversation skills.\nWe're building something different: a language learning experience that gets people speaking from day one and keeps them coming back because they're actually having conversations, not just completing lessons.\nThe Opportunity\nYou'll own the core product experience for Jumpspeak—the app that hundreds of thousands of learners use to gain real conversational confidence in new languages. This isn't about managing a team or attending strategy offsites. This is about shipping features that directly impact whether someone can order coffee in Paris or negotiate a deal in São Paulo.\nYou'll work directly with our CEO and small product team to shape what language learning should feel like. Not through 50-slide decks, but through rapid experimentation, user interviews, and data.\nWhat You'll Actually Do\nOwn the Product (not just a feature)\n\nYou are the DRI for our mobile app experience end-to-end—onboarding, lesson design,...",
+      "url": "https://weworkremotely.com/remote-jobs/jumpspeak-product-lead-contract",
+      "author": "Unknown",
+      "published": "2026-01-13T16:31:37",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Product"
+      ],
+      "summary": "Jumpspeak hiring Product Lead (Contract) for AI-powered language learning app with focus on conversation skills.",
+      "importance_score": 48,
+      "reasoning": "Product role at app likely using AI for language learning, but role itself isn't AI engineering.",
+      "themes": [
+        "EdTech",
+        "Product Management"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Jumpspeak hiring Product Lead (Contract) for AI-powered language learning app with focus on conversation skills.</p>",
+      "content_html": "<p>Headquarters: Miami</p>\n<p>URL: https://www.jumpspeak.com</p>\n<p>The Problem We're Solving</p>\n<p>Most people who try to learn a language quit. Not because they're lazy, but because traditional apps optimize for streaks and gamification instead of actual conversation skills.</p>\n<p>We're building something different: a language learning experience that gets people speaking from day one and keeps them coming back because they're actually having conversations, not just completing lessons.</p>\n<p>The Opportunity</p>\n<p>You'll own the core product experience for Jumpspeak—the app that hundreds of thousands of learners use to gain real conversational confidence in new languages. This isn't about managing a team or attending strategy offsites. This is about shipping features that directly impact whether someone can order coffee in Paris or negotiate a deal in São Paulo.</p>\n<p>You'll work directly with our CEO and small product team to shape what language learning should feel like. Not through 50-slide decks, but through rapid experimentation, user interviews, and data.</p>\n<p>What You'll Actually Do</p>\n<p>Own the Product (not just a feature)</p>\n<p>You are the DRI for our mobile app experience end-to-end—onboarding, lesson design,...</p>"
+    },
+    {
+      "id": "591cfd440516",
+      "title": "School of Bots: Client Operations Lead",
+      "content": "\n\n\n  Headquarters: Florida, USA\n    URL: https://schoolofbots.co/\n\n\nLOCATION:\nRemote, based in Eastern Standard Time (core hours 8am–5pm ET, async by default)\nEMPLOYMENT TYPE:\nFull Time\nDEPARTMENT:\nDone-For-You Client Delivery\nCOMPENSATION:\n$50Kbase + $5K performance bonus\n\nMeet School of Bots\nSchool of Bots is a marketing firm and e learning business trusted by the internet’s most influential brands.\nWe have generated over $90 million in revenue for 3,000+ clients, including Russell Brunson, Codie Sanchez, Jenna Kutcher, Prince EA, Amy Porterfield, Dean Graziosi, Nike, SoFi, and Mindvalley.\nOur specialty is helping e learning businesses scale using AI powered DM funnels.\nEvery time they post on Instagram and Facebook, they generate qualified leads and sales. We turn their proven sales processes into intelligent, automated journeys that use AI to personalize conversations across DM, SMS, email, and web.\nWe are building a delivery system that is fast, clear, and accountable, without adding unnecessary meetings.\n\nYour Mission\nAs a Client Operations Lead, you own the operating rhythm that keeps a pod moving.\nYou make sure the right work gets done in the right order, with clear...",
+      "url": "https://weworkremotely.com/remote-jobs/school-of-bots-client-operations-lead",
+      "author": "Unknown",
+      "published": "2026-01-12T15:44:37",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Sales and Marketing"
+      ],
+      "summary": "School of Bots hiring Client Operations Lead for DM funnel marketing agency. Mentions AI-powered funnels for e-learning clients.",
+      "importance_score": 42,
+      "reasoning": "Operations role at company using AI for marketing automation, but not AI engineering work.",
+      "themes": [
+        "Marketing Automation",
+        "AI Applications"
+      ],
+      "continuation": null,
+      "summary_html": "<p>School of Bots hiring Client Operations Lead for DM funnel marketing agency. Mentions AI-powered funnels for e-learning clients.</p>",
+      "content_html": "<p>Headquarters: Florida, USA</p>\n<p>URL: https://schoolofbots.co/</p>\n<p>LOCATION:</p>\n<p>Remote, based in Eastern Standard Time (core hours 8am–5pm ET, async by default)</p>\n<p>EMPLOYMENT TYPE:</p>\n<p>Full Time</p>\n<p>DEPARTMENT:</p>\n<p>Done-For-You Client Delivery</p>\n<p>COMPENSATION:</p>\n<p>$50Kbase + $5K performance bonus</p>\n<p>Meet School of Bots</p>\n<p>School of Bots is a marketing firm and e learning business trusted by the internet’s most influential brands.</p>\n<p>We have generated over $90 million in revenue for 3,000+ clients, including Russell Brunson, Codie Sanchez, Jenna Kutcher, Prince EA, Amy Porterfield, Dean Graziosi, Nike, SoFi, and Mindvalley.</p>\n<p>Our specialty is helping e learning businesses scale using AI powered DM funnels.</p>\n<p>Every time they post on Instagram and Facebook, they generate qualified leads and sales. We turn their proven sales processes into intelligent, automated journeys that use AI to personalize conversations across DM, SMS, email, and web.</p>\n<p>We are building a delivery system that is fast, clear, and accountable, without adding unnecessary meetings.</p>\n<p>Your Mission</p>\n<p>As a Client Operations Lead, you own the operating rhythm that keeps a pod moving.</p>\n<p>You make sure the right work gets done in the right order, with clear...</p>"
+    },
+    {
+      "id": "8e80431bde76",
+      "title": "Proxify AB: Senior Fullstack Developer (Python)",
+      "content": "\n\n\n  Headquarters: Sweden\n    URL: http://career.proxify.io\n\n\nThe Role:\n&nbsp;\nWe are looking for a Senior Fullstack Python Developer to join our fast-growing Network.\nIn this role, you’ll lead the design and implementation of scalable backend services and APIs using Python (FastAPI, Django, or Flask), while delivering polished, performant user interfaces using modern frontend frameworks such as React.js or Vue.js.\n&nbsp;\nWhat we are looking for:\n\n5+ years of professional software development experience with strong fullstack exposure.\n3+ years of production experience with Python (FastAPI, Django, Flask).\nSolid knowledge of JavaScript/TypeScript, HTML5, CSS3.\nStrong experience with React.js or Vue.js (or similar modern frameworks such as Next.js/Nuxt.js).\nExperience with relational databases (PostgreSQL, MySQL) and ORMs such as SQLAlchemy or Django ORM.\nStrong understanding of RESTful API design and integration patterns.\nExperience writing automated tests (unit, integration) for both backend and frontend.\nPractical experience with Docker and familiarity with CI/CD pipelines (GitHub Actions, GitLab CI, CircleCI, etc.).\nExperience deploying and operating services in the cloud (AWS,...",
+      "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-python-1",
+      "author": "Unknown",
+      "published": "2026-01-15T12:33:17",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "summary": "Proxify seeking Senior Fullstack Python Developer with FastAPI/Django backend and React/Vue frontend skills. Remote long-term opportunity.",
+      "importance_score": 40,
+      "reasoning": "Solid fullstack role but no AI/ML specific requirements.",
+      "themes": [
+        "Fullstack Development",
+        "Python"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proxify seeking Senior Fullstack Python Developer with FastAPI/Django backend and React/Vue frontend skills. Remote long-term opportunity.</p>",
+      "content_html": "<p>Headquarters: Sweden</p>\n<p>URL: http://career.proxify.io</p>\n<p>The Role:</p>\n<p>&nbsp;</p>\n<p>We are looking for a Senior Fullstack Python Developer to join our fast-growing Network.</p>\n<p>In this role, you’ll lead the design and implementation of scalable backend services and APIs using Python (FastAPI, Django, or Flask), while delivering polished, performant user interfaces using modern frontend frameworks such as React.js or Vue.js.</p>\n<p>&nbsp;</p>\n<p>What we are looking for:</p>\n<p>5+ years of professional software development experience with strong fullstack exposure.</p>\n<p>3+ years of production experience with Python (FastAPI, Django, Flask).</p>\n<p>Solid knowledge of JavaScript/TypeScript, HTML5, CSS3.</p>\n<p>Strong experience with React.js or Vue.js (or similar modern frameworks such as Next.js/Nuxt.js).</p>\n<p>Experience with relational databases (PostgreSQL, MySQL) and ORMs such as SQLAlchemy or Django ORM.</p>\n<p>Strong understanding of RESTful API design and integration patterns.</p>\n<p>Experience writing automated tests (unit, integration) for both backend and frontend.</p>\n<p>Practical experience with Docker and familiarity with CI/CD pipelines (GitHub Actions, GitLab CI, CircleCI, etc.).</p>\n<p>Experience deploying and operating services in the cloud (AWS,...</p>"
+    },
+    {
+      "id": "27cc2b03a022",
+      "title": "DRT FM - Humble Echo LLC: Reddit Community Growth & Marketing Specialist (Remote)",
+      "content": "\n\n\n  Headquarters: Latvia, Riga, Kuldigas 23a-3\n    URL: https://drt.com/\n\n\nHelp expand our Reddit presence in the growing AI and virtual companion space.\n\nPay: $800–$1200 per month\nWork: Home-based, 40 hours per week\n\nMain task\nMake DRT FM a solid presence wherever virtual companions are mentioned. Same as Candy.ai, Muah.ai are mentioned, DRT must be one of them.\nMeasure and track results, be able to display the effectiveness of your efforts.\nRequired skills\n\nGood writing skills, understanding of specific subreddits to be insider (ideally already involved in AI communities)\nGood at tracking/measuring/reporting results of your daily campaigns\nYou must have proven experience how to have a Reddit account(-s) that gets results and doesnt get banned\nYou should have direct, hands-on experience using anti-detect browsers like AdsPower and residential or mobile proxies such as AnyIP to be able to manage more accounts in future\n\nFocus\n\nYou’ll participate directly in AI and virtual companion discussions.\nComments should add real value, avoid links, and blend naturally into ongoing conversations.\n\nGoal\nHelp each account build a visible, trusted presence in relevant subreddits.\nThe long-term...",
+      "url": "https://weworkremotely.com/remote-jobs/drt-fm-humble-echo-llc-reddit-community-growth-marketing-specialist-remote",
+      "author": "Unknown",
+      "published": "2026-01-12T07:25:22",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Sales and Marketing"
+      ],
+      "summary": "DRT FM hiring Reddit Community Growth Specialist to build presence in AI virtual companion subreddits. Focus on marketing AI companion product.",
+      "importance_score": 40,
+      "reasoning": "Marketing role in AI companion space, shows market activity in AI consumer products but not engineering.",
+      "themes": [
+        "AI Consumer Products",
+        "Community Marketing"
+      ],
+      "continuation": null,
+      "summary_html": "<p>DRT FM hiring Reddit Community Growth Specialist to build presence in AI virtual companion subreddits. Focus on marketing AI companion product.</p>",
+      "content_html": "<p>Headquarters: Latvia, Riga, Kuldigas 23a-3</p>\n<p>URL: https://drt.com/</p>\n<p>Help expand our Reddit presence in the growing AI and virtual companion space.</p>\n<p>Pay: $800–$1200 per month</p>\n<p>Work: Home-based, 40 hours per week</p>\n<p>Main task</p>\n<p>Make DRT FM a solid presence wherever virtual companions are mentioned. Same as Candy.ai, Muah.ai are mentioned, DRT must be one of them.</p>\n<p>Measure and track results, be able to display the effectiveness of your efforts.</p>\n<p>Required skills</p>\n<p>Good writing skills, understanding of specific subreddits to be insider (ideally already involved in AI communities)</p>\n<p>Good at tracking/measuring/reporting results of your daily campaigns</p>\n<p>You must have proven experience how to have a Reddit account(-s) that gets results and doesnt get banned</p>\n<p>You should have direct, hands-on experience using anti-detect browsers like AdsPower and residential or mobile proxies such as AnyIP to be able to manage more accounts in future</p>\n<p>Focus</p>\n<p>You’ll participate directly in AI and virtual companion discussions.</p>\n<p>Comments should add real value, avoid links, and blend naturally into ongoing conversations.</p>\n<p>Goal</p>\n<p>Help each account build a visible, trusted presence in relevant subreddits.</p>\n<p>The long-term...</p>"
+    },
+    {
+      "id": "5025990b4e36",
+      "title": "Proxify AB: Senior Microsoft Power BI Developer",
+      "content": "\n  Headquarters: Sweden\n    URL: http://career.proxify.io\n\n\nThe Role:\n&nbsp;\nWe are looking for a Senior Microsoft Power BI developer for one of our clients. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products and growth features.&nbsp;\n&nbsp;\nWhat we are looking for:\n&nbsp;\n\nBackground with BI tools and systems such as Power BI, Tableau, and SAP\nPrior experience in data-related tasks\nUnderstanding of the Microsoft BI Stack\nMastery in data analytics\nProficiency in software development\nFamiliarity with MS SQL Server BI Stack tools and technologies, such as SSRS and T-SQL, Power Query, MDX, PowerBI, and DAX\nAnalytical thinking for converting data into relevant reports and graphics\nAbility to handle row-level data security\nKnowledge of Power BI application security layer models\nAbility to run DAX queries on Power BI desktop\nProficiency in doing advanced-level computations on the data set\nExcellent communication skills are required to communicate needs with clients and internal teams successfully\nLocated in the CET timezone (+/- 3 hours), we are unable to consider applications from candidates in...",
+      "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-microsoft-power-bi-developer-4",
+      "author": "Unknown",
+      "published": "2026-01-15T12:27:27",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "All Other Remote"
+      ],
+      "summary": "Proxify seeking Senior Microsoft Power BI Developer for business intelligence and data visualization.",
+      "importance_score": 38,
+      "reasoning": "BI/analytics role, data-adjacent but not AI/ML engineering.",
+      "themes": [
+        "Business Intelligence",
+        "Data Visualization"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proxify seeking Senior Microsoft Power BI Developer for business intelligence and data visualization.</p>",
+      "content_html": "<p>Headquarters: Sweden</p>\n<p>URL: http://career.proxify.io</p>\n<p>The Role:</p>\n<p>&nbsp;</p>\n<p>We are looking for a Senior Microsoft Power BI developer for one of our clients. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products and growth features.&nbsp;</p>\n<p>&nbsp;</p>\n<p>What we are looking for:</p>\n<p>&nbsp;</p>\n<p>Background with BI tools and systems such as Power BI, Tableau, and SAP</p>\n<p>Prior experience in data-related tasks</p>\n<p>Understanding of the Microsoft BI Stack</p>\n<p>Mastery in data analytics</p>\n<p>Proficiency in software development</p>\n<p>Familiarity with MS SQL Server BI Stack tools and technologies, such as SSRS and T-SQL, Power Query, MDX, PowerBI, and DAX</p>\n<p>Analytical thinking for converting data into relevant reports and graphics</p>\n<p>Ability to handle row-level data security</p>\n<p>Knowledge of Power BI application security layer models</p>\n<p>Ability to run DAX queries on Power BI desktop</p>\n<p>Proficiency in doing advanced-level computations on the data set</p>\n<p>Excellent communication skills are required to communicate needs with clients and internal teams successfully</p>\n<p>Located in the CET timezone (+/- 3 hours), we are unable to consider applications from candidates in...</p>"
+    },
+    {
+      "id": "745f3f179046",
+      "title": "Proxify AB: Senior Fullstack Developer (Vue.js & Python)",
+      "content": "\n  Headquarters: Sweden\n    URL: http://career.proxify.io\n\n\nThe Role:\n&nbsp;\nWe are looking for a Senior Fullstack Developer skilled in Vue.js and Python for one of our clients. You will be responsible for architecting and implementing end-to-end features, balancing a high-performance Python backend with a reactive and intuitive Vue.js frontend. This role requires a developer who understands the \"full picture\"—from database schema design and API performance to component modularity and state management.\n&nbsp;\nWhat we are looking for:\n\n5+ years of experience in frontend development, with deep expertise in the Vue.js ecosystem (Vue Router, Vite, Nuxt.js).\nSolid experience in Python-based backend development, with a strong understanding of ORMs and asynchronous programming.\nProficiency in HTML5, CSS3 (Tailwind or SCSS), and modern JavaScript/TypeScript.\nProven track record of designing and consuming secure, scalable APIs.\nExperience with Docker, Git, and CI/CD pipelines. Familiarity with cloud infrastructure (AWS/GCP) is a strong plus.\nAbility to take a feature from a loose concept to a production-ready product with minimal supervision.\nLocated in CET timezone (+/- 3 hours), we are...",
+      "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-vue-js-python",
+      "author": "Unknown",
+      "published": "2026-01-15T12:25:56",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "summary": "Proxify hiring Senior Fullstack Developer with Vue.js frontend and Python backend expertise.",
+      "importance_score": 38,
+      "reasoning": "Fullstack development without AI/ML requirements.",
+      "themes": [
+        "Fullstack Development",
+        "Vue.js"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proxify hiring Senior Fullstack Developer with Vue.js frontend and Python backend expertise.</p>",
+      "content_html": "<p>Headquarters: Sweden</p>\n<p>URL: http://career.proxify.io</p>\n<p>The Role:</p>\n<p>&nbsp;</p>\n<p>We are looking for a Senior Fullstack Developer skilled in Vue.js and Python for one of our clients. You will be responsible for architecting and implementing end-to-end features, balancing a high-performance Python backend with a reactive and intuitive Vue.js frontend. This role requires a developer who understands the \"full picture\"—from database schema design and API performance to component modularity and state management.</p>\n<p>&nbsp;</p>\n<p>What we are looking for:</p>\n<p>5+ years of experience in frontend development, with deep expertise in the Vue.js ecosystem (Vue Router, Vite, Nuxt.js).</p>\n<p>Solid experience in Python-based backend development, with a strong understanding of ORMs and asynchronous programming.</p>\n<p>Proficiency in HTML5, CSS3 (Tailwind or SCSS), and modern JavaScript/TypeScript.</p>\n<p>Proven track record of designing and consuming secure, scalable APIs.</p>\n<p>Experience with Docker, Git, and CI/CD pipelines. Familiarity with cloud infrastructure (AWS/GCP) is a strong plus.</p>\n<p>Ability to take a feature from a loose concept to a production-ready product with minimal supervision.</p>\n<p>Located in CET timezone (+/- 3 hours), we are...</p>"
+    },
+    {
+      "id": "d50620ec7934",
+      "title": "Proxify AB: Senior Backend Developer (Python)",
+      "content": "\n  Headquarters: Sweden\n    URL: http://career.proxify.io\n\n\nThe Role:\n&nbsp;\nWe are looking for a Senior Python Developer for one of our clients. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products.\n&nbsp;\nWhat we are looking for:\n\n\n5+ years of experience building products with Python and Django.\n\n\nHigh proficiency in SQL with experience using databases like PostgreSQL.\n\n\nExperience scaling cloud infrastructures with Docker or Kubernetes is a plus.\n\n\nExperience managing cloud infrastructures, specifically AWS or GCP.\n\n\nYou follow the best practices and conventions.\n\n\nRelevant experience in CI/CD and related tools.\n\n\nAbility to work with minimal supervision.\n\n\nIntermediate-advanced English level.\n\n\nYou can communicate well with both technical and non-technical clients.\n\n\nTime zone: CET (+/- 3 hours). We are unable to consider applications from candidates in other time zones.\n\n\n&nbsp;\nResponsibilities:\n\n\nAbility to build libraries and frameworks of reusable efficient code.\n\n\nCompetence in designing and implementing low-latency, stable and performing applications.\n\n\nCapacity to effectively...",
+      "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-backend-developer-python-6",
+      "author": "Unknown",
+      "published": "2026-01-15T11:56:02",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Back-End Programming"
+      ],
+      "summary": "Proxify seeking Senior Python Backend Developer with Django experience for product development.",
+      "importance_score": 38,
+      "reasoning": "Python backend role, useful skills for ML engineers but not ML-specific.",
+      "themes": [
+        "Backend Development",
+        "Python Django"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proxify seeking Senior Python Backend Developer with Django experience for product development.</p>",
+      "content_html": "<p>Headquarters: Sweden</p>\n<p>URL: http://career.proxify.io</p>\n<p>The Role:</p>\n<p>&nbsp;</p>\n<p>We are looking for a Senior Python Developer for one of our clients. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products.</p>\n<p>&nbsp;</p>\n<p>What we are looking for:</p>\n<p>5+ years of experience building products with Python and Django.</p>\n<p>High proficiency in SQL with experience using databases like PostgreSQL.</p>\n<p>Experience scaling cloud infrastructures with Docker or Kubernetes is a plus.</p>\n<p>Experience managing cloud infrastructures, specifically AWS or GCP.</p>\n<p>You follow the best practices and conventions.</p>\n<p>Relevant experience in CI/CD and related tools.</p>\n<p>Ability to work with minimal supervision.</p>\n<p>Intermediate-advanced English level.</p>\n<p>You can communicate well with both technical and non-technical clients.</p>\n<p>Time zone: CET (+/- 3 hours). We are unable to consider applications from candidates in other time zones.</p>\n<p>&nbsp;</p>\n<p>Responsibilities:</p>\n<p>Ability to build libraries and frameworks of reusable efficient code.</p>\n<p>Competence in designing and implementing low-latency, stable and performing applications.</p>\n<p>Capacity to effectively...</p>"
+    },
+    {
+      "id": "eb44516ecf37",
+      "title": "Planning Center: Full Stack Engineer - Ruby on Rails and React",
+      "content": "\n\n\n  Headquarters: Carlsbad, CA\n    URL: https://planningcenter.com\n\n\n\nAbout Planning Center\nPlanning Center, established in 2006, has grown to support over 90,000 churches worldwide. As an independent company, we pride ourselves on being debt-free with no outside investors. Churches use our tools to communicate and connect with their congregations, organize information, and coordinate events. We’re committed to building great products that solve real problems using web and mobile products.\nOur team enjoys the flexibility of remote work, utilizing tools like Asana, Slack, Notion, and Zoom for collaboration. We gather three times a year at our main office in Carlsbad, CA, fostering our work relationships.\n\n\n\n\n\n\nAbout the Work\nWe’re growing and hiring Full Stack Engineers across multiple product teams. Ideal candidates have 2+ years of professional experience with Ruby on Rails and React. Experience in React Native is a big plus. You’ll collaborate with a cross-functional team to deliver new features, refine current ones, improve performance, and maintain the security of customer data.\nResponsibilities\n\nTranslating the product manager’s feature pitches into technical...",
+      "url": "https://weworkremotely.com/remote-jobs/planning-center-full-stack-engineer-ruby-on-rails-and-react",
+      "author": "Unknown",
+      "published": "2026-01-14T16:54:45",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "summary": "Planning Center hiring Full Stack Engineers (Ruby on Rails, React) for church management SaaS serving 90,000+ organizations.",
+      "importance_score": 38,
+      "reasoning": "Established SaaS fullstack role without AI/ML requirements.",
+      "themes": [
+        "Fullstack Development",
+        "SaaS"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Planning Center hiring Full Stack Engineers (Ruby on Rails, React) for church management SaaS serving 90,000+ organizations.</p>",
+      "content_html": "<p>Headquarters: Carlsbad, CA</p>\n<p>URL: https://planningcenter.com</p>\n<p>About Planning Center</p>\n<p>Planning Center, established in 2006, has grown to support over 90,000 churches worldwide. As an independent company, we pride ourselves on being debt-free with no outside investors. Churches use our tools to communicate and connect with their congregations, organize information, and coordinate events. We’re committed to building great products that solve real problems using web and mobile products.</p>\n<p>Our team enjoys the flexibility of remote work, utilizing tools like Asana, Slack, Notion, and Zoom for collaboration. We gather three times a year at our main office in Carlsbad, CA, fostering our work relationships.</p>\n<p>About the Work</p>\n<p>We’re growing and hiring Full Stack Engineers across multiple product teams. Ideal candidates have 2+ years of professional experience with Ruby on Rails and React. Experience in React Native is a big plus. You’ll collaborate with a cross-functional team to deliver new features, refine current ones, improve performance, and maintain the security of customer data.</p>\n<p>Responsibilities</p>\n<p>Translating the product manager’s feature pitches into technical...</p>"
+    },
+    {
+      "id": "740f719c1e25",
+      "title": "Agentic Dream: Sr. DevOps Engineer / Cloud Architect",
+      "content": "\n\n\n  Headquarters: Remote, Colombia\n    URL: http://agenticdream.com\n\n\nWe are looking for a Senior DevOps Engineer / Cloud Architect with strong full-stack and database expertise to join the Apex program. This role is critical for designing and implementing multi-account architectures and delivering cloud-native solutions. The ideal candidate has deep AWS expertise, mastery of Infrastructure as Code, and proven skills in database administration with PostgreSQL. You will be instrumental in enabling our future commercial expansion by replicating architectures efficiently for new clients.\n\n» Learn more about us at: www.agenticdreamteam.com\n&nbsp;\n\nRequirements\n\n5+ years of AWS experience with deep expertise in CDK (TypeScript/Python), RDS, and Cognito.\nStrong background in PostgreSQL administration, including logical replication (pglogical).\nExperience with production-grade database deployment and management.\nFull-stack development capabilities with TypeScript, Python, and React.\nMastery of Infrastructure as Code with experience in stack drift remediation.\nExpertise in CI/CD pipelines (GitHub Actions and other tools), including troubleshooting and configuration.\nExperience with...",
+      "url": "https://weworkremotely.com/remote-jobs/agentic-dream-sr-devops-engineer-cloud-architect",
+      "author": "Unknown",
+      "published": "2026-01-12T17:43:00",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "DevOps and Sysadmin"
+      ],
+      "summary": "Agentic Dream hiring Senior DevOps/Cloud Architect in Colombia for multi-account AWS architecture with PostgreSQL expertise.",
+      "importance_score": 38,
+      "reasoning": "Cloud architecture role at company with 'Agentic' branding suggesting AI focus, but role is infrastructure.",
+      "themes": [
+        "Cloud Architecture",
+        "DevOps"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Agentic Dream hiring Senior DevOps/Cloud Architect in Colombia for multi-account AWS architecture with PostgreSQL expertise.</p>",
+      "content_html": "<p>Headquarters: Remote, Colombia</p>\n<p>URL: http://agenticdream.com</p>\n<p>We are looking for a Senior DevOps Engineer / Cloud Architect with strong full-stack and database expertise to join the Apex program. This role is critical for designing and implementing multi-account architectures and delivering cloud-native solutions. The ideal candidate has deep AWS expertise, mastery of Infrastructure as Code, and proven skills in database administration with PostgreSQL. You will be instrumental in enabling our future commercial expansion by replicating architectures efficiently for new clients.</p>\n<p>» Learn more about us at: www.agenticdreamteam.com</p>\n<p>&nbsp;</p>\n<p>Requirements</p>\n<p>5+ years of AWS experience with deep expertise in CDK (TypeScript/Python), RDS, and Cognito.</p>\n<p>Strong background in PostgreSQL administration, including logical replication (pglogical).</p>\n<p>Experience with production-grade database deployment and management.</p>\n<p>Full-stack development capabilities with TypeScript, Python, and React.</p>\n<p>Mastery of Infrastructure as Code with experience in stack drift remediation.</p>\n<p>Expertise in CI/CD pipelines (GitHub Actions and other tools), including troubleshooting and configuration.</p>\n<p>Experience with...</p>"
+    },
+    {
+      "id": "d1596134109d",
+      "title": "DexCom: Sr Web Applications Developer - eCommerce",
+      "content": "\n\n\n  Headquarters: Remote - United Kingdom\n    URL: http://dexcom.com\n\n\nThe Company Dexcom Corporation (NASDAQ DXCM) is a pioneer and global leader in continuous glucose monitoring (CGM). Dexcom began as a small company with a big dream: To forever change how diabetes is managed. To unlock information and insights that drive better health outcomes. Here we are 25 years later, having pioneered an industry. And we're just getting started. We are broadening our vision beyond diabetes to empower people to take control of health. That means personalized, actionable insights aimed at solving important health challenges. To continue what we've started: Improving human health. &nbsp;We are driven by thousands of ambitious, passionate people worldwide who are willing to fight like warriors to earn the trust of our customers by listening, serving with integrity, thinking big, and being dependable. We've already changed millions of lives and we're ready to change millions more. Our future ambition is to become a leading consumer health technology company while continuing to develop solutions for serious health conditions. We'll get there by constantly reinventing unique biosensing-technology...",
+      "url": "https://weworkremotely.com/remote-jobs/dexcom-sr-web-applications-developer-ecommerce",
+      "author": "Unknown",
+      "published": "2026-01-09T18:51:46",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "summary": "Dexcom (NASDAQ: DXCM) hiring Senior Web Applications Developer for eCommerce in UK. Medical device company pioneering continuous glucose monitoring.",
+      "importance_score": 38,
+      "reasoning": "Web development at established medtech, not AI/ML focused despite company innovation.",
+      "themes": [
+        "MedTech",
+        "E-commerce Development"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Dexcom (NASDAQ: DXCM) hiring Senior Web Applications Developer for eCommerce in UK. Medical device company pioneering continuous glucose monitoring.</p>",
+      "content_html": "<p>Headquarters: Remote - United Kingdom</p>\n<p>URL: http://dexcom.com</p>\n<p>The Company Dexcom Corporation (NASDAQ DXCM) is a pioneer and global leader in continuous glucose monitoring (CGM). Dexcom began as a small company with a big dream: To forever change how diabetes is managed. To unlock information and insights that drive better health outcomes. Here we are 25 years later, having pioneered an industry. And we're just getting started. We are broadening our vision beyond diabetes to empower people to take control of health. That means personalized, actionable insights aimed at solving important health challenges. To continue what we've started: Improving human health. &nbsp;We are driven by thousands of ambitious, passionate people worldwide who are willing to fight like warriors to earn the trust of our customers by listening, serving with integrity, thinking big, and being dependable. We've already changed millions of lives and we're ready to change millions more. Our future ambition is to become a leading consumer health technology company while continuing to develop solutions for serious health conditions. We'll get there by constantly reinventing unique biosensing-technology...</p>"
+    },
+    {
+      "id": "dee749bbff9c",
+      "title": "Deutsche Telekom IT Solutions Slovakia: Senior DevOps Engineer for Open Sovereign Cloud",
+      "content": "\n\n\n  Headquarters: Moldavská cesta, 040 11 Košice, Slovakia\n    URL: http://deutschetelekomitsolutions.sk\n\n\nCompany DescriptionOur brand Deutsche Telekom IT Solutions Slovakia entered the life of Košice region in 2006 under the name of T-Systems Slovakia and ever since has been inextricably linked with the region when became one of the founding members of Košice IT Valley. We have managed to grow from scratch to the second largest employer in the eastern part of the country with more than 3900 employees. Our goal is to proactively find new ways to improve and continuously transform into the type of company providing innovative information and communication technology services.Job DescriptionPurposeSovereign Cloud is T-Systems' cloud offering for clients with high sovereignty needs. Clients in regulated sectors such as healthcare and the public sector are put in complete charge of their data – on an open-source platform, hosted in Europe. Our focus is to build new product – Sovereign Cloud within T-systems international cloud portfolio. DevOps engineer is participates design and implementation of Kubernetes based Platform as a Service offering to Sovereign Cloud.As Senior DevOps...",
+      "url": "https://weworkremotely.com/remote-jobs/deutsche-telekom-it-solutions-slovakia-senior-devops-engineer-for-open-sovereign-cloud",
+      "author": "Unknown",
+      "published": "2026-01-15T23:39:14",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "DevOps and Sysadmin"
+      ],
+      "summary": "Deutsche Telekom IT Solutions hiring Senior DevOps Engineer for Sovereign Cloud offering. Cloud infrastructure for clients with high sovereignty requirements.",
+      "importance_score": 35,
+      "reasoning": "Enterprise cloud infrastructure role without AI/ML focus. Sovereign cloud is niche area but not AI-specific.",
+      "themes": [
+        "Cloud Infrastructure",
+        "DevOps"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Deutsche Telekom IT Solutions hiring Senior DevOps Engineer for Sovereign Cloud offering. Cloud infrastructure for clients with high sovereignty requirements.</p>",
+      "content_html": "<p>Headquarters: Moldavská cesta, 040 11 Košice, Slovakia</p>\n<p>URL: http://deutschetelekomitsolutions.sk</p>\n<p>Company DescriptionOur brand Deutsche Telekom IT Solutions Slovakia entered the life of Košice region in 2006 under the name of T-Systems Slovakia and ever since has been inextricably linked with the region when became one of the founding members of Košice IT Valley. We have managed to grow from scratch to the second largest employer in the eastern part of the country with more than 3900 employees. Our goal is to proactively find new ways to improve and continuously transform into the type of company providing innovative information and communication technology services.Job DescriptionPurposeSovereign Cloud is T-Systems' cloud offering for clients with high sovereignty needs. Clients in regulated sectors such as healthcare and the public sector are put in complete charge of their data – on an open-source platform, hosted in Europe. Our focus is to build new product – Sovereign Cloud within T-systems international cloud portfolio. DevOps engineer is participates design and implementation of Kubernetes based Platform as a Service offering to Sovereign Cloud.As Senior DevOps...</p>"
+    },
+    {
+      "id": "74df545dcf41",
+      "title": "LMG Staffing Solutions: Google Cloud Platform DevOps Engineer",
+      "content": "\n\n\n  Headquarters: Bogotá, Bogota, Colombia\n    URL: http://logicalmediagroup.com\n\n\nDescriptionAbout UsLogical Media Group is a full-service digital marketing agency committed to innovation, creativity, and performance. We help businesses grow through cutting-edge marketing strategies and data-driven solutions. As we continue expanding our capabilities, we’re seeking a tech-savvy, curious, and motivated Cloud DevOps Engineer based in Colombia to join our growing team.About the RoleLogical Media Group is seeking a Cloud DevOps Engineer to join our dynamic and innovative team. The successful candidate will be part of a fast-paced development team responsible for deployment, including performance tuning, scaling, and cost optimization on our cloud infrastructure.&nbsp;What You’ll Do Collaborate with our development teams to understand the features and requirements for our product. Handle the deployment of optimized features developed by the team. Perform performance tuning to ensure the stability and efficiency of our product. Scale our cloud infrastructure to meet the growing needs of the business. Optimize costs associated with our cloud infrastructure. Work in 1-2 week sprints,...",
+      "url": "https://weworkremotely.com/remote-jobs/lmg-staffing-solutions-google-cloud-platform-devops-engineer",
+      "author": "Unknown",
+      "published": "2026-01-15T23:39:14",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "DevOps and Sysadmin"
+      ],
+      "summary": "LMG Staffing Solutions hiring GCP DevOps Engineer in Colombia for cloud infrastructure and deployment optimization.",
+      "importance_score": 35,
+      "reasoning": "Standard cloud DevOps role without AI/ML focus.",
+      "themes": [
+        "Cloud DevOps",
+        "GCP"
+      ],
+      "continuation": null,
+      "summary_html": "<p>LMG Staffing Solutions hiring GCP DevOps Engineer in Colombia for cloud infrastructure and deployment optimization.</p>",
+      "content_html": "<p>Headquarters: Bogotá, Bogota, Colombia</p>\n<p>URL: http://logicalmediagroup.com</p>\n<p>DescriptionAbout UsLogical Media Group is a full-service digital marketing agency committed to innovation, creativity, and performance. We help businesses grow through cutting-edge marketing strategies and data-driven solutions. As we continue expanding our capabilities, we’re seeking a tech-savvy, curious, and motivated Cloud DevOps Engineer based in Colombia to join our growing team.About the RoleLogical Media Group is seeking a Cloud DevOps Engineer to join our dynamic and innovative team. The successful candidate will be part of a fast-paced development team responsible for deployment, including performance tuning, scaling, and cost optimization on our cloud infrastructure.&nbsp;What You’ll Do Collaborate with our development teams to understand the features and requirements for our product. Handle the deployment of optimized features developed by the team. Perform performance tuning to ensure the stability and efficiency of our product. Scale our cloud infrastructure to meet the growing needs of the business. Optimize costs associated with our cloud infrastructure. Work in 1-2 week sprints,...</p>"
+    },
+    {
+      "id": "0edf3585d189",
+      "title": "YNAB: Humbly Confident Security Engineer",
+      "content": "\n\n\n  Headquarters: Worldwide! We're fully remote.\n    URL: https://www.ynab.com/\n\n\nAbout Us and Why We’re Hiring\nWe’re YNAB (“why-nab”), a financial education company with a mission: to help people get good with money so they never have to worry about money again. For over 20 years, YNAB’s proven method has been changing lives—and people can’t stop telling their friends about the difference it’s made. Think: debt paid off, marriages strengthened, goals achieved, stress erased, and sleep finally restored. But don’t just take our word for it—dive into our vibrant communities on Facebook, TikTok, and Reddit (really!) or skim through our glowing app reviews. You’ll quickly see why people rave about YNAB and why we’re so passionate about creating something that truly changes lives for the better.\nBefore we can help people get good with money, they need to trust YNAB with private details of their lives. And to those who work here, YNAB embodies years of relentless effort to craft something uniquely wonderful. Honoring that trust and protecting the company we’re proud of is why this position exists. Our security team is dedicated full-time to safeguarding YNAB, and they have a single...",
+      "url": "https://weworkremotely.com/remote-jobs/ynab-humbly-confident-security-engineer",
+      "author": "Unknown",
+      "published": "2026-01-15T21:06:58",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "DevOps and Sysadmin"
+      ],
+      "summary": "YNAB hiring Security Engineer to protect their financial education platform. Remote-first company with strong culture focus.",
+      "importance_score": 35,
+      "reasoning": "Security engineering role, important but not AI/ML specific.",
+      "themes": [
+        "Security Engineering",
+        "Fintech"
+      ],
+      "continuation": null,
+      "summary_html": "<p>YNAB hiring Security Engineer to protect their financial education platform. Remote-first company with strong culture focus.</p>",
+      "content_html": "<p>Headquarters: Worldwide! We're fully remote.</p>\n<p>URL: https://www.ynab.com/</p>\n<p>About Us and Why We’re Hiring</p>\n<p>We’re YNAB (“why-nab”), a financial education company with a mission: to help people get good with money so they never have to worry about money again. For over 20 years, YNAB’s proven method has been changing lives—and people can’t stop telling their friends about the difference it’s made. Think: debt paid off, marriages strengthened, goals achieved, stress erased, and sleep finally restored. But don’t just take our word for it—dive into our vibrant communities on Facebook, TikTok, and Reddit (really!) or skim through our glowing app reviews. You’ll quickly see why people rave about YNAB and why we’re so passionate about creating something that truly changes lives for the better.</p>\n<p>Before we can help people get good with money, they need to trust YNAB with private details of their lives. And to those who work here, YNAB embodies years of relentless effort to craft something uniquely wonderful. Honoring that trust and protecting the company we’re proud of is why this position exists. Our security team is dedicated full-time to safeguarding YNAB, and they have a single...</p>"
+    },
+    {
+      "id": "5dbe9d92cbfe",
+      "title": "Proxify AB: Senior Backend Developer (Node.js / Nest.js)",
+      "content": "\n  Headquarters: Sweden\n    URL: http://career.proxify.io\n\n\nThe Role:\n&nbsp;\nWe are looking for a Senior Backend (Node.js / Nest.js) Developer to join our fast-growing network. You’ll be responsible for building modern and scalable web applications, working closely with backend developers and designers to create intuitive user experiences.\nThis is a long-term, full-time remote role with opportunities to work on innovative projects that make a difference.\n&nbsp;\nWhat we’re looking for:\n\n5+ years with Node.js and 3+ past years with Nest.js\nStrong expertise in Node.js and Nest.js frameworks.\nProven experience building REST and/or GraphQL APIs.\nStrong knowledge of JavaScript (ES6+) and TypeScript.\nSolid experience with relational and/or NoSQL databases (e.g., PostgreSQL, MySQL, MongoDB).\nFamiliarity with authentication/authorization mechanisms (JWT, OAuth2).\nExperience with unit/integration testing (e.g., Jest, Mocha).\nProficiency with Git and version control workflows.\nLocated in CET timezone (+/- 3 hours), we are unable to consider applications from candidates in other time zones.\n\n&nbsp;\nNice to Have:\n\nExperience with cloud platforms (AWS, Azure, GCP).\nFamiliarity with CI/CD...",
+      "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-backend-developer-node-js-nest-js-1",
+      "author": "Unknown",
+      "published": "2026-01-15T12:31:23",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Back-End Programming"
+      ],
+      "summary": "Proxify hiring Senior Backend Developer specializing in Node.js and Nest.js for API development.",
+      "importance_score": 35,
+      "reasoning": "Backend development role without AI/ML focus.",
+      "themes": [
+        "Backend Development",
+        "Node.js"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proxify hiring Senior Backend Developer specializing in Node.js and Nest.js for API development.</p>",
+      "content_html": "<p>Headquarters: Sweden</p>\n<p>URL: http://career.proxify.io</p>\n<p>The Role:</p>\n<p>&nbsp;</p>\n<p>We are looking for a Senior Backend (Node.js / Nest.js) Developer to join our fast-growing network. You’ll be responsible for building modern and scalable web applications, working closely with backend developers and designers to create intuitive user experiences.</p>\n<p>This is a long-term, full-time remote role with opportunities to work on innovative projects that make a difference.</p>\n<p>&nbsp;</p>\n<p>What we’re looking for:</p>\n<p>5+ years with Node.js and 3+ past years with Nest.js</p>\n<p>Strong expertise in Node.js and Nest.js frameworks.</p>\n<p>Proven experience building REST and/or GraphQL APIs.</p>\n<p>Strong knowledge of JavaScript (ES6+) and TypeScript.</p>\n<p>Solid experience with relational and/or NoSQL databases (e.g., PostgreSQL, MySQL, MongoDB).</p>\n<p>Familiarity with authentication/authorization mechanisms (JWT, OAuth2).</p>\n<p>Experience with unit/integration testing (e.g., Jest, Mocha).</p>\n<p>Proficiency with Git and version control workflows.</p>\n<p>Located in CET timezone (+/- 3 hours), we are unable to consider applications from candidates in other time zones.</p>\n<p>&nbsp;</p>\n<p>Nice to Have:</p>\n<p>Experience with cloud platforms (AWS, Azure, GCP).</p>\n<p>Familiarity with CI/CD...</p>"
+    },
+    {
+      "id": "a99b9c2d387f",
+      "title": "Proxify AB: Senior DevOps Engineer (Azure)",
+      "content": "\n  Headquarters: Sweden\n    URL: http://career.proxify.io\n\n\n\nThe Role:\nWe are looking for a Senior Azure DevOps Engineer for one of our clients who would be responsible for ensuring the reliability, security, and scalability of Azure-based systems. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products.\n&nbsp;\nWhat we are looking for:\n\n\n5+ years of proven experience as a DevOps Engineer with a strong focus on Azure.\n\n\nIn-depth knowledge of Azure services and architecture, including Azure VMs, Azure App Service, Azure Functions, and more.\n\n\nProficiency in scripting languages (e.g., PowerShell, Bash) and automation tools.\n\n\nExperience with containerization and orchestration tools (Docker, Kubernetes, AKS).\n\n\nFamiliarity with Infrastructure as Code (IaC) principles and tools (ARM templates, Terraform).\n\n\nExperience with version control systems (e.g., Git) and agile development methodologies.\n\n\nStrong problem-solving skills and attention to detail.\n\n\nExcellent communication and teamwork skills.\n\nLocated in the CET timezone (+/- 3 hours), we are unable to consider applications from candidates in...",
+      "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-devops-engineer-azure-5",
+      "author": "Unknown",
+      "published": "2026-01-15T12:01:38",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "All Other Remote"
+      ],
+      "summary": "Proxify seeking Senior Azure DevOps Engineer for cloud infrastructure reliability, security, and scalability.",
+      "importance_score": 35,
+      "reasoning": "Cloud DevOps role without AI/ML focus.",
+      "themes": [
+        "DevOps",
+        "Azure"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proxify seeking Senior Azure DevOps Engineer for cloud infrastructure reliability, security, and scalability.</p>",
+      "content_html": "<p>Headquarters: Sweden</p>\n<p>URL: http://career.proxify.io</p>\n<p>The Role:</p>\n<p>We are looking for a Senior Azure DevOps Engineer for one of our clients who would be responsible for ensuring the reliability, security, and scalability of Azure-based systems. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products.</p>\n<p>&nbsp;</p>\n<p>What we are looking for:</p>\n<p>5+ years of proven experience as a DevOps Engineer with a strong focus on Azure.</p>\n<p>In-depth knowledge of Azure services and architecture, including Azure VMs, Azure App Service, Azure Functions, and more.</p>\n<p>Proficiency in scripting languages (e.g., PowerShell, Bash) and automation tools.</p>\n<p>Experience with containerization and orchestration tools (Docker, Kubernetes, AKS).</p>\n<p>Familiarity with Infrastructure as Code (IaC) principles and tools (ARM templates, Terraform).</p>\n<p>Experience with version control systems (e.g., Git) and agile development methodologies.</p>\n<p>Strong problem-solving skills and attention to detail.</p>\n<p>Excellent communication and teamwork skills.</p>\n<p>Located in the CET timezone (+/- 3 hours), we are unable to consider applications from candidates in...</p>"
+    },
+    {
+      "id": "e605ea4b4988",
+      "title": "Proxify AB: Senior DevOps Engineer (AWS)",
+      "content": "\n  Headquarters: Sweden\n    URL: http://career.proxify.io\n\n\n\nThe Role:\nWe are looking for a Senior DevOps Engineer with strong AWS expertise to join our fast-growing network. In this role, you will help design, build, and maintain robust cloud infrastructure, streamline CI/CD pipelines, and ensure scalable and secure deployments.\nThis is a hands-on engineering position requiring a proactive and detail-oriented professional with deep experience in cloud-native tooling and modern DevOps practices..\n&nbsp;\nWhat we are looking for:\n\nMinimum of 5 years of experience in a DevOps role, with substantial expertise in AWS cloud environments.\nProficiency in scripting languages such as Python, Bash, or PowerShell.\nExperience with infrastructure as code (IaC) tools like Terraform, Ansible, or AWS CloudFormation.\nStrong knowledge of containerization and orchestration tools, particularly Docker and Kubernetes.\nSolid understanding of network architecture, security, and application development methodologies.\nProven ability to design and support robust build, deployment, and configuration management systems for multi-tier applications.\nExcellent problem-solving skills, with the ability to diagnose...",
+      "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-devops-engineer-aws-6",
+      "author": "Unknown",
+      "published": "2026-01-15T11:57:41",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "DevOps and Sysadmin"
+      ],
+      "summary": "Proxify hiring Senior AWS DevOps Engineer for cloud-native infrastructure and CI/CD pipeline management.",
+      "importance_score": 35,
+      "reasoning": "Cloud DevOps role without explicit AI/ML requirements.",
+      "themes": [
+        "DevOps",
+        "AWS"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Proxify hiring Senior AWS DevOps Engineer for cloud-native infrastructure and CI/CD pipeline management.</p>",
+      "content_html": "<p>Headquarters: Sweden</p>\n<p>URL: http://career.proxify.io</p>\n<p>The Role:</p>\n<p>We are looking for a Senior DevOps Engineer with strong AWS expertise to join our fast-growing network. In this role, you will help design, build, and maintain robust cloud infrastructure, streamline CI/CD pipelines, and ensure scalable and secure deployments.</p>\n<p>This is a hands-on engineering position requiring a proactive and detail-oriented professional with deep experience in cloud-native tooling and modern DevOps practices..</p>\n<p>&nbsp;</p>\n<p>What we are looking for:</p>\n<p>Minimum of 5 years of experience in a DevOps role, with substantial expertise in AWS cloud environments.</p>\n<p>Proficiency in scripting languages such as Python, Bash, or PowerShell.</p>\n<p>Experience with infrastructure as code (IaC) tools like Terraform, Ansible, or AWS CloudFormation.</p>\n<p>Strong knowledge of containerization and orchestration tools, particularly Docker and Kubernetes.</p>\n<p>Solid understanding of network architecture, security, and application development methodologies.</p>\n<p>Proven ability to design and support robust build, deployment, and configuration management systems for multi-tier applications.</p>\n<p>Excellent problem-solving skills, with the ability to diagnose...</p>"
+    },
+    {
+      "id": "3e1a4715d0fa",
+      "title": "AHU Technologies: Data Analyst",
+      "content": "\n\n\n  Headquarters: Washington, DC 20009\n    URL: http://ahutech.com\n\n\n\n\nJob Description:&nbsp;Short Description:16+years of experience. Coordinates IT project management, engineering, maintenance, QA, and risk management&nbsp;Complete Description:&nbsp;The Data Steward will play a critical role to support the work of the Client Program Administration, Executive Steering Committee and Client Stakeholders. Under the aegis of the Client Chief Data Officer, the Client Data Steward is responsible for:&nbsp;Operational OversightOne of the key duties of the Data Stewards is overseeing the life cycle of a Client data. Specifically, the Data Steward is responsible for defining and implementing policies and procedures for the day-to-day operational and administrative management of systems and data —including the intake, storage, processing, and transmission of data to internal and external systems. As a part of the oversight for institutional data, the Data Steward must be accountable to define and document data and terminology ina relevant glossary. This includes ensuring that each critical data element has a clear definition and is still in use.·&nbsp; &nbsp; &nbsp; &nbsp;...",
+      "url": "https://weworkremotely.com/remote-jobs/ahu-technologies-data-analyst-1",
+      "author": "Unknown",
+      "published": "2026-01-14T17:39:57",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Back-End Programming"
+      ],
+      "summary": "AHU Technologies hiring Data Analyst/Steward for data governance and lifecycle management with 16+ years experience required.",
+      "importance_score": 35,
+      "reasoning": "Senior data governance role, data-adjacent but not AI/ML engineering.",
+      "themes": [
+        "Data Governance",
+        "Data Management"
+      ],
+      "continuation": null,
+      "summary_html": "<p>AHU Technologies hiring Data Analyst/Steward for data governance and lifecycle management with 16+ years experience required.</p>",
+      "content_html": "<p>Headquarters: Washington, DC 20009</p>\n<p>URL: http://ahutech.com</p>\n<p>Job Description:&nbsp;Short Description:16+years of experience. Coordinates IT project management, engineering, maintenance, QA, and risk management&nbsp;Complete Description:&nbsp;The Data Steward will play a critical role to support the work of the Client Program Administration, Executive Steering Committee and Client Stakeholders. Under the aegis of the Client Chief Data Officer, the Client Data Steward is responsible for:&nbsp;Operational OversightOne of the key duties of the Data Stewards is overseeing the life cycle of a Client data. Specifically, the Data Steward is responsible for defining and implementing policies and procedures for the day-to-day operational and administrative management of systems and data —including the intake, storage, processing, and transmission of data to internal and external systems. As a part of the oversight for institutional data, the Data Steward must be accountable to define and document data and terminology ina relevant glossary. This includes ensuring that each critical data element has a clear definition and is still in use.·&nbsp; &nbsp; &nbsp; &nbsp;...</p>"
+    },
+    {
+      "id": "07ee3cc60453",
+      "title": "Financial Health Network: Director, Research",
+      "content": "\n\n\n  Headquarters: Chicago, Washington D.C.,  or remote\n    URL: http://finhealthnetwork.org\n\n\n\nDirector, Research\n\nSCOPE OF ROLE&nbsp;&nbsp;\n\nThe Director, Research will serve as a senior leader on the Financial Health Network’s Research team, responsible for advancing FHN’s research agenda through research operations, data innovation, methodological excellence, business development, and team leadership. This Director will oversee the design, execution, and dissemination of high-impact research that contributes to FHN’s research strategy and overall mission, strengthens FHN’s leadership in financial health measurement, and connects data to the real-world issues that matter most for improving people’s financial lives.\n&nbsp;\nThe Director will lead major data collection and research initiatives on core and emerging topics while building the infrastructure, partnerships, and team capabilities needed to sustain a growing portfolio of survey, big data, and mixed-methods research that moves and guides financial services providers and employers, as well as core stakeholders in the nonprofit, philanthropic, regulatory, and policy sectors, to take action on financial health.&nbsp;\n\nThis...",
+      "url": "https://weworkremotely.com/remote-jobs/financial-health-network-director-research",
+      "author": "Unknown",
+      "published": "2026-01-12T17:46:41",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Management and Finance"
+      ],
+      "summary": "Financial Health Network hiring Director of Research for financial health measurement and data collection initiatives.",
+      "importance_score": 35,
+      "reasoning": "Research leadership role, data-focused but not AI/ML engineering.",
+      "themes": [
+        "Research",
+        "Financial Health"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Financial Health Network hiring Director of Research for financial health measurement and data collection initiatives.</p>",
+      "content_html": "<p>Headquarters: Chicago, Washington D.C.,  or remote</p>\n<p>URL: http://finhealthnetwork.org</p>\n<p>Director, Research</p>\n<p>SCOPE OF ROLE&nbsp;&nbsp;</p>\n<p>The Director, Research will serve as a senior leader on the Financial Health Network’s Research team, responsible for advancing FHN’s research agenda through research operations, data innovation, methodological excellence, business development, and team leadership. This Director will oversee the design, execution, and dissemination of high-impact research that contributes to FHN’s research strategy and overall mission, strengthens FHN’s leadership in financial health measurement, and connects data to the real-world issues that matter most for improving people’s financial lives.</p>\n<p>&nbsp;</p>\n<p>The Director will lead major data collection and research initiatives on core and emerging topics while building the infrastructure, partnerships, and team capabilities needed to sustain a growing portfolio of survey, big data, and mixed-methods research that moves and guides financial services providers and employers, as well as core stakeholders in the nonprofit, philanthropic, regulatory, and policy sectors, to take action on financial health.&nbsp;</p>\n<p>This...</p>"
+    }
+  ]
+}
