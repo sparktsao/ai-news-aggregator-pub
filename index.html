@@ -601,15 +601,6 @@
 
                 let html = `<img src="${escapeHtml(relativeUrl)}" alt="Hero Image" style="display: block; margin: 0 auto;">`;
 
-                if (prompt && prompt.trim()) {
-                    html += `
-                        <details class="hero-image-prompt">
-                            <summary>🎨 View Image Generation Prompt</summary>
-                            <div style="margin-top: 10px; white-space: pre-wrap;">${escapeHtml(prompt)}</div>
-                        </details>
-                    `;
-                }
-
                 content.innerHTML = html;
             } else {
                 content.innerHTML = '<p style="color: #666; text-align: center; padding: 40px;">No hero image available for this date.</p>';
