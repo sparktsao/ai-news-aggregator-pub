@@ -246,10 +246,44 @@
         .badge.reddit { background: #fee2e2; color: #991b1b; }
         .badge.jobs { background: #e9d5ff; color: #6b21a8; }
 
+        .personal-summary {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #E63946;
+        }
+
+        .personal-summary h3 {
+            margin: 0 0 15px 0;
+            color: #E63946;
+            font-size: 18px;
+        }
+
+        .personal-summary ul {
+            margin: 10px 0;
+            padding-left: 25px;
+        }
+
+        .personal-summary li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+
+        .personal-summary strong {
+            color: #333;
+        }
+
+        .personal-summary p {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+
         @media (max-width: 768px) {
             .stats { display: none; }
             table { font-size: 14px; }
             td, th { padding: 10px; }
+            .personal-summary { padding: 15px; }
         }
     </style>
 
@@ -290,11 +324,18 @@
 
         <div class="category-tabs">
             <button class="tab active" data-category="all">All</button>
+            <button class="tab" data-category="personal">📋 Personal</button>
             <button class="tab" data-category="news">📰 News</button>
             <button class="tab" data-category="research">🔬 Research</button>
             <button class="tab" data-category="social">💬 Social</button>
             <button class="tab" data-category="reddit">🗨️ Reddit</button>
             <button class="tab" data-category="jobs">💼 Jobs</button>
+        </div>
+
+        <div id="personal-summary-container" style="display: none;">
+            <div class="personal-summary">
+                <div id="personal-summary-content"></div>
+            </div>
         </div>
 
         <div class="news-table">
@@ -417,6 +458,20 @@
                     allData[data.category] = data.items || [];
                 });
 
+                // Load personal summary from summary.json
+                try {
+                    const summaryResponse = await fetch(`./data/${date}/summary.json`);
+                    if (summaryResponse.ok) {
+                        const summaryData = await summaryResponse.json();
+                        renderPersonalSummary(summaryData.personal_summary_html);
+                    } else {
+                        renderPersonalSummary(null); // Hide tab if no summary
+                    }
+                } catch (error) {
+                    console.log('No personal summary available for this date');
+                    renderPersonalSummary(null); // Hide tab if error
+                }
+
                 renderTable();
 
             } catch (error) {
@@ -424,9 +479,35 @@
             }
         }
 
+        // Render personal summary
+        function renderPersonalSummary(html) {
+            const content = document.getElementById('personal-summary-content');
+
+            if (html && html.trim()) {
+                content.innerHTML = html;
+            } else {
+                // Show a message when no personal summary is available
+                content.innerHTML = '<p style="color: #666; text-align: center; padding: 40px;">No personal summary available for this date.</p>';
+            }
+        }
+
         // Render table
         function renderTable() {
             const tbody = document.getElementById('news-tbody');
+            const newsTable = document.querySelector('.news-table');
+            const personalContainer = document.getElementById('personal-summary-container');
+
+            // Handle "personal" tab separately
+            if (currentCategory === 'personal') {
+                newsTable.style.display = 'none';
+                personalContainer.style.display = 'block';
+                document.getElementById('total-items').textContent = '-';
+                return;
+            }
+
+            // Show news table, hide personal summary for other tabs
+            newsTable.style.display = 'block';
+            personalContainer.style.display = 'none';
             tbody.innerHTML = '';
 
             // Collect all items
