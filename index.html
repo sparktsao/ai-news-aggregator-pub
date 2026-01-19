@@ -279,11 +279,81 @@
             line-height: 1.6;
         }
 
+        .executive-summary {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .executive-summary h4 {
+            color: #667eea;
+            margin: 15px 0 10px 0;
+        }
+
+        .executive-summary ul {
+            margin: 10px 0;
+            padding-left: 25px;
+        }
+
+        .executive-summary li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+
+        .executive-summary p {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+
+        .executive-summary a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .executive-summary a:hover {
+            text-decoration: underline;
+        }
+
+        .hero-image-container {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #f59e0b;
+        }
+
+        .hero-image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .hero-image-prompt {
+            margin-top: 15px;
+            padding: 15px;
+            background: #fef3c7;
+            border-radius: 6px;
+            font-size: 14px;
+            color: #78350f;
+            line-height: 1.6;
+        }
+
+        .hero-image-prompt summary {
+            cursor: pointer;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
         @media (max-width: 768px) {
             .stats { display: none; }
             table { font-size: 14px; }
             td, th { padding: 10px; }
             .personal-summary { padding: 15px; }
+            .executive-summary { padding: 15px; }
+            .hero-image-container { padding: 15px; }
         }
     </style>
 
@@ -324,7 +394,9 @@
 
         <div class="category-tabs">
             <button class="tab active" data-category="all">All</button>
+            <button class="tab" data-category="executive">📊 Executive</button>
             <button class="tab" data-category="personal">📋 Personal</button>
+            <button class="tab" data-category="hero">🎨 Hero</button>
             <button class="tab" data-category="news">📰 News</button>
             <button class="tab" data-category="research">🔬 Research</button>
             <button class="tab" data-category="social">💬 Social</button>
@@ -332,9 +404,21 @@
             <button class="tab" data-category="jobs">💼 Jobs</button>
         </div>
 
+        <div id="executive-summary-container" style="display: none;">
+            <div class="executive-summary">
+                <div id="executive-summary-content"></div>
+            </div>
+        </div>
+
         <div id="personal-summary-container" style="display: none;">
             <div class="personal-summary">
                 <div id="personal-summary-content"></div>
+            </div>
+        </div>
+
+        <div id="hero-image-container" style="display: none;">
+            <div class="hero-image-container">
+                <div id="hero-image-content"></div>
             </div>
         </div>
 
@@ -458,24 +542,41 @@
                     allData[data.category] = data.items || [];
                 });
 
-                // Load personal summary from summary.json
+                // Load summaries from summary.json
                 try {
                     const summaryResponse = await fetch(`./data/${date}/summary.json`);
                     if (summaryResponse.ok) {
                         const summaryData = await summaryResponse.json();
+                        renderExecutiveSummary(summaryData.executive_summary_html);
                         renderPersonalSummary(summaryData.personal_summary_html);
+                        renderHeroImage(summaryData.hero_image_url, summaryData.hero_image_prompt);
                     } else {
-                        renderPersonalSummary(null); // Hide tab if no summary
+                        renderExecutiveSummary(null);
+                        renderPersonalSummary(null);
+                        renderHeroImage(null, null);
                     }
                 } catch (error) {
-                    console.log('No personal summary available for this date');
-                    renderPersonalSummary(null); // Hide tab if error
+                    console.log('No summary data available for this date');
+                    renderExecutiveSummary(null);
+                    renderPersonalSummary(null);
+                    renderHeroImage(null, null);
                 }
 
                 renderTable();
 
             } catch (error) {
                 showError('Failed to load data: ' + error.message);
+            }
+        }
+
+        // Render executive summary
+        function renderExecutiveSummary(html) {
+            const content = document.getElementById('executive-summary-content');
+
+            if (html && html.trim()) {
+                content.innerHTML = html;
+            } else {
+                content.innerHTML = '<p style="color: #666; text-align: center; padding: 40px;">No executive summary available for this date.</p>';
             }
         }
 
@@ -486,8 +587,29 @@
             if (html && html.trim()) {
                 content.innerHTML = html;
             } else {
-                // Show a message when no personal summary is available
                 content.innerHTML = '<p style="color: #666; text-align: center; padding: 40px;">No personal summary available for this date.</p>';
+            }
+        }
+
+        // Render hero image
+        function renderHeroImage(imageUrl, prompt) {
+            const content = document.getElementById('hero-image-content');
+
+            if (imageUrl && imageUrl.trim()) {
+                let html = `<img src="${escapeHtml(imageUrl)}" alt="Hero Image">`;
+
+                if (prompt && prompt.trim()) {
+                    html += `
+                        <details class="hero-image-prompt">
+                            <summary>🎨 View Image Generation Prompt</summary>
+                            <div style="margin-top: 10px; white-space: pre-wrap;">${escapeHtml(prompt)}</div>
+                        </details>
+                    `;
+                }
+
+                content.innerHTML = html;
+            } else {
+                content.innerHTML = '<p style="color: #666; text-align: center; padding: 40px;">No hero image available for this date.</p>';
             }
         }
 
@@ -495,19 +617,43 @@
         function renderTable() {
             const tbody = document.getElementById('news-tbody');
             const newsTable = document.querySelector('.news-table');
+            const executiveContainer = document.getElementById('executive-summary-container');
             const personalContainer = document.getElementById('personal-summary-container');
+            const heroContainer = document.getElementById('hero-image-container');
 
-            // Handle "personal" tab separately
-            if (currentCategory === 'personal') {
+            // Handle special tabs separately
+            if (currentCategory === 'executive') {
                 newsTable.style.display = 'none';
-                personalContainer.style.display = 'block';
+                executiveContainer.style.display = 'block';
+                personalContainer.style.display = 'none';
+                heroContainer.style.display = 'none';
                 document.getElementById('total-items').textContent = '-';
                 return;
             }
 
-            // Show news table, hide personal summary for other tabs
+            if (currentCategory === 'personal') {
+                newsTable.style.display = 'none';
+                executiveContainer.style.display = 'none';
+                personalContainer.style.display = 'block';
+                heroContainer.style.display = 'none';
+                document.getElementById('total-items').textContent = '-';
+                return;
+            }
+
+            if (currentCategory === 'hero') {
+                newsTable.style.display = 'none';
+                executiveContainer.style.display = 'none';
+                personalContainer.style.display = 'none';
+                heroContainer.style.display = 'block';
+                document.getElementById('total-items').textContent = '-';
+                return;
+            }
+
+            // Show news table, hide all summary containers for news tabs
             newsTable.style.display = 'block';
+            executiveContainer.style.display = 'none';
             personalContainer.style.display = 'none';
+            heroContainer.style.display = 'none';
             tbody.innerHTML = '';
 
             // Collect all items
