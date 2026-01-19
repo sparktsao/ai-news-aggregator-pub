@@ -596,7 +596,10 @@
             const content = document.getElementById('hero-image-content');
 
             if (imageUrl && imageUrl.trim()) {
-                let html = `<img src="${escapeHtml(imageUrl)}" alt="Hero Image">`;
+                // Convert absolute path to relative path for GitHub Pages subdirectory
+                let relativeUrl = imageUrl.startsWith('/') ? '.' + imageUrl : imageUrl;
+
+                let html = `<img src="${escapeHtml(relativeUrl)}" alt="Hero Image" style="display: block; margin: 0 auto;">`;
 
                 if (prompt && prompt.trim()) {
                     html += `
