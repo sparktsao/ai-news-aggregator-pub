@@ -112,15 +112,15 @@ export async function getBatchVoteCounts(itemIds) {
     const response = await fetch(`${API_BASE_URL}/votes/batch?ids=${encodeURIComponent(idsParam)}`);
 
     if (!response.ok) {
-      throw new Error('Failed to fetch batch vote counts');
+      throw new Error(`API returned ${response.status}`);
     }
 
     const data = await response.json();
     return data.results || {};
 
   } catch (error) {
-    console.error('Failed to get batch vote counts:', error);
-    // Return empty counts for all items on error
+    // Silently handle errors - voting is not critical functionality
+    // Just return empty counts for all items
     const emptyResults = {};
     itemIds.forEach(id => {
       emptyResults[id] = {

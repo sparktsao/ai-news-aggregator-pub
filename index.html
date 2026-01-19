@@ -792,7 +792,14 @@
         async function loadVoteCounts() {
             if (!VOTING_ENABLED) return; // Skip if voting not configured
 
+            // Skip if we're on a special tab (no news items)
+            if (['executive', 'personal', 'hero'].includes(currentCategory)) {
+                return;
+            }
+
             const tbody = document.getElementById('news-tbody');
+            if (!tbody) return;
+
             const rows = tbody.querySelectorAll('tr');
 
             // Collect all item IDs
@@ -839,7 +846,8 @@
                     renderTable();
                 }
             } catch (error) {
-                console.error('Failed to load vote counts:', error);
+                // Silently handle errors - voting is not critical
+                console.debug('Vote counts unavailable:', error.message);
             }
         }
 
