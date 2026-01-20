@@ -1,0 +1,98 @@
+{
+  "category": "news",
+  "date": "2026-01-19",
+  "category_summary": "**Zhipu AI** dominates today's coverage, [reaching a **110 billion HKD (~$14B USD)** market cap](/?date=2026-01-19&category=news#item-7110d3f4e825) after its Hong Kong IPO—a landmark moment for Chinese frontier AI companies. The **Tsinghua University** spinout has raised over **8.3 billion RMB** and stands as China's leading domestic LLM developer.\n\nOther content includes educational [discussion on AI in mathematical research](/?date=2026-01-19&category=news#item-07f70b0014cf) (featuring **Terence Tao's** work and **Lean** formal verification) and brief social [commentary on AI sentience](/?date=2026-01-19&category=news#item-80480bb52fd5) debates.",
+  "category_summary_html": "<p><strong>Zhipu AI</strong> dominates today's coverage, <a href=\"/?date=2026-01-19&category=news#item-7110d3f4e825\" class=\"internal-link\">reaching a <strong>110 billion HKD (~$14B USD)</strong> market cap</a> after its Hong Kong IPO—a landmark moment for Chinese frontier AI companies. The <strong>Tsinghua University</strong> spinout has raised over <strong>8.3 billion RMB</strong> and stands as China's leading domestic LLM developer.</p>\n<p>Other content includes educational <a href=\"/?date=2026-01-19&category=news#item-07f70b0014cf\" class=\"internal-link\">discussion on AI in mathematical research</a> (featuring <strong>Terence Tao's</strong> work and <strong>Lean</strong> formal verification) and brief social <a href=\"/?date=2026-01-19&category=news#item-80480bb52fd5\" class=\"internal-link\">commentary on AI sentience</a> debates.</p>",
+  "themes": [
+    {
+      "name": "Chinese AI Industry",
+      "description": "Major valuation milestone for China's leading LLM company post-IPO",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 74.0
+    },
+    {
+      "name": "AI in Scientific Research",
+      "description": "Discussion of AI tools transforming mathematical proof and verification",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 42.0
+    },
+    {
+      "name": "AI Philosophy/Sentience",
+      "description": "Ongoing public discourse about AI consciousness and convincing behavior",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 18.0
+    }
+  ],
+  "total_items": 3,
+  "items": [
+    {
+      "id": "7110d3f4e825",
+      "title": "智谱1000亿 ,  清华赚翻了",
+      "content": "作者/吴琼\n  报道/投资界PEdaily\n  又一个创投圈现象级回报。\n  自1月8日登陆港交所后，智谱股价一路高涨，短短一周市值涨超500亿港元。截至目前，智谱最新市值达到了1100亿港元。\n  成立至今，智谱累计完成至少8轮融资，融资规模超83亿元，身后集结超50家机构投资方，合计共87家股东。随着股价大涨，身后投资人及员工团队都实现超级回报。\n  但外界鲜少注意到的是，2019年智谱成立时出现了一个极为重要的面孔——华控技术，这是清华大学科技成果转化平台，陪伴至今缔造一段回报佳话。\n  智谱市值1100亿，一段清华往事\n  追溯起来，智谱前身历史久远。\n  时间回到2006年，清华大学计算机系知识工程实验室（KEG）发布了名为AMiner的产品，其核心是利用人工智能挖掘科研规律，这为日后智谱的技术奠定了基础。\n  2019年，为了将科研成果发挥出最大价值，借助KEG实验室过往技术积累，智谱由此成立。其中，清华计算机系知名教授唐杰担任首席科学家；清华创新领军工程博士张鹏担任CEO兼总经理，主导业务、研发与运营；刘德兵出任董事长，负责战略与管理。\n  随着智谱上市，公司最初的股权结构也浮出水面——除了创始团队成员，还包括两个独立第三方，中科创星及华控技术。\n  其中，华控技术成立于2014年，作为清华大学科技成果转化的平台型公司，是清华孵化、推动技术转移的实施主体。早在在智谱独立创业时，华控技术成为初始股东。资料显示，彼时华控技术持有11.99%股份。\n  张鹏曾表示，公司是带着技术、团队、客户和市场直接启程的，“从第一天起就有收入。”此后一场轰轰烈烈的大模型浪潮席卷而来，智谱稳居国产大模型第一梯队。如今智谱登陆港交所，最新市值1100亿港元。\n  一个从清华实验室走出的项目缔造千亿市值，这正是高校科技成果转化动人的地方。目前华控技术持有智谱股份为3.53%，对应市值约38.83亿港元。换言之，这个科技成果转化项目为清华带来账面收益超38亿港元。\n  清华科技成果转化的故事还在继续，至今已孵化出无问芯穹、华翊量子、星动纪元、清微智能、清申科技等明星项目。据悉，华控技术代表清华大学持有和管理学校科技成果转化所形成的归属学校、院系的股权，实现科技成果转化项目股权的高效管理和国有资产的保值增值，并将所获收益回馈学校，持续支持科技创新。\n  创投圈一场超级回报\n  记得上市首日，智谱市值超500亿港元。即便如此，身后投资人回报颇丰。\n  智谱上市的节点，正值中国科技企业迎来IPO红利。不止智谱，MiniMax上市首日市值便破千亿港元，更为迅猛。\n  从500亿到破千亿，这一周智谱发生了什么？\n  当国产大模型进入竞争新阶段，商业化能力尤为重要。过去一周，智谱与滴滴宣布达成战略合作，将围绕AGI技术及出行领域智能体应用展开探索，公司股价当日随即涨超30%。\n  随后1月16日，智谱宣布与华为联合开源的新一代图像生成模型GLM-Image，在开源上线不到24小时内，便登上全球知名AI开源社区Hugging Face Trending榜第一。不出意料，又是一波大涨。\n  算下来，智谱上市七个交易日已累计上涨超126%，缔造今年北京一个千亿IPO。\n  此情此景，无疑是投资人期待的丰收时刻。招股书显示，在IPO前，智谱累计完成至少8轮融资，融资规模超83亿元，身后集结超50家机构股东。按招股书变更顺序，包括中科创星、华控技术转移有限公司、通智投资、达晨财智、华控基金、君联资本、启明创投、今日资本、光合创投、顺为资本、红杉中国、高瓴、云晖资本、招商局创投、Prosperity7、5G基金、珠海科技产业集团、中关村科学城、策源资本、联想创投等创投机构，美团、蚂蚁、阿里、腾讯、小米、金山、Boss直聘、好未来等产业资本，以及北京、上海、成都、天津、杭州等地方国资。\n  智谱累计的股东阵营实在太过庞大，难以一一列举。但毋庸置疑，这已经是一个极好的局面——2025年5月最后一轮融资，智谱每股股份成本为60.52元，如今股价已经翻了约4倍。\n  当然，公司核心团队也得到丰厚回报。目前，慧惠及智登为智谱员工持股平台，分别持有8.97%、6.18%股份。据悉，慧惠拥有426 名有限合伙人，均为智谱现有及以往员工；智登拥有25名有限合伙人，均为智谱现有员工及顾问。用网友的话说：\n  “一夜之间，海淀又有一群人财富自由了。”\n  中国高校创业时代\n  这是高校科技成果转化的一缕缩影。\n  清华向来走在前列。这些年来，清华相继成立了知识产权管理与成果转化领导小组、技术转移研究院、校地合作办公室等促进科技成果转化的专门机构，建成了较为完善的科技成果转化体系。\n  以华控技术为例，成立至今已累计推进350余个项目，覆盖40余个院系，其中包括院士项目40余个，项目覆盖信息技术、能源环保、高端制造、生命健康、新材料科技领域，逐步成为一个科技成果转化范本。\n  印象中还有一个典型案例，由清华大学电子工程系师生共同创立的深鉴科技，2018年被赛灵思以3亿美元收购，由此成为中国AI行业风投退出第一单，也是清华大学有规定以来第一家科技成果作价入股、产品化、实现现金回报的公司。\n  更为惊讶的一组数据是，近三年清华大学完成约450项成果处置，总金额超15亿元，孵化出智谱等300家企业。据《中国科技成果转化年度报告2024》，清华大学位居2023年高等院校科技成果转化总合同金额榜单首位。\n  当然，不止清华。经历漫长研发，越来越多科技成果转化项目走出实验室。\n  本周，赜灵生物向港交所递交招股书。追溯下来，赜灵生物正是依托四川大学华西医院成果转化机制成长而来。背后掌舵人，是四川大学华西医院教授陈俐娟博士。\n  一批来自高校的创业项目赶上了好时机。比如脱胎于清华聚变实验室的星环聚能，最近一举融资10亿，缔造开年最大核聚变融资；中科大已孵化出国盾量子等一批量子企业；乘上商业航天东风，铂力特最新市值超300亿元，这是一个源自西工大的项目……\n  历史经验表明，科技创新的源头往往来自高校。越来越多具有原始创新能力的高校师生走出象牙塔，高校也不断完善校内科技成果转化体制。“去高校蹲项目”也成为创投圈常见一幕。下一个改变未来的火种，或许就藏在某个实验室里。\n  不同以往，中国技术创业时代崛起。\n  本文来自微信公众号“投资界”，作者：吴琼，36氪经授权发布。",
+      "url": "https://36kr.com/p/3644717569625990?f=rss",
+      "author": "Unknown",
+      "published": "2026-01-18T09:18:49",
+      "source": "36氪",
+      "source_type": "rss",
+      "tags": [],
+      "summary": "Zhipu AI (智谱), one of China's leading AI companies, has seen its market cap reach 110 billion HKD (~$14B USD) following its Hong Kong Stock Exchange IPO in January 2025. The company, which emerged from Tsinghua University's KEG lab and has raised over 8.3 billion RMB across 8+ funding rounds, represents a major Chinese tech transfer success story.",
+      "importance_score": 74.0,
+      "reasoning": "Significant milestone for a top-tier Chinese AI company reaching substantial public market valuation. Zhipu is considered China's leading domestic LLM developer, making this relevant to understanding the global frontier AI competitive landscape.",
+      "themes": [
+        "Chinese AI",
+        "IPO/Markets",
+        "University Tech Transfer",
+        "AI Industry"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Zhipu AI (智谱), one of China's leading AI companies, has seen its market cap reach 110 billion HKD (~$14B USD) following its Hong Kong Stock Exchange IPO in January 2025. The company, which emerged from Tsinghua University's KEG lab and has raised over 8.3 billion RMB across 8+ funding rounds, represents a major Chinese tech transfer success story.</p>",
+      "content_html": "<p>作者/吴琼</p>\n<p>报道/投资界PEdaily</p>\n<p>又一个创投圈现象级回报。</p>\n<p>自1月8日登陆港交所后，智谱股价一路高涨，短短一周市值涨超500亿港元。截至目前，智谱最新市值达到了1100亿港元。</p>\n<p>成立至今，智谱累计完成至少8轮融资，融资规模超83亿元，身后集结超50家机构投资方，合计共87家股东。随着股价大涨，身后投资人及员工团队都实现超级回报。</p>\n<p>但外界鲜少注意到的是，2019年智谱成立时出现了一个极为重要的面孔——华控技术，这是清华大学科技成果转化平台，陪伴至今缔造一段回报佳话。</p>\n<p>智谱市值1100亿，一段清华往事</p>\n<p>追溯起来，智谱前身历史久远。</p>\n<p>时间回到2006年，清华大学计算机系知识工程实验室（KEG）发布了名为AMiner的产品，其核心是利用人工智能挖掘科研规律，这为日后智谱的技术奠定了基础。</p>\n<p>2019年，为了将科研成果发挥出最大价值，借助KEG实验室过往技术积累，智谱由此成立。其中，清华计算机系知名教授唐杰担任首席科学家；清华创新领军工程博士张鹏担任CEO兼总经理，主导业务、研发与运营；刘德兵出任董事长，负责战略与管理。</p>\n<p>随着智谱上市，公司最初的股权结构也浮出水面——除了创始团队成员，还包括两个独立第三方，中科创星及华控技术。</p>\n<p>其中，华控技术成立于2014年，作为清华大学科技成果转化的平台型公司，是清华孵化、推动技术转移的实施主体。早在在智谱独立创业时，华控技术成为初始股东。资料显示，彼时华控技术持有11.99%股份。</p>\n<p>张鹏曾表示，公司是带着技术、团队、客户和市场直接启程的，“从第一天起就有收入。”此后一场轰轰烈烈的大模型浪潮席卷而来，智谱稳居国产大模型第一梯队。如今智谱登陆港交所，最新市值1100亿港元。</p>\n<p>一个从清华实验室走出的项目缔造千亿市值，这正是高校科技成果转化动人的地方。目前华控技术持有智谱股份为3.53%，对应市值约38.83亿港元。换言之，这个科技成果转化项目为清华带来账面收益超38亿港元。</p>\n<p>清华科技成果转化的故事还在继续，至今已孵化出无问芯穹、华翊量子、星动纪元、清微智能、清申科技等明星项目。据悉，华控技术代表清华大学持有和管理学校科技成果转化所形成的归属学校、院系的股权，实现科技成果转化项目股权的高效管理和国有资产的保值增值，并将所获收益回馈学校，持续支持科技创新。</p>\n<p>创投圈一场超级回报</p>\n<p>记得上市首日，智谱市值超500亿港元。即便如此，身后投资人回报颇丰。</p>\n<p>智谱上市的节点，正值中国科技企业迎来IPO红利。不止智谱，MiniMax上市首日市值便破千亿港元，更为迅猛。</p>\n<p>从500亿到破千亿，这一周智谱发生了什么？</p>\n<p>当国产大模型进入竞争新阶段，商业化能力尤为重要。过去一周，智谱与滴滴宣布达成战略合作，将围绕AGI技术及出行领域智能体应用展开探索，公司股价当日随即涨超30%。</p>\n<p>随后1月16日，智谱宣布与华为联合开源的新一代图像生成模型GLM-Image，在开源上线不到24小时内，便登上全球知名AI开源社区Hugging Face Trending榜第一。不出意料，又是一波大涨。</p>\n<p>算下来，智谱上市七个交易日已累计上涨超126%，缔造今年北京一个千亿IPO。</p>\n<p>此情此景，无疑是投资人期待的丰收时刻。招股书显示，在IPO前，智谱累计完成至少8轮融资，融资规模超83亿元，身后集结超50家机构股东。按招股书变更顺序，包括中科创星、华控技术转移有限公司、通智投资、达晨财智、华控基金、君联资本、启明创投、今日资本、光合创投、顺为资本、红杉中国、高瓴、云晖资本、招商局创投、Prosperity7、5G基金、珠海科技产业集团、中关村科学城、策源资本、联想创投等创投机构，美团、蚂蚁、阿里、腾讯、小米、金山、Boss直聘、好未来等产业资本，以及北京、上海、成都、天津、杭州等地方国资。</p>\n<p>智谱累计的股东阵营实在太过庞大，难以一一列举。但毋庸置疑，这已经是一个极好的局面——2025年5月最后一轮融资，智谱每股股份成本为60.52元，如今股价已经翻了约4倍。</p>\n<p>当然，公司核心团队也得到丰厚回报。目前，慧惠及智登为智谱员工持股平台，分别持有8.97%、6.18%股份。据悉，慧惠拥有426 名有限合伙人，均为智谱现有及以往员工；智登拥有25名有限合伙人，均为智谱现有员工及顾问。用网友的话说：</p>\n<p>“一夜之间，海淀又有一群人财富自由了。”</p>\n<p>中国高校创业时代</p>\n<p>这是高校科技成果转化的一缕缩影。</p>\n<p>清华向来走在前列。这些年来，清华相继成立了知识产权管理与成果转化领导小组、技术转移研究院、校地合作办公室等促进科技成果转化的专门机构，建成了较为完善的科技成果转化体系。</p>\n<p>以华控技术为例，成立至今已累计推进350余个项目，覆盖40余个院系，其中包括院士项目40余个，项目覆盖信息技术、能源环保、高端制造、生命健康、新材料科技领域，逐步成为一个科技成果转化范本。</p>\n<p>印象中还有一个典型案例，由清华大学电子工程系师生共同创立的深鉴科技，2018年被赛灵思以3亿美元收购，由此成为中国AI行业风投退出第一单，也是清华大学有规定以来第一家科技成果作价入股、产品化、实现现金回报的公司。</p>\n<p>更为惊讶的一组数据是，近三年清华大学完成约450项成果处置，总金额超15亿元，孵化出智谱等300家企业。据《中国科技成果转化年度报告2024》，清华大学位居2023年高等院校科技成果转化总合同金额榜单首位。</p>\n<p>当然，不止清华。经历漫长研发，越来越多科技成果转化项目走出实验室。</p>\n<p>本周，赜灵生物向港交所递交招股书。追溯下来，赜灵生物正是依托四川大学华西医院成果转化机制成长而来。背后掌舵人，是四川大学华西医院教授陈俐娟博士。</p>\n<p>一批来自高校的创业项目赶上了好时机。比如脱胎于清华聚变实验室的星环聚能，最近一举融资10亿，缔造开年最大核聚变融资；中科大已孵化出国盾量子等一批量子企业；乘上商业航天东风，铂力特最新市值超300亿元，这是一个源自西工大的项目……</p>\n<p>历史经验表明，科技创新的源头往往来自高校。越来越多具有原始创新能力的高校师生走出象牙塔，高校也不断完善校内科技成果转化体制。“去高校蹲项目”也成为创投圈常见一幕。下一个改变未来的火种，或许就藏在某个实验室里。</p>\n<p>不同以往，中国技术创业时代崛起。</p>\n<p>本文来自微信公众号“投资界”，作者：吴琼，36氪经授权发布。</p>"
+    },
+    {
+      "id": "07f70b0014cf",
+      "title": "【人工智能】AI如何重塑数学的研究范式？| 陶哲轩 | 埃尔德什差异问题 | 高维空间奇点 | 八维西蒙斯锥 | 素数随机性 | 现代密码学危机 | AI数学证明 | Lean语言 | 形式化逻辑",
+      "content": "如果世界是上帝写的一本天书，数学就是唯一的翻译方言。本期视频带你走进当代最强解题者陶哲轩的思想世界。我们将从十岁神童与数学游侠埃尔德什的传奇会面讲起，见证数学如何从一场天才的孤独游戏演变为跨越时空的接力赛。为什么到了第八维空间，人类的直觉会彻底失效？为什么支撑现代金融安全的素数规律，可能是一颗随时爆炸的定时炸弹？当大语言模型开始胡言乱语地证明定理，AI究竟是数学家的终结者还是最强辅助？这是一场关于秩序、混沌与宇宙底层的终极探索。\nhttps://youtu.be/ukpCHo5v-Gc?si=4ihWUdv_DuLnDRW8",
+      "url": "https://www.youtube.com/watch?v=-YfDs66SHfM",
+      "author": "最佳拍档",
+      "published": "2026-01-18T09:00:00",
+      "source": "最佳拍档",
+      "source_type": "rss",
+      "tags": [],
+      "summary": "Educational video exploring how AI is transforming mathematical research paradigms, featuring discussion of Terence Tao's work, the Lean formal proof language, and questions about whether AI serves as a tool or threat to mathematicians. Covers topics from high-dimensional geometry to cryptography implications.",
+      "importance_score": 42.0,
+      "reasoning": "Commentary/educational content about AI-assisted mathematics rather than breaking news. While the topic of formal verification and AI proofs is important, this video summarizes existing developments rather than announcing new capabilities.",
+      "themes": [
+        "AI in Mathematics",
+        "Formal Verification",
+        "Educational Content"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Educational video exploring how AI is transforming mathematical research paradigms, featuring discussion of Terence Tao's work, the Lean formal proof language, and questions about whether AI serves as a tool or threat to mathematicians. Covers topics from high-dimensional geometry to cryptography implications.</p>",
+      "content_html": "<p>如果世界是上帝写的一本天书，数学就是唯一的翻译方言。本期视频带你走进当代最强解题者陶哲轩的思想世界。我们将从十岁神童与数学游侠埃尔德什的传奇会面讲起，见证数学如何从一场天才的孤独游戏演变为跨越时空的接力赛。为什么到了第八维空间，人类的直觉会彻底失效？为什么支撑现代金融安全的素数规律，可能是一颗随时爆炸的定时炸弹？当大语言模型开始胡言乱语地证明定理，AI究竟是数学家的终结者还是最强辅助？这是一场关于秩序、混沌与宇宙底层的终极探索。</p>\n<p>https://youtu.be/ukpCHo5v-Gc?si=4ihWUdv_DuLnDRW8</p>"
+    },
+    {
+      "id": "80480bb52fd5",
+      "title": "AI Sentience or Simulation? | MOONSHOTS",
+      "content": "Opus 4.5 is a little bit too convincing....",
+      "url": "https://www.youtube.com/shorts/0RLZ2BGyFOY",
+      "author": "Peter H. Diamandis",
+      "published": "2026-01-18T21:02:56",
+      "source": "Peter H. Diamandis",
+      "source_type": "rss",
+      "tags": [],
+      "summary": "Brief YouTube short from Peter Diamandis commenting that 'Opus 4.5 is a little bit too convincing' in the context of AI sentience discussions.",
+      "importance_score": 18.0,
+      "reasoning": "Minimal news value - a brief social media reaction to Claude models without substantive information, analysis, or announcements. No actual news content beyond a single subjective comment.",
+      "themes": [
+        "AI Sentience Debate",
+        "Social Commentary"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Brief YouTube short from Peter Diamandis commenting that 'Opus 4.5 is a little bit too convincing' in the context of AI sentience discussions.</p>",
+      "content_html": "<p>Opus 4.5 is a little bit too convincing....</p>"
+    }
+  ]
+}

@@ -1,0 +1,1363 @@
+{
+  "date": "2026-01-20",
+  "coverage_date": "2026-01-19",
+  "coverage_start": "2026-01-19T00:00:00",
+  "coverage_end": "2026-01-19T23:59:59.999999",
+  "executive_summary": "#### Top Story\n**xAI** reported a [**$10.5 billion quarterly loss**](/?date=2026-01-20&category=news#item-22ac7d7bb8cb) while its **Colossus** compute cluster burns **$28 million daily**, as the company positions itself as a major **OpenAI** competitor with access to **Tesla** autonomous driving data.\n\n#### Key Developments\n- **OpenAI**: [Executed talent acquisition](/?date=2026-01-20&category=news#item-ac595f4dbc10) from **Mira Murati's** startup **Thinking Machines** in under 58 minutes, highlighting intense Silicon Valley AI talent wars\n- **Cursor**: [Built a functional web browser](/?date=2026-01-20&category=social#item-421aefadc792) using AI coding agents in weeks, with **Simon Willison** calling the fresh HTML/CSS rendering implementation \"astonishingly impressive\"\n- **GLM 4.7 Flash**: [Rapidly adopted by local LLM community](/?date=2026-01-20&category=reddit#item-321cdfb3f1ab) after **llama.cpp** integration, praised for efficiency on GPU-constrained setups\n- **Google Cloud**: Compute scarcity reportedly constraining AI startups and accelerating industry consolidation\n- **llama.cpp**: [Merged **20x faster Top-K implementation**](/?date=2026-01-20&category=reddit#item-cd850a7e281f) achieving **63% faster prompt processing** with AVX2 optimization\n\n#### Safety & Regulation\n- **Gray vs OpenAI** [lawsuit over a suicide](/?date=2026-01-20&category=reddit#item-505bfb300851) sparked discussion about guardrails and AI safety consequences\n- **25 data center projects** [cancelled due to community backlash](/?date=2026-01-20&category=reddit#item-da38c68ece1f), signaling growing local opposition to AI infrastructure\n\n#### Research Highlights\n- **MHub.ai**: [Standardized containerization platform](/?date=2026-01-20&category=research#item-3642d5ccbc37) addressing medical AI reproducibility for DICOM-compatible imaging models\n- **Sakana AI's RePo**: [Enables LLMs to intelligently curate](/?date=2026-01-20&category=social#item-a0cd063a56dc) working memory rather than passively accepting linear context\n\n#### Job Market Highlights\n- **ElevenLabs** (**$6.6B** valuation, **$200M+ ARR**) [actively hiring](/?date=2026-01-20&category=jobs#item-5a8c73958169), signaling strong market confidence in audio AI\n- **Mercor**, **Pavago** (YC W25), and **Toptal** [recruiting domain experts](/?date=2026-01-20&category=jobs#item-453c2c623436) for RLHF training data—continued investment in human-in-the-loop development\n- **AI x Biology** [emerging as high-impact specialization](/?date=2026-01-20&category=jobs#item-2274b14a18a2) combining deep learning with sequence modeling\n\n#### Looking Ahead\nCommunity predictions [suggest **latent reasoning** may replace](/?date=2026-01-20&category=reddit#item-f262e561e56e) token-based Chain-of-Thought by 2026, while compute scarcity continues driving interest in local LLM alternatives and professional-grade workstations.",
+  "executive_summary_html": "<h4>Top Story</h4>\n<p><strong>xAI</strong> reported a <a href=\"/?date=2026-01-20&category=news#item-22ac7d7bb8cb\" class=\"internal-link\"><strong>$10.5 billion quarterly loss</strong></a> while its <strong>Colossus</strong> compute cluster burns <strong>$28 million daily</strong>, as the company positions itself as a major <strong>OpenAI</strong> competitor with access to <strong>Tesla</strong> autonomous driving data.</p>\n<h4>Key Developments</h4>\n<ul>\n<li><strong>OpenAI</strong>: <a href=\"/?date=2026-01-20&category=news#item-ac595f4dbc10\" class=\"internal-link\">Executed talent acquisition</a> from <strong>Mira Murati's</strong> startup <strong>Thinking Machines</strong> in under 58 minutes, highlighting intense Silicon Valley AI talent wars</li>\n<li><strong>Cursor</strong>: <a href=\"/?date=2026-01-20&category=social#item-421aefadc792\" class=\"internal-link\">Built a functional web browser</a> using AI coding agents in weeks, with <strong>Simon Willison</strong> calling the fresh HTML/CSS rendering implementation \"astonishingly impressive\"</li>\n<li><strong>GLM 4.7 Flash</strong>: <a href=\"/?date=2026-01-20&category=reddit#item-321cdfb3f1ab\" class=\"internal-link\">Rapidly adopted by local LLM community</a> after <strong>llama.cpp</strong> integration, praised for efficiency on GPU-constrained setups</li>\n<li><strong>Google Cloud</strong>: Compute scarcity reportedly constraining AI startups and accelerating industry consolidation</li>\n<li><strong>llama.cpp</strong>: <a href=\"/?date=2026-01-20&category=reddit#item-cd850a7e281f\" class=\"internal-link\">Merged <strong>20x faster Top-K implementation</strong></a> achieving <strong>63% faster prompt processing</strong> with AVX2 optimization</li>\n</ul>\n<h4>Safety & Regulation</h4>\n<ul>\n<li><strong>Gray vs OpenAI</strong> <a href=\"/?date=2026-01-20&category=reddit#item-505bfb300851\" class=\"internal-link\">lawsuit over a suicide</a> sparked discussion about guardrails and AI safety consequences</li>\n<li><strong>25 data center projects</strong> <a href=\"/?date=2026-01-20&category=reddit#item-da38c68ece1f\" class=\"internal-link\">cancelled due to community backlash</a>, signaling growing local opposition to AI infrastructure</li>\n</ul>\n<h4>Research Highlights</h4>\n<ul>\n<li><strong>MHub.ai</strong>: <a href=\"/?date=2026-01-20&category=research#item-3642d5ccbc37\" class=\"internal-link\">Standardized containerization platform</a> addressing medical AI reproducibility for DICOM-compatible imaging models</li>\n<li><strong>Sakana AI's RePo</strong>: <a href=\"/?date=2026-01-20&category=social#item-a0cd063a56dc\" class=\"internal-link\">Enables LLMs to intelligently curate</a> working memory rather than passively accepting linear context</li>\n</ul>\n<h4>Job Market Highlights</h4>\n<ul>\n<li><strong>ElevenLabs</strong> (<strong>$6.6B</strong> valuation, <strong>$200M+ ARR</strong>) <a href=\"/?date=2026-01-20&category=jobs#item-5a8c73958169\" class=\"internal-link\">actively hiring</a>, signaling strong market confidence in audio AI</li>\n<li><strong>Mercor</strong>, <strong>Pavago</strong> (YC W25), and <strong>Toptal</strong> <a href=\"/?date=2026-01-20&category=jobs#item-453c2c623436\" class=\"internal-link\">recruiting domain experts</a> for RLHF training data—continued investment in human-in-the-loop development</li>\n<li><strong>AI x Biology</strong> <a href=\"/?date=2026-01-20&category=jobs#item-2274b14a18a2\" class=\"internal-link\">emerging as high-impact specialization</a> combining deep learning with sequence modeling</li>\n</ul>\n<h4>Looking Ahead</h4>\n<p>Community predictions <a href=\"/?date=2026-01-20&category=reddit#item-f262e561e56e\" class=\"internal-link\">suggest <strong>latent reasoning</strong> may replace</a> token-based Chain-of-Thought by 2026, while compute scarcity continues driving interest in local LLM alternatives and professional-grade workstations.</p>",
+  "personal_summary": "- **Agent vs LLM重要性**: 今日新聞顯示**Agent是價值創造的關鍵層**——Cursor用Agent幾週內建出瀏覽器，Simon Willison稱「驚人地impressive」；Claude Code自主生成可玩遊戲。但Agent建立在強LLM之上，兩者共生，**Agent是差異化競爭點，LLM是基礎設施**\n\n- **Train LLM vs RAG**: 明確答案：**專注RAG/記憶管理**。xAI每天燒$28M算力，個人不可能競爭。**Sakana AI的RePo**研究讓LLM智能管理working memory而非被動接受線性context——這才是個人該投資的方向。搭配**GLM 4.7 Flash**等高效開源模型即可\n\n- **中國 vs 美國AI**: **各有優勢**。美國：資金充沛(xAI雖虧$105億仍獲Nvidia、卡塔爾投資)、人才戰激烈(OpenAI 58分鐘挖走Mira Murati團隊)。中國：**GLM 4.7 Flash**快速被llama.cpp整合，社群讚其「GPU poor」友善、跑數十萬agentic tokens效率高。**實用場景中國模型性價比突出**\n\n- **個人學習/機會**: \n  - **高薪方向**: AI x Biology(序列建模)、Agent開發(SuperPlane招聘)、音頻AI(ElevenLabs $6.6B估值)\n  - **低門檻機會**: Domain Expert做RLHF訓練資料——**Mercor、Pavago(YC W25)、Toptal**都在招金融/房地產專家\n  - **創業機會**: 本地LLM工具(雲端算力稀缺)、醫療AI部署(MHub.ai驗證需求)\n\n- **CEO三句話 (AI Security #1定位)**:\n  1. **法律風險已成現實**：Gray訴OpenAI案因AI對話導致自殺，guardrails不足將面臨訴訟\n  2. **基礎設施在地化趨勢**：25個資料中心因社區反對取消，企業將轉向可控的本地/私有部署方案\n  3. **行動建議**：投資Human-in-the-loop安全機制(業界持續招募RLHF專家)，定位為「安全guardrails + 本地部署」的enterprise solution provider",
+  "personal_summary_html": "<ul>\n<li><strong>Agent vs LLM重要性</strong>: 今日新聞顯示<strong>Agent是價值創造的關鍵層</strong>——Cursor用Agent幾週內建出瀏覽器，Simon Willison稱「驚人地impressive」；Claude Code自主生成可玩遊戲。但Agent建立在強LLM之上，兩者共生，<strong>Agent是差異化競爭點，LLM是基礎設施</strong></li>\n</ul>\n<ul>\n<li><strong>Train LLM vs RAG</strong>: 明確答案：<strong>專注RAG/記憶管理</strong>。xAI每天燒$28M算力，個人不可能競爭。<strong>Sakana AI的RePo</strong>研究讓LLM智能管理working memory而非被動接受線性context——這才是個人該投資的方向。搭配<strong>GLM 4.7 Flash</strong>等高效開源模型即可</li>\n</ul>\n<ul>\n<li><strong>中國 vs 美國AI</strong>: <strong>各有優勢</strong>。美國：資金充沛(xAI雖虧$105億仍獲Nvidia、卡塔爾投資)、人才戰激烈(OpenAI 58分鐘挖走Mira Murati團隊)。中國：<strong>GLM 4.7 Flash</strong>快速被llama.cpp整合，社群讚其「GPU poor」友善、跑數十萬agentic tokens效率高。<strong>實用場景中國模型性價比突出</strong></li>\n</ul>\n<ul>\n<li><strong>個人學習/機會</strong>:</li>\n<li><strong>高薪方向</strong>: AI x Biology(序列建模)、Agent開發(SuperPlane招聘)、音頻AI(ElevenLabs $6.6B估值)</li>\n<li><strong>低門檻機會</strong>: Domain Expert做RLHF訓練資料——<strong>Mercor、Pavago(YC W25)、Toptal</strong>都在招金融/房地產專家</li>\n<li><strong>創業機會</strong>: 本地LLM工具(雲端算力稀缺)、醫療AI部署(MHub.ai驗證需求)</li>\n</ul>\n<ul>\n<li><strong>CEO三句話 (AI Security #1定位)</strong>:</li>\n</ul>\n<p>1. <strong>法律風險已成現實</strong>：Gray訴OpenAI案因AI對話導致自殺，guardrails不足將面臨訴訟</p>\n<p>2. <strong>基礎設施在地化趨勢</strong>：25個資料中心因社區反對取消，企業將轉向可控的本地/私有部署方案</p>\n<p>3. <strong>行動建議</strong>：投資Human-in-the-loop安全機制(業界持續招募RLHF專家)，定位為「安全guardrails + 本地部署」的enterprise solution provider</p>",
+  "top_topics": [
+    {
+      "name": "AI Coding Agents & Developer Productivity",
+      "description": "[news]New AI coding tools Coderrr and flins [launched on Product Hunt](/?date=2026-01-20&category=news#item-d2aeed1b9ed2), reflecting continued developer interest in AI-assisted programming[/news]. [social]Simon Willison [reported testing](/?date=2026-01-20&category=social#item-421aefadc792) a functional web browser built by Cursor's coding agents in weeks, calling it 'astonishingly impressive,' while Ethan Mollick [showcased Claude Code](/?date=2026-01-20&category=social#item-09ddf0b19c4b) autonomously generating playable games[/social]. [reddit]Community [compared](/?date=2026-01-20&category=reddit#item-0e8260a72fb4) GPT 5.2 High vs Claude Opus 4.5 vs Gemini 3 on production codebases, and GLM 4.7 Flash [gained traction](/?date=2026-01-20&category=reddit#item-321cdfb3f1ab) as a local agent for GPU-constrained users[/reddit]. [jobs]Multiple companies including SuperPlane are [hiring Applied AI Engineers](/?date=2026-01-20&category=jobs#item-c184618e7460) for LLM and agent development[/jobs].",
+      "description_html": "<span style=\"color: #667eea; font-weight: 500;\">New AI coding tools Coderrr and flins <a href=\"/?date=2026-01-20&category=news#item-d2aeed1b9ed2\" class=\"internal-link\">launched on Product Hunt</a>, reflecting continued developer interest in AI-assisted programming</span>. <span style=\"color: #f59e0b; font-weight: 500;\">Simon Willison <a href=\"/?date=2026-01-20&category=social#item-421aefadc792\" class=\"internal-link\">reported testing</a> a functional web browser built by Cursor's coding agents in weeks, calling it 'astonishingly impressive,' while Ethan Mollick <a href=\"/?date=2026-01-20&category=social#item-09ddf0b19c4b\" class=\"internal-link\">showcased Claude Code</a> autonomously generating playable games</span>. <span style=\"color: #ef4444; font-weight: 500;\">Community <a href=\"/?date=2026-01-20&category=reddit#item-0e8260a72fb4\" class=\"internal-link\">compared</a> GPT 5.2 High vs Claude Opus 4.5 vs Gemini 3 on production codebases, and GLM 4.7 Flash <a href=\"/?date=2026-01-20&category=reddit#item-321cdfb3f1ab\" class=\"internal-link\">gained traction</a> as a local agent for GPU-constrained users</span>. <span style=\"color: #8b5cf6; font-weight: 500;\">Multiple companies including SuperPlane are <a href=\"/?date=2026-01-20&category=jobs#item-c184618e7460\" class=\"internal-link\">hiring Applied AI Engineers</a> for LLM and agent development</span>.",
+      "category_breakdown": {
+        "news": 2,
+        "social": 5,
+        "reddit": 3,
+        "jobs": 4
+      },
+      "representative_items": [],
+      "importance": 92
+    },
+    {
+      "name": "Compute Infrastructure & Scaling",
+      "description": "[news]xAI's Colossus compute cluster [burns $28 million daily](/?date=2026-01-20&category=news#item-22ac7d7bb8cb), while Google Cloud compute scarcity reportedly [constrains AI startups](/?date=2026-01-20&category=news#item-ac595f4dbc10) and accelerates consolidation[/news]. [reddit][25 data center cancellations](/?date=2026-01-20&category=reddit#item-da38c68ece1f) due to community backlash made headlines, alongside a [20x faster Top-K implementation](/?date=2026-01-20&category=reddit#item-cd850a7e281f) merged into llama.cpp achieving 63% faster prompt processing[/reddit]. [research]MHub.ai [addresses medical AI deployment](/?date=2026-01-20&category=research#item-3642d5ccbc37) through standardized containerization for reproducible infrastructure[/research]. [jobs]AI Infrastructure and MLOps roles [remain in high demand](/?date=2026-01-20&category=jobs#item-c184618e7460) across frontier companies[/jobs].",
+      "description_html": "<span style=\"color: #667eea; font-weight: 500;\">xAI's Colossus compute cluster <a href=\"/?date=2026-01-20&category=news#item-22ac7d7bb8cb\" class=\"internal-link\">burns $28 million daily</a>, while Google Cloud compute scarcity reportedly <a href=\"/?date=2026-01-20&category=news#item-ac595f4dbc10\" class=\"internal-link\">constrains AI startups</a> and accelerates consolidation</span>. <span style=\"color: #ef4444; font-weight: 500;\"><a href=\"/?date=2026-01-20&category=reddit#item-da38c68ece1f\" class=\"internal-link\">25 data center cancellations</a> due to community backlash made headlines, alongside a <a href=\"/?date=2026-01-20&category=reddit#item-cd850a7e281f\" class=\"internal-link\">20x faster Top-K implementation</a> merged into llama.cpp achieving 63% faster prompt processing</span>. <span style=\"color: #10b981; font-weight: 500;\">MHub.ai <a href=\"/?date=2026-01-20&category=research#item-3642d5ccbc37\" class=\"internal-link\">addresses medical AI deployment</a> through standardized containerization for reproducible infrastructure</span>. <span style=\"color: #8b5cf6; font-weight: 500;\">AI Infrastructure and MLOps roles <a href=\"/?date=2026-01-20&category=jobs#item-c184618e7460\" class=\"internal-link\">remain in high demand</a> across frontier companies</span>.",
+      "category_breakdown": {
+        "news": 2,
+        "reddit": 4,
+        "research": 1,
+        "jobs": 2
+      },
+      "representative_items": [],
+      "importance": 88
+    },
+    {
+      "name": "Frontier Model Performance",
+      "description": "[social]Ethan Mollick [analyzed GPT-5.2 Pro performance](/?date=2026-01-20&category=social#item-c6db5766282a) on multi-hour delegated tasks, recreating OpenAI's GDPval analysis, while observations about Claude 4.5's [predictable naming patterns](/?date=2026-01-20&category=social#item-2332b07c4bb7) highlighted ongoing LLM behavioral biases[/social]. [reddit][Detailed comparison](/?date=2026-01-20&category=reddit#item-0e8260a72fb4) of GPT 5.2 High vs Claude Opus 4.5 vs Gemini 3 on real 50K+ LOC production codebase provided practical developer guidance[/reddit]. [news]xAI [positions itself](/?date=2026-01-20&category=news#item-22ac7d7bb8cb) as a major OpenAI competitor with access to Tesla autonomous driving data[/news].",
+      "description_html": "<span style=\"color: #f59e0b; font-weight: 500;\">Ethan Mollick <a href=\"/?date=2026-01-20&category=social#item-c6db5766282a\" class=\"internal-link\">analyzed GPT-5.2 Pro performance</a> on multi-hour delegated tasks, recreating OpenAI's GDPval analysis, while observations about Claude 4.5's <a href=\"/?date=2026-01-20&category=social#item-2332b07c4bb7\" class=\"internal-link\">predictable naming patterns</a> highlighted ongoing LLM behavioral biases</span>. <span style=\"color: #ef4444; font-weight: 500;\"><a href=\"/?date=2026-01-20&category=reddit#item-0e8260a72fb4\" class=\"internal-link\">Detailed comparison</a> of GPT 5.2 High vs Claude Opus 4.5 vs Gemini 3 on real 50K+ LOC production codebase provided practical developer guidance</span>. <span style=\"color: #667eea; font-weight: 500;\">xAI <a href=\"/?date=2026-01-20&category=news#item-22ac7d7bb8cb\" class=\"internal-link\">positions itself</a> as a major OpenAI competitor with access to Tesla autonomous driving data</span>.",
+      "category_breakdown": {
+        "social": 4,
+        "reddit": 2,
+        "news": 1
+      },
+      "representative_items": [],
+      "importance": 82
+    },
+    {
+      "name": "AI Talent Wars & Hiring",
+      "description": "[news]OpenAI [executed rapid talent acquisition](/?date=2026-01-20&category=news#item-ac595f4dbc10) from Mira Murati's Thinking Machines startup within 58 minutes, highlighting brutal AI talent wars in Silicon Valley[/news]. [jobs]ElevenLabs ($6.6B valuation) and multiple platforms [aggressively hiring](/?date=2026-01-20&category=jobs#item-5a8c73958169), while Mercor and Pavago (YC W25) [recruit domain experts](/?date=2026-01-20&category=jobs#item-453c2c623436) for RLHF training data—signaling continued investment in human-in-the-loop development[/jobs]. [social]Simon Willison [predicted AI will amplify](/?date=2026-01-20&category=social#item-0a40ddcf3bc5) existing developer skills, with expert developers best positioned to figure out new abstractions[/social].",
+      "description_html": "<span style=\"color: #667eea; font-weight: 500;\">OpenAI <a href=\"/?date=2026-01-20&category=news#item-ac595f4dbc10\" class=\"internal-link\">executed rapid talent acquisition</a> from Mira Murati's Thinking Machines startup within 58 minutes, highlighting brutal AI talent wars in Silicon Valley</span>. <span style=\"color: #8b5cf6; font-weight: 500;\">ElevenLabs ($6.6B valuation) and multiple platforms <a href=\"/?date=2026-01-20&category=jobs#item-5a8c73958169\" class=\"internal-link\">aggressively hiring</a>, while Mercor and Pavago (YC W25) <a href=\"/?date=2026-01-20&category=jobs#item-453c2c623436\" class=\"internal-link\">recruit domain experts</a> for RLHF training data—signaling continued investment in human-in-the-loop development</span>. <span style=\"color: #f59e0b; font-weight: 500;\">Simon Willison <a href=\"/?date=2026-01-20&category=social#item-0a40ddcf3bc5\" class=\"internal-link\">predicted AI will amplify</a> existing developer skills, with expert developers best positioned to figure out new abstractions</span>.",
+      "category_breakdown": {
+        "news": 2,
+        "jobs": 6,
+        "social": 2
+      },
+      "representative_items": [],
+      "importance": 80
+    },
+    {
+      "name": "LLM Architecture Evolution",
+      "description": "[social]Sakana AI [announced RePo](/?date=2026-01-20&category=social#item-a0cd063a56dc), enabling LLMs to intelligently curate working memory rather than passively accepting rigid linear context[/social]. [reddit][Deep dive predicting](/?date=2026-01-20&category=reddit#item-f262e561e56e) latent reasoning will replace token-based Chain-of-Thought by 2026 sparked architectural debate, while [2-5 second model switching](/?date=2026-01-20&category=reddit#item-fb613e358fff) via GPU state snapshotting drew interest for multi-model workflows[/reddit]. [research]NAMeGEn [introduced multi-agent coordination](/?date=2026-01-20&category=research#item-37d228e9d1b9) for multi-objective creative generation tasks[/research].",
+      "description_html": "<span style=\"color: #f59e0b; font-weight: 500;\">Sakana AI <a href=\"/?date=2026-01-20&category=social#item-a0cd063a56dc\" class=\"internal-link\">announced RePo</a>, enabling LLMs to intelligently curate working memory rather than passively accepting rigid linear context</span>. <span style=\"color: #ef4444; font-weight: 500;\"><a href=\"/?date=2026-01-20&category=reddit#item-f262e561e56e\" class=\"internal-link\">Deep dive predicting</a> latent reasoning will replace token-based Chain-of-Thought by 2026 sparked architectural debate, while <a href=\"/?date=2026-01-20&category=reddit#item-fb613e358fff\" class=\"internal-link\">2-5 second model switching</a> via GPU state snapshotting drew interest for multi-model workflows</span>. <span style=\"color: #10b981; font-weight: 500;\">NAMeGEn <a href=\"/?date=2026-01-20&category=research#item-37d228e9d1b9\" class=\"internal-link\">introduced multi-agent coordination</a> for multi-objective creative generation tasks</span>.",
+      "category_breakdown": {
+        "social": 3,
+        "reddit": 2,
+        "research": 1
+      },
+      "representative_items": [],
+      "importance": 76
+    },
+    {
+      "name": "Local LLM Ecosystem Growth",
+      "description": "[reddit]GLM 4.7 Flash dominated discussions with rapid community testing and [llama.cpp integration](/?date=2026-01-20&category=reddit#item-3230899e945a), [praised for efficiency](/?date=2026-01-20&category=reddit#item-321cdfb3f1ab) on GPU-constrained setups running hundreds of thousands of agentic tokens[/reddit]. [reddit]A £30k workstation with 3x RTX Pro 6000 96GB was [evaluated for automating](/?date=2026-01-20&category=reddit#item-1f7ff6c0b46a) top-tier consulting work, representing serious professional local LLM use cases[/reddit]. [news][Compute scarcity](/?date=2026-01-20&category=news#item-ac595f4dbc10) at major cloud providers drives interest in local alternatives[/news]. [jobs]Remote LLM engineering demand remains strong through [platforms like Lemon.io](/?date=2026-01-20&category=jobs#item-fc44c5a5d8f1)[/jobs].",
+      "description_html": "<span style=\"color: #ef4444; font-weight: 500;\">GLM 4.7 Flash dominated discussions with rapid community testing and <a href=\"/?date=2026-01-20&category=reddit#item-3230899e945a\" class=\"internal-link\">llama.cpp integration</a>, <a href=\"/?date=2026-01-20&category=reddit#item-321cdfb3f1ab\" class=\"internal-link\">praised for efficiency</a> on GPU-constrained setups running hundreds of thousands of agentic tokens</span>. <span style=\"color: #ef4444; font-weight: 500;\">A £30k workstation with 3x RTX Pro 6000 96GB was <a href=\"/?date=2026-01-20&category=reddit#item-1f7ff6c0b46a\" class=\"internal-link\">evaluated for automating</a> top-tier consulting work, representing serious professional local LLM use cases</span>. <span style=\"color: #667eea; font-weight: 500;\"><a href=\"/?date=2026-01-20&category=news#item-ac595f4dbc10\" class=\"internal-link\">Compute scarcity</a> at major cloud providers drives interest in local alternatives</span>. <span style=\"color: #8b5cf6; font-weight: 500;\">Remote LLM engineering demand remains strong through <a href=\"/?date=2026-01-20&category=jobs#item-fc44c5a5d8f1\" class=\"internal-link\">platforms like Lemon.io</a></span>.",
+      "category_breakdown": {
+        "reddit": 5,
+        "news": 1,
+        "jobs": 2
+      },
+      "representative_items": [],
+      "importance": 74
+    }
+  ],
+  "total_items_collected": 585,
+  "total_items_analyzed": 570,
+  "collection_status": {
+    "overall": "success",
+    "sources": [
+      {
+        "name": "news",
+        "display_name": "News",
+        "status": "success",
+        "count": 17,
+        "error": null
+      },
+      {
+        "name": "research",
+        "display_name": "Research",
+        "status": "success",
+        "count": 3,
+        "error": null
+      },
+      {
+        "name": "social",
+        "display_name": "Social",
+        "status": "success",
+        "count": 15,
+        "error": null
+      },
+      {
+        "name": "reddit",
+        "display_name": "Reddit",
+        "status": "success",
+        "count": 425,
+        "error": null
+      },
+      {
+        "name": "jobs",
+        "display_name": "Jobs",
+        "status": "success",
+        "count": 125,
+        "error": null
+      }
+    ],
+    "social_platforms": [
+      {
+        "name": "twitter",
+        "display_name": "Twitter",
+        "status": "success",
+        "count": 0,
+        "error": "All 7 API requests failed"
+      },
+      {
+        "name": "bluesky",
+        "display_name": "Bluesky",
+        "status": "success",
+        "count": 15,
+        "error": null
+      },
+      {
+        "name": "mastodon",
+        "display_name": "Mastodon",
+        "status": "skipped",
+        "count": 0,
+        "error": "No accounts configured"
+      }
+    ],
+    "warnings": []
+  },
+  "hero_image_url": "/data/2026-01-20/hero.webp?v=1768925126",
+  "hero_image_prompt": "You are generating a daily hero banner image for an AI news aggregator website.\n\n## Your Goal\nCreate a clean, informative infographic-style illustration that visually represents today's top AI news stories. The image should be immediately understandable and communicate key themes at a glance.\n\n## Today's Stories\n\n**Topic 1: AI Coding Agents & Developer Productivity**\n[news]New AI coding tools Coderrr and flins launched on Product Hunt, reflecting continued developer interest in AI-assisted programming[/news]. [social]Simon Willison reported testing a functional web browser built by Cursor's coding agents in weeks, calling it 'astonishingly impressive,' while Ethan Mollick showcased Claude Code autonomously generating playable games[/social]. [reddit]Community compared GPT 5.2 High vs Claude Opus 4.5 vs Gemini 3 on production codebases, and GLM 4.7 Flash gained traction as a local agent for GPU-constrained users[/reddit]. [jobs]Multiple companies including SuperPlane are hiring Applied AI Engineers for LLM and agent development[/jobs].\n**Topic 2: Compute Infrastructure & Scaling**\n[news]xAI's Colossus compute cluster burns $28 million daily, while Google Cloud compute scarcity reportedly constrains AI startups and accelerates consolidation[/news]. [reddit]25 data center cancellations due to community backlash made headlines, alongside a 20x faster Top-K implementation merged into llama.cpp achieving 63% faster prompt processing[/reddit]. [research]MHub.ai addresses medical AI deployment through standardized containerization for reproducible infrastructure[/research]. [jobs]AI Infrastructure and MLOps roles remain in high demand across frontier companies[/jobs].\n**Topic 3: Frontier Model Performance**\n[social]Ethan Mollick analyzed GPT-5.2 Pro performance on multi-hour delegated tasks, recreating OpenAI's GDPval analysis, while observations about Claude 4.5's predictable naming patterns highlighted ongoing LLM behavioral biases[/social]. [reddit]Detailed comparison of GPT 5.2 High vs Claude Opus 4.5 vs Gemini 3 on real 50K+ LOC production codebase provided practical developer guidance[/reddit]. [news]xAI positions itself as a major OpenAI competitor with access to Tesla autonomous driving data[/news].\n**Topic 4: AI Talent Wars & Hiring**\n[news]OpenAI executed rapid talent acquisition from Mira Murati's Thinking Machines startup within 58 minutes, highlighting brutal AI talent wars in Silicon Valley[/news]. [jobs]ElevenLabs ($6.6B valuation) and multiple platforms aggressively hiring, while Mercor and Pavago (YC W25) recruit domain experts for RLHF training data—signaling continued investment in human-in-the-loop development[/jobs]. [social]Simon Willison predicted AI will amplify existing developer skills, with expert developers best positioned to figure out new abstractions[/social].\n**Topic 5: LLM Architecture Evolution**\n[social]Sakana AI announced RePo, enabling LLMs to intelligently curate working memory rather than passively accepting rigid linear context[/social]. [reddit]Deep dive predicting latent reasoning will replace token-based Chain-of-Thought by 2026 sparked architectural debate, while 2-5 second model switching via GPU state snapshotting drew interest for multi-model workflows[/reddit]. [research]NAMeGEn introduced multi-agent coordination for multi-objective creative generation tasks[/research].\n**Topic 6: Local LLM Ecosystem Growth**\n[reddit]GLM 4.7 Flash dominated discussions with rapid community testing and llama.cpp integration, praised for efficiency on GPU-constrained setups running hundreds of thousands of agentic tokens[/reddit]. [reddit]A £30k workstation with 3x RTX Pro 6000 96GB was evaluated for automating top-tier consulting work, representing serious professional local LLM use cases[/reddit]. [news]Compute scarcity at major cloud providers drives interest in local alternatives[/news]. [jobs]Remote LLM engineering demand remains strong through platforms like Lemon.io[/jobs].\n\n## Visual Direction\nCreate an infographic composition that represents these stories. You must include Topic 1 (the top story) prominently, then incorporate 2-3 other topics. Consider:\n- Use clear visual metaphors and icons to represent each theme\n- Arrange elements in a logical, easy-to-scan layout\n- Include minimal text labels if helpful for clarity\n- Suggested visual elements: autonomous systems, workflow diagrams, connected tools, server racks, cooling systems, blue LED glow, data center, neural network visualization, glowing nodes, architecture\n\n## Style Requirements (CRITICAL)\n- **Japanese manga/comic art style** - clean linework, dynamic composition, speed lines for emphasis\n- **Infographic clarity** - easy to understand, clear visual hierarchy, organized layout\n- Bold, vibrant colors with high contrast\n- Trend Red (#E63946) as accent color for key elements\n- Clean, professional look - not cartoonish or childish\n- Tech-forward, modern aesthetic\n- Company logos (OpenAI, Anthropic, Google, NVIDIA, etc.) are encouraged when relevant to stories\n- NO mascots, NO characters, NO cute animals - focus on abstract concepts and technology visualization",
+  "generated_at": "2026-01-20T08:05:26.770227",
+  "categories": {
+    "news": {
+      "count": 4,
+      "category_summary": "**xAI** dominates headlines with a [staggering **$10.5 billion quarterly loss**](/?date=2026-01-20&category=news#item-22ac7d7bb8cb) while pursuing AGI, backed by continued investment from **Nvidia** and **Qatar's sovereign fund**. The company's **Colossus** compute cluster and access to **Tesla** autonomous driving data position it as a major OpenAI competitor.\n\n- **OpenAI** [aggressively poached talent](/?date=2026-01-20&category=news#item-ac595f4dbc10) from **Mira Murati's** startup **Thinking Machines** in under an hour, highlighting brutal AI talent wars\n- Compute scarcity at **Google Cloud** reportedly constrains AI startups, accelerating industry consolidation\n- Two minor AI coding tools ([**Coderrr**](/?date=2026-01-20&category=news#item-d2aeed1b9ed2), [**flins**](/?date=2026-01-20&category=news#item-c39ac7dabf3b)) launched on Product Hunt, reflecting continued developer interest in AI-assisted programming",
+      "category_summary_html": "<p><strong>xAI</strong> dominates headlines with a <a href=\"/?date=2026-01-20&category=news#item-22ac7d7bb8cb\" class=\"internal-link\">staggering <strong>$10.5 billion quarterly loss</strong></a> while pursuing AGI, backed by continued investment from <strong>Nvidia</strong> and <strong>Qatar's sovereign fund</strong>. The company's <strong>Colossus</strong> compute cluster and access to <strong>Tesla</strong> autonomous driving data position it as a major OpenAI competitor.</p>\n<ul>\n<li><strong>OpenAI</strong> <a href=\"/?date=2026-01-20&category=news#item-ac595f4dbc10\" class=\"internal-link\">aggressively poached talent</a> from <strong>Mira Murati's</strong> startup <strong>Thinking Machines</strong> in under an hour, highlighting brutal AI talent wars</li>\n<li>Compute scarcity at <strong>Google Cloud</strong> reportedly constrains AI startups, accelerating industry consolidation</li>\n<li>Two minor AI coding tools (<a href=\"/?date=2026-01-20&category=news#item-d2aeed1b9ed2\" class=\"internal-link\"><strong>Coderrr</strong></a>, <a href=\"/?date=2026-01-20&category=news#item-c39ac7dabf3b\" class=\"internal-link\"><strong>flins</strong></a>) launched on Product Hunt, reflecting continued developer interest in AI-assisted programming</li>\n</ul>",
+      "themes": [
+        {
+          "name": "AGI Race & Compute Wars",
+          "description": "Massive capital deployment for AGI development, with xAI's extreme spending and compute infrastructure investments reshaping competitive dynamics",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 74.0
+        },
+        {
+          "name": "AI Talent Wars",
+          "description": "Aggressive talent acquisition by major labs creating instability for AI startups and reshaping the competitive landscape",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 62.0
+        },
+        {
+          "name": "AI Developer Tools",
+          "description": "Continued proliferation of AI coding assistants and productivity tools for developers",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 37.0
+        }
+      ],
+      "top_items": [
+        {
+          "id": "22ac7d7bb8cb",
+          "title": "【商业】xAI 3个月亏掉105亿 | 算力怪兽Colossus | 英伟达投资 | 卡塔尔基金 | Grok机器人 | AGI赛道 | 物理智能 | 算力战争 | 顶级AI人才战 | 数据闭环",
+          "content": "单季亏损105亿，每天烧掉 2800 万美金，这到底是经营灾难还是通往未来的门票？马斯克正带领xAI开启一场全人类史上最昂贵的物理智能实验。本期视频深度拆解xAI的逃逸速度战略。为什么亏损越狠，英伟达和卡塔尔财团反而越抢着送钱？揭秘代号Colossus的算力怪兽如何重塑AGI赛道，以及特斯拉自动驾驶数据如何成为xAI降维打击OpenAI的秘密武器。当Grok的伦理边界引发全球争议，当物理世界的大脑正呼之欲出，马斯克能否在2027年实现盈亏平衡，彻底摆脱竞争的引力？",
+          "url": "https://www.youtube.com/watch?v=diiS_0nF9S8",
+          "author": "最佳拍档",
+          "published": "2026-01-19T11:28:41",
+          "source": "最佳拍档",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "xAI reportedly lost $10.5 billion in a single quarter, burning $28 million daily on its Colossus compute infrastructure. Despite massive losses, Nvidia and Qatar's sovereign wealth fund continue investing, betting on xAI's AGI ambitions and Tesla's autonomous driving data as a competitive moat against OpenAI.",
+          "importance_score": 74.0,
+          "reasoning": "Major financial news about a leading AGI competitor. The scale of spending ($10.5B quarterly loss) and continued investor confidence from Nvidia reveals the extreme capital intensity of the AGI race. Tesla data integration for physical AI is a significant strategic development.",
+          "themes": [
+            "AGI race",
+            "AI funding",
+            "compute infrastructure",
+            "xAI",
+            "physical AI"
+          ],
+          "continuation": null,
+          "summary_html": "<p>xAI reportedly lost $10.5 billion in a single quarter, burning $28 million daily on its Colossus compute infrastructure. Despite massive losses, Nvidia and Qatar's sovereign wealth fund continue investing, betting on xAI's AGI ambitions and Tesla's autonomous driving data as a competitive moat against OpenAI.</p>",
+          "content_html": "<p>单季亏损105亿，每天烧掉 2800 万美金，这到底是经营灾难还是通往未来的门票？马斯克正带领xAI开启一场全人类史上最昂贵的物理智能实验。本期视频深度拆解xAI的逃逸速度战略。为什么亏损越狠，英伟达和卡塔尔财团反而越抢着送钱？揭秘代号Colossus的算力怪兽如何重塑AGI赛道，以及特斯拉自动驾驶数据如何成为xAI降维打击OpenAI的秘密武器。当Grok的伦理边界引发全球争议，当物理世界的大脑正呼之欲出，马斯克能否在2027年实现盈亏平衡，彻底摆脱竞争的引力？</p>"
+        },
+        {
+          "id": "ac595f4dbc10",
+          "title": "【商业】58分钟的精准猎杀 | Thinking Machines | OpenAI精准挖角 | Barret Zoph | 办公室恋情 | 谷歌云算力短缺 | 硅谷宫斗 | 人才争夺 | 信任崩塌",
+          "content": "一场仅用时58分钟的精准猎杀，撕开了硅谷明星AI公司Thinking Machines最后体面的遮羞布。当Mira Murati在全员大会上宣布解雇CTO时，她或许没想到这竟是一场策划已久的集体叛逃。本期视频复盘Thinking Machines崩盘始末，从天价融资到产品难产，从办公室恋情的导火索到研发与商业化的权力斗争。为什么OpenAI敢在解雇声明后瞬间官宣接盘？在算力霸权与天价薪酬包的夹击下，初创公司的期权承诺是否已沦为废纸？这不仅是一场硅谷宫斗剧，更是AI产业进入精耕细作阶段后的残酷洗牌预演。",
+          "url": "https://www.youtube.com/watch?v=rj9Aj8oeOWI",
+          "author": "最佳拍档",
+          "published": "2026-01-19T23:01:10",
+          "source": "最佳拍档",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "OpenAI executed a rapid talent acquisition from Mira Murati's startup Thinking Machines within 58 minutes of a CTO firing announcement. The story reveals internal conflicts between R&D and commercialization, office politics, and Google's cloud compute constraints affecting AI startups.",
+          "importance_score": 62.0,
+          "reasoning": "Illustrates the brutal AI talent wars and challenges facing AI startups competing against well-resourced incumbents. OpenAI's aggressive poaching and compute scarcity themes are relevant to understanding industry dynamics, though details lean toward Silicon Valley drama.",
+          "themes": [
+            "talent wars",
+            "AI startups",
+            "OpenAI",
+            "compute scarcity",
+            "industry consolidation"
+          ],
+          "continuation": null,
+          "summary_html": "<p>OpenAI executed a rapid talent acquisition from Mira Murati's startup Thinking Machines within 58 minutes of a CTO firing announcement. The story reveals internal conflicts between R&D and commercialization, office politics, and Google's cloud compute constraints affecting AI startups.</p>",
+          "content_html": "<p>一场仅用时58分钟的精准猎杀，撕开了硅谷明星AI公司Thinking Machines最后体面的遮羞布。当Mira Murati在全员大会上宣布解雇CTO时，她或许没想到这竟是一场策划已久的集体叛逃。本期视频复盘Thinking Machines崩盘始末，从天价融资到产品难产，从办公室恋情的导火索到研发与商业化的权力斗争。为什么OpenAI敢在解雇声明后瞬间官宣接盘？在算力霸权与天价薪酬包的夹击下，初创公司的期权承诺是否已沦为废纸？这不仅是一场硅谷宫斗剧，更是AI产业进入精耕细作阶段后的残酷洗牌预演。</p>"
+        },
+        {
+          "id": "d2aeed1b9ed2",
+          "title": "Coderrr",
+          "content": "\n            Open source CLI-first AI coding companion\n          \n          \n            Discussion\n            |\n            Link\n          ",
+          "url": "https://www.producthunt.com/products/coderrr",
+          "author": "Akash Nath",
+          "published": "2026-01-19T05:17:07",
+          "source": "Product Hunt — The best new products, every day",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "Coderrr is a new open-source CLI-first AI coding companion launched on Product Hunt. It offers command-line interface for AI-assisted coding workflows.",
+          "importance_score": 38.0,
+          "reasoning": "Minor open-source tool release. While AI coding assistants are a growing category, this appears to be an incremental addition without notable breakthrough features or significant backing.",
+          "themes": [
+            "AI coding tools",
+            "open source",
+            "developer tools"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Coderrr is a new open-source CLI-first AI coding companion launched on Product Hunt. It offers command-line interface for AI-assisted coding workflows.</p>",
+          "content_html": "<p>Open source CLI-first AI coding companion</p>\n<p>Discussion</p>\n<p>|</p>\n<p>Link</p>"
+        },
+        {
+          "id": "c39ac7dabf3b",
+          "title": "flins",
+          "content": "\n            The universal skill and command manager for AI coding tools\n          \n          \n            Discussion\n            |\n            Link\n          ",
+          "url": "https://www.producthunt.com/products/flins",
+          "author": "pow",
+          "published": "2026-01-19T02:14:17",
+          "source": "Product Hunt — The best new products, every day",
+          "source_type": "rss",
+          "tags": [],
+          "summary": "Flins is a new product offering universal skill and command management for AI coding tools. It aims to provide a unified interface for managing AI coding assistants.",
+          "importance_score": 36.0,
+          "reasoning": "Minor product launch with niche utility. Tooling for AI coding tools represents meta-level infrastructure but without evidence of significant adoption or breakthrough capabilities.",
+          "themes": [
+            "AI coding tools",
+            "developer tools",
+            "productivity"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Flins is a new product offering universal skill and command management for AI coding tools. It aims to provide a unified interface for managing AI coding assistants.</p>",
+          "content_html": "<p>The universal skill and command manager for AI coding tools</p>\n<p>Discussion</p>\n<p>|</p>\n<p>Link</p>"
+        }
+      ]
+    },
+    "research": {
+      "count": 3,
+      "category_summary": "Today's limited batch focuses on AI infrastructure and domain-specific applications.\n\n**MHub.ai** [addresses a critical gap](/?date=2026-01-20&category=research#item-3642d5ccbc37) in medical AI reproducibility by providing standardized containerized deployment for DICOM-compatible imaging models—solving real friction in clinical AI adoption.\n\n- **NAMeGEn** [introduces multi-agent coordination](/?date=2026-01-20&category=research#item-37d228e9d1b9) for multi-objective creative generation, applied to Chinese naming tasks\n- Sports analytics work [extends **xG models**](/?date=2026-01-20&category=research#item-becc33e4e61a) with joint shot occurrence modeling, though remains narrow applied ML\n\nOverall a sparse day for foundational AI research; the medical imaging infrastructure work stands out for practical impact potential.",
+      "category_summary_html": "<p>Today's limited batch focuses on AI infrastructure and domain-specific applications.</p>\n<p><strong>MHub.ai</strong> <a href=\"/?date=2026-01-20&category=research#item-3642d5ccbc37\" class=\"internal-link\">addresses a critical gap</a> in medical AI reproducibility by providing standardized containerized deployment for DICOM-compatible imaging models—solving real friction in clinical AI adoption.</p>\n<ul>\n<li><strong>NAMeGEn</strong> <a href=\"/?date=2026-01-20&category=research#item-37d228e9d1b9\" class=\"internal-link\">introduces multi-agent coordination</a> for multi-objective creative generation, applied to Chinese naming tasks</li>\n<li>Sports analytics work <a href=\"/?date=2026-01-20&category=research#item-becc33e4e61a\" class=\"internal-link\">extends <strong>xG models</strong></a> with joint shot occurrence modeling, though remains narrow applied ML</li>\n</ul>\n<p>Overall a sparse day for foundational AI research; the medical imaging infrastructure work stands out for practical impact potential.</p>",
+      "themes": [
+        {
+          "name": "Medical AI",
+          "description": "AI applications and infrastructure for medical imaging and clinical use",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 45
+        },
+        {
+          "name": "AI Infrastructure",
+          "description": "Platforms and tools for deploying and standardizing AI models",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 40
+        },
+        {
+          "name": "Language Models",
+          "description": "Research on LLM capabilities for creative and specialized text generation",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 35
+        },
+        {
+          "name": "Machine Learning Applications",
+          "description": "Domain-specific applications of ML/statistical methods",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 30
+        }
+      ],
+      "top_items": [
+        {
+          "id": "3642d5ccbc37",
+          "title": "MHub.ai: A Simple, Standardized, and Reproducible Platform for AI Models in Medical Imaging",
+          "content": "Artificial intelligence (AI) has the potential to transform medical imaging by automating image analysis and accelerating clinical research. However, research and clinical use are limited by the wide variety of AI implementations and architectures, inconsistent documentation, and reproducibility issues. Here, we introduce MHub$.$ai, an open-source, container-based platform that standardizes access to AI models with minimal configuration, promoting accessibility and reproducibility in medical imaging. MHub$.$ai packages models from peer-reviewed publications into standardized containers that support direct processing of DICOM and other formats, provide a unified application interface, and embed structured metadata. Each model is accompanied by publicly available reference data that can be used to confirm model operation. MHub$.$ai includes an initial set of state-of-the-art segmentation, prediction, and feature extraction models for different modalities. The modular framework enables adaptation of any model and supports community contributions. We demonstrate the utility of the platform in a clinical use case through comparative evaluation of lung segmentation models. To further strengthen transparency and reproducibility, we publicly release the generated segmentations and evaluation metrics and provide interactive dashboards that allow readers to inspect individual cases and reproduce or extend our analysis. By simplifying model use, MHub$.$ai enables side-by-side...",
+          "url": "http://arxiv.org/abs/2601.10154",
+          "author": "Leonard N\\\"urnberg, Dennis Bontempi, Suraj Pai, Curtis Lisle, Steve Pieper, Ron Kikinis, Sil van de Leemput, Rahul Soni, Gowtham Murugesan, Cosmin Ciausu, Miriam Groeneveld, Felix J. Dorfner, Jue Jiang, Aneesh Rangnekar, Harini Veeraraghavan, Joeran S. Bosma, Keno Bressem, Raymond Mak, Andrey Fedorov, Hugo JWL Aerts",
+          "published": "2026-01-20",
+          "source": "arXiv (Artificial Intelligence)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.AI"
+          ],
+          "summary": "MHub.ai is an open-source platform that standardizes deployment of AI models for medical imaging through containerization, supporting DICOM processing, unified interfaces, and embedded metadata. It addresses critical reproducibility and accessibility barriers that limit clinical and research adoption of medical AI models.",
+          "importance_score": 45,
+          "reasoning": "Addresses a genuine pain point in medical AI deployment and reproducibility—an important infrastructure contribution. However, this is engineering/platform work rather than novel AI research. Useful for the medical imaging community but doesn't advance AI capabilities or methodology. Collaboration includes researchers from notable medical imaging institutions.",
+          "themes": [
+            "Medical AI",
+            "AI Infrastructure",
+            "Reproducibility",
+            "Clinical AI Deployment"
+          ],
+          "continuation": null,
+          "summary_html": "<p>MHub.ai is an open-source platform that standardizes deployment of AI models for medical imaging through containerization, supporting DICOM processing, unified interfaces, and embedded metadata. It addresses critical reproducibility and accessibility barriers that limit clinical and research adoption of medical AI models.</p>",
+          "content_html": "<p>Artificial intelligence (AI) has the potential to transform medical imaging by automating image analysis and accelerating clinical research. However, research and clinical use are limited by the wide variety of AI implementations and architectures, inconsistent documentation, and reproducibility issues. Here, we introduce MHub$.$ai, an open-source, container-based platform that standardizes access to AI models with minimal configuration, promoting accessibility and reproducibility in medical imaging. MHub$.$ai packages models from peer-reviewed publications into standardized containers that support direct processing of DICOM and other formats, provide a unified application interface, and embed structured metadata. Each model is accompanied by publicly available reference data that can be used to confirm model operation. MHub$.$ai includes an initial set of state-of-the-art segmentation, prediction, and feature extraction models for different modalities. The modular framework enables adaptation of any model and supports community contributions. We demonstrate the utility of the platform in a clinical use case through comparative evaluation of lung segmentation models. To further strengthen transparency and reproducibility, we publicly release the generated segmentations and evaluation metrics and provide interactive dashboards that allow readers to inspect individual cases and reproduce or extend our analysis. By simplifying model use, MHub$.$ai enables side-by-side...</p>"
+        },
+        {
+          "id": "37d228e9d1b9",
+          "title": "NAMeGEn: Creative Name Generation via A Novel Agent-based Multiple Personalized Goal Enhancement Framework",
+          "content": "Trained on diverse human-authored texts, Large Language Models (LLMs) unlocked the potential for Creative Natural Language Generation (CNLG), benefiting various applications like advertising and storytelling. Nevertheless, CNLG still remains difficult due to two main challenges. (1) Multi-objective flexibility: user requirements are often personalized, fine-grained, and pluralistic, which LLMs struggle to satisfy simultaneously; (2) Interpretive complexity: beyond generation, creativity also involves understanding and interpreting implicit meaning to enhance users' perception. These challenges significantly limit current methods, especially in short-form text generation, in generating creative and insightful content. To address this, we focus on Chinese baby naming, a representative short-form CNLG task requiring adherence to explicit user constraints (e.g., length, semantics, anthroponymy) while offering meaningful aesthetic explanations. We propose NAMeGEn, a novel multi-agent optimization framework that iteratively alternates between objective extraction, name generation, and evaluation to meet diverse requirements and generate accurate explanations. To support this task, we further construct a classical Chinese poetry corpus with 17k+ poems to enhance aesthetics, and introduce CBNames, a new benchmark with tailored metrics. Extensive experiments demonstrate that NAMeGEn effectively generates creative names that meet diverse, personalized requirements while providing...",
+          "url": "http://arxiv.org/abs/2511.15408",
+          "author": "Shanlin Zhou, Xinpeng Wang, Jianxun Lian, Zhenghao Liu, Laks V. S. Lakshmanan, Xiaoyuan Yi, Yongtao Hao",
+          "published": "2026-01-20",
+          "source": "arXiv (Computation and Language)",
+          "source_type": "arxiv",
+          "tags": [
+            "cs.CL"
+          ],
+          "summary": "This paper proposes an agent-based framework for creative text generation, specifically applied to Chinese baby naming, that handles multiple personalized user objectives simultaneously. It addresses challenges in short-form creative NLG where LLMs struggle to satisfy fine-grained, pluralistic requirements while also providing interpretable reasoning.",
+          "importance_score": 35,
+          "reasoning": "While the multi-agent approach to handling multi-objective creative generation is conceptually interesting, the application domain (baby naming) is extremely narrow. Not from a major lab, and the techniques appear incremental rather than novel. Limited broader applicability despite touching on relevant themes of LLM creativity and multi-agent systems.",
+          "themes": [
+            "Language Models",
+            "Creative Text Generation",
+            "Multi-Agent Systems",
+            "Natural Language Generation"
+          ],
+          "continuation": null,
+          "summary_html": "<p>This paper proposes an agent-based framework for creative text generation, specifically applied to Chinese baby naming, that handles multiple personalized user objectives simultaneously. It addresses challenges in short-form creative NLG where LLMs struggle to satisfy fine-grained, pluralistic requirements while also providing interpretable reasoning.</p>",
+          "content_html": "<p>Trained on diverse human-authored texts, Large Language Models (LLMs) unlocked the potential for Creative Natural Language Generation (CNLG), benefiting various applications like advertising and storytelling. Nevertheless, CNLG still remains difficult due to two main challenges. (1) Multi-objective flexibility: user requirements are often personalized, fine-grained, and pluralistic, which LLMs struggle to satisfy simultaneously; (2) Interpretive complexity: beyond generation, creativity also involves understanding and interpreting implicit meaning to enhance users' perception. These challenges significantly limit current methods, especially in short-form text generation, in generating creative and insightful content. To address this, we focus on Chinese baby naming, a representative short-form CNLG task requiring adherence to explicit user constraints (e.g., length, semantics, anthroponymy) while offering meaningful aesthetic explanations. We propose NAMeGEn, a novel multi-agent optimization framework that iteratively alternates between objective extraction, name generation, and evaluation to meet diverse requirements and generate accurate explanations. To support this task, we further construct a classical Chinese poetry corpus with 17k+ poems to enhance aesthetics, and introduce CBNames, a new benchmark with tailored metrics. Extensive experiments demonstrate that NAMeGEn effectively generates creative names that meet diverse, personalized requirements while providing...</p>"
+        },
+        {
+          "id": "becc33e4e61a",
+          "title": "Beyond Expected Goals: A Probabilistic Framework for Shot Occurrences in Soccer",
+          "content": "Expected goals (xG) models estimate the probability that a shot results in a goal from its context (e.g., location, pressure), but they operate only on observed shots. We propose xG+, a possession-level framework that first estimates the probability that a shot occurs within the next second and its corresponding xG if it were to occur. We also introduce ways to aggregate this joint probability estimate over the course of a possession. By jointly modeling shot-taking behavior and shot quality, xG+ remedies the conditioning-on-shots limitation of standard xG. We show that this improves predictive accuracy at the team level and produces a more persistent player skill signal than standard xG models.",
+          "url": "http://arxiv.org/abs/2512.00203",
+          "author": "Jonathan Pipping-Gam\\'on, Tianshu Feng, R. Paul Sabin",
+          "published": "2026-01-20",
+          "source": "arXiv (stat.AP)",
+          "source_type": "arxiv",
+          "tags": [
+            "stat.AP"
+          ],
+          "summary": "This paper extends traditional expected goals (xG) models in soccer by proposing xG+, which jointly models the probability of a shot occurring and its quality at the possession level, rather than only analyzing shots that actually happened. This addresses selection bias in standard xG models and improves team-level prediction accuracy.",
+          "importance_score": 20,
+          "reasoning": "This is applied statistics/ML in sports analytics with minimal relevance to core AI research. While methodologically sound for its domain, it represents incremental improvement to existing soccer analytics rather than advancing AI capabilities. Very narrow domain application with no broader implications for AI research.",
+          "themes": [
+            "Machine Learning Applications",
+            "Sports Analytics",
+            "Probabilistic Modeling"
+          ],
+          "continuation": null,
+          "summary_html": "<p>This paper extends traditional expected goals (xG) models in soccer by proposing xG+, which jointly models the probability of a shot occurring and its quality at the possession level, rather than only analyzing shots that actually happened. This addresses selection bias in standard xG models and improves team-level prediction accuracy.</p>",
+          "content_html": "<p>Expected goals (xG) models estimate the probability that a shot results in a goal from its context (e.g., location, pressure), but they operate only on observed shots. We propose xG+, a possession-level framework that first estimates the probability that a shot occurs within the next second and its corresponding xG if it were to occur. We also introduce ways to aggregate this joint probability estimate over the course of a possession. By jointly modeling shot-taking behavior and shot quality, xG+ remedies the conditioning-on-shots limitation of standard xG. We show that this improves predictive accuracy at the team level and produces a more persistent player skill signal than standard xG models.</p>"
+        }
+      ]
+    },
+    "social": {
+      "count": 15,
+      "category_summary": "AI coding agents dominated discussions with a remarkable demonstration. **Simon Willison** [reported testing](/?date=2026-01-20&category=social#item-421aefadc792) a functional web browser built by **Cursor's** fleet of coding agents in just weeks, calling it \"astonishingly impressive\" with fresh HTML/CSS rendering implementation.\n\n- **Sakana AI** [announced **RePo**](/?date=2026-01-20&category=social#item-a0cd063a56dc), a novel approach enabling LLMs to intelligently curate working memory rather than passively accepting rigid linear context\n- **Ethan Mollick** [analyzed **GPT-5.2 Pro**](/?date=2026-01-20&category=social#item-c6db5766282a) performance on multi-hour delegated tasks, recreating OpenAI's GDPval analysis with evaluate-retry workflows\n- **Mollick** also [showcased **Claude Code**](/?date=2026-01-20&category=social#item-09ddf0b19c4b) autonomously generating playable game demos with 100% AI-designed puzzles\n\nThe community debated AI's impact on developer productivity. **Willison** [predicted AI will amplify](/?date=2026-01-20&category=social#item-0a40ddcf3bc5) existing skills, enabling small teams to produce millions of lines of working code—but [emphasized that managing](/?date=2026-01-20&category=social#item-2ad0aff20dd7) such projects requires new abstractions expert developers must figure out. Separately, observations about **Claude 4.5's** [predictable default naming](/?date=2026-01-20&category=social#item-2332b07c4bb7) patterns (\"Marcus Chen\" for developers) highlighted ongoing LLM behavioral biases.",
+      "category_summary_html": "<p>AI coding agents dominated discussions with a remarkable demonstration. <strong>Simon Willison</strong> <a href=\"/?date=2026-01-20&category=social#item-421aefadc792\" class=\"internal-link\">reported testing</a> a functional web browser built by <strong>Cursor's</strong> fleet of coding agents in just weeks, calling it \"astonishingly impressive\" with fresh HTML/CSS rendering implementation.</p>\n<ul>\n<li><strong>Sakana AI</strong> <a href=\"/?date=2026-01-20&category=social#item-a0cd063a56dc\" class=\"internal-link\">announced <strong>RePo</strong></a>, a novel approach enabling LLMs to intelligently curate working memory rather than passively accepting rigid linear context</li>\n<li><strong>Ethan Mollick</strong> <a href=\"/?date=2026-01-20&category=social#item-c6db5766282a\" class=\"internal-link\">analyzed <strong>GPT-5.2 Pro</strong></a> performance on multi-hour delegated tasks, recreating OpenAI's GDPval analysis with evaluate-retry workflows</li>\n<li><strong>Mollick</strong> also <a href=\"/?date=2026-01-20&category=social#item-09ddf0b19c4b\" class=\"internal-link\">showcased <strong>Claude Code</strong></a> autonomously generating playable game demos with 100% AI-designed puzzles</li>\n</ul>\n<p>The community debated AI's impact on developer productivity. <strong>Willison</strong> <a href=\"/?date=2026-01-20&category=social#item-0a40ddcf3bc5\" class=\"internal-link\">predicted AI will amplify</a> existing skills, enabling small teams to produce millions of lines of working code—but <a href=\"/?date=2026-01-20&category=social#item-2ad0aff20dd7\" class=\"internal-link\">emphasized that managing</a> such projects requires new abstractions expert developers must figure out. Separately, observations about <strong>Claude 4.5's</strong> <a href=\"/?date=2026-01-20&category=social#item-2332b07c4bb7\" class=\"internal-link\">predictable default naming</a> patterns (\"Marcus Chen\" for developers) highlighted ongoing LLM behavioral biases.</p>",
+      "themes": [
+        {
+          "name": "AI Coding Agents & Autonomous Development",
+          "description": "Discussion of AI systems like Cursor and Claude Code autonomously building functional software including games and even web browsers",
+          "item_count": 7,
+          "example_items": [],
+          "importance": 88
+        },
+        {
+          "name": "LLM Architecture & Context Management",
+          "description": "Research on improving how LLMs handle context, particularly Sakana AI's RePo approach to context re-positioning",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "GPT-5 Capabilities & Long-form Tasks",
+          "description": "Analysis of GPT-5.2's performance on multi-hour delegated tasks and productivity workflows",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 72
+        },
+        {
+          "name": "Developer Productivity Amplification",
+          "description": "Perspectives on how AI tools amplify rather than replace expert developer skills",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 60
+        },
+        {
+          "name": "LLM Behavioral Patterns & Biases",
+          "description": "Observations about predictable patterns in LLM outputs like Claude's default naming conventions",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 55
+        }
+      ],
+      "top_items": [
+        {
+          "id": "421aefadc792",
+          "title": "Having compiled and run the web browser that Cursor built in a couple of weeks using mostly a giant ...",
+          "content": "Having compiled and run the web browser that Cursor built in a couple of weeks using mostly a giant fleet of coding agents I'm actually very impressed by it - there are rendering glitches but the renders it produces are surprisingly usable for a few-week-old project simonwillison.net/2026/Jan/19/...",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcqvoavpk22f",
+          "author": "@simonwillison.net",
+          "published": "2026-01-19T05:24:41.024000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Following yesterday's [Reddit](/?date=2026-01-19&category=reddit#item-6c8a3aacf586) coverage of the Cursor browser announcement, Simon Willison reports compiling and testing a web browser built by Cursor using a fleet of coding agents in just a few weeks, finding it surprisingly usable despite rendering glitches",
+          "importance_score": 92,
+          "reasoning": "Major breakthrough demonstration: AI agents built functional web browser in weeks. High engagement (98 likes, 11 reposts), first-hand testing from highly credible developer, concrete evidence of AI coding capabilities at scale",
+          "themes": [
+            "AI_coding_agents",
+            "Cursor",
+            "autonomous_software_development",
+            "breakthrough_demonstration"
+          ],
+          "continuation": {
+            "original_item_id": "6c8a3aacf586",
+            "original_date": "2026-01-19",
+            "original_category": "reddit",
+            "original_title": "Cursor AI CEO shares GPT 5.2 agents building a 3M+ lines web browser in a week",
+            "continuation_type": "community_reaction",
+            "should_demote": false,
+            "reference_text": "Following yesterday's **Reddit** coverage of the Cursor browser announcement"
+          },
+          "summary_html": "<p>Following yesterday's <a href=\"/?date=2026-01-19&category=reddit#item-6c8a3aacf586\" class=\"internal-link\">Reddit</a> coverage of the Cursor browser announcement, Simon Willison reports compiling and testing a web browser built by Cursor using a fleet of coding agents in just a few weeks, finding it surprisingly usable despite rendering glitches</p>",
+          "content_html": "<p>Having compiled and run the web browser that Cursor built in a couple of weeks using mostly a giant fleet of coding agents I'm actually very impressed by it - there are rendering glitches but the renders it produces are surprisingly usable for a few-week-old project simonwillison.net/2026/Jan/19/...</p>"
+        },
+        {
+          "id": "a0cd063a56dc",
+          "title": "Introducing RePo: Language Models with Context Re-Positioning\n\nStandard LLMs force a rigid linear st...",
+          "content": "Introducing RePo: Language Models with Context Re-Positioning\n\nStandard LLMs force a rigid linear structure on context, treating physical proximity as relevance. Cognitive Load Theory suggests this is inefficient—models waste capacity managing noise instead of reasoning.\n\narxiv.org/abs/2512.14391",
+          "url": "https://bsky.app/profile/sakanaai.bsky.social/post/3mcqfpg3ixk2h",
+          "author": "@sakanaai.bsky.social",
+          "published": "2026-01-19T00:39:00.143000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Sakana AI announces RePo: a new approach to LLM context handling that challenges rigid linear structure, arguing standard approaches waste capacity managing noise based on Cognitive Load Theory",
+          "importance_score": 78,
+          "reasoning": "Original research announcement from credible AI lab, novel approach to fundamental LLM limitation, strong engagement, theoretical grounding",
+          "themes": [
+            "LLM_architecture",
+            "context_management",
+            "AI_research",
+            "cognitive_load_theory"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Sakana AI announces RePo: a new approach to LLM context handling that challenges rigid linear structure, arguing standard approaches waste capacity managing noise based on Cognitive Load Theory</p>",
+          "content_html": "<p>Introducing RePo: Language Models with Context Re-Positioning</p>\n<p>Standard LLMs force a rigid linear structure on context, treating physical proximity as relevance. Cognitive Load Theory suggests this is inefficient—models waste capacity managing noise instead of reasoning.</p>\n<p>arxiv.org/abs/2512.14391</p>"
+        },
+        {
+          "id": "c6db5766282a",
+          "title": "Since OpenAI didn't update Figure 7 from GDPval given the success rate of GPT-5.2 on long-form tasks...",
+          "content": "Since OpenAI didn't update Figure 7 from GDPval given the success rate of GPT-5.2 on long-form tasks, I used GPT-5.2 Pro to do so.\n\nThe chart assumes the process is: delegate multiple hours long tasks to AI, evaluate the output for an hour, then decide to try again or give up & do it yourself.",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mcsqz3uup22s",
+          "author": "@emollick.bsky.social",
+          "published": "2026-01-19T23:06:35.619000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Ethan Mollick recreates OpenAI's GDPval Figure 7 using GPT-5.2 Pro, analyzing success rates on multi-hour delegated tasks with an evaluate-retry workflow",
+          "importance_score": 75,
+          "reasoning": "Original analysis from credible researcher on GPT-5.2 capabilities for long-form tasks, practical workflow insights, good engagement",
+          "themes": [
+            "GPT-5_capabilities",
+            "AI_task_delegation",
+            "productivity_workflows"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Ethan Mollick recreates OpenAI's GDPval Figure 7 using GPT-5.2 Pro, analyzing success rates on multi-hour delegated tasks with an evaluate-retry workflow</p>",
+          "content_html": "<p>Since OpenAI didn't update Figure 7 from GDPval given the success rate of GPT-5.2 on long-form tasks, I used GPT-5.2 Pro to do so.</p>\n<p>The chart assumes the process is: delegate multiple hours long tasks to AI, evaluate the output for an hour, then decide to try again or give up & do it yourself.</p>"
+        },
+        {
+          "id": "09ddf0b19c4b",
+          "title": "Still commanding AI to make one weird game demo a day.\n\nThis one: \"A game where you need to stop a s...",
+          "content": "Still commanding AI to make one weird game demo a day.\n\nThis one: \"A game where you need to stop a spaceship from crashing into the sun and your only tool is future Claude Code.\" The entire design & all puzzles 100% AI, I gave minor UX feedback.\n\nPlay:  brilliant-custard-07b154.netlify.app",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mcsqujc56k2s",
+          "author": "@emollick.bsky.social",
+          "published": "2026-01-19T23:04:01.912000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Continuing our coverage of Mollick's AI game-a-day experiment, Mollick shares an AI-generated game demo created entirely by Claude Code - design and puzzles 100% AI-generated with only minor UX feedback from human",
+          "importance_score": 68,
+          "reasoning": "Practical demonstration of Claude Code's autonomous creative capabilities, playable output, good engagement from credible source",
+          "themes": [
+            "AI_coding_agents",
+            "Claude_Code",
+            "autonomous_AI_creation"
+          ],
+          "continuation": {
+            "original_item_id": "01cd1b7d34c9",
+            "original_date": "2026-01-18",
+            "original_category": "social",
+            "original_title": "Continuing to have AI build a weird game demo a day. Here is: \"Make a game where you have to prevent...",
+            "continuation_type": "follow_up",
+            "should_demote": false,
+            "reference_text": "Continuing our coverage of Mollick's AI game-a-day experiment"
+          },
+          "summary_html": "<p>Continuing our coverage of Mollick's AI game-a-day experiment, Mollick shares an AI-generated game demo created entirely by Claude Code - design and puzzles 100% AI-generated with only minor UX feedback from human</p>",
+          "content_html": "<p>Still commanding AI to make one weird game demo a day.</p>\n<p>This one: \"A game where you need to stop a spaceship from crashing into the sun and your only tool is future Claude Code.\" The entire design & all puzzles 100% AI, I gave minor UX feedback.</p>\n<p>Play:  brilliant-custard-07b154.netlify.app</p>"
+        },
+        {
+          "id": "0a40ddcf3bc5",
+          "title": "I think this stuff massively amplifies existing skills and experience - my expectation is that we'll...",
+          "content": "I think this stuff massively amplifies existing skills and experience - my expectation is that we'll see all sorts of projects where a small team (or an individual) of experts churn out millions of lines of good, working code in way less time than it would have taken if they had to type it all",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcsso4f3e22k",
+          "author": "@simonwillison.net",
+          "published": "2026-01-19T23:36:14.537000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Following yesterday's [Reddit](/?date=2026-01-19&category=reddit#item-6c8a3aacf586) coverage of the Cursor browser, Willison predicts AI will massively amplify existing developer skills, enabling small teams or individuals to produce millions of lines of working code much faster",
+          "importance_score": 60,
+          "reasoning": "Forward-looking perspective on AI-augmented development productivity from respected developer, practical implications",
+          "themes": [
+            "AI_coding_agents",
+            "productivity_amplification",
+            "software_development_future"
+          ],
+          "continuation": {
+            "original_item_id": "6c8a3aacf586",
+            "original_date": "2026-01-19",
+            "original_category": "reddit",
+            "original_title": "Cursor AI CEO shares GPT 5.2 agents building a 3M+ lines web browser in a week",
+            "continuation_type": "community_reaction",
+            "should_demote": false,
+            "reference_text": "Following yesterday's **Reddit** coverage of the Cursor browser"
+          },
+          "summary_html": "<p>Following yesterday's <a href=\"/?date=2026-01-19&category=reddit#item-6c8a3aacf586\" class=\"internal-link\">Reddit</a> coverage of the Cursor browser, Willison predicts AI will massively amplify existing developer skills, enabling small teams or individuals to produce millions of lines of working code much faster</p>",
+          "content_html": "<p>I think this stuff massively amplifies existing skills and experience - my expectation is that we'll see all sorts of projects where a small team (or an individual) of experts churn out millions of lines of good, working code in way less time than it would have taken if they had to type it all</p>"
+        },
+        {
+          "id": "2332b07c4bb7",
+          "title": "If you ask Claude 4.5 for the name of a software developer, you are going to get Marcus Chen. Wizard...",
+          "content": "If you ask Claude 4.5 for the name of a software developer, you are going to get Marcus Chen. Wizards are generally named Aldric. Space pilots are Kira.\n\n(If you have used Claude a lot, this is no surprise, but it is a little weird)",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mcqgozsixk2a",
+          "author": "@emollick.bsky.social",
+          "published": "2026-01-19T00:56:41.006000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Observation that Claude 4.5 has predictable default naming patterns: software developers are 'Marcus Chen', wizards are 'Aldric', space pilots are 'Kira'",
+          "importance_score": 58,
+          "reasoning": "Interesting insight into LLM biases and default behaviors, good engagement, highlights potential model training patterns",
+          "themes": [
+            "LLM_biases",
+            "Claude_behavior",
+            "AI_patterns"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Observation that Claude 4.5 has predictable default naming patterns: software developers are 'Marcus Chen', wizards are 'Aldric', space pilots are 'Kira'</p>",
+          "content_html": "<p>If you ask Claude 4.5 for the name of a software developer, you are going to get Marcus Chen. Wizards are generally named Aldric. Space pilots are Kira.</p>\n<p>(If you have used Claude a lot, this is no surprise, but it is a little weird)</p>"
+        },
+        {
+          "id": "e5b7849f7b5c",
+          "title": "RePo moves us toward models that intelligently curate their own working memory rather than passively...",
+          "content": "RePo moves us toward models that intelligently curate their own working memory rather than passively accepting input order.\n\nRead the full breakdown on our website:\npub.sakana.ai/repo/\n\nPaper: arxiv.org/abs/2512.14391",
+          "url": "https://bsky.app/profile/sakanaai.bsky.social/post/3mcqfrd4c7s2h",
+          "author": "@sakanaai.bsky.social",
+          "published": "2026-01-19T00:40:04.131000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Follow-up on RePo research explaining how it enables models to intelligently curate working memory rather than passively accepting input order",
+          "importance_score": 55,
+          "reasoning": "Technical insight from AI research lab but supplementary to main announcement post",
+          "themes": [
+            "LLM_architecture",
+            "context_management",
+            "AI_research"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Follow-up on RePo research explaining how it enables models to intelligently curate working memory rather than passively accepting input order</p>",
+          "content_html": "<p>RePo moves us toward models that intelligently curate their own working memory rather than passively accepting input order.</p>\n<p>Read the full breakdown on our website:</p>\n<p>pub.sakana.ai/repo/</p>\n<p>Paper: arxiv.org/abs/2512.14391</p>"
+        },
+        {
+          "id": "2ad0aff20dd7",
+          "title": "... but doing this is going to be SO HARD! Today's best expert developers are in the best possible p...",
+          "content": "... but doing this is going to be SO HARD! Today's best expert developers are in the best possible place to figure out this new level of abstraction on running these much more ambitious, large scale coding projects",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcsspfpwfs2k",
+          "author": "@simonwillison.net",
+          "published": "2026-01-19T23:36:57.884000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Following yesterday's [Reddit](/?date=2026-01-19&category=reddit#item-6c8a3aacf586) coverage of the Cursor browser, Simon Willison argues that managing large-scale AI coding projects requires new abstractions that expert developers are best positioned to figure out",
+          "importance_score": 48,
+          "reasoning": "Thoughtful insight on AI coding challenges from credible source but part of thread with limited standalone context",
+          "themes": [
+            "AI_coding_agents",
+            "software_development_future",
+            "skill_amplification"
+          ],
+          "continuation": {
+            "original_item_id": "6c8a3aacf586",
+            "original_date": "2026-01-19",
+            "original_category": "reddit",
+            "original_title": "Cursor AI CEO shares GPT 5.2 agents building a 3M+ lines web browser in a week",
+            "continuation_type": "community_reaction",
+            "should_demote": false,
+            "reference_text": "Following yesterday's **Reddit** coverage of the Cursor browser"
+          },
+          "summary_html": "<p>Following yesterday's <a href=\"/?date=2026-01-19&category=reddit#item-6c8a3aacf586\" class=\"internal-link\">Reddit</a> coverage of the Cursor browser, Simon Willison argues that managing large-scale AI coding projects requires new abstractions that expert developers are best positioned to figure out</p>",
+          "content_html": "<p>... but doing this is going to be SO HARD! Today's best expert developers are in the best possible place to figure out this new level of abstraction on running these much more ambitious, large scale coding projects</p>"
+        },
+        {
+          "id": "2ee1add5e3f1",
+          "title": "I find it astonishingly impressive. It uses libraries - what Rust project doesn't? - but the core of...",
+          "content": "I find it astonishingly impressive. It uses libraries - what Rust project doesn't? - but the core of it that lays out and renders the HTML and CSS appears to be a fresh implementation",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcrjivmcrk24",
+          "author": "@simonwillison.net",
+          "published": "2026-01-19T11:19:36.246000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Continuing our coverage from [[yesterday](/?date=2026-01-19&category=social#item-567f23ef9c16)](/?date=2026-01-19&category=social#item-567f23ef9c16), Willison expresses being impressed that the AI-built browser has a fresh HTML/CSS rendering implementation despite using Rust libraries",
+          "importance_score": 45,
+          "reasoning": "Technical assessment of AI coding output quality from credible source, validates achievement significance",
+          "themes": [
+            "AI_coding_agents",
+            "code_quality_assessment"
+          ],
+          "continuation": {
+            "original_item_id": "567f23ef9c16",
+            "original_date": "2026-01-19",
+            "original_category": "social",
+            "original_title": "They've fixed it so it has build instructions and compiles now - I've run it myself and took some sc...",
+            "continuation_type": "follow_up",
+            "should_demote": false,
+            "reference_text": "Continuing our coverage from [yesterday](/?date=2026-01-19&category=social#item-567f23ef9c16)"
+          },
+          "summary_html": "<p>Continuing our coverage from <a href=\"/?date=2026-01-19&category=social#item-567f23ef9c16\" class=\"internal-link\">[yesterday</a>](/?date=2026-01-19&category=social#item-567f23ef9c16), Willison expresses being impressed that the AI-built browser has a fresh HTML/CSS rendering implementation despite using Rust libraries</p>",
+          "content_html": "<p>I find it astonishingly impressive. It uses libraries - what Rust project doesn't? - but the core of it that lays out and renders the HTML and CSS appears to be a fresh implementation</p>"
+        },
+        {
+          "id": "f5eea641c0c0",
+          "title": "Depends how much more effort they want to invest in it\n\nI expect that getting it to \"worthwhile alte...",
+          "content": "Depends how much more effort they want to invest in it\n\nI expect that getting it to \"worthwhile alternative to Chrome\" would require may months (or even years) of extra work and a much larger team, and I don't see how that would be worthwhile for them",
+          "url": "https://bsky.app/profile/simonwillison.net/post/3mcs22w4q7c2r",
+          "author": "@simonwillison.net",
+          "published": "2026-01-19T16:16:00.630000",
+          "source": "Bluesky",
+          "source_type": "bluesky",
+          "tags": [],
+          "summary": "Following yesterday's [Reddit](/?date=2026-01-19&category=reddit#item-6c8a3aacf586) coverage of the Cursor browser, Discussion about effort required to make AI-built browser a viable Chrome alternative - would require months/years and larger team",
+          "importance_score": 35,
+          "reasoning": "Contextualizes AI coding achievement limitations but requires thread context to fully understand",
+          "themes": [
+            "AI_coding_agents",
+            "software_development_reality"
+          ],
+          "continuation": {
+            "original_item_id": "6c8a3aacf586",
+            "original_date": "2026-01-19",
+            "original_category": "reddit",
+            "original_title": "Cursor AI CEO shares GPT 5.2 agents building a 3M+ lines web browser in a week",
+            "continuation_type": "community_reaction",
+            "should_demote": false,
+            "reference_text": "Following yesterday's **Reddit** coverage of the Cursor browser"
+          },
+          "summary_html": "<p>Following yesterday's <a href=\"/?date=2026-01-19&category=reddit#item-6c8a3aacf586\" class=\"internal-link\">Reddit</a> coverage of the Cursor browser, Discussion about effort required to make AI-built browser a viable Chrome alternative - would require months/years and larger team</p>",
+          "content_html": "<p>Depends how much more effort they want to invest in it</p>\n<p>I expect that getting it to \"worthwhile alternative to Chrome\" would require may months (or even years) of extra work and a much larger team, and I don't see how that would be worthwhile for them</p>"
+        }
+      ]
+    },
+    "reddit": {
+      "count": 30,
+      "category_summary": "**r/LocalLLaMA** was dominated by the **GLM 4.7 Flash** release ecosystem, with community rapidly testing, quantizing, and integrating the new model. The **llama.cpp** [merger enabled](/?date=2026-01-20&category=reddit#item-3230899e945a) immediate adoption while users [praised its efficiency](/?date=2026-01-20&category=reddit#item-321cdfb3f1ab) for \"GPU poor\" setups running hundreds of thousands of agentic tokens.\n\n- **20x faster Top-K implementation** [merged into llama.cpp](/?date=2026-01-20&category=reddit#item-cd850a7e281f), achieving 63% faster prompt processing with AVX2 optimization—major open-source win\n- [Deep dive predicting](/?date=2026-01-20&category=reddit#item-f262e561e56e) **latent reasoning will replace token-based Chain-of-Thought** by 2026 sparked architectural debate\n- [**2-5 second model switching**](/?date=2026-01-20&category=reddit#item-fb613e358fff) via GPU state snapshotting drew interest for multi-model workflows\n- £30k workstation (3x RTX Pro 6000 96GB) [evaluated for automating](/?date=2026-01-20&category=reddit#item-1f7ff6c0b46a) **top-tier consulting**—real professional use case\n- **Gray vs OpenAI** [lawsuit over suicide](/?date=2026-01-20&category=reddit#item-505bfb300851) sparked heated discussion about guardrails and AI safety consequences\n\n**Infrastructure concerns** emerged with [**25 data center cancellations**](/?date=2026-01-20&category=reddit#item-da38c68ece1f) due to community backlash, while **GPT 5.2 High vs Claude Opus 4.5 vs Gemini 3** [comparisons on production codebases](/?date=2026-01-20&category=reddit#item-0e8260a72fb4) provided practical developer guidance.",
+      "category_summary_html": "<p><strong>r/LocalLLaMA</strong> was dominated by the <strong>GLM 4.7 Flash</strong> release ecosystem, with community rapidly testing, quantizing, and integrating the new model. The <strong>llama.cpp</strong> <a href=\"/?date=2026-01-20&category=reddit#item-3230899e945a\" class=\"internal-link\">merger enabled</a> immediate adoption while users <a href=\"/?date=2026-01-20&category=reddit#item-321cdfb3f1ab\" class=\"internal-link\">praised its efficiency</a> for \"GPU poor\" setups running hundreds of thousands of agentic tokens.</p>\n<ul>\n<li><strong>20x faster Top-K implementation</strong> <a href=\"/?date=2026-01-20&category=reddit#item-cd850a7e281f\" class=\"internal-link\">merged into llama.cpp</a>, achieving 63% faster prompt processing with AVX2 optimization—major open-source win</li>\n<li><a href=\"/?date=2026-01-20&category=reddit#item-f262e561e56e\" class=\"internal-link\">Deep dive predicting</a> <strong>latent reasoning will replace token-based Chain-of-Thought</strong> by 2026 sparked architectural debate</li>\n<li><a href=\"/?date=2026-01-20&category=reddit#item-fb613e358fff\" class=\"internal-link\"><strong>2-5 second model switching</strong></a> via GPU state snapshotting drew interest for multi-model workflows</li>\n<li>£30k workstation (3x RTX Pro 6000 96GB) <a href=\"/?date=2026-01-20&category=reddit#item-1f7ff6c0b46a\" class=\"internal-link\">evaluated for automating</a> <strong>top-tier consulting</strong>—real professional use case</li>\n<li><strong>Gray vs OpenAI</strong> <a href=\"/?date=2026-01-20&category=reddit#item-505bfb300851\" class=\"internal-link\">lawsuit over suicide</a> sparked heated discussion about guardrails and AI safety consequences</li>\n</ul>\n<p><strong>Infrastructure concerns</strong> emerged with <a href=\"/?date=2026-01-20&category=reddit#item-da38c68ece1f\" class=\"internal-link\"><strong>25 data center cancellations</strong></a> due to community backlash, while <strong>GPT 5.2 High vs Claude Opus 4.5 vs Gemini 3</strong> <a href=\"/?date=2026-01-20&category=reddit#item-0e8260a72fb4\" class=\"internal-link\">comparisons on production codebases</a> provided practical developer guidance.</p>",
+      "themes": [
+        {
+          "name": "GLM 4.7 Flash Ecosystem",
+          "description": "Multiple posts about the new GLM 4.7 Flash model release, quantizations (GGUF, FP8, NVFP4), and llama.cpp integration. Dominated LocalLLaMA discussion.",
+          "item_count": 10,
+          "example_items": [],
+          "importance": 88
+        },
+        {
+          "name": "LLM Architecture & Research",
+          "description": "Discussion of fundamental architectural shifts like latent reasoning replacing token-based CoT",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 78
+        },
+        {
+          "name": "Local LLM Infrastructure & Tooling",
+          "description": "Updates to llama.cpp, LlamaBarn, API compatibility, and various tools enabling local model deployment.",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "Agent Frameworks & Multi-Agent Systems",
+          "description": "Development of agent architectures, evaluation frameworks, model meshing, and autonomous agent systems",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "AI Safety & Ethics",
+          "description": "Discussions about lawsuits, jailbreaking research, guardrails, and real-world consequences of AI interactions",
+          "item_count": 8,
+          "example_items": [],
+          "importance": 75
+        },
+        {
+          "name": "Hardware & Performance Optimization",
+          "description": "GPU benchmarks, multi-GPU setups, quantization techniques, Top-K optimization, and hardware purchase decisions.",
+          "item_count": 12,
+          "example_items": [],
+          "importance": 72
+        },
+        {
+          "name": "Model Quantization Formats",
+          "description": "Community rapidly producing GGUF, FP8, NVFP4 quantizations of new models for different hardware targets.",
+          "item_count": 7,
+          "example_items": [],
+          "importance": 70
+        },
+        {
+          "name": "Open Source Tools",
+          "description": "New tool releases and projects including memory systems, distributed inference, and fast model switching",
+          "item_count": 6,
+          "example_items": [],
+          "importance": 70
+        },
+        {
+          "name": "AI Policy & Ethics",
+          "description": "Corporate influence on AI legislation, safety concerns, and data privacy discussions",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 70
+        },
+        {
+          "name": "Technical Projects & Optimizations",
+          "description": "Developer contributions including Top-K optimization and VSCode integration tools",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 70
+        }
+      ],
+      "top_items": [
+        {
+          "id": "cd850a7e281f",
+          "title": "I made a Top-K implementation that's up to 20x faster than PyTorch CPU (open source)",
+          "content": "Spent way too long optimizing Top-K selection for LLM sampling and finally hit some stupid numbers.\n\n**TL;DR:** AVX2-optimized batched Top-K that beats PyTorch CPU by 4-20x depending on vocab size. Sometimes competitive with CUDA for small batches.\n\n**Benchmarks (K=50):**\n\n* Vocab=32K: 0.043ms vs PyTorch's 0.173ms (4x faster)\n* Vocab=128K: 0.057ms vs PyTorch's 0.777ms (13x faster)\n* Vocab=256K: 0.079ms vs PyTorch's 1.56ms (20x faster)\n\nIntegrated it into llama.cpp and got 63% faster prompt processing on a 120B MoE model (81→142 tokens/sec).\n\nUses adaptive sampling + AVX2 SIMD + cache-optimized scanning. Has fast paths for sorted/constant inputs. Single-pass algorithm, no GPU needed.\n\nIncludes pre-built DLLs and llama.cpp implementation (for windows).\n\nGitHub:...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qh0yq8/i_made_a_topk_implementation_thats_up_to_20x/",
+          "author": "u/andreabarbato",
+          "published": "2026-01-19T02:45:28",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Resources"
+          ],
+          "summary": "AVX2-optimized Top-K implementation achieving 4-20x speedup over PyTorch CPU, integrated into llama.cpp for 63% faster prompt processing.",
+          "importance_score": 88,
+          "reasoning": "Excellent technical contribution with high engagement (141 score, 101 comments). Significant performance improvement with open-source code.",
+          "themes": [
+            "optimization",
+            "llama-cpp",
+            "performance",
+            "open-source"
+          ],
+          "continuation": null,
+          "summary_html": "<p>AVX2-optimized Top-K implementation achieving 4-20x speedup over PyTorch CPU, integrated into llama.cpp for 63% faster prompt processing.</p>",
+          "content_html": "<p>Spent way too long optimizing Top-K selection for LLM sampling and finally hit some stupid numbers.</p>\n<p><strong>TL;DR:</strong> AVX2-optimized batched Top-K that beats PyTorch CPU by 4-20x depending on vocab size. Sometimes competitive with CUDA for small batches.</p>\n<p><strong>Benchmarks (K=50):</strong></p>\n<p>* Vocab=32K: 0.043ms vs PyTorch's 0.173ms (4x faster)</p>\n<p>* Vocab=128K: 0.057ms vs PyTorch's 0.777ms (13x faster)</p>\n<p>* Vocab=256K: 0.079ms vs PyTorch's 1.56ms (20x faster)</p>\n<p>Integrated it into llama.cpp and got 63% faster prompt processing on a 120B MoE model (81→142 tokens/sec).</p>\n<p>Uses adaptive sampling + AVX2 SIMD + cache-optimized scanning. Has fast paths for sorted/constant inputs. Single-pass algorithm, no GPU needed.</p>\n<p>Includes pre-built DLLs and llama.cpp implementation (for windows).</p>\n<p>GitHub:...</p>"
+        },
+        {
+          "id": "321cdfb3f1ab",
+          "title": "My gpu poor comrades, GLM 4.7 Flash is your local agent",
+          "content": "I tried many MoE models at 30B or under and all of them failed sooner or later in an agentic framework. If z.ai is not redirecting my requests to another model, then GLM 4.7 Flash is finally the reliable (soon local) agent that I desperately wanted.\n\nI am running it since more than half an hour on opencode and it produced hundreds of thousands tokens in one session (with context compacting obviously) without any tool calling errors. It clones github repos, it runs all kind of commands, edits files, commits changes, all perfect, not a single error yet.\n\nCan't wait for GGUFs to try this locally.",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qhii5v/my_gpu_poor_comrades_glm_47_flash_is_your_local/",
+          "author": "u/__Maximum__",
+          "published": "2026-01-19T14:12:06",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "New Model"
+          ],
+          "summary": "User reports GLM 4.7 Flash as reliable local agent for GPU-constrained users, successfully running hundreds of thousands of tokens in agentic framework without tool calling errors.",
+          "importance_score": 85,
+          "reasoning": "Very high engagement (376 score, 129 comments) with practical evaluation of new model for agentic use. Directly addresses needs of hardware-limited users.",
+          "themes": [
+            "glm-4.7",
+            "local-agents",
+            "model-evaluation",
+            "gpu-efficiency"
+          ],
+          "continuation": null,
+          "summary_html": "<p>User reports GLM 4.7 Flash as reliable local agent for GPU-constrained users, successfully running hundreds of thousands of tokens in agentic framework without tool calling errors.</p>",
+          "content_html": "<p>I tried many MoE models at 30B or under and all of them failed sooner or later in an agentic framework. If z.ai is not redirecting my requests to another model, then GLM 4.7 Flash is finally the reliable (soon local) agent that I desperately wanted.</p>\n<p>I am running it since more than half an hour on opencode and it produced hundreds of thousands tokens in one session (with context compacting obviously) without any tool calling errors. It clones github repos, it runs all kind of commands, edits files, commits changes, all perfect, not a single error yet.</p>\n<p>Can't wait for GGUFs to try this locally.</p>"
+        },
+        {
+          "id": "f262e561e56e",
+          "title": "Is Token-based CoT going to Die? My 2026 Prediction for the next generation of LLMs &amp; VLMs - A Deep-Dive into the rise of Latent Reasoning.",
+          "content": "Hello everyone,\n\nFor the past few years, we’ve lived in the era of Chain-of-Thought (CoT) which forced models to \"show their work\" token-by-token to solve complex problems. It \"works\" but it’s slow, expensive, inefficient and limited by the \"one-to-one\" law of autoregression.\n\nBased on three papers released this week (January 2026), I'm agreeing with the prediction that a massive architectural shift is coming for LLMs/VLMs in 2026 (made on [Discover-AI](https://www.youtube.com/watch?v=O9HxArmWChs) video),  in 2026 we will likely move from Simulating Reasoning (imitating human speech) to Optimizing Reasoning (pure vector operations).\n\n1. Reasoning is a \"State of Mind,\" Not a Word Cloud ([Source\\_1](https://arxiv.org/abs/2601.08058))\n\nRecent research from the University of Virginia proves...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qh254m/is_tokenbased_cot_going_to_die_my_2026_prediction/",
+          "author": "u/madSaiyanUltra_9789",
+          "published": "2026-01-19T03:51:26",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Discussion"
+          ],
+          "summary": "Deep analysis predicting shift from token-based Chain-of-Thought to latent reasoning in 2026, based on three recent papers. Discusses limitations of autoregressive one-to-one token generation.",
+          "importance_score": 78,
+          "reasoning": "Technically substantive prediction about fundamental architectural shifts. References recent research with good engagement (23 comments). High educational value.",
+          "themes": [
+            "architecture research",
+            "reasoning models",
+            "future predictions"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Deep analysis predicting shift from token-based Chain-of-Thought to latent reasoning in 2026, based on three recent papers. Discusses limitations of autoregressive one-to-one token generation.</p>",
+          "content_html": "<p>Hello everyone,</p>\n<p>For the past few years, we’ve lived in the era of Chain-of-Thought (CoT) which forced models to \"show their work\" token-by-token to solve complex problems. It \"works\" but it’s slow, expensive, inefficient and limited by the \"one-to-one\" law of autoregression.</p>\n<p>Based on three papers released this week (January 2026), I'm agreeing with the prediction that a massive architectural shift is coming for LLMs/VLMs in 2026 (made on <a href=\"https://www.youtube.com/watch?v=O9HxArmWChs\" target=\"_blank\" rel=\"noopener noreferrer\">Discover-AI</a> video),  in 2026 we will likely move from Simulating Reasoning (imitating human speech) to Optimizing Reasoning (pure vector operations).</p>\n<p>1. Reasoning is a \"State of Mind,\" Not a Word Cloud (<a href=\"https://arxiv.org/abs/2601.08058\" target=\"_blank\" rel=\"noopener noreferrer\">Source\\_1</a>)</p>\n<p>Recent research from the University of Virginia proves...</p>"
+        },
+        {
+          "id": "3230899e945a",
+          "title": "GLM 4.7 Flash official support merged in llama.cpp",
+          "content": "",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qhitrj/glm_47_flash_official_support_merged_in_llamacpp/",
+          "author": "u/ayylmaonade",
+          "published": "2026-01-19T14:24:24",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Resources"
+          ],
+          "summary": "Announcement that GLM 4.7 Flash support has been officially merged into llama.cpp.",
+          "importance_score": 82,
+          "reasoning": "Very high engagement (334 score, 56 comments). Critical infrastructure update enabling community to run new model locally. High practical impact.",
+          "themes": [
+            "glm-4.7",
+            "llama-cpp",
+            "infrastructure"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Announcement that GLM 4.7 Flash support has been officially merged into llama.cpp.</p>",
+          "content_html": ""
+        },
+        {
+          "id": "1f7ff6c0b46a",
+          "title": "Can I realistically automate most of top-tier consulting with a £30k local LLM workstation (3× RTX Pro 6000 96GB)?",
+          "content": "I’m a management / strategy consultant working with very large documents (often 500–1000+ pages), financial models, market research, due diligence packs, and board-level narratives.\n\nI’m considering spending 30k on a local AI workstation built around 3× PNY NVIDIA RTX Pro 6000 Blackwell (96GB VRAM each). The goal is to automate as much of my workflow as possible while keeping sensitive data local.\n\nWhat I’m trying to automate (or heavily compress):\n\n* Reading and analysing 1000-page PDFs (regulatory filings, DD reports, contracts, disclosures)\n* Extracting risks, assumptions, KPIs, red flags, inconsistencies\n* Cross-document comparison (e.g. seller vs buyer DD, management case vs market data)\n* Automating spreadsheet work (cleaning models, scenario analysis, stress tests)\n* Drafting...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qhg2d8/can_i_realistically_automate_most_of_toptier/",
+          "author": "u/madejustforredd1t",
+          "published": "2026-01-19T12:41:16",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Discussion"
+          ],
+          "summary": "Management consultant considering £30k workstation (3x RTX Pro 6000 96GB) to automate consulting workflows: analyzing 1000+ page PDFs, financial models, due diligence, and board narratives while keeping data local.",
+          "importance_score": 72,
+          "reasoning": "High-quality practical question with excellent engagement (46 comments). Real professional use case exploring LLM production deployment.",
+          "themes": [
+            "professional applications",
+            "hardware investment",
+            "local inference",
+            "document processing"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Management consultant considering £30k workstation (3x RTX Pro 6000 96GB) to automate consulting workflows: analyzing 1000+ page PDFs, financial models, due diligence, and board narratives while keeping data local.</p>",
+          "content_html": "<p>I’m a management / strategy consultant working with very large documents (often 500–1000+ pages), financial models, market research, due diligence packs, and board-level narratives.</p>\n<p>I’m considering spending 30k on a local AI workstation built around 3× PNY NVIDIA RTX Pro 6000 Blackwell (96GB VRAM each). The goal is to automate as much of my workflow as possible while keeping sensitive data local.</p>\n<p>What I’m trying to automate (or heavily compress):</p>\n<p>* Reading and analysing 1000-page PDFs (regulatory filings, DD reports, contracts, disclosures)</p>\n<p>* Extracting risks, assumptions, KPIs, red flags, inconsistencies</p>\n<p>* Cross-document comparison (e.g. seller vs buyer DD, management case vs market data)</p>\n<p>* Automating spreadsheet work (cleaning models, scenario analysis, stress tests)</p>\n<p>* Drafting...</p>"
+        },
+        {
+          "id": "f342271559e0",
+          "title": "New in llama.cpp: Anthropic Messages API",
+          "content": "",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qhaq21/new_in_llamacpp_anthropic_messages_api/",
+          "author": "u/paf1138",
+          "published": "2026-01-19T09:33:24",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Resources"
+          ],
+          "summary": "New Anthropic Messages API support added to llama.cpp, enabling Claude-compatible API endpoints.",
+          "importance_score": 75,
+          "reasoning": "High engagement (156 score, 47 comments). Important infrastructure update for API compatibility and tool ecosystem.",
+          "themes": [
+            "llama-cpp",
+            "api-compatibility",
+            "infrastructure"
+          ],
+          "continuation": null,
+          "summary_html": "<p>New Anthropic Messages API support added to llama.cpp, enabling Claude-compatible API endpoints.</p>",
+          "content_html": ""
+        },
+        {
+          "id": "fb613e358fff",
+          "title": "Running multiple models locally on a single GPU, with model switching in 2-5 seconds.",
+          "content": "We're a small team of systems engineers who've been frustrated with the same problem: wanting to run multiple LLMs Localy (like a 70B chat model, a 7B code model, and a fine-tune) on a single high-end GPU (4090/5090/H100/DGX Spark), but having to wait 60-90 seconds to load/switch each time.\n\nWe've been prototyping a low-level runtime that uses snapshotting to capture a model's full GPU/RAM state. The idea is to let you \"save\" a few fully-loaded models and switch between them near-instantly—targeting 2-5 second restores, limited by PCIe bandwidth.\n\nWe're planning to open-source the core engine to build it with the community.\n\nBefore we go further, we want to sanity-check the need and the approach:\n\n1. Is this a problem you actively face? Would a 5-second model switcher be valuable for your...",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1qh7ekl/running_multiple_models_locally_on_a_single_gpu/",
+          "author": "u/pmv143",
+          "published": "2026-01-19T07:36:47",
+          "source": "r/LocalLLaMA",
+          "source_type": "reddit",
+          "tags": [
+            "Discussion"
+          ],
+          "summary": "Team developing runtime using snapshotting to capture model GPU/RAM state, enabling 2-5 second model switching on single GPU instead of 60-90 second load times.",
+          "importance_score": 70,
+          "reasoning": "Technically innovative approach to model management. Solves real pain point with impressive performance claims. Good engagement (20 comments).",
+          "themes": [
+            "inference optimization",
+            "model management",
+            "open source tools"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Team developing runtime using snapshotting to capture model GPU/RAM state, enabling 2-5 second model switching on single GPU instead of 60-90 second load times.</p>",
+          "content_html": "<p>We're a small team of systems engineers who've been frustrated with the same problem: wanting to run multiple LLMs Localy (like a 70B chat model, a 7B code model, and a fine-tune) on a single high-end GPU (4090/5090/H100/DGX Spark), but having to wait 60-90 seconds to load/switch each time.</p>\n<p>We've been prototyping a low-level runtime that uses snapshotting to capture a model's full GPU/RAM state. The idea is to let you \"save\" a few fully-loaded models and switch between them near-instantly—targeting 2-5 second restores, limited by PCIe bandwidth.</p>\n<p>We're planning to open-source the core engine to build it with the community.</p>\n<p>Before we go further, we want to sanity-check the need and the approach:</p>\n<p>1. Is this a problem you actively face? Would a 5-second model switcher be valuable for your...</p>"
+        },
+        {
+          "id": "0e8260a72fb4",
+          "title": "GPT 5.2 High vs. Claude Opus 4.5 vs. Gemini 3 (In a Production Project)",
+          "content": "So the WebDev leaderboard on LMArena right now is basically the same three names over and over: Claude Opus 4.5, GPT-5.2 Codex (High), and Gemini 3 Pro.\n\nInstead of benchmarks or toy demos, I wanted to see how these actually behave inside a real codebase. Not a demo app. An existing production repo with **50K+ LOC** and **8K+ stars**, and I asked them to ship two actual features, like a normal dev workflow.\n\nSame repo. Same prompts. Same constraints.\n\nI did 3 runs per model and kept the best output.\n\n# TL;DR\n\n* **Claude Opus 4.5:** Most reliable overall. Best UI polish. Both tasks shipped cleanly. The downside is cost.\n* **GPT-5.2 High:** Best-structured code when it succeeds, but noticeably slower. Great on the analytics task.\n* **Gemini 3 Pro:** Fast and cheap. Everything worked, but it...",
+          "url": "https://reddit.com/r/OpenAI/comments/1qhax1w/gpt_52_high_vs_claude_opus_45_vs_gemini_3_in_a/",
+          "author": "u/shricodev",
+          "published": "2026-01-19T09:40:04",
+          "source": "r/OpenAI",
+          "source_type": "reddit",
+          "tags": [
+            "Discussion"
+          ],
+          "summary": "Detailed comparison of GPT 5.2 High vs Claude Opus 4.5 vs Gemini 3 on real 50K+ LOC production codebase with two feature implementations",
+          "importance_score": 70,
+          "reasoning": "High-quality technical comparison with real-world production testing methodology, valuable for developers choosing models",
+          "themes": [
+            "model_comparison",
+            "coding_benchmark",
+            "production_testing",
+            "technical_analysis"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Detailed comparison of GPT 5.2 High vs Claude Opus 4.5 vs Gemini 3 on real 50K+ LOC production codebase with two feature implementations</p>",
+          "content_html": "<p>So the WebDev leaderboard on LMArena right now is basically the same three names over and over: Claude Opus 4.5, GPT-5.2 Codex (High), and Gemini 3 Pro.</p>\n<p>Instead of benchmarks or toy demos, I wanted to see how these actually behave inside a real codebase. Not a demo app. An existing production repo with <strong>50K+ LOC</strong> and <strong>8K+ stars</strong>, and I asked them to ship two actual features, like a normal dev workflow.</p>\n<p>Same repo. Same prompts. Same constraints.</p>\n<p>I did 3 runs per model and kept the best output.</p>\n<p># TL;DR</p>\n<p>* <strong>Claude Opus 4.5:</strong> Most reliable overall. Best UI polish. Both tasks shipped cleanly. The downside is cost.</p>\n<p>* <strong>GPT-5.2 High:</strong> Best-structured code when it succeeds, but noticeably slower. Great on the analytics task.</p>\n<p>* <strong>Gemini 3 Pro:</strong> Fast and cheap. Everything worked, but it...</p>"
+        },
+        {
+          "id": "505bfb300851",
+          "title": "Oh boy...get ready for those guardrails to increase even more. [from Gray vs. OpenAI - about a 40-year-old who killed himself after long chats with GPT-4o in October]",
+          "content": "",
+          "url": "https://reddit.com/r/ChatGPT/comments/1qh8o31/oh_boyget_ready_for_those_guardrails_to_increase/",
+          "author": "u/changing_who_i_am",
+          "published": "2026-01-19T08:21:41",
+          "source": "r/ChatGPT",
+          "source_type": "reddit",
+          "tags": [
+            "News 📰"
+          ],
+          "summary": "Discussion about Gray vs. OpenAI lawsuit regarding a 40-year-old who died by suicide after extended conversations with GPT-4o, with concerns about increased safety guardrails.",
+          "importance_score": 70,
+          "reasoning": "Important AI safety and ethics discussion about real-world consequences of AI interactions and potential regulatory/policy implications.",
+          "themes": [
+            "ai_safety",
+            "ethics",
+            "legal_issues",
+            "mental_health"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Discussion about Gray vs. OpenAI lawsuit regarding a 40-year-old who died by suicide after extended conversations with GPT-4o, with concerns about increased safety guardrails.</p>",
+          "content_html": ""
+        },
+        {
+          "id": "da38c68ece1f",
+          "title": "25 data center cancellations this month due to backlash",
+          "content": "",
+          "url": "https://reddit.com/r/OpenAI/comments/1qh6cc9/25_data_center_cancellations_this_month_due_to/",
+          "author": "u/MetaKnowing",
+          "published": "2026-01-19T06:57:45",
+          "source": "r/OpenAI",
+          "source_type": "reddit",
+          "tags": [
+            "Image"
+          ],
+          "summary": "Report of 25 data center cancellations in one month due to community backlash",
+          "importance_score": 75,
+          "reasoning": "Significant infrastructure news with high engagement (84 comments). Important for understanding AI compute expansion challenges",
+          "themes": [
+            "infrastructure",
+            "data_centers",
+            "community_backlash",
+            "industry_news"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Report of 25 data center cancellations in one month due to community backlash</p>",
+          "content_html": ""
+        }
+      ]
+    },
+    "jobs": {
+      "count": 30,
+      "category_summary": "**Frontier AI companies** continue aggressive hiring. **ElevenLabs** ($6.6B valuation, $200M+ ARR) [signals strong market confidence](/?date=2026-01-20&category=jobs#item-5a8c73958169) in audio AI, while **SuperPlane** and multiple platforms [seek Applied AI Engineers](/?date=2026-01-20&category=jobs#item-c184618e7460) for LLM and agent development.\n\n- **AI x Biology** [emerging as high-impact](/?date=2026-01-20&category=jobs#item-2274b14a18a2) specialization with deep learning and sequence modeling opportunities\n- **Remote LLM engineering** demand [remains strong](/?date=2026-01-20&category=jobs#item-fc44c5a5d8f1) through platforms like **Lemon.io** ($11M+ paid to engineers)\n- **Director-level ML roles** [available in fintech](/?date=2026-01-20&category=jobs#item-4729e03c8cca), combining technical depth with business impact\n\n**Key trend**: Growing demand for domain experts (finance, real estate) to create AI training data. **Mercor**, **Pavago** (YC W25), and **Toptal** all [recruiting specialists](/?date=2026-01-20&category=jobs#item-453c2c623436) for RLHF and prompt engineering—signaling continued investment in human-in-the-loop AI development.",
+      "category_summary_html": "<p><strong>Frontier AI companies</strong> continue aggressive hiring. <strong>ElevenLabs</strong> ($6.6B valuation, $200M+ ARR) <a href=\"/?date=2026-01-20&category=jobs#item-5a8c73958169\" class=\"internal-link\">signals strong market confidence</a> in audio AI, while <strong>SuperPlane</strong> and multiple platforms <a href=\"/?date=2026-01-20&category=jobs#item-c184618e7460\" class=\"internal-link\">seek Applied AI Engineers</a> for LLM and agent development.</p>\n<ul>\n<li><strong>AI x Biology</strong> <a href=\"/?date=2026-01-20&category=jobs#item-2274b14a18a2\" class=\"internal-link\">emerging as high-impact</a> specialization with deep learning and sequence modeling opportunities</li>\n<li><strong>Remote LLM engineering</strong> demand <a href=\"/?date=2026-01-20&category=jobs#item-fc44c5a5d8f1\" class=\"internal-link\">remains strong</a> through platforms like <strong>Lemon.io</strong> ($11M+ paid to engineers)</li>\n<li><strong>Director-level ML roles</strong> <a href=\"/?date=2026-01-20&category=jobs#item-4729e03c8cca\" class=\"internal-link\">available in fintech</a>, combining technical depth with business impact</li>\n</ul>\n<p><strong>Key trend</strong>: Growing demand for domain experts (finance, real estate) to create AI training data. <strong>Mercor</strong>, <strong>Pavago</strong> (YC W25), and <strong>Toptal</strong> all <a href=\"/?date=2026-01-20&category=jobs#item-453c2c623436\" class=\"internal-link\">recruiting specialists</a> for RLHF and prompt engineering—signaling continued investment in human-in-the-loop AI development.</p>",
+      "themes": [
+        {
+          "name": "Applied AI & LLM Engineering",
+          "description": "Roles specifically focused on building AI-powered applications, working with LLMs, agents, and deep learning frameworks",
+          "item_count": 5,
+          "example_items": [],
+          "importance": 85
+        },
+        {
+          "name": "Frontier AI Companies Hiring",
+          "description": "Positions at leading AI companies like ElevenLabs indicate continued growth and hiring at top-tier AI labs",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 80
+        },
+        {
+          "name": "AI in Specialized Domains",
+          "description": "AI roles in biology/biotech, finance, and automotive showing cross-industry AI adoption",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 72
+        },
+        {
+          "name": "AI Training Data & RLHF",
+          "description": "Positions creating training data, prompts, and evaluation content for AI systems - indicates continued demand for human-in-the-loop AI development",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 70
+        },
+        {
+          "name": "AI Infrastructure & MLOps",
+          "description": "DevOps and infrastructure roles supporting AI/ML workloads, including GPU orchestration and ML pipeline management",
+          "item_count": 3,
+          "example_items": [],
+          "importance": 65
+        },
+        {
+          "name": "Remote AI/ML Talent Marketplaces",
+          "description": "Platforms like Lemon.io and Proxify connecting AI engineers with projects, showing strong demand for remote AI talent",
+          "item_count": 6,
+          "example_items": [],
+          "importance": 60
+        },
+        {
+          "name": "AI Training Data & Support",
+          "description": "Mercor's initiative to connect domain experts with AI labs for training data creation signals growing demand for human expertise in AI development",
+          "item_count": 1,
+          "example_items": [],
+          "importance": 58
+        },
+        {
+          "name": "AI Product Companies",
+          "description": "Roles at companies building AI-powered products (Reface.ai, Interr.io) where engineering/design work touches AI features",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 55
+        },
+        {
+          "name": "AI-Adjacent Enterprise",
+          "description": "Major tech companies (CrowdStrike, FlexGen) using AI in their platforms but hiring for non-ML roles",
+          "item_count": 2,
+          "example_items": [],
+          "importance": 45
+        },
+        {
+          "name": "Fintech & Payments",
+          "description": "Payment processing, cryptocurrency, and financial services engineering roles",
+          "item_count": 4,
+          "example_items": [],
+          "importance": 35
+        }
+      ],
+      "top_items": [
+        {
+          "id": "5a8c73958169",
+          "title": "ElevenLabs: Design Engineer",
+          "content": "\n\n\n  Headquarters: United Kingdom\n    URL: http://elevenlabs.io\n\n\nAbout ElevenLabsElevenLabs is a research and product company defining the frontier of audio AI. Millions of people use our technology to read articles, voice over videos, and restore voices lost to disability. Leading developers and enterprises worldwide use ElevenLabs to build intelligent agents for support, sales, and education.We launched in January 2023 with the first AI model to cross the threshold of human-like speech. In January 2025, we raised a $180 million Series C round, valuing the company at $3.3 billion. By September 2025, that valuation doubled to $6.6 billion as we surpassed $200 million ARR in under three years.Our mission is to build the most important audio AI platform in the world, solve AI audio intelligence, and make information accessible in any voice, language, or sound.Our core offerings are our Creative Platform and the Agents Platform, powered by proprietary Text to Speech, Speech to Text, and conversational AI models.We are just getting started. If you want to work hard and create lasting impact, we would like to hear from you.How we workHigh-velocity: Rapid experimentation, lean...",
+          "url": "https://weworkremotely.com/remote-jobs/elevenlabs-design-engineer",
+          "author": "Unknown",
+          "published": "2026-01-15T23:39:14",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Design"
+          ],
+          "summary": "ElevenLabs, a leading AI audio company valued at $6.6B with $200M+ ARR, is hiring a Design Engineer. The role combines design and engineering at one of the fastest-growing frontier AI companies that pioneered human-like speech synthesis.",
+          "importance_score": 78,
+          "reasoning": "ElevenLabs is a top-tier AI company at the frontier of audio AI. While this is a design engineering role rather than pure ML, it's at a highly valuable AI lab with exceptional growth trajectory.",
+          "themes": [
+            "Frontier AI Companies",
+            "AI Audio",
+            "Design Engineering"
+          ],
+          "continuation": null,
+          "summary_html": "<p>ElevenLabs, a leading AI audio company valued at $6.6B with $200M+ ARR, is hiring a Design Engineer. The role combines design and engineering at one of the fastest-growing frontier AI companies that pioneered human-like speech synthesis.</p>",
+          "content_html": "<p>Headquarters: United Kingdom</p>\n<p>URL: http://elevenlabs.io</p>\n<p>About ElevenLabsElevenLabs is a research and product company defining the frontier of audio AI. Millions of people use our technology to read articles, voice over videos, and restore voices lost to disability. Leading developers and enterprises worldwide use ElevenLabs to build intelligent agents for support, sales, and education.We launched in January 2023 with the first AI model to cross the threshold of human-like speech. In January 2025, we raised a $180 million Series C round, valuing the company at $3.3 billion. By September 2025, that valuation doubled to $6.6 billion as we surpassed $200 million ARR in under three years.Our mission is to build the most important audio AI platform in the world, solve AI audio intelligence, and make information accessible in any voice, language, or sound.Our core offerings are our Creative Platform and the Agents Platform, powered by proprietary Text to Speech, Speech to Text, and conversational AI models.We are just getting started. If you want to work hard and create lasting impact, we would like to hear from you.How we workHigh-velocity: Rapid experimentation, lean...</p>"
+        },
+        {
+          "id": "2274b14a18a2",
+          "title": "Great Good: Contract Software Engineer (AI x Biology)",
+          "content": "\n\n\n  Headquarters: Remote\n    URL: https://greatgood.gg/\n\n\nLocation: Remote (Europe or Asia preferred)\nCompany: Great Good Venture Lab\nEngagement Type: Hourly or project-based contractor\n&nbsp;\nAbout the Role\nGreat Good is hiring a senior software engineer (contractor) to support early-stage ventures at the intersection of artificial intelligence and biotechnology. You’ll work directly with technical founders and early teams to prototype infrastructure and ML tools that accelerate therapeutic discovery and development.\nThis is a high-autonomy role suited to engineers who enjoy working across systems, models, and real-world scientific applications.\n&nbsp;\nResponsibilities\n\n\nDesign and implement data pipelines and ML workflows (e.g., for sequence modeling, structure prediction, optimization loops)\n\n\nBuild tools to support scientific computing, visualization, or experimental integration\n\n\nCollaborate with cross-functional teams to translate R&amp;D needs into clean, scalable code\n\n\nContribute to backend systems, cloud deployments, and toolchain setup as needed\n\n\nDeliver technical documentation and maintainable code for future handoff or extension\n\n\n&nbsp;\nRequirements\n\n\n5+ years...",
+          "url": "https://weworkremotely.com/remote-jobs/great-good-contract-software-engineer-ai-x-biology",
+          "author": "Unknown",
+          "published": "2026-01-15T11:33:52",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Back-End Programming"
+          ],
+          "summary": "Great Good Venture Lab is hiring a contract software engineer to work on AI x biology applications, including ML workflows for sequence modeling, structure prediction, and therapeutic discovery. Remote role preferring Europe/Asia timezones.",
+          "importance_score": 75,
+          "reasoning": "AI applied to biotechnology is a high-impact emerging field. Role involves deep learning frameworks, ML pipelines, and scientific applications - core AI/ML engineering work.",
+          "themes": [
+            "AI in Biology",
+            "ML Engineering",
+            "Contract Work",
+            "Remote"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Great Good Venture Lab is hiring a contract software engineer to work on AI x biology applications, including ML workflows for sequence modeling, structure prediction, and therapeutic discovery. Remote role preferring Europe/Asia timezones.</p>",
+          "content_html": "<p>Headquarters: Remote</p>\n<p>URL: https://greatgood.gg/</p>\n<p>Location: Remote (Europe or Asia preferred)</p>\n<p>Company: Great Good Venture Lab</p>\n<p>Engagement Type: Hourly or project-based contractor</p>\n<p>&nbsp;</p>\n<p>About the Role</p>\n<p>Great Good is hiring a senior software engineer (contractor) to support early-stage ventures at the intersection of artificial intelligence and biotechnology. You’ll work directly with technical founders and early teams to prototype infrastructure and ML tools that accelerate therapeutic discovery and development.</p>\n<p>This is a high-autonomy role suited to engineers who enjoy working across systems, models, and real-world scientific applications.</p>\n<p>&nbsp;</p>\n<p>Responsibilities</p>\n<p>Design and implement data pipelines and ML workflows (e.g., for sequence modeling, structure prediction, optimization loops)</p>\n<p>Build tools to support scientific computing, visualization, or experimental integration</p>\n<p>Collaborate with cross-functional teams to translate R&amp;D needs into clean, scalable code</p>\n<p>Contribute to backend systems, cloud deployments, and toolchain setup as needed</p>\n<p>Deliver technical documentation and maintainable code for future handoff or extension</p>\n<p>&nbsp;</p>\n<p>Requirements</p>\n<p>5+ years...</p>"
+        },
+        {
+          "id": "c184618e7460",
+          "title": "SuperPlane Inc.: Applied AI Engineer",
+          "content": "\n\n\n  Headquarters: USA\n    URL: https://superplane.com/\n\n\nAbout SuperPlane\nSuperPlane is an AI-native DevOps control plane. Our mission is to build the platform teams use to ship and manage software in the AI era.\nAgents are helping us write an order of magnitude more code, while systems have become too complex for human-driven ops alone. We're rethinking DevOps from first principles for the AI era: a single control layer where engineers and agents safely collaborate.\nWe move fast. We aim high. If that sounds like the kind of problem you want to work on, we’d love to talk.\nAbout the Role\nAt SuperPlane, you’ll build the Cursor for DevOps..\nThis is an applied role. You’ll take modern AI capabilities such as LLMs, agents, retrieval, planning, and evaluation and turn them into reliable, observable, production systems that real engineers depend on. You’ll work at the boundary between models, infrastructure, and product, making careful tradeoffs between capability, latency, cost, and safety.\nWhat You’ll Do\n\n\nDesign and implement AI-powered features end to end, including prompts, agents, tools, retrieval, evaluation, and feedback loops.\n\n\nBuild agent systems that interact safely with...",
+          "url": "https://weworkremotely.com/remote-jobs/superplane-inc-applied-ai-engineer",
+          "author": "Unknown",
+          "published": "2026-01-19T12:37:08",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Full-Stack Programming"
+          ],
+          "summary": "SuperPlane is building an AI-native DevOps control plane and hiring Applied AI Engineers to work with LLMs, agents, retrieval systems, planning, and evaluation. Describes itself as building 'Cursor for DevOps'.",
+          "importance_score": 70,
+          "reasoning": "Applied AI role at an AI-first startup working on practical AI agent systems. Involves LLMs, agents, and evaluation - relevant skills for current AI engineering.",
+          "themes": [
+            "AI Agents",
+            "Applied AI",
+            "DevOps AI",
+            "Startup"
+          ],
+          "continuation": null,
+          "summary_html": "<p>SuperPlane is building an AI-native DevOps control plane and hiring Applied AI Engineers to work with LLMs, agents, retrieval systems, planning, and evaluation. Describes itself as building 'Cursor for DevOps'.</p>",
+          "content_html": "<p>Headquarters: USA</p>\n<p>URL: https://superplane.com/</p>\n<p>About SuperPlane</p>\n<p>SuperPlane is an AI-native DevOps control plane. Our mission is to build the platform teams use to ship and manage software in the AI era.</p>\n<p>Agents are helping us write an order of magnitude more code, while systems have become too complex for human-driven ops alone. We're rethinking DevOps from first principles for the AI era: a single control layer where engineers and agents safely collaborate.</p>\n<p>We move fast. We aim high. If that sounds like the kind of problem you want to work on, we’d love to talk.</p>\n<p>About the Role</p>\n<p>At SuperPlane, you’ll build the Cursor for DevOps..</p>\n<p>This is an applied role. You’ll take modern AI capabilities such as LLMs, agents, retrieval, planning, and evaluation and turn them into reliable, observable, production systems that real engineers depend on. You’ll work at the boundary between models, infrastructure, and product, making careful tradeoffs between capability, latency, cost, and safety.</p>\n<p>What You’ll Do</p>\n<p>Design and implement AI-powered features end to end, including prompts, agents, tools, retrieval, evaluation, and feedback loops.</p>\n<p>Build agent systems that interact safely with...</p>"
+        },
+        {
+          "id": "f251d7ee3532",
+          "title": "Proxify AB: Senior Python AI Engineer",
+          "content": "\n  Headquarters: Sweden\n    URL: http://career.proxify.io\n\n\n\nThe Role:\n&nbsp;\nWe are looking for a&nbsp;Senior Python AI Engineer&nbsp;to join our fast-growing Network, who will design and develop backend systems and APIs for AI-powered applications. You will play a key role in designing and building scalable backend systems and APIs, collaborating closely with cross-functional teams to shape the future of data-driven products across various platforms.\n&nbsp;\n&nbsp;\nWhat we are looking for:\n&nbsp;\n\nStrong proficiency in Python (5+ years), including modern frameworks (FastAPI, Flask, or Django).\nDeep learning frameworks (PyTorch, TensorFlow) for custom modeling beyond LLM APIs.\nExperience with large language models (LLMs) such as GPT, Gemini, LLaMA, or similar.\nExperience with prototyping tools: Streamlit, Gradio\nSolid experience designing RESTful APIs and microservice architectures.\nStrong backend development expertise, including databases (SQL/NoSQL).\nExperience with version control (Git) and CI/CD workflows.\nHands-on experience with containerization (Docker, ideally Kubernetes).\nFamiliarity with cloud platforms (AWS, Azure, or GCP) is a plus.\nUnderstanding of security best...",
+          "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-python-ai-engineer-2",
+          "author": "Unknown",
+          "published": "2026-01-15T12:18:40",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "All Other Remote"
+          ],
+          "summary": "Proxify is seeking a Senior Python AI Engineer to design backend systems and APIs for AI-powered applications. Requires 5+ years Python, experience with PyTorch/TensorFlow, LLMs (GPT, Gemini, LLaMA), and prototyping AI tools.",
+          "importance_score": 72,
+          "reasoning": "Direct AI engineering role requiring deep learning frameworks and LLM experience. Through Proxify's network model, connects to various AI projects.",
+          "themes": [
+            "LLM Engineering",
+            "Python AI",
+            "Remote Work",
+            "Contract/Freelance"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Proxify is seeking a Senior Python AI Engineer to design backend systems and APIs for AI-powered applications. Requires 5+ years Python, experience with PyTorch/TensorFlow, LLMs (GPT, Gemini, LLaMA), and prototyping AI tools.</p>",
+          "content_html": "<p>Headquarters: Sweden</p>\n<p>URL: http://career.proxify.io</p>\n<p>The Role:</p>\n<p>&nbsp;</p>\n<p>We are looking for a&nbsp;Senior Python AI Engineer&nbsp;to join our fast-growing Network, who will design and develop backend systems and APIs for AI-powered applications. You will play a key role in designing and building scalable backend systems and APIs, collaborating closely with cross-functional teams to shape the future of data-driven products across various platforms.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>What we are looking for:</p>\n<p>&nbsp;</p>\n<p>Strong proficiency in Python (5+ years), including modern frameworks (FastAPI, Flask, or Django).</p>\n<p>Deep learning frameworks (PyTorch, TensorFlow) for custom modeling beyond LLM APIs.</p>\n<p>Experience with large language models (LLMs) such as GPT, Gemini, LLaMA, or similar.</p>\n<p>Experience with prototyping tools: Streamlit, Gradio</p>\n<p>Solid experience designing RESTful APIs and microservice architectures.</p>\n<p>Strong backend development expertise, including databases (SQL/NoSQL).</p>\n<p>Experience with version control (Git) and CI/CD workflows.</p>\n<p>Hands-on experience with containerization (Docker, ideally Kubernetes).</p>\n<p>Familiarity with cloud platforms (AWS, Azure, or GCP) is a plus.</p>\n<p>Understanding of security best...</p>"
+        },
+        {
+          "id": "fc44c5a5d8f1",
+          "title": "Lemon.io: Senior Python & LLM /AI Engineer",
+          "content": "\n\n\n  Headquarters: New York, NY\n    URL: https://lemon.io\n\n\nAre you a talented Senior Engineer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe.\nWhat we offer:\n\nThe rate depends on your skills and experience. We've already paid out over $11M to our engineers.\nNo more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best.\nWe'll manually find the best project for you according to your skills and preferences.\nChoose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours.\nWe respect your seniority so you can expect no micromanagement or screen trackers.\nCommunicate directly with the clients. Most of them have technical backgrounds. Sounds good, yeah?\nWe will support you from the time you submit the application throughout all cooperation stages.\nMost of our projects involve working in a fast-paced startup environment. We hope you like it as much as we do.\nThrough our community, we will connect you with the best...",
+          "url": "https://weworkremotely.com/remote-jobs/lemon-io-senior-python-llm-ai-engineer",
+          "author": "Unknown",
+          "published": "2026-01-16T09:01:01",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Back-End Programming"
+          ],
+          "summary": "Lemon.io connects senior Python/LLM/AI engineers with US and EU startups for remote work. Platform has paid out $11M+ to engineers, offering flexible scheduling and project matching based on AI skills.",
+          "importance_score": 68,
+          "reasoning": "Marketplace for AI/LLM engineering talent indicates strong demand. Provides insight into remote AI work opportunities and compensation trends.",
+          "themes": [
+            "LLM Engineering",
+            "Remote Work",
+            "Freelance AI",
+            "Market Signal"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Lemon.io connects senior Python/LLM/AI engineers with US and EU startups for remote work. Platform has paid out $11M+ to engineers, offering flexible scheduling and project matching based on AI skills.</p>",
+          "content_html": "<p>Headquarters: New York, NY</p>\n<p>URL: https://lemon.io</p>\n<p>Are you a talented Senior Engineer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe.</p>\n<p>What we offer:</p>\n<p>The rate depends on your skills and experience. We've already paid out over $11M to our engineers.</p>\n<p>No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best.</p>\n<p>We'll manually find the best project for you according to your skills and preferences.</p>\n<p>Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours.</p>\n<p>We respect your seniority so you can expect no micromanagement or screen trackers.</p>\n<p>Communicate directly with the clients. Most of them have technical backgrounds. Sounds good, yeah?</p>\n<p>We will support you from the time you submit the application throughout all cooperation stages.</p>\n<p>Most of our projects involve working in a fast-paced startup environment. We hope you like it as much as we do.</p>\n<p>Through our community, we will connect you with the best...</p>"
+        },
+        {
+          "id": "4729e03c8cca",
+          "title": "Prosper: Director, Credit Risk Analytics",
+          "content": "\n\n\n  Headquarters: United States\n    URL: http://prosper.com\n\n\nYour role in our missionAs the first peer to peer lending marketplace in the United States, Prosper has a history of innovation.&nbsp; As a growing company that generates cash (rare in the valley), Prosper also has a history of generating results.&nbsp;The Director, Credit Risk Analytics is responsible for underwriting credit strategies and oversight of credit quality and performance of the Personal Loan portfolios. They will review, analyze, and enhance the risk strategies through the use of Machine Learning models and credit data to manage the acquisition growth while delivering expected returns to the investors.&nbsp; They will be responsible for the life cycle of credit management including compliance with requirements of regulators and internal control and will recommend opportunities and propose resolutions for improved efficiency, effectiveness, and/or risk reduction for the portfolio. The Director, Credit Risk will work with cross-functional teams in Product, Engineering, Legal/Compliance and Marketing to deliver the credit strategies as per design.&nbsp;The ideal candidate is expected to bring broad and...",
+          "url": "https://weworkremotely.com/remote-jobs/prosper-director-credit-risk-analytics",
+          "author": "Unknown",
+          "published": "2026-01-14T17:39:58",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Management and Finance"
+          ],
+          "summary": "Prosper is hiring a Director of Credit Risk Analytics responsible for ML model-based underwriting strategies. Role involves machine learning models for credit decisions and portfolio management at a fintech pioneer.",
+          "importance_score": 58,
+          "reasoning": "Director-level ML role in fintech with direct business impact. Combines ML engineering with risk management leadership.",
+          "themes": [
+            "ML in Finance",
+            "Credit Risk ML",
+            "Director Level",
+            "Fintech"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Prosper is hiring a Director of Credit Risk Analytics responsible for ML model-based underwriting strategies. Role involves machine learning models for credit decisions and portfolio management at a fintech pioneer.</p>",
+          "content_html": "<p>Headquarters: United States</p>\n<p>URL: http://prosper.com</p>\n<p>Your role in our missionAs the first peer to peer lending marketplace in the United States, Prosper has a history of innovation.&nbsp; As a growing company that generates cash (rare in the valley), Prosper also has a history of generating results.&nbsp;The Director, Credit Risk Analytics is responsible for underwriting credit strategies and oversight of credit quality and performance of the Personal Loan portfolios. They will review, analyze, and enhance the risk strategies through the use of Machine Learning models and credit data to manage the acquisition growth while delivering expected returns to the investors.&nbsp; They will be responsible for the life cycle of credit management including compliance with requirements of regulators and internal control and will recommend opportunities and propose resolutions for improved efficiency, effectiveness, and/or risk reduction for the portfolio. The Director, Credit Risk will work with cross-functional teams in Product, Engineering, Legal/Compliance and Marketing to deliver the credit strategies as per design.&nbsp;The ideal candidate is expected to bring broad and...</p>"
+        },
+        {
+          "id": "453c2c623436",
+          "title": "Editors",
+          "content": "About the RoleMercor is seeking experienced Editors to support a leading AI lab in advancing research and infrastructure for next-generation machine learning systems. This engagement focuses on diagnosing and solving real issues in your domain. It's an opportunity to contribute your expertise to cutting-edge AI research while working independently and remotely on your own schedule.Key ResponsibilitiesYou’ll be asked to create deliverables regarding common requests within your professional domain You’ll be asked to review peer developed deliverables to improve AI researchIdeal Qualifications4+ years professional experience in your respective fieldExcellent written communication with strong grammar and spelling skillsMore About the OpportunityFully remote and asynchronous — complete work on your own scheduleExpected workload: ~30 hours per week, with flexibility to scale up to 40 hoursProject start date: immediately, lasting for around 3-4 weeksCompensation &amp; Contract TermsIndependent contractor engagement through MercorHourly compensation, paid weekly via Stripe ConnectPayments based on services rendered; contractors maintain full control over their work schedule and...",
+          "url": "https://himalayas.app/companies/mercor/jobs/editors-1673452591",
+          "author": "Unknown",
+          "published": "2026-01-19T23:54:19",
+          "source": "Remote jobs from Himalayas",
+          "source_type": "rss",
+          "tags": [
+            "Editor",
+            "Managing-Editor",
+            "Editorial-Manager",
+            "Editorial-Director",
+            "News-Editor",
+            "Senior-Editor",
+            "Writer---Editor"
+          ],
+          "summary": "Mercor is hiring Editors to support a leading AI lab in advancing ML research. Role involves creating domain-specific deliverables and reviewing peer work to improve AI research, fully remote and asynchronous.",
+          "importance_score": 58,
+          "reasoning": "Supporting AI lab research through data/content work. Indicates continued demand for human expertise in AI training and evaluation pipelines.",
+          "themes": [
+            "AI Training Data",
+            "RLHF",
+            "Remote Work",
+            "AI Lab Support"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Mercor is hiring Editors to support a leading AI lab in advancing ML research. Role involves creating domain-specific deliverables and reviewing peer work to improve AI research, fully remote and asynchronous.</p>",
+          "content_html": "<p>About the RoleMercor is seeking experienced Editors to support a leading AI lab in advancing research and infrastructure for next-generation machine learning systems. This engagement focuses on diagnosing and solving real issues in your domain. It's an opportunity to contribute your expertise to cutting-edge AI research while working independently and remotely on your own schedule.Key ResponsibilitiesYou’ll be asked to create deliverables regarding common requests within your professional domain You’ll be asked to review peer developed deliverables to improve AI researchIdeal Qualifications4+ years professional experience in your respective fieldExcellent written communication with strong grammar and spelling skillsMore About the OpportunityFully remote and asynchronous — complete work on your own scheduleExpected workload: ~30 hours per week, with flexibility to scale up to 40 hoursProject start date: immediately, lasting for around 3-4 weeksCompensation &amp; Contract TermsIndependent contractor engagement through MercorHourly compensation, paid weekly via Stripe ConnectPayments based on services rendered; contractors maintain full control over their work schedule and...</p>"
+        },
+        {
+          "id": "67cff8e39aa7",
+          "title": "Real Estate Sales Agents",
+          "content": "About the RoleMercor is seeking experienced real estate sales agents to support a leading AI lab in advancing research and infrastructure for next-generation machine learning systems. This engagement focuses on diagnosing and solving real issues in your domain. It's an opportunity to contribute your expertise to cutting-edge AI research while working independently and remotely on your own schedule.Key ResponsibilitiesYou’ll be asked to create deliverables regarding common requests regarding your professional domain You’ll be asked to review peer developed deliverables to improve AI researchIdeal Qualifications4+ years professional experience in your respective domainExcellent written communication with strong grammar and spelling skillsMore About the OpportunityFully remote and asynchronous — complete work on your own scheduleExpected workload: 30 hours per week, with flexibility to scale up to 40 hoursProject start date: immediately, lasting for around 3-4 weeksCompensation &amp; Contract TermsIndependent contractor engagement through MercorHourly compensation, paid weekly via Stripe ConnectPayments based on services rendered; contractors maintain full control over their work...",
+          "url": "https://himalayas.app/companies/mercor/jobs/real-estate-sales-agents-4704810188",
+          "author": "Unknown",
+          "published": "2026-01-19T23:30:22",
+          "source": "Remote jobs from Himalayas",
+          "source_type": "rss",
+          "tags": [
+            "Real-Estate-Agent",
+            "Real-Estate-Sales",
+            "Residential-Real-Estate-Sales-Executive"
+          ],
+          "summary": "Mercor is recruiting real estate professionals to support 'a leading AI lab' in creating training data and deliverables for next-gen ML systems. Flexible, remote, async work.",
+          "importance_score": 58,
+          "reasoning": "Interesting AI training data opportunity. Mercor is known platform connecting domain experts to AI labs. Indicates AI labs actively seeking domain expertise for model training.",
+          "themes": [
+            "AI Training Data",
+            "Domain Expertise for AI",
+            "AI Lab Support",
+            "Gig Economy AI"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Mercor is recruiting real estate professionals to support 'a leading AI lab' in creating training data and deliverables for next-gen ML systems. Flexible, remote, async work.</p>",
+          "content_html": "<p>About the RoleMercor is seeking experienced real estate sales agents to support a leading AI lab in advancing research and infrastructure for next-generation machine learning systems. This engagement focuses on diagnosing and solving real issues in your domain. It's an opportunity to contribute your expertise to cutting-edge AI research while working independently and remotely on your own schedule.Key ResponsibilitiesYou’ll be asked to create deliverables regarding common requests regarding your professional domain You’ll be asked to review peer developed deliverables to improve AI researchIdeal Qualifications4+ years professional experience in your respective domainExcellent written communication with strong grammar and spelling skillsMore About the OpportunityFully remote and asynchronous — complete work on your own scheduleExpected workload: 30 hours per week, with flexibility to scale up to 40 hoursProject start date: immediately, lasting for around 3-4 weeksCompensation &amp; Contract TermsIndependent contractor engagement through MercorHourly compensation, paid weekly via Stripe ConnectPayments based on services rendered; contractors maintain full control over their work...</p>"
+        },
+        {
+          "id": "3ee2e9a23120",
+          "title": "Pavago: Financial Modelling Specialist",
+          "content": "\n\n\n  Headquarters: Brazil\n    URL: http://pavago.co\n\n\nDescriptionJob Title: Financial Modelling SpecialistPosition Type: Full-Time, RemoteWorking Hours: U.S. client business hours (aligned with prospect time zones and outreach cadences)About PavagoPavago is a global recruitment partner specialising in placing top-tier offshore talent with fast-growing U.S. companies. Our clients expect precision, ownership, and world-class standards from day one. We source elite, high-agency professionals who can work independently, think critically, and operate at a U.S. accounting and financial analysis standard.We are hiring a Financial Modelling Specialist for a client, who is backed by YC (W 25 ), building an advanced financial and business modelling infrastructure used to train AI systems.Key ResponsibilitiesBuild complete, end-to-end financial and business models for internal AI training workflows.Review and refine models built by other analysts for structure, clarity, and accuracy.Collaborate with the client’s internal team to improve modelling frameworks and documentation.Participate in regular working sessions to align on modelling standards.(Optional) Provide structured feedback to...",
+          "url": "https://weworkremotely.com/remote-jobs/pavago-financial-modelling-specialist",
+          "author": "Unknown",
+          "published": "2026-01-14T17:39:58",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "Management and Finance"
+          ],
+          "summary": "Pavago (YC W25 backed) is hiring Financial Modelling Specialists to create financial models that train AI systems. Focus on building advanced modeling infrastructure for AI training purposes.",
+          "importance_score": 57,
+          "reasoning": "YC-backed company building AI training data infrastructure. Indicates growing need for domain experts to create high-quality AI training datasets.",
+          "themes": [
+            "AI Training Data",
+            "Financial Modeling",
+            "YC Startup",
+            "Data Infrastructure"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Pavago (YC W25 backed) is hiring Financial Modelling Specialists to create financial models that train AI systems. Focus on building advanced modeling infrastructure for AI training purposes.</p>",
+          "content_html": "<p>Headquarters: Brazil</p>\n<p>URL: http://pavago.co</p>\n<p>DescriptionJob Title: Financial Modelling SpecialistPosition Type: Full-Time, RemoteWorking Hours: U.S. client business hours (aligned with prospect time zones and outreach cadences)About PavagoPavago is a global recruitment partner specialising in placing top-tier offshore talent with fast-growing U.S. companies. Our clients expect precision, ownership, and world-class standards from day one. We source elite, high-agency professionals who can work independently, think critically, and operate at a U.S. accounting and financial analysis standard.We are hiring a Financial Modelling Specialist for a client, who is backed by YC (W 25 ), building an advanced financial and business modelling infrastructure used to train AI systems.Key ResponsibilitiesBuild complete, end-to-end financial and business models for internal AI training workflows.Review and refine models built by other analysts for structure, clarity, and accuracy.Collaborate with the client’s internal team to improve modelling frameworks and documentation.Participate in regular working sessions to align on modelling standards.(Optional) Provide structured feedback to...</p>"
+        },
+        {
+          "id": "d3903ca1d227",
+          "title": "Toptal: Financial Model and Prompt Creator with Spreadsheet Expertise",
+          "content": "\n\n\n  Headquarters: Remote\n    URL: https://www.toptal.com/\n\n\nAbout the Client\nOur client is an AI Startup leader in financial analysis and modeling, offering efficient and scalable solutions to enhance business operations. As part of their endeavors to improve their spreadsheet acquisition capabilities, they are launching “Pilot v2,” a program aimed at refining workflow and deliverable quality for spreadsheet-based projects in financial modeling.\n&nbsp;\nAbout the Role\nWe are seeking skilled professionals experienced in spreadsheet financial modeling to join the Pilot v2 project. Your primary task will involve creating detailed financial models in spreadsheet format and accompanying them with descriptive prompts for language model interfaces. The focus is to produce high-quality, reliable deliverables contributing to enhanced productivity and efficiency in financial planning.\n&nbsp;\nTasks &amp; Deliverables\n\nDevelop financial models of varying complexity (basic, intermediate, and advanced) and draft prompts to generate these models using language models.\nWeekly Target: Completion of a minimum of 5-10 tasks.\nModel Types: Three-statement modeling, revenue forecasts, cost center...",
+          "url": "https://weworkremotely.com/remote-jobs/toptal-financial-model-and-prompt-creator-with-spreadsheet-expertise",
+          "author": "Unknown",
+          "published": "2026-01-14T17:39:25",
+          "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+          "source_type": "rss",
+          "tags": [
+            "All Other Remote"
+          ],
+          "summary": "Toptal's client, an AI startup in financial analysis, seeks professionals to create financial models in spreadsheets with accompanying prompts for language model interfaces as part of their 'Pilot v2' program.",
+          "importance_score": 55,
+          "reasoning": "Prompt engineering and data creation for AI systems. Shows demand for domain experts who can create quality training data and prompts.",
+          "themes": [
+            "Prompt Engineering",
+            "AI Training Data",
+            "Financial AI",
+            "Contract Work"
+          ],
+          "continuation": null,
+          "summary_html": "<p>Toptal's client, an AI startup in financial analysis, seeks professionals to create financial models in spreadsheets with accompanying prompts for language model interfaces as part of their 'Pilot v2' program.</p>",
+          "content_html": "<p>Headquarters: Remote</p>\n<p>URL: https://www.toptal.com/</p>\n<p>About the Client</p>\n<p>Our client is an AI Startup leader in financial analysis and modeling, offering efficient and scalable solutions to enhance business operations. As part of their endeavors to improve their spreadsheet acquisition capabilities, they are launching “Pilot v2,” a program aimed at refining workflow and deliverable quality for spreadsheet-based projects in financial modeling.</p>\n<p>&nbsp;</p>\n<p>About the Role</p>\n<p>We are seeking skilled professionals experienced in spreadsheet financial modeling to join the Pilot v2 project. Your primary task will involve creating detailed financial models in spreadsheet format and accompanying them with descriptive prompts for language model interfaces. The focus is to produce high-quality, reliable deliverables contributing to enhanced productivity and efficiency in financial planning.</p>\n<p>&nbsp;</p>\n<p>Tasks &amp; Deliverables</p>\n<p>Develop financial models of varying complexity (basic, intermediate, and advanced) and draft prompts to generate these models using language models.</p>\n<p>Weekly Target: Completion of a minimum of 5-10 tasks.</p>\n<p>Model Types: Three-statement modeling, revenue forecasts, cost center...</p>"
+        }
+      ]
+    }
+  }
+}

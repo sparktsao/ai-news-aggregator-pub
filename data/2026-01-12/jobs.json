@@ -1,0 +1,314 @@
+{
+  "category": "jobs",
+  "date": "2026-01-12",
+  "category_summary": "**Weak batch for AI/ML professionals** - no dedicated ML engineering or research roles present.\n\n**AI-Adjacent Opportunities:**\n- **SuperPlane** [Lead Frontend Engineer](/?date=2026-01-12&category=jobs#item-7ee863239af1) is the only explicitly AI-focused listing, building DevOps tooling for human-agent collaboration\n- **Speechify** [macOS role](/?date=2026-01-12&category=jobs#item-0199e3ca53f4) works on AI-powered text-to-speech product, though focused on client development\n\n**General Technical Roles:**\n- Several standard [web/Java development positions](/?date=2026-01-12&category=jobs#item-d1596134109d) at **DexCom**, **European Dynamics**, and **ALIQAN Technologies**\n- Remote options available but none involve ML systems or data science work\n\n**Non-Technical Positions:** Multiple high-compensation [sales roles](/?date=2026-01-12&category=jobs#item-72ad25b4a898) (**Urrly**, **Softswiss**, **Planet Green**) and design positions dominate this batch, offering no pathway for AI/ML career advancement.",
+  "category_summary_html": "<p><strong>Weak batch for AI/ML professionals</strong> - no dedicated ML engineering or research roles present.</p>\n<p><strong>AI-Adjacent Opportunities:</strong></p>\n<ul>\n<li><strong>SuperPlane</strong> <a href=\"/?date=2026-01-12&category=jobs#item-7ee863239af1\" class=\"internal-link\">Lead Frontend Engineer</a> is the only explicitly AI-focused listing, building DevOps tooling for human-agent collaboration</li>\n<li><strong>Speechify</strong> <a href=\"/?date=2026-01-12&category=jobs#item-0199e3ca53f4\" class=\"internal-link\">macOS role</a> works on AI-powered text-to-speech product, though focused on client development</li>\n</ul>\n<p><strong>General Technical Roles:</strong></p>\n<ul>\n<li>Several standard <a href=\"/?date=2026-01-12&category=jobs#item-d1596134109d\" class=\"internal-link\">web/Java development positions</a> at <strong>DexCom</strong>, <strong>European Dynamics</strong>, and <strong>ALIQAN Technologies</strong></li>\n<li>Remote options available but none involve ML systems or data science work</li>\n</ul>\n<p><strong>Non-Technical Positions:</strong> Multiple high-compensation <a href=\"/?date=2026-01-12&category=jobs#item-72ad25b4a898\" class=\"internal-link\">sales roles</a> (<strong>Urrly</strong>, <strong>Softswiss</strong>, <strong>Planet Green</strong>) and design positions dominate this batch, offering no pathway for AI/ML career advancement.</p>",
+  "themes": [
+    {
+      "name": "AI-Adjacent Development",
+      "description": "Roles at companies building AI-powered products or AI development tooling, though not core ML positions",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 50.0
+    },
+    {
+      "name": "Sales & Business Development",
+      "description": "SaaS account executive and sales manager positions across various industries",
+      "item_count": 4,
+      "example_items": [],
+      "importance": 17.0
+    },
+    {
+      "name": "Web/Frontend Development",
+      "description": "Traditional web and frontend engineering roles without AI/ML components",
+      "item_count": 3,
+      "example_items": [],
+      "importance": 26.0
+    },
+    {
+      "name": "Design Roles",
+      "description": "Web and graphic design positions focused on marketing and visual identity",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 18.0
+    }
+  ],
+  "total_items": 11,
+  "items": [
+    {
+      "id": "7ee863239af1",
+      "title": "SuperPlane Inc.: Lead Frontend Engineer",
+      "content": "\n\n\n  Headquarters: USA\n    URL: https://superplane.com/\n\n\nAbout SuperPlane\nSuperPlane is an AI-native DevOps control plane. Our mission is to build the platform teams use to ship and manage software in the AI era.\nAgents are helping us write an order of magnitude more code, while systems have become too complex for human-driven ops alone. We're rethinking DevOps from first principles for the AI era: a single control layer where engineers and agents safely collaborate.\nWe move fast. We aim high. If that sounds like the kind of problem you want to work on, we’d love to talk.\nAbout the Role\nAt SuperPlane, you’ll shape the future of DevOps, creating features that bring intelligence, automation, and simplicity to complex infrastructure workflows.\nYou'll build interfaces that load instantly, feel flawless, and scale effortlessly. Every tooling choice, every pattern, every optimization decision is yours to make, and you'll be held accountable for the results.\nWhat You’ll Do\n\n\nOwn frontend features from conception to deployment: UI, state management, performance, polish.\n\n\nBuild responsive, performant interfaces that integrate seamlessly with backend APIs and services.\n\n\nCollaborate with...",
+      "url": "https://weworkremotely.com/remote-jobs/superplane-inc-lead-frontend-engineer",
+      "author": "Unknown",
+      "published": "2026-01-08T14:46:56",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Front-End Programming"
+      ],
+      "summary": "Lead Frontend Engineer at SuperPlane, an AI-native DevOps control plane building tooling for human-agent collaboration in software development. The company is explicitly focused on rethinking DevOps for the AI era where agents help write code.",
+      "importance_score": 52.0,
+      "reasoning": "Most AI-relevant role in this batch - explicitly building for AI-assisted development workflows. Lead position with ownership, but primarily frontend-focused rather than core ML work.",
+      "themes": [
+        "AI-adjacent tooling",
+        "DevOps",
+        "Lead role",
+        "Remote"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Lead Frontend Engineer at SuperPlane, an AI-native DevOps control plane building tooling for human-agent collaboration in software development. The company is explicitly focused on rethinking DevOps for the AI era where agents help write code.</p>",
+      "content_html": "<p>Headquarters: USA</p>\n<p>URL: https://superplane.com/</p>\n<p>About SuperPlane</p>\n<p>SuperPlane is an AI-native DevOps control plane. Our mission is to build the platform teams use to ship and manage software in the AI era.</p>\n<p>Agents are helping us write an order of magnitude more code, while systems have become too complex for human-driven ops alone. We're rethinking DevOps from first principles for the AI era: a single control layer where engineers and agents safely collaborate.</p>\n<p>We move fast. We aim high. If that sounds like the kind of problem you want to work on, we’d love to talk.</p>\n<p>About the Role</p>\n<p>At SuperPlane, you’ll shape the future of DevOps, creating features that bring intelligence, automation, and simplicity to complex infrastructure workflows.</p>\n<p>You'll build interfaces that load instantly, feel flawless, and scale effortlessly. Every tooling choice, every pattern, every optimization decision is yours to make, and you'll be held accountable for the results.</p>\n<p>What You’ll Do</p>\n<p>Own frontend features from conception to deployment: UI, state management, performance, polish.</p>\n<p>Build responsive, performant interfaces that integrate seamlessly with backend APIs and services.</p>\n<p>Collaborate with...</p>"
+    },
+    {
+      "id": "0199e3ca53f4",
+      "title": "Speechify Inc: Software Engineer, macOS Core Product",
+      "content": "\n\n\n  Headquarters: Florida\n    URL: http://www.speechify.com\n\n\nRole Overview\nAs a&nbsp;Software Engineer on the macOS team, you’ll help build and scale Speechify’s core desktop experience for millions of users. You’ll own significant parts of our macOS app architecture, ship production-ready code, and collaborate closely with product, design, and engineering teams across the company.\nThis is a key role for someone who thrives in a fast-paced startup environment, enjoys making high-impact product decisions, loves delightful user experiences, and has a passion for accessibility and performance.\nWhat You’ll Do\n\nLead key engineering and product decisions for the macOS app.\nWrite, test, and ship production-quality code that scales to millions of users.\nMaintain and evolve complex app architecture with a focus on performance and stability.\nWork within a cross-functional team, partnering with designers and PMs to shape features from concept to launch.\nParticipate in product planning and roadmap discussions.\nDrive continuous improvement in code quality, CI/CD processes, and development workflows.\n\nYou should have:\n\nDemonstrated experience shipping macOS (or related desktop) applications...",
+      "url": "https://weworkremotely.com/remote-jobs/speechify-inc-software-engineer-macos-core-product",
+      "author": "Unknown",
+      "published": "2026-01-07T12:37:47",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Front-End Programming"
+      ],
+      "summary": "Software Engineer for Speechify's macOS app, building text-to-speech accessibility technology used by millions. Role involves significant product ownership and architectural decisions in a fast-paced startup environment.",
+      "importance_score": 45.0,
+      "reasoning": "Speechify's core product leverages AI/ML for speech synthesis, though this role focuses on macOS client rather than ML systems. Product scale and startup environment are notable.",
+      "themes": [
+        "AI-powered product",
+        "macOS development",
+        "Accessibility",
+        "Startup"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Software Engineer for Speechify's macOS app, building text-to-speech accessibility technology used by millions. Role involves significant product ownership and architectural decisions in a fast-paced startup environment.</p>",
+      "content_html": "<p>Headquarters: Florida</p>\n<p>URL: http://www.speechify.com</p>\n<p>Role Overview</p>\n<p>As a&nbsp;Software Engineer on the macOS team, you’ll help build and scale Speechify’s core desktop experience for millions of users. You’ll own significant parts of our macOS app architecture, ship production-ready code, and collaborate closely with product, design, and engineering teams across the company.</p>\n<p>This is a key role for someone who thrives in a fast-paced startup environment, enjoys making high-impact product decisions, loves delightful user experiences, and has a passion for accessibility and performance.</p>\n<p>What You’ll Do</p>\n<p>Lead key engineering and product decisions for the macOS app.</p>\n<p>Write, test, and ship production-quality code that scales to millions of users.</p>\n<p>Maintain and evolve complex app architecture with a focus on performance and stability.</p>\n<p>Work within a cross-functional team, partnering with designers and PMs to shape features from concept to launch.</p>\n<p>Participate in product planning and roadmap discussions.</p>\n<p>Drive continuous improvement in code quality, CI/CD processes, and development workflows.</p>\n<p>You should have:</p>\n<p>Demonstrated experience shipping macOS (or related desktop) applications...</p>"
+    },
+    {
+      "id": "d1596134109d",
+      "title": "DexCom: Sr Web Applications Developer - eCommerce",
+      "content": "\n\n\n  Headquarters: Remote - United Kingdom\n    URL: http://dexcom.com\n\n\nThe Company Dexcom Corporation (NASDAQ DXCM) is a pioneer and global leader in continuous glucose monitoring (CGM). Dexcom began as a small company with a big dream: To forever change how diabetes is managed. To unlock information and insights that drive better health outcomes. Here we are 25 years later, having pioneered an industry. And we're just getting started. We are broadening our vision beyond diabetes to empower people to take control of health. That means personalized, actionable insights aimed at solving important health challenges. To continue what we've started: Improving human health. &nbsp;We are driven by thousands of ambitious, passionate people worldwide who are willing to fight like warriors to earn the trust of our customers by listening, serving with integrity, thinking big, and being dependable. We've already changed millions of lives and we're ready to change millions more. Our future ambition is to become a leading consumer health technology company while continuing to develop solutions for serious health conditions. We'll get there by constantly reinventing unique biosensing-technology...",
+      "url": "https://weworkremotely.com/remote-jobs/dexcom-sr-web-applications-developer-ecommerce",
+      "author": "Unknown",
+      "published": "2026-01-09T18:51:46",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "summary": "Senior Web Applications Developer at DexCom, a leader in continuous glucose monitoring technology. Remote role based in UK focused on eCommerce applications for medical device company.",
+      "importance_score": 28.0,
+      "reasoning": "Healthcare/medtech company with potential data applications, but role is standard web development with no AI/ML focus. Remote UK position may interest some.",
+      "themes": [
+        "Healthcare tech",
+        "eCommerce",
+        "Remote UK",
+        "Full-stack"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Senior Web Applications Developer at DexCom, a leader in continuous glucose monitoring technology. Remote role based in UK focused on eCommerce applications for medical device company.</p>",
+      "content_html": "<p>Headquarters: Remote - United Kingdom</p>\n<p>URL: http://dexcom.com</p>\n<p>The Company Dexcom Corporation (NASDAQ DXCM) is a pioneer and global leader in continuous glucose monitoring (CGM). Dexcom began as a small company with a big dream: To forever change how diabetes is managed. To unlock information and insights that drive better health outcomes. Here we are 25 years later, having pioneered an industry. And we're just getting started. We are broadening our vision beyond diabetes to empower people to take control of health. That means personalized, actionable insights aimed at solving important health challenges. To continue what we've started: Improving human health. &nbsp;We are driven by thousands of ambitious, passionate people worldwide who are willing to fight like warriors to earn the trust of our customers by listening, serving with integrity, thinking big, and being dependable. We've already changed millions of lives and we're ready to change millions more. Our future ambition is to become a leading consumer health technology company while continuing to develop solutions for serious health conditions. We'll get there by constantly reinventing unique biosensing-technology...</p>"
+    },
+    {
+      "id": "1ba4db09aa5e",
+      "title": "ALIQAN Technologies: FTG Engineer",
+      "content": "\n\n\n  Headquarters: Bangalore\n    URL: http://aliqantechnologies.com\n\n\nJob Title: FTG Developer / Engineer Experience: 5 to 8 Years Location: Remote Employment Type: Contract (6 Months – Extendable)Job Description:We are seeking a skilled FTG Developer/Engineer with hands-on experience in IBM Sterling Suite and strong exposure to AWS cloud services. The ideal candidate should possess a solid understanding of CI/CD workflows, infrastructure automation, and deployment pipelines using modern DevOps tools. This role requires close collaboration with cross-functional teams to build, deploy, and maintain scalable enterprise solutions.Key Responsibilities:Develop, configure, and maintain solutions using IBM Sterling Suite.Manage and optimize cloud infrastructure using AWS services (EC2, S3, EFS, RDS, IAM, etc.).Design and implement CI/CD pipelines using CloudBees or equivalent tools.Automate provisioning and configuration management using Terraform and Ansible.Collaborate with development, testing, and operations teams to ensure smooth delivery and deployment of applications.Monitor system performance, troubleshoot issues, and ensure high availability and scalability.Follow best practices...",
+      "url": "https://weworkremotely.com/remote-jobs/aliqan-technologies-ftg-engineer",
+      "author": "Unknown",
+      "published": "2026-01-09T18:50:56",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Front-End Programming"
+      ],
+      "summary": "FTG Engineer role requiring IBM Sterling Suite expertise with AWS cloud services. Contract position (6 months extendable) focused on CI/CD pipelines and infrastructure automation.",
+      "importance_score": 26.0,
+      "reasoning": "Technical DevOps/cloud role but no AI/ML components. Enterprise integration focus with legacy IBM systems. Contract nature limits appeal.",
+      "themes": [
+        "DevOps",
+        "AWS",
+        "Contract",
+        "Enterprise"
+      ],
+      "continuation": null,
+      "summary_html": "<p>FTG Engineer role requiring IBM Sterling Suite expertise with AWS cloud services. Contract position (6 months extendable) focused on CI/CD pipelines and infrastructure automation.</p>",
+      "content_html": "<p>Headquarters: Bangalore</p>\n<p>URL: http://aliqantechnologies.com</p>\n<p>Job Title: FTG Developer / Engineer Experience: 5 to 8 Years Location: Remote Employment Type: Contract (6 Months – Extendable)Job Description:We are seeking a skilled FTG Developer/Engineer with hands-on experience in IBM Sterling Suite and strong exposure to AWS cloud services. The ideal candidate should possess a solid understanding of CI/CD workflows, infrastructure automation, and deployment pipelines using modern DevOps tools. This role requires close collaboration with cross-functional teams to build, deploy, and maintain scalable enterprise solutions.Key Responsibilities:Develop, configure, and maintain solutions using IBM Sterling Suite.Manage and optimize cloud infrastructure using AWS services (EC2, S3, EFS, RDS, IAM, etc.).Design and implement CI/CD pipelines using CloudBees or equivalent tools.Automate provisioning and configuration management using Terraform and Ansible.Collaborate with development, testing, and operations teams to ensure smooth delivery and deployment of applications.Monitor system performance, troubleshoot issues, and ensure high availability and scalability.Follow best practices...</p>"
+    },
+    {
+      "id": "f701cd9f6f7c",
+      "title": "EUROPEAN DYNAMICS: Java / Web Developer with German",
+      "content": "\n\n\n  Headquarters: Athens, Attica, Greece\n    URL: http://eurodyn.com\n\n\nDescriptionAre you a passionate Java/Web Developer looking for an exciting opportunity to grow and work on impactful projects? We are seeking a highly motivated Java/Web Developer to join our dynamic team. You have the flexibility to work fully or partially remotely or from one of our offices in Athens or Thessaloniki. If you are based elsewhere in Greece, you can start working remotely. You will be part of a friendly project team that develops challenging applications for major public organizations in Germany, Austria, and Switzerland. We maintain high standards in software development and provide continuous coaching and training to help you enhance your skills and experience. Basic knowledge of German, with a willingness to improve, is desirable.What You'll Do:Participating in the design and implementation of advanced web-based applications; Designing, developing, testing, and maintaining large-scale applications; Assuring effective team collaboration; Adhering to software quality requirements; Drafting technical documentation. RequirementsMust-Have Qualifications: Bachelor's degree in computer science or a...",
+      "url": "https://weworkremotely.com/remote-jobs/european-dynamics-java-web-developer-with-german",
+      "author": "Unknown",
+      "published": "2026-01-09T18:50:56",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Front-End Programming"
+      ],
+      "summary": "Java/Web Developer position at European Dynamics with German language requirement. Remote-friendly role working on applications for public organizations in DACH region.",
+      "importance_score": 25.0,
+      "reasoning": "Standard Java web development with no AI/ML focus. German language requirement narrows candidate pool significantly. Remote flexibility is positive.",
+      "themes": [
+        "Java development",
+        "Remote Europe",
+        "Public sector",
+        "DACH region"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Java/Web Developer position at European Dynamics with German language requirement. Remote-friendly role working on applications for public organizations in DACH region.</p>",
+      "content_html": "<p>Headquarters: Athens, Attica, Greece</p>\n<p>URL: http://eurodyn.com</p>\n<p>DescriptionAre you a passionate Java/Web Developer looking for an exciting opportunity to grow and work on impactful projects? We are seeking a highly motivated Java/Web Developer to join our dynamic team. You have the flexibility to work fully or partially remotely or from one of our offices in Athens or Thessaloniki. If you are based elsewhere in Greece, you can start working remotely. You will be part of a friendly project team that develops challenging applications for major public organizations in Germany, Austria, and Switzerland. We maintain high standards in software development and provide continuous coaching and training to help you enhance your skills and experience. Basic knowledge of German, with a willingness to improve, is desirable.What You'll Do:Participating in the design and implementation of advanced web-based applications; Designing, developing, testing, and maintaining large-scale applications; Assuring effective team collaboration; Adhering to software quality requirements; Drafting technical documentation. RequirementsMust-Have Qualifications: Bachelor's degree in computer science or a...</p>"
+    },
+    {
+      "id": "d6f514a94c91",
+      "title": "AHU Technologies: Curam Business Analyst",
+      "content": "\n  Headquarters: Washington, DC 20009\n    URL: http://ahutech.com\n\n\n\n\nRole: Curam Business AnalystClient : DC governmentLocation : Washington, D.C. (Remote)Job Description :  The resource will become an integral part of the DCAS Team, making every problem associated to the platform a problem of their own and will demonstrate the required initiative and critical thinking abilities necessary to resolve all problems and challenges accordingly.&nbsp;\nMust have experience using Cúram Global Income Support and HealthCare Reform Business Application Suite\nMust have experience in Data Analysis and data presentation\nExperience in planning and leading JAD sessions and creating functional design documents\nExcellent interpersonal skills, verbal, and written communication skills\nUnderstanding of design and development concepts and familiarity with design patterns and the SDLC\nA strong ethical foundation, capable of thriving in an environment and culture where honesty, integrity, and accountability are core values\nA collaborative spirit, a team orientation, and a willingness and desire to contribute to the success of others\nResponsibilities&nbsp;\nProvide status reporting, quality assurance...",
+      "url": "https://weworkremotely.com/remote-jobs/ahu-technologies-curam-business-analyst",
+      "author": "Unknown",
+      "published": "2026-01-09T18:50:56",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Front-End Programming"
+      ],
+      "summary": "Curam Business Analyst for DC government project requiring IBM Curam platform experience. Remote role focused on healthcare/income support applications with data analysis responsibilities.",
+      "importance_score": 22.0,
+      "reasoning": "Business analyst role with data analysis component but no ML/AI work. Very niche IBM Curam requirement limits relevance to AI/ML professionals.",
+      "themes": [
+        "Business analysis",
+        "Government",
+        "Healthcare systems",
+        "Remote"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Curam Business Analyst for DC government project requiring IBM Curam platform experience. Remote role focused on healthcare/income support applications with data analysis responsibilities.</p>",
+      "content_html": "<p>Headquarters: Washington, DC 20009</p>\n<p>URL: http://ahutech.com</p>\n<p>Role: Curam Business AnalystClient : DC governmentLocation : Washington, D.C. (Remote)Job Description :  The resource will become an integral part of the DCAS Team, making every problem associated to the platform a problem of their own and will demonstrate the required initiative and critical thinking abilities necessary to resolve all problems and challenges accordingly.&nbsp;</p>\n<p>Must have experience using Cúram Global Income Support and HealthCare Reform Business Application Suite</p>\n<p>Must have experience in Data Analysis and data presentation</p>\n<p>Experience in planning and leading JAD sessions and creating functional design documents</p>\n<p>Excellent interpersonal skills, verbal, and written communication skills</p>\n<p>Understanding of design and development concepts and familiarity with design patterns and the SDLC</p>\n<p>A strong ethical foundation, capable of thriving in an environment and culture where honesty, integrity, and accountability are core values</p>\n<p>A collaborative spirit, a team orientation, and a willingness and desire to contribute to the success of others</p>\n<p>Responsibilities&nbsp;</p>\n<p>Provide status reporting, quality assurance...</p>"
+    },
+    {
+      "id": "db955076e9df",
+      "title": "Truv: Web Designer",
+      "content": "\n\n\n  Headquarters: Remote\n    URL: http://truv.com\n\n\nAbout Truv:Truv is transforming the financial data industry with a secure and real-time API platform for payroll account access. Our technology streamlines income and employment verification, direct deposit switching, and more—eliminating outdated processes and unlocking greater financial opportunities. Backed by $30M from top investors like Kleiner Perkins and NYCA, we’re disrupting a $2B legacy market with cutting-edge innovation and a customer-first approach. Our leadership team brings expertise from industry giants like Apple, Carta, Venmo, MX, and Okta, driving the future of financial data access.What You'll DoDesign and maintain compelling visual identities across our website, marketing materials, and digital touchpointsCreate engaging graphics for web pages, landing pages, email campaigns, social media, and other marketing channelsCollaborate with marketing, product, and engineering teams to ensure brand consistency across all consumer and client-facing materialsDesign website layouts that are both visually compelling, on-brand, and conversion-focusedDevelop marketing collateral including presentation decks, one-pagers,...",
+      "url": "https://weworkremotely.com/remote-jobs/truv-web-designer",
+      "author": "Unknown",
+      "published": "2026-01-09T18:50:56",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Front-End Programming"
+      ],
+      "summary": "Web Designer at Truv, a fintech API platform backed by $30M from Kleiner Perkins and NYCA. Role focuses on visual identity and marketing materials rather than product development.",
+      "importance_score": 20.0,
+      "reasoning": "Design role with no technical or AI component. Notable investors and fintech space, but not relevant for AI/ML professionals seeking technical roles.",
+      "themes": [
+        "Design",
+        "Fintech",
+        "Marketing",
+        "Venture-backed"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Web Designer at Truv, a fintech API platform backed by $30M from Kleiner Perkins and NYCA. Role focuses on visual identity and marketing materials rather than product development.</p>",
+      "content_html": "<p>Headquarters: Remote</p>\n<p>URL: http://truv.com</p>\n<p>About Truv:Truv is transforming the financial data industry with a secure and real-time API platform for payroll account access. Our technology streamlines income and employment verification, direct deposit switching, and more—eliminating outdated processes and unlocking greater financial opportunities. Backed by $30M from top investors like Kleiner Perkins and NYCA, we’re disrupting a $2B legacy market with cutting-edge innovation and a customer-first approach. Our leadership team brings expertise from industry giants like Apple, Carta, Venmo, MX, and Okta, driving the future of financial data access.What You'll DoDesign and maintain compelling visual identities across our website, marketing materials, and digital touchpointsCreate engaging graphics for web pages, landing pages, email campaigns, social media, and other marketing channelsCollaborate with marketing, product, and engineering teams to ensure brand consistency across all consumer and client-facing materialsDesign website layouts that are both visually compelling, on-brand, and conversion-focusedDevelop marketing collateral including presentation decks, one-pagers,...</p>"
+    },
+    {
+      "id": "72ad25b4a898",
+      "title": "Urrly: Senior Account Executive – Aviation & Compliance SaaS (Remote)",
+      "content": "\n  Headquarters: Dallas, TX\n    URL: http://urrly.com\n\n\nSenior Account Executive – Aviation SaaS\nEarn strong OTE while owning full-cycle deals in a high-growth aviation tech space.\nSnapshot\nPay: $100K–150K base + uncapped commissions (OTE ~$250K+)Location: 100% Remote (U.S.) • Travel ~25–40% for conferencesTeam: Growing B2B SaaS provider serving regulated airport operationsImpact: Sell compliance and access-management solutions that help airports run safer and faster.\n\nWhat You’ll Do\nDrive full-cycle sales from first contact to signed RFPBuild outbound pipeline through calls, email, LinkedIn, and eventsRun tailored demos and presentations for airport and contractor leadersLead RFP responses with precision and follow-throughTravel to industry conferences (monthly or more) to network and demoForecast, track, and update deals in SalesforcePartner with product and engineering to improve the sales story\nMust-Haves\n3+ years in full-cycle B2B SaaS sales (mid- to enterprise)Proven record managing long, complex sales cycles (6–12 months)Experience in RFP-driven or government/regulated salesStrong outbound prospecting discipline and follow-up habitsExcellent presentation and...",
+      "url": "https://weworkremotely.com/remote-jobs/urrly-senior-account-executive-aviation-compliance-saas-remote",
+      "author": "Unknown",
+      "published": "2026-01-09T18:51:25",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Product"
+      ],
+      "summary": "Senior Account Executive at Urrly selling aviation compliance SaaS. High-earning potential ($250K+ OTE) with full-cycle sales responsibility and significant travel requirements.",
+      "importance_score": 18.0,
+      "reasoning": "Sales role with no AI/ML relevance. High compensation but entirely non-technical position in niche aviation compliance market.",
+      "themes": [
+        "Sales",
+        "Aviation",
+        "SaaS",
+        "High compensation"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Senior Account Executive at Urrly selling aviation compliance SaaS. High-earning potential ($250K+ OTE) with full-cycle sales responsibility and significant travel requirements.</p>",
+      "content_html": "<p>Headquarters: Dallas, TX</p>\n<p>URL: http://urrly.com</p>\n<p>Senior Account Executive – Aviation SaaS</p>\n<p>Earn strong OTE while owning full-cycle deals in a high-growth aviation tech space.</p>\n<p>Snapshot</p>\n<p>Pay: $100K–150K base + uncapped commissions (OTE ~$250K+)Location: 100% Remote (U.S.) • Travel ~25–40% for conferencesTeam: Growing B2B SaaS provider serving regulated airport operationsImpact: Sell compliance and access-management solutions that help airports run safer and faster.</p>\n<p>What You’ll Do</p>\n<p>Drive full-cycle sales from first contact to signed RFPBuild outbound pipeline through calls, email, LinkedIn, and eventsRun tailored demos and presentations for airport and contractor leadersLead RFP responses with precision and follow-throughTravel to industry conferences (monthly or more) to network and demoForecast, track, and update deals in SalesforcePartner with product and engineering to improve the sales story</p>\n<p>Must-Haves</p>\n<p>3+ years in full-cycle B2B SaaS sales (mid- to enterprise)Proven record managing long, complex sales cycles (6–12 months)Experience in RFP-driven or government/regulated salesStrong outbound prospecting discipline and follow-up habitsExcellent presentation and...</p>"
+    },
+    {
+      "id": "39c33c54b97c",
+      "title": "Softswiss: Sales Manager - Senior",
+      "content": "\n\n\n  Headquarters: 127 Triq Ix - Xatt Il-Gżira, Malta\n    URL: http://softswiss.com\n\n\n\n\nOverview:SOFTSWISS is hiring a Senior Sales Manager based in Malta. We are looking for a highly motivated Sales Manager to join our team in the payment industry. We value professionals who are determined, proactive, and always focused on the target and ready for any challenges along the way.About Product:FinteqhubА PCI DSS certified payment gateway for online businesses, providing integration with payment systems via a single software platform.Learn morePurpose of the role:In this role, you will be aimed at new business opportunities, building and maintaining strong client relationships, and driving revenue growth by managing the full sales cycle in Malta.Key responsibilities:Identify and capture new business opportunities in the payment solutions marketBuild and maintain strong relationships with clients, understanding their needs and providing customised solutionsManage the full sales cycle: lead generation, product presentation, negotiation, and closing dealsCollaborate with internal teams (Product, Marketing, BizDevs/Account Managers) to ensure customer interest and successful...",
+      "url": "https://weworkremotely.com/remote-jobs/softswiss-sales-manager-senior",
+      "author": "Unknown",
+      "published": "2026-01-09T18:51:25",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Product"
+      ],
+      "summary": "Senior Sales Manager at Softswiss in Malta for their payment gateway product. B2B sales role focused on iGaming and online business payment solutions.",
+      "importance_score": 17.0,
+      "reasoning": "Sales position in payment/gaming industry with no AI/ML relevance. Location-specific (Malta) further limits applicability.",
+      "themes": [
+        "Sales",
+        "Payments",
+        "Malta",
+        "iGaming"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Senior Sales Manager at Softswiss in Malta for their payment gateway product. B2B sales role focused on iGaming and online business payment solutions.</p>",
+      "content_html": "<p>Headquarters: 127 Triq Ix - Xatt Il-Gżira, Malta</p>\n<p>URL: http://softswiss.com</p>\n<p>Overview:SOFTSWISS is hiring a Senior Sales Manager based in Malta. We are looking for a highly motivated Sales Manager to join our team in the payment industry. We value professionals who are determined, proactive, and always focused on the target and ready for any challenges along the way.About Product:FinteqhubА PCI DSS certified payment gateway for online businesses, providing integration with payment systems via a single software platform.Learn morePurpose of the role:In this role, you will be aimed at new business opportunities, building and maintaining strong client relationships, and driving revenue growth by managing the full sales cycle in Malta.Key responsibilities:Identify and capture new business opportunities in the payment solutions marketBuild and maintain strong relationships with clients, understanding their needs and providing customised solutionsManage the full sales cycle: lead generation, product presentation, negotiation, and closing dealsCollaborate with internal teams (Product, Marketing, BizDevs/Account Managers) to ensure customer interest and successful...</p>"
+    },
+    {
+      "id": "30f9ed2b2d26",
+      "title": "Planet Green Search: Senior Account Executive, SaaS, Remote",
+      "content": "\n\n\n  Headquarters: Kansas City, KS · Sales\n    URL: http://planetgreensearch.com\n\n\nSenior Account Executive, SaaS, Remote\nat Our Client – Be the Hero Communities Need, From Anywhere! 🚨\nJoin the Revolution at Our Client – 100% Remote!\nReady to make a real impact while working from your home office, favorite coffee shop, or anywhere in the U.S.? At Our Client, we’re a movement, empowering first responders and public servants with cutting-edge SaaS solutions that save lives and transform communities—all from the comfort of your own space. Our mission? Create safer streets, stronger agencies, and heroes who come home safe after every shift. If you’re a high-energy, results-driven sales superstar who thrives on closing big deals and making a difference, this fully remote role is your chance to shine! 🌟\nLocation: Fully remote, U.S.-based only. Work from anywhere in the Central or Eastern U.S. time zones—no commute, no office, just freedom! #LI-Remote\nVibe: Fun, fast-paced, collaborative, and a little bit badass. 😎\nThe Gig 💼\nAs a Senior Account Executive, you’ll be the rockstar driving Our Client’s game-changing solutions to law enforcement, fire &amp; rescue, EMS, corrections, and local...",
+      "url": "https://weworkremotely.com/remote-jobs/planet-green-search-senior-account-executive-saas-remote",
+      "author": "Unknown",
+      "published": "2026-01-09T18:51:25",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Product"
+      ],
+      "summary": "Senior Account Executive for public safety SaaS company serving first responders. Fully remote US role with emphasis on closing deals for community safety solutions.",
+      "importance_score": 16.0,
+      "reasoning": "Sales role with no technical or AI components. Public safety vertical is interesting but not relevant for AI/ML career seekers.",
+      "themes": [
+        "Sales",
+        "Public safety",
+        "Remote US",
+        "SaaS"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Senior Account Executive for public safety SaaS company serving first responders. Fully remote US role with emphasis on closing deals for community safety solutions.</p>",
+      "content_html": "<p>Headquarters: Kansas City, KS · Sales</p>\n<p>URL: http://planetgreensearch.com</p>\n<p>Senior Account Executive, SaaS, Remote</p>\n<p>at Our Client – Be the Hero Communities Need, From Anywhere! 🚨</p>\n<p>Join the Revolution at Our Client – 100% Remote!</p>\n<p>Ready to make a real impact while working from your home office, favorite coffee shop, or anywhere in the U.S.? At Our Client, we’re a movement, empowering first responders and public servants with cutting-edge SaaS solutions that save lives and transform communities—all from the comfort of your own space. Our mission? Create safer streets, stronger agencies, and heroes who come home safe after every shift. If you’re a high-energy, results-driven sales superstar who thrives on closing big deals and making a difference, this fully remote role is your chance to shine! 🌟</p>\n<p>Location: Fully remote, U.S.-based only. Work from anywhere in the Central or Eastern U.S. time zones—no commute, no office, just freedom! #LI-Remote</p>\n<p>Vibe: Fun, fast-paced, collaborative, and a little bit badass. 😎</p>\n<p>The Gig 💼</p>\n<p>As a Senior Account Executive, you’ll be the rockstar driving Our Client’s game-changing solutions to law enforcement, fire &amp; rescue, EMS, corrections, and local...</p>"
+    },
+    {
+      "id": "d1b74705f57d",
+      "title": "Productive Shop: Web graphic designer",
+      "content": "\n\n\n  Headquarters: Sao Paulo, Brazil\n    URL: http://productiveshop.com\n\n\nReady to design websites that do more than just look good? At Productive Shop, we believe great design is the engine of growth, translating a brand’s unique essence into a powerful, high-converting digital experience.\nProductive Shop is a growth partner for ambitious B2B SaaS companies. We don’t just build websites; we build strategic assets that become a core part of our clients' growth. We’re looking for a passionate designer who is excited by the challenge of turning business goals into beautiful, intuitive, and effective user experiences.\nWe are builders at heart and we value quality, integrity, and collaboration. If you find deep satisfaction in creating designs that have a measurable impact on a company's success, this is the place for you.\n\nAbout the role\n\nThis is a role for a strategic visual storyteller. As a Senior UI/UX Designer, you will be the visual heart of our projects, relied upon to grasp the core essence of our B2B SaaS clients' brands and communicate it compellingly through the web.\n\nYou will be responsible for turning complex business challenges into clear, engaging, and high-performing...",
+      "url": "https://weworkremotely.com/remote-jobs/productive-shop-web-graphic-designer",
+      "author": "Unknown",
+      "published": "2026-01-09T18:50:56",
+      "source": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+      "source_type": "rss",
+      "tags": [
+        "Front-End Programming"
+      ],
+      "summary": "Web Graphic Designer at Productive Shop, a B2B SaaS growth agency based in Brazil. Role focuses on high-converting website design for client companies.",
+      "importance_score": 15.0,
+      "reasoning": "Design/marketing role with no AI/ML relevance. Agency work on client websites is far removed from AI/ML career paths.",
+      "themes": [
+        "Design",
+        "B2B marketing",
+        "Agency",
+        "Brazil"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Web Graphic Designer at Productive Shop, a B2B SaaS growth agency based in Brazil. Role focuses on high-converting website design for client companies.</p>",
+      "content_html": "<p>Headquarters: Sao Paulo, Brazil</p>\n<p>URL: http://productiveshop.com</p>\n<p>Ready to design websites that do more than just look good? At Productive Shop, we believe great design is the engine of growth, translating a brand’s unique essence into a powerful, high-converting digital experience.</p>\n<p>Productive Shop is a growth partner for ambitious B2B SaaS companies. We don’t just build websites; we build strategic assets that become a core part of our clients' growth. We’re looking for a passionate designer who is excited by the challenge of turning business goals into beautiful, intuitive, and effective user experiences.</p>\n<p>We are builders at heart and we value quality, integrity, and collaboration. If you find deep satisfaction in creating designs that have a measurable impact on a company's success, this is the place for you.</p>\n<p>About the role</p>\n<p>This is a role for a strategic visual storyteller. As a Senior UI/UX Designer, you will be the visual heart of our projects, relied upon to grasp the core essence of our B2B SaaS clients' brands and communicate it compellingly through the web.</p>\n<p>You will be responsible for turning complex business challenges into clear, engaging, and high-performing...</p>"
+    }
+  ]
+}

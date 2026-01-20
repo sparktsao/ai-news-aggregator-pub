@@ -1,0 +1,821 @@
+{
+  "category": "reddit",
+  "date": "2026-01-19",
+  "category_summary": "**r/LocalLLaMA** dominated with an exceptional **4x AMD R9700 build** (308 upvotes) showcasing 128GB VRAM for 120B+ models, partially funded by German municipality subsidies. Hardware discussions remain central to the local AI community.\n\n**GPT-5.2** capabilities generated significant buzz across subreddits:\n- **Cursor AI CEO** demonstrated multi-agent system [building a **3M+ line web browser**](/?date=2026-01-19&category=reddit#item-6c8a3aacf586) in one week\n- Another [**Erdős problem (#281)** solved](/?date=2026-01-19&category=reddit#item-aebe89bb05a5), continuing GPT-5.2's mathematical reasoning streak\n- AI-invented [**novel matrix multiplication algorithm**](/?date=2026-01-19&category=reddit#item-37b03e504c2a) with verified research paper\n\n**Production & Architecture insights** drew engaged debates:\n- Real-world lessons from [processing **1M+ emails**](/?date=2026-01-19&category=reddit#item-d384357c9292) for context engineering and RAG\n- Critical analysis that most major agents are essentially [**\"markdown todo list processors\"**](/?date=2026-01-19&category=reddit#item-33fc7c6aad59)\n- Teams debating whether to [replace **Claude Code with local alternatives**](/?date=2026-01-19&category=reddit#item-165b69225b13) at $2k/mo spend\n- **Steam's** [updated AI disclosure](/?date=2026-01-19&category=reddit#item-0b5d23e1df30) policy distinguishing player-facing content from dev tools\n- [**AI copyright rulings**](/?date=2026-01-19&category=reddit#item-51bf35afe205) establishing training as fair use while flagging pirated dataset liability",
+  "category_summary_html": "<p><strong>r/LocalLLaMA</strong> dominated with an exceptional <strong>4x AMD R9700 build</strong> (308 upvotes) showcasing 128GB VRAM for 120B+ models, partially funded by German municipality subsidies. Hardware discussions remain central to the local AI community.</p>\n<p><strong>GPT-5.2</strong> capabilities generated significant buzz across subreddits:</p>\n<ul>\n<li><strong>Cursor AI CEO</strong> demonstrated multi-agent system <a href=\"/?date=2026-01-19&category=reddit#item-6c8a3aacf586\" class=\"internal-link\">building a <strong>3M+ line web browser</strong></a> in one week</li>\n<li>Another <a href=\"/?date=2026-01-19&category=reddit#item-aebe89bb05a5\" class=\"internal-link\"><strong>Erdős problem (#281)</strong> solved</a>, continuing GPT-5.2's mathematical reasoning streak</li>\n<li>AI-invented <a href=\"/?date=2026-01-19&category=reddit#item-37b03e504c2a\" class=\"internal-link\"><strong>novel matrix multiplication algorithm</strong></a> with verified research paper</li>\n</ul>\n<p><strong>Production & Architecture insights</strong> drew engaged debates:</p>\n<ul>\n<li>Real-world lessons from <a href=\"/?date=2026-01-19&category=reddit#item-d384357c9292\" class=\"internal-link\">processing <strong>1M+ emails</strong></a> for context engineering and RAG</li>\n<li>Critical analysis that most major agents are essentially <a href=\"/?date=2026-01-19&category=reddit#item-33fc7c6aad59\" class=\"internal-link\"><strong>\"markdown todo list processors\"</strong></a></li>\n<li>Teams debating whether to <a href=\"/?date=2026-01-19&category=reddit#item-165b69225b13\" class=\"internal-link\">replace <strong>Claude Code with local alternatives</strong></a> at $2k/mo spend</li>\n<li><strong>Steam's</strong> <a href=\"/?date=2026-01-19&category=reddit#item-0b5d23e1df30\" class=\"internal-link\">updated AI disclosure</a> policy distinguishing player-facing content from dev tools</li>\n<li><a href=\"/?date=2026-01-19&category=reddit#item-51bf35afe205\" class=\"internal-link\"><strong>AI copyright rulings</strong></a> establishing training as fair use while flagging pirated dataset liability</li>\n</ul>",
+  "themes": [
+    {
+      "name": "Hardware Builds & Infrastructure",
+      "description": "Detailed GPU builds, multi-card setups, and hardware showcases for local LLM deployment including AMD and NVIDIA configurations",
+      "item_count": 16,
+      "example_items": [],
+      "importance": 85
+    },
+    {
+      "name": "Production Experience & Context Engineering",
+      "description": "Real-world lessons from deploying LLMs at scale, RAG systems, and email/document processing",
+      "item_count": 5,
+      "example_items": [],
+      "importance": 82
+    },
+    {
+      "name": "Agent Architecture & Workflows",
+      "description": "Discussion of agentic systems design, multi-agent vs single-agent patterns, and autonomous coding workflows",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 80
+    },
+    {
+      "name": "Technical Achievements",
+      "description": "AI-generated matrix multiplication algorithm, multi-agent systems building 3M+ line codebases",
+      "item_count": 3,
+      "example_items": [],
+      "importance": 80
+    },
+    {
+      "name": "Local LLM Deployment Challenges",
+      "description": "Practical issues around context limits, model selection, VRAM constraints, and achieving production quality with local models",
+      "item_count": 12,
+      "example_items": [],
+      "importance": 78
+    },
+    {
+      "name": "Open Source Developer Tools",
+      "description": "Projects addressing AI coding assistance problems: BlueMouse for vibe coding safety, consensus tool for hallucinations, TerminAI for computer control",
+      "item_count": 4,
+      "example_items": [],
+      "importance": 75
+    },
+    {
+      "name": "Trust and Privacy Concerns",
+      "description": "Users questioning ChatGPT's data access, memory retention, and trustworthiness with advertising",
+      "item_count": 6,
+      "example_items": [],
+      "importance": 75
+    },
+    {
+      "name": "GPT-5.2 Capabilities & Behavior",
+      "description": "Observations and discussions about GPT-5.2's mathematical reasoning (Erdos problems), behavioral changes (stubbornness), and autonomous coding abilities",
+      "item_count": 6,
+      "example_items": [],
+      "importance": 75
+    },
+    {
+      "name": "Model Releases & Quantization",
+      "description": "New model releases, uncensored variants, GGUF quantizations, and model-specific configurations",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 72
+    },
+    {
+      "name": "AI Legal & Copyright",
+      "description": "Mid-year review of copyright cases, fair use rulings, pirated dataset liability implications",
+      "item_count": 1,
+      "example_items": [],
+      "importance": 72
+    }
+  ],
+  "total_items": 30,
+  "items": [
+    {
+      "id": "6c6645c7866d",
+      "title": "4x AMD R9700 (128GB VRAM) + Threadripper 9955WX Build",
+      "content": "Disclaimer: I am from Germany and my English is not perfect, so I used an LLM to help me structure and write this post.\n\nContext &amp; Motivation: I built this system for my small company. The main reason for all new hardware is that I received a 50% subsidy/refund from my local municipality for digitalization investments. To qualify for this funding, I had to buy new hardware and build a proper \"server-grade\" system.\n\nMy goal was to run large models (120B+) locally for data privacy. With the subsidy in mind, I had a budget of around 10,000€ (pre-refund). I initially considered NVIDIA, but I wanted to maximize VRAM. I decided to go with 4x AMD RDNA4 cards (ASRock R9700) to get 128GB VRAM total and used the rest of the budget for a solid Threadripper platform.\n\nHardware Specs:\n\nTotal Cost:...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qgdb7f/4x_amd_r9700_128gb_vram_threadripper_9955wx_build/",
+      "author": "u/NunzeCs",
+      "published": "2026-01-18T08:39:42",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Build first showcased yesterday on [Reddit](/?date=2026-01-18&category=reddit#item-880a79156a7d), Comprehensive build guide: 4x AMD R9700 (128GB VRAM) + Threadripper 9955WX, built with 50% German municipality subsidy for running 120B+ models locally",
+      "importance_score": 92,
+      "reasoning": "Exceptional engagement (308 upvotes, 86 comments), detailed documentation, unique funding angle, represents frontier local hardware for large models",
+      "themes": [
+        "Hardware Builds",
+        "AMD GPUs",
+        "Large Model Deployment",
+        "Enterprise/SMB"
+      ],
+      "continuation": {
+        "original_item_id": "880a79156a7d",
+        "original_date": "2026-01-18",
+        "original_category": "reddit",
+        "original_title": "128GB VRAM quad R9700 server",
+        "continuation_type": "rehash",
+        "should_demote": true,
+        "reference_text": "Build first showcased yesterday on **Reddit**"
+      },
+      "summary_html": "<p>Build first showcased yesterday on <a href=\"/?date=2026-01-18&category=reddit#item-880a79156a7d\" class=\"internal-link\">Reddit</a>, Comprehensive build guide: 4x AMD R9700 (128GB VRAM) + Threadripper 9955WX, built with 50% German municipality subsidy for running 120B+ models locally</p>",
+      "content_html": "<p>Disclaimer: I am from Germany and my English is not perfect, so I used an LLM to help me structure and write this post.</p>\n<p>Context &amp; Motivation: I built this system for my small company. The main reason for all new hardware is that I received a 50% subsidy/refund from my local municipality for digitalization investments. To qualify for this funding, I had to buy new hardware and build a proper \"server-grade\" system.</p>\n<p>My goal was to run large models (120B+) locally for data privacy. With the subsidy in mind, I had a budget of around 10,000€ (pre-refund). I initially considered NVIDIA, but I wanted to maximize VRAM. I decided to go with 4x AMD RDNA4 cards (ASRock R9700) to get 128GB VRAM total and used the rest of the budget for a solid Threadripper platform.</p>\n<p>Hardware Specs:</p>\n<p>Total Cost:...</p>"
+    },
+    {
+      "id": "6c8a3aacf586",
+      "title": "Cursor AI CEO shares GPT 5.2 agents building a 3M+ lines web browser in a week",
+      "content": "**Cursor AI CEO** Michael Truell shared a clip showing GPT 5.2 powered multi agent systems building a full web browser in about a week.\n\nThe run **produced** over 3 million lines of code including a custom rendering engine and JavaScript VM. The **project** is experimental and not production ready but demonstrates how far autonomous coding agents can scale when run continuously.\n\nThe **visualization** shows agents coordinating and evolving the codebase in real time. \n\n**Source: Michael X**\n\n",
+      "url": "https://reddit.com/r/OpenAI/comments/1qgbfpb/cursor_ai_ceo_shares_gpt_52_agents_building_a_3m/",
+      "author": "u/BuildwithVignesh",
+      "published": "2026-01-18T07:28:04",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "News"
+      ],
+      "summary": "Cursor AI CEO demonstrates GPT-5.2 multi-agent system building a 3M+ line web browser with custom rendering engine in one week",
+      "importance_score": 88,
+      "reasoning": "Major technical demonstration of AI coding capabilities at unprecedented scale, high engagement, significant implications for software development",
+      "themes": [
+        "ai_agents",
+        "autonomous_coding",
+        "technical_achievement",
+        "gpt52_capabilities"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Cursor AI CEO demonstrates GPT-5.2 multi-agent system building a 3M+ line web browser with custom rendering engine in one week</p>",
+      "content_html": "<p><strong>Cursor AI CEO</strong> Michael Truell shared a clip showing GPT 5.2 powered multi agent systems building a full web browser in about a week.</p>\n<p>The run <strong>produced</strong> over 3 million lines of code including a custom rendering engine and JavaScript VM. The <strong>project</strong> is experimental and not production ready but demonstrates how far autonomous coding agents can scale when run continuously.</p>\n<p>The <strong>visualization</strong> shows agents coordinating and evolving the codebase in real time.</p>\n<p><strong>Source: Michael X</strong></p>"
+    },
+    {
+      "id": "d384357c9292",
+      "title": "What we learned processing 1M+ emails for context engineering",
+      "content": "We spent the last year building systems to turn email into structured context for AI agents. Processed over a million emails to figure out what actually works.\n\nSome things that weren't obvious going in:\n\nThread reconstruction is way harder than I thought. You've got replies, forwards, people joining mid-conversation, decisions getting revised three emails later. Most systems just concatenate text in chronological order and hope the LLM figures it out, but that falls apart fast because you lose who said what and why it matters.\n\nAttachments are half the conversation. PDFs, contracts, invoices, they're not just metadata, they're actual content that drives decisions. We had to build OCR and structure parsing so the system can actually read them, not just know they exist as file...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qg4d4t/what_we_learned_processing_1m_emails_for_context/",
+      "author": "u/EnoughNinja",
+      "published": "2026-01-18T01:35:07",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Deep dive on lessons from processing 1M+ emails for context engineering: thread reconstruction, metadata extraction, and structured context strategies",
+      "importance_score": 85,
+      "reasoning": "High-value production experience sharing, 75 upvotes, 28 comments, addresses real-world RAG/context challenges",
+      "themes": [
+        "Context Engineering",
+        "Production Experience",
+        "Email Processing",
+        "RAG"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Deep dive on lessons from processing 1M+ emails for context engineering: thread reconstruction, metadata extraction, and structured context strategies</p>",
+      "content_html": "<p>We spent the last year building systems to turn email into structured context for AI agents. Processed over a million emails to figure out what actually works.</p>\n<p>Some things that weren't obvious going in:</p>\n<p>Thread reconstruction is way harder than I thought. You've got replies, forwards, people joining mid-conversation, decisions getting revised three emails later. Most systems just concatenate text in chronological order and hope the LLM figures it out, but that falls apart fast because you lose who said what and why it matters.</p>\n<p>Attachments are half the conversation. PDFs, contracts, invoices, they're not just metadata, they're actual content that drives decisions. We had to build OCR and structure parsing so the system can actually read them, not just know they exist as file...</p>"
+    },
+    {
+      "id": "33fc7c6aad59",
+      "title": "Are most major agents really just markdown todo list processors?",
+      "content": "I have been poking around different code bases and scrutixzing logs from the majors LLM providers, and it seems like every agent just decomposes task to a todo list and process them one by one.\n\nHas anyone found a different approach?",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qgj2n9/are_most_major_agents_really_just_markdown_todo/",
+      "author": "u/TheDigitalRhino",
+      "published": "2026-01-18T12:15:25",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Analysis of major AI agents revealing most are essentially markdown todo list processors that decompose tasks sequentially",
+      "importance_score": 82,
+      "reasoning": "Insightful technical analysis with high engagement, sparks discussion on agent architecture patterns and alternatives",
+      "themes": [
+        "Agent Architecture",
+        "Technical Analysis",
+        "Agentic Systems"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Analysis of major AI agents revealing most are essentially markdown todo list processors that decompose tasks sequentially</p>",
+      "content_html": "<p>I have been poking around different code bases and scrutixzing logs from the majors LLM providers, and it seems like every agent just decomposes task to a todo list and process them one by one.</p>\n<p>Has anyone found a different approach?</p>"
+    },
+    {
+      "id": "23133b9bf5eb",
+      "title": "[D] ICML26 new review policies",
+      "content": "ICML26 introduced a review type selection, where the author can decide whether LLMs can be used during their paper review, according to these two policies:\n\n* **Policy A (Conservative):** Use of LLMs for reviewing is strictly prohibited.  \n* **Policy B (Permissive):** \n   * ***Allowed***: Use of LLMs to help understand the paper and related works, and polish reviews. Submissions can be fed to privacy-compliant\\* LLMs. \n   * ***Not allowed***: Ask LLMs about strengths/weaknesses, ask to suggest key points for the review, suggest an outline for the review, or write the full review *\\*By “privacy-compliant”, we refer to LLM tools that do not use logged data for training and that place limits on data retention. This includes enterprise/institutional subscriptions to LLM APIs, consumer...",
+      "url": "https://reddit.com/r/MachineLearning/comments/1qg5pa9/d_icml26_new_review_policies/",
+      "author": "u/reutococco",
+      "published": "2026-01-18T02:54:51",
+      "source": "r/MachineLearning",
+      "source_type": "reddit",
+      "tags": [
+        "Research"
+      ],
+      "summary": "Discussion of ICML26's new policy allowing authors to choose whether reviewers can use LLMs during paper review (Conservative vs Permissive policies)",
+      "importance_score": 78,
+      "reasoning": "Important policy development for ML research community, high engagement with 19 comments, affects academic publishing norms",
+      "themes": [
+        "Academic/Research Policy",
+        "LLM Ethics",
+        "ML Community"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discussion of ICML26's new policy allowing authors to choose whether reviewers can use LLMs during paper review (Conservative vs Permissive policies)</p>",
+      "content_html": "<p>ICML26 introduced a review type selection, where the author can decide whether LLMs can be used during their paper review, according to these two policies:</p>\n<p>* <strong>Policy A (Conservative):</strong> Use of LLMs for reviewing is strictly prohibited.</p>\n<p>* <strong>Policy B (Permissive):</strong></p>\n<p>* *<strong>Allowed</strong>*: Use of LLMs to help understand the paper and related works, and polish reviews. Submissions can be fed to privacy-compliant\\* LLMs.</p>\n<p>* *<strong>Not allowed</strong>*: Ask LLMs about strengths/weaknesses, ask to suggest key points for the review, suggest an outline for the review, or write the full review *\\*By “privacy-compliant”, we refer to LLM tools that do not use logged data for training and that place limits on data retention. This includes enterprise/institutional subscriptions to LLM APIs, consumer...</p>"
+    },
+    {
+      "id": "f9f79b30b4c5",
+      "title": "Running language models where they don't belong",
+      "content": "We have seen a cool counter-trend recently to the typical scaleup narrative (see Smol/Phi and ZIT most notably). I've been on a mission to push this to the limit (mainly for fun), moving LMs into environments where they have no business existing.\n\nMy thesis is that even the most primitive environments can host generative capabilities if you bake them in correctly.\n\nSo here goes:\n\n\n**1. The NES LM (inference on 1983 hardware)**\n\nI started by writing a char-level bigram model in straight 6502 asm for the original Nintendo Entertainment System.\n\n* 2KB of RAM and a CPU with no multiplication opcode, let alone float math.\n* The model compresses a name space of 18 million possibilities into a footprint smaller than a Final Fantasy black mage sprite (729 bytes of weights).\n\nFor extra fun I...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qgbkcd/running_language_models_where_they_dont_belong/",
+      "author": "u/Brief_Argument8155",
+      "published": "2026-01-18T07:33:03",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Tutorial | Guide"
+      ],
+      "summary": "Creative project running language models on extreme edge cases: NES hardware (6502 assembly), Game Boy, smart doorbell, all with working implementations",
+      "importance_score": 78,
+      "reasoning": "Highly creative technical work pushing boundaries of where LMs can run, educational about model compression fundamentals, good engagement",
+      "themes": [
+        "Edge Deployment",
+        "Creative Projects",
+        "Model Optimization",
+        "Educational"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Creative project running language models on extreme edge cases: NES hardware (6502 assembly), Game Boy, smart doorbell, all with working implementations</p>",
+      "content_html": "<p>We have seen a cool counter-trend recently to the typical scaleup narrative (see Smol/Phi and ZIT most notably). I've been on a mission to push this to the limit (mainly for fun), moving LMs into environments where they have no business existing.</p>\n<p>My thesis is that even the most primitive environments can host generative capabilities if you bake them in correctly.</p>\n<p>So here goes:</p>\n<p><strong>1. The NES LM (inference on 1983 hardware)</strong></p>\n<p>I started by writing a char-level bigram model in straight 6502 asm for the original Nintendo Entertainment System.</p>\n<p>* 2KB of RAM and a CPU with no multiplication opcode, let alone float math.</p>\n<p>* The model compresses a name space of 18 million possibilities into a footprint smaller than a Final Fantasy black mage sprite (729 bytes of weights).</p>\n<p>For extra fun I...</p>"
+    },
+    {
+      "id": "aebe89bb05a5",
+      "title": "Another Erdos problem(#281) solved by GPT-5.2",
+      "content": "**Thread:** https://www.erdosproblems.com/forum/thread/281\n",
+      "url": "https://reddit.com/r/OpenAI/comments/1qg5bg4/another_erdos_problem281_solved_by_gpt52/",
+      "author": "u/BuildwithVignesh",
+      "published": "2026-01-18T02:32:03",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "News"
+      ],
+      "summary": "GPT-5.2 solves another Erdos mathematical problem (#281)",
+      "importance_score": 78,
+      "reasoning": "Significant mathematical achievement demonstrating advanced reasoning capabilities, good engagement and links to verification",
+      "themes": [
+        "gpt52_capabilities",
+        "mathematics",
+        "technical_achievement"
+      ],
+      "continuation": null,
+      "summary_html": "<p>GPT-5.2 solves another Erdos mathematical problem (#281)</p>",
+      "content_html": "<p><strong>Thread:</strong> https://www.erdosproblems.com/forum/thread/281</p>"
+    },
+    {
+      "id": "1bc51f53bf50",
+      "title": "Newelle 1.2 released",
+      "content": "Newelle, AI assistant for Linux, has been updated to 1.2! You can download it from [FlatHub](https://flathub.org/en/apps/io.github.qwersyk.Newelle)\n\n⚡️ Add llama.cpp, with options to recompile it with any backend  \n📖 Implement a new model library for ollama / llama.cpp  \n🔎 Implement hybrid search, improving document reading\n\n💻 Add command execution tool  \n🗂 Add tool groups  \n🔗 Improve MCP server adding, supporting also STDIO for non flatpak  \n📝 Add semantic memory handler  \n📤 Add ability to import/export chats  \n📁 Add custom folders to the RAG index  \nℹ️ Improved message information menu, showing the token count and token speed",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qg48z8/newelle_12_released/",
+      "author": "u/iTzSilver_YT",
+      "published": "2026-01-18T01:28:09",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "News"
+      ],
+      "summary": "Newelle 1.2 release - AI assistant for Linux with llama.cpp integration, model library, hybrid search, and MCP server support",
+      "importance_score": 75,
+      "reasoning": "Major software release with 110 upvotes, significant feature additions for Linux local LLM users",
+      "themes": [
+        "Software Releases",
+        "Linux Tools",
+        "Local LLM Interfaces"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Newelle 1.2 release - AI assistant for Linux with llama.cpp integration, model library, hybrid search, and MCP server support</p>",
+      "content_html": "<p>Newelle, AI assistant for Linux, has been updated to 1.2! You can download it from <a href=\"https://flathub.org/en/apps/io.github.qwersyk.Newelle\" target=\"_blank\" rel=\"noopener noreferrer\">FlatHub</a></p>\n<p>⚡️ Add llama.cpp, with options to recompile it with any backend</p>\n<p>📖 Implement a new model library for ollama / llama.cpp</p>\n<p>🔎 Implement hybrid search, improving document reading</p>\n<p>💻 Add command execution tool</p>\n<p>🗂 Add tool groups</p>\n<p>🔗 Improve MCP server adding, supporting also STDIO for non flatpak</p>\n<p>📝 Add semantic memory handler</p>\n<p>📤 Add ability to import/export chats</p>\n<p>📁 Add custom folders to the RAG index</p>\n<p>ℹ️ Improved message information menu, showing the token count and token speed</p>"
+    },
+    {
+      "id": "dc815dbd67ac",
+      "title": "Official: OpenAI reports annual revenue of 2025 over $20B",
+      "content": "",
+      "url": "https://reddit.com/r/OpenAI/comments/1qgi3rq/official_openai_reports_annual_revenue_of_2025/",
+      "author": "u/BuildwithVignesh",
+      "published": "2026-01-18T11:38:17",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "News"
+      ],
+      "summary": "OpenAI officially reports over $20B annual revenue for 2025",
+      "importance_score": 75,
+      "reasoning": "Significant industry news about OpenAI's financial performance, good engagement and business implications",
+      "themes": [
+        "openai_business",
+        "industry_news",
+        "financials"
+      ],
+      "continuation": null,
+      "summary_html": "<p>OpenAI officially reports over $20B annual revenue for 2025</p>",
+      "content_html": ""
+    },
+    {
+      "id": "37b03e504c2a",
+      "title": "AI invented a novel matrix multiplication algorithm",
+      "content": "Paper: [https://archivara.org/paper/73f95490-f7d9-4851-80ca-fb5354f49014](https://archivara.org/paper/73f95490-f7d9-4851-80ca-fb5354f49014)",
+      "url": "https://reddit.com/r/OpenAI/comments/1qg9vwo/ai_invented_a_novel_matrix_multiplication/",
+      "author": "u/MetaKnowing",
+      "published": "2026-01-18T06:25:06",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "News"
+      ],
+      "summary": "Report that AI invented a novel matrix multiplication algorithm with linked research paper",
+      "importance_score": 75,
+      "reasoning": "Important technical achievement in fundamental algorithms, research paper linked for verification",
+      "themes": [
+        "ai_research",
+        "algorithm_discovery",
+        "technical_achievement"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Report that AI invented a novel matrix multiplication algorithm with linked research paper</p>",
+      "content_html": "<p>Paper: <a href=\"https://archivara.org/paper/73f95490-f7d9-4851-80ca-fb5354f49014\" target=\"_blank\" rel=\"noopener noreferrer\">https://archivara.org/paper/73f95490-f7d9-4851-80ca-fb5354f49014</a></p>"
+    },
+    {
+      "id": "0b5d23e1df30",
+      "title": "Steam updates AI disclosure form to specify that it's focused on AI-generated content that is 'consumed by players,' not efficiency tools used behind the scenes",
+      "content": "",
+      "url": "https://reddit.com/r/artificial/comments/1qg9zcm/steam_updates_ai_disclosure_form_to_specify_that/",
+      "author": "u/Fcking_Chuck",
+      "published": "2026-01-18T06:29:07",
+      "source": "r/artificial",
+      "source_type": "reddit",
+      "tags": [
+        "News"
+      ],
+      "summary": "Steam updates AI disclosure requirements to focus on player-facing AI content rather than backend development tools",
+      "importance_score": 72,
+      "reasoning": "High engagement (101 upvotes, 39 comments), significant industry policy affecting AI in gaming, practical implications for developers",
+      "themes": [
+        "Industry Policy",
+        "AI in Gaming",
+        "Content Disclosure"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Steam updates AI disclosure requirements to focus on player-facing AI content rather than backend development tools</p>",
+      "content_html": ""
+    },
+    {
+      "id": "165b69225b13",
+      "title": "Is it feasible for a Team to replace Claude Code with one of the \"local\" alternatives?",
+      "content": "So yes, I've read countless posts in this sub about replacing Claude Code with local models.\n\nMy question is slightly different. I'm talking about finding a replacement that would be able to serve a small team of developers.\n\nWe are currently spending around 2k/mo on Claude. And that can go a long way on cloud GPUs. However, I'm not sure if it would be good enough to support a few concurrent requests.\n\nI've read a lot of praise for Deepseek Coder and a few of the newer models, but would they still perform okay-ish with Q8?\n\nAny advice? recommendations?\n\nthanks in advance\n\nEdit: I plan to keep Claude Code (the app), but switch the models. I know that Claude Code is responsible for the high success rate, regardless of the model. The tools and prompt are very good. So I think even with a...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qg5io6/is_it_feasible_for_a_team_to_replace_claude_code/",
+      "author": "u/nunodonato",
+      "published": "2026-01-18T02:44:03",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Question | Help"
+      ],
+      "summary": "Discussion on feasibility of replacing Claude Code with local alternatives for a small dev team spending $2k/mo",
+      "importance_score": 72,
+      "reasoning": "Very practical question with 75 comments, high engagement on real-world team deployment scenario",
+      "themes": [
+        "Claude Code Alternatives",
+        "Team Deployment",
+        "Cost Optimization"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discussion on feasibility of replacing Claude Code with local alternatives for a small dev team spending $2k/mo</p>",
+      "content_html": "<p>So yes, I've read countless posts in this sub about replacing Claude Code with local models.</p>\n<p>My question is slightly different. I'm talking about finding a replacement that would be able to serve a small team of developers.</p>\n<p>We are currently spending around 2k/mo on Claude. And that can go a long way on cloud GPUs. However, I'm not sure if it would be good enough to support a few concurrent requests.</p>\n<p>I've read a lot of praise for Deepseek Coder and a few of the newer models, but would they still perform okay-ish with Q8?</p>\n<p>Any advice? recommendations?</p>\n<p>thanks in advance</p>\n<p>Edit: I plan to keep Claude Code (the app), but switch the models. I know that Claude Code is responsible for the high success rate, regardless of the model. The tools and prompt are very good. So I think even with a...</p>"
+    },
+    {
+      "id": "b6aac68db1d7",
+      "title": "I got tired of \"Vibe Coding\" breaking my app, so I built a local \"Safety Layer\" that interviews the AI before it codes. (Open Source, MCP)",
+      "content": "Hi r/LocalLLaMA,\n\n(English is not my first language, so please bear with me!)\n\nI’ve been using Cursor/Claude a lot recently, and while it’s fast, I noticed a huge problem: **\"Vibe Coding\"**. The AI writes code that *looks* working but completely ignores edge cases (like race conditions, double spending, or GDPR compliance). My database schema was getting messed up by \"happy path\" code.\n\nSo I spent the last few weeks building **BlueMouse** 🐭.\n\nIt’s an **MCP Server** (works with Cursor/Claude Desktop) that acts as a \"Socratic Logic Gate\". Instead of just generating code immediately, it intercepts your prompt and **interviews you** first.\n\n**For example, if you ask for an \"Ecommerce Schema\":**\n\n* **BlueMouse asks:** *\"For flash sales, do you want Pessimistic Locking (safer) or Redis...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qgc5pc/i_got_tired_of_vibe_coding_breaking_my_app_so_i/",
+      "author": "u/bluemouse_ai",
+      "published": "2026-01-18T07:56:12",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Resources"
+      ],
+      "summary": "Open-source MCP server 'BlueMouse' that interviews AI before coding to prevent 'vibe coding' issues like race conditions, double spending, and GDPR compliance failures.",
+      "importance_score": 72,
+      "reasoning": "Practical open-source project addressing real pain point in AI-assisted coding. MCP integration makes it immediately usable with Cursor/Claude. 12 comments shows engagement.",
+      "themes": [
+        "developer-tools",
+        "code-quality",
+        "mcp-server",
+        "project-showcase",
+        "open-source"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Open-source MCP server 'BlueMouse' that interviews AI before coding to prevent 'vibe coding' issues like race conditions, double spending, and GDPR compliance failures.</p>",
+      "content_html": "<p>Hi r/LocalLLaMA,</p>\n<p>(English is not my first language, so please bear with me!)</p>\n<p>I’ve been using Cursor/Claude a lot recently, and while it’s fast, I noticed a huge problem: <strong>\"Vibe Coding\"</strong>. The AI writes code that *looks* working but completely ignores edge cases (like race conditions, double spending, or GDPR compliance). My database schema was getting messed up by \"happy path\" code.</p>\n<p>So I spent the last few weeks building <strong>BlueMouse</strong> 🐭.</p>\n<p>It’s an <strong>MCP Server</strong> (works with Cursor/Claude Desktop) that acts as a \"Socratic Logic Gate\". Instead of just generating code immediately, it intercepts your prompt and <strong>interviews you</strong> first.</p>\n<p><strong>For example, if you ask for an \"Ecommerce Schema\":</strong></p>\n<p>* <strong>BlueMouse asks:</strong> *\"For flash sales, do you want Pessimistic Locking (safer) or Redis...</p>"
+    },
+    {
+      "id": "51bf35afe205",
+      "title": "Mid-Year Review: AI Copyright Case Developments in 2025",
+      "content": "A new mid-year legal review reveals a major shift in the AI copyright wars of 2025. While courts in California recently ruled that training AI models is largely fair use (*Bartz v. Anthropic*, *Kadrey v. Meta*), the industry is facing a new, existential threat: **Digital Piracy**. Judges have ruled that using *pirated* datasets (like shadow libraries or torrents) is likely *not* fair use, potentially exposing companies like Anthropic and Meta to billions in statutory damages. The report also details the massive new lawsuits filed this year, including *Disney v. Midjourney* and a class action by adult content producers against Meta.",
+      "url": "https://reddit.com/r/OpenAI/comments/1qgxtsz/midyear_review_ai_copyright_case_developments_in/",
+      "author": "u/EchoOfOppenheimer",
+      "published": "2026-01-18T23:34:46",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "Article"
+      ],
+      "summary": "Legal review showing AI training is fair use but using pirated datasets may expose companies to billions in damages",
+      "importance_score": 72,
+      "reasoning": "Important legal developments affecting entire AI industry, substantive content about Bartz v. Anthropic and Kadrey v. Meta rulings",
+      "themes": [
+        "ai_copyright",
+        "legal_developments",
+        "training_data",
+        "industry_implications"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Legal review showing AI training is fair use but using pirated datasets may expose companies to billions in damages</p>",
+      "content_html": "<p>A new mid-year legal review reveals a major shift in the AI copyright wars of 2025. While courts in California recently ruled that training AI models is largely fair use (*Bartz v. Anthropic*, *Kadrey v. Meta*), the industry is facing a new, existential threat: <strong>Digital Piracy</strong>. Judges have ruled that using *pirated* datasets (like shadow libraries or torrents) is likely *not* fair use, potentially exposing companies like Anthropic and Meta to billions in statutory damages. The report also details the massive new lawsuits filed this year, including *Disney v. Midjourney* and a class action by adult content producers against Meta.</p>"
+    },
+    {
+      "id": "420bad615d21",
+      "title": "I developed an open-source tool that allows ChatGPT to \"discuss\" other models to eliminate hallucinations.",
+      "content": "Hello!\n\nI've created a self-hosted platform designed to solve the \"blind trust\" problem\n\nIt works by forcing ChatGPT responses to be verified against other models (such as Gemini, Claude, Mistral, Grok, etc...) in a structured discussion.\n\nI'm looking for users to test this consensus logic and see if it reduces hallucinations\n\nGithub + demo animation: [https://github.com/KeaBase/kea-research](https://github.com/KeaBase/kea-research)\n\nP.S. It's provider-agnostic. You can use your own OpenAI keys, connect local models (Ollama), or mix them. Out from the box you can find few system sets of models. More features upcoming",
+      "url": "https://reddit.com/r/ChatGPT/comments/1qgn5i2/i_developed_an_opensource_tool_that_allows/",
+      "author": "u/S_Anv",
+      "published": "2026-01-18T15:01:38",
+      "source": "r/ChatGPT",
+      "source_type": "reddit",
+      "tags": [
+        "Resources "
+      ],
+      "summary": "Open-source tool that makes ChatGPT verify responses against other models (Gemini, Claude, Mistral, Grok) in structured discussion to reduce hallucinations.",
+      "importance_score": 70,
+      "reasoning": "Valuable technical project addressing hallucination problem through multi-model consensus. Provider-agnostic design increases utility. Low comments but high potential.",
+      "themes": [
+        "hallucination-reduction",
+        "multi-model",
+        "open-source",
+        "project-showcase"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Open-source tool that makes ChatGPT verify responses against other models (Gemini, Claude, Mistral, Grok) in structured discussion to reduce hallucinations.</p>",
+      "content_html": "<p>Hello!</p>\n<p>I've created a self-hosted platform designed to solve the \"blind trust\" problem</p>\n<p>It works by forcing ChatGPT responses to be verified against other models (such as Gemini, Claude, Mistral, Grok, etc...) in a structured discussion.</p>\n<p>I'm looking for users to test this consensus logic and see if it reduces hallucinations</p>\n<p>Github + demo animation: <a href=\"https://github.com/KeaBase/kea-research\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/KeaBase/kea-research</a></p>\n<p>P.S. It's provider-agnostic. You can use your own OpenAI keys, connect local models (Ollama), or mix them. Out from the box you can find few system sets of models. More features upcoming</p>"
+    },
+    {
+      "id": "cf59f7358bb0",
+      "title": "Is Local Coding even worth setting up",
+      "content": "Hi I am new to Local LLM  but have been having a lot of issues setting up a local LLM coding environment so wanted some suggestions from people.I have a 5070 ti (16gb vram).\n\nI have tried to use Kilo code with qwen 2.5 coder 7B running through ollama but the context size feels so low that it finishes the context within a single file of my project.\n\nHow are other people with a 16gb GPU dealing with local llm?",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qgwup8/is_local_coding_even_worth_setting_up/",
+      "author": "u/Interesting-Fish6494",
+      "published": "2026-01-18T22:38:37",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Question | Help"
+      ],
+      "summary": "Discussion about viability of local coding LLMs on 16GB VRAM (5070 Ti), struggling with context limits on Qwen 2.5 Coder 7B",
+      "importance_score": 68,
+      "reasoning": "Highly practical discussion with 51 comments, addresses common pain point for local coding setups, good community advice sharing",
+      "themes": [
+        "Coding Assistants",
+        "Context Limits",
+        "Hardware Constraints",
+        "Practical Setup"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discussion about viability of local coding LLMs on 16GB VRAM (5070 Ti), struggling with context limits on Qwen 2.5 Coder 7B</p>",
+      "content_html": "<p>Hi I am new to Local LLM  but have been having a lot of issues setting up a local LLM coding environment so wanted some suggestions from people.I have a 5070 ti (16gb vram).</p>\n<p>I have tried to use Kilo code with qwen 2.5 coder 7B running through ollama but the context size feels so low that it finishes the context within a single file of my project.</p>\n<p>How are other people with a 16gb GPU dealing with local llm?</p>"
+    },
+    {
+      "id": "74aac5251103",
+      "title": "Ministral 3 Reasoning Heretic and GGUFs",
+      "content": "Hey folks,\n\nBack with another series of abilitered (uncensored) models, this time Ministral 3 with Vision capability. These models lost all their refusal with minimal damage. \n\n  \nAs bonus, this time I also quantized them instead of waiting for community.\n\n  \n[https://huggingface.co/collections/coder3101/ministral-3-reasoning-heretic](https://huggingface.co/collections/coder3101/ministral-3-reasoning-heretic)\n\nSeries contains:\n\n\\- Ministral 3 4B Reasoning\n\n\\- Ministral  3 8B Reasoning\n\n\\- Ministral 3 14B Reasoning\n\n  \nAll with Q4, Q5, Q8, BF16 quantization with MMPROJ for Vision capabilities.",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qg6dr6/ministral_3_reasoning_heretic_and_ggufs/",
+      "author": "u/coder3101",
+      "published": "2026-01-18T03:34:20",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Resources"
+      ],
+      "summary": "Release of Ministral 3 Reasoning 'Heretic' - abliterated (uncensored) versions with vision capability, including GGUFs",
+      "importance_score": 68,
+      "reasoning": "Useful model release with quantizations provided, addresses demand for uncensored models",
+      "themes": [
+        "Model Releases",
+        "Uncensored Models",
+        "Quantization"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Release of Ministral 3 Reasoning 'Heretic' - abliterated (uncensored) versions with vision capability, including GGUFs</p>",
+      "content_html": "<p>Hey folks,</p>\n<p>Back with another series of abilitered (uncensored) models, this time Ministral 3 with Vision capability. These models lost all their refusal with minimal damage.</p>\n<p>As bonus, this time I also quantized them instead of waiting for community.</p>\n<p><a href=\"https://huggingface.co/collections/coder3101/ministral-3-reasoning-heretic\" target=\"_blank\" rel=\"noopener noreferrer\">https://huggingface.co/collections/coder3101/ministral-3-reasoning-heretic</a></p>\n<p>Series contains:</p>\n<p>\\- Ministral 3 4B Reasoning</p>\n<p>\\- Ministral  3 8B Reasoning</p>\n<p>\\- Ministral 3 14B Reasoning</p>\n<p>All with Q4, Q5, Q8, BF16 quantization with MMPROJ for Vision capabilities.</p>"
+    },
+    {
+      "id": "8b3688d0f1e0",
+      "title": "Simple coding test with few models vs free chatgpt",
+      "content": "This is the prompt -\n\nI want to have gradual slow end, right now it ends very fast i want to ease it at the end-\n\n        def func(self, t: float) -&gt; float:\n            return math.sin(13 * math.pi / 2 * t) * math.pow(2, 10 * (t - 1))\n\n\n\nqwen3-coder-30B-A#B-Instruct gave this result -\n\n    def func(self, t: float) -&gt; float:\n        # Smooth decay with easing\n        decay = math.pow(2, 10 * (t - 1))\n        easing = 1 - (1 - t) ** 4  # Gentle slowdown\n        return math.sin(13 * math.pi / 2 * t) * decay * easing\n\n  \ngpt-oss-120b-mxfp4 gave this -\n\n    import math\n    \n    class MyEasing:\n        # -------------------------------------------------\n        # 1️⃣  Soft‑ease‑out envelope (cubic ease‑out)\n        # -------------------------------------------------\n        \n        def...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qgbisk/simple_coding_test_with_few_models_vs_free_chatgpt/",
+      "author": "u/pravbk100",
+      "published": "2026-01-18T07:31:24",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Practical coding benchmark comparing qwen3-coder-30B, other local models, and free ChatGPT on a specific easing function modification task, with actual code outputs shown.",
+      "importance_score": 68,
+      "reasoning": "Valuable real-world comparison of coding capabilities across models with concrete examples. 29 comments indicates good discussion. Educational for model selection decisions.",
+      "themes": [
+        "model-comparison",
+        "coding-benchmarks",
+        "local-models"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Practical coding benchmark comparing qwen3-coder-30B, other local models, and free ChatGPT on a specific easing function modification task, with actual code outputs shown.</p>",
+      "content_html": "<p>This is the prompt -</p>\n<p>I want to have gradual slow end, right now it ends very fast i want to ease it at the end-</p>\n<p>def func(self, t: float) -&gt; float:</p>\n<p>return math.sin(13 * math.pi / 2 * t) * math.pow(2, 10 * (t - 1))</p>\n<p>qwen3-coder-30B-A#B-Instruct gave this result -</p>\n<p>def func(self, t: float) -&gt; float:</p>\n<p># Smooth decay with easing</p>\n<p>decay = math.pow(2, 10 * (t - 1))</p>\n<p>easing = 1 - (1 - t) ** 4  # Gentle slowdown</p>\n<p>return math.sin(13 * math.pi / 2 * t) * decay * easing</p>\n<p>gpt-oss-120b-mxfp4 gave this -</p>\n<p>import math</p>\n<p>class MyEasing:</p>\n<p># -------------------------------------------------</p>\n<p># 1️⃣  Soft‑ease‑out envelope (cubic ease‑out)</p>\n<p># -------------------------------------------------</p>\n<p>def...</p>"
+    },
+    {
+      "id": "aad040f7a791",
+      "title": "3x3090 + 3060 in a mid tower case",
+      "content": "Decided to go all out and max out this desktop. I was lucky to find 3090 cards for around 600 usd, over a period of 3 months and decided to go for it. \n\nThe RAM was a bit more expensive, but I had 64 bought before the price spiked.\n\nI didn’t want to change the case, because I through it’s a high quality case and it would be a shame to toss it. So made the most out of it!\n\nSpecs:\n* Fractal Define 7 Mid Tower\n* 3x3090 + 1x3060 (86gb total, but 72gb VRAM main)\n* 128GB DDR4 (Corsair 4x32)\n* Corsair HX1500i 1500w (has 7 PCIe power cables)\n* Vertical mounts are all cheap from AliExpress\n* ASUS Maximus XII Hero — has only 3x PCIe16x, had to deactivate the 2nd NVMe to use the 3rd PCIe16x in 4x, the 4th GPU (the 3060) is on a riser from a PCIe1x.\n* For drives, only one NVMe of 1TB works, I also...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qgx83t/3x3090_3060_in_a_mid_tower_case/",
+      "author": "u/liviuberechet",
+      "published": "2026-01-18T22:59:39",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Other"
+      ],
+      "summary": "Detailed build of 3x RTX 3090 + 3060 (86GB total VRAM) in a mid-tower Fractal Define 7 case",
+      "importance_score": 65,
+      "reasoning": "Well-documented hardware build with specific components and budget details (~$600/GPU), good community engagement for hardware enthusiasts",
+      "themes": [
+        "Hardware Builds",
+        "Multi-GPU Setups",
+        "LocalLLaMA Infrastructure"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Detailed build of 3x RTX 3090 + 3060 (86GB total VRAM) in a mid-tower Fractal Define 7 case</p>",
+      "content_html": "<p>Decided to go all out and max out this desktop. I was lucky to find 3090 cards for around 600 usd, over a period of 3 months and decided to go for it.</p>\n<p>The RAM was a bit more expensive, but I had 64 bought before the price spiked.</p>\n<p>I didn’t want to change the case, because I through it’s a high quality case and it would be a shame to toss it. So made the most out of it!</p>\n<p>Specs:</p>\n<p>* Fractal Define 7 Mid Tower</p>\n<p>* 3x3090 + 1x3060 (86gb total, but 72gb VRAM main)</p>\n<p>* 128GB DDR4 (Corsair 4x32)</p>\n<p>* Corsair HX1500i 1500w (has 7 PCIe power cables)</p>\n<p>* Vertical mounts are all cheap from AliExpress</p>\n<p>* ASUS Maximus XII Hero — has only 3x PCIe16x, had to deactivate the 2nd NVMe to use the 3rd PCIe16x in 4x, the 4th GPU (the 3060) is on a riser from a PCIe1x.</p>\n<p>* For drives, only one NVMe of 1TB works, I also...</p>"
+    },
+    {
+      "id": "61d78610b048",
+      "title": "I'm getting tired of chatgpt giving emotional advice",
+      "content": "I will ask it some coding issue, or financial issue and it often responds with: \n\n\\- take a breath\n\n\\- dont panic\n\n\\- it will be ok \n\nCompletely out of context. It seems to be playing some engagement \"emotional trigger\" talk, and it's really grinding my gears. The latest model does this far more than earlier models. I specified in no uncertain terms it needs to stop this and just provide the data, it said it would, but given the history I doubt it will stick to this new \"memory\". \n\nAnyone else experience this? What do you do besides ignoring the stupid wanna-be emotional chatgpt bot? ",
+      "url": "https://reddit.com/r/ChatGPT/comments/1qgqcot/im_getting_tired_of_chatgpt_giving_emotional/",
+      "author": "u/retrorays",
+      "published": "2026-01-18T17:20:36",
+      "source": "r/ChatGPT",
+      "source_type": "reddit",
+      "tags": [
+        "Use cases "
+      ],
+      "summary": "User complains about ChatGPT giving unsolicited emotional advice ('take a breath', 'don't panic') when asking technical questions, noting latest model does this more.",
+      "importance_score": 65,
+      "reasoning": "Quality user feedback about model behavior changes with 211 score and 105 comments. Documents real UX issue affecting productivity for technical users.",
+      "themes": [
+        "user-feedback",
+        "model-behavior",
+        "chatgpt-criticism"
+      ],
+      "continuation": null,
+      "summary_html": "<p>User complains about ChatGPT giving unsolicited emotional advice ('take a breath', 'don't panic') when asking technical questions, noting latest model does this more.</p>",
+      "content_html": "<p>I will ask it some coding issue, or financial issue and it often responds with:</p>\n<p>\\- take a breath</p>\n<p>\\- dont panic</p>\n<p>\\- it will be ok</p>\n<p>Completely out of context. It seems to be playing some engagement \"emotional trigger\" talk, and it's really grinding my gears. The latest model does this far more than earlier models. I specified in no uncertain terms it needs to stop this and just provide the data, it said it would, but given the history I doubt it will stick to this new \"memory\".</p>\n<p>Anyone else experience this? What do you do besides ignoring the stupid wanna-be emotional chatgpt bot?</p>"
+    },
+    {
+      "id": "00c0e4aedbfd",
+      "title": "GPT-5.2 seems to never change it's mind. Other interesting behaviors?",
+      "content": "I haven't found the right words for how I feel about GPT-5.2. It's a very unique model.\n\n  \nOne thing I noticed while doing an experiment: this model is way more resistant to changing its stance when you push back. I ran a bunch of trials where I'd ask for advice, then politely disagree. GPT-5 conceded about 35% of the time. GPT-5.2 was 18%, so basically half. Huge difference for a model update.\n\nThis isn't good or bad in itself. \"Should I prioritize salary or work-life balance?\" depends on the person so a model that won't budge there is stubborn. But in things like technical domains, generally it should hold ground. Mainly was just surprised by how different GPT-5.2 was than other models here. \n\n  \nI've seen reports on here of it being argumentative. Has anyone else noticed anything...",
+      "url": "https://reddit.com/r/OpenAI/comments/1qgjnta/gpt52_seems_to_never_change_its_mind_other/",
+      "author": "u/mattambrogi",
+      "published": "2026-01-18T12:38:30",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Analysis finding GPT-5.2 is significantly more resistant to changing its stance (18% vs 35% concession rate compared to GPT-5)",
+      "importance_score": 65,
+      "reasoning": "Quantitative behavioral analysis of new model, useful for understanding model characteristics and prompting strategies",
+      "themes": [
+        "gpt52_capabilities",
+        "model_behavior",
+        "research_observations"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Analysis finding GPT-5.2 is significantly more resistant to changing its stance (18% vs 35% concession rate compared to GPT-5)</p>",
+      "content_html": "<p>I haven't found the right words for how I feel about GPT-5.2. It's a very unique model.</p>\n<p>One thing I noticed while doing an experiment: this model is way more resistant to changing its stance when you push back. I ran a bunch of trials where I'd ask for advice, then politely disagree. GPT-5 conceded about 35% of the time. GPT-5.2 was 18%, so basically half. Huge difference for a model update.</p>\n<p>This isn't good or bad in itself. \"Should I prioritize salary or work-life balance?\" depends on the person so a model that won't budge there is stubborn. But in things like technical domains, generally it should hold ground. Mainly was just surprised by how different GPT-5.2 was than other models here.</p>\n<p>I've seen reports on here of it being argumentative. Has anyone else noticed anything...</p>"
+    },
+    {
+      "id": "de1992953149",
+      "title": "[D] tested file based memory vs embedding search for my chatbot. the difference in retrieval accuracy was bigger than i expected",
+      "content": "been working on a personal assistant that needs to remember user preferences, past conversations, and reference documents. tested two approaches for memory retrieval and wanted to share what i found.   \n  \nsetup: about 5k memory items accumulated over 2 months of usage. mix of conversation history, user preferences, and document excerpts.\n\napproach 1: standard rag with embedding search. used openai embeddings with pgvector. retrieval was fast, maybe 200ms per query. but accuracy was inconsistent. worked great for direct factual queries like \"whats my favorite restaurant\" but struggled with temporal queries like \"what did we discuss about the project last tuesday\" or logical queries like \"which of my preferences conflict with each other\"\n\napproach 2: file based memory using memU framework....",
+      "url": "https://reddit.com/r/MachineLearning/comments/1qgwtas/d_tested_file_based_memory_vs_embedding_search/",
+      "author": "u/Winter_Ant_4196",
+      "published": "2026-01-18T22:36:31",
+      "source": "r/MachineLearning",
+      "source_type": "reddit",
+      "tags": [
+        "Project"
+      ],
+      "summary": "Comparison of file-based memory vs embedding search (RAG) for chatbot memory retrieval, testing 5k items over 2 months with findings on accuracy trade-offs",
+      "importance_score": 62,
+      "reasoning": "Practical technical comparison with real-world testing data, relevant to RAG implementations, but limited engagement and truncated content",
+      "themes": [
+        "RAG/Retrieval Systems",
+        "Memory Systems",
+        "Practical Implementation"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Comparison of file-based memory vs embedding search (RAG) for chatbot memory retrieval, testing 5k items over 2 months with findings on accuracy trade-offs</p>",
+      "content_html": "<p>been working on a personal assistant that needs to remember user preferences, past conversations, and reference documents. tested two approaches for memory retrieval and wanted to share what i found.</p>\n<p>setup: about 5k memory items accumulated over 2 months of usage. mix of conversation history, user preferences, and document excerpts.</p>\n<p>approach 1: standard rag with embedding search. used openai embeddings with pgvector. retrieval was fast, maybe 200ms per query. but accuracy was inconsistent. worked great for direct factual queries like \"whats my favorite restaurant\" but struggled with temporal queries like \"what did we discuss about the project last tuesday\" or logical queries like \"which of my preferences conflict with each other\"</p>\n<p>approach 2: file based memory using memU framework....</p>"
+    },
+    {
+      "id": "eb2a18b46566",
+      "title": "The sad state of the GPU market in Germany and EU, some of them are not even available",
+      "content": "",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qg8yoh/the_sad_state_of_the_gpu_market_in_germany_and_eu/",
+      "author": "u/HumanDrone8721",
+      "published": "2026-01-18T05:45:52",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Discussion of GPU availability and pricing crisis in Germany/EU market",
+      "importance_score": 62,
+      "reasoning": "High engagement (60 comments), important market context for European LocalLLaMA community",
+      "themes": [
+        "GPU Market",
+        "Hardware Availability",
+        "Regional Issues"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discussion of GPU availability and pricing crisis in Germany/EU market</p>",
+      "content_html": ""
+    },
+    {
+      "id": "018fc0371055",
+      "title": "Would Anthropic Block Ollama?",
+      "content": "Few hours ago, Ollama announced following:\n\n  \nOllama now has Anthropic API compatibility. This enables tools like Claude Code to be used with open-source models.\n\n  \nOllama Blog: [Claude Code with Anthropic API compatibility · Ollama Blog](https://ollama.com/blog/claude)\n\nHands-on Guide: [https://youtu.be/Pbsn-6JEE2s?si=7pdAv5LU9GiBx7aN](https://youtu.be/Pbsn-6JEE2s?si=7pdAv5LU9GiBx7aN)\n\n  \nFor now it's working but for how long?",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qgxtl2/would_anthropic_block_ollama/",
+      "author": "u/Lopsided_Dot_4557",
+      "published": "2026-01-18T23:34:24",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Discussion about Ollama's new Anthropic API compatibility enabling Claude Code with local models, questioning if Anthropic will block it",
+      "importance_score": 62,
+      "reasoning": "Important development for local model users, speculation on platform response, good discussion",
+      "themes": [
+        "API Compatibility",
+        "Ollama",
+        "Claude Code"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discussion about Ollama's new Anthropic API compatibility enabling Claude Code with local models, questioning if Anthropic will block it</p>",
+      "content_html": "<p>Few hours ago, Ollama announced following:</p>\n<p>Ollama now has Anthropic API compatibility. This enables tools like Claude Code to be used with open-source models.</p>\n<p>Ollama Blog: <a href=\"https://ollama.com/blog/claude\" target=\"_blank\" rel=\"noopener noreferrer\">Claude Code with Anthropic API compatibility · Ollama Blog</a></p>\n<p>Hands-on Guide: <a href=\"https://youtu.be/Pbsn-6JEE2s?si=7pdAv5LU9GiBx7aN\" target=\"_blank\" rel=\"noopener noreferrer\">https://youtu.be/Pbsn-6JEE2s?si=7pdAv5LU9GiBx7aN</a></p>\n<p>For now it's working but for how long?</p>"
+    },
+    {
+      "id": "72b52baae1d1",
+      "title": "Using NVIDIA DGX Spark + GPT-OSS-120B for Automated Game Development Pipeline - Thoughts?",
+      "content": "Hey everyone, \n\nI've been researching an ambitious project and wanted to get your thoughts on feasibility.\n\n **\\*\\*The Concept:\\*\\*** \n\nBuilding an automated game development pipeline using NVIDIA DGX Spark (Grace Blackwell, 128GB unified memory) with GPT-OSS-120B and multiple AI models working together. \n\n**\\*\\*The Workflow:\\*\\*** \n\n1. **\\*\\*User Input\\*\\***: Describe game concept in natural language - Example: \"I want a medieval fantasy RPG with 1,000 NPCs living autonomous lives\" \n\n2. **\\*\\*AI Pipeline\\*\\***: - GPT-120B generates 500-step master plan - Auto-generates all Unity C# scripts - Creates game systems (NPC AI, economy, relationships, combat) - Integrates assets (user provides rigged models + animations) - Debugs and iterates automatically \n\n3. **\\*\\*Output\\*\\***: Playable game...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qgkh41/using_nvidia_dgx_spark_gptoss120b_for_automated/",
+      "author": "u/AdNaive1169",
+      "published": "2026-01-18T13:14:01",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Question | Help"
+      ],
+      "summary": "User proposes an automated game development pipeline using NVIDIA DGX Spark with 128GB unified memory and GPT-OSS-120B, orchestrating multiple AI models for game creation from natural language descriptions.",
+      "importance_score": 62,
+      "reasoning": "Ambitious technical project combining hardware specs with multi-model orchestration for game dev. Shows forward-thinking architecture but content truncated and zero upvotes suggests early-stage concept.",
+      "themes": [
+        "local-inference",
+        "game-development",
+        "multi-agent-systems",
+        "hardware"
+      ],
+      "continuation": null,
+      "summary_html": "<p>User proposes an automated game development pipeline using NVIDIA DGX Spark with 128GB unified memory and GPT-OSS-120B, orchestrating multiple AI models for game creation from natural language descriptions.</p>",
+      "content_html": "<p>Hey everyone,</p>\n<p>I've been researching an ambitious project and wanted to get your thoughts on feasibility.</p>\n<p>**\\*\\*The Concept:\\*\\*<strong></p>\n<p>Building an automated game development pipeline using NVIDIA DGX Spark (Grace Blackwell, 128GB unified memory) with GPT-OSS-120B and multiple AI models working together.</p>\n<p></strong>\\*\\*The Workflow:\\*\\*<strong></p>\n<p>1. </strong>\\*\\*User Input\\*\\*<strong>: Describe game concept in natural language - Example: \"I want a medieval fantasy RPG with 1,000 NPCs living autonomous lives\"</p>\n<p>2. </strong>\\*\\*AI Pipeline\\*\\*<strong>: - GPT-120B generates 500-step master plan - Auto-generates all Unity C# scripts - Creates game systems (NPC AI, economy, relationships, combat) - Integrates assets (user provides rigged models + animations) - Debugs and iterates automatically</p>\n<p>3. </strong>\\*\\*Output\\*\\***: Playable game...</p>"
+    },
+    {
+      "id": "86e7a86b4096",
+      "title": "I built a \"Hands\" mode for ChatGPT. It uses your OAuth account to actually operate your computer, not just chat about it.",
+      "content": "**Repo:** https://github.com/Prof-Harita/terminaI\n\n---\n\nI love ChatGPT, but it has no hands.\n\nIf my Wi-Fi drivers are broken, or my downloads folder is a mess, or Docker is\neating my RAM, ChatGPT gives me a list of instructions. I become the manual\nlaborer. I copy commands, check logs, report back errors.\n\nI wanted it to just _do the work_.\n\nSo I built **TerminAI**.\n\nIt connects to your ChatGPT account (via OAuth, so no expensive API keys if you\nhave a subscription) and gives the model a safe way to operate your computer.\n\n**Real examples of what it does:**\n\n- **\"My internet is flaky\"** -&gt; It runs ping tests, checks DNS, restarts\n  networking services.\n- **\"Clean up my Downloads folder\"** -&gt; It analyzes file types, suggests folders\n  (Images, Installers, Docs), creates them, and...",
+      "url": "https://reddit.com/r/ChatGPT/comments/1qgqo2p/i_built_a_hands_mode_for_chatgpt_it_uses_your/",
+      "author": "u/Embarrassed-Mail267",
+      "published": "2026-01-18T17:35:21",
+      "source": "r/ChatGPT",
+      "source_type": "reddit",
+      "tags": [
+        "Use cases "
+      ],
+      "summary": "Open-source tool 'TerminAI' that connects ChatGPT to your computer via OAuth, allowing it to execute commands rather than just provide instructions.",
+      "importance_score": 62,
+      "reasoning": "Interesting project giving ChatGPT 'hands' to operate computers. Uses OAuth for safety. Low engagement but novel approach to agentic capabilities.",
+      "themes": [
+        "autonomous-agents",
+        "project-showcase",
+        "computer-control",
+        "open-source"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Open-source tool 'TerminAI' that connects ChatGPT to your computer via OAuth, allowing it to execute commands rather than just provide instructions.</p>",
+      "content_html": "<p><strong>Repo:</strong> https://github.com/Prof-Harita/terminaI</p>\n<p>---</p>\n<p>I love ChatGPT, but it has no hands.</p>\n<p>If my Wi-Fi drivers are broken, or my downloads folder is a mess, or Docker is</p>\n<p>eating my RAM, ChatGPT gives me a list of instructions. I become the manual</p>\n<p>laborer. I copy commands, check logs, report back errors.</p>\n<p>I wanted it to just _do the work_.</p>\n<p>So I built <strong>TerminAI</strong>.</p>\n<p>It connects to your ChatGPT account (via OAuth, so no expensive API keys if you</p>\n<p>have a subscription) and gives the model a safe way to operate your computer.</p>\n<p><strong>Real examples of what it does:</strong></p>\n<ul>\n<li><strong>\"My internet is flaky\"</strong> -&gt; It runs ping tests, checks DNS, restarts</li>\n</ul>\n<p>networking services.</p>\n<ul>\n<li><strong>\"Clean up my Downloads folder\"</strong> -&gt; It analyzes file types, suggests folders</li>\n</ul>\n<p>(Images, Installers, Docs), creates them, and...</p>"
+    },
+    {
+      "id": "40b53c006aea",
+      "title": "ROCm+Linux on AMD Strix Halo: January 2026 Stable Configurations",
+      "content": "New video on ROCm+Linux support for AMD Strix Halo, documenting working/stable configurations in January 2026 and what caused the original issues.\n\n[https://youtu.be/Hdg7zL3pcIs](https://youtu.be/Hdg7zL3pcIs)\n\nCopying the table here for reference ([https://github.com/kyuz0/amd-strix-halo-gfx1151-toolboxes](https://github.com/kyuz0/amd-strix-halo-gfx1151-toolboxes)):\n\nhttps://preview.redd.it/ygn7zad4r4eg1.png?width=2538&amp;format=png&amp;auto=webp&amp;s=5291169682acb6fb54cf25d21118877d926ede3a\n\n",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qgc15w/rocmlinux_on_amd_strix_halo_january_2026_stable/",
+      "author": "u/Intrepid_Rub_3566",
+      "published": "2026-01-18T07:51:22",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Resources"
+      ],
+      "summary": "Documentation of stable ROCm+Linux configurations for AMD Strix Halo as of January 2026, with troubleshooting history",
+      "importance_score": 60,
+      "reasoning": "Important reference for AMD users, addresses known compatibility issues with concrete solutions",
+      "themes": [
+        "AMD/ROCm",
+        "Linux Configuration",
+        "Hardware Compatibility"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Documentation of stable ROCm+Linux configurations for AMD Strix Halo as of January 2026, with troubleshooting history</p>",
+      "content_html": "<p>New video on ROCm+Linux support for AMD Strix Halo, documenting working/stable configurations in January 2026 and what caused the original issues.</p>\n<p><a href=\"https://youtu.be/Hdg7zL3pcIs\" target=\"_blank\" rel=\"noopener noreferrer\">https://youtu.be/Hdg7zL3pcIs</a></p>\n<p>Copying the table here for reference (<a href=\"https://github.com/kyuz0/amd-strix-halo-gfx1151-toolboxes\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/kyuz0/amd-strix-halo-gfx1151-toolboxes</a>):</p>\n<p>https://preview.redd.it/ygn7zad4r4eg1.png?width=2538&amp;format=png&amp;auto=webp&amp;s=5291169682acb6fb54cf25d21118877d926ede3a</p>"
+    },
+    {
+      "id": "e969077d558c",
+      "title": "now even text summary doesn't work",
+      "content": "I askes it to summarize an uploaded doc, than it gave me the chapter by chapter summary - only making it up instead of actually reading it.\n\nIn the explanation it said after caught \"it would have required too much time and effort\". Gpt is lazy now, amazing.",
+      "url": "https://reddit.com/r/ChatGPT/comments/1qg56wu/now_even_text_summary_doesnt_work/",
+      "author": "u/Hungry_Raspberry1768",
+      "published": "2026-01-18T02:24:21",
+      "source": "r/ChatGPT",
+      "source_type": "reddit",
+      "tags": [
+        "Gone Wild "
+      ],
+      "summary": "Complaint that ChatGPT fabricated document summary chapter-by-chapter instead of reading it, admitting 'it would have required too much time and effort'.",
+      "importance_score": 60,
+      "reasoning": "Important quality regression report with 60 score and 57 comments. Documents concerning 'lazy' model behavior on core task.",
+      "themes": [
+        "model-behavior",
+        "quality-regression",
+        "hallucination",
+        "user-feedback"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Complaint that ChatGPT fabricated document summary chapter-by-chapter instead of reading it, admitting 'it would have required too much time and effort'.</p>",
+      "content_html": "<p>I askes it to summarize an uploaded doc, than it gave me the chapter by chapter summary - only making it up instead of actually reading it.</p>\n<p>In the explanation it said after caught \"it would have required too much time and effort\". Gpt is lazy now, amazing.</p>"
+    },
+    {
+      "id": "caa39cad2066",
+      "title": "[R] Event2Vec: Additive geometric embeddings for event sequences",
+      "content": "I’ve released the code for *Event2Vec*, a model for discrete event sequences that enforces a **linear additive** structure on the hidden state: the sequence representation is the sum of event embeddings.\n\nThe paper analyzes when the recurrent update converges to ideal additivity, and extends the model to a hyperbolic (Poincaré ball) variant using Möbius addition, which is better suited to hierarchical / tree‑like sequences.\n\nExperiments include:\n\n* A synthetic “life‑path” dataset showing interpretable trajectories and analogical reasoning via A − B + C over events.\n* An unsupervised Brown Corpus POS experiment, where additive sequence embeddings cluster grammatical patterns and improve silhouette score vs a Word2Vec baseline.\n\nCode (MIT, PyPI): short sklearn‑style estimator...",
+      "url": "https://reddit.com/r/MachineLearning/comments/1qg906l/r_event2vec_additive_geometric_embeddings_for/",
+      "author": "u/sulcantonin",
+      "published": "2026-01-18T05:47:39",
+      "source": "r/MachineLearning",
+      "source_type": "reddit",
+      "tags": [
+        "Project"
+      ],
+      "summary": "Event2Vec paper release - model for discrete event sequences with linear additive embeddings, including hyperbolic variant for hierarchical data",
+      "importance_score": 58,
+      "reasoning": "Original research with code release, addresses sequence modeling with novel geometric approach, moderate technical depth",
+      "themes": [
+        "Research Papers",
+        "Embeddings",
+        "Sequence Modeling"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Event2Vec paper release - model for discrete event sequences with linear additive embeddings, including hyperbolic variant for hierarchical data</p>",
+      "content_html": "<p>I’ve released the code for *Event2Vec*, a model for discrete event sequences that enforces a <strong>linear additive</strong> structure on the hidden state: the sequence representation is the sum of event embeddings.</p>\n<p>The paper analyzes when the recurrent update converges to ideal additivity, and extends the model to a hyperbolic (Poincaré ball) variant using Möbius addition, which is better suited to hierarchical / tree‑like sequences.</p>\n<p>Experiments include:</p>\n<p>* A synthetic “life‑path” dataset showing interpretable trajectories and analogical reasoning via A − B + C over events.</p>\n<p>* An unsupervised Brown Corpus POS experiment, where additive sequence embeddings cluster grammatical patterns and improve silhouette score vs a Word2Vec baseline.</p>\n<p>Code (MIT, PyPI): short sklearn‑style estimator...</p>"
+    },
+    {
+      "id": "94ed63266e29",
+      "title": "ChatGPT can now remember conversations from a year ago",
+      "content": "After today’s big memory upgrade, ChatGPT can now remember conversations from a year ago, and link you directly to them.\n https://www.techradar.com/ai-platforms-assistants/chatgpt/after-todays-big-memory-upgrade-chatgpt-can-now-remember-conversations-from-a-year-ago-and-link-you-directly-to-them\n\nI would argue that ChatGPT can now **recall** your conversations from a year ago, as it must already remember them.\n\nThis should be a proof that all your prompts are persisted and can be used as OpenAI deems fit for their profits.",
+      "url": "https://reddit.com/r/artificial/comments/1qg7ls5/chatgpt_can_now_remember_conversations_from_a/",
+      "author": "u/jakubkonecki",
+      "published": "2026-01-18T04:41:43",
+      "source": "r/artificial",
+      "source_type": "reddit",
+      "tags": [
+        "News"
+      ],
+      "summary": "ChatGPT's memory upgrade allows recall of year-old conversations with direct linking, raising privacy concerns about persistent data storage",
+      "importance_score": 58,
+      "reasoning": "Relevant product news with privacy implications, good engagement, highlights data persistence concerns",
+      "themes": [
+        "Product News",
+        "Privacy",
+        "Memory Systems"
+      ],
+      "continuation": null,
+      "summary_html": "<p>ChatGPT's memory upgrade allows recall of year-old conversations with direct linking, raising privacy concerns about persistent data storage</p>",
+      "content_html": "<p>After today’s big memory upgrade, ChatGPT can now remember conversations from a year ago, and link you directly to them.</p>\n<p>https://www.techradar.com/ai-platforms-assistants/chatgpt/after-todays-big-memory-upgrade-chatgpt-can-now-remember-conversations-from-a-year-ago-and-link-you-directly-to-them</p>\n<p>I would argue that ChatGPT can now <strong>recall</strong> your conversations from a year ago, as it must already remember them.</p>\n<p>This should be a proof that all your prompts are persisted and can be used as OpenAI deems fit for their profits.</p>"
+    }
+  ]
+}

@@ -2,6 +2,58 @@
   "version": "1.0",
   "dates": [
     {
+      "date": "2026-01-20",
+      "total_items": 570,
+      "categories": {
+        "news": {
+          "count": 4,
+          "file_size": 11695
+        },
+        "research": {
+          "count": 3,
+          "file_size": 15912
+        },
+        "social": {
+          "count": 15,
+          "file_size": 30492
+        },
+        "reddit": {
+          "count": 30,
+          "file_size": 68060
+        },
+        "jobs": {
+          "count": 30,
+          "file_size": 121410
+        }
+      }
+    },
+    {
+      "date": "2026-01-19",
+      "total_items": 788,
+      "categories": {
+        "news": {
+          "count": 3,
+          "file_size": 22867
+        },
+        "research": {
+          "count": 30,
+          "file_size": 129216
+        },
+        "social": {
+          "count": 8,
+          "file_size": 19065
+        },
+        "reddit": {
+          "count": 30,
+          "file_size": 75770
+        },
+        "jobs": {
+          "count": 30,
+          "file_size": 112135
+        }
+      }
+    },
+    {
       "date": "2026-01-18",
       "total_items": 458,
       "categories": {
@@ -159,23 +211,27 @@
     },
     {
       "date": "2026-01-12",
-      "total_items": 1339,
+      "total_items": 417,
       "categories": {
         "news": {
-          "count": 6,
-          "file_size": 60265
+          "count": 0,
+          "file_size": 203
         },
         "research": {
-          "count": 306,
-          "file_size": 1225530
+          "count": 30,
+          "file_size": 124234
         },
         "social": {
-          "count": 394,
-          "file_size": 484992
+          "count": 5,
+          "file_size": 11349
         },
         "reddit": {
-          "count": 633,
-          "file_size": 1651868
+          "count": 30,
+          "file_size": 70575
+        },
+        "jobs": {
+          "count": 11,
+          "file_size": 44392
         }
       }
     },
@@ -379,23 +435,27 @@
     },
     {
       "date": "2026-01-02",
-      "total_items": 560,
+      "total_items": 41,
       "categories": {
         "news": {
           "count": 0,
-          "file_size": 203
+          "file_size": 387
         },
         "research": {
-          "count": 17,
-          "file_size": 52750
+          "count": 0,
+          "file_size": 207
         },
         "social": {
-          "count": 281,
-          "file_size": 253469
+          "count": 1,
+          "file_size": 2575
         },
         "reddit": {
-          "count": 262,
-          "file_size": 496845
+          "count": 30,
+          "file_size": 65566
+        },
+        "jobs": {
+          "count": 0,
+          "file_size": 203
         }
       }
     },
@@ -554,7 +614,7 @@
       }
     }
   ],
-  "latestDate": "2026-01-18",
-  "generatedAt": "2026-01-18T07:14:59.738466",
-  "totalDates": 24
+  "latestDate": "2026-01-20",
+  "generatedAt": "2026-01-20T08:05:26.811377",
+  "totalDates": 26
 }

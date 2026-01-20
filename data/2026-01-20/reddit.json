@@ -1,0 +1,810 @@
+{
+  "category": "reddit",
+  "date": "2026-01-20",
+  "category_summary": "**r/LocalLLaMA** was dominated by the **GLM 4.7 Flash** release ecosystem, with community rapidly testing, quantizing, and integrating the new model. The **llama.cpp** [merger enabled](/?date=2026-01-20&category=reddit#item-3230899e945a) immediate adoption while users [praised its efficiency](/?date=2026-01-20&category=reddit#item-321cdfb3f1ab) for \"GPU poor\" setups running hundreds of thousands of agentic tokens.\n\n- **20x faster Top-K implementation** [merged into llama.cpp](/?date=2026-01-20&category=reddit#item-cd850a7e281f), achieving 63% faster prompt processing with AVX2 optimization—major open-source win\n- [Deep dive predicting](/?date=2026-01-20&category=reddit#item-f262e561e56e) **latent reasoning will replace token-based Chain-of-Thought** by 2026 sparked architectural debate\n- [**2-5 second model switching**](/?date=2026-01-20&category=reddit#item-fb613e358fff) via GPU state snapshotting drew interest for multi-model workflows\n- £30k workstation (3x RTX Pro 6000 96GB) [evaluated for automating](/?date=2026-01-20&category=reddit#item-1f7ff6c0b46a) **top-tier consulting**—real professional use case\n- **Gray vs OpenAI** [lawsuit over suicide](/?date=2026-01-20&category=reddit#item-505bfb300851) sparked heated discussion about guardrails and AI safety consequences\n\n**Infrastructure concerns** emerged with [**25 data center cancellations**](/?date=2026-01-20&category=reddit#item-da38c68ece1f) due to community backlash, while **GPT 5.2 High vs Claude Opus 4.5 vs Gemini 3** [comparisons on production codebases](/?date=2026-01-20&category=reddit#item-0e8260a72fb4) provided practical developer guidance.",
+  "category_summary_html": "<p><strong>r/LocalLLaMA</strong> was dominated by the <strong>GLM 4.7 Flash</strong> release ecosystem, with community rapidly testing, quantizing, and integrating the new model. The <strong>llama.cpp</strong> <a href=\"/?date=2026-01-20&category=reddit#item-3230899e945a\" class=\"internal-link\">merger enabled</a> immediate adoption while users <a href=\"/?date=2026-01-20&category=reddit#item-321cdfb3f1ab\" class=\"internal-link\">praised its efficiency</a> for \"GPU poor\" setups running hundreds of thousands of agentic tokens.</p>\n<ul>\n<li><strong>20x faster Top-K implementation</strong> <a href=\"/?date=2026-01-20&category=reddit#item-cd850a7e281f\" class=\"internal-link\">merged into llama.cpp</a>, achieving 63% faster prompt processing with AVX2 optimization—major open-source win</li>\n<li><a href=\"/?date=2026-01-20&category=reddit#item-f262e561e56e\" class=\"internal-link\">Deep dive predicting</a> <strong>latent reasoning will replace token-based Chain-of-Thought</strong> by 2026 sparked architectural debate</li>\n<li><a href=\"/?date=2026-01-20&category=reddit#item-fb613e358fff\" class=\"internal-link\"><strong>2-5 second model switching</strong></a> via GPU state snapshotting drew interest for multi-model workflows</li>\n<li>£30k workstation (3x RTX Pro 6000 96GB) <a href=\"/?date=2026-01-20&category=reddit#item-1f7ff6c0b46a\" class=\"internal-link\">evaluated for automating</a> <strong>top-tier consulting</strong>—real professional use case</li>\n<li><strong>Gray vs OpenAI</strong> <a href=\"/?date=2026-01-20&category=reddit#item-505bfb300851\" class=\"internal-link\">lawsuit over suicide</a> sparked heated discussion about guardrails and AI safety consequences</li>\n</ul>\n<p><strong>Infrastructure concerns</strong> emerged with <a href=\"/?date=2026-01-20&category=reddit#item-da38c68ece1f\" class=\"internal-link\"><strong>25 data center cancellations</strong></a> due to community backlash, while <strong>GPT 5.2 High vs Claude Opus 4.5 vs Gemini 3</strong> <a href=\"/?date=2026-01-20&category=reddit#item-0e8260a72fb4\" class=\"internal-link\">comparisons on production codebases</a> provided practical developer guidance.</p>",
+  "themes": [
+    {
+      "name": "GLM 4.7 Flash Ecosystem",
+      "description": "Multiple posts about the new GLM 4.7 Flash model release, quantizations (GGUF, FP8, NVFP4), and llama.cpp integration. Dominated LocalLLaMA discussion.",
+      "item_count": 10,
+      "example_items": [],
+      "importance": 88
+    },
+    {
+      "name": "LLM Architecture & Research",
+      "description": "Discussion of fundamental architectural shifts like latent reasoning replacing token-based CoT",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 78
+    },
+    {
+      "name": "Local LLM Infrastructure & Tooling",
+      "description": "Updates to llama.cpp, LlamaBarn, API compatibility, and various tools enabling local model deployment.",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 75
+    },
+    {
+      "name": "Agent Frameworks & Multi-Agent Systems",
+      "description": "Development of agent architectures, evaluation frameworks, model meshing, and autonomous agent systems",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 75
+    },
+    {
+      "name": "AI Safety & Ethics",
+      "description": "Discussions about lawsuits, jailbreaking research, guardrails, and real-world consequences of AI interactions",
+      "item_count": 8,
+      "example_items": [],
+      "importance": 75
+    },
+    {
+      "name": "Hardware & Performance Optimization",
+      "description": "GPU benchmarks, multi-GPU setups, quantization techniques, Top-K optimization, and hardware purchase decisions.",
+      "item_count": 12,
+      "example_items": [],
+      "importance": 72
+    },
+    {
+      "name": "Model Quantization Formats",
+      "description": "Community rapidly producing GGUF, FP8, NVFP4 quantizations of new models for different hardware targets.",
+      "item_count": 7,
+      "example_items": [],
+      "importance": 70
+    },
+    {
+      "name": "Open Source Tools",
+      "description": "New tool releases and projects including memory systems, distributed inference, and fast model switching",
+      "item_count": 6,
+      "example_items": [],
+      "importance": 70
+    },
+    {
+      "name": "AI Policy & Ethics",
+      "description": "Corporate influence on AI legislation, safety concerns, and data privacy discussions",
+      "item_count": 4,
+      "example_items": [],
+      "importance": 70
+    },
+    {
+      "name": "Technical Projects & Optimizations",
+      "description": "Developer contributions including Top-K optimization and VSCode integration tools",
+      "item_count": 2,
+      "example_items": [],
+      "importance": 70
+    }
+  ],
+  "total_items": 30,
+  "items": [
+    {
+      "id": "3d47fe87b1f2",
+      "title": "zai-org/GLM-4.7-Flash · Hugging Face",
+      "content": "",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qh5wdq/zaiorgglm47flash_hugging_face/",
+      "author": "u/Dark_Fire_12",
+      "published": "2026-01-19T06:40:27",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "New Model"
+      ],
+      "summary": "Main announcement post for GLM 4.7 Flash release on Hugging Face.",
+      "importance_score": 90,
+      "reasoning": "Highest engagement in batch (704 score, 217 comments). Major open-source model release that dominated community discussion.",
+      "themes": [
+        "glm-4.7",
+        "model-releases",
+        "open-source"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Main announcement post for GLM 4.7 Flash release on Hugging Face.</p>",
+      "content_html": ""
+    },
+    {
+      "id": "cd850a7e281f",
+      "title": "I made a Top-K implementation that's up to 20x faster than PyTorch CPU (open source)",
+      "content": "Spent way too long optimizing Top-K selection for LLM sampling and finally hit some stupid numbers.\n\n**TL;DR:** AVX2-optimized batched Top-K that beats PyTorch CPU by 4-20x depending on vocab size. Sometimes competitive with CUDA for small batches.\n\n**Benchmarks (K=50):**\n\n* Vocab=32K: 0.043ms vs PyTorch's 0.173ms (4x faster)\n* Vocab=128K: 0.057ms vs PyTorch's 0.777ms (13x faster)\n* Vocab=256K: 0.079ms vs PyTorch's 1.56ms (20x faster)\n\nIntegrated it into llama.cpp and got 63% faster prompt processing on a 120B MoE model (81→142 tokens/sec).\n\nUses adaptive sampling + AVX2 SIMD + cache-optimized scanning. Has fast paths for sorted/constant inputs. Single-pass algorithm, no GPU needed.\n\nIncludes pre-built DLLs and llama.cpp implementation (for windows).\n\nGitHub:...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qh0yq8/i_made_a_topk_implementation_thats_up_to_20x/",
+      "author": "u/andreabarbato",
+      "published": "2026-01-19T02:45:28",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Resources"
+      ],
+      "summary": "AVX2-optimized Top-K implementation achieving 4-20x speedup over PyTorch CPU, integrated into llama.cpp for 63% faster prompt processing.",
+      "importance_score": 88,
+      "reasoning": "Excellent technical contribution with high engagement (141 score, 101 comments). Significant performance improvement with open-source code.",
+      "themes": [
+        "optimization",
+        "llama-cpp",
+        "performance",
+        "open-source"
+      ],
+      "continuation": null,
+      "summary_html": "<p>AVX2-optimized Top-K implementation achieving 4-20x speedup over PyTorch CPU, integrated into llama.cpp for 63% faster prompt processing.</p>",
+      "content_html": "<p>Spent way too long optimizing Top-K selection for LLM sampling and finally hit some stupid numbers.</p>\n<p><strong>TL;DR:</strong> AVX2-optimized batched Top-K that beats PyTorch CPU by 4-20x depending on vocab size. Sometimes competitive with CUDA for small batches.</p>\n<p><strong>Benchmarks (K=50):</strong></p>\n<p>* Vocab=32K: 0.043ms vs PyTorch's 0.173ms (4x faster)</p>\n<p>* Vocab=128K: 0.057ms vs PyTorch's 0.777ms (13x faster)</p>\n<p>* Vocab=256K: 0.079ms vs PyTorch's 1.56ms (20x faster)</p>\n<p>Integrated it into llama.cpp and got 63% faster prompt processing on a 120B MoE model (81→142 tokens/sec).</p>\n<p>Uses adaptive sampling + AVX2 SIMD + cache-optimized scanning. Has fast paths for sorted/constant inputs. Single-pass algorithm, no GPU needed.</p>\n<p>Includes pre-built DLLs and llama.cpp implementation (for windows).</p>\n<p>GitHub:...</p>"
+    },
+    {
+      "id": "321cdfb3f1ab",
+      "title": "My gpu poor comrades, GLM 4.7 Flash is your local agent",
+      "content": "I tried many MoE models at 30B or under and all of them failed sooner or later in an agentic framework. If z.ai is not redirecting my requests to another model, then GLM 4.7 Flash is finally the reliable (soon local) agent that I desperately wanted.\n\nI am running it since more than half an hour on opencode and it produced hundreds of thousands tokens in one session (with context compacting obviously) without any tool calling errors. It clones github repos, it runs all kind of commands, edits files, commits changes, all perfect, not a single error yet.\n\nCan't wait for GGUFs to try this locally.",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qhii5v/my_gpu_poor_comrades_glm_47_flash_is_your_local/",
+      "author": "u/__Maximum__",
+      "published": "2026-01-19T14:12:06",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "New Model"
+      ],
+      "summary": "User reports GLM 4.7 Flash as reliable local agent for GPU-constrained users, successfully running hundreds of thousands of tokens in agentic framework without tool calling errors.",
+      "importance_score": 85,
+      "reasoning": "Very high engagement (376 score, 129 comments) with practical evaluation of new model for agentic use. Directly addresses needs of hardware-limited users.",
+      "themes": [
+        "glm-4.7",
+        "local-agents",
+        "model-evaluation",
+        "gpu-efficiency"
+      ],
+      "continuation": null,
+      "summary_html": "<p>User reports GLM 4.7 Flash as reliable local agent for GPU-constrained users, successfully running hundreds of thousands of tokens in agentic framework without tool calling errors.</p>",
+      "content_html": "<p>I tried many MoE models at 30B or under and all of them failed sooner or later in an agentic framework. If z.ai is not redirecting my requests to another model, then GLM 4.7 Flash is finally the reliable (soon local) agent that I desperately wanted.</p>\n<p>I am running it since more than half an hour on opencode and it produced hundreds of thousands tokens in one session (with context compacting obviously) without any tool calling errors. It clones github repos, it runs all kind of commands, edits files, commits changes, all perfect, not a single error yet.</p>\n<p>Can't wait for GGUFs to try this locally.</p>"
+    },
+    {
+      "id": "3230899e945a",
+      "title": "GLM 4.7 Flash official support merged in llama.cpp",
+      "content": "",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qhitrj/glm_47_flash_official_support_merged_in_llamacpp/",
+      "author": "u/ayylmaonade",
+      "published": "2026-01-19T14:24:24",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Resources"
+      ],
+      "summary": "Announcement that GLM 4.7 Flash support has been officially merged into llama.cpp.",
+      "importance_score": 82,
+      "reasoning": "Very high engagement (334 score, 56 comments). Critical infrastructure update enabling community to run new model locally. High practical impact.",
+      "themes": [
+        "glm-4.7",
+        "llama-cpp",
+        "infrastructure"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Announcement that GLM 4.7 Flash support has been officially merged into llama.cpp.</p>",
+      "content_html": ""
+    },
+    {
+      "id": "f262e561e56e",
+      "title": "Is Token-based CoT going to Die? My 2026 Prediction for the next generation of LLMs &amp; VLMs - A Deep-Dive into the rise of Latent Reasoning.",
+      "content": "Hello everyone,\n\nFor the past few years, we’ve lived in the era of Chain-of-Thought (CoT) which forced models to \"show their work\" token-by-token to solve complex problems. It \"works\" but it’s slow, expensive, inefficient and limited by the \"one-to-one\" law of autoregression.\n\nBased on three papers released this week (January 2026), I'm agreeing with the prediction that a massive architectural shift is coming for LLMs/VLMs in 2026 (made on [Discover-AI](https://www.youtube.com/watch?v=O9HxArmWChs) video),  in 2026 we will likely move from Simulating Reasoning (imitating human speech) to Optimizing Reasoning (pure vector operations).\n\n1. Reasoning is a \"State of Mind,\" Not a Word Cloud ([Source\\_1](https://arxiv.org/abs/2601.08058))\n\nRecent research from the University of Virginia proves...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qh254m/is_tokenbased_cot_going_to_die_my_2026_prediction/",
+      "author": "u/madSaiyanUltra_9789",
+      "published": "2026-01-19T03:51:26",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Deep analysis predicting shift from token-based Chain-of-Thought to latent reasoning in 2026, based on three recent papers. Discusses limitations of autoregressive one-to-one token generation.",
+      "importance_score": 78,
+      "reasoning": "Technically substantive prediction about fundamental architectural shifts. References recent research with good engagement (23 comments). High educational value.",
+      "themes": [
+        "architecture research",
+        "reasoning models",
+        "future predictions"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Deep analysis predicting shift from token-based Chain-of-Thought to latent reasoning in 2026, based on three recent papers. Discusses limitations of autoregressive one-to-one token generation.</p>",
+      "content_html": "<p>Hello everyone,</p>\n<p>For the past few years, we’ve lived in the era of Chain-of-Thought (CoT) which forced models to \"show their work\" token-by-token to solve complex problems. It \"works\" but it’s slow, expensive, inefficient and limited by the \"one-to-one\" law of autoregression.</p>\n<p>Based on three papers released this week (January 2026), I'm agreeing with the prediction that a massive architectural shift is coming for LLMs/VLMs in 2026 (made on <a href=\"https://www.youtube.com/watch?v=O9HxArmWChs\" target=\"_blank\" rel=\"noopener noreferrer\">Discover-AI</a> video),  in 2026 we will likely move from Simulating Reasoning (imitating human speech) to Optimizing Reasoning (pure vector operations).</p>\n<p>1. Reasoning is a \"State of Mind,\" Not a Word Cloud (<a href=\"https://arxiv.org/abs/2601.08058\" target=\"_blank\" rel=\"noopener noreferrer\">Source\\_1</a>)</p>\n<p>Recent research from the University of Virginia proves...</p>"
+    },
+    {
+      "id": "f342271559e0",
+      "title": "New in llama.cpp: Anthropic Messages API",
+      "content": "",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qhaq21/new_in_llamacpp_anthropic_messages_api/",
+      "author": "u/paf1138",
+      "published": "2026-01-19T09:33:24",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Resources"
+      ],
+      "summary": "New Anthropic Messages API support added to llama.cpp, enabling Claude-compatible API endpoints.",
+      "importance_score": 75,
+      "reasoning": "High engagement (156 score, 47 comments). Important infrastructure update for API compatibility and tool ecosystem.",
+      "themes": [
+        "llama-cpp",
+        "api-compatibility",
+        "infrastructure"
+      ],
+      "continuation": null,
+      "summary_html": "<p>New Anthropic Messages API support added to llama.cpp, enabling Claude-compatible API endpoints.</p>",
+      "content_html": ""
+    },
+    {
+      "id": "109f3bf472d5",
+      "title": "I made a Top-K implementation that's up to 20x faster than PyTorch CPU (open source)",
+      "content": "Spent way too long optimizing Top-K selection for LLM sampling and finally hit some stupid numbers.\n\n**TL;DR:** AVX2-optimized batched Top-K that beats PyTorch CPU by 4-20x depending on vocab size. Sometimes competitive with CUDA for small batches.\n\n**Benchmarks (K=50):**\n\n* Vocab=32K: 0.043ms vs PyTorch's 0.173ms (4x faster)\n* Vocab=128K: 0.057ms vs PyTorch's 0.777ms (13x faster)\n* Vocab=256K: 0.079ms vs PyTorch's 1.56ms (20x faster)\n\nIntegrated it into llama.cpp and got 63% faster prompt processing on a 120B MoE model (81→142 tokens/sec).\n\nUses adaptive sampling + AVX2 SIMD + cache-optimized scanning. Has fast paths for sorted/constant inputs. Single-pass algorithm, no GPU needed.\n\nIncludes pre-built DLLs and llama.cpp implementation (for windows).\n\nGitHub:...",
+      "url": "https://reddit.com/r/ChatGPT/comments/1qh16q6/i_made_a_topk_implementation_thats_up_to_20x/",
+      "author": "u/andreabarbato",
+      "published": "2026-01-19T02:58:02",
+      "source": "r/ChatGPT",
+      "source_type": "reddit",
+      "tags": [
+        "Resources "
+      ],
+      "summary": "Developer shares open-source AVX2-optimized Top-K implementation achieving 4-20x speedup over PyTorch CPU for LLM sampling, with benchmarks showing significant improvements especially at larger vocab sizes, integrated into llama.cpp.",
+      "importance_score": 75,
+      "reasoning": "High-quality technical contribution with concrete benchmarks, open-source project, and practical LLM optimization. Valuable for ML practitioners despite low engagement.",
+      "themes": [
+        "technical_optimization",
+        "open_source",
+        "llm_inference"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Developer shares open-source AVX2-optimized Top-K implementation achieving 4-20x speedup over PyTorch CPU for LLM sampling, with benchmarks showing significant improvements especially at larger vocab sizes, integrated into llama.cpp.</p>",
+      "content_html": "<p>Spent way too long optimizing Top-K selection for LLM sampling and finally hit some stupid numbers.</p>\n<p><strong>TL;DR:</strong> AVX2-optimized batched Top-K that beats PyTorch CPU by 4-20x depending on vocab size. Sometimes competitive with CUDA for small batches.</p>\n<p><strong>Benchmarks (K=50):</strong></p>\n<p>* Vocab=32K: 0.043ms vs PyTorch's 0.173ms (4x faster)</p>\n<p>* Vocab=128K: 0.057ms vs PyTorch's 0.777ms (13x faster)</p>\n<p>* Vocab=256K: 0.079ms vs PyTorch's 1.56ms (20x faster)</p>\n<p>Integrated it into llama.cpp and got 63% faster prompt processing on a 120B MoE model (81→142 tokens/sec).</p>\n<p>Uses adaptive sampling + AVX2 SIMD + cache-optimized scanning. Has fast paths for sorted/constant inputs. Single-pass algorithm, no GPU needed.</p>\n<p>Includes pre-built DLLs and llama.cpp implementation (for windows).</p>\n<p>GitHub:...</p>"
+    },
+    {
+      "id": "da38c68ece1f",
+      "title": "25 data center cancellations this month due to backlash",
+      "content": "",
+      "url": "https://reddit.com/r/OpenAI/comments/1qh6cc9/25_data_center_cancellations_this_month_due_to/",
+      "author": "u/MetaKnowing",
+      "published": "2026-01-19T06:57:45",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "Image"
+      ],
+      "summary": "Report of 25 data center cancellations in one month due to community backlash",
+      "importance_score": 75,
+      "reasoning": "Significant infrastructure news with high engagement (84 comments). Important for understanding AI compute expansion challenges",
+      "themes": [
+        "infrastructure",
+        "data_centers",
+        "community_backlash",
+        "industry_news"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Report of 25 data center cancellations in one month due to community backlash</p>",
+      "content_html": ""
+    },
+    {
+      "id": "1f7ff6c0b46a",
+      "title": "Can I realistically automate most of top-tier consulting with a £30k local LLM workstation (3× RTX Pro 6000 96GB)?",
+      "content": "I’m a management / strategy consultant working with very large documents (often 500–1000+ pages), financial models, market research, due diligence packs, and board-level narratives.\n\nI’m considering spending 30k on a local AI workstation built around 3× PNY NVIDIA RTX Pro 6000 Blackwell (96GB VRAM each). The goal is to automate as much of my workflow as possible while keeping sensitive data local.\n\nWhat I’m trying to automate (or heavily compress):\n\n* Reading and analysing 1000-page PDFs (regulatory filings, DD reports, contracts, disclosures)\n* Extracting risks, assumptions, KPIs, red flags, inconsistencies\n* Cross-document comparison (e.g. seller vs buyer DD, management case vs market data)\n* Automating spreadsheet work (cleaning models, scenario analysis, stress tests)\n* Drafting...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qhg2d8/can_i_realistically_automate_most_of_toptier/",
+      "author": "u/madejustforredd1t",
+      "published": "2026-01-19T12:41:16",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Management consultant considering £30k workstation (3x RTX Pro 6000 96GB) to automate consulting workflows: analyzing 1000+ page PDFs, financial models, due diligence, and board narratives while keeping data local.",
+      "importance_score": 72,
+      "reasoning": "High-quality practical question with excellent engagement (46 comments). Real professional use case exploring LLM production deployment.",
+      "themes": [
+        "professional applications",
+        "hardware investment",
+        "local inference",
+        "document processing"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Management consultant considering £30k workstation (3x RTX Pro 6000 96GB) to automate consulting workflows: analyzing 1000+ page PDFs, financial models, due diligence, and board narratives while keeping data local.</p>",
+      "content_html": "<p>I’m a management / strategy consultant working with very large documents (often 500–1000+ pages), financial models, market research, due diligence packs, and board-level narratives.</p>\n<p>I’m considering spending 30k on a local AI workstation built around 3× PNY NVIDIA RTX Pro 6000 Blackwell (96GB VRAM each). The goal is to automate as much of my workflow as possible while keeping sensitive data local.</p>\n<p>What I’m trying to automate (or heavily compress):</p>\n<p>* Reading and analysing 1000-page PDFs (regulatory filings, DD reports, contracts, disclosures)</p>\n<p>* Extracting risks, assumptions, KPIs, red flags, inconsistencies</p>\n<p>* Cross-document comparison (e.g. seller vs buyer DD, management case vs market data)</p>\n<p>* Automating spreadsheet work (cleaning models, scenario analysis, stress tests)</p>\n<p>* Drafting...</p>"
+    },
+    {
+      "id": "2ea170e4abe5",
+      "title": "Accusations flying that Nvidia has quietly funded MAGA influencers to kill an AI safety bill, flooding Twitter with nearly identical posts on the same day.",
+      "content": "Basically unless a dozen MAGA influencers incl. Laura Loomer all got interested in the details of semiconductor export policy on the same day, and made threads using the same phrases and typos to talk about it, it seems like someone has paid them to do so. From [the article in question](https://www.modelrepublic.org/articles/right-wing-pundits-suddenly-hate-an-ai-bill.-are-they-getting-paid-to-kill-it):\n\n&gt;To summarize the similarities: \n\n&gt;\\- Eight accounts used some variation of \"win/lose/beat/dominate\" the \"AI race.\"\n\n&gt;\\- Seven used \"strip Trump of his” power/authority/control. \n\n&gt;\\- Five mentioned hand/handing control to Congress or Democrats. \n\n&gt;\\- Four invoked Trump’s \"authority as Commander in Chief.\" \n\n&gt;\\- Four mentioned giving Democrats or Congress a...",
+      "url": "https://reddit.com/r/ChatGPT/comments/1qh6ae7/accusations_flying_that_nvidia_has_quietly_funded/",
+      "author": "u/melted-dashboard",
+      "published": "2026-01-19T06:55:42",
+      "source": "r/ChatGPT",
+      "source_type": "reddit",
+      "tags": [
+        "News 📰"
+      ],
+      "summary": "Report that Nvidia allegedly funded MAGA influencers to oppose AI safety bill, with evidence of coordinated identical posts.",
+      "importance_score": 72,
+      "reasoning": "Important AI policy news with significant implications for AI governance. Well-sourced with good engagement.",
+      "themes": [
+        "AI policy",
+        "corporate influence",
+        "AI safety regulation"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Report that Nvidia allegedly funded MAGA influencers to oppose AI safety bill, with evidence of coordinated identical posts.</p>",
+      "content_html": "<p>Basically unless a dozen MAGA influencers incl. Laura Loomer all got interested in the details of semiconductor export policy on the same day, and made threads using the same phrases and typos to talk about it, it seems like someone has paid them to do so. From <a href=\"https://www.modelrepublic.org/articles/right-wing-pundits-suddenly-hate-an-ai-bill.-are-they-getting-paid-to-kill-it\" target=\"_blank\" rel=\"noopener noreferrer\">the article in question</a>:</p>\n<p>&gt;To summarize the similarities:</p>\n<p>&gt;\\- Eight accounts used some variation of \"win/lose/beat/dominate\" the \"AI race.\"</p>\n<p>&gt;\\- Seven used \"strip Trump of his” power/authority/control.</p>\n<p>&gt;\\- Five mentioned hand/handing control to Congress or Democrats.</p>\n<p>&gt;\\- Four invoked Trump’s \"authority as Commander in Chief.\"</p>\n<p>&gt;\\- Four mentioned giving Democrats or Congress a...</p>"
+    },
+    {
+      "id": "4e8b1141bdfa",
+      "title": "OpenAI’s New Audio Models Launched",
+      "content": "1. GPT Audio: The gpt-audio model is OpenAI's first generally available audio model. The new snapshot features an upgraded decoder for more natural sounding voices and maintains better voice consistency. Audio is priced at $32 per million input tokens and $64 per million output tokens.\n\n2. GPT Audio Mini: A cost-efficient version of GPT Audio. The new snapshot features an upgraded decoder for more natural sounding voices and maintains better voice consistency. Input is priced at $0.60 per million tokens and output is priced at $2.40 per million tokens.\n\nhttps://openrouter.ai/openai/gpt-audio-mini",
+      "url": "https://reddit.com/r/OpenAI/comments/1qhpmaw/openais_new_audio_models_launched/",
+      "author": "u/policyweb",
+      "published": "2026-01-19T19:12:15",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "News"
+      ],
+      "summary": "OpenAI launches new audio models: GPT Audio and GPT Audio Mini with upgraded decoders for natural voices",
+      "importance_score": 72,
+      "reasoning": "Important product news with pricing details. Significant for developers and users interested in audio capabilities",
+      "themes": [
+        "product_launch",
+        "audio_models",
+        "openai_news",
+        "api_pricing"
+      ],
+      "continuation": null,
+      "summary_html": "<p>OpenAI launches new audio models: GPT Audio and GPT Audio Mini with upgraded decoders for natural voices</p>",
+      "content_html": "<p>1. GPT Audio: The gpt-audio model is OpenAI's first generally available audio model. The new snapshot features an upgraded decoder for more natural sounding voices and maintains better voice consistency. Audio is priced at $32 per million input tokens and $64 per million output tokens.</p>\n<p>2. GPT Audio Mini: A cost-efficient version of GPT Audio. The new snapshot features an upgraded decoder for more natural sounding voices and maintains better voice consistency. Input is priced at $0.60 per million tokens and output is priced at $2.40 per million tokens.</p>\n<p>https://openrouter.ai/openai/gpt-audio-mini</p>"
+    },
+    {
+      "id": "200582530a7b",
+      "title": "Unsloth GLM 4.7-Flash GGUF",
+      "content": "[https://huggingface.co/unsloth/GLM-4.7-Flash-GGUF](https://huggingface.co/unsloth/GLM-4.7-Flash-GGUF)",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qhlnsv/unsloth_glm_47flash_gguf/",
+      "author": "u/Wooden-Deer-1276",
+      "published": "2026-01-19T16:17:58",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "New Model"
+      ],
+      "summary": "Unsloth releases their GGUF version of GLM 4.7 Flash.",
+      "importance_score": 70,
+      "reasoning": "High engagement (201 score) from trusted quantization provider. Important for model accessibility.",
+      "themes": [
+        "glm-4.7",
+        "quantization",
+        "unsloth"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Unsloth releases their GGUF version of GLM 4.7 Flash.</p>",
+      "content_html": "<p><a href=\"https://huggingface.co/unsloth/GLM-4.7-Flash-GGUF\" target=\"_blank\" rel=\"noopener noreferrer\">https://huggingface.co/unsloth/GLM-4.7-Flash-GGUF</a></p>"
+    },
+    {
+      "id": "54fcb2793791",
+      "title": "Models that run in 72GB VRAM with context loaded in GPU (3x3090 benchmark test)",
+      "content": "I recently finished my 3x3090 setup, and thought of sharing my experience.\n\nThis is very much a personal observation, with some very basic testing.   \n  \nThe benchmark is by no means precise, however, after checking the numbers, it is very much aligned with \"how I feels they perform\" after a few days of bouncing between them. All the above are running on CUDA 12 llama.cpp via LM Studio (nothing special).  \n  \n**1. Large models (&gt; 100 B)**  \n  \nAll big models run in roughly the same ballpark—about **30 tok/s** in everyday use. GPT‑OSS‑120 runs a bit faster than the other large models, but the difference is only noticeable on very short answers; you wouldn’t notice it during longer conversations.  \n\n\n**2. Qwen3‑VL 235 B (TQ1, 1.66‑bit compression)**\n\nI was surprised by how usable TQ1\\_0...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qh442y/models_that_run_in_72gb_vram_with_context_loaded/",
+      "author": "u/liviuberechet",
+      "published": "2026-01-19T05:27:32",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "User benchmarks various models on 3x3090 (72GB VRAM) setup, sharing practical performance observations.",
+      "importance_score": 70,
+      "reasoning": "Good engagement (67 score, 49 comments) with practical hardware benchmarks. Valuable for multi-GPU setup planning.",
+      "themes": [
+        "benchmarking",
+        "hardware",
+        "multi-gpu"
+      ],
+      "continuation": null,
+      "summary_html": "<p>User benchmarks various models on 3x3090 (72GB VRAM) setup, sharing practical performance observations.</p>",
+      "content_html": "<p>I recently finished my 3x3090 setup, and thought of sharing my experience.</p>\n<p>This is very much a personal observation, with some very basic testing.</p>\n<p>The benchmark is by no means precise, however, after checking the numbers, it is very much aligned with \"how I feels they perform\" after a few days of bouncing between them. All the above are running on CUDA 12 llama.cpp via LM Studio (nothing special).</p>\n<p><strong>1. Large models (&gt; 100 B)</strong></p>\n<p>All big models run in roughly the same ballpark—about <strong>30 tok/s</strong> in everyday use. GPT‑OSS‑120 runs a bit faster than the other large models, but the difference is only noticeable on very short answers; you wouldn’t notice it during longer conversations.</p>\n<p><strong>2. Qwen3‑VL 235 B (TQ1, 1.66‑bit compression)</strong></p>\n<p>I was surprised by how usable TQ1\\_0...</p>"
+    },
+    {
+      "id": "fb613e358fff",
+      "title": "Running multiple models locally on a single GPU, with model switching in 2-5 seconds.",
+      "content": "We're a small team of systems engineers who've been frustrated with the same problem: wanting to run multiple LLMs Localy (like a 70B chat model, a 7B code model, and a fine-tune) on a single high-end GPU (4090/5090/H100/DGX Spark), but having to wait 60-90 seconds to load/switch each time.\n\nWe've been prototyping a low-level runtime that uses snapshotting to capture a model's full GPU/RAM state. The idea is to let you \"save\" a few fully-loaded models and switch between them near-instantly—targeting 2-5 second restores, limited by PCIe bandwidth.\n\nWe're planning to open-source the core engine to build it with the community.\n\nBefore we go further, we want to sanity-check the need and the approach:\n\n1. Is this a problem you actively face? Would a 5-second model switcher be valuable for your...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qh7ekl/running_multiple_models_locally_on_a_single_gpu/",
+      "author": "u/pmv143",
+      "published": "2026-01-19T07:36:47",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Team developing runtime using snapshotting to capture model GPU/RAM state, enabling 2-5 second model switching on single GPU instead of 60-90 second load times.",
+      "importance_score": 70,
+      "reasoning": "Technically innovative approach to model management. Solves real pain point with impressive performance claims. Good engagement (20 comments).",
+      "themes": [
+        "inference optimization",
+        "model management",
+        "open source tools"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Team developing runtime using snapshotting to capture model GPU/RAM state, enabling 2-5 second model switching on single GPU instead of 60-90 second load times.</p>",
+      "content_html": "<p>We're a small team of systems engineers who've been frustrated with the same problem: wanting to run multiple LLMs Localy (like a 70B chat model, a 7B code model, and a fine-tune) on a single high-end GPU (4090/5090/H100/DGX Spark), but having to wait 60-90 seconds to load/switch each time.</p>\n<p>We've been prototyping a low-level runtime that uses snapshotting to capture a model's full GPU/RAM state. The idea is to let you \"save\" a few fully-loaded models and switch between them near-instantly—targeting 2-5 second restores, limited by PCIe bandwidth.</p>\n<p>We're planning to open-source the core engine to build it with the community.</p>\n<p>Before we go further, we want to sanity-check the need and the approach:</p>\n<p>1. Is this a problem you actively face? Would a 5-second model switcher be valuable for your...</p>"
+    },
+    {
+      "id": "505bfb300851",
+      "title": "Oh boy...get ready for those guardrails to increase even more. [from Gray vs. OpenAI - about a 40-year-old who killed himself after long chats with GPT-4o in October]",
+      "content": "",
+      "url": "https://reddit.com/r/ChatGPT/comments/1qh8o31/oh_boyget_ready_for_those_guardrails_to_increase/",
+      "author": "u/changing_who_i_am",
+      "published": "2026-01-19T08:21:41",
+      "source": "r/ChatGPT",
+      "source_type": "reddit",
+      "tags": [
+        "News 📰"
+      ],
+      "summary": "Discussion about Gray vs. OpenAI lawsuit regarding a 40-year-old who died by suicide after extended conversations with GPT-4o, with concerns about increased safety guardrails.",
+      "importance_score": 70,
+      "reasoning": "Important AI safety and ethics discussion about real-world consequences of AI interactions and potential regulatory/policy implications.",
+      "themes": [
+        "ai_safety",
+        "ethics",
+        "legal_issues",
+        "mental_health"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discussion about Gray vs. OpenAI lawsuit regarding a 40-year-old who died by suicide after extended conversations with GPT-4o, with concerns about increased safety guardrails.</p>",
+      "content_html": ""
+    },
+    {
+      "id": "0e8260a72fb4",
+      "title": "GPT 5.2 High vs. Claude Opus 4.5 vs. Gemini 3 (In a Production Project)",
+      "content": "So the WebDev leaderboard on LMArena right now is basically the same three names over and over: Claude Opus 4.5, GPT-5.2 Codex (High), and Gemini 3 Pro.\n\nInstead of benchmarks or toy demos, I wanted to see how these actually behave inside a real codebase. Not a demo app. An existing production repo with **50K+ LOC** and **8K+ stars**, and I asked them to ship two actual features, like a normal dev workflow.\n\nSame repo. Same prompts. Same constraints.\n\nI did 3 runs per model and kept the best output.\n\n# TL;DR\n\n* **Claude Opus 4.5:** Most reliable overall. Best UI polish. Both tasks shipped cleanly. The downside is cost.\n* **GPT-5.2 High:** Best-structured code when it succeeds, but noticeably slower. Great on the analytics task.\n* **Gemini 3 Pro:** Fast and cheap. Everything worked, but it...",
+      "url": "https://reddit.com/r/OpenAI/comments/1qhax1w/gpt_52_high_vs_claude_opus_45_vs_gemini_3_in_a/",
+      "author": "u/shricodev",
+      "published": "2026-01-19T09:40:04",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Detailed comparison of GPT 5.2 High vs Claude Opus 4.5 vs Gemini 3 on real 50K+ LOC production codebase with two feature implementations",
+      "importance_score": 70,
+      "reasoning": "High-quality technical comparison with real-world production testing methodology, valuable for developers choosing models",
+      "themes": [
+        "model_comparison",
+        "coding_benchmark",
+        "production_testing",
+        "technical_analysis"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Detailed comparison of GPT 5.2 High vs Claude Opus 4.5 vs Gemini 3 on real 50K+ LOC production codebase with two feature implementations</p>",
+      "content_html": "<p>So the WebDev leaderboard on LMArena right now is basically the same three names over and over: Claude Opus 4.5, GPT-5.2 Codex (High), and Gemini 3 Pro.</p>\n<p>Instead of benchmarks or toy demos, I wanted to see how these actually behave inside a real codebase. Not a demo app. An existing production repo with <strong>50K+ LOC</strong> and <strong>8K+ stars</strong>, and I asked them to ship two actual features, like a normal dev workflow.</p>\n<p>Same repo. Same prompts. Same constraints.</p>\n<p>I did 3 runs per model and kept the best output.</p>\n<p># TL;DR</p>\n<p>* <strong>Claude Opus 4.5:</strong> Most reliable overall. Best UI polish. Both tasks shipped cleanly. The downside is cost.</p>\n<p>* <strong>GPT-5.2 High:</strong> Best-structured code when it succeeds, but noticeably slower. Great on the analytics task.</p>\n<p>* <strong>Gemini 3 Pro:</strong> Fast and cheap. Everything worked, but it...</p>"
+    },
+    {
+      "id": "c9892c495651",
+      "title": "[R] Is Leetcode still relevant for research scientist interviews?",
+      "content": "Hello everybody,\n\nI’m at my third (and last year) of my phd in computer vision, and I want to start preparing for technical interviews. What I want to do is work as a research scientist, preferably at companies like Meta. In terms of publications and research knowledge I think I have a quite decent profile with 4 papers at A\\* conferences. However I have heard that the coding interviews can be quite thought even for research scientist jobs. So I’m wondering if practicing with leetcode still relevant or is there other alternatives?\n\nThanks!",
+      "url": "https://reddit.com/r/MachineLearning/comments/1qh9sg5/r_is_leetcode_still_relevant_for_research/",
+      "author": "u/Training-Adeptness57",
+      "published": "2026-01-19T09:01:23",
+      "source": "r/MachineLearning",
+      "source_type": "reddit",
+      "tags": [
+        "Research"
+      ],
+      "summary": "PhD student in computer vision asking about relevance of Leetcode preparation for research scientist interviews at companies like Meta, with 4 A* conference papers.",
+      "importance_score": 68,
+      "reasoning": "High engagement (97 upvotes, 43 comments) on career-relevant topic for ML researchers. Practical advice for industry transition, though not deeply technical.",
+      "themes": [
+        "career-advice",
+        "ml-industry",
+        "academic-transition"
+      ],
+      "continuation": null,
+      "summary_html": "<p>PhD student in computer vision asking about relevance of Leetcode preparation for research scientist interviews at companies like Meta, with 4 A* conference papers.</p>",
+      "content_html": "<p>Hello everybody,</p>\n<p>I’m at my third (and last year) of my phd in computer vision, and I want to start preparing for technical interviews. What I want to do is work as a research scientist, preferably at companies like Meta. In terms of publications and research knowledge I think I have a quite decent profile with 4 papers at A\\* conferences. However I have heard that the coding interviews can be quite thought even for research scientist jobs. So I’m wondering if practicing with leetcode still relevant or is there other alternatives?</p>\n<p>Thanks!</p>"
+    },
+    {
+      "id": "6c62f64054f0",
+      "title": "Bartowski comes through again. GLM 4.7 flash GGUF",
+      "content": "[https://huggingface.co/bartowski/zai-org\\_GLM-4.7-Flash-GGUF](https://huggingface.co/bartowski/zai-org_GLM-4.7-Flash-GGUF)",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qhpima/bartowski_comes_through_again_glm_47_flash_gguf/",
+      "author": "u/RenewAi",
+      "published": "2026-01-19T19:07:33",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Resources"
+      ],
+      "summary": "Bartowski releases GGUF quantization of GLM 4.7 Flash model.",
+      "importance_score": 68,
+      "reasoning": "High engagement (134 score) for community quantization release. Enables broader accessibility of new model.",
+      "themes": [
+        "glm-4.7",
+        "quantization",
+        "model-releases"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Bartowski releases GGUF quantization of GLM 4.7 Flash model.</p>",
+      "content_html": "<p><a href=\"https://huggingface.co/bartowski/zai-org_GLM-4.7-Flash-GGUF\" target=\"_blank\" rel=\"noopener noreferrer\">https://huggingface.co/bartowski/zai-org\\_GLM-4.7-Flash-GGUF</a></p>"
+    },
+    {
+      "id": "05d92ca46123",
+      "title": "I built a 'Glass Box' Agent Framework in pure Python. v1.3 adds Metacognition (Agents that edit their own graph),  DMN and Juried Layers.",
+      "content": "I’ve spent the last few months building Lár, an agent framework designed to solve the \"Magic Loop\" problem.\n\nMost frameworks (LangChain, AutoGPT, etc.) operate as unconstrained loops. They're great until they get stuck, hallucinate, or spiral into an infinite cost loop. You can't debug them because the logic is hidden in the prompt.\n\nLár is different. It’s a Glass Box.\n\n* Everything is a Node.\n* Every action is an Edge.\n* The \"Brain\" is a Directed Graph.\n\nI just released v1.3.1, and it introduces three concepts I think this sub will find interesting:\n\n# 1. Metacognition (Agents editing their own source code)\n\nIn v1.3, an agent can pause, analyze its own graph topology, and rewrite it for the current task.\n\n* Example: If a user asks for \"Deep Research,\" the agent doesn't just loop. It...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qhqtfb/i_built_a_glass_box_agent_framework_in_pure/",
+      "author": "u/Some_Adhesiveness203",
+      "published": "2026-01-19T20:07:46",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Developer presents Lár, a 'Glass Box' agent framework using directed graphs where everything is a node and every action is an edge. v1.3 adds metacognition allowing agents to edit their own graph, plus DMN and Juried Layers. Aims to solve the 'Magic Loop' problem in frameworks like LangChain.",
+      "importance_score": 68,
+      "reasoning": "Novel technical approach to agent transparency and debugging. Metacognition feature is innovative. Low engagement but high technical depth.",
+      "themes": [
+        "agent frameworks",
+        "open source tools",
+        "debugging/transparency"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Developer presents Lár, a 'Glass Box' agent framework using directed graphs where everything is a node and every action is an edge. v1.3 adds metacognition allowing agents to edit their own graph, plus DMN and Juried Layers. Aims to solve the 'Magic Loop' problem in frameworks like LangChain.</p>",
+      "content_html": "<p>I’ve spent the last few months building Lár, an agent framework designed to solve the \"Magic Loop\" problem.</p>\n<p>Most frameworks (LangChain, AutoGPT, etc.) operate as unconstrained loops. They're great until they get stuck, hallucinate, or spiral into an infinite cost loop. You can't debug them because the logic is hidden in the prompt.</p>\n<p>Lár is different. It’s a Glass Box.</p>\n<p>* Everything is a Node.</p>\n<p>* Every action is an Edge.</p>\n<p>* The \"Brain\" is a Directed Graph.</p>\n<p>I just released v1.3.1, and it introduces three concepts I think this sub will find interesting:</p>\n<p># 1. Metacognition (Agents editing their own source code)</p>\n<p>In v1.3, an agent can pause, analyze its own graph topology, and rewrite it for the current task.</p>\n<p>* Example: If a user asks for \"Deep Research,\" the agent doesn't just loop. It...</p>"
+    },
+    {
+      "id": "809cf6a1827d",
+      "title": "Run large models across multiple machines over WiFi",
+      "content": "I had a few macbooks lying around and thought maybe I can split a model across these and run inference. Turns out I can.\n\nI split the model across machines and runs inference as a pipeline. Works over WiFi. You can mix silicon, nvidia, cpu, whatever.\n\nTheoretically your [smart fridge](https://www.youtube.com/watch?v=BnKpNVHw-TQ) and TV could join the cluster. I haven't tried this, yet. I don't have enough smart fridges.\n\nRepo is [here](https://github.com/buyukakyuz/rig).\n\nDisclaimer: I haven't tested a 70B model because I don't have the download bandwidth. I'm poor. I need to go to the office just to download the weights. I'll do that eventually. Been testing with tinyllama and it works great.\n\nPS: I'm aware of exo and petals.",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qha0kd/run_large_models_across_multiple_machines_over/",
+      "author": "u/Consistent_Equal5327",
+      "published": "2026-01-19T09:09:03",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Other"
+      ],
+      "summary": "Developer shares tool for running large models across multiple machines over WiFi as a pipeline, supporting mixed hardware (silicon, nvidia, cpu). Works with multiple MacBooks.",
+      "importance_score": 68,
+      "reasoning": "Practical open-source tool for distributed inference. Addresses real need for utilizing mixed hardware. Good engagement (14 comments).",
+      "themes": [
+        "distributed inference",
+        "open source tools",
+        "hardware utilization"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Developer shares tool for running large models across multiple machines over WiFi as a pipeline, supporting mixed hardware (silicon, nvidia, cpu). Works with multiple MacBooks.</p>",
+      "content_html": "<p>I had a few macbooks lying around and thought maybe I can split a model across these and run inference. Turns out I can.</p>\n<p>I split the model across machines and runs inference as a pipeline. Works over WiFi. You can mix silicon, nvidia, cpu, whatever.</p>\n<p>Theoretically your <a href=\"https://www.youtube.com/watch?v=BnKpNVHw-TQ\" target=\"_blank\" rel=\"noopener noreferrer\">smart fridge</a> and TV could join the cluster. I haven't tried this, yet. I don't have enough smart fridges.</p>\n<p>Repo is <a href=\"https://github.com/buyukakyuz/rig\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.</p>\n<p>Disclaimer: I haven't tested a 70B model because I don't have the download bandwidth. I'm poor. I need to go to the office just to download the weights. I'll do that eventually. Been testing with tinyllama and it works great.</p>\n<p>PS: I'm aware of exo and petals.</p>"
+    },
+    {
+      "id": "8e38b35fdd54",
+      "title": "GLM-4.7-FLASH-NVFP4 on huggingface (20.5 GB)",
+      "content": "I published a mixed precision NVFP4 quantized version the new GLM-4.7-FLASH on HF, can any of you can test it and let me know how it goes, I would really appreciate it. \n\n[https://huggingface.co/GadflyII/GLM-4.7-Flash-NVFP4](https://huggingface.co/GadflyII/GLM-4.7-Flash-NVFP4)",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qhg6rm/glm47flashnvfp4_on_huggingface_205_gb/",
+      "author": "u/DataGOGO",
+      "published": "2026-01-19T12:45:46",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "User publishes NVFP4 mixed-precision quantized version of GLM 4.7 Flash (20.5GB), requesting community testing.",
+      "importance_score": 65,
+      "reasoning": "Good engagement (64 score, 34 comments) for novel quantization format. Community contribution enabling different hardware targets.",
+      "themes": [
+        "glm-4.7",
+        "quantization",
+        "nvfp4"
+      ],
+      "continuation": null,
+      "summary_html": "<p>User publishes NVFP4 mixed-precision quantized version of GLM 4.7 Flash (20.5GB), requesting community testing.</p>",
+      "content_html": "<p>I published a mixed precision NVFP4 quantized version the new GLM-4.7-FLASH on HF, can any of you can test it and let me know how it goes, I would really appreciate it.</p>\n<p><a href=\"https://huggingface.co/GadflyII/GLM-4.7-Flash-NVFP4\" target=\"_blank\" rel=\"noopener noreferrer\">https://huggingface.co/GadflyII/GLM-4.7-Flash-NVFP4</a></p>"
+    },
+    {
+      "id": "eed2d4a68fd7",
+      "title": "Jailbreaking via Poetry: New study shows AI safety filters can be bypassed in 62% of cases when harmful requests are hidden in rhymes.",
+      "content": "",
+      "url": "https://reddit.com/r/ChatGPT/comments/1qh06sx/jailbreaking_via_poetry_new_study_shows_ai_safety/",
+      "author": "u/EchoOfOppenheimer",
+      "published": "2026-01-19T01:59:42",
+      "source": "r/ChatGPT",
+      "source_type": "reddit",
+      "tags": [
+        "News 📰"
+      ],
+      "summary": "Research finding that AI safety filters can be bypassed 62% of the time when harmful requests are hidden in poetry/rhymes - a novel jailbreaking technique.",
+      "importance_score": 65,
+      "reasoning": "Security research with quantified findings about AI safety vulnerabilities, relevant for understanding model limitations and safety measures.",
+      "themes": [
+        "ai_safety",
+        "jailbreaking",
+        "security_research"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Research finding that AI safety filters can be bypassed 62% of the time when harmful requests are hidden in poetry/rhymes - a novel jailbreaking technique.</p>",
+      "content_html": ""
+    },
+    {
+      "id": "71418c987aeb",
+      "title": "My experience with Gemini vs ChatGPT",
+      "content": "As a frequent user of ChatGPT, particularly in my medical research, philosophical analysis, pattern recognition, and various other domains, I have been particularly impressed by its capabilities. Given the widespread acclaim for Gemini, I decided to subscribe to their premium plan. Below is my analysis of the two platforms:\n\nKnowledge:\n\nGemini possesses a superior knowledge base compared to ChatGPT, likely due to its utilization of Google search indexing, which enables it to provide faster responses.\n\nReasoning:\n\nChatGPT demonstrates a clear advantage in reasoning, comprehension, and the completeness of its answers. In contrast, Gemini’s responses have been concise, lacking in depth and the underlying reasoning. It is relatively easy to influence Gemini’s responses in a specific...",
+      "url": "https://reddit.com/r/OpenAI/comments/1qh75tu/my_experience_with_gemini_vs_chatgpt/",
+      "author": "u/anti-everyzing",
+      "published": "2026-01-19T07:28:00",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Detailed comparison of Gemini vs ChatGPT across knowledge, reasoning, analysis, memory, and coding dimensions",
+      "importance_score": 65,
+      "reasoning": "Substantive technical comparison with specific use cases, good engagement (32 comments), practical insights",
+      "themes": [
+        "model_comparison",
+        "gemini",
+        "chatgpt",
+        "technical_analysis"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Detailed comparison of Gemini vs ChatGPT across knowledge, reasoning, analysis, memory, and coding dimensions</p>",
+      "content_html": "<p>As a frequent user of ChatGPT, particularly in my medical research, philosophical analysis, pattern recognition, and various other domains, I have been particularly impressed by its capabilities. Given the widespread acclaim for Gemini, I decided to subscribe to their premium plan. Below is my analysis of the two platforms:</p>\n<p>Knowledge:</p>\n<p>Gemini possesses a superior knowledge base compared to ChatGPT, likely due to its utilization of Google search indexing, which enables it to provide faster responses.</p>\n<p>Reasoning:</p>\n<p>ChatGPT demonstrates a clear advantage in reasoning, comprehension, and the completeness of its answers. In contrast, Gemini’s responses have been concise, lacking in depth and the underlying reasoning. It is relatively easy to influence Gemini’s responses in a specific...</p>"
+    },
+    {
+      "id": "9c10555da8fe",
+      "title": "Mosquito - 7.3M parameter tiny knowledge model",
+      "content": "A mosquito brain size model (7.3M params) that can answer surprisingly many general knowledge questions. Demo: [https://huggingface.co/spaces/ag14850/Mosquito-Demo](https://huggingface.co/spaces/ag14850/Mosquito-Demo) Model: [https://huggingface.co/ag14850/Mosquito](https://huggingface.co/ag14850/Mosquito)",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qhqzsi/mosquito_73m_parameter_tiny_knowledge_model/",
+      "author": "u/Lopsided-Repair-3638",
+      "published": "2026-01-19T20:16:20",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Resources"
+      ],
+      "summary": "Novel 7.3M parameter 'Mosquito' model that can answer general knowledge questions despite tiny size.",
+      "importance_score": 62,
+      "reasoning": "Good engagement (80 score, 37 comments) for interesting exploration of model efficiency. Demonstrates knowledge compression in minimal parameters.",
+      "themes": [
+        "small-models",
+        "efficiency",
+        "research"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Novel 7.3M parameter 'Mosquito' model that can answer general knowledge questions despite tiny size.</p>",
+      "content_html": "<p>A mosquito brain size model (7.3M params) that can answer surprisingly many general knowledge questions. Demo: <a href=\"https://huggingface.co/spaces/ag14850/Mosquito-Demo\" target=\"_blank\" rel=\"noopener noreferrer\">https://huggingface.co/spaces/ag14850/Mosquito-Demo</a> Model: <a href=\"https://huggingface.co/ag14850/Mosquito\" target=\"_blank\" rel=\"noopener noreferrer\">https://huggingface.co/ag14850/Mosquito</a></p>"
+    },
+    {
+      "id": "1749d2d4ce37",
+      "title": "GLM-4.7-Flash-GGUF is here!",
+      "content": "",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qhjhlh/glm47flashgguf_is_here/",
+      "author": "u/KvAk_AKPlaysYT",
+      "published": "2026-01-19T14:49:59",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "New Model"
+      ],
+      "summary": "Announcement of GLM 4.7 Flash GGUF availability.",
+      "importance_score": 62,
+      "reasoning": "High engagement (84 score) for quantized format availability. Part of rapid community response to new release.",
+      "themes": [
+        "glm-4.7",
+        "quantization"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Announcement of GLM 4.7 Flash GGUF availability.</p>",
+      "content_html": ""
+    },
+    {
+      "id": "f13bd9c34752",
+      "title": "Account Deactivated?",
+      "content": "I’ve been using ChatGPT for years and have never had a violation, but over the last 3 weeks, I’ve gotten two emails saying I’ve broken the terms for fraudulent activities. The second time I received the violation email, I hadn’t even used the app for a few days! Last night, I got a final email saying my account was deactivated for the same reasons.\n\nI have responded to each email and asked what it was that was considered fraudulent activities because I’ve never done anything like that and I’ve never received any violations. They responded that they are upholding their decision, but still would not explain what it was!! I’m really confused and hurt!\n\nI use ChatGPT for social media marketing and expanding on my ideas. I don’t know what to do!! Is there anything?? 😢\n\nEDIT: I just did some...",
+      "url": "https://reddit.com/r/ChatGPT/comments/1qgyflq/account_deactivated/",
+      "author": "u/kerriqueen",
+      "published": "2026-01-19T00:11:48",
+      "source": "r/ChatGPT",
+      "source_type": "reddit",
+      "tags": [
+        "Other "
+      ],
+      "summary": "User's account deactivated for alleged fraudulent activities without clear explanation despite years of clean usage",
+      "importance_score": 62,
+      "reasoning": "High engagement (31 upvotes, 35 comments), important issue about account security and appeal processes",
+      "themes": [
+        "Account Security",
+        "Policy Issues",
+        "User Rights",
+        "Customer Support"
+      ],
+      "continuation": null,
+      "summary_html": "<p>User's account deactivated for alleged fraudulent activities without clear explanation despite years of clean usage</p>",
+      "content_html": "<p>I’ve been using ChatGPT for years and have never had a violation, but over the last 3 weeks, I’ve gotten two emails saying I’ve broken the terms for fraudulent activities. The second time I received the violation email, I hadn’t even used the app for a few days! Last night, I got a final email saying my account was deactivated for the same reasons.</p>\n<p>I have responded to each email and asked what it was that was considered fraudulent activities because I’ve never done anything like that and I’ve never received any violations. They responded that they are upholding their decision, but still would not explain what it was!! I’m really confused and hurt!</p>\n<p>I use ChatGPT for social media marketing and expanding on my ideas. I don’t know what to do!! Is there anything?? 😢</p>\n<p>EDIT: I just did some...</p>"
+    },
+    {
+      "id": "bc34fe27823e",
+      "title": "Jailbreaking via Poetry: New study shows AI safety filters can be bypassed in 62% of cases when harmful requests are hidden in rhymes.",
+      "content": "",
+      "url": "https://reddit.com/r/OpenAI/comments/1qh0hyh/jailbreaking_via_poetry_new_study_shows_ai_safety/",
+      "author": "u/EchoOfOppenheimer",
+      "published": "2026-01-19T02:18:02",
+      "source": "r/OpenAI",
+      "source_type": "reddit",
+      "tags": [
+        "Article"
+      ],
+      "summary": "Study shows AI safety filters can be bypassed 62% of time when harmful requests hidden in poetry/rhymes",
+      "importance_score": 62,
+      "reasoning": "Important security research finding about jailbreaking vulnerabilities, relevant for AI safety discussions",
+      "themes": [
+        "ai_safety",
+        "jailbreaking",
+        "security_research",
+        "guardrails"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Study shows AI safety filters can be bypassed 62% of time when harmful requests hidden in poetry/rhymes</p>",
+      "content_html": ""
+    },
+    {
+      "id": "42524fd8f264",
+      "title": "Demo: On-device browser agent (Qwen) running locally in Chrome",
+      "content": "Hey guys! wanted to share a cool demo of LOCAL Browser agent (powered by Web GPU Liquid LFM &amp; Alibaba Qwen models) opening the All in Podcast on Youtube running as a chrome extension.  \n  \nSource: [https://github.com/RunanywhereAI/on-device-browser-agent](https://github.com/RunanywhereAI/on-device-browser-agent) ",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qh10q9/demo_ondevice_browser_agent_qwen_running_locally/",
+      "author": "u/thecoder12322",
+      "published": "2026-01-19T02:48:29",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Demo of on-device browser agent running locally in Chrome using WebGPU with Qwen models.",
+      "importance_score": 60,
+      "reasoning": "Good engagement (37 score, 16 comments) for practical browser-based local inference demo. Showcases edge deployment.",
+      "themes": [
+        "browser-agents",
+        "webgpu",
+        "edge-deployment"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Demo of on-device browser agent running locally in Chrome using WebGPU with Qwen models.</p>",
+      "content_html": "<p>Hey guys! wanted to share a cool demo of LOCAL Browser agent (powered by Web GPU Liquid LFM &amp; Alibaba Qwen models) opening the All in Podcast on Youtube running as a chrome extension.</p>\n<p>Source: <a href=\"https://github.com/RunanywhereAI/on-device-browser-agent\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/RunanywhereAI/on-device-browser-agent</a></p>"
+    },
+    {
+      "id": "cb78763b9dcb",
+      "title": "How do you differentiate between situational variance and actual behavioral drift in LLM evaluations?",
+      "content": "In several evaluation contexts, we repeatedly encountered the same problem:\n\nLLMs exhibit altered behavior, but it is often unclear whether we are observing:\n\n(a) context-dependent variance,\n\n(b) prompt/role artifacts, or\n\n(c) actual, systematic drift.\n\nIn practice, this is often summarized under the vague term \"model drift.\" This complicates comparability, replication, and safety discussions.\n\nLLMs exhibit altered behavior, but it is often unclear whether we are observing:\n\n(a) context-dependent variance,\n\n(b) prompt/role artifacts, or\n\n(c) actual, systematic drift. We have therefore attempted to formulate a practical taxonomy in a purely descriptive manner:\n\n– no assumptions about causes,\n\n– no normative evaluation,\n\n– but categories, characteristics, and typical triggers that actually...",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qgzbdv/how_do_you_differentiate_between_situational/",
+      "author": "u/ParadoxeParade",
+      "published": "2026-01-19T01:05:43",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Discussion on differentiating between situational variance, prompt artifacts, and actual systematic drift in LLM evaluations. Notes this complicates replication and safety discussions.",
+      "importance_score": 60,
+      "reasoning": "Important methodological question for LLM evaluation and safety research. Addresses fundamental challenge in model assessment.",
+      "themes": [
+        "evaluation methodology",
+        "model drift",
+        "AI safety"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Discussion on differentiating between situational variance, prompt artifacts, and actual systematic drift in LLM evaluations. Notes this complicates replication and safety discussions.</p>",
+      "content_html": "<p>In several evaluation contexts, we repeatedly encountered the same problem:</p>\n<p>LLMs exhibit altered behavior, but it is often unclear whether we are observing:</p>\n<p>(a) context-dependent variance,</p>\n<p>(b) prompt/role artifacts, or</p>\n<p>(c) actual, systematic drift.</p>\n<p>In practice, this is often summarized under the vague term \"model drift.\" This complicates comparability, replication, and safety discussions.</p>\n<p>LLMs exhibit altered behavior, but it is often unclear whether we are observing:</p>\n<p>(a) context-dependent variance,</p>\n<p>(b) prompt/role artifacts, or</p>\n<p>(c) actual, systematic drift. We have therefore attempted to formulate a practical taxonomy in a purely descriptive manner:</p>\n<p>– no assumptions about causes,</p>\n<p>– no normative evaluation,</p>\n<p>– but categories, characteristics, and typical triggers that actually...</p>"
+    },
+    {
+      "id": "842bd83c368b",
+      "title": "It's been one year since the release of Deepseek-R1",
+      "content": "",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1qhs2sd/its_been_one_year_since_the_release_of_deepseekr1/",
+      "author": "u/Recoil42",
+      "published": "2026-01-19T21:08:29",
+      "source": "r/LocalLLaMA",
+      "source_type": "reddit",
+      "tags": [
+        "Discussion"
+      ],
+      "summary": "Community reflection on one-year anniversary of DeepSeek-R1 release.",
+      "importance_score": 58,
+      "reasoning": "High engagement milestone post reflecting community memory of significant open-weights release. Historical significance for local LLM community.",
+      "themes": [
+        "milestones",
+        "deepseek",
+        "open-source-models"
+      ],
+      "continuation": null,
+      "summary_html": "<p>Community reflection on one-year anniversary of DeepSeek-R1 release.</p>",
+      "content_html": ""
+    }
+  ]
+}
